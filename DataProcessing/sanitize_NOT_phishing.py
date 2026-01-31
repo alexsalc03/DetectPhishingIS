@@ -9,7 +9,6 @@ def clean_line(text):
     """
     text = text.strip()
     
-    # Se inizia con 1-3 numeri seguiti da virgola, rimuovili
     if len(text) > 0 and text[0].isdigit():
         comma_pos = text.find(',')
         if comma_pos != -1 and comma_pos <= 3:
@@ -35,5 +34,5 @@ def sanitize_csv(input_file):
     
     return cleaned_lines
 
-input_file = r"C:\Users\salcu\Desktop\IndependentStudy\Not_phishing.csv"
+input_file = r"/home/alelxsalc03/Desktop/IS/DetectPhishingIS/DataProcessing/Not_phishing_sites.csv"
 sanitize_csv(input_file)
