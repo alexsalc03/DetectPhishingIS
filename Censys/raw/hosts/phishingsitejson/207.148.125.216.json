@@ -1,0 +1,422 @@
+{
+  "result": {
+    "resource": {
+      "ip": "207.148.125.216",
+      "location": {
+        "continent": "Asia",
+        "country": "Singapore",
+        "country_code": "SG",
+        "city": "Singapore",
+        "postal_code": "627753",
+        "timezone": "Asia/Singapore",
+        "coordinates": {
+          "latitude": 1.3215,
+          "longitude": 103.6957
+        }
+      },
+      "autonomous_system": {
+        "asn": 20473,
+        "description": "AS-VULTR - The Constant Company, LLC",
+        "bgp_prefix": "207.148.120.0/21",
+        "name": "AS-VULTR - The Constant Company, LLC",
+        "country_code": "US"
+      },
+      "whois": {
+        "network": {
+          "handle": "SGP_VULTR_CUST",
+          "name": "SGP_VULTR_CUST",
+          "cidrs": [
+            "207.148.120.0/21"
+          ],
+          "updated": "2021-02-09T00:00:00Z"
+        }
+      },
+      "services": [
+        {
+          "port": 22,
+          "protocol": "SSH",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "type": [
+                "REMOTE_ACCESS"
+              ]
+            },
+            {
+              "vendor": "openbsd",
+              "product": "openssh"
+            }
+          ],
+          "operating_systems": [
+            {
+              "vendor": "canonical",
+              "product": "linux"
+            }
+          ],
+          "labels": [
+            {
+              "value": "REMOTE_ACCESS"
+            }
+          ],
+          "ip": "207.148.125.216",
+          "scan_time": "2026-01-30T21:54:14Z",
+          "ssh": {
+            "endpoint_id": {
+              "raw": "SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.14",
+              "protocol_version": "2.0",
+              "software_version": "OpenSSH_9.6p1",
+              "comment": "Ubuntu-3ubuntu13.14"
+            },
+            "kex_init_message": {
+              "kex_algorithms": [
+                "sntrup761x25519-sha512@openssh.com",
+                "curve25519-sha256",
+                "curve25519-sha256@libssh.org",
+                "ecdh-sha2-nistp256",
+                "ecdh-sha2-nistp384",
+                "ecdh-sha2-nistp521",
+                "diffie-hellman-group-exchange-sha256",
+                "diffie-hellman-group16-sha512",
+                "diffie-hellman-group18-sha512",
+                "diffie-hellman-group14-sha256",
+                "ext-info-s",
+                "kex-strict-s-v00@openssh.com"
+              ],
+              "host_key_algorithms": [
+                "rsa-sha2-512",
+                "rsa-sha2-256",
+                "ecdsa-sha2-nistp256",
+                "ssh-ed25519"
+              ],
+              "client_to_server_ciphers": [
+                "chacha20-poly1305@openssh.com",
+                "aes128-ctr",
+                "aes192-ctr",
+                "aes256-ctr",
+                "aes128-gcm@openssh.com",
+                "aes256-gcm@openssh.com"
+              ],
+              "server_to_client_ciphers": [
+                "chacha20-poly1305@openssh.com",
+                "aes128-ctr",
+                "aes192-ctr",
+                "aes256-ctr",
+                "aes128-gcm@openssh.com",
+                "aes256-gcm@openssh.com"
+              ],
+              "client_to_server_macs": [
+                "umac-64-etm@openssh.com",
+                "umac-128-etm@openssh.com",
+                "hmac-sha2-256-etm@openssh.com",
+                "hmac-sha2-512-etm@openssh.com",
+                "hmac-sha1-etm@openssh.com",
+                "umac-64@openssh.com",
+                "umac-128@openssh.com",
+                "hmac-sha2-256",
+                "hmac-sha2-512",
+                "hmac-sha1"
+              ],
+              "server_to_client_macs": [
+                "umac-64-etm@openssh.com",
+                "umac-128-etm@openssh.com",
+                "hmac-sha2-256-etm@openssh.com",
+                "hmac-sha2-512-etm@openssh.com",
+                "hmac-sha1-etm@openssh.com",
+                "umac-64@openssh.com",
+                "umac-128@openssh.com",
+                "hmac-sha2-256",
+                "hmac-sha2-512",
+                "hmac-sha1"
+              ],
+              "client_to_server_compression": [
+                "none",
+                "zlib@openssh.com"
+              ],
+              "server_to_client_compression": [
+                "none",
+                "zlib@openssh.com"
+              ]
+            },
+            "algorithm_selection": {
+              "kex_algorithm": "curve25519-sha256@libssh.org",
+              "host_key_algorithm": "ecdsa-sha2-nistp256",
+              "client_to_server_alg_group": {
+                "cipher": "aes128-ctr",
+                "mac": "hmac-sha2-256",
+                "compression": "none"
+              },
+              "server_to_client_alg_group": {
+                "cipher": "aes128-ctr",
+                "mac": "hmac-sha2-256",
+                "compression": "none"
+              }
+            },
+            "server_host_key": {
+              "fingerprint_sha256": "aa19e575ef9eff96b0699c84b235e870317188a6d40e1c8dab17f60a333d53ab",
+              "ecdsa_public_key": {
+                "b": "WsY12Ko6k+ez671VdpiGvGUdBrDMU7D2O848PifSYEs=",
+                "curve": "P-256",
+                "gx": "axfR8uEsQkf4vOblY6RA8ncDfYEt6zOg9KE5RdiYwpY=",
+                "gy": "T+NC4v4af5uO5+tKfA+eFivOM1drMV7Oy7ZAaDe/UfU=",
+                "length": 256,
+                "n": "/////wAAAAD//////////7zm+q2nF56E87nKwvxjJVE=",
+                "p": "/////wAAAAEAAAAAAAAAAAAAAAD///////////////8=",
+                "x": "j7WgYHh6yNpAOiX1ANi+8iT5pVLCBHeLm5cGOroOtAo=",
+                "y": "dyCYA4+yyhqbsbM3G3DIh/9PqNuf5HWQ1ykBKSPrfQ8="
+              }
+            },
+            "hassh_fingerprint": "e42184b06d45385a906f0803d04c83da"
+          }
+        },
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "f5",
+              "product": "nginx"
+            }
+          ],
+          "ip": "207.148.125.216",
+          "scan_time": "2026-01-31T11:50:06Z",
+          "endpoints": [
+            {
+              "hostname": "207.148.125.216",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T11:50:06Z",
+              "http": {
+                "uri": "http://207.148.125.216/",
+                "protocol": "HTTP/1.1",
+                "status_code": 200,
+                "status_reason": "OK",
+                "headers": {
+                  "Accept-Ranges": {
+                    "headers": [
+                      "bytes"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "138"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "ETag": {
+                    "headers": [
+                      "\"696df02a-8a\""
+                    ]
+                  },
+                  "Last-Modified": {
+                    "headers": [
+                      "Mon, 19 Jan 2026 08:49:46 GMT"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "nginx"
+                    ]
+                  },
+                  "Strict-Transport-Security": {
+                    "headers": [
+                      "max-age=31536000"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>404 Not Found</title>"
+                ],
+                "body_size": 138,
+                "body": "<html>\n<head><title>404 Not Found</title></head>\n<body>\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>",
+                "html_title": "404 Not Found",
+                "body_hash_sha256": "301bd9f16f94feedfae7a946a14bac38cb73c43efe6117bc5586835af03d7d6f",
+                "body_hash_sha1": "8d2a4760aa0b47984d11cd1a66448719177fb791",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "207.148.125.216"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "12d64601ddea4e4eecb2b14d87e09e4193ccc8f643e730c14a1c4a1f3c496333",
+            "fingerprint_sha1": "67a7a2aeb0237f87d0c8d9edf104b7c623e81155",
+            "fingerprint_md5": "ab4b033dda4ee356f90e015cc28cd963",
+            "tbs_fingerprint_sha256": "c8c53b398e863ba7ccc8d2080388705bf70cc6ae905a8dc36e7841159e5aa06b",
+            "tbs_no_ct_fingerprint_sha256": "e59bb8bb3073e4a9e8306478f8edd3431e0e4b4300a867324e8b6ddf6fea042f",
+            "spki_fingerprint_sha256": "54b89e6a2bbb803b1858b9fd08a81bc46c18db668c5782b1da213f9e16629384",
+            "parsed": {
+              "version": 1,
+              "serial_number": "0",
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "RSA",
+                  "oid": "1.2.840.113549.1.1.1"
+                },
+                "rsa": {
+                  "exponent": 65537,
+                  "modulus": "89a0a1473553db246bd515f3b1f0a6093499bf723b14dd536c8d9a7d8ff0d5774326a132a7cefd94733a6268fa7982f237094cd84b688b94adbc3dfbe3ed9b238738812e42227920a5cfd895715c7e012d276de1811dc7224c2aeb7889aefdfeb1807f6024e178906f70be9956f2cc24093a1f14ae394fe56cc5fc65132a59ab571f6b447dd9afc8e5e302d30d3ca10b393d803733b386b78df51a286252fc718305a4292bdf21c129bdb53f3fe0d279bcd795e74624fb250cddddeccbcef98c1d65af18c609800a74c21c978bc81a731c8455eaad8b8bc0542510951b5e9c42783534949b4cf404e5b3c89e653bc34efa0140734f02f092279415813dd7e44b",
+                  "length": 2048
+                },
+                "fingerprint_sha256": "ff8c901ce0040b15960d858fa80b06914868823fc9ead0bc6f943c84cecac3c3"
+              },
+              "validity_period": {
+                "not_before": "2026-01-31T03:28:59Z",
+                "not_after": "2036-01-29T03:28:59Z",
+                "length_seconds": 315360001
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "MD5-RSA",
+                  "oid": "1.2.840.113549.1.1.4"
+                },
+                "value": "4c8cff5b193df46515cdac35a4b6300489b36ba215ba4fa0b5935ae23e8461625e5a99a913d6e46e4bcec979cbd1a9aa309a3a5b50cad438febdf8e270d25cb69fdfaae5d9d67bf87c5dcd1fe85eb731441f9ce7f124dd9e6ab4a908eaf117e06f4094a430f47b2e1065199bf77fca488997a9037da883fbdb5859d7f9a6a902c2119ef825a6f8e937a41feb50359446c2a4bdc7fde1de0e4f16e5f2c8bb26d52a67f05819ba54ceecf8fb29e068cb0853473df73c66271f7aae392e2f1d249dcf867a0930c7908d8d2fd2ba2933ef6756bffde046eb835d475d2ce17de94db4932bb67347e8357de369ad0219cfb10b5d03d746dfda2a92ba2e5d3a59d5bd27",
+                "valid": true,
+                "self_signed": true
+              }
+            },
+            "validation": {
+              "nss": {},
+              "microsoft": {},
+              "apple": {},
+              "chrome": {}
+            },
+            "revocation": {
+              "ocsp": {},
+              "crl": {}
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2026-01-31T10:08:31Z",
+            "modified_at": "2026-01-31T10:08:31Z",
+            "validated_at": "2026-01-31T10:08:31Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "54b89e6a2bbb803b1858b9fd08a81bc46c18db668c5782b1da213f9e16629384"
+          },
+          "software": [
+            {
+              "vendor": "f5",
+              "product": "nginx"
+            }
+          ],
+          "ip": "207.148.125.216",
+          "scan_time": "2026-01-31T10:08:28Z",
+          "tls": {
+            "fingerprint_sha256": "12d64601ddea4e4eecb2b14d87e09e4193ccc8f643e730c14a1c4a1f3c496333"
+          },
+          "endpoints": [
+            {
+              "hostname": "207.148.125.216",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T10:08:28Z",
+              "http": {
+                "uri": "https://207.148.125.216/",
+                "protocol": "HTTP/1.1",
+                "status_code": 200,
+                "status_reason": "OK",
+                "headers": {
+                  "Accept-Ranges": {
+                    "headers": [
+                      "bytes"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "138"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "ETag": {
+                    "headers": [
+                      "\"696df02a-8a\""
+                    ]
+                  },
+                  "Last-Modified": {
+                    "headers": [
+                      "Mon, 19 Jan 2026 08:49:46 GMT"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "nginx"
+                    ]
+                  },
+                  "Strict-Transport-Security": {
+                    "headers": [
+                      "max-age=31536000"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>404 Not Found</title>"
+                ],
+                "body_size": 138,
+                "body": "<html>\n<head><title>404 Not Found</title></head>\n<body>\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>",
+                "html_title": "404 Not Found",
+                "body_hash_sha256": "301bd9f16f94feedfae7a946a14bac38cb73c43efe6117bc5586835af03d7d6f",
+                "body_hash_sha1": "8d2a4760aa0b47984d11cd1a66448719177fb791",
+                "supported_versions": [
+                  "HTTP/1.1",
+                  "HTTP/2"
+                ]
+              },
+              "ip": "207.148.125.216"
+            }
+          ]
+        }
+      ],
+      "service_count": 3,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-01-28T20:53:07Z",
+          "names": [
+            "207.148.125.216.vultrusercontent.com"
+          ]
+        }
+      },
+      "operating_system": {
+        "vendor": "canonical",
+        "product": "linux"
+      }
+    },
+    "extensions": {}
+  }
+}

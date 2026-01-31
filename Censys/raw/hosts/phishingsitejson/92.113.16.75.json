@@ -1,0 +1,213 @@
+{
+  "result": {
+    "resource": {
+      "ip": "92.113.16.75",
+      "location": {
+        "continent": "Europe",
+        "country": "Germany",
+        "country_code": "DE",
+        "city": "Frankfurt am Main",
+        "postal_code": "60280",
+        "timezone": "Europe/Berlin",
+        "province": "Hesse",
+        "coordinates": {
+          "latitude": 50.1109,
+          "longitude": 8.6829
+        }
+      },
+      "autonomous_system": {
+        "asn": 47583,
+        "description": "AS-HOSTINGER",
+        "bgp_prefix": "92.113.16.0/21",
+        "name": "AS-HOSTINGER",
+        "country_code": "CY"
+      },
+      "whois": {
+        "network": {
+          "handle": "HOSTINGER-HOSTING",
+          "name": "Private Customer",
+          "cidrs": [
+            "92.113.16.0/21"
+          ],
+          "created": "2024-07-02T00:00:00Z",
+          "updated": "2025-02-12T00:00:00Z"
+        },
+        "organization": {
+          "handle": "ORG-HIL18-RIPE",
+          "name": "Private Customer",
+          "address": "Private Residence",
+          "abuse_contacts": [
+            {
+              "handle": "HIL21-RIPE",
+              "name": "Private Customer",
+              "email": "report@abuseradar.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "ip": "92.113.16.75",
+          "scan_time": "2026-01-31T04:51:37Z",
+          "endpoints": [
+            {
+              "hostname": "92.113.16.75",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T04:51:37Z",
+              "http": {
+                "uri": "http://92.113.16.75/",
+                "protocol": "HTTP/1.1",
+                "status_code": 400,
+                "status_reason": "Bad Request",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "150"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "hcdn"
+                    ]
+                  },
+                  "alt-svc": {
+                    "headers": [
+                      "h3=\":443\"; ma=86400"
+                    ]
+                  },
+                  "x-hcdn-request-id": {
+                    "headers": [
+                      "0d00e4a509d720d9b296b1511a62f167-fra-edge2"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>400 Bad Request</title>"
+                ],
+                "body_size": 150,
+                "body": "<html>\r\n<head><title>400 Bad Request</title></head>\r\n<body>\r\n<center><h1>400 Bad Request</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n",
+                "html_title": "400 Bad Request",
+                "body_hash_sha256": "487ad0d2cf075f4328a1adf57ef428759ad4e2c873a8ebd2ad9653990829c9cf",
+                "body_hash_sha1": "28d9c5f6b214c5cdbe7f7e55d6ed5e82080dea01",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "92.113.16.75"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "ip": "92.113.16.75",
+          "scan_time": "2026-01-31T12:18:36Z",
+          "endpoints": [
+            {
+              "hostname": "92.113.16.75",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T12:18:36Z",
+              "http": {
+                "uri": "http://92.113.16.75:443/",
+                "protocol": "HTTP/1.1",
+                "status_code": 400,
+                "status_reason": "Bad Request",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "248"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "hcdn"
+                    ]
+                  },
+                  "alt-svc": {
+                    "headers": [
+                      "h3=\":443\"; ma=86400"
+                    ]
+                  },
+                  "x-hcdn-request-id": {
+                    "headers": [
+                      "de9463d92d4aaa83f74fd457a3269ea1-fra-edge2"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>400 The plain HTTP request was sent to HTTPS port</title>"
+                ],
+                "body_size": 248,
+                "body": "<html>\r\n<head><title>400 The plain HTTP request was sent to HTTPS port</title></head>\r\n<body>\r\n<center><h1>400 Bad Request</h1></center>\r\n<center>The plain HTTP request was sent to HTTPS port</center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n",
+                "html_title": "400 The plain HTTP request was sent to HTTPS port",
+                "body_hash_sha256": "f4754ba869b9fc2d0dc7001142522250fdaa628b5af56a9064ec9bdde54fefa6",
+                "body_hash_sha1": "e70b2bdf0abb7fbf695bc27eef3ddf563d36aca1",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "92.113.16.75"
+            }
+          ]
+        }
+      ],
+      "service_count": 2,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-01-26T00:50:30Z"
+        },
+        "names": [
+          "lazyrichladysociety.com"
+        ],
+        "forward_dns": {
+          "lazyrichladysociety.com": {
+            "resolve_time": "2026-01-28T14:37:14Z",
+            "name": "lazyrichladysociety.com",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

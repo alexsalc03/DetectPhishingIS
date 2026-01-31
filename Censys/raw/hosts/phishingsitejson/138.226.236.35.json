@@ -1,0 +1,191 @@
+{
+  "result": {
+    "resource": {
+      "ip": "138.226.236.35",
+      "location": {
+        "continent": "Europe",
+        "country": "Germany",
+        "country_code": "DE",
+        "city": "Frankfurt am Main",
+        "postal_code": "60306",
+        "timezone": "Europe/Berlin",
+        "province": "Hesse",
+        "coordinates": {
+          "latitude": 50.11552,
+          "longitude": 8.68417
+        }
+      },
+      "autonomous_system": {
+        "asn": 214196,
+        "description": "VLADYLSAV-NAUMETS",
+        "bgp_prefix": "138.226.236.0/24",
+        "name": "VLADYLSAV-NAUMETS",
+        "country_code": "UA"
+      },
+      "whois": {
+        "network": {
+          "handle": "US-AVIATION-19930901",
+          "name": "Aviation RE LLC",
+          "cidrs": [
+            "138.226.0.0/16"
+          ],
+          "created": "2010-10-15T00:00:00Z",
+          "updated": "2025-08-05T00:00:00Z"
+        },
+        "organization": {
+          "handle": "ORG-ARL10-RIPE",
+          "name": "Aviation RE LLC",
+          "address": "6133 FREEPORT BLVD\\n95822\\nSacramento\\nUNITED STATES",
+          "abuse_contacts": [
+            {
+              "handle": "AR61147-RIPE",
+              "name": "Abuse-C Role",
+              "email": "ripe@sacjet.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "SP19000-RIPE",
+              "name": "RIPE Admin",
+              "email": "ripe@sacjet.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "ip": "138.226.236.35",
+          "scan_time": "2026-01-31T02:15:47Z",
+          "endpoints": [
+            {
+              "hostname": "138.226.236.35",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T02:15:47Z",
+              "http": {
+                "uri": "http://138.226.236.35/",
+                "protocol": "HTTP/1.1",
+                "status_code": 421,
+                "status_reason": "Misdirected Request",
+                "headers": {
+                  "Content-Length": {
+                    "headers": [
+                      "20"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/plain; charset=utf-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "X-Content-Type-Options": {
+                    "headers": [
+                      "nosniff"
+                    ]
+                  }
+                },
+                "body_size": 20,
+                "body": "Misdirected Request\n",
+                "body_hash_sha256": "bbca338850c6c94765ef18078577e7abc451a06d06336ffee904b96341f01cfb",
+                "body_hash_sha1": "a0d1abe195dcd26f85ac1204a4a607c5cb8473be",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "138.226.236.35"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "ip": "138.226.236.35",
+          "scan_time": "2026-01-31T14:55:20Z",
+          "endpoints": [
+            {
+              "hostname": "138.226.236.35",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T14:55:20Z",
+              "http": {
+                "uri": "http://138.226.236.35:443/",
+                "protocol": "HTTP/1.0",
+                "status_code": 400,
+                "status_reason": "Bad Request",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  }
+                },
+                "body_size": 48,
+                "body": "Client sent an HTTP request to an HTTPS server.\n",
+                "body_hash_sha256": "7a1fabf227903297428f36da3b3547d91e308a992063271e8fe1a4f1e1e6cd26",
+                "body_hash_sha1": "d56b41edced83968087065f2e8edf65e592ebadc",
+                "supported_versions": [
+                  "HTTP/1.0"
+                ]
+              },
+              "ip": "138.226.236.35"
+            }
+          ]
+        }
+      ],
+      "service_count": 2,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-01-29T15:31:54Z"
+        },
+        "names": [
+          "api.injuries.lu",
+          "robiox.com.py",
+          "logged.tg",
+          "roblox.com.ht",
+          "www.logged.tg"
+        ],
+        "forward_dns": {
+          "api.injuries.lu": {
+            "resolve_time": "2026-01-31T12:08:23Z",
+            "name": "api.injuries.lu",
+            "record_type": "a"
+          },
+          "logged.tg": {
+            "resolve_time": "2026-01-20T12:52:09Z",
+            "name": "logged.tg",
+            "record_type": "a"
+          },
+          "robiox.com.py": {
+            "resolve_time": "2026-01-27T14:17:28Z",
+            "name": "robiox.com.py",
+            "record_type": "a"
+          },
+          "roblox.com.ht": {
+            "resolve_time": "2026-01-05T19:36:23Z",
+            "name": "roblox.com.ht",
+            "record_type": "a"
+          },
+          "www.logged.tg": {
+            "resolve_time": "2025-12-25T17:02:20Z",
+            "name": "www.logged.tg",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

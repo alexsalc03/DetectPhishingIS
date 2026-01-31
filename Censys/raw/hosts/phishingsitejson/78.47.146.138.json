@@ -1,0 +1,1273 @@
+{
+  "result": {
+    "resource": {
+      "ip": "78.47.146.138",
+      "location": {
+        "continent": "Europe",
+        "country": "Germany",
+        "country_code": "DE",
+        "city": "N\u00fcrnberg",
+        "postal_code": "90402",
+        "timezone": "Europe/Berlin",
+        "province": "Bavaria",
+        "coordinates": {
+          "latitude": 49.45421,
+          "longitude": 11.07752
+        }
+      },
+      "autonomous_system": {
+        "asn": 24940,
+        "description": "HETZNER-AS",
+        "bgp_prefix": "78.46.0.0/15",
+        "name": "HETZNER-AS",
+        "country_code": "DE"
+      },
+      "whois": {
+        "network": {
+          "handle": "CLOUD-NBG1",
+          "name": "Hetzner Online GmbH",
+          "cidrs": [
+            "78.47.146.128/28"
+          ],
+          "created": "2011-03-17T00:00:00Z",
+          "updated": "2023-12-12T00:00:00Z"
+        },
+        "organization": {
+          "handle": "ORG-HOA1-RIPE",
+          "name": "Hetzner Online GmbH",
+          "address": "Industriestrasse 25\\nD-91710\\nGunzenhausen\\nGERMANY",
+          "abuse_contacts": [
+            {
+              "handle": "HOAC1-RIPE",
+              "name": "Hetzner Online GmbH - Contact Role",
+              "email": "ripe@hetzner.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "GM834-RIPE",
+              "name": "Guenther Mueller",
+              "email": "info@hetzner.de"
+            },
+            {
+              "handle": "HOAC1-RIPE",
+              "name": "Hetzner Online GmbH - Contact Role",
+              "email": "ripe@hetzner.com"
+            },
+            {
+              "handle": "MF1400-RIPE",
+              "name": "Martin Fritzsche",
+              "email": "martin.fritzsche@hetzner.com"
+            },
+            {
+              "handle": "MH375-RIPE",
+              "name": "Martin Hetzner",
+              "email": "info@hetzner.de"
+            },
+            {
+              "handle": "SK2374-RIPE",
+              "name": "Stephan Konvickova",
+              "email": "stephan.konvickova@hetzner.de"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 22,
+          "protocol": "SSH",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "type": [
+                "REMOTE_ACCESS"
+              ]
+            },
+            {
+              "vendor": "openbsd",
+              "product": "openssh"
+            }
+          ],
+          "operating_systems": [
+            {
+              "vendor": "canonical",
+              "product": "linux"
+            }
+          ],
+          "labels": [
+            {
+              "value": "REMOTE_ACCESS"
+            }
+          ],
+          "ip": "78.47.146.138",
+          "scan_time": "2026-01-31T12:45:37Z",
+          "ssh": {
+            "endpoint_id": {
+              "raw": "SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.7",
+              "protocol_version": "2.0",
+              "software_version": "OpenSSH_7.6p1",
+              "comment": "Ubuntu-4ubuntu0.7"
+            },
+            "kex_init_message": {
+              "kex_algorithms": [
+                "curve25519-sha256",
+                "curve25519-sha256@libssh.org",
+                "ecdh-sha2-nistp256",
+                "ecdh-sha2-nistp384",
+                "ecdh-sha2-nistp521",
+                "diffie-hellman-group-exchange-sha256",
+                "diffie-hellman-group16-sha512",
+                "diffie-hellman-group18-sha512",
+                "diffie-hellman-group14-sha256",
+                "diffie-hellman-group14-sha1"
+              ],
+              "host_key_algorithms": [
+                "ssh-rsa",
+                "rsa-sha2-512",
+                "rsa-sha2-256",
+                "ecdsa-sha2-nistp256",
+                "ssh-ed25519"
+              ],
+              "client_to_server_ciphers": [
+                "chacha20-poly1305@openssh.com",
+                "aes128-ctr",
+                "aes192-ctr",
+                "aes256-ctr",
+                "aes128-gcm@openssh.com",
+                "aes256-gcm@openssh.com"
+              ],
+              "server_to_client_ciphers": [
+                "chacha20-poly1305@openssh.com",
+                "aes128-ctr",
+                "aes192-ctr",
+                "aes256-ctr",
+                "aes128-gcm@openssh.com",
+                "aes256-gcm@openssh.com"
+              ],
+              "client_to_server_macs": [
+                "umac-64-etm@openssh.com",
+                "umac-128-etm@openssh.com",
+                "hmac-sha2-256-etm@openssh.com",
+                "hmac-sha2-512-etm@openssh.com",
+                "hmac-sha1-etm@openssh.com",
+                "umac-64@openssh.com",
+                "umac-128@openssh.com",
+                "hmac-sha2-256",
+                "hmac-sha2-512",
+                "hmac-sha1"
+              ],
+              "server_to_client_macs": [
+                "umac-64-etm@openssh.com",
+                "umac-128-etm@openssh.com",
+                "hmac-sha2-256-etm@openssh.com",
+                "hmac-sha2-512-etm@openssh.com",
+                "hmac-sha1-etm@openssh.com",
+                "umac-64@openssh.com",
+                "umac-128@openssh.com",
+                "hmac-sha2-256",
+                "hmac-sha2-512",
+                "hmac-sha1"
+              ],
+              "client_to_server_compression": [
+                "none",
+                "zlib@openssh.com"
+              ],
+              "server_to_client_compression": [
+                "none",
+                "zlib@openssh.com"
+              ]
+            },
+            "algorithm_selection": {
+              "kex_algorithm": "curve25519-sha256@libssh.org",
+              "host_key_algorithm": "ecdsa-sha2-nistp256",
+              "client_to_server_alg_group": {
+                "cipher": "aes128-ctr",
+                "mac": "hmac-sha2-256",
+                "compression": "none"
+              },
+              "server_to_client_alg_group": {
+                "cipher": "aes128-ctr",
+                "mac": "hmac-sha2-256",
+                "compression": "none"
+              }
+            },
+            "server_host_key": {
+              "fingerprint_sha256": "87d4d2a479e1fabb216d9f5cdadf23cfb4aeadaefe6545f132f5e60e2c07b76b",
+              "ecdsa_public_key": {
+                "b": "WsY12Ko6k+ez671VdpiGvGUdBrDMU7D2O848PifSYEs=",
+                "curve": "P-256",
+                "gx": "axfR8uEsQkf4vOblY6RA8ncDfYEt6zOg9KE5RdiYwpY=",
+                "gy": "T+NC4v4af5uO5+tKfA+eFivOM1drMV7Oy7ZAaDe/UfU=",
+                "length": 256,
+                "n": "/////wAAAAD//////////7zm+q2nF56E87nKwvxjJVE=",
+                "p": "/////wAAAAEAAAAAAAAAAAAAAAD///////////////8=",
+                "x": "a5CewgMj02XWFVit58SnqDk0Vdy51MDJTKOWH3zLLVQ=",
+                "y": "QBn1SGIErCd2Rgr2wpDqrQfVvngZyRlF0sqRSaGZ6SU="
+              }
+            },
+            "hassh_fingerprint": "b12d2871a1189eff20364cf5333619ee"
+          }
+        },
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "apache",
+              "product": "http_server"
+            }
+          ],
+          "operating_systems": [
+            {
+              "vendor": "canonical",
+              "product": "linux"
+            }
+          ],
+          "labels": [
+            {
+              "value": "DEFAULT_LANDING_PAGE"
+            }
+          ],
+          "ip": "78.47.146.138",
+          "scan_time": "2026-01-31T06:48:15Z",
+          "endpoints": [
+            {
+              "hostname": "78.47.146.138",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T06:48:15Z",
+              "http": {
+                "uri": "http://78.47.146.138/",
+                "protocol": "HTTP/1.1",
+                "status_code": 200,
+                "status_reason": "OK",
+                "headers": {
+                  "Accept-Ranges": {
+                    "headers": [
+                      "bytes"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "Upgrade"
+                    ]
+                  },
+                  "Content-Encoding": {
+                    "headers": [
+                      "gzip"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "3146"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "ETag": {
+                    "headers": [
+                      "\"2aad-603ab1a2ae132-gzip\""
+                    ]
+                  },
+                  "Last-Modified": {
+                    "headers": [
+                      "Thu, 24 Aug 2023 13:21:13 GMT"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "Apache/2.4.29 (Ubuntu)"
+                    ]
+                  },
+                  "Upgrade": {
+                    "headers": [
+                      "h2,h2c"
+                    ]
+                  },
+                  "Vary": {
+                    "headers": [
+                      "Accept-Encoding"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>Apache2 Ubuntu Default Page: It works</title>",
+                  "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />"
+                ],
+                "body_size": 10925,
+                "body": "\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n  <!--\n    Modified from the Debian original for Ubuntu\n    Last updated: 2016-11-16\n    See: https://launchpad.net/bugs/1288690\n  -->\n  <head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n    <title>Apache2 Ubuntu Default Page: It works</title>\n    <style type=\"text/css\" media=\"screen\">\n  * {\n    margin: 0px 0px 0px 0px;\n    padding: 0px 0px 0px 0px;\n  }\n\n  body, html {\n    padding: 3px 3px 3px 3px;\n\n    background-color: #D8DBE2;\n\n    font-family: Verdana, sans-serif;\n    font-size: 11pt;\n    text-align: center;\n  }\n\n  div.main_page {\n    position: relative;\n    display: table;\n\n    width: 800px;\n\n    margin-bottom: 3px;\n    margin-left: auto;\n    margin-right: auto;\n    padding: 0px 0px 0px 0px;\n\n    border-width: 2px;\n    border-color: #212738;\n    border-style: solid;\n\n    background-color: #FFFFFF;\n\n    text-align: center;\n  }\n\n  div.page_header {\n    height: 99px;\n    width: 100%;\n\n    background-color: #F5F6F7;\n  }\n\n  div.page_header span {\n    margin: 15px 0px 0px 50px;\n\n    font-size: 180%;\n    font-weight: bold;\n  }\n\n  div.page_header img {\n    margin: 3px 0px 0px 40px;\n\n    border: 0px 0px 0px;\n  }\n\n  div.table_of_contents {\n    clear: left;\n\n    min-width: 200px;\n\n    margin: 3px 3px 3px 3px;\n\n    background-color: #FFFFFF;\n\n    text-align: left;\n  }\n\n  div.table_of_contents_item {\n    clear: left;\n\n    width: 100%;\n\n    margin: 4px 0px 0px 0px;\n\n    background-color: #FFFFFF;\n\n    color: #000000;\n    text-align: left;\n  }\n\n  div.table_of_contents_item a {\n    margin: 6px 0px 0px 6px;\n  }\n\n  div.content_section {\n    margin: 3px 3px 3px 3px;\n\n    background-color: #FFFFFF;\n\n    text-align: left;\n  }\n\n  div.content_section_text {\n    padding: 4px 8px 4px 8px;\n\n    color: #000000;\n    font-size: 100%;\n  }\n\n  div.content_section_text pre {\n    margin: 8px 0px 8px 0px;\n    padding: 8px 8px 8px 8px;\n\n    border-width: 1px;\n    border-style: dotted;\n    border-color: #000000;\n\n    background-color: #F5F6F7;\n\n    font-style: italic;\n  }\n\n  div.content_section_text p {\n    margin-bottom: 6px;\n  }\n\n  div.content_section_text ul, div.content_section_text li {\n    padding: 4px 8px 4px 16px;\n  }\n\n  div.section_header {\n    padding: 3px 6px 3px 6px;\n\n    background-color: #8E9CB2;\n\n    color: #FFFFFF;\n    font-weight: bold;\n    font-size: 112%;\n    text-align: center;\n  }\n\n  div.section_header_red {\n    background-color: #CD214F;\n  }\n\n  div.section_header_grey {\n    background-color: #9F9386;\n  }\n\n  .floating_element {\n    position: relative;\n    float: left;\n  }\n\n  div.table_of_contents_item a,\n  div.content_section_text a {\n    text-decoration: none;\n    font-weight: bold;\n  }\n\n  div.table_of_contents_item a:link,\n  div.table_of_contents_item a:visited,\n  div.table_of_contents_item a:active {\n    color: #000000;\n  }\n\n  div.table_of_contents_item a:hover {\n    background-color: #000000;\n\n    color: #FFFFFF;\n  }\n\n  div.content_section_text a:link,\n  div.content_section_text a:visited,\n   div.content_section_text a:active {\n    background-color: #DCDFE6;\n\n    color: #000000;\n  }\n\n  div.content_section_text a:hover {\n    background-color: #000000;\n\n    color: #DCDFE6;\n  }\n\n  div.validator {\n  }\n    </style>\n  </head>\n  <body>\n    <div class=\"main_page\">\n      <div class=\"page_header floating_element\">\n        <img src=\"/icons/ubuntu-logo.png\" alt=\"Ubuntu Logo\" class=\"floating_element\"/>\n        <span class=\"floating_element\">\n          Apache2 Ubuntu Default Page\n        </span>\n      </div>\n<!--      <div class=\"table_of_contents floating_element\">\n        <div class=\"section_header section_header_grey\">\n          TABLE OF CONTENTS\n        </div>\n        <div class=\"table_of_contents_item floating_element\">\n          <a href=\"#about\">About</a>\n        </div>\n        <div class=\"table_of_contents_item floating_element\">\n          <a href=\"#changes\">Changes</a>\n        </div>\n        <div class=\"table_of_contents_item floating_element\">\n          <a href=\"#scope\">Scope</a>\n        </div>\n        <div class=\"table_of_contents_item floating_element\">\n          <a href=\"#files\">Config files</a>\n        </div>\n      </div>\n-->\n      <div class=\"content_section floating_element\">\n\n\n        <div class=\"section_header section_header_red\">\n          <div id=\"about\"></div>\n          It worx!\n        </div>\n        <div class=\"content_section_text\">\n          <p>\n                This is the default welcome page used to test the correct \n                operation of the amazing Apache2 server after installation on Ubuntu systems.\n                It is based on the equivalent page on Debian, from which the Ubuntu Apache\n                packaging is derived.\n                If you can read this page, it means that the Apache HTTP server installed at\n                this site is working properly. You should <b>replace this file</b> (located at\n                <tt>/var/www/html/index.html</tt>) before continuing to operate your HTTP server.\n          </p>\n\n\n          <p>\n                If you are a normal user of this web site and don't know what this page is\n                about, this probably means that the site is currently unavailable due to\n                maintenance.\n                If the problem persists, please contact the site's administrator.\n          </p>\n\n        </div>\n        <div class=\"section_header\">\n          <div id=\"changes\"></div>\n                Configuration Overview\n        </div>\n        <div class=\"content_section_text\">\n          <p>\n                Ubuntu's Apache2 default configuration is different from the\n                upstream default configuration, and split into several files optimized for\n                interaction with Ubuntu tools. The configuration system is\n                <b>fully documented in\n                /usr/share/doc/apache2/README.Debian.gz</b>. Refer to this for the full\n                documentation. Documentation for the web server itself can be\n                found by accessing the <a href=\"/manual\">manual</a> if the <tt>apache2-doc</tt>\n                package was installed on this server.\n\n          </p>\n          <p>\n                The configuration layout for an Apache2 web server installation on Ubuntu systems is as follows:\n          </p>\n          <pre>\n/etc/apache2/\n|-- apache2.conf\n|       `--  ports.conf\n|-- mods-enabled\n|       |-- *.load\n|       `-- *.conf\n|-- conf-enabled\n|       `-- *.conf\n|-- sites-enabled\n|       `-- *.conf\n          </pre>\n          <ul>\n                        <li>\n                           <tt>apache2.conf</tt> is the main configuration\n                           file. It puts the pieces together by including all remaining configuration\n                           files when starting up the web server.\n                        </li>\n\n                        <li>\n                           <tt>ports.conf</tt> is always included from the\n                           main configuration file. It is used to determine the listening ports for\n                           incoming connections, and this file can be customized anytime.\n                        </li>\n\n                        <li>\n                           Configuration files in the <tt>mods-enabled/</tt>,\n                           <tt>conf-enabled/</tt> and <tt>sites-enabled/</tt> directories contain\n                           particular configuration snippets which manage modules, global configuration\n                           fragments, or virtual host configurations, respectively.\n                        </li>\n\n                        <li>\n                           They are activated by symlinking available\n                           configuration files from their respective\n                           *-available/ counterparts. These should be managed\n                           by using our helpers\n                           <tt>\n                                a2enmod,\n                                a2dismod,\n                           </tt>\n                           <tt>\n                                a2ensite,\n                                a2dissite,\n                            </tt>\n                                and\n                           <tt>\n                                a2enconf,\n                                a2disconf\n                           </tt>. See their respective man pages for detailed information.\n                        </li>\n\n                        <li>\n                           The binary is called apache2. Due to the use of\n                           environment variables, in the default configuration, apache2 needs to be\n                           started/stopped with <tt>/etc/init.d/apache2</tt> or <tt>apache2ctl</tt>.\n                           <b>Calling <tt>/usr/bin/apache2</tt> directly will not work</b> with the\n                           default configuration.\n                        </li>\n          </ul>\n        </div>\n\n        <div class=\"section_header\">\n            <div id=\"docroot\"></div>\n                Document Roots\n        </div>\n\n        <div class=\"content_section_text\">\n            <p>\n                By default, Ubuntu does not allow access through the web browser to\n                <em>any</em> file apart of those located in <tt>/var/www</tt>,\n                <a href=\"http://httpd.apache.org/docs/2.4/mod/mod_userdir.html\" rel=\"nofollow\">public_html</a>\n                directories (when enabled) and <tt>/usr/share</tt> (for web\n                applications). If your site is using a web document root\n                located elsewhere (such as in <tt>/srv</tt>) you may need to whitelist your\n                document root directory in <tt>/etc/apache2/apache2.conf</tt>.\n            </p>\n            <p>\n                The default Ubuntu document root is <tt>/var/www/html</tt>. You\n                can make your own virtual hosts under /var/www. This is different\n                to previous releases which provides better security out of the box.\n            </p>\n        </div>\n\n        <div class=\"section_header\">\n          <div id=\"bugs\"></div>\n                Reporting Problems\n        </div>\n        <div class=\"content_section_text\">\n          <p>\n                Please use the <tt>ubuntu-bug</tt> tool to report bugs in the\n                Apache2 package with Ubuntu. However, check <a\n                href=\"https://bugs.launchpad.net/ubuntu/+source/apache2\"\n                rel=\"nofollow\">existing bug reports</a> before reporting a new bug.\n          </p>\n          <p>\n                Please report bugs specific to modules (such as PHP and others)\n                to respective packages, not to the web server itself.\n          </p>\n        </div>\n\n\n\n\n      </div>\n    </div>\n    <div class=\"validator\">\n    </div>\n  </body>\n</html>\n\n",
+                "html_title": "Apache2 Ubuntu Default Page: It works",
+                "body_hash_sha256": "7f25590c61eb53fc5ea2f8dce60a5885842903642586229621175f27f8e0d2fa",
+                "body_hash_sha1": "ffcb2fc395d6ac275ef781d8f5e40f79a06dd6f8",
+                "supported_versions": [
+                  "HTTP/1.1",
+                  "HTTP/2"
+                ]
+              },
+              "ip": "78.47.146.138"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "22430e6aa63c338f3ff81a6f592c589f3d141ce95036b5806066ba35b60ff856",
+            "fingerprint_sha1": "9504a71bc613d52352dbbced4eda59fb5da136d7",
+            "fingerprint_md5": "02d05dd384f867549c06f9d95e8b5b00",
+            "tbs_fingerprint_sha256": "e4a5ae51c6fa0de17296d203c5285da4eb8efcf5c4db8d3fbd3c319fa23e6416",
+            "tbs_no_ct_fingerprint_sha256": "2f68eba13d2c382514f0f05e50bb491fe5ff79a3ea7cf7f5684fb151b42b37eb",
+            "spki_fingerprint_sha256": "5c9c85f334ef043d283746ccc56df07b4b781c02905a6ea940d319abe1f5d4a3",
+            "parent_spki_fingerprint_sha256": "c371ff3999e48d7f12047d728aa0d949d8057e1c43eceff673426a8b9b7ff278",
+            "parsed": {
+              "version": 3,
+              "serial_number": "585144649780271740970527205747221808735901",
+              "issuer_dn": "C=US, O=Let's Encrypt, CN=R13",
+              "issuer": {
+                "common_name": [
+                  "R13"
+                ],
+                "country": [
+                  "US"
+                ],
+                "organization": [
+                  "Let's Encrypt"
+                ]
+              },
+              "subject_dn": "CN=*.navistaging.amazingstories.de",
+              "subject": {
+                "common_name": [
+                  "*.navistaging.amazingstories.de"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "RSA",
+                  "oid": "1.2.840.113549.1.1.1"
+                },
+                "rsa": {
+                  "exponent": 65537,
+                  "modulus": "9572d479b3eb27b325ec6ee1fc8fc1433ca0a53b8539c99fa205368dff6cbf836632b18f8faacbcbf908497189f510480685d69b146dc223fcbef58a973f9db289f3031b34380c7545699aaceec051dd90103774e699d1df935fbf1fd42cb320f75c6648e69630a191b9495aff52c3b0ad7afe9907867e4f828e6c8a663da88b26a1e8affb957958c7f0cac04e3bbb9e29346cd34ec6514ac8adb61e346e1af412c5efbf7193f5433484c1c3f43a5fbca25b6ed827cf1caf35520a105aea9b393ecc4c4c06067933e9d8e5dc2424e53db0e5458c1f8f855fe02cd2dff762447e07bea37ff79cb50c418aae6434890c2951b84551269eed7c1ccb0df1f185e711",
+                  "length": 2048
+                },
+                "fingerprint_sha256": "c4ecc979e3901a01cad7017146c5ce8353037910954410b918613071748c8440"
+              },
+              "validity_period": {
+                "not_before": "2026-01-15T03:14:12Z",
+                "not_after": "2026-04-15T03:14:11Z",
+                "length_seconds": 7776000
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "SHA256-RSA",
+                  "oid": "1.2.840.113549.1.1.11"
+                },
+                "value": "001f7ad2ed036f34d4e87a454dae291cdf4fd04a993abc75d57c8ea2fd8d1bb0da90ff5f03d0771115c4392f67f01dec9f231d05bd30baa89f2465000f1611eb6f74296dcdef53a28d7563c643bbeebaf7fef893a07cfc1a7df9cff55ba452a3347b8fae9a2f3d267086c7826d1e7f43ee3389781c05d3e654896f467d11586d06d5f0087a80081675472d92100f0b58f924b7e1232f01cb434f3597c039eefdb44d05bd7a63814bf0c1224ddbf1e4d3cfd28d8b9e9787c12f552157b666a28bdc4dfdc6be3fcd204f626829b1d1734ac159456c656f94b271584aa6ccfd3a3d58030a4af402204f588b84448b7088ba75b44ab1e628e530928ba761e7aa4c2b",
+                "valid": true
+              },
+              "serial_number_hex": "06b795e847ee5a7d5a8e59b07689328ae69d"
+            },
+            "names": [
+              "*.navistaging.amazingstories.de",
+              "*.staging.dein-ausstellungsnavigator.com",
+              "navistaging.amazingstories.de"
+            ],
+            "validation_level": "dv",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "d3b128216a843f8ef1321501f5df52a5df52939ee2c19297712cd3de4d419354",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "d3b128216a843f8ef1321501f5df52a5df52939ee2c19297712cd3de4d419354"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "d3b128216a843f8ef1321501f5df52a5df52939ee2c19297712cd3de4d419354",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "d3b128216a843f8ef1321501f5df52a5df52939ee2c19297712cd3de4d419354"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "d3b128216a843f8ef1321501f5df52a5df52939ee2c19297712cd3de4d419354",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "d3b128216a843f8ef1321501f5df52a5df52939ee2c19297712cd3de4d419354"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "d3b128216a843f8ef1321501f5df52a5df52939ee2c19297712cd3de4d419354",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "d3b128216a843f8ef1321501f5df52a5df52939ee2c19297712cd3de4d419354"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {},
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 2080621891,
+                  "added_to_ct_at": "2026-01-15T04:13:17Z",
+                  "ct_to_censys_at": "2026-01-15T04:48:53Z"
+                },
+                "google_argon_2026_h1": {
+                  "index": 1744161793,
+                  "added_to_ct_at": "2026-01-15T04:12:42Z",
+                  "ct_to_censys_at": "2026-01-15T04:22:31Z"
+                },
+                "google_xenon_2026_h1": {
+                  "index": 1637990888,
+                  "added_to_ct_at": "2026-01-15T04:12:43Z",
+                  "ct_to_censys_at": "2026-01-15T04:24:34Z"
+                },
+                "sectigo_elephant_2026_h1": {
+                  "index": 1214584996,
+                  "added_to_ct_at": "2026-01-15T04:12:47Z",
+                  "ct_to_censys_at": "2026-01-15T04:24:47Z"
+                },
+                "sectigo_tiger_2026_h1": {
+                  "index": 1072680149,
+                  "added_to_ct_at": "2026-01-15T04:12:47Z",
+                  "ct_to_censys_at": "2026-01-15T04:24:00Z"
+                },
+                "trustasia_log_2026_b": {
+                  "index": 546894632,
+                  "added_to_ct_at": "2026-01-15T04:12:50Z",
+                  "ct_to_censys_at": "2026-01-15T04:23:36Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2026-01-15T04:22:32Z",
+            "modified_at": "2026-01-15T16:55:07Z",
+            "validated_at": "2026-01-31T04:03:12Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "5c9c85f334ef043d283746ccc56df07b4b781c02905a6ea940d319abe1f5d4a3",
+            "parent_spki_subject_fingerprint_sha256": "c371ff3999e48d7f12047d728aa0d949d8057e1c43eceff673426a8b9b7ff278"
+          },
+          "software": [
+            {
+              "vendor": "apache",
+              "product": "http_server"
+            }
+          ],
+          "operating_systems": [
+            {
+              "vendor": "canonical",
+              "product": "linux"
+            }
+          ],
+          "ip": "78.47.146.138",
+          "scan_time": "2026-01-31T04:47:11Z",
+          "tls": {
+            "fingerprint_sha256": "22430e6aa63c338f3ff81a6f592c589f3d141ce95036b5806066ba35b60ff856",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "d3b128216a843f8ef1321501f5df52a5df52939ee2c19297712cd3de4d419354",
+                "subject_dn": "C=US, O=Let's Encrypt, CN=R13",
+                "issuer_dn": "C=US, O=Internet Security Research Group, CN=ISRG Root X1"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "78.47.146.138",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T04:47:11Z",
+              "http": {
+                "uri": "https://78.47.146.138/",
+                "protocol": "HTTP/1.1",
+                "status_code": 200,
+                "status_reason": "OK",
+                "headers": {
+                  "Accept-Ranges": {
+                    "headers": [
+                      "bytes"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "Upgrade"
+                    ]
+                  },
+                  "Content-Encoding": {
+                    "headers": [
+                      "gzip"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "2172"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "ETag": {
+                    "headers": [
+                      "\"1dc5-644190ba090db-gzip\""
+                    ]
+                  },
+                  "Last-Modified": {
+                    "headers": [
+                      "Fri, 21 Nov 2025 11:23:40 GMT"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "Apache/2.4.29 (Ubuntu)"
+                    ]
+                  },
+                  "Strict-Transport-Security": {
+                    "headers": [
+                      "max-age=31536000"
+                    ]
+                  },
+                  "Upgrade": {
+                    "headers": [
+                      "h2,h2c"
+                    ]
+                  },
+                  "Vary": {
+                    "headers": [
+                      "Accept-Encoding"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>Ausstellungsnavigator</title>",
+                  "<title>Title</title>",
+                  "<meta charset=\"utf-8\">",
+                  "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+                  "<meta charset=\"UTF-8\">"
+                ],
+                "body_size": 7621,
+                "body": "<!DOCTYPE html><html  data-capo=\"\"><head><meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<title>Ausstellungsnavigator</title>\n<link rel=\"stylesheet\" href=\"/_nuxt/entry.Dss574Zo.css\">\n<link rel=\"modulepreload\" as=\"script\" crossorigin href=\"/_nuxt/DxcDYfHG.js\">\n<link rel=\"prefetch\" as=\"image\" type=\"image/png\" href=\"/_nuxt/powered_by_dark.C32NRSkJ.png\">\n<link rel=\"prefetch\" as=\"image\" type=\"image/png\" href=\"/_nuxt/powered_by_light.eg4eu-0b.png\">\n<link rel=\"prefetch\" as=\"script\" crossorigin href=\"/_nuxt/BqnRlZAL.js\">\n<link rel=\"icon\" type=\"image/png\" href=\"/img/favicon_light.png\">\n<script type=\"module\" src=\"/_nuxt/DxcDYfHG.js\" crossorigin></script>\n<script id=\"unhead:payload\" type=\"application/json\">{\"title\":\"Ausstellungsnavigator\"}</script></head><body><div id=\"__nuxt\"><!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Title</title>\n</head>\n<body>\n    <div class=\"ladeanimation\">\n        <div class=\"container fade-in\">\n            <svg class=\"machine\" :class=\"{'machine-small': small}\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" viewBox=\"0 0 400 526\">\n                <defs/>\n                <g>\n                    <path x=\"-136,996\" y=\"-136,996\" class=\"medium-shadow\" d=\"M402 400v-21l-28-4c-1-10-4-19-7-28l23-17 -11-18L352 323c-6-8-13-14-20-20l11-26 -18-11 -17 23c-9-4-18-6-28-7l-4-28h-21l-4 28c-10 1-19 4-28 7l-17-23 -18 11 11 26c-8 6-14 13-20 20l-26-11 -11 18 23 17c-4 9-6 18-7 28l-28 4v21l28 4c1 10 4 19 7 28l-23 17 11 18 26-11c6 8 13 14 20 20l-11 26 18 11 17-23c9 4 18 6 28 7l4 28h21l4-28c10-1 19-4 28-7l17 23 18-11 -11-26c8-6 14-13 20-20l26 11 11-18 -23-17c4-9 6-18 7-28L402 400zM265 463c-41 0-74-33-74-74 0-41 33-74 74-74 41 0 74 33 74 74C338 430 305 463 265 463z\"/>\n                </g>\n                <g >\n                    <path x=\"-100,136\" y=\"-100,136\" class=\"small-shadow\" d=\"M210 246v-21l-29-4c-2-10-6-18-11-26l18-23 -15-15 -23 18c-8-5-17-9-26-11l-4-29H100l-4 29c-10 2-18 6-26 11l-23-18 -15 15 18 23c-5 8-9 17-11 26L10 225v21l29 4c2 10 6 18 11 26l-18 23 15 15 23-18c8 5 17 9 26 11l4 29h21l4-29c10-2 18-6 26-11l23 18 15-15 -18-23c5-8 9-17 11-26L210 246zM110 272c-20 0-37-17-37-37s17-37 37-37c20 0 37 17 37 37S131 272 110 272z\"/>\n                </g>\n                <g>\n                    <path x=\"-100,136\" y=\"-100,136\" class=\"small\" d=\"M200 236v-21l-29-4c-2-10-6-18-11-26l18-23 -15-15 -23 18c-8-5-17-9-26-11l-4-29H90l-4 29c-10 2-18 6-26 11l-23-18 -15 15 18 23c-5 8-9 17-11 26L0 215v21l29 4c2 10 6 18 11 26l-18 23 15 15 23-18c8 5 17 9 26 11l4 29h21l4-29c10-2 18-6 26-11l23 18 15-15 -18-23c5-8 9-17 11-26L200 236zM100 262c-20 0-37-17-37-37s17-37 37-37c20 0 37 17 37 37S121 262 100 262z\"/>\n                </g>\n                <g>\n                    <path x=\"-136,996\" y=\"-136,996\" class=\"medium\" d=\"M392 390v-21l-28-4c-1-10-4-19-7-28l23-17 -11-18L342 313c-6-8-13-14-20-20l11-26 -18-11 -17 23c-9-4-18-6-28-7l-4-28h-21l-4 28c-10 1-19 4-28 7l-17-23 -18 11 11 26c-8 6-14 13-20 20l-26-11 -11 18 23 17c-4 9-6 18-7 28l-28 4v21l28 4c1 10 4 19 7 28l-23 17 11 18 26-11c6 8 13 14 20 20l-11 26 18 11 17-23c9 4 18 6 28 7l4 28h21l4-28c10-1 19-4 28-7l17 23 18-11 -11-26c8-6 14-13 20-20l26 11 11-18 -23-17c4-9 6-18 7-28L392 390zM255 453c-41 0-74-33-74-74 0-41 33-74 74-74 41 0 74 33 74 74C328 420 295 453 255 453z\"/>\n                </g>\n            </svg>\n        </div>\n    </div>\n</body>\n<style>\n    body, html {\n        margin: 0;\n        padding: 0;\n        width: 100%;\n        height: 100%;\n        background: #ddd;\n    }\n    .ladeanimation {\n        position: absolute;\n        margin-top: 0;\n        padding: 0;\n        display: flex;\n        justify-content: center;\n        align-items: center;\n        width: 100%;\n        height: 100%;\n        z-index: 1000;\n    }\n    .machine {\n        width: 75px;\n        fill: #222;\n    }\n    .machine-small {\n        width: 45px;\n    }\n    .small-shadow, .medium-shadow, .large-shadow {\n        fill: rgba(0, 0, 0, 0.07); }\n\n    .small {\n        -webkit-animation: counter-rotation 2.5s infinite linear;\n        -moz-animation: counter-rotation 2.5s infinite linear;\n        -o-animation: counter-rotation 2.5s infinite linear;\n        animation: counter-rotation 2.5s infinite linear;\n        -webkit-transform-origin: 100.136px 225.345px;\n        -ms-transform-origin: 100.136px 225.345px;\n        transform-origin: 100.136px 225.345px; }\n\n    .small-shadow {\n        -webkit-animation: counter-rotation 2.5s infinite linear;\n        -moz-animation: counter-rotation 2.5s infinite linear;\n        -o-animation: counter-rotation 2.5s infinite linear;\n        animation: counter-rotation 2.5s infinite linear;\n        -webkit-transform-origin: 110.136px 235.345px;\n        -ms-transform-origin: 110.136px 235.345px;\n        transform-origin: 110.136px 235.345px; }\n\n    .medium {\n        -webkit-animation: rotation 3.75s infinite linear;\n        -moz-animation: rotation 3.75s infinite linear;\n        -o-animation: rotation 3.75s infinite linear;\n        animation: rotation 3.75s infinite linear;\n        -webkit-transform-origin: 254.675px 379.447px;\n        -ms-transform-origin: 254.675px 379.447px;\n        transform-origin: 254.675px 379.447px; }\n\n    .medium-shadow {\n        -webkit-animation: rotation 3.75s infinite linear;\n        -moz-animation: rotation 3.75s infinite linear;\n        -o-animation: rotation 3.75s infinite linear;\n        animation: rotation 3.75s infinite linear;\n        -webkit-transform-origin: 264.675px 389.447px;\n        -ms-transform-origin: 264.675px 389.447px;\n        transform-origin: 264.675px 389.447px; }\n\n    @-webkit-keyframes rotation {\n        from {-webkit-transform: rotate(0deg);}\n        to   {-webkit-transform: rotate(359deg);}\n    }\n    @-moz-keyframes rotation {\n        from {-moz-transform: rotate(0deg);}\n        to   {-moz-transform: rotate(359deg);}\n    }\n    @-o-keyframes rotation {\n        from {-o-transform: rotate(0deg);}\n        to   {-o-transform: rotate(359deg);}\n    }\n    @keyframes rotation {\n        from {transform: rotate(0deg);}\n        to   {transform: rotate(359deg);}\n    }\n\n    @-webkit-keyframes counter-rotation {\n        from {-webkit-transform: rotate(359deg);}\n        to   {-webkit-transform: rotate(0deg);}\n    }\n    @-moz-keyframes counter-rotation {\n        from {-moz-transform: rotate(359deg);}\n        to   {-moz-transform: rotate(0deg);}\n    }\n    @-o-keyframes counter-rotation {\n        from {-o-transform: rotate(359deg);}\n        to   {-o-transform: rotate(0deg);}\n    }\n    @keyframes counter-rotation {\n        from {transform: rotate(359deg);}\n        to   {transform: rotate(0deg);}\n    }\n    @-webkit-keyframes fadeIn {\n        0% {opacity: 0;}\n        100% {opacity: 1;}\n    }\n\n    @keyframes fadeIn {\n        0% {opacity: 0;}\n        100% {opacity: 1;}\n    }\n\n    .fade-in {\n        opacity: 0;\n        animation: fadeIn 0.75s ease-in-out 0.25s forwards;\n    }\n</style>\n</html></div><div id=\"teleports\"></div><script type=\"application/json\" data-nuxt-data=\"nuxt-app\" data-ssr=\"false\" id=\"__NUXT_DATA__\">[{\"serverRendered\":1},false]</script>\n<script>window.__NUXT__={};window.__NUXT__.config={public:{customer:\"\",urlBase:\"https://%customer%.dkintern.dein-konfigurator.com\",apiBaseUrl:\"\",ppfBaseUrl:\"\",ppfCustomerPw:\"pfApi\",ppfCustomerName:\"hofmeister~authless\",device:{enabled:true,defaultUserAgent:\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.39 Safari/537.36\",refreshOnResize:false}},app:{baseURL:\"/\",buildId:\"78f6b966-fcb3-4141-91da-72899c661a68\",buildAssetsDir:\"/_nuxt/\",cdnURL:\"\"}}</script></body></html>",
+                "favicons": [
+                  {
+                    "size": 888,
+                    "name": "https://78.47.146.138/img/favicon_light.png",
+                    "hash_sha256": "162cff1ed7d385884a899a2f408d4e69365303ae3f33fdff682a4045c81318d1",
+                    "hash_md5": "fb3e9943507e0b1a98d7580300cf1d93",
+                    "hash_shodan": 887050427
+                  },
+                  {
+                    "size": 7621,
+                    "name": "https://78.47.146.138/favicon.ico",
+                    "hash_sha256": "9fbe896a4bec034a46f47b3610083cca3997d2dfacce3dcd8cc0861b70efe3ee",
+                    "hash_md5": "7abf35cba03443506dfdb1309d8466fc",
+                    "hash_shodan": -793783248
+                  }
+                ],
+                "html_title": "Ausstellungsnavigator",
+                "body_hash_sha256": "9fbe896a4bec034a46f47b3610083cca3997d2dfacce3dcd8cc0861b70efe3ee",
+                "body_hash_sha1": "067ad4ea8297a64c9ccb369776c4ca18226c7ac1",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "78.47.146.138"
+            }
+          ]
+        },
+        {
+          "port": 3690,
+          "protocol": "UNKNOWN",
+          "transport_protocol": "tcp",
+          "ip": "78.47.146.138",
+          "scan_time": "2026-01-31T12:47:43Z"
+        }
+      ],
+      "service_count": 4,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-01-26T17:43:13Z",
+          "names": [
+            "amazingstories.de"
+          ]
+        },
+        "names": [
+          "konfigurator.homepoet.de",
+          "certbotest3.amazingstories.de",
+          "kwtestversion.amazingstories.de",
+          "kwclickdummy.amazingstories.de",
+          "burger.amazing-qr-code.de",
+          "atest.amazingstories.de",
+          "www.deinekueche2023.amazingstories.de",
+          "qraviva.amazingstories.de",
+          "qrbaustaging.amazingstories.de",
+          "www.booklet.amazingstories.de",
+          "aegmock.amazingstories.de",
+          "mathekatze.amazingstories.de",
+          "www.qrprismaform.amazingstories.de",
+          "badea.amazing-qr-code.de",
+          "kvzug.amazingstories.de",
+          "certbotest1.amazingstories.de",
+          "matomo.amazingstories.de",
+          "www.mathekatze.de.amazingstories.de",
+          "www.qrpoggenpohl.amazingstories.de",
+          "qrbadea.amazingstories.de",
+          "pfmartin.amazingstories.de",
+          "kuechencheckliste.amazingstories.de",
+          "spuelenneutralbooklet.amazingstories.de",
+          "newpet.amazingstories.de",
+          "www.kwtestversion.amazingstories.de",
+          "qrmusterring.amazingstories.de",
+          "www.casadabookletpolster.amazingstories.de",
+          "www.trendhopperclickdummy.amazingstories.de",
+          "www.kwclickdumy.amazingstories.de",
+          "aviva.amazing-qr-code.de",
+          "mediacenter.kompetenz-tisch.de",
+          "www.kuechencheckliste.amazingstories.de",
+          "etikettenclickdummy.amazingstories.de",
+          "cleanup.amazingstories.de",
+          "www.emvneutralbooklet.amazingstories.de",
+          "wensel.amazingstories.de",
+          "teleringbooklet.amazingstories.de",
+          "www.dein-ausstellungsnavigator.amazingstories.de",
+          "polstermessebooklet.amazingstories.de",
+          "kundenbookletwaschturm.amazingstories.de",
+          "auftragspruefung.amazingstories.de",
+          "clickdummypolterplaner.amazingstories.de",
+          "www.verkaeufertool-neutral.amazingstories.de",
+          "newpet.kompetenz-tisch.de",
+          "www.eatdev.amazingstories.de",
+          "booklet.amazingstories.de",
+          "amazingstories.de",
+          "deinekueche2023.amazingstories.de",
+          "neuebeta.vorwerts.de",
+          "ausstellungsnavigator-messe.amazingstories.de",
+          "aegbooklet.amazingstories.de",
+          "liebherrbooklet.amazingstories.de",
+          "kundenbookletbrotz.amazingstories.de",
+          "kuechennavigatorstaging.amazingstories.de",
+          "www.kvzug.amazingstories.de",
+          "www.huelstaclickdummy.amazingstories.de",
+          "monitor.amazingstories.de",
+          "scraper.amazingstories.de",
+          "wemafaclickdummy.amazingstories.de",
+          "www.hofmeister.amazingstories.de",
+          "www.eintest.amazingstories.de",
+          "vzug.amazingstories.de",
+          "ticketing.amazingstories.de",
+          "headhunter.amazingstories.de",
+          "mediacenter.amazingstories.de",
+          "www.clickdummypolsterplaner.amazingstories.de",
+          "certbotest2.amazingstories.de",
+          "musterring.amazing-qr-code.de",
+          "www.dein-kuechennavigator.de",
+          "kompetenz-tisch.de",
+          "qrbau.amazingstories.de",
+          "www.clickdummyetikett.amazingstories.de",
+          "dktest.amazingstories.de",
+          "www.kwclickdummy.amazingstories.de",
+          "wiki.kompetenz-tisch.de",
+          "traumkueche.amazingstories.de",
+          "dvhstaging.amazingstories.de",
+          "www.vzug.amazingstories.de",
+          "www.siematic.amazingstories.de",
+          "bedarfsanalyse.amazingstories.de",
+          "qrpoggenpohl.amazingstories.de",
+          "www.monitor.amazingstories.de",
+          "kwclickdumy.amazingstories.de",
+          "trendhopperclickdummy.amazingstories.de",
+          "quooker.amazingstories.de",
+          "www.qrbau.amazingstories.de",
+          "sso.amazingstories.de",
+          "kesseboehmerbooklet.amazingstories.de",
+          "mielebooklet.amazingstories.de",
+          "www.qrbadea.amazingstories.de",
+          "optifit.amazingstories.de",
+          "www.navistaging.amazingstories.de",
+          "aegdruck.amazingstories.de",
+          "wiki.amazingstories.de",
+          "msdfzsiematic.amazingstories.de",
+          "www.clickdummywemafa.amazingstories.de",
+          "budget.kompetenz-tisch.de",
+          "dein-kuechennavigator.de",
+          "vogelsang.amazingstories.de",
+          "www.ausstellungsnavigator-messe.amazingstories.de"
+        ],
+        "forward_dns": {
+          "aegbooklet.amazingstories.de": {
+            "resolve_time": "2026-01-21T12:46:27Z",
+            "name": "aegbooklet.amazingstories.de",
+            "record_type": "a"
+          },
+          "aegdruck.amazingstories.de": {
+            "resolve_time": "2026-01-13T20:57:29Z",
+            "name": "aegdruck.amazingstories.de",
+            "record_type": "a"
+          },
+          "aegmock.amazingstories.de": {
+            "resolve_time": "2026-01-29T14:56:51Z",
+            "name": "aegmock.amazingstories.de",
+            "record_type": "a"
+          },
+          "amazingstories.de": {
+            "resolve_time": "2026-01-26T18:24:59Z",
+            "name": "amazingstories.de",
+            "record_type": "a"
+          },
+          "atest.amazingstories.de": {
+            "resolve_time": "2026-01-29T14:56:51Z",
+            "name": "atest.amazingstories.de",
+            "record_type": "a"
+          },
+          "auftragspruefung.amazingstories.de": {
+            "resolve_time": "2026-01-27T14:02:06Z",
+            "name": "auftragspruefung.amazingstories.de",
+            "record_type": "a"
+          },
+          "ausstellungsnavigator-messe.amazingstories.de": {
+            "resolve_time": "2026-01-21T12:46:27Z",
+            "name": "ausstellungsnavigator-messe.amazingstories.de",
+            "record_type": "a"
+          },
+          "aviva.amazing-qr-code.de": {
+            "resolve_time": "2026-01-28T16:21:21Z",
+            "name": "aviva.amazing-qr-code.de",
+            "record_type": "a"
+          },
+          "badea.amazing-qr-code.de": {
+            "resolve_time": "2026-01-29T14:56:51Z",
+            "name": "badea.amazing-qr-code.de",
+            "record_type": "a"
+          },
+          "bedarfsanalyse.amazingstories.de": {
+            "resolve_time": "2026-01-14T14:40:47Z",
+            "name": "bedarfsanalyse.amazingstories.de",
+            "record_type": "a"
+          },
+          "booklet.amazingstories.de": {
+            "resolve_time": "2026-01-26T18:25:01Z",
+            "name": "booklet.amazingstories.de",
+            "record_type": "a"
+          },
+          "budget.kompetenz-tisch.de": {
+            "resolve_time": "2026-01-13T20:31:59Z",
+            "name": "budget.kompetenz-tisch.de",
+            "record_type": "a"
+          },
+          "burger.amazing-qr-code.de": {
+            "resolve_time": "2026-01-29T14:56:51Z",
+            "name": "burger.amazing-qr-code.de",
+            "record_type": "a"
+          },
+          "certbotest1.amazingstories.de": {
+            "resolve_time": "2026-01-28T16:21:27Z",
+            "name": "certbotest1.amazingstories.de",
+            "record_type": "a"
+          },
+          "certbotest2.amazingstories.de": {
+            "resolve_time": "2026-01-21T12:46:20Z",
+            "name": "certbotest2.amazingstories.de",
+            "record_type": "a"
+          },
+          "certbotest3.amazingstories.de": {
+            "resolve_time": "2026-01-29T14:56:52Z",
+            "name": "certbotest3.amazingstories.de",
+            "record_type": "a"
+          },
+          "cleanup.amazingstories.de": {
+            "resolve_time": "2026-01-27T14:02:06Z",
+            "name": "cleanup.amazingstories.de",
+            "record_type": "a"
+          },
+          "clickdummypolterplaner.amazingstories.de": {
+            "resolve_time": "2026-01-27T14:02:06Z",
+            "name": "clickdummypolterplaner.amazingstories.de",
+            "record_type": "a"
+          },
+          "dein-kuechennavigator.de": {
+            "resolve_time": "2026-01-13T20:19:07Z",
+            "name": "dein-kuechennavigator.de",
+            "record_type": "a"
+          },
+          "deinekueche2023.amazingstories.de": {
+            "resolve_time": "2026-01-26T17:25:06Z",
+            "name": "deinekueche2023.amazingstories.de",
+            "record_type": "a"
+          },
+          "dktest.amazingstories.de": {
+            "resolve_time": "2026-01-15T16:41:28Z",
+            "name": "dktest.amazingstories.de",
+            "record_type": "a"
+          },
+          "dvhstaging.amazingstories.de": {
+            "resolve_time": "2026-01-14T14:40:48Z",
+            "name": "dvhstaging.amazingstories.de",
+            "record_type": "a"
+          },
+          "etikettenclickdummy.amazingstories.de": {
+            "resolve_time": "2026-01-27T14:02:06Z",
+            "name": "etikettenclickdummy.amazingstories.de",
+            "record_type": "a"
+          },
+          "headhunter.amazingstories.de": {
+            "resolve_time": "2026-01-21T12:46:21Z",
+            "name": "headhunter.amazingstories.de",
+            "record_type": "a"
+          },
+          "kesseboehmerbooklet.amazingstories.de": {
+            "resolve_time": "2026-01-13T20:57:30Z",
+            "name": "kesseboehmerbooklet.amazingstories.de",
+            "record_type": "a"
+          },
+          "kompetenz-tisch.de": {
+            "resolve_time": "2026-01-16T12:44:26Z",
+            "name": "kompetenz-tisch.de",
+            "record_type": "a"
+          },
+          "konfigurator.homepoet.de": {
+            "resolve_time": "2026-01-31T12:29:41Z",
+            "name": "konfigurator.homepoet.de",
+            "record_type": "a"
+          },
+          "kuechencheckliste.amazingstories.de": {
+            "resolve_time": "2026-01-28T16:21:23Z",
+            "name": "kuechencheckliste.amazingstories.de",
+            "record_type": "a"
+          },
+          "kuechennavigatorstaging.amazingstories.de": {
+            "resolve_time": "2026-01-21T12:46:24Z",
+            "name": "kuechennavigatorstaging.amazingstories.de",
+            "record_type": "a"
+          },
+          "kundenbookletbrotz.amazingstories.de": {
+            "resolve_time": "2026-01-21T12:46:25Z",
+            "name": "kundenbookletbrotz.amazingstories.de",
+            "record_type": "a"
+          },
+          "kundenbookletwaschturm.amazingstories.de": {
+            "resolve_time": "2026-01-27T14:02:06Z",
+            "name": "kundenbookletwaschturm.amazingstories.de",
+            "record_type": "a"
+          },
+          "kvzug.amazingstories.de": {
+            "resolve_time": "2026-01-28T16:21:27Z",
+            "name": "kvzug.amazingstories.de",
+            "record_type": "a"
+          },
+          "kwclickdummy.amazingstories.de": {
+            "resolve_time": "2026-01-29T14:56:51Z",
+            "name": "kwclickdummy.amazingstories.de",
+            "record_type": "a"
+          },
+          "kwclickdumy.amazingstories.de": {
+            "resolve_time": "2026-01-14T14:40:46Z",
+            "name": "kwclickdumy.amazingstories.de",
+            "record_type": "a"
+          },
+          "kwtestversion.amazingstories.de": {
+            "resolve_time": "2026-01-29T14:56:52Z",
+            "name": "kwtestversion.amazingstories.de",
+            "record_type": "a"
+          },
+          "liebherrbooklet.amazingstories.de": {
+            "resolve_time": "2026-01-21T12:46:25Z",
+            "name": "liebherrbooklet.amazingstories.de",
+            "record_type": "a"
+          },
+          "mathekatze.amazingstories.de": {
+            "resolve_time": "2026-01-29T14:56:51Z",
+            "name": "mathekatze.amazingstories.de",
+            "record_type": "a"
+          },
+          "matomo.amazingstories.de": {
+            "resolve_time": "2026-01-28T16:21:24Z",
+            "name": "matomo.amazingstories.de",
+            "record_type": "a"
+          },
+          "mediacenter.amazingstories.de": {
+            "resolve_time": "2026-01-21T12:46:21Z",
+            "name": "mediacenter.amazingstories.de",
+            "record_type": "a"
+          },
+          "mediacenter.kompetenz-tisch.de": {
+            "resolve_time": "2026-01-28T16:00:31Z",
+            "name": "mediacenter.kompetenz-tisch.de",
+            "record_type": "a"
+          },
+          "mielebooklet.amazingstories.de": {
+            "resolve_time": "2026-01-13T20:57:30Z",
+            "name": "mielebooklet.amazingstories.de",
+            "record_type": "a"
+          },
+          "monitor.amazingstories.de": {
+            "resolve_time": "2026-01-21T12:46:22Z",
+            "name": "monitor.amazingstories.de",
+            "record_type": "a"
+          },
+          "msdfzsiematic.amazingstories.de": {
+            "resolve_time": "2026-01-13T20:57:29Z",
+            "name": "msdfzsiematic.amazingstories.de",
+            "record_type": "a"
+          },
+          "musterring.amazing-qr-code.de": {
+            "resolve_time": "2026-01-19T23:05:12Z",
+            "name": "musterring.amazing-qr-code.de",
+            "record_type": "a"
+          },
+          "neuebeta.vorwerts.de": {
+            "resolve_time": "2026-01-26T14:21:05Z",
+            "name": "neuebeta.vorwerts.de",
+            "record_type": "a"
+          },
+          "newpet.amazingstories.de": {
+            "resolve_time": "2026-01-28T16:21:23Z",
+            "name": "newpet.amazingstories.de",
+            "record_type": "a"
+          },
+          "newpet.kompetenz-tisch.de": {
+            "resolve_time": "2026-01-26T18:43:14Z",
+            "name": "newpet.kompetenz-tisch.de",
+            "record_type": "a"
+          },
+          "optifit.amazingstories.de": {
+            "resolve_time": "2026-01-13T20:57:30Z",
+            "name": "optifit.amazingstories.de",
+            "record_type": "a"
+          },
+          "pfmartin.amazingstories.de": {
+            "resolve_time": "2026-01-28T16:21:23Z",
+            "name": "pfmartin.amazingstories.de",
+            "record_type": "a"
+          },
+          "polstermessebooklet.amazingstories.de": {
+            "resolve_time": "2026-01-27T14:02:06Z",
+            "name": "polstermessebooklet.amazingstories.de",
+            "record_type": "a"
+          },
+          "qraviva.amazingstories.de": {
+            "resolve_time": "2026-01-29T14:56:51Z",
+            "name": "qraviva.amazingstories.de",
+            "record_type": "a"
+          },
+          "qrbadea.amazingstories.de": {
+            "resolve_time": "2026-01-28T16:21:23Z",
+            "name": "qrbadea.amazingstories.de",
+            "record_type": "a"
+          },
+          "qrbau.amazingstories.de": {
+            "resolve_time": "2026-01-16T12:11:25Z",
+            "name": "qrbau.amazingstories.de",
+            "record_type": "a"
+          },
+          "qrbaustaging.amazingstories.de": {
+            "resolve_time": "2026-01-29T14:56:51Z",
+            "name": "qrbaustaging.amazingstories.de",
+            "record_type": "a"
+          },
+          "qrmusterring.amazingstories.de": {
+            "resolve_time": "2026-01-28T16:21:23Z",
+            "name": "qrmusterring.amazingstories.de",
+            "record_type": "a"
+          },
+          "qrpoggenpohl.amazingstories.de": {
+            "resolve_time": "2026-01-14T14:40:47Z",
+            "name": "qrpoggenpohl.amazingstories.de",
+            "record_type": "a"
+          },
+          "quooker.amazingstories.de": {
+            "resolve_time": "2026-01-14T14:40:46Z",
+            "name": "quooker.amazingstories.de",
+            "record_type": "a"
+          },
+          "scraper.amazingstories.de": {
+            "resolve_time": "2026-01-21T12:46:22Z",
+            "name": "scraper.amazingstories.de",
+            "record_type": "a"
+          },
+          "spuelenneutralbooklet.amazingstories.de": {
+            "resolve_time": "2026-01-28T16:21:23Z",
+            "name": "spuelenneutralbooklet.amazingstories.de",
+            "record_type": "a"
+          },
+          "sso.amazingstories.de": {
+            "resolve_time": "2026-01-14T14:40:45Z",
+            "name": "sso.amazingstories.de",
+            "record_type": "a"
+          },
+          "teleringbooklet.amazingstories.de": {
+            "resolve_time": "2026-01-27T14:02:06Z",
+            "name": "teleringbooklet.amazingstories.de",
+            "record_type": "a"
+          },
+          "ticketing.amazingstories.de": {
+            "resolve_time": "2026-01-21T12:46:21Z",
+            "name": "ticketing.amazingstories.de",
+            "record_type": "a"
+          },
+          "traumkueche.amazingstories.de": {
+            "resolve_time": "2026-01-15T04:22:29Z",
+            "name": "traumkueche.amazingstories.de",
+            "record_type": "a"
+          },
+          "trendhopperclickdummy.amazingstories.de": {
+            "resolve_time": "2026-01-14T14:40:46Z",
+            "name": "trendhopperclickdummy.amazingstories.de",
+            "record_type": "a"
+          },
+          "vogelsang.amazingstories.de": {
+            "resolve_time": "2026-01-12T18:53:42Z",
+            "name": "vogelsang.amazingstories.de",
+            "record_type": "a"
+          },
+          "vzug.amazingstories.de": {
+            "resolve_time": "2026-01-21T12:46:22Z",
+            "name": "vzug.amazingstories.de",
+            "record_type": "a"
+          },
+          "wemafaclickdummy.amazingstories.de": {
+            "resolve_time": "2026-01-21T12:46:22Z",
+            "name": "wemafaclickdummy.amazingstories.de",
+            "record_type": "a"
+          },
+          "wensel.amazingstories.de": {
+            "resolve_time": "2026-01-27T14:02:06Z",
+            "name": "wensel.amazingstories.de",
+            "record_type": "a"
+          },
+          "wiki.amazingstories.de": {
+            "resolve_time": "2026-01-13T20:57:29Z",
+            "name": "wiki.amazingstories.de",
+            "record_type": "a"
+          },
+          "wiki.kompetenz-tisch.de": {
+            "resolve_time": "2026-01-15T16:12:11Z",
+            "name": "wiki.kompetenz-tisch.de",
+            "record_type": "a"
+          },
+          "www.ausstellungsnavigator-messe.amazingstories.de": {
+            "resolve_time": "2026-01-12T18:53:42Z",
+            "name": "www.ausstellungsnavigator-messe.amazingstories.de",
+            "record_type": "a"
+          },
+          "www.booklet.amazingstories.de": {
+            "resolve_time": "2026-01-29T14:56:51Z",
+            "name": "www.booklet.amazingstories.de",
+            "record_type": "a"
+          },
+          "www.casadabookletpolster.amazingstories.de": {
+            "resolve_time": "2026-01-28T16:21:23Z",
+            "name": "www.casadabookletpolster.amazingstories.de",
+            "record_type": "a"
+          },
+          "www.clickdummyetikett.amazingstories.de": {
+            "resolve_time": "2026-01-16T12:11:23Z",
+            "name": "www.clickdummyetikett.amazingstories.de",
+            "record_type": "a"
+          },
+          "www.clickdummypolsterplaner.amazingstories.de": {
+            "resolve_time": "2026-01-21T12:46:21Z",
+            "name": "www.clickdummypolsterplaner.amazingstories.de",
+            "record_type": "a"
+          },
+          "www.clickdummywemafa.amazingstories.de": {
+            "resolve_time": "2026-01-13T20:57:29Z",
+            "name": "www.clickdummywemafa.amazingstories.de",
+            "record_type": "a"
+          },
+          "www.dein-ausstellungsnavigator.amazingstories.de": {
+            "resolve_time": "2026-01-27T14:02:06Z",
+            "name": "www.dein-ausstellungsnavigator.amazingstories.de",
+            "record_type": "a"
+          },
+          "www.dein-kuechennavigator.de": {
+            "resolve_time": "2026-01-18T12:33:19Z",
+            "name": "www.dein-kuechennavigator.de",
+            "record_type": "a"
+          },
+          "www.deinekueche2023.amazingstories.de": {
+            "resolve_time": "2026-01-29T14:56:51Z",
+            "name": "www.deinekueche2023.amazingstories.de",
+            "record_type": "a"
+          },
+          "www.eatdev.amazingstories.de": {
+            "resolve_time": "2026-01-26T18:25:10Z",
+            "name": "www.eatdev.amazingstories.de",
+            "record_type": "a"
+          },
+          "www.eintest.amazingstories.de": {
+            "resolve_time": "2026-01-21T12:46:22Z",
+            "name": "www.eintest.amazingstories.de",
+            "record_type": "a"
+          },
+          "www.emvneutralbooklet.amazingstories.de": {
+            "resolve_time": "2026-01-27T14:02:06Z",
+            "name": "www.emvneutralbooklet.amazingstories.de",
+            "record_type": "a"
+          },
+          "www.hofmeister.amazingstories.de": {
+            "resolve_time": "2026-01-21T12:46:22Z",
+            "name": "www.hofmeister.amazingstories.de",
+            "record_type": "a"
+          },
+          "www.huelstaclickdummy.amazingstories.de": {
+            "resolve_time": "2026-01-21T12:46:22Z",
+            "name": "www.huelstaclickdummy.amazingstories.de",
+            "record_type": "a"
+          },
+          "www.kuechencheckliste.amazingstories.de": {
+            "resolve_time": "2026-01-27T14:02:07Z",
+            "name": "www.kuechencheckliste.amazingstories.de",
+            "record_type": "a"
+          },
+          "www.kvzug.amazingstories.de": {
+            "resolve_time": "2026-01-21T12:46:23Z",
+            "name": "www.kvzug.amazingstories.de",
+            "record_type": "a"
+          },
+          "www.kwclickdummy.amazingstories.de": {
+            "resolve_time": "2026-01-15T16:41:28Z",
+            "name": "www.kwclickdummy.amazingstories.de",
+            "record_type": "a"
+          },
+          "www.kwclickdumy.amazingstories.de": {
+            "resolve_time": "2026-01-28T16:21:23Z",
+            "name": "www.kwclickdumy.amazingstories.de",
+            "record_type": "a"
+          },
+          "www.kwtestversion.amazingstories.de": {
+            "resolve_time": "2026-01-28T16:21:23Z",
+            "name": "www.kwtestversion.amazingstories.de",
+            "record_type": "a"
+          },
+          "www.mathekatze.de.amazingstories.de": {
+            "resolve_time": "2026-01-28T16:21:24Z",
+            "name": "www.mathekatze.de.amazingstories.de",
+            "record_type": "a"
+          },
+          "www.monitor.amazingstories.de": {
+            "resolve_time": "2026-01-14T14:40:46Z",
+            "name": "www.monitor.amazingstories.de",
+            "record_type": "a"
+          },
+          "www.navistaging.amazingstories.de": {
+            "resolve_time": "2026-01-13T20:57:30Z",
+            "name": "www.navistaging.amazingstories.de",
+            "record_type": "a"
+          },
+          "www.qrbadea.amazingstories.de": {
+            "resolve_time": "2026-01-13T20:57:30Z",
+            "name": "www.qrbadea.amazingstories.de",
+            "record_type": "a"
+          },
+          "www.qrbau.amazingstories.de": {
+            "resolve_time": "2026-01-14T14:40:46Z",
+            "name": "www.qrbau.amazingstories.de",
+            "record_type": "a"
+          },
+          "www.qrpoggenpohl.amazingstories.de": {
+            "resolve_time": "2026-01-28T16:21:24Z",
+            "name": "www.qrpoggenpohl.amazingstories.de",
+            "record_type": "a"
+          },
+          "www.qrprismaform.amazingstories.de": {
+            "resolve_time": "2026-01-29T14:56:51Z",
+            "name": "www.qrprismaform.amazingstories.de",
+            "record_type": "a"
+          },
+          "www.siematic.amazingstories.de": {
+            "resolve_time": "2026-01-14T14:40:47Z",
+            "name": "www.siematic.amazingstories.de",
+            "record_type": "a"
+          },
+          "www.trendhopperclickdummy.amazingstories.de": {
+            "resolve_time": "2026-01-28T16:21:23Z",
+            "name": "www.trendhopperclickdummy.amazingstories.de",
+            "record_type": "a"
+          },
+          "www.verkaeufertool-neutral.amazingstories.de": {
+            "resolve_time": "2026-01-27T14:02:06Z",
+            "name": "www.verkaeufertool-neutral.amazingstories.de",
+            "record_type": "a"
+          },
+          "www.vzug.amazingstories.de": {
+            "resolve_time": "2026-01-14T14:40:47Z",
+            "name": "www.vzug.amazingstories.de",
+            "record_type": "a"
+          }
+        }
+      },
+      "operating_system": {
+        "vendor": "canonical",
+        "product": "linux"
+      }
+    },
+    "extensions": {}
+  }
+}

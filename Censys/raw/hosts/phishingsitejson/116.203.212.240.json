@@ -1,0 +1,601 @@
+{
+  "result": {
+    "resource": {
+      "ip": "116.203.212.240",
+      "location": {
+        "continent": "Europe",
+        "country": "Germany",
+        "country_code": "DE",
+        "city": "N\u00fcrnberg",
+        "postal_code": "90402",
+        "timezone": "Europe/Berlin",
+        "province": "Bavaria",
+        "coordinates": {
+          "latitude": 49.45421,
+          "longitude": 11.07752
+        }
+      },
+      "autonomous_system": {
+        "asn": 24940,
+        "description": "HETZNER-AS",
+        "bgp_prefix": "116.203.0.0/16",
+        "name": "HETZNER-AS",
+        "country_code": "DE"
+      },
+      "whois": {
+        "network": {
+          "handle": "CLOUD-NBG1",
+          "name": "Hetzner Online GmbH",
+          "cidrs": [
+            "116.203.208.0/20"
+          ],
+          "created": "2023-12-12T00:00:00Z",
+          "updated": "2023-12-12T00:00:00Z"
+        },
+        "organization": {
+          "handle": "ORG-HOA1-RIPE",
+          "name": "Hetzner Online GmbH",
+          "address": "Industriestrasse 25\\nD-91710\\nGunzenhausen\\nGERMANY",
+          "abuse_contacts": [
+            {
+              "handle": "HOAC1-RIPE",
+              "name": "Hetzner Online GmbH - Contact Role",
+              "email": "ripe@hetzner.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "GM834-RIPE",
+              "name": "Guenther Mueller",
+              "email": "info@hetzner.de"
+            },
+            {
+              "handle": "HOAC1-RIPE",
+              "name": "Hetzner Online GmbH - Contact Role",
+              "email": "ripe@hetzner.com"
+            },
+            {
+              "handle": "MF1400-RIPE",
+              "name": "Martin Fritzsche",
+              "email": "martin.fritzsche@hetzner.com"
+            },
+            {
+              "handle": "MH375-RIPE",
+              "name": "Martin Hetzner",
+              "email": "info@hetzner.de"
+            },
+            {
+              "handle": "SK2374-RIPE",
+              "name": "Stephan Konvickova",
+              "email": "stephan.konvickova@hetzner.de"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "f5",
+              "product": "nginx"
+            }
+          ],
+          "labels": [
+            {
+              "value": "DEFAULT_LANDING_PAGE"
+            }
+          ],
+          "ip": "116.203.212.240",
+          "scan_time": "2026-01-31T03:47:07Z",
+          "endpoints": [
+            {
+              "hostname": "116.203.212.240",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T03:47:07Z",
+              "http": {
+                "uri": "http://116.203.212.240/",
+                "protocol": "HTTP/1.1",
+                "status_code": 200,
+                "status_reason": "OK",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Encoding": {
+                    "headers": [
+                      "gzip"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "ETag": {
+                    "headers": [
+                      "W/\"62a4cadc-264\""
+                    ]
+                  },
+                  "Last-Modified": {
+                    "headers": [
+                      "Sat, 11 Jun 2022 17:03:24 GMT"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "nginx"
+                    ]
+                  },
+                  "Transfer-Encoding": {
+                    "headers": [
+                      "chunked"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>Welcome to nginx!</title>"
+                ],
+                "body_size": 612,
+                "body": "<!DOCTYPE html>\n<html>\n<head>\n<title>Welcome to nginx!</title>\n<style>\n    body {\n        width: 35em;\n        margin: 0 auto;\n        font-family: Tahoma, Verdana, Arial, sans-serif;\n    }\n</style>\n</head>\n<body>\n<h1>Welcome to nginx!</h1>\n<p>If you see this page, the nginx web server is successfully installed and\nworking. Further configuration is required.</p>\n\n<p>For online documentation and support please refer to\n<a href=\"http://nginx.org/\">nginx.org</a>.<br/>\nCommercial support is available at\n<a href=\"http://nginx.com/\">nginx.com</a>.</p>\n\n<p><em>Thank you for using nginx.</em></p>\n</body>\n</html>\n",
+                "html_title": "Welcome to nginx!",
+                "body_hash_sha256": "38ffd4972ae513a0c79a8be4573403edcd709f0f572105362b08ff50cf6de521",
+                "body_hash_sha1": "7dd71afcfb14e105e80b0c0d7fce370a28a41f0a",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "116.203.212.240"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "d9dc703a6eb709bdd88046639c523c1a1c3a32c7c36effc178684976129c49a6",
+            "fingerprint_sha1": "d2e392285c94a82a675858839bbcda27cc851537",
+            "fingerprint_md5": "22b41737d93018464965184213f93068",
+            "tbs_fingerprint_sha256": "c0bbadd053189caeaee62f5570b074e41a36aed5db92c71a5a30e358496e194f",
+            "tbs_no_ct_fingerprint_sha256": "a94b7a0f0c09ae1c8789f7265bbae58b36575d20d1b70dad8cff2b5649e91e86",
+            "spki_fingerprint_sha256": "87566242a3551e0ed1c744bfde2a671bb46197e068db8001aca215f01f236d48",
+            "parent_spki_fingerprint_sha256": "c371ff3999e48d7f12047d728aa0d949d8057e1c43eceff673426a8b9b7ff278",
+            "parsed": {
+              "version": 3,
+              "serial_number": "480904698419930012802172621727394963363761",
+              "issuer_dn": "C=US, O=Let's Encrypt, CN=R13",
+              "issuer": {
+                "common_name": [
+                  "R13"
+                ],
+                "country": [
+                  "US"
+                ],
+                "organization": [
+                  "Let's Encrypt"
+                ]
+              },
+              "subject_dn": "CN=nimblr.software",
+              "subject": {
+                "common_name": [
+                  "nimblr.software"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "RSA",
+                  "oid": "1.2.840.113549.1.1.1"
+                },
+                "rsa": {
+                  "exponent": 65537,
+                  "modulus": "b05863ffded8682a8735266911203064c188b9b1ec0c81a601a84a390673b238e3ff3ce3e5619f65961b3ae5524cf766e9374647f1cf0556de49fc425da810a5a748546ec4e97b395b4bc7b9dcb4d61aad0a51b43d71dfb2a6eb477de9b1f98ef935d5d7acf8b8c87f21ec13297f7c174c983bee18030bdbf87e81936757c49e3182dcac124dee81ada7528c2d50540978762b0687778d77c52087d48a0b2cc32d43afc898045a84c4e91f50a04467296021855ba0f88a59e2d58dd00b8c5b2f34c1a739e40b84c91dcc99bede053ee5f076cc9447a5aabc689cd5f37cd036c32fa34ad6b337f49e3d12431a22e396f65fb470ab9e1f4aee2fdb7a7dcd6fbf8b",
+                  "length": 2048
+                },
+                "fingerprint_sha256": "9a202fb6e3e5abcfcd232b5f29a09332103441cfb6435c2811f5df27e16acea9"
+              },
+              "validity_period": {
+                "not_before": "2025-12-12T19:36:28Z",
+                "not_after": "2026-03-12T19:36:27Z",
+                "length_seconds": 7776000
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "SHA256-RSA",
+                  "oid": "1.2.840.113549.1.1.11"
+                },
+                "value": "874eb0191666ceaab41728bb9a81bd332da4dfd9011e0f203812d10f9dda3c6bd628bf1c31c58b48a2f685b5f213d5614252574962a8687f32e331cbbf2567cae42c6ea4feddb04b3ffb3261041caa921b14981178bae4642c5138b0e3814e3702daedb51c2c3e1f6f1e772815ca95010628cda649a42f2ec961a7505d21b91d3089f1a107ba93b8aeae784178b09b9a17f87e01256a7ab5787ae7e156a09c6a1d3217aff0636861884cfb2963a54d709ae3756998dd72b0f9eca6dd2ca97fbad889dbd6d82f362eae06c87f34bcdb321f0780543566cb67dcc3cda9196924425ffed9f9d8b43be6edc7b04869baa5d861516f72061b6874784fb9f9fd384365",
+                "valid": true
+              },
+              "serial_number_hex": "0585407be88956bc3053d030f0ee905b97b1"
+            },
+            "names": [
+              "135461223.site",
+              "1491321218.site",
+              "awrns.net",
+              "h3.fo",
+              "h4.fo",
+              "nimblr.software"
+            ],
+            "validation_level": "dv",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "d3b128216a843f8ef1321501f5df52a5df52939ee2c19297712cd3de4d419354",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "d3b128216a843f8ef1321501f5df52a5df52939ee2c19297712cd3de4d419354"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "d3b128216a843f8ef1321501f5df52a5df52939ee2c19297712cd3de4d419354",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "d3b128216a843f8ef1321501f5df52a5df52939ee2c19297712cd3de4d419354"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "d3b128216a843f8ef1321501f5df52a5df52939ee2c19297712cd3de4d419354",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "d3b128216a843f8ef1321501f5df52a5df52939ee2c19297712cd3de4d419354"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "d3b128216a843f8ef1321501f5df52a5df52939ee2c19297712cd3de4d419354",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "d3b128216a843f8ef1321501f5df52a5df52939ee2c19297712cd3de4d419354"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {},
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "google_argon_2026_h1": {
+                  "index": 1298502498,
+                  "added_to_ct_at": "2025-12-12T20:34:58Z",
+                  "ct_to_censys_at": "2025-12-12T20:46:21Z"
+                },
+                "google_xenon_2026_h1": {
+                  "index": 1244313972,
+                  "added_to_ct_at": "2025-12-12T20:34:58Z",
+                  "ct_to_censys_at": "2025-12-12T20:48:20Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2025-12-12T20:46:22Z",
+            "modified_at": "2025-12-12T23:56:53Z",
+            "validated_at": "2026-01-30T16:23:16Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "87566242a3551e0ed1c744bfde2a671bb46197e068db8001aca215f01f236d48",
+            "parent_spki_subject_fingerprint_sha256": "c371ff3999e48d7f12047d728aa0d949d8057e1c43eceff673426a8b9b7ff278"
+          },
+          "software": [
+            {
+              "vendor": "f5",
+              "product": "nginx"
+            }
+          ],
+          "labels": [
+            {
+              "value": "LOGIN_PAGE"
+            }
+          ],
+          "ip": "116.203.212.240",
+          "scan_time": "2026-01-31T07:19:00Z",
+          "tls": {
+            "fingerprint_sha256": "d9dc703a6eb709bdd88046639c523c1a1c3a32c7c36effc178684976129c49a6",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "d3b128216a843f8ef1321501f5df52a5df52939ee2c19297712cd3de4d419354",
+                "subject_dn": "C=US, O=Let's Encrypt, CN=R13",
+                "issuer_dn": "C=US, O=Internet Security Research Group, CN=ISRG Root X1"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "116.203.212.240",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T07:19:00Z",
+              "http": {
+                "uri": "https://116.203.212.240/",
+                "protocol": "HTTP/1.1",
+                "status_code": 302,
+                "status_reason": "Found",
+                "headers": {
+                  "Cache-Control": {
+                    "headers": [
+                      "no-cache, private"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Security-Policy-Report-Only": {
+                    "headers": [
+                      "default-src 'self'; script-src 'self'  'unsafe-inline' 'unsafe-eval'; style-src 'self'  'unsafe-inline' fonts.bunny.net; img-src 'self'  https://135461223.site https://nimblr.net data:; font-src 'self' data: fonts.bunny.net;object-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'self' https://135461223.site; worker-src 'self' blob:;report-uri /api/csp-violation-report"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html; charset=utf-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Location": {
+                    "headers": [
+                      "https://135461223.site/login"
+                    ]
+                  },
+                  "Referrer-Policy": {
+                    "headers": [
+                      "same-origin"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "nginx"
+                    ]
+                  },
+                  "Set-Cookie": {
+                    "headers": [
+                      "XSRF-TOKEN=eyJpdiI6IkFTZmZKZWJiRkRCMWhQRkhDbGNvRHc9PSIsInZhbHVlIjoicGVmTkJrQ3BFNFN2VDcxeTB5bDdQMWF0ZDN1WnhoRlRZUnN3TllKUGo4eURIZFI2ZkJickJZemlVaS8vMTFXNitQZ3VkWkREcEs0WXFSeS9rV0Jza1E5WFdhZnJrTSs0Yzh3eTA4cTI2R01RYTNheWhLb0ZIb2kwdXVoY1ZScVgiLCJtYWMiOiIyNWE5OWVhNTQxZGJkNjE5MjYxZDEyNTZjYWVmMDlmNTAwMTBkZTNhODgxMjg1Mjc4YzU0NzRlYTdhYzI4NTdkIiwidGFnIjoiIn0%3D; expires=Sat, 31 Jan 2026 09:19:00 GMT; Max-Age=7200; path=/; secure; samesite=lax",
+                      "__HostProd_session=eyJpdiI6InJnZDVUemd5VkZQU0lTVG1RRzJDVGc9PSIsInZhbHVlIjoiL2VBY2xMYVhNRDVjZ1NIY3FCUVd3S3BZZDBkRURpVHptb2tuaEhCKzNDT3hyOHZoRkFlZjQzUGgvblc3N2pmdDZiVmFIdGxwci9Od2RKYlZsdzdhdnRyQzRXNE4xckRBU3JlVTNRc1lWVExqQjI1STVLb0NZZ2VtckNqK3FqWEIiLCJtYWMiOiJhNzNkZWY3ZWRiYThkYzAyZGFmYzRiMGYyNzFhZDI5MGMzMTMzNjU1Y2FmMDJhNzA5MTJiZmQyYjM3Yzc3MWVmIiwidGFnIjoiIn0%3D; expires=Sat, 31 Jan 2026 09:19:00 GMT; Max-Age=7200; path=/; secure; httponly; samesite=lax"
+                    ]
+                  },
+                  "Strict-Transport-Security": {
+                    "headers": [
+                      "max-age=31536000; includeSubDomains;"
+                    ]
+                  },
+                  "Transfer-Encoding": {
+                    "headers": [
+                      "chunked"
+                    ]
+                  },
+                  "X-Content-Type-Options": {
+                    "headers": [
+                      "nosniff"
+                    ]
+                  },
+                  "X-Frame-Options": {
+                    "headers": [
+                      "DENY"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>Redirecting to https://135461223.site/login</title>",
+                  "<meta charset=\"UTF-8\" />",
+                  "<meta http-equiv=\"refresh\" content=\"0;url='https://135461223.site/login'\" />"
+                ],
+                "body_size": 358,
+                "body": "<!DOCTYPE html>\n<html>\n    <head>\n        <meta charset=\"UTF-8\" />\n        <meta http-equiv=\"refresh\" content=\"0;url='https://135461223.site/login'\" />\n\n        <title>Redirecting to https://135461223.site/login</title>\n    </head>\n    <body>\n        Redirecting to <a href=\"https://135461223.site/login\">https://135461223.site/login</a>.\n    </body>\n</html>",
+                "html_title": "Redirecting to https://135461223.site/login",
+                "body_hash_sha256": "9647090fdea4b19c5fb85eced83da2ce50596a167fecfadbaa84ca68bbf5d955",
+                "body_hash_sha1": "1dd2d2e938f45fe84b7b8f3972b694f5d35c4557",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "116.203.212.240"
+            },
+            {
+              "hostname": "116.203.212.240",
+              "port": 443,
+              "path": "/login",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-30T16:54:18Z",
+              "http": {
+                "uri": "https://116.203.212.240/login",
+                "protocol": "HTTP/1.1",
+                "status_code": 200,
+                "status_reason": "OK",
+                "headers": {
+                  "Cache-Control": {
+                    "headers": [
+                      "no-cache, private"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Encoding": {
+                    "headers": [
+                      "gzip"
+                    ]
+                  },
+                  "Content-Security-Policy-Report-Only": {
+                    "headers": [
+                      "default-src 'self'; script-src 'self'  'unsafe-inline' 'unsafe-eval'; style-src 'self'  'unsafe-inline' fonts.bunny.net; img-src 'self'  https://135461223.site https://nimblr.net data:; font-src 'self' data: fonts.bunny.net;object-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'self' https://135461223.site; worker-src 'self' blob:;report-uri /api/csp-violation-report"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html; charset=UTF-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Referrer-Policy": {
+                    "headers": [
+                      "same-origin"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "nginx"
+                    ]
+                  },
+                  "Set-Cookie": {
+                    "headers": [
+                      "XSRF-TOKEN=eyJpdiI6Im1pRXpWMWgvZUhidXZ1Q2p3VmM1N2c9PSIsInZhbHVlIjoickZkYUZ1RU5xSjdVSnFEUStFdHlEVTlQY01hbG5sV1diVGNSY3Nkd0JuK1BnUDJ2Qksra2NJTk1SOExwSkcxZVVJR3FBSFhHdVlvNStZQjUvT0FydkxWSkpmS1d0VVZUUmdNRTRJMVhtdTA5K3dxVlRJR1RIVmJTTklxVXF0V3EiLCJtYWMiOiI5YjMzY2I1MzUzODM1OTJhODBhMWRiMjUyZTMwNDZhNWYyOTJkNDNiYmM0YjFlY2QzN2M2YWUzMzBkMWY3MjZhIiwidGFnIjoiIn0%3D; expires=Fri, 30 Jan 2026 18:54:26 GMT; Max-Age=7200; path=/; secure; samesite=lax",
+                      "__HostProd_session=eyJpdiI6IjBKdWJaM3hVRVVmc2liMDZZTklYTEE9PSIsInZhbHVlIjoidEY5TXhmR2ZENUJwbUFEN1UvdUhRczh2NEdQK3F6TnZhMy9KemYwNXA0VkpFVmVZSk94THZCQzI3MFlGN2lRR3c4bDB1Q2dLWFlNc25GT2FOS0VacEF1cUdJakR4ZUYvQWtLbzNaUXE3RUJUMnkrdnc1WFNVU0NCNU9nZ0E1L0giLCJtYWMiOiJmZDgyNzc4ZmIxNjBmNDE3NzVhNTMzM2MwNTY2ZmI0NGVhOGZlYzU1YmViMGNhMDgxZDc1YmUyYmM5YWU0MjNiIiwidGFnIjoiIn0%3D; expires=Fri, 30 Jan 2026 18:54:26 GMT; Max-Age=7200; path=/; secure; httponly; samesite=lax"
+                    ]
+                  },
+                  "Strict-Transport-Security": {
+                    "headers": [
+                      "max-age=31536000; includeSubDomains;"
+                    ]
+                  },
+                  "Transfer-Encoding": {
+                    "headers": [
+                      "chunked"
+                    ]
+                  },
+                  "X-Content-Type-Options": {
+                    "headers": [
+                      "nosniff"
+                    ]
+                  },
+                  "X-Frame-Options": {
+                    "headers": [
+                      "DENY"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>Nimblr Security Awareness</title>",
+                  "<meta charset=\"utf-8\">",
+                  "<meta name=\"csrf-token\" content=\"gkcQiruEbTDhEkZGQRKSanPght87Amtmum32vmIP\">",
+                  "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
+                ],
+                "body_size": 10466,
+                "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <title>Nimblr Security Awareness</title>\n    <meta charset=\"utf-8\">\n    <meta name=\"csrf-token\" content=\"gkcQiruEbTDhEkZGQRKSanPght87Amtmum32vmIP\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\n            <link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"https://135461223.site/images/nimblr_icon.png\" />\n    \n    \n    <link rel=\"stylesheet\" href=\"https://fonts.bunny.net/css?family=Poppins:300,400,500,600,700\"/>\n    \n\n    \n    \n            \n                                    <link rel=\"preload\" href=\"https://135461223.site/demo2/plugins/global/plugins.bundle.css\" as=\"style\" onload=\"this.onload=null;this.rel='stylesheet'\" type=\"text/css\"><noscript><link rel=\"stylesheet\" href=\"https://135461223.site/demo2/plugins/global/plugins.bundle.css\"></noscript>\n                                                <link rel=\"preload\" href=\"https://135461223.site/demo2/plugins/global/plugins-custom.bundle.css\" as=\"style\" onload=\"this.onload=null;this.rel='stylesheet'\" type=\"text/css\"><noscript><link rel=\"stylesheet\" href=\"https://135461223.site/demo2/plugins/global/plugins-custom.bundle.css\"></noscript>\n                                                <link href=\"https://135461223.site/demo2/css/style.bundle.css\" rel=\"stylesheet\" type=\"text/css\"/>\n                            \n    \n    <link href=\"/css/template.css?id=50ba0d09c28e28eaffb974a33a83b778\" rel=\"stylesheet\">\n\n    \n    \n    \n    \n            \n                    <script src=\"https://135461223.site/demo2/plugins/global/plugins.bundle.js\"></script>\n                    <script src=\"https://135461223.site/demo2/js/scripts.bundle.js\"></script>\n                    <script src=\"https://135461223.site/demo2/js/custom/widgets.js\"></script>\n                \n    \n    \n            \n                    <script src=\"https://135461223.site/demo2/js/custom/authentication/sign-in/general.js\"></script>\n                \n    \n    <script src=\"/js/app.js?id=0ccdff4f7561251b953d537f8a30b303\"></script>\n    <script src=\"/js/axios.js?id=ddb6d58d35ec5b4d9cffa5c8481981a0\"></script>\n    \n\n    \n</head>\n<body   >\n\n    \n    <!--begin::Root-->\n    <div class=\"d-flex flex-column flex-root\">\n            <div class=\"d-flex flex-column flex-lg-row flex-column-fluid\">\n        <div class=\"d-flex flex-column flex-lg-row-fluid w-lg-50 p-10 order-2 order-lg-1\">\n            <div class=\"d-flex flex-center flex-column flex-lg-row-fluid\">\n                <div class=\"w-lg-500px p-10\">\n                    <form class=\"form w-100\" novalidate=\"novalidate\" id=\"kt_sign_in_form\" method=\"post\" action=\"https://135461223.site/login\">\n                        <input type=\"hidden\" name=\"_token\" value=\"gkcQiruEbTDhEkZGQRKSanPght87Amtmum32vmIP\">                        <div class=\"text-center mb-8\">\n                            <h1 class=\"text-dark fw-bolder mb-3\">Sign in</h1>\n                                                    </div>\n\n                        \n                        <div class=\"text-center mb-10 px-10\" style=\"max-width: 300px; margin: 0 auto;\">\n                            <span class=\"text-gray-600 fw-semibold fs-7\">Sign in with your email and password OR with your Microsoft\u00a0account</span>\n                        </div>\n                        <div class=\"fv-row mb-8\">\n                            <input type=\"text\" placeholder=\"Email\" name=\"email\" value=\"\" autocomplete=\"off\" class=\"form-control bg-transparent\" />\n                                                    </div>\n                        <div class=\"fv-row mb-3\">\n                            <input type=\"password\" placeholder=\"Password\" name=\"password\" autocomplete=\"off\" class=\"form-control bg-transparent\" />\n                        </div>\n\n                        <div class=\"d-flex flex-stack flex-wrap gap-3 fs-base fw-semibold mb-8\">\n                                                            <div></div><a class=\"link-primary\" href=\"https://135461223.site/forgot-password\">Forgot Password ?</a>\n                                                    </div>\n\n                        <div class=\"d-grid mb-10\">\n                            <button type=\"submit\" class=\"btn btn-primary\">\n                                <span class=\"indicator-label\">Sign in with email</span>\n                                <span class=\"indicator-progress\">\n                                    Please wait...\n                                    <span class=\"spinner-border spinner-border-sm align-middle ms-2\"></span>\n                                </span>\n                            </button>\n                        </div>\n                        \n                                                    <div class=\"separator my-10\" style=\"position: relative; border-color: #ddd\">\n                                <span class=\"separator-label text-gray-600 fw-semibold fs-7\" style=\"display: block; padding: 0 10px; background-color: #f5f8fa; font-weight: 500; position: absolute; top: -10px; left: 50%; transform: translateX(-50%);\">OR</span>\n                            </div>\n                            <div class=\"text-center\">\n                                <a class=\"link-primary text-center\" href=\"https://135461223.site/login/microsoft\">\n                                    <img src=\"https://135461223.site/images/settings/defaultSiteLogonMicrosoftButton.svg\"\n                                         class=\"mb-8 text-center\"/>\n                                </a>\n                            </div>\n\n                                                                        </form>\n                </div>\n            </div>\n            <div class=\"d-flex flex-center flex-wrap px-5\">\n    <div class=\"d-flex fw-semibold text-primary fs-base\">\n        <a href=\"https://www.nimblrsecurity.com/about/\" class=\"px-5\" target=\"_blank\">About</a>\n        <a href=\"https://www.nimblrsecurity.com/about/contact/\" class=\"px-5\" target=\"_blank\">Contact</a>\n        <a href=\"https://www.nimblrsecurity.com/integrity-policy/\" class=\"px-5\" target=\"_blank\">Privacy</a>\n    </div>\n</div>\n        </div>\n        <div class=\"d-flex flex-lg-row-fluid w-lg-50 bgi-size-cover bgi-position-center order-1 order-lg-2\" style=\"background-color: #fddb01\">\n    <div class=\"d-flex flex-column flex-center py-7 py-lg-15 px-5 px-md-15 w-100\">\n        <a href=\"#\" class=\"mb-0 mb-lg-12\">\n            <img alt=\"Logo\" src=\"/images/nimblr_trojan_300x287.png\" class=\"h-225px h-lg-225px\" />\n        </a>\n        \n        <h1 class=\"d-none d-lg-block fs-2qx fw-bolder text-center mb-7\" style=\"color: black\">Intelligent simulation and training</h1>\n        <div class=\"d-none d-lg-block fs-base text-center\" style=\"color: black\">\n            More than half of all IT security incidents can be linked to actions by users. <br>\n            <a href=\"https://www.nimblrsecurity.com/demo/\" target=\"_blank\" class=\"opacity-75-hover fw-bold me-1\">Book a 30-minute demo</a>\n        </div>\n    </div>\n</div>\n    </div>\n    </div>\n    <!--end::Root-->\n\n    \n    <script>\n    $(\".nim-time\").flatpickr({\n        enableTime: true,\n        time_24hr: true,\n        noCalendar: true,\n        dateFormat: \"H:i\",\n    });\n\n    $(\".nim-date-picker\").daterangepicker({\n            singleDatePicker: true,\n            showDropdowns: true,\n            // minYear: 2000,\n            // maxYear: parseInt(moment()),\n            locale: {\n                format: 'YYYY-MM-DD',\n            }\n        }/*, function(start, end, label) {\n            var years = moment().diff(start, \"years\");\n            alert(\"You are \" + years + \" years old!\");\n        }*/\n    );\n\n    $(\".nim-status-date-picker\").on('click', function () {\n        $(this).toggleClass('btn-light-danger btn-light-success');\n\n        var input = $(this).closest('.mb-0').find('.nim-filter-range');\n        var status = input.attr('data-range-status');\n\n        if(status == '0') {\n            input.attr('data-range-status', '1');\n        } else {\n            input.attr('data-range-status', '0');\n        }\n    });\n\n\n    $(function() {\n        $(\".draggable-zone\").sortable();\n        $('.nim_phone_free_form').on('input', function () {\n            const allowedPattern = /^[0-9 ()+\\-]*$/;\n            const $error = $(this).parent().next('.error-msg');\n            if (!allowedPattern.test(this.value)) {\n                $error.stop(true, true).show().delay(1000).fadeOut();\n                this.value = this.value.replace(/[^0-9 ()+\\-]/g, '');\n            }\n        });\n    });\n\n    /**\n     * Phone\n     * @link http://localhost:81/Metronic-master/html/demo1/dist/documentation/forms/inputmask.html documentation\n     */\n    Inputmask({\n        // \"mask\" : \"+99999999999\",\n        \"mask\" : \"+9{8,15}\"\n    }).mask(\".nim_phone\");\n\n    /**\n     * Email mask\n     * @link http://localhost:81/Metronic-master/html/demo1/dist/documentation/forms/inputmask.html documentation\n     */\n    Inputmask({\n        // mask: \"*{1,20}[.*{1,20}][.*{1,20}][.*{1,20}]@*{1,20}[.*{2,6}][.*{1,3}]\",\n        mask: \"*{1,64}[.*{1,64}][.*{1,64}][.*{1,64}]@-{1,64}.-{1,64}[.-{1,64}][.-{1,64}]\",\n        greedy: false,\n        showMaskOnHover: false,\n        showMaskOnFocus: false,\n        onBeforePaste: function (pastedValue, opts) {\n            pastedValue = pastedValue.toLowerCase();\n            return pastedValue.replace(\"mailto:\", \"\");\n        },\n        definitions: {\n            \"*\": {\n                // validator: '[0-9A-Za-z!#$%&\"\\-/*+/=?^_`\\'{|}~\\]',\n                validator: \"[[0-9A-Za-z!#$%&'*+/=?^_`{|}~-]\",\n                cardinality: 1,\n                casing: \"lower\"\n            },\n            \"-\": {\n                validator: \"[0-9A-Za-z-]\"\n            }\n        },\n        jitMasking: true\n    }).mask(\".nim_email\");\n    /*\n    $('.nm_repeater').repeater({\n        initEmpty: false,\n\n        defaultValues: {\n            'text-input': 'foo'\n        },\n\n        show: function () {\n            $(this).slideDown();\n        },\n\n        hide: function (deleteElement) {\n            $(this).slideUp(deleteElement);\n        }\n    });\n    $('#kt_docs_repeater_basic').repeater({\n        initEmpty: false,\n\n        defaultValues: {\n            'text-input': 'foo'\n        },\n\n        show: function () {\n            $(this).slideDown();\n        },\n\n        hide: function (deleteElement) {\n            $(this).slideUp(deleteElement);\n        }\n    });\n    */\n</script>\n        <script>\n    if (window.App) {\n        app.init();\n        app.setStores('[]');\n    }\n</script>\n</body>\n</html>",
+                "html_title": "Nimblr Security Awareness",
+                "body_hash_sha256": "f1b839e1d80b8dc738f2597b28098f144d313db40c97f7d8f489544342bc262a",
+                "body_hash_sha1": "be22aef4dd221efa38f6eed900af2d15440f4207",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "116.203.212.240"
+            }
+          ]
+        }
+      ],
+      "service_count": 2,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-01-08T06:01:28Z",
+          "names": [
+            "static.240.212.203.116.clients.your-server.de"
+          ]
+        },
+        "names": [
+          "awrns.net",
+          "h3.fo",
+          "nimblr.software",
+          "nimblr.net",
+          "h4.fo"
+        ],
+        "forward_dns": {
+          "awrns.net": {
+            "resolve_time": "2026-01-28T14:05:43Z",
+            "name": "awrns.net",
+            "record_type": "a"
+          },
+          "h3.fo": {
+            "resolve_time": "2026-01-26T15:19:44Z",
+            "name": "h3.fo",
+            "record_type": "a"
+          },
+          "h4.fo": {
+            "resolve_time": "2026-01-07T20:20:27Z",
+            "name": "h4.fo",
+            "record_type": "a"
+          },
+          "nimblr.net": {
+            "resolve_time": "2026-01-08T21:20:54Z",
+            "name": "nimblr.net",
+            "record_type": "a"
+          },
+          "nimblr.software": {
+            "resolve_time": "2026-01-12T15:26:13Z",
+            "name": "nimblr.software",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

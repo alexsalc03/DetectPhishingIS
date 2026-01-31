@@ -1,0 +1,824 @@
+{
+  "result": {
+    "resource": {
+      "ip": "91.240.21.9",
+      "location": {
+        "continent": "Europe",
+        "country": "Germany",
+        "country_code": "DE",
+        "city": "Frankfurt am Main",
+        "postal_code": "60311",
+        "timezone": "Europe/Berlin",
+        "province": "Hesse",
+        "coordinates": {
+          "latitude": 50.1112,
+          "longitude": 8.6831
+        }
+      },
+      "autonomous_system": {
+        "asn": 59939,
+        "description": "WIBO-AS",
+        "bgp_prefix": "91.240.21.0/24",
+        "name": "WIBO-AS",
+        "country_code": "LT"
+      },
+      "whois": {
+        "network": {
+          "handle": "WIBO-DE-NET",
+          "name": "Hooray Solutions Corp.",
+          "cidrs": [
+            "91.240.21.0/24"
+          ],
+          "created": "2019-11-01T00:00:00Z",
+          "updated": "2020-11-13T00:00:00Z"
+        },
+        "organization": {
+          "handle": "ORG-WBU1-RIPE",
+          "name": "WIBO Baltic UAB",
+          "address": "Perkunkiemio g. 13-91\\nLT-12114\\nVilnius\\nLITHUANIA",
+          "abuse_contacts": [
+            {
+              "handle": "HSN35-RIPE",
+              "name": "Hooray Solutions NOC",
+              "email": "noc@hooray.solutions"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "VB6048-RIPE",
+              "name": "Volodymyr Babichev",
+              "email": "volodymyr.babichev@wibogroup.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 22,
+          "protocol": "SSH",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "type": [
+                "REMOTE_ACCESS"
+              ]
+            },
+            {
+              "vendor": "openbsd",
+              "product": "openssh"
+            }
+          ],
+          "operating_systems": [
+            {
+              "vendor": "canonical",
+              "product": "linux"
+            }
+          ],
+          "labels": [
+            {
+              "value": "REMOTE_ACCESS"
+            }
+          ],
+          "ip": "91.240.21.9",
+          "scan_time": "2026-01-30T17:50:57Z",
+          "ssh": {
+            "endpoint_id": {
+              "raw": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13",
+              "protocol_version": "2.0",
+              "software_version": "OpenSSH_8.9p1",
+              "comment": "Ubuntu-3ubuntu0.13"
+            },
+            "kex_init_message": {
+              "kex_algorithms": [
+                "curve25519-sha256",
+                "curve25519-sha256@libssh.org",
+                "ecdh-sha2-nistp256",
+                "ecdh-sha2-nistp384",
+                "ecdh-sha2-nistp521",
+                "sntrup761x25519-sha512@openssh.com",
+                "diffie-hellman-group-exchange-sha256",
+                "diffie-hellman-group16-sha512",
+                "diffie-hellman-group18-sha512",
+                "diffie-hellman-group14-sha256",
+                "kex-strict-s-v00@openssh.com"
+              ],
+              "host_key_algorithms": [
+                "rsa-sha2-512",
+                "rsa-sha2-256",
+                "ecdsa-sha2-nistp256",
+                "ssh-ed25519"
+              ],
+              "client_to_server_ciphers": [
+                "chacha20-poly1305@openssh.com",
+                "aes128-ctr",
+                "aes192-ctr",
+                "aes256-ctr",
+                "aes128-gcm@openssh.com",
+                "aes256-gcm@openssh.com"
+              ],
+              "server_to_client_ciphers": [
+                "chacha20-poly1305@openssh.com",
+                "aes128-ctr",
+                "aes192-ctr",
+                "aes256-ctr",
+                "aes128-gcm@openssh.com",
+                "aes256-gcm@openssh.com"
+              ],
+              "client_to_server_macs": [
+                "umac-64-etm@openssh.com",
+                "umac-128-etm@openssh.com",
+                "hmac-sha2-256-etm@openssh.com",
+                "hmac-sha2-512-etm@openssh.com",
+                "hmac-sha1-etm@openssh.com",
+                "umac-64@openssh.com",
+                "umac-128@openssh.com",
+                "hmac-sha2-256",
+                "hmac-sha2-512",
+                "hmac-sha1"
+              ],
+              "server_to_client_macs": [
+                "umac-64-etm@openssh.com",
+                "umac-128-etm@openssh.com",
+                "hmac-sha2-256-etm@openssh.com",
+                "hmac-sha2-512-etm@openssh.com",
+                "hmac-sha1-etm@openssh.com",
+                "umac-64@openssh.com",
+                "umac-128@openssh.com",
+                "hmac-sha2-256",
+                "hmac-sha2-512",
+                "hmac-sha1"
+              ],
+              "client_to_server_compression": [
+                "none",
+                "zlib@openssh.com"
+              ],
+              "server_to_client_compression": [
+                "none",
+                "zlib@openssh.com"
+              ]
+            },
+            "algorithm_selection": {
+              "kex_algorithm": "curve25519-sha256@libssh.org",
+              "host_key_algorithm": "ecdsa-sha2-nistp256",
+              "client_to_server_alg_group": {
+                "cipher": "aes128-ctr",
+                "mac": "hmac-sha2-256",
+                "compression": "none"
+              },
+              "server_to_client_alg_group": {
+                "cipher": "aes128-ctr",
+                "mac": "hmac-sha2-256",
+                "compression": "none"
+              }
+            },
+            "server_host_key": {
+              "fingerprint_sha256": "273f04fe88fa5444e15ddc2bf9d16700be1f1b50dd8fd33728205f07860c841d",
+              "ecdsa_public_key": {
+                "b": "WsY12Ko6k+ez671VdpiGvGUdBrDMU7D2O848PifSYEs=",
+                "curve": "P-256",
+                "gx": "axfR8uEsQkf4vOblY6RA8ncDfYEt6zOg9KE5RdiYwpY=",
+                "gy": "T+NC4v4af5uO5+tKfA+eFivOM1drMV7Oy7ZAaDe/UfU=",
+                "length": 256,
+                "n": "/////wAAAAD//////////7zm+q2nF56E87nKwvxjJVE=",
+                "p": "/////wAAAAEAAAAAAAAAAAAAAAD///////////////8=",
+                "x": "Hzp6+rEDW82QBcuGWDape54tD7vDmBLTjwDgbpcVuhw=",
+                "y": "yY3EMHJje3gnIX6I8xCfO0AJuAXfDwBUqOp+Zr0511k="
+              }
+            },
+            "hassh_fingerprint": "41ff3ecd1458b0bf86e1b4891636213e"
+          }
+        },
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "ip": "91.240.21.9",
+          "scan_time": "2026-01-31T08:49:17Z",
+          "endpoints": [
+            {
+              "hostname": "91.240.21.9",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T08:49:17Z",
+              "http": {
+                "uri": "http://91.240.21.9/",
+                "protocol": "HTTP/1.1",
+                "status_code": 301,
+                "status_reason": "Moved Permanently",
+                "headers": {
+                  "Content-Length": {
+                    "headers": [
+                      "0"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Location": {
+                    "headers": [
+                      "https://91.240.21.9/"
+                    ]
+                  }
+                },
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "91.240.21.9"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "UNKNOWN",
+          "transport_protocol": "tcp",
+          "ip": "91.240.21.9",
+          "scan_time": "2026-01-31T14:34:01Z"
+        }
+      ],
+      "service_count": 3,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-01-09T21:44:16Z"
+        },
+        "names": [
+          "awddawdwadwa.roblox.com.py",
+          "hellomr2.roblox.com.py",
+          "wwwwebauth.eggy.cool",
+          "wwwurl.eggy.cool",
+          "osi-2-gw.eggy.cool",
+          "wbs.eggy.cool",
+          "ns1.docs.host219.eggy.cool",
+          "www.chinquapin.eggy.cool",
+          "www.lier.eggy.cool",
+          "www.wwwstmbpqxqas07.eggy.cool",
+          "basic.eggy.cool",
+          "news.eggy.cool",
+          "www.essenceadicta.eggy.cool",
+          "sitemap.eggy.cool",
+          "www.ww.eggy.cool",
+          "www.netmechanic.eggy.cool",
+          "shop.host219.eggy.cool",
+          "app.heelsnstocking.eggy.cool",
+          "lovetourtravel.eggy.cool",
+          "www.lir.eggy.cool",
+          "email.eggy.cool",
+          "short.eggy.cool",
+          "www.demo.eggy.cool",
+          "www.bobbiskozykitchen.eggy.cool",
+          "rajeet.roblox.mq",
+          "lemon.roblox.mq",
+          "testf.roblox.com.py",
+          "shortlink.st",
+          "fag.shockify.st",
+          "www.rbxmods.st",
+          "fag.bloxlab.st",
+          "www.roblox.com.ly",
+          "mail.roblox.com.ly",
+          "roblox.gf",
+          "robiox.com.af",
+          "www.rbxsnipe.com",
+          "ecsv2.roblox.gs",
+          "www.account.roblox.gs",
+          "mail.rbxfollow.com",
+          "cdn.ssh.fsj.eggy.cool",
+          "www.gastroacidreflux.eggy.cool",
+          "www.wwwwebauth.eggy.cool",
+          "mobile.fsj.eggy.cool",
+          "www.eggy.cool",
+          "shop.eggy.cool",
+          "macjan.eggy.cool",
+          "www.eega.eggy.cool",
+          "www.cloud.host219.eggy.cool",
+          "web.eggy.cool",
+          "www.wwwsnjp.eggy.cool",
+          "www.hello.eggy.cool",
+          "ropanel.xyz",
+          "davesex.roblox.mq",
+          "idom.roblox.cd",
+          "addawad.roblox.cd",
+          "rbxtools.st",
+          "rover-link.org",
+          "rover-hub.link",
+          "www.paused.gg",
+          "rover-app.com",
+          "vpn.isagambar.eggy.cool",
+          "img.janthony.eggy.cool",
+          "wordpress.eggy.cool",
+          "www.ftp.eggy.cool",
+          "ftp.eggy.cool",
+          "blog.heelsnstocking.eggy.cool",
+          "forums.eggy.cool",
+          "lindquist.eggy.cool",
+          "lier.eggy.cool",
+          "www.en.heelsnstocking.eggy.cool",
+          "www.banotacool8.eggy.cool",
+          "www.smtp.web18451.eggy.cool",
+          "cloud.host219.eggy.cool",
+          "www.lovetourtravel.eggy.cool",
+          "www.pfeifer.eggy.cool",
+          "www.autodiscover.eggy.cool",
+          "www.pc4809.eggy.cool",
+          "xxx.eggy.cool",
+          "jdjdjd.eggy.cool",
+          "url.eggy.cool",
+          "www.jborrego.eggy.cool",
+          "store.www.sitemaps.eggy.cool",
+          "bobbiskozykitchen.eggy.cool",
+          "www.whm.heelsnstocking.eggy.cool",
+          "www.private-placements.eggy.cool",
+          "www.roblox.gs",
+          "police.roblox.gs",
+          "cunty.roblox.mq",
+          "www.roblox.ml",
+          "fuck.roblox.com.ge",
+          "kekdkd.roblox.com.py",
+          "cuntyd.roblox.mq",
+          "adad.roblox.cd",
+          "pop.roblox.com.ge"
+        ],
+        "forward_dns": {
+          "adad.roblox.cd": {
+            "resolve_time": "2026-01-27T17:59:23Z",
+            "name": "adad.roblox.cd",
+            "record_type": "a"
+          },
+          "addawad.roblox.cd": {
+            "resolve_time": "2026-01-28T16:59:20Z",
+            "name": "addawad.roblox.cd",
+            "record_type": "a"
+          },
+          "app.heelsnstocking.eggy.cool": {
+            "resolve_time": "2026-01-29T19:52:44Z",
+            "name": "app.heelsnstocking.eggy.cool",
+            "record_type": "a"
+          },
+          "awddawdwadwa.roblox.com.py": {
+            "resolve_time": "2026-01-30T12:28:06Z",
+            "name": "awddawdwadwa.roblox.com.py",
+            "record_type": "a"
+          },
+          "basic.eggy.cool": {
+            "resolve_time": "2026-01-29T19:52:44Z",
+            "name": "basic.eggy.cool",
+            "record_type": "a"
+          },
+          "blog.heelsnstocking.eggy.cool": {
+            "resolve_time": "2026-01-27T19:58:53Z",
+            "name": "blog.heelsnstocking.eggy.cool",
+            "record_type": "a"
+          },
+          "bobbiskozykitchen.eggy.cool": {
+            "resolve_time": "2026-01-27T19:58:25Z",
+            "name": "bobbiskozykitchen.eggy.cool",
+            "record_type": "a"
+          },
+          "cdn.ssh.fsj.eggy.cool": {
+            "resolve_time": "2026-01-28T18:52:12Z",
+            "name": "cdn.ssh.fsj.eggy.cool",
+            "record_type": "a"
+          },
+          "cloud.host219.eggy.cool": {
+            "resolve_time": "2026-01-27T19:58:26Z",
+            "name": "cloud.host219.eggy.cool",
+            "record_type": "a"
+          },
+          "cunty.roblox.mq": {
+            "resolve_time": "2026-01-27T18:38:53Z",
+            "name": "cunty.roblox.mq",
+            "record_type": "a"
+          },
+          "cuntyd.roblox.mq": {
+            "resolve_time": "2026-01-27T18:10:16Z",
+            "name": "cuntyd.roblox.mq",
+            "record_type": "a"
+          },
+          "davesex.roblox.mq": {
+            "resolve_time": "2026-01-28T17:05:06Z",
+            "name": "davesex.roblox.mq",
+            "record_type": "a"
+          },
+          "ecsv2.roblox.gs": {
+            "resolve_time": "2026-01-29T12:19:37Z",
+            "name": "ecsv2.roblox.gs",
+            "record_type": "a"
+          },
+          "email.eggy.cool": {
+            "resolve_time": "2026-01-29T19:52:44Z",
+            "name": "email.eggy.cool",
+            "record_type": "a"
+          },
+          "fag.bloxlab.st": {
+            "resolve_time": "2026-01-29T15:34:02Z",
+            "name": "fag.bloxlab.st",
+            "record_type": "a"
+          },
+          "fag.shockify.st": {
+            "resolve_time": "2026-01-29T15:34:16Z",
+            "name": "fag.shockify.st",
+            "record_type": "a"
+          },
+          "forums.eggy.cool": {
+            "resolve_time": "2026-01-27T19:58:52Z",
+            "name": "forums.eggy.cool",
+            "record_type": "a"
+          },
+          "ftp.eggy.cool": {
+            "resolve_time": "2026-01-27T19:58:53Z",
+            "name": "ftp.eggy.cool",
+            "record_type": "a"
+          },
+          "fuck.roblox.com.ge": {
+            "resolve_time": "2026-01-27T18:23:08Z",
+            "name": "fuck.roblox.com.ge",
+            "record_type": "a"
+          },
+          "hellomr2.roblox.com.py": {
+            "resolve_time": "2026-01-30T12:28:04Z",
+            "name": "hellomr2.roblox.com.py",
+            "record_type": "a"
+          },
+          "idom.roblox.cd": {
+            "resolve_time": "2026-01-28T16:59:20Z",
+            "name": "idom.roblox.cd",
+            "record_type": "a"
+          },
+          "img.janthony.eggy.cool": {
+            "resolve_time": "2026-01-27T19:58:54Z",
+            "name": "img.janthony.eggy.cool",
+            "record_type": "a"
+          },
+          "jdjdjd.eggy.cool": {
+            "resolve_time": "2026-01-27T19:58:25Z",
+            "name": "jdjdjd.eggy.cool",
+            "record_type": "a"
+          },
+          "kekdkd.roblox.com.py": {
+            "resolve_time": "2026-01-27T18:11:32Z",
+            "name": "kekdkd.roblox.com.py",
+            "record_type": "a"
+          },
+          "lemon.roblox.mq": {
+            "resolve_time": "2026-01-29T17:01:48Z",
+            "name": "lemon.roblox.mq",
+            "record_type": "a"
+          },
+          "lier.eggy.cool": {
+            "resolve_time": "2026-01-27T19:58:49Z",
+            "name": "lier.eggy.cool",
+            "record_type": "a"
+          },
+          "lindquist.eggy.cool": {
+            "resolve_time": "2026-01-27T19:58:50Z",
+            "name": "lindquist.eggy.cool",
+            "record_type": "a"
+          },
+          "lovetourtravel.eggy.cool": {
+            "resolve_time": "2026-01-29T19:52:44Z",
+            "name": "lovetourtravel.eggy.cool",
+            "record_type": "a"
+          },
+          "macjan.eggy.cool": {
+            "resolve_time": "2026-01-28T18:52:04Z",
+            "name": "macjan.eggy.cool",
+            "record_type": "a"
+          },
+          "mail.rbxfollow.com": {
+            "resolve_time": "2026-01-28T20:18:47Z",
+            "name": "mail.rbxfollow.com",
+            "record_type": "a"
+          },
+          "mail.roblox.com.ly": {
+            "resolve_time": "2026-01-29T15:04:06Z",
+            "name": "mail.roblox.com.ly",
+            "record_type": "a"
+          },
+          "mobile.fsj.eggy.cool": {
+            "resolve_time": "2026-01-28T18:52:04Z",
+            "name": "mobile.fsj.eggy.cool",
+            "record_type": "a"
+          },
+          "news.eggy.cool": {
+            "resolve_time": "2026-01-29T19:52:44Z",
+            "name": "news.eggy.cool",
+            "record_type": "a"
+          },
+          "ns1.docs.host219.eggy.cool": {
+            "resolve_time": "2026-01-29T19:52:44Z",
+            "name": "ns1.docs.host219.eggy.cool",
+            "record_type": "a"
+          },
+          "osi-2-gw.eggy.cool": {
+            "resolve_time": "2026-01-29T19:52:45Z",
+            "name": "osi-2-gw.eggy.cool",
+            "record_type": "a"
+          },
+          "police.roblox.gs": {
+            "resolve_time": "2026-01-27T19:45:36Z",
+            "name": "police.roblox.gs",
+            "record_type": "a"
+          },
+          "pop.roblox.com.ge": {
+            "resolve_time": "2026-01-27T17:51:01Z",
+            "name": "pop.roblox.com.ge",
+            "record_type": "a"
+          },
+          "rajeet.roblox.mq": {
+            "resolve_time": "2026-01-29T17:01:52Z",
+            "name": "rajeet.roblox.mq",
+            "record_type": "a"
+          },
+          "rbxtools.st": {
+            "resolve_time": "2026-01-28T16:58:09Z",
+            "name": "rbxtools.st",
+            "record_type": "a"
+          },
+          "robiox.com.af": {
+            "resolve_time": "2026-01-29T14:00:05Z",
+            "name": "robiox.com.af",
+            "record_type": "a"
+          },
+          "roblox.gf": {
+            "resolve_time": "2026-01-29T14:41:44Z",
+            "name": "roblox.gf",
+            "record_type": "a"
+          },
+          "ropanel.xyz": {
+            "resolve_time": "2026-01-28T18:09:26Z",
+            "name": "ropanel.xyz",
+            "record_type": "a"
+          },
+          "rover-app.com": {
+            "resolve_time": "2026-01-28T12:04:20Z",
+            "name": "rover-app.com",
+            "record_type": "a"
+          },
+          "rover-hub.link": {
+            "resolve_time": "2026-01-28T13:59:20Z",
+            "name": "rover-hub.link",
+            "record_type": "a"
+          },
+          "rover-link.org": {
+            "resolve_time": "2026-01-28T16:11:17Z",
+            "name": "rover-link.org",
+            "record_type": "a"
+          },
+          "shop.eggy.cool": {
+            "resolve_time": "2026-01-28T18:52:04Z",
+            "name": "shop.eggy.cool",
+            "record_type": "a"
+          },
+          "shop.host219.eggy.cool": {
+            "resolve_time": "2026-01-29T19:52:44Z",
+            "name": "shop.host219.eggy.cool",
+            "record_type": "a"
+          },
+          "short.eggy.cool": {
+            "resolve_time": "2026-01-29T19:52:44Z",
+            "name": "short.eggy.cool",
+            "record_type": "a"
+          },
+          "shortlink.st": {
+            "resolve_time": "2026-01-29T15:34:16Z",
+            "name": "shortlink.st",
+            "record_type": "a"
+          },
+          "sitemap.eggy.cool": {
+            "resolve_time": "2026-01-29T19:52:44Z",
+            "name": "sitemap.eggy.cool",
+            "record_type": "a"
+          },
+          "store.www.sitemaps.eggy.cool": {
+            "resolve_time": "2026-01-27T19:58:25Z",
+            "name": "store.www.sitemaps.eggy.cool",
+            "record_type": "a"
+          },
+          "testf.roblox.com.py": {
+            "resolve_time": "2026-01-29T15:36:24Z",
+            "name": "testf.roblox.com.py",
+            "record_type": "a"
+          },
+          "url.eggy.cool": {
+            "resolve_time": "2026-01-27T19:58:25Z",
+            "name": "url.eggy.cool",
+            "record_type": "a"
+          },
+          "vpn.isagambar.eggy.cool": {
+            "resolve_time": "2026-01-27T19:58:55Z",
+            "name": "vpn.isagambar.eggy.cool",
+            "record_type": "a"
+          },
+          "wbs.eggy.cool": {
+            "resolve_time": "2026-01-29T19:52:44Z",
+            "name": "wbs.eggy.cool",
+            "record_type": "a"
+          },
+          "web.eggy.cool": {
+            "resolve_time": "2026-01-28T18:52:04Z",
+            "name": "web.eggy.cool",
+            "record_type": "a"
+          },
+          "wordpress.eggy.cool": {
+            "resolve_time": "2026-01-27T19:58:54Z",
+            "name": "wordpress.eggy.cool",
+            "record_type": "a"
+          },
+          "www.account.roblox.gs": {
+            "resolve_time": "2026-01-29T12:19:30Z",
+            "name": "www.account.roblox.gs",
+            "record_type": "a"
+          },
+          "www.autodiscover.eggy.cool": {
+            "resolve_time": "2026-01-27T19:58:26Z",
+            "name": "www.autodiscover.eggy.cool",
+            "record_type": "a"
+          },
+          "www.banotacool8.eggy.cool": {
+            "resolve_time": "2026-01-27T19:58:27Z",
+            "name": "www.banotacool8.eggy.cool",
+            "record_type": "a"
+          },
+          "www.bobbiskozykitchen.eggy.cool": {
+            "resolve_time": "2026-01-29T19:52:44Z",
+            "name": "www.bobbiskozykitchen.eggy.cool",
+            "record_type": "a"
+          },
+          "www.chinquapin.eggy.cool": {
+            "resolve_time": "2026-01-29T19:52:44Z",
+            "name": "www.chinquapin.eggy.cool",
+            "record_type": "a"
+          },
+          "www.cloud.host219.eggy.cool": {
+            "resolve_time": "2026-01-28T18:52:04Z",
+            "name": "www.cloud.host219.eggy.cool",
+            "record_type": "a"
+          },
+          "www.demo.eggy.cool": {
+            "resolve_time": "2026-01-29T19:52:44Z",
+            "name": "www.demo.eggy.cool",
+            "record_type": "a"
+          },
+          "www.eega.eggy.cool": {
+            "resolve_time": "2026-01-28T18:52:04Z",
+            "name": "www.eega.eggy.cool",
+            "record_type": "a"
+          },
+          "www.eggy.cool": {
+            "resolve_time": "2026-01-28T18:52:04Z",
+            "name": "www.eggy.cool",
+            "record_type": "a"
+          },
+          "www.en.heelsnstocking.eggy.cool": {
+            "resolve_time": "2026-01-27T19:58:27Z",
+            "name": "www.en.heelsnstocking.eggy.cool",
+            "record_type": "a"
+          },
+          "www.essenceadicta.eggy.cool": {
+            "resolve_time": "2026-01-29T19:52:44Z",
+            "name": "www.essenceadicta.eggy.cool",
+            "record_type": "a"
+          },
+          "www.ftp.eggy.cool": {
+            "resolve_time": "2026-01-27T19:58:53Z",
+            "name": "www.ftp.eggy.cool",
+            "record_type": "a"
+          },
+          "www.gastroacidreflux.eggy.cool": {
+            "resolve_time": "2026-01-28T18:52:05Z",
+            "name": "www.gastroacidreflux.eggy.cool",
+            "record_type": "a"
+          },
+          "www.hello.eggy.cool": {
+            "resolve_time": "2026-01-28T18:52:03Z",
+            "name": "www.hello.eggy.cool",
+            "record_type": "a"
+          },
+          "www.jborrego.eggy.cool": {
+            "resolve_time": "2026-01-27T19:58:25Z",
+            "name": "www.jborrego.eggy.cool",
+            "record_type": "a"
+          },
+          "www.lier.eggy.cool": {
+            "resolve_time": "2026-01-29T19:52:44Z",
+            "name": "www.lier.eggy.cool",
+            "record_type": "a"
+          },
+          "www.lir.eggy.cool": {
+            "resolve_time": "2026-01-29T19:52:44Z",
+            "name": "www.lir.eggy.cool",
+            "record_type": "a"
+          },
+          "www.lovetourtravel.eggy.cool": {
+            "resolve_time": "2026-01-27T19:58:26Z",
+            "name": "www.lovetourtravel.eggy.cool",
+            "record_type": "a"
+          },
+          "www.netmechanic.eggy.cool": {
+            "resolve_time": "2026-01-29T19:52:44Z",
+            "name": "www.netmechanic.eggy.cool",
+            "record_type": "a"
+          },
+          "www.paused.gg": {
+            "resolve_time": "2026-01-28T13:31:11Z",
+            "name": "www.paused.gg",
+            "record_type": "a"
+          },
+          "www.pc4809.eggy.cool": {
+            "resolve_time": "2026-01-27T19:58:26Z",
+            "name": "www.pc4809.eggy.cool",
+            "record_type": "a"
+          },
+          "www.pfeifer.eggy.cool": {
+            "resolve_time": "2026-01-27T19:58:26Z",
+            "name": "www.pfeifer.eggy.cool",
+            "record_type": "a"
+          },
+          "www.private-placements.eggy.cool": {
+            "resolve_time": "2026-01-27T19:58:25Z",
+            "name": "www.private-placements.eggy.cool",
+            "record_type": "a"
+          },
+          "www.rbxmods.st": {
+            "resolve_time": "2026-01-29T15:34:13Z",
+            "name": "www.rbxmods.st",
+            "record_type": "a"
+          },
+          "www.rbxsnipe.com": {
+            "resolve_time": "2026-01-29T13:58:39Z",
+            "name": "www.rbxsnipe.com",
+            "record_type": "a"
+          },
+          "www.roblox.com.ly": {
+            "resolve_time": "2026-01-29T15:04:07Z",
+            "name": "www.roblox.com.ly",
+            "record_type": "a"
+          },
+          "www.roblox.gs": {
+            "resolve_time": "2026-01-27T19:45:36Z",
+            "name": "www.roblox.gs",
+            "record_type": "a"
+          },
+          "www.roblox.ml": {
+            "resolve_time": "2026-01-27T18:33:57Z",
+            "name": "www.roblox.ml",
+            "record_type": "a"
+          },
+          "www.smtp.web18451.eggy.cool": {
+            "resolve_time": "2026-01-27T19:58:27Z",
+            "name": "www.smtp.web18451.eggy.cool",
+            "record_type": "a"
+          },
+          "www.whm.heelsnstocking.eggy.cool": {
+            "resolve_time": "2026-01-27T19:58:25Z",
+            "name": "www.whm.heelsnstocking.eggy.cool",
+            "record_type": "a"
+          },
+          "www.ww.eggy.cool": {
+            "resolve_time": "2026-01-29T19:52:44Z",
+            "name": "www.ww.eggy.cool",
+            "record_type": "a"
+          },
+          "www.wwwsnjp.eggy.cool": {
+            "resolve_time": "2026-01-28T18:52:04Z",
+            "name": "www.wwwsnjp.eggy.cool",
+            "record_type": "a"
+          },
+          "www.wwwstmbpqxqas07.eggy.cool": {
+            "resolve_time": "2026-01-29T19:52:44Z",
+            "name": "www.wwwstmbpqxqas07.eggy.cool",
+            "record_type": "a"
+          },
+          "www.wwwwebauth.eggy.cool": {
+            "resolve_time": "2026-01-28T18:52:05Z",
+            "name": "www.wwwwebauth.eggy.cool",
+            "record_type": "a"
+          },
+          "wwwurl.eggy.cool": {
+            "resolve_time": "2026-01-29T19:52:45Z",
+            "name": "wwwurl.eggy.cool",
+            "record_type": "a"
+          },
+          "wwwwebauth.eggy.cool": {
+            "resolve_time": "2026-01-29T19:52:45Z",
+            "name": "wwwwebauth.eggy.cool",
+            "record_type": "a"
+          },
+          "xxx.eggy.cool": {
+            "resolve_time": "2026-01-27T19:58:26Z",
+            "name": "xxx.eggy.cool",
+            "record_type": "a"
+          }
+        }
+      },
+      "operating_system": {
+        "vendor": "canonical",
+        "product": "linux"
+      }
+    },
+    "extensions": {}
+  }
+}

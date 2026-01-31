@@ -1,0 +1,1015 @@
+{
+  "result": {
+    "resource": {
+      "ip": "199.15.163.133",
+      "location": {
+        "continent": "North America",
+        "country": "United States",
+        "country_code": "US",
+        "city": "San Francisco",
+        "postal_code": "94158",
+        "timezone": "America/Los_Angeles",
+        "province": "California",
+        "coordinates": {
+          "latitude": 37.7694,
+          "longitude": -122.3867
+        }
+      },
+      "autonomous_system": {
+        "asn": 58182,
+        "description": "WIX_COM",
+        "bgp_prefix": "199.15.163.0/24",
+        "name": "WIX_COM",
+        "country_code": "IL"
+      },
+      "whois": {
+        "network": {
+          "handle": "WIXCO",
+          "name": "Wix.Com, Inc.",
+          "cidrs": [
+            "199.15.160.0/22"
+          ],
+          "created": "2010-06-25T00:00:00Z",
+          "updated": "2023-08-28T00:00:00Z",
+          "allocation_type": "ALLOCATION"
+        },
+        "organization": {
+          "handle": "WIXCO",
+          "name": "Wix.Com, Inc.",
+          "street": "500 Terry A Francois Blvd 6th Floor",
+          "city": "San Francisco",
+          "state": "CA",
+          "postal_code": "94158",
+          "country": "US",
+          "abuse_contacts": [
+            {
+              "handle": "WIXAB-ARIN",
+              "name": "Wix-Abuse",
+              "email": "abuse1@wix.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "PANIC19-ARIN",
+              "name": "Stanislav Panich",
+              "email": "netops@wix.com"
+            }
+          ],
+          "tech_contacts": [
+            {
+              "handle": "COHEN288-ARIN",
+              "name": "Dor Cohen",
+              "email": "dorc@wix.com"
+            },
+            {
+              "handle": "COHEN296-ARIN",
+              "name": "Amit Cohen",
+              "email": "amitcoh@wix.com"
+            },
+            {
+              "handle": "GALNI2-ARIN",
+              "name": "Nir Gal",
+              "email": "nirg@wix.com"
+            },
+            {
+              "handle": "IAROV2-ARIN",
+              "name": "Ievgen Iarovyi",
+              "email": "ievgeni@wix.com"
+            },
+            {
+              "handle": "SAMON1-ARIN",
+              "name": "Maksim Samonov",
+              "email": "maksims@wix.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "ip": "199.15.163.133",
+          "scan_time": "2026-01-31T04:54:04Z",
+          "endpoints": [
+            {
+              "hostname": "199.15.163.133",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T04:54:04Z",
+              "http": {
+                "uri": "http://199.15.163.133/",
+                "protocol": "HTTP/1.1",
+                "status_code": 301,
+                "status_reason": "Moved Permanently",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "0"
+                    ]
+                  },
+                  "Location": {
+                    "headers": [
+                      "https://www.wix.com"
+                    ]
+                  },
+                  "Strict-Transport-Security": {
+                    "headers": [
+                      "max-age=121 ; includeSubDomains"
+                    ]
+                  },
+                  "X-Seen-By": {
+                    "headers": [
+                      "oDbbMvfdXCdtsgjD2KgaM8iHE4dbw+wewoJ5nvKoyjE="
+                    ]
+                  }
+                },
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "199.15.163.133"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "4f32dca73473668cfce279b728b8bb9a5eb1b96dfc0e668fae1689477a165f73",
+            "fingerprint_sha1": "8ddbce79a710c30ca1af3a4c6ad5dbfefb7b64ad",
+            "fingerprint_md5": "6e1ebcadbdea135396366b5f22e9c7d5",
+            "tbs_fingerprint_sha256": "39c3e312f407fa2b078d1593bbce018ac171902d9374d3e2a21e1eda1e5ba7d2",
+            "tbs_no_ct_fingerprint_sha256": "86d3a4ee267c64201554a73032cceee84a8483c1940119ee82771049f4044580",
+            "spki_fingerprint_sha256": "39bbce930ac85b0896ca15ed2b3f7731e7d1d01ec16bccbcb32598af902fa6e1",
+            "parent_spki_fingerprint_sha256": "976d0142e295f487c42f6f852711101a954e68d9ddf89fe4c746f9a271e38171",
+            "parsed": {
+              "version": 3,
+              "serial_number": "493247750201766286004380568625564646620161",
+              "issuer_dn": "C=US, O=Let's Encrypt, CN=R12",
+              "issuer": {
+                "common_name": [
+                  "R12"
+                ],
+                "country": [
+                  "US"
+                ],
+                "organization": [
+                  "Let's Encrypt"
+                ]
+              },
+              "subject_dn": "CN=*.wix.com",
+              "subject": {
+                "common_name": [
+                  "*.wix.com"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "RSA",
+                  "oid": "1.2.840.113549.1.1.1"
+                },
+                "rsa": {
+                  "exponent": 65537,
+                  "modulus": "98e314a403e814c5facde11abe4465107b55a3ae0ec978419bbc77970d33e5d38547e60cd329e36bc544f333365ea9233b255cd10da49692fde312b96623bc52b0e90de95e3cbfce69ea31455c3861c0956463470c87144b5f7d1ec7c380e6d998bde6e63e380fcf3dcc3e9a1543e5a46bbef10294dacf1523e1d659cb10b951eeffc17a2bae976dada34eec1e0af4d4c76b63826e6709e4de9c0e3e1430791ded0091b037ccf70f730aad14f57ba57202a299b2c2f13ff33f4eaf69a70b16ed8d3504a0920711daaa655890f56a58475c640abad21b5166808d88c418f85afba362e3c1ce045108eff604f71dc6efd7ad474f208afffbb41cbfa4fb44bf990b",
+                  "length": 2048
+                },
+                "fingerprint_sha256": "dd3a27a0f98de63d260e943c1f3719c990a7471d82f7541c37925213f0638d71"
+              },
+              "validity_period": {
+                "not_before": "2025-12-31T11:08:49Z",
+                "not_after": "2026-03-31T11:08:48Z",
+                "length_seconds": 7776000
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "SHA256-RSA",
+                  "oid": "1.2.840.113549.1.1.11"
+                },
+                "value": "22fcc34328b4bb6a3487b9e615d96635ae2ee22d8826ff5a51428f8a03330ce821b6e526e9eae39d675609b29f5e7f8d8c458b9ce21388a9d928e06136a60b24264ce4fa639530468a4e6c31106e569491bf0fe5d683d70035eff480e5ec282a41ef65eacae104e115d895bf01bef2e4981de53faa56057ca1e176802d17b42b31d4911efc849613eadd8e57708eca3fcafc2f396d072d62e97fe5fe2e81892f72cd0314ef630c9b014f380b7933dccbd11d89968131fa9a5485aca3b527f24ab91de3ee955c2baa266f9851b7744667d92a7881beb7f605256b3b304d329a5349ed140da4bc5b1c9b62834ad2571a9553f4d1f776b8128aa8ac381e07f194aa",
+                "valid": true
+              },
+              "serial_number_hex": "05a9865d362649285e2207e84c9477e7bc01"
+            },
+            "names": [
+              "*.editorx.com",
+              "*.wix.com",
+              "*.wixsite.com",
+              "editorx.com",
+              "wix.com",
+              "wixsite.com"
+            ],
+            "validation_level": "dv",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "131fce7784016899a5a00203a9efc80f18ebbd75580717edc1553580930836ec",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "131fce7784016899a5a00203a9efc80f18ebbd75580717edc1553580930836ec"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "131fce7784016899a5a00203a9efc80f18ebbd75580717edc1553580930836ec",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "131fce7784016899a5a00203a9efc80f18ebbd75580717edc1553580930836ec"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "131fce7784016899a5a00203a9efc80f18ebbd75580717edc1553580930836ec",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "131fce7784016899a5a00203a9efc80f18ebbd75580717edc1553580930836ec"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "131fce7784016899a5a00203a9efc80f18ebbd75580717edc1553580930836ec",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "131fce7784016899a5a00203a9efc80f18ebbd75580717edc1553580930836ec"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {},
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 1807397907,
+                  "added_to_ct_at": "2025-12-31T14:14:47Z",
+                  "ct_to_censys_at": "2025-12-31T14:56:54Z"
+                },
+                "google_argon_2026_h1": {
+                  "index": 1556138134,
+                  "added_to_ct_at": "2025-12-31T12:07:20Z",
+                  "ct_to_censys_at": "2025-12-31T12:10:17Z"
+                },
+                "google_xenon_2026_h1": {
+                  "index": 1469691057,
+                  "added_to_ct_at": "2025-12-31T12:07:20Z",
+                  "ct_to_censys_at": "2025-12-31T12:16:02Z"
+                },
+                "sectigo_elephant_2026_h1": {
+                  "index": 1044796354,
+                  "added_to_ct_at": "2025-12-31T14:14:47Z",
+                  "ct_to_censys_at": "2025-12-31T14:18:09Z"
+                },
+                "sectigo_tiger_2026_h1": {
+                  "index": 920350077,
+                  "added_to_ct_at": "2025-12-31T14:14:48Z",
+                  "ct_to_censys_at": "2025-12-31T14:25:18Z"
+                },
+                "trustasia_log_2026_a": {
+                  "index": 418507082,
+                  "added_to_ct_at": "2025-12-31T14:14:49Z",
+                  "ct_to_censys_at": "2025-12-31T14:24:46Z"
+                },
+                "trustasia_log_2026_b": {
+                  "index": 461898178,
+                  "added_to_ct_at": "2026-01-04T14:42:56Z",
+                  "ct_to_censys_at": "2026-01-04T14:51:02Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2025-12-31T12:10:14Z",
+            "modified_at": "2026-01-04T14:51:03Z",
+            "validated_at": "2026-01-30T20:08:50Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "39bbce930ac85b0896ca15ed2b3f7731e7d1d01ec16bccbcb32598af902fa6e1",
+            "parent_spki_subject_fingerprint_sha256": "976d0142e295f487c42f6f852711101a954e68d9ddf89fe4c746f9a271e38171"
+          },
+          "ip": "199.15.163.133",
+          "scan_time": "2026-01-31T02:52:44Z",
+          "tls": {
+            "fingerprint_sha256": "4f32dca73473668cfce279b728b8bb9a5eb1b96dfc0e668fae1689477a165f73",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "131fce7784016899a5a00203a9efc80f18ebbd75580717edc1553580930836ec",
+                "subject_dn": "C=US, O=Let's Encrypt, CN=R12",
+                "issuer_dn": "C=US, O=Internet Security Research Group, CN=ISRG Root X1"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "199.15.163.133",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T02:52:44Z",
+              "http": {
+                "uri": "https://199.15.163.133/",
+                "protocol": "HTTP/1.1",
+                "status_code": 301,
+                "status_reason": "Moved Permanently",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "0"
+                    ]
+                  },
+                  "Location": {
+                    "headers": [
+                      "https://www.wix.com"
+                    ]
+                  },
+                  "Strict-Transport-Security": {
+                    "headers": [
+                      "max-age=121 ; includeSubDomains"
+                    ]
+                  },
+                  "X-Seen-By": {
+                    "headers": [
+                      "pmHZlB45NPy7b1VBAukQrewfbs+7qUVAqsIx00yI78k="
+                    ]
+                  }
+                },
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "199.15.163.133"
+            }
+          ]
+        }
+      ],
+      "service_count": 2,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-01-20T02:38:51Z",
+          "names": [
+            "unalocated.163.wixsite.com"
+          ]
+        },
+        "names": [
+          "appsk6k.static.wix.com",
+          "apps76k.static.wix.com",
+          "assets-sak.static.wix.com",
+          "336-77.static.wix.com",
+          "13674.static.wix.com",
+          "seamesse-accessk.static.wix.com",
+          "www.verify-me.work",
+          "www.ladyinbloomshop.com",
+          "www.sunsetlanesoaps.com",
+          "siteswebsite.static.wix.com",
+          "new-access.static.wix.com",
+          "albums33.static.wix.com",
+          "hjz9j2rl2oar6zbg.static.wix.com",
+          "fr.adrianthecreator.com",
+          "pattern.consulting",
+          "ko8.static.wix.com",
+          "dk4oztq3lylqd181.static.wix.com",
+          "albums12.static.wix.com",
+          "appsk1.static.wix.com",
+          "learn-code.wix.com",
+          "30712.static.wix.com",
+          "appsk43.static.wix.com",
+          "appsk17.static.wix.com",
+          "deep952.static.wix.com",
+          "es.adrianthecreator.com",
+          "www.akari-suzaku.com",
+          "al2.static.wix.com",
+          "apps648.static.wix.com",
+          "albums92.static.wix.com",
+          "www.hazyherbals.com",
+          "sunsetlanesoaps.com",
+          "pt.adrianthecreator.com",
+          "wixel.com",
+          "apps71.static.wix.com",
+          "cashierportalportal.static.wix.com",
+          "wix.new",
+          "www.sipocllc.com",
+          "blocks.new",
+          "deepmusica0.static.wix.com",
+          "albacmaster136.static.wix.com",
+          "assets0k.static.wix.com",
+          "assetsorigin72k.static.wix.com",
+          "asclepios-935.static.wix.com",
+          "assetsorigin392.static.wix.com",
+          "cashierorigin7portal.static.wix.com",
+          "eqilibriumherbs.com",
+          "verify-me.work",
+          "adrianthecreator.com",
+          "wixgateway.com",
+          "215-77.static.wix.com",
+          "xgpktexitbu33s39.static.wix.com",
+          "cashierorigin-adminportal.static.wix.com",
+          "lshauna-77.static.wix.com",
+          "haileyfashion.com",
+          "stjosephcanton.com",
+          "newpcsf4.static.wix.com",
+          "www.honeyvixen.com",
+          "www.sdgimpactfund.org",
+          "www.makidesignstudios.com",
+          "apps73.static.wix.com",
+          "alp7.static.wix.com",
+          "cashier-clubportal.static.wix.com",
+          "wixstudio.new",
+          "wwv.verify-me.work",
+          "albums0113.static.wix.com",
+          "13na0z1u53umdmbf.static.wix.com",
+          "5kpswhws5yuxswip.static.wix.com",
+          "acrisure.verify-me.work",
+          "hopp.site",
+          "apps40.static.wix.com",
+          "assetsorigin292.static.wix.com",
+          "ashleysankey4.static.wix.com",
+          "appsk45.static.wix.com",
+          "304-77.static.wix.com",
+          "www.haileyfashion.com",
+          "oghenekumejohn.com",
+          "albums31.static.wix.com",
+          "apps58.static.wix.com",
+          "leoukr.static.wix.com",
+          "www.velo.new",
+          "velo.new",
+          "hopp.to",
+          "albums36.static.wix.com",
+          "www.blakenolanbrown.com",
+          "23474.static.wix.com",
+          "ftp.chloewildbeaute.com.au",
+          "landing.aandp.fr",
+          "links.bizcreditgeeks.com",
+          "wix.com",
+          "leoukr66.static.wix.com",
+          "1133-wix.static.wix.com",
+          "www.pattern.consulting",
+          "www.kashmiri.ch",
+          "login.verify-me.work",
+          "en.adrianthecreator.com",
+          "eddiervaughnjr.com",
+          "cashierportal6.static.wix.com",
+          "www.renacleaningservice.com",
+          "albums134.static.wix.com",
+          "newresearchllc2.static.wix.com"
+        ],
+        "forward_dns": {
+          "1133-wix.static.wix.com": {
+            "resolve_time": "2026-01-02T15:43:14Z",
+            "name": "1133-wix.static.wix.com",
+            "record_type": "a"
+          },
+          "13674.static.wix.com": {
+            "resolve_time": "2026-01-29T18:24:53Z",
+            "name": "13674.static.wix.com",
+            "record_type": "a"
+          },
+          "13na0z1u53umdmbf.static.wix.com": {
+            "resolve_time": "2026-01-10T17:47:12Z",
+            "name": "13na0z1u53umdmbf.static.wix.com",
+            "record_type": "a"
+          },
+          "215-77.static.wix.com": {
+            "resolve_time": "2026-01-13T22:19:21Z",
+            "name": "215-77.static.wix.com",
+            "record_type": "a"
+          },
+          "23474.static.wix.com": {
+            "resolve_time": "2026-01-03T12:46:48Z",
+            "name": "23474.static.wix.com",
+            "record_type": "a"
+          },
+          "304-77.static.wix.com": {
+            "resolve_time": "2026-01-08T21:40:37Z",
+            "name": "304-77.static.wix.com",
+            "record_type": "a"
+          },
+          "30712.static.wix.com": {
+            "resolve_time": "2026-01-27T15:00:25Z",
+            "name": "30712.static.wix.com",
+            "record_type": "a"
+          },
+          "336-77.static.wix.com": {
+            "resolve_time": "2026-01-29T18:24:53Z",
+            "name": "336-77.static.wix.com",
+            "record_type": "a"
+          },
+          "5kpswhws5yuxswip.static.wix.com": {
+            "resolve_time": "2026-01-10T17:47:12Z",
+            "name": "5kpswhws5yuxswip.static.wix.com",
+            "record_type": "a"
+          },
+          "acrisure.verify-me.work": {
+            "resolve_time": "2026-01-08T22:17:14Z",
+            "name": "acrisure.verify-me.work",
+            "record_type": "a"
+          },
+          "adrianthecreator.com": {
+            "resolve_time": "2026-01-14T13:27:57Z",
+            "name": "adrianthecreator.com",
+            "record_type": "a"
+          },
+          "al2.static.wix.com": {
+            "resolve_time": "2026-01-22T12:48:59Z",
+            "name": "al2.static.wix.com",
+            "record_type": "a"
+          },
+          "albacmaster136.static.wix.com": {
+            "resolve_time": "2026-01-15T14:46:48Z",
+            "name": "albacmaster136.static.wix.com",
+            "record_type": "a"
+          },
+          "albums0113.static.wix.com": {
+            "resolve_time": "2026-01-10T17:47:12Z",
+            "name": "albums0113.static.wix.com",
+            "record_type": "a"
+          },
+          "albums12.static.wix.com": {
+            "resolve_time": "2026-01-27T15:00:26Z",
+            "name": "albums12.static.wix.com",
+            "record_type": "a"
+          },
+          "albums134.static.wix.com": {
+            "resolve_time": "2025-12-27T22:13:41Z",
+            "name": "albums134.static.wix.com",
+            "record_type": "a"
+          },
+          "albums31.static.wix.com": {
+            "resolve_time": "2026-01-07T15:18:04Z",
+            "name": "albums31.static.wix.com",
+            "record_type": "a"
+          },
+          "albums33.static.wix.com": {
+            "resolve_time": "2026-01-28T17:32:24Z",
+            "name": "albums33.static.wix.com",
+            "record_type": "a"
+          },
+          "albums36.static.wix.com": {
+            "resolve_time": "2026-01-04T20:50:27Z",
+            "name": "albums36.static.wix.com",
+            "record_type": "a"
+          },
+          "albums92.static.wix.com": {
+            "resolve_time": "2026-01-22T12:48:55Z",
+            "name": "albums92.static.wix.com",
+            "record_type": "a"
+          },
+          "alp7.static.wix.com": {
+            "resolve_time": "2026-01-11T12:02:26Z",
+            "name": "alp7.static.wix.com",
+            "record_type": "a"
+          },
+          "apps40.static.wix.com": {
+            "resolve_time": "2026-01-08T21:40:39Z",
+            "name": "apps40.static.wix.com",
+            "record_type": "a"
+          },
+          "apps58.static.wix.com": {
+            "resolve_time": "2026-01-07T15:18:00Z",
+            "name": "apps58.static.wix.com",
+            "record_type": "a"
+          },
+          "apps648.static.wix.com": {
+            "resolve_time": "2026-01-22T12:48:55Z",
+            "name": "apps648.static.wix.com",
+            "record_type": "a"
+          },
+          "apps71.static.wix.com": {
+            "resolve_time": "2026-01-18T12:15:54Z",
+            "name": "apps71.static.wix.com",
+            "record_type": "a"
+          },
+          "apps73.static.wix.com": {
+            "resolve_time": "2026-01-11T12:02:26Z",
+            "name": "apps73.static.wix.com",
+            "record_type": "a"
+          },
+          "apps76k.static.wix.com": {
+            "resolve_time": "2026-01-29T18:24:53Z",
+            "name": "apps76k.static.wix.com",
+            "record_type": "a"
+          },
+          "appsk1.static.wix.com": {
+            "resolve_time": "2026-01-27T15:00:25Z",
+            "name": "appsk1.static.wix.com",
+            "record_type": "a"
+          },
+          "appsk17.static.wix.com": {
+            "resolve_time": "2026-01-26T19:56:44Z",
+            "name": "appsk17.static.wix.com",
+            "record_type": "a"
+          },
+          "appsk43.static.wix.com": {
+            "resolve_time": "2026-01-26T19:56:44Z",
+            "name": "appsk43.static.wix.com",
+            "record_type": "a"
+          },
+          "appsk45.static.wix.com": {
+            "resolve_time": "2026-01-08T21:40:38Z",
+            "name": "appsk45.static.wix.com",
+            "record_type": "a"
+          },
+          "appsk6k.static.wix.com": {
+            "resolve_time": "2026-01-29T18:24:54Z",
+            "name": "appsk6k.static.wix.com",
+            "record_type": "a"
+          },
+          "asclepios-935.static.wix.com": {
+            "resolve_time": "2026-01-15T14:46:48Z",
+            "name": "asclepios-935.static.wix.com",
+            "record_type": "a"
+          },
+          "ashleysankey4.static.wix.com": {
+            "resolve_time": "2026-01-08T21:40:38Z",
+            "name": "ashleysankey4.static.wix.com",
+            "record_type": "a"
+          },
+          "assets-sak.static.wix.com": {
+            "resolve_time": "2026-01-29T18:24:53Z",
+            "name": "assets-sak.static.wix.com",
+            "record_type": "a"
+          },
+          "assets0k.static.wix.com": {
+            "resolve_time": "2026-01-15T14:46:48Z",
+            "name": "assets0k.static.wix.com",
+            "record_type": "a"
+          },
+          "assetsorigin292.static.wix.com": {
+            "resolve_time": "2026-01-08T21:40:38Z",
+            "name": "assetsorigin292.static.wix.com",
+            "record_type": "a"
+          },
+          "assetsorigin392.static.wix.com": {
+            "resolve_time": "2026-01-15T14:46:48Z",
+            "name": "assetsorigin392.static.wix.com",
+            "record_type": "a"
+          },
+          "assetsorigin72k.static.wix.com": {
+            "resolve_time": "2026-01-15T14:46:48Z",
+            "name": "assetsorigin72k.static.wix.com",
+            "record_type": "a"
+          },
+          "blocks.new": {
+            "resolve_time": "2026-01-15T15:24:37Z",
+            "name": "blocks.new",
+            "record_type": "a"
+          },
+          "cashier-clubportal.static.wix.com": {
+            "resolve_time": "2026-01-11T12:02:26Z",
+            "name": "cashier-clubportal.static.wix.com",
+            "record_type": "a"
+          },
+          "cashierorigin-adminportal.static.wix.com": {
+            "resolve_time": "2026-01-13T22:19:19Z",
+            "name": "cashierorigin-adminportal.static.wix.com",
+            "record_type": "a"
+          },
+          "cashierorigin7portal.static.wix.com": {
+            "resolve_time": "2026-01-14T21:29:49Z",
+            "name": "cashierorigin7portal.static.wix.com",
+            "record_type": "a"
+          },
+          "cashierportal6.static.wix.com": {
+            "resolve_time": "2025-12-31T13:06:41Z",
+            "name": "cashierportal6.static.wix.com",
+            "record_type": "a"
+          },
+          "cashierportalportal.static.wix.com": {
+            "resolve_time": "2026-01-18T12:15:53Z",
+            "name": "cashierportalportal.static.wix.com",
+            "record_type": "a"
+          },
+          "deep952.static.wix.com": {
+            "resolve_time": "2026-01-26T19:56:37Z",
+            "name": "deep952.static.wix.com",
+            "record_type": "a"
+          },
+          "deepmusica0.static.wix.com": {
+            "resolve_time": "2026-01-15T14:46:49Z",
+            "name": "deepmusica0.static.wix.com",
+            "record_type": "a"
+          },
+          "dk4oztq3lylqd181.static.wix.com": {
+            "resolve_time": "2026-01-27T15:00:29Z",
+            "name": "dk4oztq3lylqd181.static.wix.com",
+            "record_type": "a"
+          },
+          "eddiervaughnjr.com": {
+            "resolve_time": "2025-12-31T14:56:07Z",
+            "name": "eddiervaughnjr.com",
+            "record_type": "a"
+          },
+          "en.adrianthecreator.com": {
+            "resolve_time": "2025-12-31T17:04:13Z",
+            "name": "en.adrianthecreator.com",
+            "record_type": "a"
+          },
+          "eqilibriumherbs.com": {
+            "resolve_time": "2026-01-14T17:44:29Z",
+            "name": "eqilibriumherbs.com",
+            "record_type": "a"
+          },
+          "es.adrianthecreator.com": {
+            "resolve_time": "2026-01-26T19:35:49Z",
+            "name": "es.adrianthecreator.com",
+            "record_type": "a"
+          },
+          "fr.adrianthecreator.com": {
+            "resolve_time": "2026-01-28T12:29:23Z",
+            "name": "fr.adrianthecreator.com",
+            "record_type": "a"
+          },
+          "ftp.chloewildbeaute.com.au": {
+            "resolve_time": "2026-01-03T12:44:20Z",
+            "name": "ftp.chloewildbeaute.com.au",
+            "record_type": "a"
+          },
+          "haileyfashion.com": {
+            "resolve_time": "2026-01-13T14:17:42Z",
+            "name": "haileyfashion.com",
+            "record_type": "a"
+          },
+          "hjz9j2rl2oar6zbg.static.wix.com": {
+            "resolve_time": "2026-01-28T17:32:24Z",
+            "name": "hjz9j2rl2oar6zbg.static.wix.com",
+            "record_type": "a"
+          },
+          "hopp.site": {
+            "resolve_time": "2026-01-08T21:50:56Z",
+            "name": "hopp.site",
+            "record_type": "a"
+          },
+          "hopp.to": {
+            "resolve_time": "2026-01-05T13:00:06Z",
+            "name": "hopp.to",
+            "record_type": "a"
+          },
+          "ko8.static.wix.com": {
+            "resolve_time": "2026-01-27T15:00:29Z",
+            "name": "ko8.static.wix.com",
+            "record_type": "a"
+          },
+          "landing.aandp.fr": {
+            "resolve_time": "2026-01-02T20:09:10Z",
+            "name": "landing.aandp.fr",
+            "record_type": "a"
+          },
+          "learn-code.wix.com": {
+            "resolve_time": "2026-01-27T15:00:25Z",
+            "name": "learn-code.wix.com",
+            "record_type": "a"
+          },
+          "leoukr.static.wix.com": {
+            "resolve_time": "2026-01-05T19:26:12Z",
+            "name": "leoukr.static.wix.com",
+            "record_type": "a"
+          },
+          "leoukr66.static.wix.com": {
+            "resolve_time": "2026-01-02T15:43:17Z",
+            "name": "leoukr66.static.wix.com",
+            "record_type": "a"
+          },
+          "links.bizcreditgeeks.com": {
+            "resolve_time": "2026-01-02T19:03:44Z",
+            "name": "links.bizcreditgeeks.com",
+            "record_type": "a"
+          },
+          "login.verify-me.work": {
+            "resolve_time": "2025-12-31T21:04:22Z",
+            "name": "login.verify-me.work",
+            "record_type": "a"
+          },
+          "lshauna-77.static.wix.com": {
+            "resolve_time": "2026-01-13T22:19:19Z",
+            "name": "lshauna-77.static.wix.com",
+            "record_type": "a"
+          },
+          "new-access.static.wix.com": {
+            "resolve_time": "2026-01-28T17:32:24Z",
+            "name": "new-access.static.wix.com",
+            "record_type": "a"
+          },
+          "newpcsf4.static.wix.com": {
+            "resolve_time": "2026-01-12T21:51:00Z",
+            "name": "newpcsf4.static.wix.com",
+            "record_type": "a"
+          },
+          "newresearchllc2.static.wix.com": {
+            "resolve_time": "2025-12-27T22:13:39Z",
+            "name": "newresearchllc2.static.wix.com",
+            "record_type": "a"
+          },
+          "oghenekumejohn.com": {
+            "resolve_time": "2026-01-07T15:22:33Z",
+            "name": "oghenekumejohn.com",
+            "record_type": "a"
+          },
+          "pattern.consulting": {
+            "resolve_time": "2026-01-27T19:57:47Z",
+            "name": "pattern.consulting",
+            "record_type": "a"
+          },
+          "pt.adrianthecreator.com": {
+            "resolve_time": "2026-01-19T12:30:48Z",
+            "name": "pt.adrianthecreator.com",
+            "record_type": "a"
+          },
+          "seamesse-accessk.static.wix.com": {
+            "resolve_time": "2026-01-29T18:24:53Z",
+            "name": "seamesse-accessk.static.wix.com",
+            "record_type": "a"
+          },
+          "siteswebsite.static.wix.com": {
+            "resolve_time": "2026-01-28T17:32:24Z",
+            "name": "siteswebsite.static.wix.com",
+            "record_type": "a"
+          },
+          "stjosephcanton.com": {
+            "resolve_time": "2026-01-13T13:06:12Z",
+            "name": "stjosephcanton.com",
+            "record_type": "a"
+          },
+          "sunsetlanesoaps.com": {
+            "resolve_time": "2026-01-19T12:55:40Z",
+            "name": "sunsetlanesoaps.com",
+            "record_type": "a"
+          },
+          "velo.new": {
+            "resolve_time": "2026-01-05T14:44:58Z",
+            "name": "velo.new",
+            "record_type": "a"
+          },
+          "verify-me.work": {
+            "resolve_time": "2026-01-14T16:00:01Z",
+            "name": "verify-me.work",
+            "record_type": "a"
+          },
+          "wix.com": {
+            "resolve_time": "2026-01-02T16:13:19Z",
+            "name": "wix.com",
+            "record_type": "a"
+          },
+          "wix.new": {
+            "resolve_time": "2026-01-17T12:55:53Z",
+            "name": "wix.new",
+            "record_type": "a"
+          },
+          "wixel.com": {
+            "resolve_time": "2026-01-18T12:16:03Z",
+            "name": "wixel.com",
+            "record_type": "a"
+          },
+          "wixgateway.com": {
+            "resolve_time": "2026-01-13T22:19:27Z",
+            "name": "wixgateway.com",
+            "record_type": "a"
+          },
+          "wixstudio.new": {
+            "resolve_time": "2026-01-10T22:14:12Z",
+            "name": "wixstudio.new",
+            "record_type": "a"
+          },
+          "wwv.verify-me.work": {
+            "resolve_time": "2026-01-10T18:42:24Z",
+            "name": "wwv.verify-me.work",
+            "record_type": "a"
+          },
+          "www.akari-suzaku.com": {
+            "resolve_time": "2026-01-26T15:34:23Z",
+            "name": "www.akari-suzaku.com",
+            "record_type": "a"
+          },
+          "www.blakenolanbrown.com": {
+            "resolve_time": "2026-01-04T18:45:11Z",
+            "name": "www.blakenolanbrown.com",
+            "record_type": "a"
+          },
+          "www.haileyfashion.com": {
+            "resolve_time": "2026-01-08T14:47:30Z",
+            "name": "www.haileyfashion.com",
+            "record_type": "a"
+          },
+          "www.hazyherbals.com": {
+            "resolve_time": "2026-01-21T12:09:16Z",
+            "name": "www.hazyherbals.com",
+            "record_type": "a"
+          },
+          "www.honeyvixen.com": {
+            "resolve_time": "2026-01-12T21:18:34Z",
+            "name": "www.honeyvixen.com",
+            "record_type": "a"
+          },
+          "www.kashmiri.ch": {
+            "resolve_time": "2026-01-01T13:25:30Z",
+            "name": "www.kashmiri.ch",
+            "record_type": "a"
+          },
+          "www.ladyinbloomshop.com": {
+            "resolve_time": "2026-01-28T18:41:18Z",
+            "name": "www.ladyinbloomshop.com",
+            "record_type": "a"
+          },
+          "www.makidesignstudios.com": {
+            "resolve_time": "2026-01-11T14:29:01Z",
+            "name": "www.makidesignstudios.com",
+            "record_type": "a"
+          },
+          "www.pattern.consulting": {
+            "resolve_time": "2026-01-01T19:07:45Z",
+            "name": "www.pattern.consulting",
+            "record_type": "a"
+          },
+          "www.renacleaningservice.com": {
+            "resolve_time": "2025-12-30T19:32:37Z",
+            "name": "www.renacleaningservice.com",
+            "record_type": "a"
+          },
+          "www.sdgimpactfund.org": {
+            "resolve_time": "2026-01-12T20:04:54Z",
+            "name": "www.sdgimpactfund.org",
+            "record_type": "a"
+          },
+          "www.sipocllc.com": {
+            "resolve_time": "2026-01-15T20:18:18Z",
+            "name": "www.sipocllc.com",
+            "record_type": "a"
+          },
+          "www.sunsetlanesoaps.com": {
+            "resolve_time": "2026-01-28T17:53:42Z",
+            "name": "www.sunsetlanesoaps.com",
+            "record_type": "a"
+          },
+          "www.velo.new": {
+            "resolve_time": "2026-01-05T14:44:58Z",
+            "name": "www.velo.new",
+            "record_type": "a"
+          },
+          "www.verify-me.work": {
+            "resolve_time": "2026-01-29T17:10:17Z",
+            "name": "www.verify-me.work",
+            "record_type": "a"
+          },
+          "xgpktexitbu33s39.static.wix.com": {
+            "resolve_time": "2026-01-13T22:19:20Z",
+            "name": "xgpktexitbu33s39.static.wix.com",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

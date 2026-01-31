@@ -1,0 +1,642 @@
+{
+  "result": {
+    "resource": {
+      "ip": "5.57.226.200",
+      "location": {
+        "continent": "Europe",
+        "country": "Spain",
+        "country_code": "ES",
+        "city": "Madrid",
+        "postal_code": "28004",
+        "timezone": "Europe/Madrid",
+        "province": "Madrid",
+        "coordinates": {
+          "latitude": 40.4165,
+          "longitude": -3.70256
+        }
+      },
+      "autonomous_system": {
+        "asn": 29119,
+        "description": "SERVIHOSTING-AS AireNetworks",
+        "bgp_prefix": "5.57.224.0/22",
+        "name": "SERVIHOSTING-AS AireNetworks",
+        "country_code": "ES"
+      },
+      "whois": {
+        "network": {
+          "handle": "MIARROBA-NET",
+          "name": "Miarroba Networks, S.L.",
+          "cidrs": [
+            "5.57.226.192/27"
+          ],
+          "created": "2013-05-30T00:00:00Z",
+          "updated": "2016-11-13T00:00:00Z"
+        },
+        "organization": {
+          "handle": "ORG-MN85-RIPE",
+          "name": "Miarroba Networks",
+          "address": "Astillero - Cantabria - Spain",
+          "abuse_contacts": [
+            {
+              "handle": "ACRO1646-RIPE",
+              "name": "Abuse contact role object",
+              "email": "abuse@miarroba.net"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "f5",
+              "product": "nginx"
+            }
+          ],
+          "ip": "5.57.226.200",
+          "scan_time": "2026-01-31T04:50:05Z",
+          "endpoints": [
+            {
+              "hostname": "5.57.226.200",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T01:43:30Z",
+              "http": {
+                "uri": "http://5.57.226.200/",
+                "protocol": "HTTP/1.1",
+                "status_code": 200,
+                "status_reason": "OK",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Encoding": {
+                    "headers": [
+                      "gzip"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html; charset=UTF-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "ETag": {
+                    "headers": [
+                      "W/\"580792ad-a55\""
+                    ]
+                  },
+                  "Last-Modified": {
+                    "headers": [
+                      "Wed, 19 Oct 2016 15:35:09 GMT"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "nginx"
+                    ]
+                  },
+                  "Transfer-Encoding": {
+                    "headers": [
+                      "chunked"
+                    ]
+                  },
+                  "Vary": {
+                    "headers": [
+                      "Accept-Encoding"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<META HTTP-EQUIV=\"Refresh\" CONTENT=\"5;URL=//miarroba.es\">"
+                ],
+                "body_size": 2645,
+                "body": "<html>\r\n<head>\r\n<!-- Google Tag Manager -->\r\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\r\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\r\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\r\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\r\n})(window,document,'script','dataLayer','GTM-N7B2KH');</script>\r\n<!-- End Google Tag Manager -->\r\n<META HTTP-EQUIV=\"Refresh\" CONTENT=\"5;URL=//miarroba.es\">\r\n<style type=\"text/css\">\r\n\r\nbody{\r\n\tmargin: 0px;\r\n\tpadding: 0px;\r\n\tfont-family: Trebuchet MS;\r\n}\r\n\r\n#wrap {\r\n\twidth: 100%;\r\n\tmin-height: 300px;\r\n\tbackground: url('//miarroba.st/errores/fondo.png') top center repeat-x;\r\n\tmargin: auto;\r\n\ttext-align: center;\r\n}\r\n\r\n#contenedor{\r\n\twidth: 990px;\r\n\tmargin: auto;\r\n}\r\n\r\n#header {\r\n\tpadding-top: 4px;\r\n\twidth: 990px;\r\n\theight: 146px;\r\n\tmargin: auto;\r\n\ttext-align: center;\r\n}\r\n\r\n#header h1 {\r\n\tfont-size: 72px;\r\n\tfont-weight: normal;\r\n\tmargin: 0px auto;\r\n\tcolor: grey;\r\n\ttext-shadow: 0px -1px #585858, 0px 1px #e1e1e1;\r\n\tpadding: 0px;\r\n}\r\n\r\n#header span {\r\n\tfont-size: 24px;\r\n\tletter-spacing: -1px;\r\n\tfont-weight: bold;\r\n\tmargin: auto;\r\n\tcolor: #787878;\r\n}\r\n\r\n#fondo-error {\r\n\ttext-align: center;\r\n\theight: 700px;\r\n\twidth: 800px;\r\n\tmargin: auto;\r\n\tbackground: transparent url('//miarroba.st/errores/bocadillo.png') center 260px no-repeat;\r\n}\r\n\r\n#texto-error {\r\n\twidth: 520px;\r\n\tmargin: auto;\r\n\tpadding: 0px 0px 50px 0px;\r\n}\r\n\r\n#texto-error span {\r\n\tfont-size: 22px;\r\n\tmargin: auto;\r\n\tcolor: #5a5a5a;\r\n}\r\n\r\n#fondo-error a {\r\n\tcolor: grey;\r\n\ttext-decoration: none;\r\n\tfont-size: 18px;\r\n\tmargin: auto;\r\n}\r\n\r\n#fondo-error a:hover{\r\n\tcolor: black;\r\n}\r\n\r\n#arroba-error {\r\n\tbackground: transparent url('//miarroba.st/errores/keko_sherlock.png') top center no-repeat;\r\n\tborder-bottom: 0px;\r\n\ttext-align: center;\r\n\theight: 370px;\r\n\tmargin: auto;\r\n}\r\n\r\n</style>\r\n</head>\r\n<body>\r\n<!-- Google Tag Manager (noscript) -->\r\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-N7B2KH\"\r\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\r\n<!-- End Google Tag Manager (noscript) -->\r\n<div id=\"wrap\">\r\n\t<div id=\"contenedor\">\r\n\t\t<div id=\"header\">\r\n\t\t\t<h1>Error 404</h1>\r\n\t\t\t<span>La url que has escrito no existe</span>\r\n\t\t</div>\r\n\t\t<div id=\"fondo-error\">\r\n\t\t\t<div id=\"arroba-error\"></div>\r\n\t\t\t<div id=\"texto-error\"><span>Busco... \u00a1Pero no encuentro la direcci\u00f3n que dices! \u00bfEstas seguro de que es esa?</span></div>\r\n\t\t\t<a href=\"//miarroba.es\">Volver a miarroba</a><span> / </span><a href=\"//miarroba.com\">Back to miarroba</a>\t\t\r\n\t\t</div>\r\n\t</div>\r\n</div>\r\n</body>\r\n</html>",
+                "body_hash_sha256": "5559ca4e586aa4f6f6f8970491183ad324159aeb3cfc28864bdc8604c8c4a8cd",
+                "body_hash_sha1": "ac4e07b300c117cc195134d1b1f58a9939cf4711",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "5.57.226.200"
+            },
+            {
+              "hostname": "5.57.226.200",
+              "port": 80,
+              "path": "/robots.txt",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T04:50:05Z",
+              "http": {
+                "uri": "http://5.57.226.200/robots.txt",
+                "protocol": "HTTP/1.1",
+                "status_code": 200,
+                "status_reason": "OK",
+                "headers": {
+                  "Accept-Ranges": {
+                    "headers": [
+                      "bytes"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "24"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/plain; charset=UTF-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "ETag": {
+                    "headers": [
+                      "\"47eba35a-18\""
+                    ]
+                  },
+                  "Last-Modified": {
+                    "headers": [
+                      "Thu, 27 Mar 2008 13:38:34 GMT"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "nginx"
+                    ]
+                  }
+                },
+                "body_size": 24,
+                "body": "User-agent: *\nDisallow:\n",
+                "body_hash_sha256": "e5c4b84484ee4216e9373be99380320c25dd94805f99f0a805846f087636553f",
+                "body_hash_sha1": "c47ccf1a49c24cc5842430aa75c72ef491292412",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "5.57.226.200"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "9247423057dff6a8c1e660f443a7b5a6b7e6b0ab35dbb5093d6bba6d94b0a3ef",
+            "fingerprint_sha1": "e6535657b40f6bb2394e059a26fe59793fe6ea7a",
+            "fingerprint_md5": "b4a72c600e9a3a09aff0775e73f2ce09",
+            "tbs_fingerprint_sha256": "7024380cfd4e2a8b4fa9ba97b7ccf745123e91987837b8fefb505879fc90c234",
+            "tbs_no_ct_fingerprint_sha256": "e0eb42f49a30e10470fe4ae6861f1dfd3b9ae751ae747785405aa42bfb5eb39a",
+            "spki_fingerprint_sha256": "6c713cf90f4f95b2aebb39ddb8aea0af5ba7ca6a27aec7949585d40be2d57b8a",
+            "parent_spki_fingerprint_sha256": "c371ff3999e48d7f12047d728aa0d949d8057e1c43eceff673426a8b9b7ff278",
+            "parsed": {
+              "version": 3,
+              "serial_number": "535054500086625163266098349131707588693241",
+              "issuer_dn": "C=US, O=Let's Encrypt, CN=R13",
+              "issuer": {
+                "common_name": [
+                  "R13"
+                ],
+                "country": [
+                  "US"
+                ],
+                "organization": [
+                  "Let's Encrypt"
+                ]
+              },
+              "subject_dn": "CN=miarroba.com",
+              "subject": {
+                "common_name": [
+                  "miarroba.com"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "RSA",
+                  "oid": "1.2.840.113549.1.1.1"
+                },
+                "rsa": {
+                  "exponent": 65537,
+                  "modulus": "c991b2ed02852d4e34a806c8b076131798db35493b0eaaa3ba09164df5a27092ded66ac352cb139552fafcc35b64c159a81bcc02c46e9d0bc5d554870c684b5e59948dff71325abb6ca820e23d03751af03356ec19a25ff06f62ca7a11acb3ae823fde6f75510df73fd35344e8087ab4a33a85e483d99639661017bbc555853d0b78c86c683aa1a8705357bc1610ffd92bc017f93a80a0b5206a693973a4932fbdf3d418300ee8fe4a8e4074d5ecc06154433039e43b82a75fe7e411d32d95aba605d7b684bc7e489d247203cf005516f7049998da43f0fa0c72f16a6248e50060b4233ada6a486ca30606ef6295ad8cf9e36ec68dab3a56ca3a10a556800c33",
+                  "length": 2048
+                },
+                "fingerprint_sha256": "98747a6456e61f0ed4c2607b0406920272e6de95aace70a214cf97395a3adcf5"
+              },
+              "validity_period": {
+                "not_before": "2025-11-22T13:26:39Z",
+                "not_after": "2026-02-20T13:26:38Z",
+                "length_seconds": 7776000
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "SHA256-RSA",
+                  "oid": "1.2.840.113549.1.1.11"
+                },
+                "value": "53321ecdfbfa151b765420ab31865f0a05f2e4512ad9dc352b5268b194f3b79522f5128ffb38d5f3956cf1e673c1d671a8940646794216e4c44ba1e98c16eb3e663606ae858f6dba3e3c9a56a7810eb3107940029b2b32278da2d6e8f6a892d607642bed739e12616442d18c6774036958c476b7d668973ff9471a89ceadf861b97ab9c58d396ac2e1a7afaebf3b2ed14958aefb58a68d9615bcb23f57e20d36f24fe21dd1a3e90f62ba6961abb523e46667c0037fdd2481b514d03206a9b67d6274a7248cae249d0ab397ab9757749edb0553796bbd5dc80a1840cf0f9188451e25ed24f2cc525cf924ca807a64165cffbd6205a5a4e87565dcd4929c39eda1",
+                "valid": true
+              },
+              "serial_number_hex": "062462445c0e93b9ad6ccccb7ce9042e4cf9"
+            },
+            "names": [
+              "amaurioliveira.dev.br",
+              "bemusoft.com",
+              "centrocopiadofranco.com.ar",
+              "consulsoftware.com",
+              "contabilidaderomavi.com.br",
+              "dialogotraducciones.es",
+              "dynastymode.com",
+              "emuspain.com",
+              "estrategia360.consulsoftware.com",
+              "evento.robinfoot.click",
+              "foros.transformers.com.es",
+              "geyimin.20331126.xyz",
+              "italoargentinos.com.ar",
+              "laplayaartistaschapinero.com",
+              "long.sld.tw",
+              "miarroba.com",
+              "nery.tk",
+              "notice.sld.tw",
+              "personal.ridotech.es",
+              "racing1913.com",
+              "soporte.miarroba.es",
+              "tl1000.es",
+              "www.a-refugio.com",
+              "www.drz400.es",
+              "www.estudapp.com.br",
+              "www.funcionarios.net",
+              "www.oelo.cloud",
+              "www.reinopatata.es",
+              "xxx.hlu.im"
+            ],
+            "validation_level": "dv",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "d3b128216a843f8ef1321501f5df52a5df52939ee2c19297712cd3de4d419354",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "d3b128216a843f8ef1321501f5df52a5df52939ee2c19297712cd3de4d419354"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "d3b128216a843f8ef1321501f5df52a5df52939ee2c19297712cd3de4d419354",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "d3b128216a843f8ef1321501f5df52a5df52939ee2c19297712cd3de4d419354"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "d3b128216a843f8ef1321501f5df52a5df52939ee2c19297712cd3de4d419354",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "d3b128216a843f8ef1321501f5df52a5df52939ee2c19297712cd3de4d419354"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "d3b128216a843f8ef1321501f5df52a5df52939ee2c19297712cd3de4d419354",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "d3b128216a843f8ef1321501f5df52a5df52939ee2c19297712cd3de4d419354"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {},
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 1127473087,
+                  "added_to_ct_at": "2025-11-24T17:53:03Z",
+                  "ct_to_censys_at": "2025-11-24T19:23:58Z"
+                },
+                "google_argon_2026_h1": {
+                  "index": 1008713357,
+                  "added_to_ct_at": "2025-11-22T14:25:12Z",
+                  "ct_to_censys_at": "2025-11-22T14:30:41Z"
+                },
+                "google_xenon_2026_h1": {
+                  "index": 994272716,
+                  "added_to_ct_at": "2025-11-22T14:25:12Z",
+                  "ct_to_censys_at": "2025-11-22T14:30:40Z"
+                },
+                "letsencrypt_ct_oak_2026_h1": {
+                  "index": 589015458,
+                  "added_to_ct_at": "2025-12-06T11:02:22Z",
+                  "ct_to_censys_at": "2025-12-06T11:08:15Z"
+                },
+                "letsencrypt_ct_sycamore_2026_h1": {
+                  "index": 554962901,
+                  "added_to_ct_at": "2025-11-24T17:53:03Z",
+                  "ct_to_censys_at": "2025-12-15T23:50:47Z"
+                },
+                "letsencrypt_ct_willow_2026_h1": {
+                  "index": 563125537,
+                  "added_to_ct_at": "2025-11-24T17:53:03Z",
+                  "ct_to_censys_at": "2025-12-18T01:08:38Z"
+                },
+                "sectigo_elephant_2026_h1": {
+                  "index": 620548870,
+                  "added_to_ct_at": "2025-11-24T17:53:03Z",
+                  "ct_to_censys_at": "2025-11-24T17:59:55Z"
+                },
+                "sectigo_tiger_2026_h1": {
+                  "index": 553342471,
+                  "added_to_ct_at": "2025-11-25T15:18:56Z",
+                  "ct_to_censys_at": "2025-11-25T15:25:16Z"
+                },
+                "trustasia_log_2026_a": {
+                  "index": 256020443,
+                  "added_to_ct_at": "2025-12-07T10:28:31Z",
+                  "ct_to_censys_at": "2025-12-13T12:42:17Z"
+                },
+                "trustasia_log_2026_b": {
+                  "index": 152092924,
+                  "added_to_ct_at": "2025-11-24T17:53:11Z",
+                  "ct_to_censys_at": "2025-12-03T03:17:52Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2025-11-22T14:30:40Z",
+            "modified_at": "2025-12-18T01:08:38Z",
+            "validated_at": "2026-01-30T22:48:37Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "6c713cf90f4f95b2aebb39ddb8aea0af5ba7ca6a27aec7949585d40be2d57b8a",
+            "parent_spki_subject_fingerprint_sha256": "c371ff3999e48d7f12047d728aa0d949d8057e1c43eceff673426a8b9b7ff278"
+          },
+          "software": [
+            {
+              "vendor": "f5",
+              "product": "nginx"
+            }
+          ],
+          "ip": "5.57.226.200",
+          "scan_time": "2026-01-31T03:55:12Z",
+          "tls": {
+            "fingerprint_sha256": "9247423057dff6a8c1e660f443a7b5a6b7e6b0ab35dbb5093d6bba6d94b0a3ef",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "d3b128216a843f8ef1321501f5df52a5df52939ee2c19297712cd3de4d419354",
+                "subject_dn": "C=US, O=Let's Encrypt, CN=R13",
+                "issuer_dn": "C=US, O=Internet Security Research Group, CN=ISRG Root X1"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "5.57.226.200",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T01:43:30Z",
+              "http": {
+                "uri": "https://5.57.226.200/",
+                "protocol": "HTTP/1.1",
+                "status_code": 200,
+                "status_reason": "OK",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Encoding": {
+                    "headers": [
+                      "gzip"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html; charset=UTF-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "ETag": {
+                    "headers": [
+                      "W/\"580792ad-a55\""
+                    ]
+                  },
+                  "Last-Modified": {
+                    "headers": [
+                      "Wed, 19 Oct 2016 15:35:09 GMT"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "nginx"
+                    ]
+                  },
+                  "Transfer-Encoding": {
+                    "headers": [
+                      "chunked"
+                    ]
+                  },
+                  "Vary": {
+                    "headers": [
+                      "Accept-Encoding"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<META HTTP-EQUIV=\"Refresh\" CONTENT=\"5;URL=//miarroba.es\">"
+                ],
+                "body_size": 2645,
+                "body": "<html>\r\n<head>\r\n<!-- Google Tag Manager -->\r\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\r\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\r\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\r\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\r\n})(window,document,'script','dataLayer','GTM-N7B2KH');</script>\r\n<!-- End Google Tag Manager -->\r\n<META HTTP-EQUIV=\"Refresh\" CONTENT=\"5;URL=//miarroba.es\">\r\n<style type=\"text/css\">\r\n\r\nbody{\r\n\tmargin: 0px;\r\n\tpadding: 0px;\r\n\tfont-family: Trebuchet MS;\r\n}\r\n\r\n#wrap {\r\n\twidth: 100%;\r\n\tmin-height: 300px;\r\n\tbackground: url('//miarroba.st/errores/fondo.png') top center repeat-x;\r\n\tmargin: auto;\r\n\ttext-align: center;\r\n}\r\n\r\n#contenedor{\r\n\twidth: 990px;\r\n\tmargin: auto;\r\n}\r\n\r\n#header {\r\n\tpadding-top: 4px;\r\n\twidth: 990px;\r\n\theight: 146px;\r\n\tmargin: auto;\r\n\ttext-align: center;\r\n}\r\n\r\n#header h1 {\r\n\tfont-size: 72px;\r\n\tfont-weight: normal;\r\n\tmargin: 0px auto;\r\n\tcolor: grey;\r\n\ttext-shadow: 0px -1px #585858, 0px 1px #e1e1e1;\r\n\tpadding: 0px;\r\n}\r\n\r\n#header span {\r\n\tfont-size: 24px;\r\n\tletter-spacing: -1px;\r\n\tfont-weight: bold;\r\n\tmargin: auto;\r\n\tcolor: #787878;\r\n}\r\n\r\n#fondo-error {\r\n\ttext-align: center;\r\n\theight: 700px;\r\n\twidth: 800px;\r\n\tmargin: auto;\r\n\tbackground: transparent url('//miarroba.st/errores/bocadillo.png') center 260px no-repeat;\r\n}\r\n\r\n#texto-error {\r\n\twidth: 520px;\r\n\tmargin: auto;\r\n\tpadding: 0px 0px 50px 0px;\r\n}\r\n\r\n#texto-error span {\r\n\tfont-size: 22px;\r\n\tmargin: auto;\r\n\tcolor: #5a5a5a;\r\n}\r\n\r\n#fondo-error a {\r\n\tcolor: grey;\r\n\ttext-decoration: none;\r\n\tfont-size: 18px;\r\n\tmargin: auto;\r\n}\r\n\r\n#fondo-error a:hover{\r\n\tcolor: black;\r\n}\r\n\r\n#arroba-error {\r\n\tbackground: transparent url('//miarroba.st/errores/keko_sherlock.png') top center no-repeat;\r\n\tborder-bottom: 0px;\r\n\ttext-align: center;\r\n\theight: 370px;\r\n\tmargin: auto;\r\n}\r\n\r\n</style>\r\n</head>\r\n<body>\r\n<!-- Google Tag Manager (noscript) -->\r\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-N7B2KH\"\r\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\r\n<!-- End Google Tag Manager (noscript) -->\r\n<div id=\"wrap\">\r\n\t<div id=\"contenedor\">\r\n\t\t<div id=\"header\">\r\n\t\t\t<h1>Error 404</h1>\r\n\t\t\t<span>La url que has escrito no existe</span>\r\n\t\t</div>\r\n\t\t<div id=\"fondo-error\">\r\n\t\t\t<div id=\"arroba-error\"></div>\r\n\t\t\t<div id=\"texto-error\"><span>Busco... \u00a1Pero no encuentro la direcci\u00f3n que dices! \u00bfEstas seguro de que es esa?</span></div>\r\n\t\t\t<a href=\"//miarroba.es\">Volver a miarroba</a><span> / </span><a href=\"//miarroba.com\">Back to miarroba</a>\t\t\r\n\t\t</div>\r\n\t</div>\r\n</div>\r\n</body>\r\n</html>",
+                "body_hash_sha256": "5559ca4e586aa4f6f6f8970491183ad324159aeb3cfc28864bdc8604c8c4a8cd",
+                "body_hash_sha1": "ac4e07b300c117cc195134d1b1f58a9939cf4711",
+                "supported_versions": [
+                  "HTTP/1.1",
+                  "HTTP/2"
+                ]
+              },
+              "ip": "5.57.226.200"
+            },
+            {
+              "hostname": "5.57.226.200",
+              "port": 443,
+              "path": "/robots.txt",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T03:55:12Z",
+              "http": {
+                "uri": "https://5.57.226.200/robots.txt",
+                "protocol": "HTTP/1.1",
+                "status_code": 200,
+                "status_reason": "OK",
+                "headers": {
+                  "Accept-Ranges": {
+                    "headers": [
+                      "bytes"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "24"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/plain; charset=UTF-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "ETag": {
+                    "headers": [
+                      "\"47eba35a-18\""
+                    ]
+                  },
+                  "Last-Modified": {
+                    "headers": [
+                      "Thu, 27 Mar 2008 13:38:34 GMT"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "nginx"
+                    ]
+                  }
+                },
+                "body_size": 24,
+                "body": "User-agent: *\nDisallow:\n",
+                "body_hash_sha256": "e5c4b84484ee4216e9373be99380320c25dd94805f99f0a805846f087636553f",
+                "body_hash_sha1": "c47ccf1a49c24cc5842430aa75c72ef491292412",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "5.57.226.200"
+            }
+          ]
+        }
+      ],
+      "service_count": 2,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-01-30T07:13:37Z"
+        },
+        "names": [
+          "miguia.tv",
+          "mail.mta423.miarroba.net",
+          "unifi.miarroba.net",
+          "www.webcindario.com",
+          "vcenter2.miarroba.net",
+          "webcindario.com"
+        ],
+        "forward_dns": {
+          "mail.mta423.miarroba.net": {
+            "resolve_time": "2026-01-20T12:17:22Z",
+            "name": "mail.mta423.miarroba.net",
+            "record_type": "a"
+          },
+          "miguia.tv": {
+            "resolve_time": "2026-01-29T19:47:31Z",
+            "name": "miguia.tv",
+            "record_type": "a"
+          },
+          "unifi.miarroba.net": {
+            "resolve_time": "2026-01-15T20:57:27Z",
+            "name": "unifi.miarroba.net",
+            "record_type": "a"
+          },
+          "vcenter2.miarroba.net": {
+            "resolve_time": "2025-12-25T16:28:03Z",
+            "name": "vcenter2.miarroba.net",
+            "record_type": "a"
+          },
+          "webcindario.com": {
+            "resolve_time": "2025-12-21T21:41:46Z",
+            "name": "webcindario.com",
+            "record_type": "a"
+          },
+          "www.webcindario.com": {
+            "resolve_time": "2026-01-15T20:00:52Z",
+            "name": "www.webcindario.com",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

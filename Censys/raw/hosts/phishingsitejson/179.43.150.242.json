@@ -1,0 +1,711 @@
+{
+  "result": {
+    "resource": {
+      "ip": "179.43.150.242",
+      "location": {
+        "continent": "Europe",
+        "country": "Switzerland",
+        "country_code": "CH",
+        "city": "Bellinzona",
+        "postal_code": "6501",
+        "timezone": "Europe/Zurich",
+        "province": "Ticino",
+        "coordinates": {
+          "latitude": 46.19278,
+          "longitude": 9.01703
+        }
+      },
+      "autonomous_system": {
+        "asn": 51852,
+        "description": "PLI-AS",
+        "bgp_prefix": "179.43.150.0/24",
+        "name": "PLI-AS",
+        "country_code": "PA"
+      },
+      "whois": {
+        "network": {
+          "handle": "MIG23",
+          "name": "PRIVATE LAYER INC",
+          "cidrs": [
+            "179.43.128.0/18"
+          ],
+          "created": "2013-11-12T00:00:00Z",
+          "updated": "2015-11-01T00:00:00Z"
+        }
+      },
+      "services": [
+        {
+          "port": 22,
+          "protocol": "SSH",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "type": [
+                "REMOTE_ACCESS"
+              ]
+            },
+            {
+              "vendor": "openbsd",
+              "product": "openssh"
+            }
+          ],
+          "operating_systems": [
+            {
+              "vendor": "debian",
+              "product": "linux"
+            }
+          ],
+          "labels": [
+            {
+              "value": "REMOTE_ACCESS"
+            }
+          ],
+          "ip": "179.43.150.242",
+          "scan_time": "2026-01-30T21:27:49Z",
+          "ssh": {
+            "endpoint_id": {
+              "raw": "SSH-2.0-OpenSSH_10.0p2 Debian-7",
+              "protocol_version": "2.0",
+              "software_version": "OpenSSH_10.0p2",
+              "comment": "Debian-7"
+            },
+            "kex_init_message": {
+              "kex_algorithms": [
+                "mlkem768x25519-sha256",
+                "sntrup761x25519-sha512",
+                "sntrup761x25519-sha512@openssh.com",
+                "curve25519-sha256",
+                "curve25519-sha256@libssh.org",
+                "ecdh-sha2-nistp256",
+                "ecdh-sha2-nistp384",
+                "ecdh-sha2-nistp521",
+                "ext-info-s",
+                "kex-strict-s-v00@openssh.com"
+              ],
+              "host_key_algorithms": [
+                "rsa-sha2-512",
+                "rsa-sha2-256",
+                "ecdsa-sha2-nistp256",
+                "ssh-ed25519"
+              ],
+              "client_to_server_ciphers": [
+                "chacha20-poly1305@openssh.com",
+                "aes128-gcm@openssh.com",
+                "aes256-gcm@openssh.com",
+                "aes128-ctr",
+                "aes192-ctr",
+                "aes256-ctr"
+              ],
+              "server_to_client_ciphers": [
+                "chacha20-poly1305@openssh.com",
+                "aes128-gcm@openssh.com",
+                "aes256-gcm@openssh.com",
+                "aes128-ctr",
+                "aes192-ctr",
+                "aes256-ctr"
+              ],
+              "client_to_server_macs": [
+                "umac-64-etm@openssh.com",
+                "umac-128-etm@openssh.com",
+                "hmac-sha2-256-etm@openssh.com",
+                "hmac-sha2-512-etm@openssh.com",
+                "hmac-sha1-etm@openssh.com",
+                "umac-64@openssh.com",
+                "umac-128@openssh.com",
+                "hmac-sha2-256",
+                "hmac-sha2-512",
+                "hmac-sha1"
+              ],
+              "server_to_client_macs": [
+                "umac-64-etm@openssh.com",
+                "umac-128-etm@openssh.com",
+                "hmac-sha2-256-etm@openssh.com",
+                "hmac-sha2-512-etm@openssh.com",
+                "hmac-sha1-etm@openssh.com",
+                "umac-64@openssh.com",
+                "umac-128@openssh.com",
+                "hmac-sha2-256",
+                "hmac-sha2-512",
+                "hmac-sha1"
+              ],
+              "client_to_server_compression": [
+                "none",
+                "zlib@openssh.com"
+              ],
+              "server_to_client_compression": [
+                "none",
+                "zlib@openssh.com"
+              ]
+            },
+            "algorithm_selection": {
+              "kex_algorithm": "curve25519-sha256@libssh.org",
+              "host_key_algorithm": "ecdsa-sha2-nistp256",
+              "client_to_server_alg_group": {
+                "cipher": "aes128-ctr",
+                "mac": "hmac-sha2-256",
+                "compression": "none"
+              },
+              "server_to_client_alg_group": {
+                "cipher": "aes128-ctr",
+                "mac": "hmac-sha2-256",
+                "compression": "none"
+              }
+            },
+            "server_host_key": {
+              "fingerprint_sha256": "543750e69efd5a80a1aff2c15fc69983916706f279035458d551d568b6a2312f",
+              "ecdsa_public_key": {
+                "b": "WsY12Ko6k+ez671VdpiGvGUdBrDMU7D2O848PifSYEs=",
+                "curve": "P-256",
+                "gx": "axfR8uEsQkf4vOblY6RA8ncDfYEt6zOg9KE5RdiYwpY=",
+                "gy": "T+NC4v4af5uO5+tKfA+eFivOM1drMV7Oy7ZAaDe/UfU=",
+                "length": 256,
+                "n": "/////wAAAAD//////////7zm+q2nF56E87nKwvxjJVE=",
+                "p": "/////wAAAAEAAAAAAAAAAAAAAAD///////////////8=",
+                "x": "4v/UlTw4eHbvjqBmWtCXnR6a7+jmlOY8UE9U5YBVe7M=",
+                "y": "ApiN9zw/nttE04GHbVF93K5Dg8GoVjQTAoxcLkGzENo="
+              }
+            },
+            "hassh_fingerprint": "671c5858369db8e0a60108d866bbf8ec"
+          }
+        },
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "f5",
+              "product": "nginx"
+            },
+            {
+              "vendor": "openresty",
+              "product": "openresty"
+            }
+          ],
+          "labels": [
+            {
+              "value": "DEFAULT_LANDING_PAGE"
+            }
+          ],
+          "ip": "179.43.150.242",
+          "scan_time": "2026-01-31T07:46:24Z",
+          "endpoints": [
+            {
+              "hostname": "179.43.150.242",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T07:46:24Z",
+              "http": {
+                "uri": "http://179.43.150.242/",
+                "protocol": "HTTP/1.1",
+                "status_code": 200,
+                "status_reason": "OK",
+                "headers": {
+                  "Accept-Ranges": {
+                    "headers": [
+                      "bytes"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "615"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "ETag": {
+                    "headers": [
+                      "\"695cf024-267\""
+                    ]
+                  },
+                  "Last-Modified": {
+                    "headers": [
+                      "Tue, 06 Jan 2026 11:21:08 GMT"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "openresty"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>Welcome to nginx!</title>"
+                ],
+                "body_size": 615,
+                "body": "<!DOCTYPE html>\n<html>\n<head>\n<title>Welcome to nginx!</title>\n<style>\nhtml { color-scheme: light dark; }\nbody { width: 35em; margin: 0 auto;\nfont-family: Tahoma, Verdana, Arial, sans-serif; }\n</style>\n</head>\n<body>\n<h1>Welcome to nginx!</h1>\n<p>If you see this page, the nginx web server is successfully installed and\nworking. Further configuration is required.</p>\n\n<p>For online documentation and support please refer to\n<a href=\"http://nginx.org/\">nginx.org</a>.<br/>\nCommercial support is available at\n<a href=\"http://nginx.com/\">nginx.com</a>.</p>\n\n<p><em>Thank you for using nginx.</em></p>\n</body>\n</html>\n",
+                "html_title": "Welcome to nginx!",
+                "body_hash_sha256": "fb47468a2cd3953c7131431991afcc6a2703f14640520102eea0a685a7e8d6de",
+                "body_hash_sha1": "c51a3f0e6de4eb802d5630941c3fd9e1d0efae4b",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "179.43.150.242"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "306a6b3df59b1535a7214ce99e239e571ed36c6cfd8e61e94aff63b3a5f04f68",
+            "fingerprint_sha1": "42dbc028b3fdc0d5d9fe1acdd2f41da1aa321e60",
+            "fingerprint_md5": "bc4be7341827fb92ee6d7125f734feee",
+            "tbs_fingerprint_sha256": "defd0d62eba661aabb78d3e8a0e011cebcaf76506182f28c92f35740b7cffc21",
+            "tbs_no_ct_fingerprint_sha256": "8fafce21956383340d6c6138d295efe1333ca90e0cfaa54752834d0468a86d66",
+            "spki_fingerprint_sha256": "20a935d7d5cda2b1fcc85d03b937ec6a49afb5af6c95095f6ca95474620bc242",
+            "parent_spki_fingerprint_sha256": "68f93e89a1162b56335485fd4fbad15fc1d3c6c8c9e8b10ddbdcb8d2730ec2fd",
+            "parsed": {
+              "version": 3,
+              "serial_number": "553279045306743173383122228798874002087348",
+              "issuer_dn": "C=US, O=Let's Encrypt, CN=E8",
+              "issuer": {
+                "common_name": [
+                  "E8"
+                ],
+                "country": [
+                  "US"
+                ],
+                "organization": [
+                  "Let's Encrypt"
+                ]
+              },
+              "subject_dn": "CN=app.beamers.si",
+              "subject": {
+                "common_name": [
+                  "app.beamers.si"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "ECDSA",
+                  "oid": "1.2.840.10045.2.1"
+                },
+                "ecdsa": {
+                  "b": "5ac635d8aa3a93e7b3ebbd55769886bc651d06b0cc53b0f63bce3c3e27d2604b",
+                  "curve": "P-256",
+                  "gx": "6b17d1f2e12c4247f8bce6e563a440f277037d812deb33a0f4a13945d898c296",
+                  "gy": "4fe342e2fe1a7f9b8ee7eb4a7c0f9e162bce33576b315ececbb6406837bf51f5",
+                  "length": 256,
+                  "n": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+                  "p": "ffffffff00000001000000000000000000000000ffffffffffffffffffffffff",
+                  "pub": "045847d6a5a78bbe2c888e18b42706b64a6291e4aa4385fe3f3873af40f541e69ba0decdad094137eba414d6ed724e558ea2db119fcb5fc62fb8193bcdec732ba7",
+                  "x": "5847d6a5a78bbe2c888e18b42706b64a6291e4aa4385fe3f3873af40f541e69b",
+                  "y": "a0decdad094137eba414d6ed724e558ea2db119fcb5fc62fb8193bcdec732ba7"
+                },
+                "fingerprint_sha256": "d5e5bef3fae7b5db7b3f50e50763912496d2b455eb06605a107164d2f43c46b6"
+              },
+              "validity_period": {
+                "not_before": "2025-11-30T02:44:06Z",
+                "not_after": "2026-02-28T02:44:05Z",
+                "length_seconds": 7776000
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "ECDSA-SHA384",
+                  "oid": "1.2.840.10045.4.3.3"
+                },
+                "value": "306402305ca3e994b243b103ca073566b211926317a4e5a6092b2856cd19b49ab914f187e2e6a38ec2e3a8803fbc23b5f448e8d7023055119ad18728ffcc094d7f0962660743a6b1fcb94f2d6e2e3cd0633f7d0fcde29042506310e504ca62943bd0ce90cc2d",
+                "valid": true
+              },
+              "serial_number_hex": "0659f0e41887e9f9ddef64f72d1095ef5db4"
+            },
+            "names": [
+              "app.beamers.si"
+            ],
+            "validation_level": "dv",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "83624fd338c8d9b023c18a67cb7a9c0519da43d11775b4c6cbdad45c3d997c52",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0",
+                      "69729b8e15a86efc177a57afb7171dfc64add28c2fca8cf1507e34453ccb1470"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0",
+                      "00beaef280277e38999d3c60b27736e8f21e782c3d4b444ac34d465a7ab287c5",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "83624fd338c8d9b023c18a67cb7a9c0519da43d11775b4c6cbdad45c3d997c52",
+                  "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "83624fd338c8d9b023c18a67cb7a9c0519da43d11775b4c6cbdad45c3d997c52",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0",
+                      "69729b8e15a86efc177a57afb7171dfc64add28c2fca8cf1507e34453ccb1470"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0",
+                      "00beaef280277e38999d3c60b27736e8f21e782c3d4b444ac34d465a7ab287c5",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "83624fd338c8d9b023c18a67cb7a9c0519da43d11775b4c6cbdad45c3d997c52",
+                  "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "83624fd338c8d9b023c18a67cb7a9c0519da43d11775b4c6cbdad45c3d997c52",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0",
+                      "69729b8e15a86efc177a57afb7171dfc64add28c2fca8cf1507e34453ccb1470"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0",
+                      "00beaef280277e38999d3c60b27736e8f21e782c3d4b444ac34d465a7ab287c5",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "83624fd338c8d9b023c18a67cb7a9c0519da43d11775b4c6cbdad45c3d997c52",
+                  "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "83624fd338c8d9b023c18a67cb7a9c0519da43d11775b4c6cbdad45c3d997c52",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0",
+                      "69729b8e15a86efc177a57afb7171dfc64add28c2fca8cf1507e34453ccb1470"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0",
+                      "00beaef280277e38999d3c60b27736e8f21e782c3d4b444ac34d465a7ab287c5",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "83624fd338c8d9b023c18a67cb7a9c0519da43d11775b4c6cbdad45c3d997c52",
+                  "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {},
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 1398538461,
+                  "added_to_ct_at": "2025-12-05T07:16:04Z",
+                  "ct_to_censys_at": "2025-12-05T08:03:50Z"
+                },
+                "google_argon_2026_h1": {
+                  "index": 1122732993,
+                  "added_to_ct_at": "2025-11-30T03:42:37Z",
+                  "ct_to_censys_at": "2025-11-30T03:50:59Z"
+                },
+                "google_xenon_2026_h1": {
+                  "index": 1095618299,
+                  "added_to_ct_at": "2025-11-30T03:42:37Z",
+                  "ct_to_censys_at": "2025-11-30T03:48:57Z"
+                },
+                "letsencrypt_ct_oak_2026_h1": {
+                  "index": 584224551,
+                  "added_to_ct_at": "2025-12-05T07:17:04Z",
+                  "ct_to_censys_at": "2025-12-05T07:26:51Z"
+                },
+                "letsencrypt_ct_sycamore_2026_h1": {
+                  "index": 669828433,
+                  "added_to_ct_at": "2025-12-05T07:16:04Z",
+                  "ct_to_censys_at": "2025-12-16T17:09:57Z"
+                },
+                "letsencrypt_ct_willow_2026_h1": {
+                  "index": 677824802,
+                  "added_to_ct_at": "2025-12-05T07:16:05Z",
+                  "ct_to_censys_at": "2025-12-19T04:00:45Z"
+                },
+                "sectigo_elephant_2026_h1": {
+                  "index": 743634883,
+                  "added_to_ct_at": "2025-12-05T07:16:04Z",
+                  "ct_to_censys_at": "2025-12-05T07:26:28Z"
+                },
+                "sectigo_tiger_2026_h1": {
+                  "index": 656031835,
+                  "added_to_ct_at": "2025-12-05T07:16:04Z",
+                  "ct_to_censys_at": "2025-12-05T07:26:28Z"
+                },
+                "trustasia_log_2026_a": {
+                  "index": 240764573,
+                  "added_to_ct_at": "2025-12-05T07:16:06Z",
+                  "ct_to_censys_at": "2025-12-12T02:36:20Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2025-11-30T03:48:58Z",
+            "modified_at": "2025-12-19T04:00:46Z",
+            "validated_at": "2026-01-31T00:27:16Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "20a935d7d5cda2b1fcc85d03b937ec6a49afb5af6c95095f6ca95474620bc242",
+            "parent_spki_subject_fingerprint_sha256": "68f93e89a1162b56335485fd4fbad15fc1d3c6c8c9e8b10ddbdcb8d2730ec2fd"
+          },
+          "software": [
+            {
+              "vendor": "openresty",
+              "product": "openresty"
+            }
+          ],
+          "ip": "179.43.150.242",
+          "scan_time": "2026-01-31T00:52:36Z",
+          "tls": {
+            "fingerprint_sha256": "306a6b3df59b1535a7214ce99e239e571ed36c6cfd8e61e94aff63b3a5f04f68",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "83624fd338c8d9b023c18a67cb7a9c0519da43d11775b4c6cbdad45c3d997c52",
+                "subject_dn": "C=US, O=Let's Encrypt, CN=E8",
+                "issuer_dn": "C=US, O=Internet Security Research Group, CN=ISRG Root X1"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "179.43.150.242",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T00:52:12Z",
+              "http": {
+                "uri": "https://179.43.150.242/",
+                "protocol": "HTTP/1.1",
+                "status_code": 302,
+                "status_reason": "Moved Temporarily",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "142"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Location": {
+                    "headers": [
+                      "/__challenge?url=%2F"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "openresty"
+                    ]
+                  },
+                  "Set-Cookie": {
+                    "headers": [
+                      "_SplunkChallenge=MTY3Ljk0LjEzOC4xNzU=; Path=/; SameSite=Lax; Secure"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>302 Found</title>"
+                ],
+                "body_size": 142,
+                "body": "<html>\r\n<head><title>302 Found</title></head>\r\n<body>\r\n<center><h1>302 Found</h1></center>\r\n<hr><center>openresty</center>\r\n</body>\r\n</html>\r\n",
+                "html_title": "302 Found",
+                "body_hash_sha256": "745173bcc5c57ce9751dd019606e877e0aae13b60372fdb090f3db0470c3a43c",
+                "body_hash_sha1": "0828d79135573276005b04be42d79a8a3291292b",
+                "supported_versions": [
+                  "HTTP/1.1",
+                  "HTTP/2"
+                ]
+              },
+              "ip": "179.43.150.242"
+            },
+            {
+              "hostname": "179.43.150.242",
+              "port": 443,
+              "path": "/__challenge",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T00:52:36Z",
+              "http": {
+                "uri": "https://179.43.150.242/__challenge",
+                "protocol": "HTTP/1.1",
+                "status_code": 200,
+                "status_reason": "OK",
+                "headers": {
+                  "Accept-Ranges": {
+                    "headers": [
+                      "bytes"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "2319"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "ETag": {
+                    "headers": [
+                      "\"6891a559-90f\""
+                    ]
+                  },
+                  "Last-Modified": {
+                    "headers": [
+                      "Tue, 05 Aug 2025 06:31:53 GMT"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "openresty"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<meta charset=\"utf-8\">"
+                ],
+                "body_size": 2319,
+                "body": "<html>\r\n<head>\r\n  <meta charset=\"utf-8\">\r\n  <script>\r\n    let passed = false;\r\n\r\n    function calcSolution(e){\r\n      let i=0;\r\n      for(var t=Math.pow(e,7);t>=0;t--) i+=Math.atan(t)*Math.tan(t);\r\n      return !0;\r\n    }\r\n\r\n    let hasMemApi = typeof performance.memory !== \"undefined\";\r\n    let useMem = false, hasKnownMem = false, startMem = null;\r\n    if(hasMemApi) {\r\n      startMem = performance.memory;\r\n      if([161e5,127e5,1e7,219e4].includes(performance.memory.totalJSHeapSize) ||\r\n         [161e5,127e5,1e7,219e4].includes(performance.memory.usedJSHeapSize) ||\r\n         [161e5,127e5,1e7,219e4].includes(performance.memory.jsHeapSizeLimit)\r\n      ){\r\n        hasKnownMem = true;\r\n        for(; calcSolution(performance.memory.usedJSHeapSize); ) if(performance.now() < 0) hasKnownMem = false;\r\n      } else {\r\n        calcSolution(8);\r\n      }\r\n    }\r\n\r\n    if(hasMemApi) {\r\n      let e = performance.memory;\r\n      if(startMem.usedJSHeapSize == e.usedJSHeapSize && startMem.jsHeapSizeLimit == e.jsHeapSizeLimit && startMem.totalJSHeapSize == e.totalJSHeapSize) {\r\n        useMem = true;\r\n        for(; calcSolution(performance.memory.usedJSHeapSize); ) if(performance.now() < 0) hasKnownMem = false;\r\n      }\r\n    }\r\n\r\n    let plugCh = false, mimeCh = false;\r\n    try {\r\n      let pluginString = Object.getOwnPropertyDescriptor(Object.getPrototypeOf(navigator),\"plugins\").get.toString();\r\n      if(!/native code/.test(pluginString)) plugCh = true;\r\n\r\n      let mimeString = Object.getOwnPropertyDescriptor(Object.getPrototypeOf(navigator),\"mimeTypes\").get.toString();\r\n      if(!/native code/.test(mimeString)) mimeCh = true;\r\n    } catch(e) { plugCh = true; mimeCh = true; }\r\n\r\n    if(!(mimeCh || plugCh || useMem || hasKnownMem)) {\r\n      document.cookie = \"_SplunkChallengeHash=\" + Math.random().toString(36).substr(2,12) + \"; path=/; max-age=604800; SameSite=Lax; Secure\";\r\n      window.location = decodeURIComponent((location.search.match(/url=([^&]+)/)||[\"\",\"/\"])[1]);\r\n      passed = true;\r\n    }\r\n\r\n    // If bot or failed: hang forever\r\n    setTimeout(function(){\r\n      if(!passed) {\r\n        document.body.innerHTML = '<h1 style=\"font:normal 20px sans-serif;color:#333;\">Verifying browser\u2026</h1>';\r\n      }\r\n    }, 100);\r\n\r\n  </script>\r\n</head>\r\n<body style=\"background:#fff;\"></body>\r\n</html>\r\n",
+                "body_hash_sha256": "781a41b9488539c1ca5574ed2c3cad95f4da028856096577b9ebd97b38e38b5d",
+                "body_hash_sha1": "2e8c2ab2dab295b6a326ddea437dc49cb84f75d4",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "179.43.150.242"
+            }
+          ]
+        }
+      ],
+      "service_count": 3,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-01-29T13:39:22Z",
+          "names": [
+            "hostedby.privatelayer.com"
+          ]
+        },
+        "names": [
+          "www.robiox.com.ps"
+        ],
+        "forward_dns": {
+          "www.robiox.com.ps": {
+            "resolve_time": "2026-01-28T15:51:05Z",
+            "name": "www.robiox.com.ps",
+            "record_type": "a"
+          }
+        }
+      },
+      "operating_system": {
+        "vendor": "debian",
+        "product": "linux"
+      },
+      "labels": [
+        {
+          "value": "BULLETPROOF"
+        }
+      ]
+    },
+    "extensions": {}
+  }
+}

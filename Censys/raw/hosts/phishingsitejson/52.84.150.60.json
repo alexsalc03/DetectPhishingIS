@@ -1,0 +1,368 @@
+{
+  "result": {
+    "resource": {
+      "ip": "52.84.150.60",
+      "location": {
+        "continent": "North America",
+        "country": "United States",
+        "country_code": "US",
+        "city": "Seattle",
+        "postal_code": "98101",
+        "timezone": "America/Los_Angeles",
+        "province": "Washington",
+        "coordinates": {
+          "latitude": 47.60621,
+          "longitude": -122.33207
+        }
+      },
+      "autonomous_system": {
+        "asn": 16509,
+        "description": "AMAZON-02 - Amazon.com, Inc.",
+        "bgp_prefix": "52.84.150.0/24",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "country_code": "US"
+      },
+      "whois": {
+        "network": {
+          "handle": "AMAZO-CF",
+          "name": "Amazon.com, Inc.",
+          "cidrs": [
+            "52.84.0.0/15"
+          ],
+          "created": "2020-05-19T00:00:00Z",
+          "updated": "2020-09-23T00:00:00Z",
+          "allocation_type": "REALLOCATION"
+        },
+        "organization": {
+          "handle": "AMAZON-4",
+          "name": "Amazon.com, Inc.",
+          "street": "1918 8th Ave",
+          "city": "SEATTLE",
+          "state": "WA",
+          "postal_code": "98101-1244",
+          "country": "US",
+          "abuse_contacts": [
+            {
+              "handle": "AEA8-ARIN",
+              "name": "Amazon EC2 Abuse",
+              "email": "trustandsafety@support.aws.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "IPMAN40-ARIN",
+              "name": "IP Management",
+              "email": "ipmanagement@amazon.com"
+            }
+          ],
+          "tech_contacts": [
+            {
+              "handle": "ANO24-ARIN",
+              "name": "Amazon EC2 Network Operations",
+              "email": "amzn-noc-contact@amazon.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "amazon",
+              "product": "cloudfront_load_balancer"
+            }
+          ],
+          "ip": "52.84.150.60",
+          "scan_time": "2026-01-30T17:57:06Z",
+          "endpoints": [
+            {
+              "hostname": "52.84.150.60",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-30T17:57:06Z",
+              "http": {
+                "uri": "http://52.84.150.60/",
+                "protocol": "HTTP/1.1",
+                "status_code": 403,
+                "status_reason": "Forbidden",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "915"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "CloudFront"
+                    ]
+                  },
+                  "Via": {
+                    "headers": [
+                      "1.1 05df0d22c8cc3d4b946b6f2dc43d6b9c.cloudfront.net (CloudFront)"
+                    ]
+                  },
+                  "X-Amz-Cf-Id": {
+                    "headers": [
+                      "NS3Lm5xQ-3sLgrRo191bbZMSf2m7GVQegHE0d_HGTCCEwdo01mZyzA=="
+                    ]
+                  },
+                  "X-Amz-Cf-Pop": {
+                    "headers": [
+                      "ORD58-P1"
+                    ]
+                  },
+                  "X-Cache": {
+                    "headers": [
+                      "Error from cloudfront"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<TITLE>ERROR: The request could not be satisfied</TITLE>",
+                  "<META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\">"
+                ],
+                "body_size": 915,
+                "body": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">\n<HTML><HEAD><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\">\n<TITLE>ERROR: The request could not be satisfied</TITLE>\n</HEAD><BODY>\n<H1>403 ERROR</H1>\n<H2>The request could not be satisfied.</H2>\n<HR noshade size=\"1px\">\nBad request.\nWe can't connect to the server for this app or website at this time. There might be too much traffic or a configuration error. Try again later, or contact the app or website owner.\n<BR clear=\"all\">\nIf you provide content to customers through CloudFront, you can find steps to troubleshoot and help prevent this error by reviewing the CloudFront documentation.\n<BR clear=\"all\">\n<HR noshade size=\"1px\">\n<PRE>\nGenerated by cloudfront (CloudFront)\nRequest ID: NS3Lm5xQ-3sLgrRo191bbZMSf2m7GVQegHE0d_HGTCCEwdo01mZyzA==\n</PRE>\n<ADDRESS>\n</ADDRESS>\n</BODY></HTML>",
+                "html_title": "ERROR: The request could not be satisfied",
+                "body_hash_sha256": "362723b7348658092f7b5392eff7cae2b5f708f8b64c8d006f3e210c73704eab",
+                "body_hash_sha1": "3de17ed0ab47aed5b32609a69202375b63f9bdc3",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "52.84.150.60"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "amazon",
+              "product": "cloudfront_load_balancer"
+            }
+          ],
+          "ip": "52.84.150.60",
+          "scan_time": "2026-01-31T04:24:59Z",
+          "endpoints": [
+            {
+              "hostname": "52.84.150.60",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T04:24:59Z",
+              "http": {
+                "uri": "http://52.84.150.60:443/",
+                "protocol": "HTTP/1.1",
+                "status_code": 400,
+                "status_reason": "Bad Request",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "915"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "CloudFront"
+                    ]
+                  },
+                  "Via": {
+                    "headers": [
+                      "1.1 6bddabf0adf0131ec8169647c939d30c.cloudfront.net (CloudFront)"
+                    ]
+                  },
+                  "X-Amz-Cf-Id": {
+                    "headers": [
+                      "5VAHRlubvZooxRSgrLksaBcqXe9N0tqdiALERDGe7BE5lhQr6yEc1w=="
+                    ]
+                  },
+                  "X-Amz-Cf-Pop": {
+                    "headers": [
+                      "ORD58-P1"
+                    ]
+                  },
+                  "X-Cache": {
+                    "headers": [
+                      "Error from cloudfront"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<TITLE>ERROR: The request could not be satisfied</TITLE>",
+                  "<META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\">"
+                ],
+                "body_size": 915,
+                "body": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">\n<HTML><HEAD><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\">\n<TITLE>ERROR: The request could not be satisfied</TITLE>\n</HEAD><BODY>\n<H1>400 ERROR</H1>\n<H2>The request could not be satisfied.</H2>\n<HR noshade size=\"1px\">\nBad request.\nWe can't connect to the server for this app or website at this time. There might be too much traffic or a configuration error. Try again later, or contact the app or website owner.\n<BR clear=\"all\">\nIf you provide content to customers through CloudFront, you can find steps to troubleshoot and help prevent this error by reviewing the CloudFront documentation.\n<BR clear=\"all\">\n<HR noshade size=\"1px\">\n<PRE>\nGenerated by cloudfront (CloudFront)\nRequest ID: 5VAHRlubvZooxRSgrLksaBcqXe9N0tqdiALERDGe7BE5lhQr6yEc1w==\n</PRE>\n<ADDRESS>\n</ADDRESS>\n</BODY></HTML>",
+                "html_title": "ERROR: The request could not be satisfied",
+                "body_hash_sha256": "1b8a6a7ff77eac297a8bc3528bb29cd2c4b882b6923822b61ab8340ea405293e",
+                "body_hash_sha1": "039d154384572b6dcf79d2f435793ded06414d0f",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "52.84.150.60"
+            }
+          ]
+        }
+      ],
+      "service_count": 2,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-01-30T05:15:06Z"
+        },
+        "names": [
+          "www.doubledownbetbook.com",
+          "sni.walkerpubg.ir",
+          "www.tinder.com",
+          "walkerpubg.ir",
+          "host.walkerpubg.ir",
+          "m.doubledowncasino.info",
+          "_dmarc.doubledownsportsbook.com",
+          "www.ch3plus.com",
+          "pubg.com",
+          "cointracking.info",
+          "ftp.cointracking.info",
+          "sxnlplbweyd.double-downcasino.com",
+          "tls.walkerpubg.ir",
+          "ch3plus.com",
+          "project-thai.pubg.com",
+          "doubledowncasino.com",
+          "cointracking.de",
+          "tinder.com"
+        ],
+        "forward_dns": {
+          "_dmarc.doubledownsportsbook.com": {
+            "resolve_time": "2026-01-26T16:42:28Z",
+            "name": "_dmarc.doubledownsportsbook.com",
+            "record_type": "a"
+          },
+          "ch3plus.com": {
+            "resolve_time": "2026-01-07T18:11:16Z",
+            "name": "ch3plus.com",
+            "record_type": "a"
+          },
+          "cointracking.de": {
+            "resolve_time": "2025-12-31T19:05:08Z",
+            "name": "cointracking.de",
+            "record_type": "a"
+          },
+          "cointracking.info": {
+            "resolve_time": "2026-01-20T12:42:00Z",
+            "name": "cointracking.info",
+            "record_type": "a"
+          },
+          "doubledowncasino.com": {
+            "resolve_time": "2026-01-03T19:51:10Z",
+            "name": "doubledowncasino.com",
+            "record_type": "a"
+          },
+          "ftp.cointracking.info": {
+            "resolve_time": "2026-01-20T12:41:59Z",
+            "name": "ftp.cointracking.info",
+            "record_type": "a"
+          },
+          "host.walkerpubg.ir": {
+            "resolve_time": "2026-01-27T19:44:29Z",
+            "name": "host.walkerpubg.ir",
+            "record_type": "a"
+          },
+          "m.doubledowncasino.info": {
+            "resolve_time": "2026-01-27T13:03:22Z",
+            "name": "m.doubledowncasino.info",
+            "record_type": "a"
+          },
+          "project-thai.pubg.com": {
+            "resolve_time": "2026-01-05T16:31:47Z",
+            "name": "project-thai.pubg.com",
+            "record_type": "a"
+          },
+          "pubg.com": {
+            "resolve_time": "2026-01-21T12:06:00Z",
+            "name": "pubg.com",
+            "record_type": "a"
+          },
+          "sni.walkerpubg.ir": {
+            "resolve_time": "2026-01-29T15:08:07Z",
+            "name": "sni.walkerpubg.ir",
+            "record_type": "a"
+          },
+          "sxnlplbweyd.double-downcasino.com": {
+            "resolve_time": "2026-01-11T22:12:34Z",
+            "name": "sxnlplbweyd.double-downcasino.com",
+            "record_type": "a"
+          },
+          "tinder.com": {
+            "resolve_time": "2025-12-21T16:40:10Z",
+            "name": "tinder.com",
+            "record_type": "a"
+          },
+          "tls.walkerpubg.ir": {
+            "resolve_time": "2026-01-11T21:39:24Z",
+            "name": "tls.walkerpubg.ir",
+            "record_type": "a"
+          },
+          "walkerpubg.ir": {
+            "resolve_time": "2026-01-28T15:36:16Z",
+            "name": "walkerpubg.ir",
+            "record_type": "a"
+          },
+          "www.ch3plus.com": {
+            "resolve_time": "2026-01-22T12:34:17Z",
+            "name": "www.ch3plus.com",
+            "record_type": "a"
+          },
+          "www.doubledownbetbook.com": {
+            "resolve_time": "2026-01-29T20:26:35Z",
+            "name": "www.doubledownbetbook.com",
+            "record_type": "a"
+          },
+          "www.tinder.com": {
+            "resolve_time": "2026-01-29T12:33:17Z",
+            "name": "www.tinder.com",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

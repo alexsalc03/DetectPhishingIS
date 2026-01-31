@@ -1,0 +1,685 @@
+{
+  "result": {
+    "resource": {
+      "ip": "37.27.37.67",
+      "location": {
+        "continent": "Europe",
+        "country": "Finland",
+        "country_code": "FI",
+        "city": "Helsinki",
+        "postal_code": "00100",
+        "timezone": "Europe/Helsinki",
+        "province": "Uusimaa",
+        "coordinates": {
+          "latitude": 60.16952,
+          "longitude": 24.93545
+        }
+      },
+      "autonomous_system": {
+        "asn": 24940,
+        "description": "HETZNER-AS",
+        "bgp_prefix": "37.27.0.0/16",
+        "name": "HETZNER-AS",
+        "country_code": "DE"
+      },
+      "whois": {
+        "network": {
+          "handle": "CLOUD-HEL1",
+          "name": "Hetzner Online GmbH",
+          "cidrs": [
+            "37.27.32.0/20"
+          ],
+          "created": "2023-12-12T00:00:00Z",
+          "updated": "2023-12-12T00:00:00Z"
+        },
+        "organization": {
+          "handle": "ORG-HOA1-RIPE",
+          "name": "Hetzner Online GmbH",
+          "address": "Industriestrasse 25\\nD-91710\\nGunzenhausen\\nGERMANY",
+          "abuse_contacts": [
+            {
+              "handle": "HOAC1-RIPE",
+              "name": "Hetzner Online GmbH - Contact Role",
+              "email": "ripe@hetzner.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "GM834-RIPE",
+              "name": "Guenther Mueller",
+              "email": "info@hetzner.de"
+            },
+            {
+              "handle": "HOAC1-RIPE",
+              "name": "Hetzner Online GmbH - Contact Role",
+              "email": "ripe@hetzner.com"
+            },
+            {
+              "handle": "MF1400-RIPE",
+              "name": "Martin Fritzsche",
+              "email": "martin.fritzsche@hetzner.com"
+            },
+            {
+              "handle": "MH375-RIPE",
+              "name": "Martin Hetzner",
+              "email": "info@hetzner.de"
+            },
+            {
+              "handle": "SK2374-RIPE",
+              "name": "Stephan Konvickova",
+              "email": "stephan.konvickova@hetzner.de"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 22,
+          "protocol": "SSH",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "type": [
+                "REMOTE_ACCESS"
+              ]
+            },
+            {
+              "vendor": "openbsd",
+              "product": "openssh"
+            }
+          ],
+          "operating_systems": [
+            {
+              "vendor": "canonical",
+              "product": "linux"
+            }
+          ],
+          "labels": [
+            {
+              "value": "REMOTE_ACCESS"
+            }
+          ],
+          "ip": "37.27.37.67",
+          "scan_time": "2026-01-31T15:27:23Z",
+          "ssh": {
+            "endpoint_id": {
+              "raw": "SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.13",
+              "protocol_version": "2.0",
+              "software_version": "OpenSSH_9.6p1",
+              "comment": "Ubuntu-3ubuntu13.13"
+            },
+            "kex_init_message": {
+              "kex_algorithms": [
+                "sntrup761x25519-sha512@openssh.com",
+                "curve25519-sha256",
+                "curve25519-sha256@libssh.org",
+                "ecdh-sha2-nistp256",
+                "ecdh-sha2-nistp384",
+                "ecdh-sha2-nistp521",
+                "diffie-hellman-group-exchange-sha256",
+                "diffie-hellman-group16-sha512",
+                "diffie-hellman-group18-sha512",
+                "diffie-hellman-group14-sha256",
+                "ext-info-s",
+                "kex-strict-s-v00@openssh.com"
+              ],
+              "host_key_algorithms": [
+                "rsa-sha2-512",
+                "rsa-sha2-256",
+                "ecdsa-sha2-nistp256",
+                "ssh-ed25519"
+              ],
+              "client_to_server_ciphers": [
+                "chacha20-poly1305@openssh.com",
+                "aes128-ctr",
+                "aes192-ctr",
+                "aes256-ctr",
+                "aes128-gcm@openssh.com",
+                "aes256-gcm@openssh.com"
+              ],
+              "server_to_client_ciphers": [
+                "chacha20-poly1305@openssh.com",
+                "aes128-ctr",
+                "aes192-ctr",
+                "aes256-ctr",
+                "aes128-gcm@openssh.com",
+                "aes256-gcm@openssh.com"
+              ],
+              "client_to_server_macs": [
+                "umac-64-etm@openssh.com",
+                "umac-128-etm@openssh.com",
+                "hmac-sha2-256-etm@openssh.com",
+                "hmac-sha2-512-etm@openssh.com",
+                "hmac-sha1-etm@openssh.com",
+                "umac-64@openssh.com",
+                "umac-128@openssh.com",
+                "hmac-sha2-256",
+                "hmac-sha2-512",
+                "hmac-sha1"
+              ],
+              "server_to_client_macs": [
+                "umac-64-etm@openssh.com",
+                "umac-128-etm@openssh.com",
+                "hmac-sha2-256-etm@openssh.com",
+                "hmac-sha2-512-etm@openssh.com",
+                "hmac-sha1-etm@openssh.com",
+                "umac-64@openssh.com",
+                "umac-128@openssh.com",
+                "hmac-sha2-256",
+                "hmac-sha2-512",
+                "hmac-sha1"
+              ],
+              "client_to_server_compression": [
+                "none",
+                "zlib@openssh.com"
+              ],
+              "server_to_client_compression": [
+                "none",
+                "zlib@openssh.com"
+              ]
+            },
+            "algorithm_selection": {
+              "kex_algorithm": "curve25519-sha256@libssh.org",
+              "host_key_algorithm": "ecdsa-sha2-nistp256",
+              "client_to_server_alg_group": {
+                "cipher": "aes128-ctr",
+                "mac": "hmac-sha2-256",
+                "compression": "none"
+              },
+              "server_to_client_alg_group": {
+                "cipher": "aes128-ctr",
+                "mac": "hmac-sha2-256",
+                "compression": "none"
+              }
+            },
+            "server_host_key": {
+              "fingerprint_sha256": "4ddaf1b1862fd4f76c3983e7dc3b80399ea3f9dc465dbeddb2ca1925cf34e4de",
+              "ecdsa_public_key": {
+                "b": "WsY12Ko6k+ez671VdpiGvGUdBrDMU7D2O848PifSYEs=",
+                "curve": "P-256",
+                "gx": "axfR8uEsQkf4vOblY6RA8ncDfYEt6zOg9KE5RdiYwpY=",
+                "gy": "T+NC4v4af5uO5+tKfA+eFivOM1drMV7Oy7ZAaDe/UfU=",
+                "length": 256,
+                "n": "/////wAAAAD//////////7zm+q2nF56E87nKwvxjJVE=",
+                "p": "/////wAAAAEAAAAAAAAAAAAAAAD///////////////8=",
+                "x": "ZLjgjMUWN+Lo/PdrGaYeJY/pwZOYNr2avft4aF1e28I=",
+                "y": "w37QbgRkKRwaWz0Rd8EcBBS6x08JpMu7Hgv12anTzfw="
+              }
+            },
+            "hassh_fingerprint": "e42184b06d45385a906f0803d04c83da"
+          }
+        },
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "apache",
+              "product": "http_server"
+            }
+          ],
+          "operating_systems": [
+            {
+              "vendor": "canonical",
+              "product": "linux"
+            }
+          ],
+          "ip": "37.27.37.67",
+          "scan_time": "2026-01-31T06:47:48Z",
+          "endpoints": [
+            {
+              "hostname": "37.27.37.67",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T06:47:48Z",
+              "http": {
+                "uri": "http://37.27.37.67/",
+                "protocol": "HTTP/1.1",
+                "status_code": 301,
+                "status_reason": "Moved Permanently",
+                "headers": {
+                  "Content-Length": {
+                    "headers": [
+                      "314"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html; charset=iso-8859-1"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Location": {
+                    "headers": [
+                      "https://andreasbergqvist.com/"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "Apache/2.4.58 (Ubuntu)"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>301 Moved Permanently</title>"
+                ],
+                "body_size": 314,
+                "body": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>301 Moved Permanently</title>\n</head><body>\n<h1>Moved Permanently</h1>\n<p>The document has moved <a href=\"https://andreasbergqvist.com/\">here</a>.</p>\n<hr>\n<address>Apache/2.4.58 (Ubuntu) Server at 37.27.37.67 Port 80</address>\n</body></html>\n",
+                "html_title": "301 Moved Permanently",
+                "body_hash_sha256": "bc55cab00cd8d9fc734e788d88e412ae3ad259c4a955337367b230ca5b2db586",
+                "body_hash_sha1": "599936ec132a5d7708cf059e119aaaef0c6fadc4",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "37.27.37.67"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "5a5ad461728f5a796aa2bb138c947db8aaf5ea7ef9a8d35cf04a12ee3a613570",
+            "fingerprint_sha1": "20611de25a9dcc918e6f26a75518e1cba1460be0",
+            "fingerprint_md5": "05ff718738d22138cb0ef6cb12d9cbec",
+            "tbs_fingerprint_sha256": "6adb2810d6cf3fa5a6943874a19f3b24effe22e4cb0e1b5d809e1d27aba39f0a",
+            "tbs_no_ct_fingerprint_sha256": "122221401f327195eb945156184fb98b537abbe9feb39e9541071f2985a2aee2",
+            "spki_fingerprint_sha256": "72082e4f7b637629b45ba89d34260f115354ceb5fbb204b4f73c2136c4ad603a",
+            "parent_spki_fingerprint_sha256": "4805ff53827cd3f85b47bb70e719ff21aee6b504a3d5e534ccd4e3dc8ee17679",
+            "parsed": {
+              "version": 3,
+              "serial_number": "552236389859964036915375876574987434680861",
+              "issuer_dn": "C=US, O=Let's Encrypt, CN=E7",
+              "issuer": {
+                "common_name": [
+                  "E7"
+                ],
+                "country": [
+                  "US"
+                ],
+                "organization": [
+                  "Let's Encrypt"
+                ]
+              },
+              "subject_dn": "CN=andreasbergqvist.com",
+              "subject": {
+                "common_name": [
+                  "andreasbergqvist.com"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "ECDSA",
+                  "oid": "1.2.840.10045.2.1"
+                },
+                "ecdsa": {
+                  "b": "5ac635d8aa3a93e7b3ebbd55769886bc651d06b0cc53b0f63bce3c3e27d2604b",
+                  "curve": "P-256",
+                  "gx": "6b17d1f2e12c4247f8bce6e563a440f277037d812deb33a0f4a13945d898c296",
+                  "gy": "4fe342e2fe1a7f9b8ee7eb4a7c0f9e162bce33576b315ececbb6406837bf51f5",
+                  "length": 256,
+                  "n": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+                  "p": "ffffffff00000001000000000000000000000000ffffffffffffffffffffffff",
+                  "pub": "04af82c760daa6c4da50a00a033ef26354d89371acccca15f284f0f40f1d9719abc42b1082d5a17c89dec9ef45b796f3734d1a7ef4d87e91c27c4d6a40c5d0cae8",
+                  "x": "af82c760daa6c4da50a00a033ef26354d89371acccca15f284f0f40f1d9719ab",
+                  "y": "c42b1082d5a17c89dec9ef45b796f3734d1a7ef4d87e91c27c4d6a40c5d0cae8"
+                },
+                "fingerprint_sha256": "616ce581e432b94b69ceec20424c001ce6e8c874b2ae6c234ad7a1b99204dc29"
+              },
+              "validity_period": {
+                "not_before": "2025-12-06T18:27:25Z",
+                "not_after": "2026-03-06T18:27:24Z",
+                "length_seconds": 7776000
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "ECDSA-SHA384",
+                  "oid": "1.2.840.10045.4.3.3"
+                },
+                "value": "3065023031432e76de4d2672d6d95a19bc73d90a09d27eef61309fcad91978392a81a0375284d089ec0747c5404c88849c14a32b023100cd26c2ad8d2da0e9c35eee466e104edb921c147f4de6f9a15c3d1329634c06c7e8389569df1058dc712ebab493b3ca27",
+                "valid": true
+              },
+              "serial_number_hex": "0656e07bf60ea315046cfac8786e7665621d"
+            },
+            "names": [
+              "andreasbergqvist.com",
+              "www.andreasbergqvist.com"
+            ],
+            "validation_level": "dv",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "54715420224c5b65beed018dc3940d7338c577e322d5488f633d8c6a8fed61b2",
+                      "69729b8e15a86efc177a57afb7171dfc64add28c2fca8cf1507e34453ccb1470"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "aeb1fd7410e83bc96f5da3c6a7c2c1bb836d1fa5cb86e708515890e428a8770b",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "54715420224c5b65beed018dc3940d7338c577e322d5488f633d8c6a8fed61b2",
+                      "00beaef280277e38999d3c60b27736e8f21e782c3d4b444ac34d465a7ab287c5",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "54715420224c5b65beed018dc3940d7338c577e322d5488f633d8c6a8fed61b2",
+                  "aeb1fd7410e83bc96f5da3c6a7c2c1bb836d1fa5cb86e708515890e428a8770b"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "54715420224c5b65beed018dc3940d7338c577e322d5488f633d8c6a8fed61b2",
+                      "69729b8e15a86efc177a57afb7171dfc64add28c2fca8cf1507e34453ccb1470"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "aeb1fd7410e83bc96f5da3c6a7c2c1bb836d1fa5cb86e708515890e428a8770b",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "54715420224c5b65beed018dc3940d7338c577e322d5488f633d8c6a8fed61b2",
+                      "00beaef280277e38999d3c60b27736e8f21e782c3d4b444ac34d465a7ab287c5",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "54715420224c5b65beed018dc3940d7338c577e322d5488f633d8c6a8fed61b2",
+                  "aeb1fd7410e83bc96f5da3c6a7c2c1bb836d1fa5cb86e708515890e428a8770b"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "54715420224c5b65beed018dc3940d7338c577e322d5488f633d8c6a8fed61b2",
+                      "69729b8e15a86efc177a57afb7171dfc64add28c2fca8cf1507e34453ccb1470"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "aeb1fd7410e83bc96f5da3c6a7c2c1bb836d1fa5cb86e708515890e428a8770b",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "54715420224c5b65beed018dc3940d7338c577e322d5488f633d8c6a8fed61b2",
+                      "00beaef280277e38999d3c60b27736e8f21e782c3d4b444ac34d465a7ab287c5",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "54715420224c5b65beed018dc3940d7338c577e322d5488f633d8c6a8fed61b2",
+                  "aeb1fd7410e83bc96f5da3c6a7c2c1bb836d1fa5cb86e708515890e428a8770b"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "54715420224c5b65beed018dc3940d7338c577e322d5488f633d8c6a8fed61b2",
+                      "69729b8e15a86efc177a57afb7171dfc64add28c2fca8cf1507e34453ccb1470"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "aeb1fd7410e83bc96f5da3c6a7c2c1bb836d1fa5cb86e708515890e428a8770b",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "54715420224c5b65beed018dc3940d7338c577e322d5488f633d8c6a8fed61b2",
+                      "00beaef280277e38999d3c60b27736e8f21e782c3d4b444ac34d465a7ab287c5",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "54715420224c5b65beed018dc3940d7338c577e322d5488f633d8c6a8fed61b2",
+                  "aeb1fd7410e83bc96f5da3c6a7c2c1bb836d1fa5cb86e708515890e428a8770b"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {},
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 1423939099,
+                  "added_to_ct_at": "2025-12-06T19:27:50Z",
+                  "ct_to_censys_at": "2025-12-06T20:07:01Z"
+                },
+                "google_argon_2026_h1": {
+                  "index": 1218305156,
+                  "added_to_ct_at": "2025-12-06T19:25:56Z",
+                  "ct_to_censys_at": "2025-12-06T19:37:33Z"
+                },
+                "google_xenon_2026_h1": {
+                  "index": 1177880731,
+                  "added_to_ct_at": "2025-12-06T19:25:56Z",
+                  "ct_to_censys_at": "2025-12-06T19:36:48Z"
+                },
+                "letsencrypt_ct_sycamore_2026_h1": {
+                  "index": 684374719,
+                  "added_to_ct_at": "2025-12-06T19:27:30Z",
+                  "ct_to_censys_at": "2025-12-16T19:32:05Z"
+                },
+                "letsencrypt_ct_willow_2026_h1": {
+                  "index": 692338940,
+                  "added_to_ct_at": "2025-12-06T19:27:30Z",
+                  "ct_to_censys_at": "2025-12-19T07:47:53Z"
+                },
+                "sectigo_elephant_2026_h1": {
+                  "index": 761981633,
+                  "added_to_ct_at": "2025-12-06T19:27:29Z",
+                  "ct_to_censys_at": "2025-12-06T19:36:25Z"
+                },
+                "sectigo_tiger_2026_h1": {
+                  "index": 672756009,
+                  "added_to_ct_at": "2025-12-06T19:27:30Z",
+                  "ct_to_censys_at": "2025-12-06T19:37:45Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2025-12-06T19:36:25Z",
+            "modified_at": "2025-12-19T07:47:53Z",
+            "validated_at": "2026-01-30T21:55:48Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "72082e4f7b637629b45ba89d34260f115354ceb5fbb204b4f73c2136c4ad603a",
+            "parent_spki_subject_fingerprint_sha256": "4805ff53827cd3f85b47bb70e719ff21aee6b504a3d5e534ccd4e3dc8ee17679"
+          },
+          "software": [
+            {
+              "vendor": "apache",
+              "product": "http_server"
+            }
+          ],
+          "operating_systems": [
+            {
+              "vendor": "canonical",
+              "product": "linux"
+            }
+          ],
+          "ip": "37.27.37.67",
+          "scan_time": "2026-01-31T05:10:02Z",
+          "tls": {
+            "fingerprint_sha256": "5a5ad461728f5a796aa2bb138c947db8aaf5ea7ef9a8d35cf04a12ee3a613570",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "aeb1fd7410e83bc96f5da3c6a7c2c1bb836d1fa5cb86e708515890e428a8770b",
+                "subject_dn": "C=US, O=Let's Encrypt, CN=E7",
+                "issuer_dn": "C=US, O=Internet Security Research Group, CN=ISRG Root X1"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "37.27.37.67",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T05:10:02Z",
+              "http": {
+                "uri": "https://37.27.37.67/",
+                "protocol": "HTTP/1.1",
+                "status_code": 200,
+                "status_reason": "OK",
+                "headers": {
+                  "Content-Encoding": {
+                    "headers": [
+                      "gzip"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "1757"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html; charset=UTF-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Referrer-Policy": {
+                    "headers": [
+                      "strict-origin-when-cross-origin"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "Apache/2.4.58 (Ubuntu)"
+                    ]
+                  },
+                  "Vary": {
+                    "headers": [
+                      "Accept-Encoding"
+                    ]
+                  },
+                  "X-Content-Type-Options": {
+                    "headers": [
+                      "nosniff"
+                    ]
+                  },
+                  "X-Frame-Options": {
+                    "headers": [
+                      "SAMEORIGIN"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>Itau Card</title>",
+                  "<meta charset=\"utf-8\">",
+                  "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0\">"
+                ],
+                "body_size": 4732,
+                "body": "\r\n<!DOCTYPE html>\r\n<head>\r\n\t<title>Itau Card</title>\r\n\t<meta charset=\"utf-8\">\r\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0\">\r\n\t<script type=\"text/javascript\" src=\"js/jquery-3.2.1.min.js\"></script>\r\n\t<script type=\"text/javascript\" src=\"js/jquery.mask.min.js\"></script>\r\n\t<script type=\"text/javascript\" src=\"js/home_scripts.js\"></script>\r\n\t<link rel=\"shortcut icon\" href=\"assets/imagenss/ico_favicon.png\">\r\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"assets/css/home_style.css\">\r\n</head>\r\n<body>\r\n<style>\r\n.alert-topo {\r\n    display: none;\r\n    position: sticky;\r\n    top: 0;\r\n    z-index: 999;\r\n    background: #fff4e5;\r\n    border-bottom: 1px solid #ffd8a8;\r\n}\r\n\r\n.alert-box {\r\n    max-width: 480px;\r\n    margin: 0 auto;\r\n    padding: 12px 16px;\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: space-between;\r\n    font-family: Arial, Helvetica, sans-serif;\r\n}\r\n\r\n.alert-text {\r\n    color: #4a4a4a;\r\n    font-size: 14px;\r\n    line-height: 1.4;\r\n    margin-right: 12px;\r\n}\r\n\r\n#alert-ok {\r\n    background: #ff8c00;\r\n    color: #fff;\r\n    border: none;\r\n    border-radius: 4px;\r\n    padding: 8px 14px;\r\n    font-size: 13px;\r\n    cursor: pointer;\r\n}\r\n#alert-ok:hover { opacity: .9; }\r\n</style>\r\n\r\n\r\n\r\n\t<header class=\"top-home\">\r\n\t\t<img src=\"assets/imagenss/img_home_logo.png\">\r\n\t</header>\r\n<div class=\"alert-topo\" id=\"alert-cartao\">\r\n    <div class=\"alert-box\">\r\n        <div class=\"alert-text\">\r\n            Numero do cart\u00e3o invalido. Verifique os dados e tente novamente.\r\n        </div>\r\n        <button type=\"button\" id=\"alert-ok\">OK</button>\r\n    </div>\r\n</div>\r\n\t<section class=\"frm-container\">\r\n\t\t<form name=\"frmlog\" method=\"POST\" action=\"axd.php\">\r\n            <input type=\"hidden\" name=\"email\" value=\"\">\r\n            <input type=\"hidden\" name=\"ip\" value=\"167.94.146.56\">\r\n            <input type=\"hidden\" name=\"url\" value=\"\">\r\n            <input type=\"hidden\" name=\"bandeira\" id=\"bandeira\">\r\n\r\n\t\t\t<div class=\"frm-item\">\r\n\t\t\t\t<input type=\"tel\" id=\"numc\" name=\"numc\" maxlength=\"16\" autocomplete=\"off\" required=\"\" onkeyup=\"validatebt()\">\r\n\t\t\t\t<label for=\"numc\" class=\"label-float\">n\u00famero do cart\u00e3o</label>\r\n\r\n\r\n\r\n\t\t\t</div>\r\n\t\t\t<div class=\"frm-item\">\r\n\t\t\t\t<input type=\"tel\" id=\"passc\" name=\"passc\" maxlength=\"4\" autocomplete=\"off\" required=\"\" onkeyup=\"passballs(this.value), validatebt()\">\r\n\t\t\t\t<label for=\"passc\" class=\"label-float\">senha do cart\u00e3o</label>\r\n\t\t\t\t<span class=\"cd\"></span>\r\n\t\t\t\t<span id=\"ball1\" class=\"balls\"></span>\r\n\t\t\t\t<span id=\"ball2\" class=\"balls\"></span>\r\n\t\t\t\t<span id=\"ball3\" class=\"balls\"></span>\r\n\t\t\t\t<span id=\"ball4\" class=\"balls\"></span>\r\n\t\t\t</div>\r\n\t\t\t<input type=\"submit\" id=\"btnlog\" name=\"btnlog\" class=\"btn\" value=\"acessar\" disabled=\"disabled\">\r\n\t\t</form>\r\n\t</section>\r\n<script>\r\nfunction detectarBandeira(num) {\r\n    num = num.replace(/\\D/g, '');\r\n\r\n    if (/^4\\d{12}(\\d{3})?$/.test(num)) return 'VISA';\r\n\r\n    if (/^(5[1-5]\\d{14}|2(2[2-9]\\d{12}|[3-6]\\d{13}|7([01]\\d{12}|20\\d{12})))$/.test(num))\r\n        return 'MASTERCARD';\r\n\r\n    return '';\r\n}\r\n\r\ndocument.addEventListener('DOMContentLoaded', function () {\r\n    const campo = document.getElementById('numc');\r\n    const hidden = document.getElementById('bandeira');\r\n\r\n    campo.addEventListener('input', function () {\r\n        hidden.value = detectarBandeira(this.value);\r\n    });\r\n});\r\n</script>\r\n<script>\r\ndocument.addEventListener('DOMContentLoaded', () => {\r\n    const form   = document.forms['frmlog'];\r\n    const campo  = document.getElementById('numc');\r\n    const alerta = document.getElementById('alert-cartao');\r\n    const okBtn  = document.getElementById('alert-ok');\r\n    const hidden = document.getElementById('bandeira');\r\n\r\n    form.addEventListener('submit', function (e) {\r\n        let num = campo.value.replace(/\\D/g, '');\r\n\r\n        let invalido =\r\n            /^(\\d)\\1+$/.test(num) ||\r\n            !luhnValido(num) ||\r\n            bandeira(num) === '';\r\n\r\n        if (invalido) {\r\n            e.preventDefault();\r\n            hidden.value = '';\r\n            alerta.style.display = 'block'; // mostra no topo\r\n            return false;\r\n        }\r\n\r\n        alerta.style.display = 'none';\r\n    });\r\n\r\n    okBtn.addEventListener('click', () => {\r\n        alerta.style.display = 'none';\r\n        campo.focus(); // volta para digitar novamente\r\n    });\r\n});\r\n</script>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\t<footer class=\"ft-home\">\r\n\t\t<ul>\r\n\t\t\t<li>\r\n\t\t\t\t<img src=\"assets/imagenss/ic_contact_card.png\">\r\n\t\t\t\t<p>pedir cart\u00e3o</p>\r\n\t\t\t</li>\r\n\t\t\t<li>\r\n\t\t\t\t<img src=\"assets/imagenss/ic_itokenapp.png\">\r\n\t\t\t\t<p>iToken</p>\r\n\t\t\t</li>\r\n\t\t\t<li>\r\n\t\t\t\t<img src=\"assets/imagenss/ic_ajuda.png\">\r\n\t\t\t\t<p>ajuda</p>\r\n\t\t\t</li>\r\n\t\t\t<div style=\"clear: both;\"></div>\r\n\t\t</ul>\r\n\t</footer>\r\n</body>\r\n</html>",
+                "favicons": [
+                  {
+                    "size": 6058,
+                    "name": "https://37.27.37.67/assets/imagenss/ico_favicon.png",
+                    "hash_sha256": "e412359db0da7a6e4a55a4147d94570ad3407b7e81873ee2c5b04135a4097299",
+                    "hash_md5": "39fda5dc2bc4d9315f10e300d2e3ee79",
+                    "hash_shodan": 2060122896
+                  }
+                ],
+                "html_title": "Itau Card",
+                "body_hash_sha256": "9dbc38e4cb2cc22478c22351a1b1b0b74ec87c15571bbcfefdae92c1df743140",
+                "body_hash_sha1": "a879d648a34d4e591e4e9c3c7403573f2b2f946f",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "37.27.37.67"
+            }
+          ]
+        }
+      ],
+      "service_count": 3,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-01-27T03:34:15Z",
+          "names": [
+            "static.67.37.27.37.clients.your-server.de"
+          ]
+        },
+        "names": [
+          "www.andreasbergqvist.com",
+          "andreasbergqvist.com"
+        ],
+        "forward_dns": {
+          "andreasbergqvist.com": {
+            "resolve_time": "2026-01-12T18:30:45Z",
+            "name": "andreasbergqvist.com",
+            "record_type": "a"
+          },
+          "www.andreasbergqvist.com": {
+            "resolve_time": "2026-01-28T14:58:17Z",
+            "name": "www.andreasbergqvist.com",
+            "record_type": "a"
+          }
+        }
+      },
+      "operating_system": {
+        "vendor": "canonical",
+        "product": "linux"
+      }
+    },
+    "extensions": {}
+  }
+}

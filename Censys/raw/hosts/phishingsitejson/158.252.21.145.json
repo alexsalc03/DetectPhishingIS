@@ -1,0 +1,372 @@
+{
+  "result": {
+    "resource": {
+      "ip": "158.252.21.145",
+      "location": {
+        "continent": "Asia",
+        "country": "United Arab Emirates",
+        "country_code": "AE",
+        "city": "Dubai",
+        "postal_code": "28506 74783",
+        "timezone": "Asia/Dubai",
+        "province": "Dubai",
+        "coordinates": {
+          "latitude": 25.07725,
+          "longitude": 55.30927
+        }
+      },
+      "autonomous_system": {
+        "asn": 16509,
+        "description": "AMAZON-02 - Amazon.com, Inc.",
+        "bgp_prefix": "158.252.0.0/15",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "country_code": "US"
+      },
+      "whois": {
+        "network": {
+          "handle": "AMAZON-DXB",
+          "name": "Amazon Data Services UAE",
+          "cidrs": [
+            "158.252.0.0/15"
+          ],
+          "created": "2025-04-16T00:00:00Z",
+          "updated": "2025-04-16T00:00:00Z",
+          "allocation_type": "REALLOCATION"
+        },
+        "organization": {
+          "handle": "ADSU-1",
+          "name": "Amazon Data Services UAE",
+          "street": "Ibn Battuta Gate Office\\nJebel Ali Village\\n6th Floor, Office #602\\nP.O. Box: 54107",
+          "city": "Dubai",
+          "country": "AE",
+          "abuse_contacts": [
+            {
+              "handle": "AEA8-ARIN",
+              "name": "Amazon EC2 Abuse",
+              "email": "trustandsafety@support.aws.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "IPMAN40-ARIN",
+              "name": "IP Management",
+              "email": "ipmanagement@amazon.com"
+            }
+          ],
+          "tech_contacts": [
+            {
+              "handle": "ANO24-ARIN",
+              "name": "Amazon EC2 Network Operations",
+              "email": "amzn-noc-contact@amazon.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 22,
+          "protocol": "SSH",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "type": [
+                "REMOTE_ACCESS"
+              ]
+            },
+            {
+              "vendor": "openbsd",
+              "product": "openssh"
+            }
+          ],
+          "operating_systems": [
+            {
+              "vendor": "canonical",
+              "product": "linux"
+            }
+          ],
+          "labels": [
+            {
+              "value": "REMOTE_ACCESS"
+            }
+          ],
+          "ip": "158.252.21.145",
+          "scan_time": "2026-01-31T08:16:40Z",
+          "ssh": {
+            "endpoint_id": {
+              "raw": "SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.14",
+              "protocol_version": "2.0",
+              "software_version": "OpenSSH_9.6p1",
+              "comment": "Ubuntu-3ubuntu13.14"
+            },
+            "kex_init_message": {
+              "kex_algorithms": [
+                "sntrup761x25519-sha512@openssh.com",
+                "curve25519-sha256",
+                "curve25519-sha256@libssh.org",
+                "ecdh-sha2-nistp256",
+                "ecdh-sha2-nistp384",
+                "ecdh-sha2-nistp521",
+                "diffie-hellman-group-exchange-sha256",
+                "diffie-hellman-group16-sha512",
+                "diffie-hellman-group18-sha512",
+                "diffie-hellman-group14-sha256",
+                "ext-info-s",
+                "kex-strict-s-v00@openssh.com"
+              ],
+              "host_key_algorithms": [
+                "rsa-sha2-512",
+                "rsa-sha2-256",
+                "ecdsa-sha2-nistp256",
+                "ssh-ed25519"
+              ],
+              "client_to_server_ciphers": [
+                "chacha20-poly1305@openssh.com",
+                "aes128-ctr",
+                "aes192-ctr",
+                "aes256-ctr",
+                "aes128-gcm@openssh.com",
+                "aes256-gcm@openssh.com"
+              ],
+              "server_to_client_ciphers": [
+                "chacha20-poly1305@openssh.com",
+                "aes128-ctr",
+                "aes192-ctr",
+                "aes256-ctr",
+                "aes128-gcm@openssh.com",
+                "aes256-gcm@openssh.com"
+              ],
+              "client_to_server_macs": [
+                "umac-64-etm@openssh.com",
+                "umac-128-etm@openssh.com",
+                "hmac-sha2-256-etm@openssh.com",
+                "hmac-sha2-512-etm@openssh.com",
+                "hmac-sha1-etm@openssh.com",
+                "umac-64@openssh.com",
+                "umac-128@openssh.com",
+                "hmac-sha2-256",
+                "hmac-sha2-512",
+                "hmac-sha1"
+              ],
+              "server_to_client_macs": [
+                "umac-64-etm@openssh.com",
+                "umac-128-etm@openssh.com",
+                "hmac-sha2-256-etm@openssh.com",
+                "hmac-sha2-512-etm@openssh.com",
+                "hmac-sha1-etm@openssh.com",
+                "umac-64@openssh.com",
+                "umac-128@openssh.com",
+                "hmac-sha2-256",
+                "hmac-sha2-512",
+                "hmac-sha1"
+              ],
+              "client_to_server_compression": [
+                "none",
+                "zlib@openssh.com"
+              ],
+              "server_to_client_compression": [
+                "none",
+                "zlib@openssh.com"
+              ]
+            },
+            "algorithm_selection": {
+              "kex_algorithm": "curve25519-sha256@libssh.org",
+              "host_key_algorithm": "ecdsa-sha2-nistp256",
+              "client_to_server_alg_group": {
+                "cipher": "aes128-ctr",
+                "mac": "hmac-sha2-256",
+                "compression": "none"
+              },
+              "server_to_client_alg_group": {
+                "cipher": "aes128-ctr",
+                "mac": "hmac-sha2-256",
+                "compression": "none"
+              }
+            },
+            "server_host_key": {
+              "fingerprint_sha256": "995557222a0012ea779d508acae61e69a318c54b3648b55f2998468eda0068ea",
+              "ecdsa_public_key": {
+                "b": "WsY12Ko6k+ez671VdpiGvGUdBrDMU7D2O848PifSYEs=",
+                "curve": "P-256",
+                "gx": "axfR8uEsQkf4vOblY6RA8ncDfYEt6zOg9KE5RdiYwpY=",
+                "gy": "T+NC4v4af5uO5+tKfA+eFivOM1drMV7Oy7ZAaDe/UfU=",
+                "length": 256,
+                "n": "/////wAAAAD//////////7zm+q2nF56E87nKwvxjJVE=",
+                "p": "/////wAAAAEAAAAAAAAAAAAAAAD///////////////8=",
+                "x": "/mJdPOwuwp8AN0kxEdkOkZMQSK05MJcVtj6CwQQ0XOc=",
+                "y": "tsQFVUlVUxg0xp9qWwATv+UxVYP7Fz/4gjMQ7Sk67sk="
+              }
+            },
+            "hassh_fingerprint": "e42184b06d45385a906f0803d04c83da"
+          }
+        },
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "f5",
+              "product": "nginx"
+            }
+          ],
+          "ip": "158.252.21.145",
+          "scan_time": "2026-01-31T06:47:42Z",
+          "endpoints": [
+            {
+              "hostname": "158.252.21.145",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T06:47:42Z",
+              "http": {
+                "uri": "http://158.252.21.145/",
+                "protocol": "HTTP/1.1",
+                "status_code": 400,
+                "status_reason": "Bad Request",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "150"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "nginx"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>400 Bad Request</title>"
+                ],
+                "body_size": 150,
+                "body": "<html>\r\n<head><title>400 Bad Request</title></head>\r\n<body>\r\n<center><h1>400 Bad Request</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n",
+                "html_title": "400 Bad Request",
+                "body_hash_sha256": "487ad0d2cf075f4328a1adf57ef428759ad4e2c873a8ebd2ad9653990829c9cf",
+                "body_hash_sha1": "28d9c5f6b214c5cdbe7f7e55d6ed5e82080dea01",
+                "supported_versions": [
+                  "HTTP/1.1",
+                  "HTTP/2"
+                ]
+              },
+              "ip": "158.252.21.145"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "f5",
+              "product": "nginx"
+            }
+          ],
+          "ip": "158.252.21.145",
+          "scan_time": "2026-01-31T14:50:49Z",
+          "endpoints": [
+            {
+              "hostname": "158.252.21.145",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T14:50:49Z",
+              "http": {
+                "uri": "http://158.252.21.145:443/",
+                "protocol": "HTTP/1.1",
+                "status_code": 400,
+                "status_reason": "Bad Request",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "248"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "nginx"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>400 The plain HTTP request was sent to HTTPS port</title>"
+                ],
+                "body_size": 248,
+                "body": "<html>\r\n<head><title>400 The plain HTTP request was sent to HTTPS port</title></head>\r\n<body>\r\n<center><h1>400 Bad Request</h1></center>\r\n<center>The plain HTTP request was sent to HTTPS port</center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n",
+                "html_title": "400 The plain HTTP request was sent to HTTPS port",
+                "body_hash_sha256": "f4754ba869b9fc2d0dc7001142522250fdaa628b5af56a9064ec9bdde54fefa6",
+                "body_hash_sha1": "e70b2bdf0abb7fbf695bc27eef3ddf563d36aca1",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "158.252.21.145"
+            }
+          ]
+        }
+      ],
+      "service_count": 3,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-01-11T14:14:17Z",
+          "names": [
+            "ec2-158-252-21-145.me-central-1.compute.amazonaws.com"
+          ]
+        },
+        "names": [
+          "evora.ae",
+          "www.evora.ae"
+        ],
+        "forward_dns": {
+          "evora.ae": {
+            "resolve_time": "2026-01-27T15:04:38Z",
+            "name": "evora.ae",
+            "record_type": "a"
+          },
+          "www.evora.ae": {
+            "resolve_time": "2026-01-02T16:52:21Z",
+            "name": "www.evora.ae",
+            "record_type": "a"
+          }
+        }
+      },
+      "operating_system": {
+        "vendor": "canonical",
+        "product": "linux"
+      }
+    },
+    "extensions": {}
+  }
+}

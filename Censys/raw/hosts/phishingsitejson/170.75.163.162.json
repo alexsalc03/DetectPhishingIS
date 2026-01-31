@@ -1,0 +1,695 @@
+{
+  "result": {
+    "resource": {
+      "ip": "170.75.163.162",
+      "location": {
+        "continent": "North America",
+        "country": "Canada",
+        "country_code": "CA",
+        "city": "Toronto",
+        "postal_code": "M5A",
+        "timezone": "America/Toronto",
+        "province": "Ontario",
+        "coordinates": {
+          "latitude": 43.70643,
+          "longitude": -79.39864
+        }
+      },
+      "autonomous_system": {
+        "asn": 174,
+        "description": "COGENT-174 - Cogent Communications, LLC",
+        "bgp_prefix": "170.75.160.0/20",
+        "name": "COGENT-174 - Cogent Communications, LLC",
+        "country_code": "US"
+      },
+      "whois": {
+        "network": {
+          "handle": "LN01",
+          "name": "Lunanode Hosting Inc.",
+          "cidrs": [
+            "170.75.160.0/20"
+          ],
+          "created": "2014-06-11T00:00:00Z",
+          "updated": "2022-04-10T00:00:00Z",
+          "allocation_type": "ALLOCATION"
+        },
+        "organization": {
+          "handle": "LH-138",
+          "name": "Lunanode Hosting Inc.",
+          "street": "841 Riverside Drive",
+          "city": "Port Coquitlam",
+          "state": "BC",
+          "postal_code": "V3B 7T7",
+          "country": "CA",
+          "abuse_contacts": [
+            {
+              "handle": "LNA30-ARIN",
+              "name": "Luna Node Abuse",
+              "email": "abuse@lunanode.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "LEEJA10-ARIN",
+              "name": "Jason Lee",
+              "email": "lunanode@lunanode.com"
+            }
+          ],
+          "tech_contacts": [
+            {
+              "handle": "LEEJA10-ARIN",
+              "name": "Jason Lee",
+              "email": "lunanode@lunanode.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 22,
+          "protocol": "SSH",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "type": [
+                "REMOTE_ACCESS"
+              ]
+            },
+            {
+              "vendor": "openbsd",
+              "product": "openssh"
+            }
+          ],
+          "operating_systems": [
+            {
+              "vendor": "canonical",
+              "product": "linux"
+            }
+          ],
+          "labels": [
+            {
+              "value": "REMOTE_ACCESS"
+            }
+          ],
+          "ip": "170.75.163.162",
+          "scan_time": "2026-01-31T07:01:36Z",
+          "ssh": {
+            "endpoint_id": {
+              "raw": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13",
+              "protocol_version": "2.0",
+              "software_version": "OpenSSH_8.9p1",
+              "comment": "Ubuntu-3ubuntu0.13"
+            },
+            "kex_init_message": {
+              "kex_algorithms": [
+                "curve25519-sha256",
+                "curve25519-sha256@libssh.org",
+                "ecdh-sha2-nistp256",
+                "ecdh-sha2-nistp384",
+                "ecdh-sha2-nistp521",
+                "sntrup761x25519-sha512@openssh.com",
+                "diffie-hellman-group-exchange-sha256",
+                "diffie-hellman-group16-sha512",
+                "diffie-hellman-group18-sha512",
+                "diffie-hellman-group14-sha256",
+                "kex-strict-s-v00@openssh.com"
+              ],
+              "host_key_algorithms": [
+                "rsa-sha2-512",
+                "rsa-sha2-256",
+                "ecdsa-sha2-nistp256",
+                "ssh-ed25519"
+              ],
+              "client_to_server_ciphers": [
+                "chacha20-poly1305@openssh.com",
+                "aes128-ctr",
+                "aes192-ctr",
+                "aes256-ctr",
+                "aes128-gcm@openssh.com",
+                "aes256-gcm@openssh.com"
+              ],
+              "server_to_client_ciphers": [
+                "chacha20-poly1305@openssh.com",
+                "aes128-ctr",
+                "aes192-ctr",
+                "aes256-ctr",
+                "aes128-gcm@openssh.com",
+                "aes256-gcm@openssh.com"
+              ],
+              "client_to_server_macs": [
+                "umac-64-etm@openssh.com",
+                "umac-128-etm@openssh.com",
+                "hmac-sha2-256-etm@openssh.com",
+                "hmac-sha2-512-etm@openssh.com",
+                "hmac-sha1-etm@openssh.com",
+                "umac-64@openssh.com",
+                "umac-128@openssh.com",
+                "hmac-sha2-256",
+                "hmac-sha2-512",
+                "hmac-sha1"
+              ],
+              "server_to_client_macs": [
+                "umac-64-etm@openssh.com",
+                "umac-128-etm@openssh.com",
+                "hmac-sha2-256-etm@openssh.com",
+                "hmac-sha2-512-etm@openssh.com",
+                "hmac-sha1-etm@openssh.com",
+                "umac-64@openssh.com",
+                "umac-128@openssh.com",
+                "hmac-sha2-256",
+                "hmac-sha2-512",
+                "hmac-sha1"
+              ],
+              "client_to_server_compression": [
+                "none",
+                "zlib@openssh.com"
+              ],
+              "server_to_client_compression": [
+                "none",
+                "zlib@openssh.com"
+              ]
+            },
+            "algorithm_selection": {
+              "kex_algorithm": "curve25519-sha256@libssh.org",
+              "host_key_algorithm": "ecdsa-sha2-nistp256",
+              "client_to_server_alg_group": {
+                "cipher": "aes128-ctr",
+                "mac": "hmac-sha2-256",
+                "compression": "none"
+              },
+              "server_to_client_alg_group": {
+                "cipher": "aes128-ctr",
+                "mac": "hmac-sha2-256",
+                "compression": "none"
+              }
+            },
+            "server_host_key": {
+              "fingerprint_sha256": "e031b725bc68b53dd9d6a2f6d8522c4b60176a80eca31ceee9a232e453feabcc",
+              "ecdsa_public_key": {
+                "b": "WsY12Ko6k+ez671VdpiGvGUdBrDMU7D2O848PifSYEs=",
+                "curve": "P-256",
+                "gx": "axfR8uEsQkf4vOblY6RA8ncDfYEt6zOg9KE5RdiYwpY=",
+                "gy": "T+NC4v4af5uO5+tKfA+eFivOM1drMV7Oy7ZAaDe/UfU=",
+                "length": 256,
+                "n": "/////wAAAAD//////////7zm+q2nF56E87nKwvxjJVE=",
+                "p": "/////wAAAAEAAAAAAAAAAAAAAAD///////////////8=",
+                "x": "2dOqistG4SXySDYxpqiqUlJdPT2XwO3F+dH5m57NwIk=",
+                "y": "jFmTTAi7RVfuKSkdxgniEGWJp9PWlPaEzpM3yli1DHw="
+              }
+            },
+            "hassh_fingerprint": "41ff3ecd1458b0bf86e1b4891636213e"
+          }
+        },
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "apache",
+              "product": "http_server"
+            }
+          ],
+          "operating_systems": [
+            {
+              "vendor": "canonical",
+              "product": "linux"
+            }
+          ],
+          "ip": "170.75.163.162",
+          "scan_time": "2026-01-31T04:15:37Z",
+          "endpoints": [
+            {
+              "hostname": "170.75.163.162",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T04:15:37Z",
+              "http": {
+                "uri": "http://170.75.163.162/",
+                "protocol": "HTTP/1.1",
+                "status_code": 200,
+                "status_reason": "OK",
+                "headers": {
+                  "Content-Encoding": {
+                    "headers": [
+                      "gzip"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "11823"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html; charset=UTF-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "Apache/2.4.52 (Ubuntu)"
+                    ]
+                  },
+                  "Vary": {
+                    "headers": [
+                      "Accept-Encoding"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>Bolt Card Wallet - Connect your bolt card</title>",
+                  "<meta charset=\"utf-8\">",
+                  "<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">",
+                  "<meta content=\"\" name=\"description\">",
+                  "<meta content=\"\" name=\"keywords\">"
+                ],
+                "body_size": 51692,
+                "body": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n  <meta charset=\"utf-8\">\r\n  <meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\r\n\r\n  <title>Bolt Card Wallet - Connect your bolt card</title>\r\n  <meta content=\"\" name=\"description\">\r\n  <meta content=\"\" name=\"keywords\">\r\n\r\n  <!-- Favicons -->\r\n  <link href=\"assets/img/bolt-card-icon.png\" rel=\"icon\">\r\n  <link href=\"assets/img/bolt-card-icon.png\" rel=\"apple-touch-icon\">\r\n\r\n  <!-- Google Fonts -->\r\n  <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i\" rel=\"stylesheet\">\r\n\r\n  <!-- Vendor CSS Files -->\r\n  <!-- <link href=\"assets/vendor/aos/aos.css\" rel=\"stylesheet\"> -->\r\n  <link href=\"assets/vendor/bootstrap/css/bootstrap.min.css\" rel=\"stylesheet\">\r\n  <link href=\"assets/vendor/bootstrap-icons/bootstrap-icons.css\" rel=\"stylesheet\">\r\n  <link href=\"assets/vendor/boxicons/css/boxicons.min.css\" rel=\"stylesheet\">\r\n  <link href=\"assets/vendor/glightbox/css/glightbox.min.css\" rel=\"stylesheet\">\r\n  <link href=\"assets/vendor/swiper/swiper-bundle.min.css\" rel=\"stylesheet\">\r\n\r\n  <!-- Template Main CSS File -->\r\n  <link href=\"assets/css/style.css\" rel=\"stylesheet\">\r\n\r\n</head>\r\n\r\n<body>\r\n\r\n  <!-- ======= Header ======= -->\r\n  <header id=\"header\" class=\"fixed-top \">\r\n    <div class=\"container d-flex align-items-center justify-content-between\">\r\n      <h1 class=\"logo\">\r\n        <a href=\"index.php\">\r\n          <img src=\"assets/img/bolt-card-icon.png\" /> Bolt Card Wallet\r\n        </a>\r\n      </h1>\r\n      <!-- Uncomment below if you prefer to use an image logo -->\r\n      <!-- <a href=\"index.php\" class=\"logo\"><img src=\"assets/img/logo.png\" alt=\"\" class=\"img-fluid\"></a>-->\r\n\r\n      <nav id=\"navbar\" class=\"navbar\">\n    <ul>\n        <li><a class=\"nav-link scrollto\" href=\"index.php#hero\">Home</a></li>\n        <!-- <li><a class=\"nav-link scrollto\" href=\"#about\">About</a></li> -->\n        <!-- <li><a class=\"nav-link scrollto\" href=\"index.php#bolt-card-pos\">Point of Sale</a></li>\n        <li><a class=\"nav-link scrollto\" href=\"index.php#features\">Features</a></li> -->\n        <li><a class=\"nav-link scrollto\" href=\"hub.php\">Hub</a></li>\n        <li><a class=\"nav-link scrollto\" href=\"buy-bolt-cards\">Cards</a></li>\n        <li><a class=\"nav-link scrollto\" href=\"index.php#setup-wallet\">Wallet Setup</a></li>\n        <li><a class=\"nav-link scrollto\" href=\"index.php#setup-hub\">Hub Setup</a></li>\n        <li><a class=\"nav-link scrollto\" href=\"umbrel-setup.php\">Umbrel Setup</a></li>\n        <!--           <li><a class=\"nav-link scrollto \" href=\"#portfolio\">Portfolio</a></li>\n    <li><a class=\"nav-link scrollto\" href=\"#team\">Team</a></li>\n    <li class=\"dropdown\"><a href=\"#\"><span>Drop Down</span> <i class=\"bi bi-chevron-down\"></i></a>\n      <ul>\n        <li><a href=\"#\">Drop Down 1</a></li>\n        <li class=\"dropdown\"><a href=\"#\"><span>Deep Drop Down</span> <i class=\"bi bi-chevron-right\"></i></a>\n          <ul>\n            <li><a href=\"#\">Deep Drop Down 1</a></li>\n            <li><a href=\"#\">Deep Drop Down 2</a></li>\n            <li><a href=\"#\">Deep Drop Down 3</a></li>\n            <li><a href=\"#\">Deep Drop Down 4</a></li>\n            <li><a href=\"#\">Deep Drop Down 5</a></li>\n          </ul>\n        </li>\n        <li><a href=\"#\">Drop Down 2</a></li>\n        <li><a href=\"#\">Drop Down 3</a></li>\n        <li><a href=\"#\">Drop Down 4</a></li>\n      </ul>\n    </li>\n    <li><a class=\"nav-link scrollto\" href=\"#contact\">Contact</a></li> -->\n        <!-- <li><a class=\"getstarted scrollto\" href=\"#about\">Get Started</a></li> -->\n    </ul>\n    <i class=\"bi bi-list mobile-nav-toggle\"></i> </nav\n><!-- .navbar -->\n\r\n\r\n    </div>\r\n  </header><!-- End Header -->\r\n\r\n  <!-- ======= Hero Section ======= -->\r\n  <section id=\"hero\" class=\"d-flex align-items-center\">\r\n\r\n    <div class=\"container\" data-aos=\"fade-up\">\r\n      <div class=\"row justify-content-center\">\r\n        <div class=\"col-xl-5 col-lg-6 pt-3 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center\">\r\n          <h1>The Bolt Card Wallet</h1>\r\n          <h2>Tap'n'go / Contactless payments for the lightning network</h2>\r\n          <div style=\"line-height:36px; vertical-align:middle;\">\r\n            <a href=\"https://play.google.com/store/apps/details?id=com.boltcard.boltcard\" style=\"\" class=\"btn-get-started scrollto\">\r\n              <i style=\"vertical-align:middle; font-size: 36px\" class=\"bx bxl-android\"></i> Android\r\n            </a>\r\n            <a href=\"https://apps.apple.com/us/app/bolt-card-wallet/id6446301845\" style=\"line-height:36px\" class=\"btn-get-started\">\r\n              <i style=\"vertical-align:middle; font-size: 36px\" class=\"bx bxl-apple\"></i>iOS\r\n            </a>\r\n            <br />\r\n            <a href=\"https://github.com/boltcard\" style=\"\" class=\"btn-get-started scrollto\">\r\n              <i style=\"vertical-align:middle; font-size: 36px\" class=\"bx bxl-github\"></i> Run your own Hub\r\n            </a>\r\n            <br />\r\n            <a href=\"umbrel-setup.php\" style=\"\" class=\"btn-get-started scrollto\">\r\n              <i style=\"vertical-align:middle; font-size: 36px\" class=\"bx bxs-server\"></i> Set up your Bold Card Hub on Umbrel\r\n            </a>\r\n            <br />\r\n            <a href=\"index.php#setup-hub\" style=\"\" class=\"btn-get-started scrollto\">\r\n              <i style=\"vertical-align:middle; font-size: 36px\" class=\"bx bxs-server\"></i> Set up your Bold Card Hub Manually\r\n            </a>\r\n          </div>\r\n        </div>\r\n        <div class=\"col-xl-4 col-lg-6 order-1 order-lg-2 hero-img text-center\" data-aos=\"zoom-in\" data-aos-delay=\"150\">\r\n          <img width=\"250\" src=\"assets/img/bolt-card-wallet.jpg\" class=\"img-fluid animated rounded\" alt=\"\">\r\n        </div>\r\n      </div>\r\n    </div>\r\n\r\n  </section><!-- End Hero -->\r\n\r\n<!-- ======= About Section ======= -->\r\n    <section id=\"bolt-card-pos\" class=\"about section-bg\">\r\n      <div class=\"container\">\r\n\r\n        <div class=\"row\">\r\n          <div class=\"col-lg-4 order-1 order-lg-1\" data-aos=\"zoom-in\" data-aos-delay=\"150\">\r\n            <img class=\"rounded\" src=\"assets/img/boltcardposlogo.webp\" class=\"img-fluid\" alt=\"\">\r\n          </div>\r\n          <div class=\"col-lg-8 pt-4 pt-lg-0 order-2 order-lg-2 content\" data-aos=\"fade-right\">\r\n            <h3>Bolt Card PoS</h3>\r\n            <p class=\"fst-italic\">\r\n              Lightning enabled Point of Sale app. Compatible with all bolt cards.\r\n            </p>\r\n            <ul>\r\n              <li><i class=\"bi bi-check-circle\"></i> Connects to your own LND node through the <a href=\"https://lnbits.com\">LNBits LNDHub</a> extension</li>\r\n              <li><i class=\"bi bi-check-circle\"></i> Compatible with all major bolt cards</li>\r\n              <li><i class=\"bi bi-check-circle\"></i> Quick setup - just scan your LNDHub Invoice QR code. </li>\r\n              <li><i class=\"bi bi-check-circle\"></i> Supports most FIAT currencies for quick value conversion</li>\r\n              <li><i class=\"bi bi-check-circle\"></i> Check recent transactions and scan receipt QR code to check if a transaction was paid. </li>\r\n              <li><i class=\"bi bi-check-circle\"></i> <a href=\"https://github.com/boltcard/bolt-card-pos\">See our Github repo for more info</a></li>\r\n            </ul>\r\n            <a target=\"_new\" style=\"border-radius: 5px; color: #fff; padding: 10px 50px 10px 28px; background: linear-gradient(45deg, #5846f9 0%, #7b27d8 100%);\" href=\"https://play.google.com/store/apps/details?id=org.boltcard.boltcardpos\">\r\n              <i style=\"vertical-align:middle; font-size: 36px\" class=\"bx bxl-android\"></i>\r\n              Download for Android\r\n            </a> &nbsp;\r\n            <a target=\"_new\" style=\"border-radius: 5px; color: #fff; padding: 10px 50px 10px 28px; background: linear-gradient(45deg, #5846f9 0%, #7b27d8 100%);\" href=\"https://apps.apple.com/us/app/bolt-card-pos/id6448741630\">\r\n              <i style=\"vertical-align:middle; font-size: 36px\" class=\"bx bxl-apple\"></i>\r\n              Download for iOS\r\n            </a>\r\n            <div class=\"row mt-5\">\r\n              <div class=\"col-lg-4\" data-aos=\"zoom-in\" data-aos-delay=\"150\">\r\n                <img class=\"img-fluid\" style=\"border-radius:5px;border:solid 1px #000\" src=\"assets/img/Screenshot_bcw_1.png\" alt=\"\">\r\n              </div>\r\n              <div class=\"col-lg-4\" data-aos=\"zoom-in\" data-aos-delay=\"150\">\r\n                <img class=\"img-fluid\" style=\"border-radius:5px;border:solid 1px #000\" src=\"assets/img/Screenshot_pay.png\" alt=\"\">\r\n              </div>\r\n              <div class=\"col-lg-4\" data-aos=\"zoom-in\" data-aos-delay=\"150\">\r\n                <img class=\"img-fluid\" style=\"border-radius:5px;border:solid 1px #000\" src=\"assets/img/Screenshot_paid.png\" alt=\"\">\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n        \r\n      </div>\r\n\r\n    </section><!-- End About Section -->\r\n  <main id=\"main\">\r\n\r\n    <!-- ======= Features Section ======= -->\r\n    <section id=\"features\" class=\"features\">\r\n      <div class=\"container\" data-aos=\"fade-up\">\r\n\r\n        <div class=\"section-title\">\r\n          <h2>Bolt Card Wallet Features & Requirements</h2>\r\n          <p>Essentially a fork of Bluewallet with the other wallets stripped out, and the custodial lightning wallet modified to work with a fork of the lndhub we are calling the bolt card hub</p>\r\n        </div>\r\n\r\n        <div class=\"row\">\r\n          <div class=\"col-lg-6 order-2 order-lg-1 d-flex flex-column align-items-lg-center\">\r\n            <div class=\"icon-box mt-5 mt-lg-0\" data-aos=\"fade-up\" data-aos-delay=\"100\">\r\n              <i class=\"bx bx-credit-card\"></i>\r\n              <h4>Connect and Disconnect</h4>\r\n              <p>The app allows you to connect and disconnect a bolt card (NXP NTAG424 card) to your bolt card wallet</p>\r\n            </div>\r\n            <div class=\"icon-box mt-5\" data-aos=\"fade-up\" data-aos-delay=\"200\">\r\n              <i class=\"bx bx-shield\"></i>\r\n              <h4>Bring Your Node</h4>\r\n              <p>Connect to your own LND node using <a href=\"https://github.com/boltcard/boltcard-lndhub\">bolt card hub</a>, or use a node that you trust</p>\r\n            </div>\r\n            <div class=\"icon-box mt-5\" data-aos=\"fade-up\" data-aos-delay=\"300\">\r\n              <i class=\"bx bx-images\"></i>\r\n              <h4>Host Cards for your friends and family</h4>\r\n              <p>You can connect one card per wallet and create multiple wallets on one device</p>\r\n            </div>\r\n            <div class=\"icon-box mt-5\" data-aos=\"fade-up\" data-aos-delay=\"400\">\r\n              <i class=\"bx bx-mobile\"></i>\r\n              <h4>Android and iOS!</h4>\r\n              <p>Download for android and iOS now, precompiled APKs for android available in the github repo</p>\r\n              <p><a href=\"https://play.google.com/store/apps/details?id=com.boltcard.boltcard\" style=\"\" class=\"btn-get-started scrollto\">\r\n                  <i style=\"vertical-align:middle; font-size: 36px\" class=\"bx bxl-android\"></i> Android\r\n                </a></p>\r\n              <p><a href=\"https://apps.apple.com/us/app/bolt-card-wallet/id6446301845\" style=\"line-height:36px\" class=\"btn-get-started\">\r\n                  <i style=\"vertical-align:middle; font-size: 36px\" class=\"bx bxl-apple\"></i>iOS\r\n                </a></p>\r\n            </div>\r\n          </div>\r\n          <div class=\"image col-lg-6 order-1 order-lg-2 \" data-aos=\"zoom-in\" data-aos-delay=\"100\">\r\n            <img src=\"assets/img/features.svg\" alt=\"\" class=\"img-fluid\">\r\n          </div>\r\n        </div>\r\n\r\n      </div>\r\n    </section><!-- End Features Section -->\r\n\r\n    <!-- ======= Counts Section ======= \r\n    <section id=\"counts\" class=\"counts\">\r\n      <div class=\"container\">\r\n\r\n        <div class=\"row counters\">\r\n\r\n          <div class=\"col-lg-3 col-6 text-center\">\r\n            <span data-purecounter-start=\"0\" data-purecounter-end=\"232\" data-purecounter-duration=\"1\" class=\"purecounter\"></span>\r\n            <p>Clients</p>\r\n          </div>\r\n\r\n          <div class=\"col-lg-3 col-6 text-center\">\r\n            <span data-purecounter-start=\"0\" data-purecounter-end=\"521\" data-purecounter-duration=\"1\" class=\"purecounter\"></span>\r\n            <p>Projects</p>\r\n          </div>\r\n\r\n          <div class=\"col-lg-3 col-6 text-center\">\r\n            <span data-purecounter-start=\"0\" data-purecounter-end=\"1463\" data-purecounter-duration=\"1\" class=\"purecounter\"></span>\r\n            <p>Hours Of Support</p>\r\n          </div>\r\n\r\n          <div class=\"col-lg-3 col-6 text-center\">\r\n            <span data-purecounter-start=\"0\" data-purecounter-end=\"15\" data-purecounter-duration=\"1\" class=\"purecounter\"></span>\r\n            <p>Hard Workers</p>\r\n          </div>\r\n\r\n        </div>\r\n\r\n      </div>\r\n    </section><!-- End Counts Section -->\r\n\r\n    <!-- ======= Services Section ======= --\r\n    <section id=\"services\" class=\"services section-bg\">\r\n      <div class=\"container\" data-aos=\"fade-up\">\r\n\r\n        <div class=\"section-title\">\r\n          <h2>Services</h2>\r\n          <p>To use the bolt card wallet you must connect to a trusted bolt card hub instance.</p>\r\n        </div>\r\n\r\n        <div class=\"row gy-4\">\r\n          <div class=\"col-lg-4 col-md-6 d-flex align-items-stretch\" data-aos=\"zoom-in\" data-aos-delay=\"100\">\r\n            <div class=\"icon-box iconbox-blue\">\r\n              <div class=\"icon\">\r\n                <svg width=\"100\" height=\"100\" viewBox=\"0 0 600 600\" xmlns=\"http://www.w3.org/2000/svg\">\r\n                  <path stroke=\"none\" stroke-width=\"0\" fill=\"#f5f5f5\" d=\"M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174\"></path>\r\n                </svg>\r\n                <i class=\"bx bx-credit-card\"></i>\r\n              </div>\r\n              <h4><a href=\"\">Connect and Disconnect</a></h4>\r\n              <p>The app allows you to connect and disconnect a bolt card (NXP NTAG424 card) to your bolt card wallet</p>\r\n            </div>\r\n          </div>\r\n\r\n          <div class=\"col-lg-4 col-md-6 d-flex align-items-stretch\" data-aos=\"zoom-in\" data-aos-delay=\"200\">\r\n            <div class=\"icon-box iconbox-orange \">\r\n              <div class=\"icon\">\r\n                <svg width=\"100\" height=\"100\" viewBox=\"0 0 600 600\" xmlns=\"http://www.w3.org/2000/svg\">\r\n                  <path stroke=\"none\" stroke-width=\"0\" fill=\"#f5f5f5\" d=\"M300,582.0697525312426C382.5290701553225,586.8405444964366,449.9789794690241,525.3245884688669,502.5850820975895,461.55621195738473C556.606425686781,396.0723002908107,615.8543463187945,314.28637112970534,586.6730223649479,234.56875336149918C558.9533121215079,158.8439757836574,454.9685369536778,164.00468322053177,381.49747125262974,130.76875717737553C312.15926192815925,99.40240125094834,248.97055460311594,18.661163978235184,179.8680185752513,50.54337015887873C110.5421016452524,82.52863877960104,119.82277516462835,180.83849132639028,109.12597500060166,256.43424936330496C100.08760227029461,320.3096726198365,92.17705696193138,384.0621239912766,124.79988738764834,439.7174275375508C164.83382741302287,508.01625554203684,220.96474134820875,577.5009287672846,300,582.0697525312426\"></path>\r\n                </svg>\r\n                <i class=\"bx bx-file\"></i>\r\n              </div>\r\n              <h4><a href=\"\">Bring Your Node</a></h4>\r\n              <p>Connect to your own LND node using bolt card hub, or use a node that you trust</p>\r\n            </div>\r\n          </div>\r\n          <div class=\"col-lg-4 col-md-6 d-flex align-items-stretch\" data-aos=\"zoom-in\" data-aos-delay=\"300\">\r\n            <div class=\"icon-box iconbox-pink\">\r\n              <div class=\"icon\">\r\n                <svg width=\"100\" height=\"100\" viewBox=\"0 0 600 600\" xmlns=\"http://www.w3.org/2000/svg\">\r\n                  <path stroke=\"none\" stroke-width=\"0\" fill=\"#f5f5f5\" d=\"M300,541.5067337569781C382.14930387511276,545.0595476570109,479.8736841581634,548.3450877840088,526.4010558755058,480.5488172755941C571.5218469581645,414.80211281144784,517.5187510058486,332.0715597781072,496.52539010469104,255.14436215662573C477.37192572678356,184.95920475031193,473.57363656557914,105.61284051026155,413.0603344069578,65.22779650032875C343.27470386102294,18.654635553484475,251.2091493199835,5.337323636656869,175.0934190732945,40.62881213300186C97.87086631185822,76.43348514350839,51.98124368387456,156.15599469081315,36.44837278890362,239.84606092416172C21.716077023791087,319.22268207091537,43.775223500013084,401.1760424656574,96.891909868211,461.97329694683043C147.22146801428983,519.5804099606455,223.5754009179313,538.201503339737,300,541.5067337569781\"></path>\r\n                </svg>\r\n                <i class=\"bx bx-tachometer\"></i>\r\n              </div>\r\n              <h4><a href=\"\">Magni Dolores</a></h4>\r\n              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>\r\n            </div>\r\n          </div>\r\n\r\n          <div class=\"col-lg-4 col-md-6 d-flex align-items-stretch\" data-aos=\"zoom-in\" data-aos-delay=\"100\">\r\n            <div class=\"icon-box iconbox-yellow\">\r\n              <div class=\"icon\">\r\n                <svg width=\"100\" height=\"100\" viewBox=\"0 0 600 600\" xmlns=\"http://www.w3.org/2000/svg\">\r\n                  <path stroke=\"none\" stroke-width=\"0\" fill=\"#f5f5f5\" d=\"M300,503.46388370962813C374.79870501325706,506.71871716319447,464.8034551963731,527.1746412648533,510.4981551193396,467.86667711651364C555.9287308511215,408.9015244558933,512.6030010748507,327.5744911775523,490.211057578863,256.5855673507754C471.097692560561,195.9906835881958,447.69079081568157,138.11976852964426,395.19560036434837,102.3242989838813C329.3053358748298,57.3949838291264,248.02791733380457,8.279543830951368,175.87071277845988,42.242879143198664C103.41431057327972,76.34704239035025,93.79494320519305,170.9812938413882,81.28167332365135,250.07896920659033C70.17666984294237,320.27484674793965,64.84698225790005,396.69656628748305,111.28512138212992,450.4950937839243C156.20124167950087,502.5303643271138,231.32542653798444,500.4755392045468,300,503.46388370962813\"></path>\r\n                </svg>\r\n                <i class=\"bx bx-layer\"></i>\r\n              </div>\r\n              <h4><a href=\"\">Nemo Enim</a></h4>\r\n              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>\r\n            </div>\r\n          </div>\r\n\r\n          <div class=\"col-lg-4 col-md-6 d-flex align-items-stretch\" data-aos=\"zoom-in\" data-aos-delay=\"200\">\r\n            <div class=\"icon-box iconbox-red\">\r\n              <div class=\"icon\">\r\n                <svg width=\"100\" height=\"100\" viewBox=\"0 0 600 600\" xmlns=\"http://www.w3.org/2000/svg\">\r\n                  <path stroke=\"none\" stroke-width=\"0\" fill=\"#f5f5f5\" d=\"M300,532.3542879108572C369.38199826031484,532.3153073249985,429.10787420159085,491.63046689027357,474.5244479745417,439.17860296908856C522.8885846962883,383.3225815378663,569.1668002868075,314.3205725914397,550.7432151929288,242.7694973846089C532.6665558377875,172.5657663291529,456.2379748765914,142.6223662098291,390.3689995646985,112.34683881706744C326.66090330228417,83.06452184765237,258.84405631176094,53.51806209861945,193.32584062364296,78.48882559362697C121.61183558270385,105.82097193414197,62.805066853699245,167.19869350419734,48.57481801355237,242.6138429142374C34.843463184063346,315.3850353017275,76.69343916112496,383.4422959591041,125.22947124332185,439.3748458443577C170.7312796277747,491.8107796887764,230.57421082200815,532.3932930995766,300,532.3542879108572\"></path>\r\n                </svg>\r\n                <i class=\"bx bx-slideshow\"></i>\r\n              </div>\r\n              <h4><a href=\"\">Dele Cardo</a></h4>\r\n              <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>\r\n            </div>\r\n          </div>\r\n\r\n          <div class=\"col-lg-4 col-md-6 d-flex align-items-stretch\" data-aos=\"zoom-in\" data-aos-delay=\"300\">\r\n            <div class=\"icon-box iconbox-teal\">\r\n              <div class=\"icon\">\r\n                <svg width=\"100\" height=\"100\" viewBox=\"0 0 600 600\" xmlns=\"http://www.w3.org/2000/svg\">\r\n                  <path stroke=\"none\" stroke-width=\"0\" fill=\"#f5f5f5\" d=\"M300,566.797414625762C385.7384707136149,576.1784315230908,478.7894351017131,552.8928747891023,531.9192734346935,484.94944893311C584.6109503024035,417.5663521118492,582.489472248146,322.67544863468447,553.9536738515405,242.03673114598146C529.1557734026468,171.96086150256528,465.24506316201064,127.66468636344209,395.9583748389544,100.7403814666027C334.2173773831606,76.7482773500951,269.4350130405921,84.62216499799875,207.1952322260088,107.2889140133804C132.92018162631612,134.33871894543012,41.79353780512637,160.00259165414826,22.644507872594943,236.69541883565114C3.319112789854554,314.0945973066697,72.72355303640163,379.243833228382,124.04198916343866,440.3218312028393C172.9286146004772,498.5055451809895,224.45579914871206,558.5317968840102,300,566.797414625762\"></path>\r\n                </svg>\r\n                <i class=\"bx bx-arch\"></i>\r\n              </div>\r\n              <h4><a href=\"\">Divera Don</a></h4>\r\n              <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>\r\n            </div>\r\n          </div> \r\n\r\n        </div>\r\n\r\n      </div>\r\n    </section><!-- End Services Section -->\r\n    <!-- ======= Pricing Section ======= -->\r\n    <section id=\"pricing\" class=\"pricing section-bg\">\r\n      <div class=\"container\" data-aos=\"fade-up\">\r\n\r\n        <div class=\"section-title\">\r\n          <h2>Pricing</h2>\r\n          <p>This template came with a pricing section so I've filled it out</p>\r\n        </div>\r\n\r\n        <div class=\"row\">\r\n\r\n          <div class=\"col-lg-3 col-md-6\" data-aos=\"fade-up\" data-aos-delay=\"100\">\r\n            <div class=\"box\">\r\n              <h3>Legacy Paywave</h3>\r\n              <h4>2<sup>%</sup><span>cost per TX</span></h4>\r\n              <ul>\r\n                <li>Additional Fees</li>\r\n                <li>Only works with FIAT money</li>\r\n                <li>Your payments are surveiled</li>\r\n                <li class=\"na\">Freedom</li>\r\n                <li class=\"na\">Store of Value</li>\r\n              </ul>\r\n              <div class=\"btn-wrap\">\r\n                <a href=\"https://www.rnz.co.nz/news/business/483466/commerce-commission-considering-action-over-high-paywave-fees\" class=\"btn-buy\">Pay the man</a>\r\n              </div>\r\n            </div>\r\n          </div>\r\n\r\n          <div class=\"col-lg-3 col-md-6 mt-4 mt-md-0\" data-aos=\"fade-up\" data-aos-delay=\"200\">\r\n            <div class=\"box featured\">\r\n              <h3>Bolt Card</h3>\r\n              <h4><sup>$</sup>Free<span></span></h4>\r\n              <ul>\r\n                <li>Set your own limits</li>\r\n                <li>Payment Push notifications</li>\r\n                <li>Check your balance</li>\r\n                <li>Saves time</li>\r\n                <li class=\"na\">Less faff, much wow</li>\r\n              </ul>\r\n              <div class=\"btn-wrap\">\r\n                <a href=\"https://github.com/boltcard\" class=\"btn-buy\">Start Now</a>\r\n              </div>\r\n            </div>\r\n          </div>\r\n\r\n          <div class=\"col-lg-3 col-md-6 mt-4 mt-lg-0\" data-aos=\"fade-up\" data-aos-delay=\"300\">\r\n            <div class=\"box\">\r\n              <span class=\"advanced\">2nd Best</span>\r\n              <h3>Scan a QR Code</h3>\r\n              <h4><sup>$</sup>Free<span></span></h4>\r\n              <ul>\r\n                <li>Less convenient</li>\r\n                <li>Still Better than FIAT</li>\r\n                <li>Not as cool as a bolt card</li>\r\n                <li>No internet? Ruh Roah</li>\r\n                <li>Dropped your phone? Damn</li>\r\n              </ul>\r\n              <div class=\"btn-wrap\">\r\n                <a href=\"https://walletofsatoshi.com\" class=\"btn-buy\">QR code pls</a>\r\n              </div>\r\n            </div>\r\n          </div>\r\n<!-- \r\n          <div class=\"col-lg-3 col-md-6 mt-4 mt-lg-0\" data-aos=\"fade-up\" data-aos-delay=\"400\">\r\n            <div class=\"box\">\r\n              <span class=\"advanced\">Advanced</span>\r\n              <h3>Ultimate</h3>\r\n              <h4><sup>$</sup>49<span> / month</span></h4>\r\n              <ul>\r\n                <li>Aida dere</li>\r\n                <li>Nec feugiat nisl</li>\r\n                <li>Nulla at volutpat dola</li>\r\n                <li>Pharetra massa</li>\r\n                <li>Massa ultricies mi</li>\r\n              </ul>\r\n              <div class=\"btn-wrap\">\r\n                <a href=\"#\" class=\"btn-buy\">Buy Now</a>\r\n              </div>\r\n            </div>\r\n          </div> -->\r\n\r\n        </div>\r\n\r\n      </div>\r\n    </section><!-- End Pricing Section -->\r\n    <!-- ======= About Section ======= -->\r\n    <section id=\"about\" class=\"about\">\r\n      <div class=\"container\">\r\n\r\n        <div class=\"row\">\r\n          <div class=\"col-lg-6 order-1 order-lg-2\" data-aos=\"zoom-in\" data-aos-delay=\"150\">\r\n            <img src=\"assets/img/about.jpg\" class=\"img-fluid\" alt=\"\">\r\n          </div>\r\n          <div class=\"col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content\" data-aos=\"fade-right\">\r\n            <h3>LNURLw withdrawal with an NXP NTAG424 card </h3>\r\n            <p class=\"fst-italic\">\r\n              Tapping your bolt card authorises a one time withdrawal payment to the merchants point of sale device.\r\n            </p>\r\n            <ul>\r\n              <li><i class=\"bi bi-check-circle\"></i> Faster than opening your app and scanning a QR code</li>\r\n              <li><i class=\"bi bi-check-circle\"></i> Compatible with existing lighting wallets / PoS such as Breez, Voltage, LNBits Tpos and BTCPayServer, more to come...</li>\r\n              <li><i class=\"bi bi-check-circle\"></i> No additional cost for tap'n'go payments - unlike the legacy payments system. </li>\r\n              <li><i class=\"bi bi-check-circle\"></i> Run a hub for your family or community </li>\r\n              <li><i class=\"bi bi-check-circle\"></i> Run your own hub to use your own node for maximum sovereignty </li>\r\n            </ul>\r\n            <a href=\"https://boltcard.org\" class=\"read-more\">Read More <i class=\"bi bi-long-arrow-right\"></i></a>\r\n          </div>\r\n        </div>\r\n\r\n      </div>\r\n    </section><!-- End About Section -->\r\n\r\n\r\n    <section id=\"setup-wallet\" class=\"pricing\">\r\n      <div class=\"container\">\r\n        <div class=\"section-title\">\r\n          <h2>Bolt Card Wallet Setup</h2>\r\n          <p>Get started with an Android device</p>\r\n        </div>\r\n        <iframe width=\"100%\" height=\"700\" src=\"https://www.youtube.com/embed/Vtr5LvJggvc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\r\n      </div>\r\n      <div class=\"container mt-5\">\r\n        <div class=\"section-title\">\r\n          <h2 id=\"setup-hub\">Bolt Card Hub Setup</h2>\r\n          <p>Set up your own self custodial Bolt Card Hub connected to your own LND lightning node</p>\r\n            <h3><span class=\"badge badge-primary\">NEW</span>Also - Check out our <a href=\"https://boltcardwallet.com/umbrel-setup.php\">one-click install<a> for your umbrel</h3> \r\n        </div>\r\n        <iframe width=\"100%\" height=\"700\" src=\"https://www.youtube.com/embed/Q5Iw7d6xVGA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\r\n      </div>\r\n    </section>\r\n\r\n    <!-- ======= Testimonials Section ======= --\r\n    <section id=\"testimonials\" class=\"testimonials section-bg\">\r\n      <div class=\"container\" data-aos=\"fade-up\">\r\n\r\n        <div class=\"section-title\">\r\n          <h2>Testimonials</h2>\r\n          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>\r\n        </div>\r\n\r\n        <div class=\"testimonials-slider swiper\" data-aos=\"fade-up\" data-aos-delay=\"100\">\r\n          <div class=\"swiper-wrapper\">\r\n\r\n            <div class=\"swiper-slide\">\r\n              <div class=\"testimonial-item\">\r\n                <p>\r\n                  <i class=\"bx bxs-quote-alt-left quote-icon-left\"></i>\r\n                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.\r\n                  <i class=\"bx bxs-quote-alt-right quote-icon-right\"></i>\r\n                </p>\r\n                <img src=\"assets/img/testimonials/testimonials-1.jpg\" class=\"testimonial-img\" alt=\"\">\r\n                <h3>Saul Goodman</h3>\r\n                <h4>Ceo &amp; Founder</h4>\r\n              </div>\r\n            </div><!-- End testimonial item --\r\n\r\n            <div class=\"swiper-slide\">\r\n              <div class=\"testimonial-item\">\r\n                <p>\r\n                  <i class=\"bx bxs-quote-alt-left quote-icon-left\"></i>\r\n                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.\r\n                  <i class=\"bx bxs-quote-alt-right quote-icon-right\"></i>\r\n                </p>\r\n                <img src=\"assets/img/testimonials/testimonials-2.jpg\" class=\"testimonial-img\" alt=\"\">\r\n                <h3>Sara Wilsson</h3>\r\n                <h4>Designer</h4>\r\n              </div>\r\n            </div><!-- End testimonial item --\r\n\r\n            <div class=\"swiper-slide\">\r\n              <div class=\"testimonial-item\">\r\n                <p>\r\n                  <i class=\"bx bxs-quote-alt-left quote-icon-left\"></i>\r\n                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.\r\n                  <i class=\"bx bxs-quote-alt-right quote-icon-right\"></i>\r\n                </p>\r\n                <img src=\"assets/img/testimonials/testimonials-3.jpg\" class=\"testimonial-img\" alt=\"\">\r\n                <h3>Jena Karlis</h3>\r\n                <h4>Store Owner</h4>\r\n              </div>\r\n            </div><!-- End testimonial item --\r\n\r\n            <div class=\"swiper-slide\">\r\n              <div class=\"testimonial-item\">\r\n                <p>\r\n                  <i class=\"bx bxs-quote-alt-left quote-icon-left\"></i>\r\n                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore.\r\n                  <i class=\"bx bxs-quote-alt-right quote-icon-right\"></i>\r\n                </p>\r\n                <img src=\"assets/img/testimonials/testimonials-4.jpg\" class=\"testimonial-img\" alt=\"\">\r\n                <h3>Matt Brandon</h3>\r\n                <h4>Freelancer</h4>\r\n              </div>\r\n            </div><!-- End testimonial item --\r\n\r\n            <div class=\"swiper-slide\">\r\n              <div class=\"testimonial-item\">\r\n                <p>\r\n                  <i class=\"bx bxs-quote-alt-left quote-icon-left\"></i>\r\n                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa.\r\n                  <i class=\"bx bxs-quote-alt-right quote-icon-right\"></i>\r\n                </p>\r\n                <img src=\"assets/img/testimonials/testimonials-5.jpg\" class=\"testimonial-img\" alt=\"\">\r\n                <h3>John Larson</h3>\r\n                <h4>Entrepreneur</h4>\r\n              </div>\r\n            </div><!-- End testimonial item --\r\n\r\n          </div>\r\n          <div class=\"swiper-pagination\"></div>\r\n        </div>\r\n\r\n      </div>\r\n    </section><!-- End Testimonials Section -->\r\n\r\n    <!-- ======= Portfolio Section ======= --\r\n    <section id=\"portfolio\" class=\"portfolio\">\r\n      <div class=\"container\" data-aos=\"fade-up\">\r\n\r\n        <div class=\"section-title\">\r\n          <h2>Portfolio</h2>\r\n          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>\r\n        </div>\r\n\r\n        <div class=\"row\">\r\n          <div class=\"col-lg-12 d-flex justify-content-center\">\r\n            <ul id=\"portfolio-flters\">\r\n              <li data-filter=\"*\" class=\"filter-active\">All</li>\r\n              <li data-filter=\".filter-app\">App</li>\r\n              <li data-filter=\".filter-card\">Card</li>\r\n              <li data-filter=\".filter-web\">Web</li>\r\n            </ul>\r\n          </div>\r\n        </div>\r\n\r\n        <div class=\"row portfolio-container\">\r\n\r\n          <div class=\"col-lg-4 col-md-6 portfolio-item filter-app\">\r\n            <div class=\"portfolio-wrap\">\r\n              <img src=\"assets/img/portfolio/portfolio-1.jpg\" class=\"img-fluid\" alt=\"\">\r\n              <div class=\"portfolio-info\">\r\n                <h4>App 1</h4>\r\n                <p>App</p>\r\n              </div>\r\n              <div class=\"portfolio-links\">\r\n                <a href=\"assets/img/portfolio/portfolio-1.jpg\" data-gallery=\"portfolioGallery\" class=\"portfolio-lightbox\" title=\"App 1\"><i class=\"bx bx-plus\"></i></a>\r\n                <a href=\"portfolio-details.html\" title=\"More Details\"><i class=\"bx bx-link\"></i></a>\r\n              </div>\r\n            </div>\r\n          </div>\r\n\r\n          <div class=\"col-lg-4 col-md-6 portfolio-item filter-web\">\r\n            <div class=\"portfolio-wrap\">\r\n              <img src=\"assets/img/portfolio/portfolio-2.jpg\" class=\"img-fluid\" alt=\"\">\r\n              <div class=\"portfolio-info\">\r\n                <h4>Web 3</h4>\r\n                <p>Web</p>\r\n              </div>\r\n              <div class=\"portfolio-links\">\r\n                <a href=\"assets/img/portfolio/portfolio-2.jpg\" data-gallery=\"portfolioGallery\" class=\"portfolio-lightbox\" title=\"Web 3\"><i class=\"bx bx-plus\"></i></a>\r\n                <a href=\"portfolio-details.html\" title=\"More Details\"><i class=\"bx bx-link\"></i></a>\r\n              </div>\r\n            </div>\r\n          </div>\r\n\r\n          <div class=\"col-lg-4 col-md-6 portfolio-item filter-app\">\r\n            <div class=\"portfolio-wrap\">\r\n              <img src=\"assets/img/portfolio/portfolio-3.jpg\" class=\"img-fluid\" alt=\"\">\r\n              <div class=\"portfolio-info\">\r\n                <h4>App 2</h4>\r\n                <p>App</p>\r\n              </div>\r\n              <div class=\"portfolio-links\">\r\n                <a href=\"assets/img/portfolio/portfolio-3.jpg\" data-gallery=\"portfolioGallery\" class=\"portfolio-lightbox\" title=\"App 2\"><i class=\"bx bx-plus\"></i></a>\r\n                <a href=\"portfolio-details.html\" title=\"More Details\"><i class=\"bx bx-link\"></i></a>\r\n              </div>\r\n            </div>\r\n          </div>\r\n\r\n          <div class=\"col-lg-4 col-md-6 portfolio-item filter-card\">\r\n            <div class=\"portfolio-wrap\">\r\n              <img src=\"assets/img/portfolio/portfolio-4.jpg\" class=\"img-fluid\" alt=\"\">\r\n              <div class=\"portfolio-info\">\r\n                <h4>Card 2</h4>\r\n                <p>Card</p>\r\n              </div>\r\n              <div class=\"portfolio-links\">\r\n                <a href=\"assets/img/portfolio/portfolio-4.jpg\" data-gallery=\"portfolioGallery\" class=\"portfolio-lightbox\" title=\"Card 2\"><i class=\"bx bx-plus\"></i></a>\r\n                <a href=\"portfolio-details.html\" title=\"More Details\"><i class=\"bx bx-link\"></i></a>\r\n              </div>\r\n            </div>\r\n          </div>\r\n\r\n          <div class=\"col-lg-4 col-md-6 portfolio-item filter-web\">\r\n            <div class=\"portfolio-wrap\">\r\n              <img src=\"assets/img/portfolio/portfolio-5.jpg\" class=\"img-fluid\" alt=\"\">\r\n              <div class=\"portfolio-info\">\r\n                <h4>Web 2</h4>\r\n                <p>Web</p>\r\n              </div>\r\n              <div class=\"portfolio-links\">\r\n                <a href=\"assets/img/portfolio/portfolio-5.jpg\" data-gallery=\"portfolioGallery\" class=\"portfolio-lightbox\" title=\"Web 2\"><i class=\"bx bx-plus\"></i></a>\r\n                <a href=\"portfolio-details.html\" title=\"More Details\"><i class=\"bx bx-link\"></i></a>\r\n              </div>\r\n            </div>\r\n          </div>\r\n\r\n          <div class=\"col-lg-4 col-md-6 portfolio-item filter-app\">\r\n            <div class=\"portfolio-wrap\">\r\n              <img src=\"assets/img/portfolio/portfolio-6.jpg\" class=\"img-fluid\" alt=\"\">\r\n              <div class=\"portfolio-info\">\r\n                <h4>App 3</h4>\r\n                <p>App</p>\r\n              </div>\r\n              <div class=\"portfolio-links\">\r\n                <a href=\"assets/img/portfolio/portfolio-6.jpg\" data-gallery=\"portfolioGallery\" class=\"portfolio-lightbox\" title=\"App 3\"><i class=\"bx bx-plus\"></i></a>\r\n                <a href=\"portfolio-details.html\" title=\"More Details\"><i class=\"bx bx-link\"></i></a>\r\n              </div>\r\n            </div>\r\n          </div>\r\n\r\n          <div class=\"col-lg-4 col-md-6 portfolio-item filter-card\">\r\n            <div class=\"portfolio-wrap\">\r\n              <img src=\"assets/img/portfolio/portfolio-7.jpg\" class=\"img-fluid\" alt=\"\">\r\n              <div class=\"portfolio-info\">\r\n                <h4>Card 1</h4>\r\n                <p>Card</p>\r\n              </div>\r\n              <div class=\"portfolio-links\">\r\n                <a href=\"assets/img/portfolio/portfolio-7.jpg\" data-gallery=\"portfolioGallery\" class=\"portfolio-lightbox\" title=\"Card 1\"><i class=\"bx bx-plus\"></i></a>\r\n                <a href=\"portfolio-details.html\" title=\"More Details\"><i class=\"bx bx-link\"></i></a>\r\n              </div>\r\n            </div>\r\n          </div>\r\n\r\n          <div class=\"col-lg-4 col-md-6 portfolio-item filter-card\">\r\n            <div class=\"portfolio-wrap\">\r\n              <img src=\"assets/img/portfolio/portfolio-8.jpg\" class=\"img-fluid\" alt=\"\">\r\n              <div class=\"portfolio-info\">\r\n                <h4>Card 3</h4>\r\n                <p>Card</p>\r\n              </div>\r\n              <div class=\"portfolio-links\">\r\n                <a href=\"assets/img/portfolio/portfolio-8.jpg\" data-gallery=\"portfolioGallery\" class=\"portfolio-lightbox\" title=\"Card 3\"><i class=\"bx bx-plus\"></i></a>\r\n                <a href=\"portfolio-details.html\" title=\"More Details\"><i class=\"bx bx-link\"></i></a>\r\n              </div>\r\n            </div>\r\n          </div>\r\n\r\n          <div class=\"col-lg-4 col-md-6 portfolio-item filter-web\">\r\n            <div class=\"portfolio-wrap\">\r\n              <img src=\"assets/img/portfolio/portfolio-9.jpg\" class=\"img-fluid\" alt=\"\">\r\n              <div class=\"portfolio-info\">\r\n                <h4>Web 3</h4>\r\n                <p>Web</p>\r\n              </div>\r\n              <div class=\"portfolio-links\">\r\n                <a href=\"assets/img/portfolio/portfolio-9.jpg\" data-gallery=\"portfolioGallery\" class=\"portfolio-lightbox\" title=\"Web 3\"><i class=\"bx bx-plus\"></i></a>\r\n                <a href=\"portfolio-details.html\" title=\"More Details\"><i class=\"bx bx-link\"></i></a>\r\n              </div>\r\n            </div>\r\n          </div>\r\n\r\n        </div>\r\n\r\n      </div>\r\n    </section><!-- End Portfolio Section -->\r\n\r\n    \r\n\r\n    <!-- ======= Frequently Asked Questions Section ======= --\r\n    <section id=\"faq\" class=\"faq\">\r\n      <div class=\"container\" data-aos=\"fade-up\">\r\n\r\n        <div class=\"section-title\">\r\n          <h2>Frequently Asked Questions</h2>\r\n          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>\r\n        </div>\r\n\r\n        <div class=\"faq-list\">\r\n          <ul>\r\n            <li data-aos=\"fade-up\" data-aos=\"fade-up\" data-aos-delay=\"100\">\r\n              <i class=\"bx bx-help-circle icon-help\"></i> <a data-bs-toggle=\"collapse\" class=\"collapse\" data-bs-target=\"#faq-list-1\">Non consectetur a erat nam at lectus urna duis? <i class=\"bx bx-chevron-down icon-show\"></i><i class=\"bx bx-chevron-up icon-close\"></i></a>\r\n              <div id=\"faq-list-1\" class=\"collapse show\" data-bs-parent=\".faq-list\">\r\n                <p>\r\n                  Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.\r\n                </p>\r\n              </div>\r\n            </li>\r\n\r\n            <li data-aos=\"fade-up\" data-aos-delay=\"200\">\r\n              <i class=\"bx bx-help-circle icon-help\"></i> <a data-bs-toggle=\"collapse\" data-bs-target=\"#faq-list-2\" class=\"collapsed\">Feugiat scelerisque varius morbi enim nunc? <i class=\"bx bx-chevron-down icon-show\"></i><i class=\"bx bx-chevron-up icon-close\"></i></a>\r\n              <div id=\"faq-list-2\" class=\"collapse\" data-bs-parent=\".faq-list\">\r\n                <p>\r\n                  Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.\r\n                </p>\r\n              </div>\r\n            </li>\r\n\r\n            <li data-aos=\"fade-up\" data-aos-delay=\"300\">\r\n              <i class=\"bx bx-help-circle icon-help\"></i> <a data-bs-toggle=\"collapse\" data-bs-target=\"#faq-list-3\" class=\"collapsed\">Dolor sit amet consectetur adipiscing elit? <i class=\"bx bx-chevron-down icon-show\"></i><i class=\"bx bx-chevron-up icon-close\"></i></a>\r\n              <div id=\"faq-list-3\" class=\"collapse\" data-bs-parent=\".faq-list\">\r\n                <p>\r\n                  Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis\r\n                </p>\r\n              </div>\r\n            </li>\r\n\r\n            <li data-aos=\"fade-up\" data-aos-delay=\"400\">\r\n              <i class=\"bx bx-help-circle icon-help\"></i> <a data-bs-toggle=\"collapse\" data-bs-target=\"#faq-list-4\" class=\"collapsed\">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class=\"bx bx-chevron-down icon-show\"></i><i class=\"bx bx-chevron-up icon-close\"></i></a>\r\n              <div id=\"faq-list-4\" class=\"collapse\" data-bs-parent=\".faq-list\">\r\n                <p>\r\n                  Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.\r\n                </p>\r\n              </div>\r\n            </li>\r\n\r\n            <li data-aos=\"fade-up\" data-aos-delay=\"500\">\r\n              <i class=\"bx bx-help-circle icon-help\"></i> <a data-bs-toggle=\"collapse\" data-bs-target=\"#faq-list-5\" class=\"collapsed\">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class=\"bx bx-chevron-down icon-show\"></i><i class=\"bx bx-chevron-up icon-close\"></i></a>\r\n              <div id=\"faq-list-5\" class=\"collapse\" data-bs-parent=\".faq-list\">\r\n                <p>\r\n                  Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.\r\n                </p>\r\n              </div>\r\n            </li>\r\n\r\n          </ul>\r\n        </div>\r\n\r\n      </div>\r\n    </section><!-- End Frequently Asked Questions Section -->\r\n\r\n    <!-- ======= Contact Section ======= --\r\n    <section id=\"contact\" class=\"contact section-bg\">\r\n      <div class=\"container\" data-aos=\"fade-up\">\r\n\r\n        <div class=\"section-title\">\r\n          <h2>Contact</h2>\r\n          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>\r\n        </div>\r\n\r\n        <div class=\"row\">\r\n          <div class=\"col-lg-6\">\r\n            <div class=\"info-box mb-4\">\r\n              <i class=\"bx bx-map\"></i>\r\n              <h3>Our Address</h3>\r\n              <p>A108 Adam Street, New York, NY 535022</p>\r\n            </div>\r\n          </div>\r\n\r\n          <div class=\"col-lg-3 col-md-6\">\r\n            <div class=\"info-box  mb-4\">\r\n              <i class=\"bx bx-envelope\"></i>\r\n              <h3>Email Us</h3>\r\n              <p>contact@example.com</p>\r\n            </div>\r\n          </div>\r\n\r\n          <div class=\"col-lg-3 col-md-6\">\r\n            <div class=\"info-box  mb-4\">\r\n              <i class=\"bx bx-phone-call\"></i>\r\n              <h3>Call Us</h3>\r\n              <p>+1 5589 55488 55</p>\r\n            </div>\r\n          </div>\r\n\r\n        </div>\r\n\r\n        <div class=\"row\">\r\n\r\n          <div class=\"col-lg-6 \">\r\n            <iframe class=\"mb-4 mb-lg-0\" src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621\" frameborder=\"0\" style=\"border:0; width: 100%; height: 384px;\" allowfullscreen></iframe>\r\n          </div>\r\n\r\n          <div class=\"col-lg-6\">\r\n            <form action=\"forms/contact.php\" method=\"post\" role=\"form\" class=\"php-email-form\">\r\n              <div class=\"row\">\r\n                <div class=\"col-md-6 form-group\">\r\n                  <input type=\"text\" name=\"name\" class=\"form-control\" id=\"name\" placeholder=\"Your Name\" required>\r\n                </div>\r\n                <div class=\"col-md-6 form-group mt-3 mt-md-0\">\r\n                  <input type=\"email\" class=\"form-control\" name=\"email\" id=\"email\" placeholder=\"Your Email\" required>\r\n                </div>\r\n              </div>\r\n              <div class=\"form-group mt-3\">\r\n                <input type=\"text\" class=\"form-control\" name=\"subject\" id=\"subject\" placeholder=\"Subject\" required>\r\n              </div>\r\n              <div class=\"form-group mt-3\">\r\n                <textarea class=\"form-control\" name=\"message\" rows=\"5\" placeholder=\"Message\" required></textarea>\r\n              </div>\r\n              <div class=\"my-3\">\r\n                <div class=\"loading\">Loading</div>\r\n                <div class=\"error-message\"></div>\r\n                <div class=\"sent-message\">Your message has been sent. Thank you!</div>\r\n              </div>\r\n              <div class=\"text-center\"><button type=\"submit\">Send Message</button></div>\r\n            </form>\r\n          </div>\r\n\r\n        </div>\r\n\r\n      </div>\r\n    </section><!-- End Contact Section -->\r\n\r\n  </main><!-- End #main -->\r\n\r\n  <!-- ======= Footer ======= -->\n  <footer id=\"footer\">\n\n    <div class=\"footer-top\">\n      <div class=\"container\">\n        <div class=\"row\">\n\n          <div class=\"col-lg-3 col-md-6 footer-contact\">\n            <h3>Bolt Card Wallet</h3>\n            <p>\n              Find out more at <a style=\"color:#fff\" href=\"https://boltcard.org\">boltcard.org</a><br><br>\n              <!-- <strong>Phone:</strong> +1 5589 55488 55<br>\n              <strong>Email:</strong> info@example.com<br> -->\n            </p>\n          </div>\n\n          <div class=\"col-lg-2 col-md-6 footer-links\">\n            <h4>Links</h4>\n            <ul>\n              <li><i class=\"bx bx-chevron-right\"></i> <a href=\"terms.php\">Terms of service</a></li>\n              <li><i class=\"bx bx-chevron-right\"></i> <a href=\"privacy-policy.php\">Privacy policy</a></li>\n            </ul>\n          </div>\n<!--  \n          <div class=\"col-lg-3 col-md-6 footer-links\">\n            <h4>Our Services</h4>\n            <ul>\n              <li><i class=\"bx bx-chevron-right\"></i> <a href=\"#\">Web Design</a></li>\n              <li><i class=\"bx bx-chevron-right\"></i> <a href=\"#\">Web Development</a></li>\n              <li><i class=\"bx bx-chevron-right\"></i> <a href=\"#\">Product Management</a></li>\n              <li><i class=\"bx bx-chevron-right\"></i> <a href=\"#\">Marketing</a></li>\n              <li><i class=\"bx bx-chevron-right\"></i> <a href=\"#\">Graphic Design</a></li>\n            </ul>\n          </div>\n\n          <div class=\"col-lg-4 col-md-6 footer-newsletter\">\n            <h4>Join Our Newsletter</h4>\n            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>\n            <form action=\"\" method=\"post\">\n              <input type=\"email\" name=\"email\"><input type=\"submit\" value=\"Subscribe\">\n            </form>\n          </div>\n -->\n        </div>\n      </div>\n    </div>\n\n    <div class=\"container\">\n\n      <div class=\"copyright-wrap d-md-flex py-4\">\n        <div class=\"me-md-auto text-center text-md-start\">\n          <div class=\"copyright\">\n            <strong><span>Bolt Card Wallet</span></strong>. MIT license\n          </div>\n          <div class=\"credits\">\n            <!-- All the links in the footer should remain intact. -->\n            <!-- You can delete the links only if you purchased the pro version. -->\n            <!-- Licensing information: https://bootstrapmade.com/license/ -->\n            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/techie-free-skin-bootstrap-3/ -->\n            Designed by <a href=\"https://bootstrapmade.com/\">BootstrapMade</a>\n          </div>\n        </div>\n        <div class=\"social-links text-center text-md-right pt-3 pt-md-0\">\n          <a href=\"https://twitter.com/bolt_card\" class=\"twitter\"><i class=\"bx bxl-twitter\"></i></a>\n          <a href=\"https://github.com/boltcard\" class=\"github\"><i class=\"bx bxl-github\"></i></a>\n          <!-- <a href=\"#\" class=\"instagram\"><i class=\"bx bxl-instagram\"></i></a>\n          <a href=\"#\" class=\"google-plus\"><i class=\"bx bxl-skype\"></i></a>\n          <a href=\"#\" class=\"linkedin\"><i class=\"bx bxl-linkedin\"></i></a> -->\n        </div>\n      </div>\n\n    </div>\n  </footer><!-- End Footer -->\r\n  <a href=\"#\" class=\"back-to-top d-flex align-items-center justify-content-center\"><i class=\"bi bi-arrow-up-short\"></i></a>\r\n  <div id=\"preloader\"></div>\r\n\r\n  <!-- Vendor JS Files -->\r\n  <!-- <script src=\"assets/vendor/purecounter/purecounter_vanilla.js\"></script>\r\n  <script src=\"assets/vendor/aos/aos.js\"></script> -->\r\n  <script src=\"assets/vendor/bootstrap/js/bootstrap.bundle.min.js\"></script>\r\n  <script src=\"assets/vendor/glightbox/js/glightbox.min.js\"></script>\r\n  <script src=\"assets/vendor/isotope-layout/isotope.pkgd.min.js\"></script>\r\n  <script src=\"assets/vendor/swiper/swiper-bundle.min.js\"></script>\r\n  <script src=\"assets/vendor/php-email-form/validate.js\"></script>\r\n\r\n  <!-- Template Main JS File -->\r\n  <script src=\"assets/js/main.js\"></script>\r\n  \r\n</body>\r\n\r\n</html>\r\n",
+                "favicons": [
+                  {
+                    "size": 19216,
+                    "name": "http://170.75.163.162/assets/img/bolt-card-icon.png",
+                    "hash_sha256": "d573ccd666ed8052f988ac1231b9542229eee0e8c89264d0cd5c2f17167ad7be",
+                    "hash_md5": "67e6960725a472c4589af71cffd514ce",
+                    "hash_shodan": 125667300
+                  },
+                  {
+                    "size": 19216,
+                    "name": "http://170.75.163.162/assets/img/bolt-card-icon.png",
+                    "hash_sha256": "d573ccd666ed8052f988ac1231b9542229eee0e8c89264d0cd5c2f17167ad7be",
+                    "hash_md5": "67e6960725a472c4589af71cffd514ce",
+                    "hash_shodan": 125667300
+                  }
+                ],
+                "html_title": "Bolt Card Wallet - Connect your bolt card",
+                "body_hash_sha256": "70c17fe5e2f2a254cfff4cddedc719fe2e3734dc6181932db2dbb26c08de5a8b",
+                "body_hash_sha1": "49961d7894994ec33e438a0bc70e540214be7551",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "170.75.163.162"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "e35571cca42dc5b5bd2a46845de0f858da5618d574b3d2dc9c675d3a4326c559",
+            "fingerprint_sha1": "dc37783ea22d6f96c9309796300adbf9ffcff922",
+            "fingerprint_md5": "6f8313e73032aa2357074ec2007c63b4",
+            "tbs_fingerprint_sha256": "3f4ae6ea484deb315d38a1cf498ed96814fe5745bf7ec1b4b5ec26b34517e582",
+            "tbs_no_ct_fingerprint_sha256": "16499c6bdea18ff5ac2176f1253bf8c8cc0525fcdc38972d5ea66fd85f3133b7",
+            "spki_fingerprint_sha256": "16735c462b360c216e7aba62a883cadeee88915793be0637eec29bd953b4bb31",
+            "parent_spki_fingerprint_sha256": "4805ff53827cd3f85b47bb70e719ff21aee6b504a3d5e534ccd4e3dc8ee17679",
+            "parsed": {
+              "version": 3,
+              "serial_number": "559320077550281479049380725774871426004626",
+              "issuer_dn": "C=US, O=Let's Encrypt, CN=E7",
+              "issuer": {
+                "common_name": [
+                  "E7"
+                ],
+                "country": [
+                  "US"
+                ],
+                "organization": [
+                  "Let's Encrypt"
+                ]
+              },
+              "subject_dn": "CN=boltcardwallet.com",
+              "subject": {
+                "common_name": [
+                  "boltcardwallet.com"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "ECDSA",
+                  "oid": "1.2.840.10045.2.1"
+                },
+                "ecdsa": {
+                  "b": "5ac635d8aa3a93e7b3ebbd55769886bc651d06b0cc53b0f63bce3c3e27d2604b",
+                  "curve": "P-256",
+                  "gx": "6b17d1f2e12c4247f8bce6e563a440f277037d812deb33a0f4a13945d898c296",
+                  "gy": "4fe342e2fe1a7f9b8ee7eb4a7c0f9e162bce33576b315ececbb6406837bf51f5",
+                  "length": 256,
+                  "n": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+                  "p": "ffffffff00000001000000000000000000000000ffffffffffffffffffffffff",
+                  "pub": "0418f1cb04e4c3fc1742ce93999b091881eff9be097b5f20d6c0cbbe3b4fa862d018f996bdef7e9c4c23039d4ea40e7cc390aee7b52997e71847115189724a306e",
+                  "x": "18f1cb04e4c3fc1742ce93999b091881eff9be097b5f20d6c0cbbe3b4fa862d0",
+                  "y": "18f996bdef7e9c4c23039d4ea40e7cc390aee7b52997e71847115189724a306e"
+                },
+                "fingerprint_sha256": "d3720a933ca47771ad2f955601c2885a299b3d1119c502c81683896204a7a98f"
+              },
+              "validity_period": {
+                "not_before": "2025-12-15T10:56:05Z",
+                "not_after": "2026-03-15T10:56:04Z",
+                "length_seconds": 7776000
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "ECDSA-SHA384",
+                  "oid": "1.2.840.10045.4.3.3"
+                },
+                "value": "306502304f816a0d1169ef07b180a7547e478c1cc9b70b348ff2d84c3cca2ce746ac619d44a9c1ec02fa1bdb57ed1433e19d0b79023100e6f5ae75ab615e4841c2d3529b05234bd2678faf9fa09a8b561eba9bec9cb5f132a664919c05541b5363fce4f5747885",
+                "valid": true
+              },
+              "serial_number_hex": "066bb1a895c9a0089bde41385e34f2507692"
+            },
+            "names": [
+              "boltcardwallet.com"
+            ],
+            "validation_level": "dv",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "54715420224c5b65beed018dc3940d7338c577e322d5488f633d8c6a8fed61b2",
+                      "69729b8e15a86efc177a57afb7171dfc64add28c2fca8cf1507e34453ccb1470"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "aeb1fd7410e83bc96f5da3c6a7c2c1bb836d1fa5cb86e708515890e428a8770b",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "54715420224c5b65beed018dc3940d7338c577e322d5488f633d8c6a8fed61b2",
+                      "00beaef280277e38999d3c60b27736e8f21e782c3d4b444ac34d465a7ab287c5",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "54715420224c5b65beed018dc3940d7338c577e322d5488f633d8c6a8fed61b2",
+                  "aeb1fd7410e83bc96f5da3c6a7c2c1bb836d1fa5cb86e708515890e428a8770b"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "54715420224c5b65beed018dc3940d7338c577e322d5488f633d8c6a8fed61b2",
+                      "69729b8e15a86efc177a57afb7171dfc64add28c2fca8cf1507e34453ccb1470"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "aeb1fd7410e83bc96f5da3c6a7c2c1bb836d1fa5cb86e708515890e428a8770b",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "54715420224c5b65beed018dc3940d7338c577e322d5488f633d8c6a8fed61b2",
+                      "00beaef280277e38999d3c60b27736e8f21e782c3d4b444ac34d465a7ab287c5",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "54715420224c5b65beed018dc3940d7338c577e322d5488f633d8c6a8fed61b2",
+                  "aeb1fd7410e83bc96f5da3c6a7c2c1bb836d1fa5cb86e708515890e428a8770b"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "54715420224c5b65beed018dc3940d7338c577e322d5488f633d8c6a8fed61b2",
+                      "69729b8e15a86efc177a57afb7171dfc64add28c2fca8cf1507e34453ccb1470"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "aeb1fd7410e83bc96f5da3c6a7c2c1bb836d1fa5cb86e708515890e428a8770b",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "54715420224c5b65beed018dc3940d7338c577e322d5488f633d8c6a8fed61b2",
+                      "00beaef280277e38999d3c60b27736e8f21e782c3d4b444ac34d465a7ab287c5",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "54715420224c5b65beed018dc3940d7338c577e322d5488f633d8c6a8fed61b2",
+                  "aeb1fd7410e83bc96f5da3c6a7c2c1bb836d1fa5cb86e708515890e428a8770b"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "54715420224c5b65beed018dc3940d7338c577e322d5488f633d8c6a8fed61b2",
+                      "69729b8e15a86efc177a57afb7171dfc64add28c2fca8cf1507e34453ccb1470"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "aeb1fd7410e83bc96f5da3c6a7c2c1bb836d1fa5cb86e708515890e428a8770b",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "54715420224c5b65beed018dc3940d7338c577e322d5488f633d8c6a8fed61b2",
+                      "00beaef280277e38999d3c60b27736e8f21e782c3d4b444ac34d465a7ab287c5",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "54715420224c5b65beed018dc3940d7338c577e322d5488f633d8c6a8fed61b2",
+                  "aeb1fd7410e83bc96f5da3c6a7c2c1bb836d1fa5cb86e708515890e428a8770b"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {},
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 1623092611,
+                  "added_to_ct_at": "2025-12-21T20:03:06Z",
+                  "ct_to_censys_at": "2025-12-21T21:03:43Z"
+                },
+                "google_argon_2026_h1": {
+                  "index": 1332903198,
+                  "added_to_ct_at": "2025-12-15T11:54:35Z",
+                  "ct_to_censys_at": "2025-12-15T11:59:27Z"
+                },
+                "google_xenon_2026_h1": {
+                  "index": 1273440183,
+                  "added_to_ct_at": "2025-12-15T11:54:36Z",
+                  "ct_to_censys_at": "2025-12-15T12:07:30Z"
+                },
+                "sectigo_elephant_2026_h1": {
+                  "index": 928230078,
+                  "added_to_ct_at": "2025-12-21T20:03:06Z",
+                  "ct_to_censys_at": "2025-12-21T20:07:31Z"
+                },
+                "trustasia_log_2026_a": {
+                  "index": 345216983,
+                  "added_to_ct_at": "2025-12-21T22:49:44Z",
+                  "ct_to_censys_at": "2025-12-21T23:01:41Z"
+                },
+                "trustasia_log_2026_b": {
+                  "index": 356648603,
+                  "added_to_ct_at": "2025-12-21T22:49:55Z",
+                  "ct_to_censys_at": "2025-12-22T09:29:27Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2025-12-15T11:59:28Z",
+            "modified_at": "2025-12-22T09:29:28Z",
+            "validated_at": "2026-01-31T02:17:29Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "16735c462b360c216e7aba62a883cadeee88915793be0637eec29bd953b4bb31",
+            "parent_spki_subject_fingerprint_sha256": "4805ff53827cd3f85b47bb70e719ff21aee6b504a3d5e534ccd4e3dc8ee17679"
+          },
+          "software": [
+            {
+              "vendor": "apache",
+              "product": "http_server"
+            }
+          ],
+          "operating_systems": [
+            {
+              "vendor": "canonical",
+              "product": "linux"
+            }
+          ],
+          "ip": "170.75.163.162",
+          "scan_time": "2026-01-31T13:12:21Z",
+          "tls": {
+            "fingerprint_sha256": "e35571cca42dc5b5bd2a46845de0f858da5618d574b3d2dc9c675d3a4326c559",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "aeb1fd7410e83bc96f5da3c6a7c2c1bb836d1fa5cb86e708515890e428a8770b",
+                "subject_dn": "C=US, O=Let's Encrypt, CN=E7",
+                "issuer_dn": "C=US, O=Internet Security Research Group, CN=ISRG Root X1"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "170.75.163.162",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T13:12:21Z",
+              "http": {
+                "uri": "https://170.75.163.162/",
+                "protocol": "HTTP/1.1",
+                "status_code": 200,
+                "status_reason": "OK",
+                "headers": {
+                  "Content-Encoding": {
+                    "headers": [
+                      "gzip"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "11823"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html; charset=UTF-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "Apache/2.4.52 (Ubuntu)"
+                    ]
+                  },
+                  "Vary": {
+                    "headers": [
+                      "Accept-Encoding"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>Bolt Card Wallet - Connect your bolt card</title>",
+                  "<meta charset=\"utf-8\">",
+                  "<meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">",
+                  "<meta content=\"\" name=\"description\">",
+                  "<meta content=\"\" name=\"keywords\">"
+                ],
+                "body_size": 51692,
+                "body": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n  <meta charset=\"utf-8\">\r\n  <meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\r\n\r\n  <title>Bolt Card Wallet - Connect your bolt card</title>\r\n  <meta content=\"\" name=\"description\">\r\n  <meta content=\"\" name=\"keywords\">\r\n\r\n  <!-- Favicons -->\r\n  <link href=\"assets/img/bolt-card-icon.png\" rel=\"icon\">\r\n  <link href=\"assets/img/bolt-card-icon.png\" rel=\"apple-touch-icon\">\r\n\r\n  <!-- Google Fonts -->\r\n  <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i\" rel=\"stylesheet\">\r\n\r\n  <!-- Vendor CSS Files -->\r\n  <!-- <link href=\"assets/vendor/aos/aos.css\" rel=\"stylesheet\"> -->\r\n  <link href=\"assets/vendor/bootstrap/css/bootstrap.min.css\" rel=\"stylesheet\">\r\n  <link href=\"assets/vendor/bootstrap-icons/bootstrap-icons.css\" rel=\"stylesheet\">\r\n  <link href=\"assets/vendor/boxicons/css/boxicons.min.css\" rel=\"stylesheet\">\r\n  <link href=\"assets/vendor/glightbox/css/glightbox.min.css\" rel=\"stylesheet\">\r\n  <link href=\"assets/vendor/swiper/swiper-bundle.min.css\" rel=\"stylesheet\">\r\n\r\n  <!-- Template Main CSS File -->\r\n  <link href=\"assets/css/style.css\" rel=\"stylesheet\">\r\n\r\n</head>\r\n\r\n<body>\r\n\r\n  <!-- ======= Header ======= -->\r\n  <header id=\"header\" class=\"fixed-top \">\r\n    <div class=\"container d-flex align-items-center justify-content-between\">\r\n      <h1 class=\"logo\">\r\n        <a href=\"index.php\">\r\n          <img src=\"assets/img/bolt-card-icon.png\" /> Bolt Card Wallet\r\n        </a>\r\n      </h1>\r\n      <!-- Uncomment below if you prefer to use an image logo -->\r\n      <!-- <a href=\"index.php\" class=\"logo\"><img src=\"assets/img/logo.png\" alt=\"\" class=\"img-fluid\"></a>-->\r\n\r\n      <nav id=\"navbar\" class=\"navbar\">\n    <ul>\n        <li><a class=\"nav-link scrollto\" href=\"index.php#hero\">Home</a></li>\n        <!-- <li><a class=\"nav-link scrollto\" href=\"#about\">About</a></li> -->\n        <!-- <li><a class=\"nav-link scrollto\" href=\"index.php#bolt-card-pos\">Point of Sale</a></li>\n        <li><a class=\"nav-link scrollto\" href=\"index.php#features\">Features</a></li> -->\n        <li><a class=\"nav-link scrollto\" href=\"hub.php\">Hub</a></li>\n        <li><a class=\"nav-link scrollto\" href=\"buy-bolt-cards\">Cards</a></li>\n        <li><a class=\"nav-link scrollto\" href=\"index.php#setup-wallet\">Wallet Setup</a></li>\n        <li><a class=\"nav-link scrollto\" href=\"index.php#setup-hub\">Hub Setup</a></li>\n        <li><a class=\"nav-link scrollto\" href=\"umbrel-setup.php\">Umbrel Setup</a></li>\n        <!--           <li><a class=\"nav-link scrollto \" href=\"#portfolio\">Portfolio</a></li>\n    <li><a class=\"nav-link scrollto\" href=\"#team\">Team</a></li>\n    <li class=\"dropdown\"><a href=\"#\"><span>Drop Down</span> <i class=\"bi bi-chevron-down\"></i></a>\n      <ul>\n        <li><a href=\"#\">Drop Down 1</a></li>\n        <li class=\"dropdown\"><a href=\"#\"><span>Deep Drop Down</span> <i class=\"bi bi-chevron-right\"></i></a>\n          <ul>\n            <li><a href=\"#\">Deep Drop Down 1</a></li>\n            <li><a href=\"#\">Deep Drop Down 2</a></li>\n            <li><a href=\"#\">Deep Drop Down 3</a></li>\n            <li><a href=\"#\">Deep Drop Down 4</a></li>\n            <li><a href=\"#\">Deep Drop Down 5</a></li>\n          </ul>\n        </li>\n        <li><a href=\"#\">Drop Down 2</a></li>\n        <li><a href=\"#\">Drop Down 3</a></li>\n        <li><a href=\"#\">Drop Down 4</a></li>\n      </ul>\n    </li>\n    <li><a class=\"nav-link scrollto\" href=\"#contact\">Contact</a></li> -->\n        <!-- <li><a class=\"getstarted scrollto\" href=\"#about\">Get Started</a></li> -->\n    </ul>\n    <i class=\"bi bi-list mobile-nav-toggle\"></i> </nav\n><!-- .navbar -->\n\r\n\r\n    </div>\r\n  </header><!-- End Header -->\r\n\r\n  <!-- ======= Hero Section ======= -->\r\n  <section id=\"hero\" class=\"d-flex align-items-center\">\r\n\r\n    <div class=\"container\" data-aos=\"fade-up\">\r\n      <div class=\"row justify-content-center\">\r\n        <div class=\"col-xl-5 col-lg-6 pt-3 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center\">\r\n          <h1>The Bolt Card Wallet</h1>\r\n          <h2>Tap'n'go / Contactless payments for the lightning network</h2>\r\n          <div style=\"line-height:36px; vertical-align:middle;\">\r\n            <a href=\"https://play.google.com/store/apps/details?id=com.boltcard.boltcard\" style=\"\" class=\"btn-get-started scrollto\">\r\n              <i style=\"vertical-align:middle; font-size: 36px\" class=\"bx bxl-android\"></i> Android\r\n            </a>\r\n            <a href=\"https://apps.apple.com/us/app/bolt-card-wallet/id6446301845\" style=\"line-height:36px\" class=\"btn-get-started\">\r\n              <i style=\"vertical-align:middle; font-size: 36px\" class=\"bx bxl-apple\"></i>iOS\r\n            </a>\r\n            <br />\r\n            <a href=\"https://github.com/boltcard\" style=\"\" class=\"btn-get-started scrollto\">\r\n              <i style=\"vertical-align:middle; font-size: 36px\" class=\"bx bxl-github\"></i> Run your own Hub\r\n            </a>\r\n            <br />\r\n            <a href=\"umbrel-setup.php\" style=\"\" class=\"btn-get-started scrollto\">\r\n              <i style=\"vertical-align:middle; font-size: 36px\" class=\"bx bxs-server\"></i> Set up your Bold Card Hub on Umbrel\r\n            </a>\r\n            <br />\r\n            <a href=\"index.php#setup-hub\" style=\"\" class=\"btn-get-started scrollto\">\r\n              <i style=\"vertical-align:middle; font-size: 36px\" class=\"bx bxs-server\"></i> Set up your Bold Card Hub Manually\r\n            </a>\r\n          </div>\r\n        </div>\r\n        <div class=\"col-xl-4 col-lg-6 order-1 order-lg-2 hero-img text-center\" data-aos=\"zoom-in\" data-aos-delay=\"150\">\r\n          <img width=\"250\" src=\"assets/img/bolt-card-wallet.jpg\" class=\"img-fluid animated rounded\" alt=\"\">\r\n        </div>\r\n      </div>\r\n    </div>\r\n\r\n  </section><!-- End Hero -->\r\n\r\n<!-- ======= About Section ======= -->\r\n    <section id=\"bolt-card-pos\" class=\"about section-bg\">\r\n      <div class=\"container\">\r\n\r\n        <div class=\"row\">\r\n          <div class=\"col-lg-4 order-1 order-lg-1\" data-aos=\"zoom-in\" data-aos-delay=\"150\">\r\n            <img class=\"rounded\" src=\"assets/img/boltcardposlogo.webp\" class=\"img-fluid\" alt=\"\">\r\n          </div>\r\n          <div class=\"col-lg-8 pt-4 pt-lg-0 order-2 order-lg-2 content\" data-aos=\"fade-right\">\r\n            <h3>Bolt Card PoS</h3>\r\n            <p class=\"fst-italic\">\r\n              Lightning enabled Point of Sale app. Compatible with all bolt cards.\r\n            </p>\r\n            <ul>\r\n              <li><i class=\"bi bi-check-circle\"></i> Connects to your own LND node through the <a href=\"https://lnbits.com\">LNBits LNDHub</a> extension</li>\r\n              <li><i class=\"bi bi-check-circle\"></i> Compatible with all major bolt cards</li>\r\n              <li><i class=\"bi bi-check-circle\"></i> Quick setup - just scan your LNDHub Invoice QR code. </li>\r\n              <li><i class=\"bi bi-check-circle\"></i> Supports most FIAT currencies for quick value conversion</li>\r\n              <li><i class=\"bi bi-check-circle\"></i> Check recent transactions and scan receipt QR code to check if a transaction was paid. </li>\r\n              <li><i class=\"bi bi-check-circle\"></i> <a href=\"https://github.com/boltcard/bolt-card-pos\">See our Github repo for more info</a></li>\r\n            </ul>\r\n            <a target=\"_new\" style=\"border-radius: 5px; color: #fff; padding: 10px 50px 10px 28px; background: linear-gradient(45deg, #5846f9 0%, #7b27d8 100%);\" href=\"https://play.google.com/store/apps/details?id=org.boltcard.boltcardpos\">\r\n              <i style=\"vertical-align:middle; font-size: 36px\" class=\"bx bxl-android\"></i>\r\n              Download for Android\r\n            </a> &nbsp;\r\n            <a target=\"_new\" style=\"border-radius: 5px; color: #fff; padding: 10px 50px 10px 28px; background: linear-gradient(45deg, #5846f9 0%, #7b27d8 100%);\" href=\"https://apps.apple.com/us/app/bolt-card-pos/id6448741630\">\r\n              <i style=\"vertical-align:middle; font-size: 36px\" class=\"bx bxl-apple\"></i>\r\n              Download for iOS\r\n            </a>\r\n            <div class=\"row mt-5\">\r\n              <div class=\"col-lg-4\" data-aos=\"zoom-in\" data-aos-delay=\"150\">\r\n                <img class=\"img-fluid\" style=\"border-radius:5px;border:solid 1px #000\" src=\"assets/img/Screenshot_bcw_1.png\" alt=\"\">\r\n              </div>\r\n              <div class=\"col-lg-4\" data-aos=\"zoom-in\" data-aos-delay=\"150\">\r\n                <img class=\"img-fluid\" style=\"border-radius:5px;border:solid 1px #000\" src=\"assets/img/Screenshot_pay.png\" alt=\"\">\r\n              </div>\r\n              <div class=\"col-lg-4\" data-aos=\"zoom-in\" data-aos-delay=\"150\">\r\n                <img class=\"img-fluid\" style=\"border-radius:5px;border:solid 1px #000\" src=\"assets/img/Screenshot_paid.png\" alt=\"\">\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n        \r\n      </div>\r\n\r\n    </section><!-- End About Section -->\r\n  <main id=\"main\">\r\n\r\n    <!-- ======= Features Section ======= -->\r\n    <section id=\"features\" class=\"features\">\r\n      <div class=\"container\" data-aos=\"fade-up\">\r\n\r\n        <div class=\"section-title\">\r\n          <h2>Bolt Card Wallet Features & Requirements</h2>\r\n          <p>Essentially a fork of Bluewallet with the other wallets stripped out, and the custodial lightning wallet modified to work with a fork of the lndhub we are calling the bolt card hub</p>\r\n        </div>\r\n\r\n        <div class=\"row\">\r\n          <div class=\"col-lg-6 order-2 order-lg-1 d-flex flex-column align-items-lg-center\">\r\n            <div class=\"icon-box mt-5 mt-lg-0\" data-aos=\"fade-up\" data-aos-delay=\"100\">\r\n              <i class=\"bx bx-credit-card\"></i>\r\n              <h4>Connect and Disconnect</h4>\r\n              <p>The app allows you to connect and disconnect a bolt card (NXP NTAG424 card) to your bolt card wallet</p>\r\n            </div>\r\n            <div class=\"icon-box mt-5\" data-aos=\"fade-up\" data-aos-delay=\"200\">\r\n              <i class=\"bx bx-shield\"></i>\r\n              <h4>Bring Your Node</h4>\r\n              <p>Connect to your own LND node using <a href=\"https://github.com/boltcard/boltcard-lndhub\">bolt card hub</a>, or use a node that you trust</p>\r\n            </div>\r\n            <div class=\"icon-box mt-5\" data-aos=\"fade-up\" data-aos-delay=\"300\">\r\n              <i class=\"bx bx-images\"></i>\r\n              <h4>Host Cards for your friends and family</h4>\r\n              <p>You can connect one card per wallet and create multiple wallets on one device</p>\r\n            </div>\r\n            <div class=\"icon-box mt-5\" data-aos=\"fade-up\" data-aos-delay=\"400\">\r\n              <i class=\"bx bx-mobile\"></i>\r\n              <h4>Android and iOS!</h4>\r\n              <p>Download for android and iOS now, precompiled APKs for android available in the github repo</p>\r\n              <p><a href=\"https://play.google.com/store/apps/details?id=com.boltcard.boltcard\" style=\"\" class=\"btn-get-started scrollto\">\r\n                  <i style=\"vertical-align:middle; font-size: 36px\" class=\"bx bxl-android\"></i> Android\r\n                </a></p>\r\n              <p><a href=\"https://apps.apple.com/us/app/bolt-card-wallet/id6446301845\" style=\"line-height:36px\" class=\"btn-get-started\">\r\n                  <i style=\"vertical-align:middle; font-size: 36px\" class=\"bx bxl-apple\"></i>iOS\r\n                </a></p>\r\n            </div>\r\n          </div>\r\n          <div class=\"image col-lg-6 order-1 order-lg-2 \" data-aos=\"zoom-in\" data-aos-delay=\"100\">\r\n            <img src=\"assets/img/features.svg\" alt=\"\" class=\"img-fluid\">\r\n          </div>\r\n        </div>\r\n\r\n      </div>\r\n    </section><!-- End Features Section -->\r\n\r\n    <!-- ======= Counts Section ======= \r\n    <section id=\"counts\" class=\"counts\">\r\n      <div class=\"container\">\r\n\r\n        <div class=\"row counters\">\r\n\r\n          <div class=\"col-lg-3 col-6 text-center\">\r\n            <span data-purecounter-start=\"0\" data-purecounter-end=\"232\" data-purecounter-duration=\"1\" class=\"purecounter\"></span>\r\n            <p>Clients</p>\r\n          </div>\r\n\r\n          <div class=\"col-lg-3 col-6 text-center\">\r\n            <span data-purecounter-start=\"0\" data-purecounter-end=\"521\" data-purecounter-duration=\"1\" class=\"purecounter\"></span>\r\n            <p>Projects</p>\r\n          </div>\r\n\r\n          <div class=\"col-lg-3 col-6 text-center\">\r\n            <span data-purecounter-start=\"0\" data-purecounter-end=\"1463\" data-purecounter-duration=\"1\" class=\"purecounter\"></span>\r\n            <p>Hours Of Support</p>\r\n          </div>\r\n\r\n          <div class=\"col-lg-3 col-6 text-center\">\r\n            <span data-purecounter-start=\"0\" data-purecounter-end=\"15\" data-purecounter-duration=\"1\" class=\"purecounter\"></span>\r\n            <p>Hard Workers</p>\r\n          </div>\r\n\r\n        </div>\r\n\r\n      </div>\r\n    </section><!-- End Counts Section -->\r\n\r\n    <!-- ======= Services Section ======= --\r\n    <section id=\"services\" class=\"services section-bg\">\r\n      <div class=\"container\" data-aos=\"fade-up\">\r\n\r\n        <div class=\"section-title\">\r\n          <h2>Services</h2>\r\n          <p>To use the bolt card wallet you must connect to a trusted bolt card hub instance.</p>\r\n        </div>\r\n\r\n        <div class=\"row gy-4\">\r\n          <div class=\"col-lg-4 col-md-6 d-flex align-items-stretch\" data-aos=\"zoom-in\" data-aos-delay=\"100\">\r\n            <div class=\"icon-box iconbox-blue\">\r\n              <div class=\"icon\">\r\n                <svg width=\"100\" height=\"100\" viewBox=\"0 0 600 600\" xmlns=\"http://www.w3.org/2000/svg\">\r\n                  <path stroke=\"none\" stroke-width=\"0\" fill=\"#f5f5f5\" d=\"M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174\"></path>\r\n                </svg>\r\n                <i class=\"bx bx-credit-card\"></i>\r\n              </div>\r\n              <h4><a href=\"\">Connect and Disconnect</a></h4>\r\n              <p>The app allows you to connect and disconnect a bolt card (NXP NTAG424 card) to your bolt card wallet</p>\r\n            </div>\r\n          </div>\r\n\r\n          <div class=\"col-lg-4 col-md-6 d-flex align-items-stretch\" data-aos=\"zoom-in\" data-aos-delay=\"200\">\r\n            <div class=\"icon-box iconbox-orange \">\r\n              <div class=\"icon\">\r\n                <svg width=\"100\" height=\"100\" viewBox=\"0 0 600 600\" xmlns=\"http://www.w3.org/2000/svg\">\r\n                  <path stroke=\"none\" stroke-width=\"0\" fill=\"#f5f5f5\" d=\"M300,582.0697525312426C382.5290701553225,586.8405444964366,449.9789794690241,525.3245884688669,502.5850820975895,461.55621195738473C556.606425686781,396.0723002908107,615.8543463187945,314.28637112970534,586.6730223649479,234.56875336149918C558.9533121215079,158.8439757836574,454.9685369536778,164.00468322053177,381.49747125262974,130.76875717737553C312.15926192815925,99.40240125094834,248.97055460311594,18.661163978235184,179.8680185752513,50.54337015887873C110.5421016452524,82.52863877960104,119.82277516462835,180.83849132639028,109.12597500060166,256.43424936330496C100.08760227029461,320.3096726198365,92.17705696193138,384.0621239912766,124.79988738764834,439.7174275375508C164.83382741302287,508.01625554203684,220.96474134820875,577.5009287672846,300,582.0697525312426\"></path>\r\n                </svg>\r\n                <i class=\"bx bx-file\"></i>\r\n              </div>\r\n              <h4><a href=\"\">Bring Your Node</a></h4>\r\n              <p>Connect to your own LND node using bolt card hub, or use a node that you trust</p>\r\n            </div>\r\n          </div>\r\n          <div class=\"col-lg-4 col-md-6 d-flex align-items-stretch\" data-aos=\"zoom-in\" data-aos-delay=\"300\">\r\n            <div class=\"icon-box iconbox-pink\">\r\n              <div class=\"icon\">\r\n                <svg width=\"100\" height=\"100\" viewBox=\"0 0 600 600\" xmlns=\"http://www.w3.org/2000/svg\">\r\n                  <path stroke=\"none\" stroke-width=\"0\" fill=\"#f5f5f5\" d=\"M300,541.5067337569781C382.14930387511276,545.0595476570109,479.8736841581634,548.3450877840088,526.4010558755058,480.5488172755941C571.5218469581645,414.80211281144784,517.5187510058486,332.0715597781072,496.52539010469104,255.14436215662573C477.37192572678356,184.95920475031193,473.57363656557914,105.61284051026155,413.0603344069578,65.22779650032875C343.27470386102294,18.654635553484475,251.2091493199835,5.337323636656869,175.0934190732945,40.62881213300186C97.87086631185822,76.43348514350839,51.98124368387456,156.15599469081315,36.44837278890362,239.84606092416172C21.716077023791087,319.22268207091537,43.775223500013084,401.1760424656574,96.891909868211,461.97329694683043C147.22146801428983,519.5804099606455,223.5754009179313,538.201503339737,300,541.5067337569781\"></path>\r\n                </svg>\r\n                <i class=\"bx bx-tachometer\"></i>\r\n              </div>\r\n              <h4><a href=\"\">Magni Dolores</a></h4>\r\n              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>\r\n            </div>\r\n          </div>\r\n\r\n          <div class=\"col-lg-4 col-md-6 d-flex align-items-stretch\" data-aos=\"zoom-in\" data-aos-delay=\"100\">\r\n            <div class=\"icon-box iconbox-yellow\">\r\n              <div class=\"icon\">\r\n                <svg width=\"100\" height=\"100\" viewBox=\"0 0 600 600\" xmlns=\"http://www.w3.org/2000/svg\">\r\n                  <path stroke=\"none\" stroke-width=\"0\" fill=\"#f5f5f5\" d=\"M300,503.46388370962813C374.79870501325706,506.71871716319447,464.8034551963731,527.1746412648533,510.4981551193396,467.86667711651364C555.9287308511215,408.9015244558933,512.6030010748507,327.5744911775523,490.211057578863,256.5855673507754C471.097692560561,195.9906835881958,447.69079081568157,138.11976852964426,395.19560036434837,102.3242989838813C329.3053358748298,57.3949838291264,248.02791733380457,8.279543830951368,175.87071277845988,42.242879143198664C103.41431057327972,76.34704239035025,93.79494320519305,170.9812938413882,81.28167332365135,250.07896920659033C70.17666984294237,320.27484674793965,64.84698225790005,396.69656628748305,111.28512138212992,450.4950937839243C156.20124167950087,502.5303643271138,231.32542653798444,500.4755392045468,300,503.46388370962813\"></path>\r\n                </svg>\r\n                <i class=\"bx bx-layer\"></i>\r\n              </div>\r\n              <h4><a href=\"\">Nemo Enim</a></h4>\r\n              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>\r\n            </div>\r\n          </div>\r\n\r\n          <div class=\"col-lg-4 col-md-6 d-flex align-items-stretch\" data-aos=\"zoom-in\" data-aos-delay=\"200\">\r\n            <div class=\"icon-box iconbox-red\">\r\n              <div class=\"icon\">\r\n                <svg width=\"100\" height=\"100\" viewBox=\"0 0 600 600\" xmlns=\"http://www.w3.org/2000/svg\">\r\n                  <path stroke=\"none\" stroke-width=\"0\" fill=\"#f5f5f5\" d=\"M300,532.3542879108572C369.38199826031484,532.3153073249985,429.10787420159085,491.63046689027357,474.5244479745417,439.17860296908856C522.8885846962883,383.3225815378663,569.1668002868075,314.3205725914397,550.7432151929288,242.7694973846089C532.6665558377875,172.5657663291529,456.2379748765914,142.6223662098291,390.3689995646985,112.34683881706744C326.66090330228417,83.06452184765237,258.84405631176094,53.51806209861945,193.32584062364296,78.48882559362697C121.61183558270385,105.82097193414197,62.805066853699245,167.19869350419734,48.57481801355237,242.6138429142374C34.843463184063346,315.3850353017275,76.69343916112496,383.4422959591041,125.22947124332185,439.3748458443577C170.7312796277747,491.8107796887764,230.57421082200815,532.3932930995766,300,532.3542879108572\"></path>\r\n                </svg>\r\n                <i class=\"bx bx-slideshow\"></i>\r\n              </div>\r\n              <h4><a href=\"\">Dele Cardo</a></h4>\r\n              <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>\r\n            </div>\r\n          </div>\r\n\r\n          <div class=\"col-lg-4 col-md-6 d-flex align-items-stretch\" data-aos=\"zoom-in\" data-aos-delay=\"300\">\r\n            <div class=\"icon-box iconbox-teal\">\r\n              <div class=\"icon\">\r\n                <svg width=\"100\" height=\"100\" viewBox=\"0 0 600 600\" xmlns=\"http://www.w3.org/2000/svg\">\r\n                  <path stroke=\"none\" stroke-width=\"0\" fill=\"#f5f5f5\" d=\"M300,566.797414625762C385.7384707136149,576.1784315230908,478.7894351017131,552.8928747891023,531.9192734346935,484.94944893311C584.6109503024035,417.5663521118492,582.489472248146,322.67544863468447,553.9536738515405,242.03673114598146C529.1557734026468,171.96086150256528,465.24506316201064,127.66468636344209,395.9583748389544,100.7403814666027C334.2173773831606,76.7482773500951,269.4350130405921,84.62216499799875,207.1952322260088,107.2889140133804C132.92018162631612,134.33871894543012,41.79353780512637,160.00259165414826,22.644507872594943,236.69541883565114C3.319112789854554,314.0945973066697,72.72355303640163,379.243833228382,124.04198916343866,440.3218312028393C172.9286146004772,498.5055451809895,224.45579914871206,558.5317968840102,300,566.797414625762\"></path>\r\n                </svg>\r\n                <i class=\"bx bx-arch\"></i>\r\n              </div>\r\n              <h4><a href=\"\">Divera Don</a></h4>\r\n              <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>\r\n            </div>\r\n          </div> \r\n\r\n        </div>\r\n\r\n      </div>\r\n    </section><!-- End Services Section -->\r\n    <!-- ======= Pricing Section ======= -->\r\n    <section id=\"pricing\" class=\"pricing section-bg\">\r\n      <div class=\"container\" data-aos=\"fade-up\">\r\n\r\n        <div class=\"section-title\">\r\n          <h2>Pricing</h2>\r\n          <p>This template came with a pricing section so I've filled it out</p>\r\n        </div>\r\n\r\n        <div class=\"row\">\r\n\r\n          <div class=\"col-lg-3 col-md-6\" data-aos=\"fade-up\" data-aos-delay=\"100\">\r\n            <div class=\"box\">\r\n              <h3>Legacy Paywave</h3>\r\n              <h4>2<sup>%</sup><span>cost per TX</span></h4>\r\n              <ul>\r\n                <li>Additional Fees</li>\r\n                <li>Only works with FIAT money</li>\r\n                <li>Your payments are surveiled</li>\r\n                <li class=\"na\">Freedom</li>\r\n                <li class=\"na\">Store of Value</li>\r\n              </ul>\r\n              <div class=\"btn-wrap\">\r\n                <a href=\"https://www.rnz.co.nz/news/business/483466/commerce-commission-considering-action-over-high-paywave-fees\" class=\"btn-buy\">Pay the man</a>\r\n              </div>\r\n            </div>\r\n          </div>\r\n\r\n          <div class=\"col-lg-3 col-md-6 mt-4 mt-md-0\" data-aos=\"fade-up\" data-aos-delay=\"200\">\r\n            <div class=\"box featured\">\r\n              <h3>Bolt Card</h3>\r\n              <h4><sup>$</sup>Free<span></span></h4>\r\n              <ul>\r\n                <li>Set your own limits</li>\r\n                <li>Payment Push notifications</li>\r\n                <li>Check your balance</li>\r\n                <li>Saves time</li>\r\n                <li class=\"na\">Less faff, much wow</li>\r\n              </ul>\r\n              <div class=\"btn-wrap\">\r\n                <a href=\"https://github.com/boltcard\" class=\"btn-buy\">Start Now</a>\r\n              </div>\r\n            </div>\r\n          </div>\r\n\r\n          <div class=\"col-lg-3 col-md-6 mt-4 mt-lg-0\" data-aos=\"fade-up\" data-aos-delay=\"300\">\r\n            <div class=\"box\">\r\n              <span class=\"advanced\">2nd Best</span>\r\n              <h3>Scan a QR Code</h3>\r\n              <h4><sup>$</sup>Free<span></span></h4>\r\n              <ul>\r\n                <li>Less convenient</li>\r\n                <li>Still Better than FIAT</li>\r\n                <li>Not as cool as a bolt card</li>\r\n                <li>No internet? Ruh Roah</li>\r\n                <li>Dropped your phone? Damn</li>\r\n              </ul>\r\n              <div class=\"btn-wrap\">\r\n                <a href=\"https://walletofsatoshi.com\" class=\"btn-buy\">QR code pls</a>\r\n              </div>\r\n            </div>\r\n          </div>\r\n<!-- \r\n          <div class=\"col-lg-3 col-md-6 mt-4 mt-lg-0\" data-aos=\"fade-up\" data-aos-delay=\"400\">\r\n            <div class=\"box\">\r\n              <span class=\"advanced\">Advanced</span>\r\n              <h3>Ultimate</h3>\r\n              <h4><sup>$</sup>49<span> / month</span></h4>\r\n              <ul>\r\n                <li>Aida dere</li>\r\n                <li>Nec feugiat nisl</li>\r\n                <li>Nulla at volutpat dola</li>\r\n                <li>Pharetra massa</li>\r\n                <li>Massa ultricies mi</li>\r\n              </ul>\r\n              <div class=\"btn-wrap\">\r\n                <a href=\"#\" class=\"btn-buy\">Buy Now</a>\r\n              </div>\r\n            </div>\r\n          </div> -->\r\n\r\n        </div>\r\n\r\n      </div>\r\n    </section><!-- End Pricing Section -->\r\n    <!-- ======= About Section ======= -->\r\n    <section id=\"about\" class=\"about\">\r\n      <div class=\"container\">\r\n\r\n        <div class=\"row\">\r\n          <div class=\"col-lg-6 order-1 order-lg-2\" data-aos=\"zoom-in\" data-aos-delay=\"150\">\r\n            <img src=\"assets/img/about.jpg\" class=\"img-fluid\" alt=\"\">\r\n          </div>\r\n          <div class=\"col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content\" data-aos=\"fade-right\">\r\n            <h3>LNURLw withdrawal with an NXP NTAG424 card </h3>\r\n            <p class=\"fst-italic\">\r\n              Tapping your bolt card authorises a one time withdrawal payment to the merchants point of sale device.\r\n            </p>\r\n            <ul>\r\n              <li><i class=\"bi bi-check-circle\"></i> Faster than opening your app and scanning a QR code</li>\r\n              <li><i class=\"bi bi-check-circle\"></i> Compatible with existing lighting wallets / PoS such as Breez, Voltage, LNBits Tpos and BTCPayServer, more to come...</li>\r\n              <li><i class=\"bi bi-check-circle\"></i> No additional cost for tap'n'go payments - unlike the legacy payments system. </li>\r\n              <li><i class=\"bi bi-check-circle\"></i> Run a hub for your family or community </li>\r\n              <li><i class=\"bi bi-check-circle\"></i> Run your own hub to use your own node for maximum sovereignty </li>\r\n            </ul>\r\n            <a href=\"https://boltcard.org\" class=\"read-more\">Read More <i class=\"bi bi-long-arrow-right\"></i></a>\r\n          </div>\r\n        </div>\r\n\r\n      </div>\r\n    </section><!-- End About Section -->\r\n\r\n\r\n    <section id=\"setup-wallet\" class=\"pricing\">\r\n      <div class=\"container\">\r\n        <div class=\"section-title\">\r\n          <h2>Bolt Card Wallet Setup</h2>\r\n          <p>Get started with an Android device</p>\r\n        </div>\r\n        <iframe width=\"100%\" height=\"700\" src=\"https://www.youtube.com/embed/Vtr5LvJggvc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\r\n      </div>\r\n      <div class=\"container mt-5\">\r\n        <div class=\"section-title\">\r\n          <h2 id=\"setup-hub\">Bolt Card Hub Setup</h2>\r\n          <p>Set up your own self custodial Bolt Card Hub connected to your own LND lightning node</p>\r\n            <h3><span class=\"badge badge-primary\">NEW</span>Also - Check out our <a href=\"https://boltcardwallet.com/umbrel-setup.php\">one-click install<a> for your umbrel</h3> \r\n        </div>\r\n        <iframe width=\"100%\" height=\"700\" src=\"https://www.youtube.com/embed/Q5Iw7d6xVGA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\r\n      </div>\r\n    </section>\r\n\r\n    <!-- ======= Testimonials Section ======= --\r\n    <section id=\"testimonials\" class=\"testimonials section-bg\">\r\n      <div class=\"container\" data-aos=\"fade-up\">\r\n\r\n        <div class=\"section-title\">\r\n          <h2>Testimonials</h2>\r\n          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>\r\n        </div>\r\n\r\n        <div class=\"testimonials-slider swiper\" data-aos=\"fade-up\" data-aos-delay=\"100\">\r\n          <div class=\"swiper-wrapper\">\r\n\r\n            <div class=\"swiper-slide\">\r\n              <div class=\"testimonial-item\">\r\n                <p>\r\n                  <i class=\"bx bxs-quote-alt-left quote-icon-left\"></i>\r\n                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.\r\n                  <i class=\"bx bxs-quote-alt-right quote-icon-right\"></i>\r\n                </p>\r\n                <img src=\"assets/img/testimonials/testimonials-1.jpg\" class=\"testimonial-img\" alt=\"\">\r\n                <h3>Saul Goodman</h3>\r\n                <h4>Ceo &amp; Founder</h4>\r\n              </div>\r\n            </div><!-- End testimonial item --\r\n\r\n            <div class=\"swiper-slide\">\r\n              <div class=\"testimonial-item\">\r\n                <p>\r\n                  <i class=\"bx bxs-quote-alt-left quote-icon-left\"></i>\r\n                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.\r\n                  <i class=\"bx bxs-quote-alt-right quote-icon-right\"></i>\r\n                </p>\r\n                <img src=\"assets/img/testimonials/testimonials-2.jpg\" class=\"testimonial-img\" alt=\"\">\r\n                <h3>Sara Wilsson</h3>\r\n                <h4>Designer</h4>\r\n              </div>\r\n            </div><!-- End testimonial item --\r\n\r\n            <div class=\"swiper-slide\">\r\n              <div class=\"testimonial-item\">\r\n                <p>\r\n                  <i class=\"bx bxs-quote-alt-left quote-icon-left\"></i>\r\n                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.\r\n                  <i class=\"bx bxs-quote-alt-right quote-icon-right\"></i>\r\n                </p>\r\n                <img src=\"assets/img/testimonials/testimonials-3.jpg\" class=\"testimonial-img\" alt=\"\">\r\n                <h3>Jena Karlis</h3>\r\n                <h4>Store Owner</h4>\r\n              </div>\r\n            </div><!-- End testimonial item --\r\n\r\n            <div class=\"swiper-slide\">\r\n              <div class=\"testimonial-item\">\r\n                <p>\r\n                  <i class=\"bx bxs-quote-alt-left quote-icon-left\"></i>\r\n                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore.\r\n                  <i class=\"bx bxs-quote-alt-right quote-icon-right\"></i>\r\n                </p>\r\n                <img src=\"assets/img/testimonials/testimonials-4.jpg\" class=\"testimonial-img\" alt=\"\">\r\n                <h3>Matt Brandon</h3>\r\n                <h4>Freelancer</h4>\r\n              </div>\r\n            </div><!-- End testimonial item --\r\n\r\n            <div class=\"swiper-slide\">\r\n              <div class=\"testimonial-item\">\r\n                <p>\r\n                  <i class=\"bx bxs-quote-alt-left quote-icon-left\"></i>\r\n                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa.\r\n                  <i class=\"bx bxs-quote-alt-right quote-icon-right\"></i>\r\n                </p>\r\n                <img src=\"assets/img/testimonials/testimonials-5.jpg\" class=\"testimonial-img\" alt=\"\">\r\n                <h3>John Larson</h3>\r\n                <h4>Entrepreneur</h4>\r\n              </div>\r\n            </div><!-- End testimonial item --\r\n\r\n          </div>\r\n          <div class=\"swiper-pagination\"></div>\r\n        </div>\r\n\r\n      </div>\r\n    </section><!-- End Testimonials Section -->\r\n\r\n    <!-- ======= Portfolio Section ======= --\r\n    <section id=\"portfolio\" class=\"portfolio\">\r\n      <div class=\"container\" data-aos=\"fade-up\">\r\n\r\n        <div class=\"section-title\">\r\n          <h2>Portfolio</h2>\r\n          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>\r\n        </div>\r\n\r\n        <div class=\"row\">\r\n          <div class=\"col-lg-12 d-flex justify-content-center\">\r\n            <ul id=\"portfolio-flters\">\r\n              <li data-filter=\"*\" class=\"filter-active\">All</li>\r\n              <li data-filter=\".filter-app\">App</li>\r\n              <li data-filter=\".filter-card\">Card</li>\r\n              <li data-filter=\".filter-web\">Web</li>\r\n            </ul>\r\n          </div>\r\n        </div>\r\n\r\n        <div class=\"row portfolio-container\">\r\n\r\n          <div class=\"col-lg-4 col-md-6 portfolio-item filter-app\">\r\n            <div class=\"portfolio-wrap\">\r\n              <img src=\"assets/img/portfolio/portfolio-1.jpg\" class=\"img-fluid\" alt=\"\">\r\n              <div class=\"portfolio-info\">\r\n                <h4>App 1</h4>\r\n                <p>App</p>\r\n              </div>\r\n              <div class=\"portfolio-links\">\r\n                <a href=\"assets/img/portfolio/portfolio-1.jpg\" data-gallery=\"portfolioGallery\" class=\"portfolio-lightbox\" title=\"App 1\"><i class=\"bx bx-plus\"></i></a>\r\n                <a href=\"portfolio-details.html\" title=\"More Details\"><i class=\"bx bx-link\"></i></a>\r\n              </div>\r\n            </div>\r\n          </div>\r\n\r\n          <div class=\"col-lg-4 col-md-6 portfolio-item filter-web\">\r\n            <div class=\"portfolio-wrap\">\r\n              <img src=\"assets/img/portfolio/portfolio-2.jpg\" class=\"img-fluid\" alt=\"\">\r\n              <div class=\"portfolio-info\">\r\n                <h4>Web 3</h4>\r\n                <p>Web</p>\r\n              </div>\r\n              <div class=\"portfolio-links\">\r\n                <a href=\"assets/img/portfolio/portfolio-2.jpg\" data-gallery=\"portfolioGallery\" class=\"portfolio-lightbox\" title=\"Web 3\"><i class=\"bx bx-plus\"></i></a>\r\n                <a href=\"portfolio-details.html\" title=\"More Details\"><i class=\"bx bx-link\"></i></a>\r\n              </div>\r\n            </div>\r\n          </div>\r\n\r\n          <div class=\"col-lg-4 col-md-6 portfolio-item filter-app\">\r\n            <div class=\"portfolio-wrap\">\r\n              <img src=\"assets/img/portfolio/portfolio-3.jpg\" class=\"img-fluid\" alt=\"\">\r\n              <div class=\"portfolio-info\">\r\n                <h4>App 2</h4>\r\n                <p>App</p>\r\n              </div>\r\n              <div class=\"portfolio-links\">\r\n                <a href=\"assets/img/portfolio/portfolio-3.jpg\" data-gallery=\"portfolioGallery\" class=\"portfolio-lightbox\" title=\"App 2\"><i class=\"bx bx-plus\"></i></a>\r\n                <a href=\"portfolio-details.html\" title=\"More Details\"><i class=\"bx bx-link\"></i></a>\r\n              </div>\r\n            </div>\r\n          </div>\r\n\r\n          <div class=\"col-lg-4 col-md-6 portfolio-item filter-card\">\r\n            <div class=\"portfolio-wrap\">\r\n              <img src=\"assets/img/portfolio/portfolio-4.jpg\" class=\"img-fluid\" alt=\"\">\r\n              <div class=\"portfolio-info\">\r\n                <h4>Card 2</h4>\r\n                <p>Card</p>\r\n              </div>\r\n              <div class=\"portfolio-links\">\r\n                <a href=\"assets/img/portfolio/portfolio-4.jpg\" data-gallery=\"portfolioGallery\" class=\"portfolio-lightbox\" title=\"Card 2\"><i class=\"bx bx-plus\"></i></a>\r\n                <a href=\"portfolio-details.html\" title=\"More Details\"><i class=\"bx bx-link\"></i></a>\r\n              </div>\r\n            </div>\r\n          </div>\r\n\r\n          <div class=\"col-lg-4 col-md-6 portfolio-item filter-web\">\r\n            <div class=\"portfolio-wrap\">\r\n              <img src=\"assets/img/portfolio/portfolio-5.jpg\" class=\"img-fluid\" alt=\"\">\r\n              <div class=\"portfolio-info\">\r\n                <h4>Web 2</h4>\r\n                <p>Web</p>\r\n              </div>\r\n              <div class=\"portfolio-links\">\r\n                <a href=\"assets/img/portfolio/portfolio-5.jpg\" data-gallery=\"portfolioGallery\" class=\"portfolio-lightbox\" title=\"Web 2\"><i class=\"bx bx-plus\"></i></a>\r\n                <a href=\"portfolio-details.html\" title=\"More Details\"><i class=\"bx bx-link\"></i></a>\r\n              </div>\r\n            </div>\r\n          </div>\r\n\r\n          <div class=\"col-lg-4 col-md-6 portfolio-item filter-app\">\r\n            <div class=\"portfolio-wrap\">\r\n              <img src=\"assets/img/portfolio/portfolio-6.jpg\" class=\"img-fluid\" alt=\"\">\r\n              <div class=\"portfolio-info\">\r\n                <h4>App 3</h4>\r\n                <p>App</p>\r\n              </div>\r\n              <div class=\"portfolio-links\">\r\n                <a href=\"assets/img/portfolio/portfolio-6.jpg\" data-gallery=\"portfolioGallery\" class=\"portfolio-lightbox\" title=\"App 3\"><i class=\"bx bx-plus\"></i></a>\r\n                <a href=\"portfolio-details.html\" title=\"More Details\"><i class=\"bx bx-link\"></i></a>\r\n              </div>\r\n            </div>\r\n          </div>\r\n\r\n          <div class=\"col-lg-4 col-md-6 portfolio-item filter-card\">\r\n            <div class=\"portfolio-wrap\">\r\n              <img src=\"assets/img/portfolio/portfolio-7.jpg\" class=\"img-fluid\" alt=\"\">\r\n              <div class=\"portfolio-info\">\r\n                <h4>Card 1</h4>\r\n                <p>Card</p>\r\n              </div>\r\n              <div class=\"portfolio-links\">\r\n                <a href=\"assets/img/portfolio/portfolio-7.jpg\" data-gallery=\"portfolioGallery\" class=\"portfolio-lightbox\" title=\"Card 1\"><i class=\"bx bx-plus\"></i></a>\r\n                <a href=\"portfolio-details.html\" title=\"More Details\"><i class=\"bx bx-link\"></i></a>\r\n              </div>\r\n            </div>\r\n          </div>\r\n\r\n          <div class=\"col-lg-4 col-md-6 portfolio-item filter-card\">\r\n            <div class=\"portfolio-wrap\">\r\n              <img src=\"assets/img/portfolio/portfolio-8.jpg\" class=\"img-fluid\" alt=\"\">\r\n              <div class=\"portfolio-info\">\r\n                <h4>Card 3</h4>\r\n                <p>Card</p>\r\n              </div>\r\n              <div class=\"portfolio-links\">\r\n                <a href=\"assets/img/portfolio/portfolio-8.jpg\" data-gallery=\"portfolioGallery\" class=\"portfolio-lightbox\" title=\"Card 3\"><i class=\"bx bx-plus\"></i></a>\r\n                <a href=\"portfolio-details.html\" title=\"More Details\"><i class=\"bx bx-link\"></i></a>\r\n              </div>\r\n            </div>\r\n          </div>\r\n\r\n          <div class=\"col-lg-4 col-md-6 portfolio-item filter-web\">\r\n            <div class=\"portfolio-wrap\">\r\n              <img src=\"assets/img/portfolio/portfolio-9.jpg\" class=\"img-fluid\" alt=\"\">\r\n              <div class=\"portfolio-info\">\r\n                <h4>Web 3</h4>\r\n                <p>Web</p>\r\n              </div>\r\n              <div class=\"portfolio-links\">\r\n                <a href=\"assets/img/portfolio/portfolio-9.jpg\" data-gallery=\"portfolioGallery\" class=\"portfolio-lightbox\" title=\"Web 3\"><i class=\"bx bx-plus\"></i></a>\r\n                <a href=\"portfolio-details.html\" title=\"More Details\"><i class=\"bx bx-link\"></i></a>\r\n              </div>\r\n            </div>\r\n          </div>\r\n\r\n        </div>\r\n\r\n      </div>\r\n    </section><!-- End Portfolio Section -->\r\n\r\n    \r\n\r\n    <!-- ======= Frequently Asked Questions Section ======= --\r\n    <section id=\"faq\" class=\"faq\">\r\n      <div class=\"container\" data-aos=\"fade-up\">\r\n\r\n        <div class=\"section-title\">\r\n          <h2>Frequently Asked Questions</h2>\r\n          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>\r\n        </div>\r\n\r\n        <div class=\"faq-list\">\r\n          <ul>\r\n            <li data-aos=\"fade-up\" data-aos=\"fade-up\" data-aos-delay=\"100\">\r\n              <i class=\"bx bx-help-circle icon-help\"></i> <a data-bs-toggle=\"collapse\" class=\"collapse\" data-bs-target=\"#faq-list-1\">Non consectetur a erat nam at lectus urna duis? <i class=\"bx bx-chevron-down icon-show\"></i><i class=\"bx bx-chevron-up icon-close\"></i></a>\r\n              <div id=\"faq-list-1\" class=\"collapse show\" data-bs-parent=\".faq-list\">\r\n                <p>\r\n                  Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.\r\n                </p>\r\n              </div>\r\n            </li>\r\n\r\n            <li data-aos=\"fade-up\" data-aos-delay=\"200\">\r\n              <i class=\"bx bx-help-circle icon-help\"></i> <a data-bs-toggle=\"collapse\" data-bs-target=\"#faq-list-2\" class=\"collapsed\">Feugiat scelerisque varius morbi enim nunc? <i class=\"bx bx-chevron-down icon-show\"></i><i class=\"bx bx-chevron-up icon-close\"></i></a>\r\n              <div id=\"faq-list-2\" class=\"collapse\" data-bs-parent=\".faq-list\">\r\n                <p>\r\n                  Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.\r\n                </p>\r\n              </div>\r\n            </li>\r\n\r\n            <li data-aos=\"fade-up\" data-aos-delay=\"300\">\r\n              <i class=\"bx bx-help-circle icon-help\"></i> <a data-bs-toggle=\"collapse\" data-bs-target=\"#faq-list-3\" class=\"collapsed\">Dolor sit amet consectetur adipiscing elit? <i class=\"bx bx-chevron-down icon-show\"></i><i class=\"bx bx-chevron-up icon-close\"></i></a>\r\n              <div id=\"faq-list-3\" class=\"collapse\" data-bs-parent=\".faq-list\">\r\n                <p>\r\n                  Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis\r\n                </p>\r\n              </div>\r\n            </li>\r\n\r\n            <li data-aos=\"fade-up\" data-aos-delay=\"400\">\r\n              <i class=\"bx bx-help-circle icon-help\"></i> <a data-bs-toggle=\"collapse\" data-bs-target=\"#faq-list-4\" class=\"collapsed\">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class=\"bx bx-chevron-down icon-show\"></i><i class=\"bx bx-chevron-up icon-close\"></i></a>\r\n              <div id=\"faq-list-4\" class=\"collapse\" data-bs-parent=\".faq-list\">\r\n                <p>\r\n                  Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.\r\n                </p>\r\n              </div>\r\n            </li>\r\n\r\n            <li data-aos=\"fade-up\" data-aos-delay=\"500\">\r\n              <i class=\"bx bx-help-circle icon-help\"></i> <a data-bs-toggle=\"collapse\" data-bs-target=\"#faq-list-5\" class=\"collapsed\">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class=\"bx bx-chevron-down icon-show\"></i><i class=\"bx bx-chevron-up icon-close\"></i></a>\r\n              <div id=\"faq-list-5\" class=\"collapse\" data-bs-parent=\".faq-list\">\r\n                <p>\r\n                  Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.\r\n                </p>\r\n              </div>\r\n            </li>\r\n\r\n          </ul>\r\n        </div>\r\n\r\n      </div>\r\n    </section><!-- End Frequently Asked Questions Section -->\r\n\r\n    <!-- ======= Contact Section ======= --\r\n    <section id=\"contact\" class=\"contact section-bg\">\r\n      <div class=\"container\" data-aos=\"fade-up\">\r\n\r\n        <div class=\"section-title\">\r\n          <h2>Contact</h2>\r\n          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>\r\n        </div>\r\n\r\n        <div class=\"row\">\r\n          <div class=\"col-lg-6\">\r\n            <div class=\"info-box mb-4\">\r\n              <i class=\"bx bx-map\"></i>\r\n              <h3>Our Address</h3>\r\n              <p>A108 Adam Street, New York, NY 535022</p>\r\n            </div>\r\n          </div>\r\n\r\n          <div class=\"col-lg-3 col-md-6\">\r\n            <div class=\"info-box  mb-4\">\r\n              <i class=\"bx bx-envelope\"></i>\r\n              <h3>Email Us</h3>\r\n              <p>contact@example.com</p>\r\n            </div>\r\n          </div>\r\n\r\n          <div class=\"col-lg-3 col-md-6\">\r\n            <div class=\"info-box  mb-4\">\r\n              <i class=\"bx bx-phone-call\"></i>\r\n              <h3>Call Us</h3>\r\n              <p>+1 5589 55488 55</p>\r\n            </div>\r\n          </div>\r\n\r\n        </div>\r\n\r\n        <div class=\"row\">\r\n\r\n          <div class=\"col-lg-6 \">\r\n            <iframe class=\"mb-4 mb-lg-0\" src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621\" frameborder=\"0\" style=\"border:0; width: 100%; height: 384px;\" allowfullscreen></iframe>\r\n          </div>\r\n\r\n          <div class=\"col-lg-6\">\r\n            <form action=\"forms/contact.php\" method=\"post\" role=\"form\" class=\"php-email-form\">\r\n              <div class=\"row\">\r\n                <div class=\"col-md-6 form-group\">\r\n                  <input type=\"text\" name=\"name\" class=\"form-control\" id=\"name\" placeholder=\"Your Name\" required>\r\n                </div>\r\n                <div class=\"col-md-6 form-group mt-3 mt-md-0\">\r\n                  <input type=\"email\" class=\"form-control\" name=\"email\" id=\"email\" placeholder=\"Your Email\" required>\r\n                </div>\r\n              </div>\r\n              <div class=\"form-group mt-3\">\r\n                <input type=\"text\" class=\"form-control\" name=\"subject\" id=\"subject\" placeholder=\"Subject\" required>\r\n              </div>\r\n              <div class=\"form-group mt-3\">\r\n                <textarea class=\"form-control\" name=\"message\" rows=\"5\" placeholder=\"Message\" required></textarea>\r\n              </div>\r\n              <div class=\"my-3\">\r\n                <div class=\"loading\">Loading</div>\r\n                <div class=\"error-message\"></div>\r\n                <div class=\"sent-message\">Your message has been sent. Thank you!</div>\r\n              </div>\r\n              <div class=\"text-center\"><button type=\"submit\">Send Message</button></div>\r\n            </form>\r\n          </div>\r\n\r\n        </div>\r\n\r\n      </div>\r\n    </section><!-- End Contact Section -->\r\n\r\n  </main><!-- End #main -->\r\n\r\n  <!-- ======= Footer ======= -->\n  <footer id=\"footer\">\n\n    <div class=\"footer-top\">\n      <div class=\"container\">\n        <div class=\"row\">\n\n          <div class=\"col-lg-3 col-md-6 footer-contact\">\n            <h3>Bolt Card Wallet</h3>\n            <p>\n              Find out more at <a style=\"color:#fff\" href=\"https://boltcard.org\">boltcard.org</a><br><br>\n              <!-- <strong>Phone:</strong> +1 5589 55488 55<br>\n              <strong>Email:</strong> info@example.com<br> -->\n            </p>\n          </div>\n\n          <div class=\"col-lg-2 col-md-6 footer-links\">\n            <h4>Links</h4>\n            <ul>\n              <li><i class=\"bx bx-chevron-right\"></i> <a href=\"terms.php\">Terms of service</a></li>\n              <li><i class=\"bx bx-chevron-right\"></i> <a href=\"privacy-policy.php\">Privacy policy</a></li>\n            </ul>\n          </div>\n<!--  \n          <div class=\"col-lg-3 col-md-6 footer-links\">\n            <h4>Our Services</h4>\n            <ul>\n              <li><i class=\"bx bx-chevron-right\"></i> <a href=\"#\">Web Design</a></li>\n              <li><i class=\"bx bx-chevron-right\"></i> <a href=\"#\">Web Development</a></li>\n              <li><i class=\"bx bx-chevron-right\"></i> <a href=\"#\">Product Management</a></li>\n              <li><i class=\"bx bx-chevron-right\"></i> <a href=\"#\">Marketing</a></li>\n              <li><i class=\"bx bx-chevron-right\"></i> <a href=\"#\">Graphic Design</a></li>\n            </ul>\n          </div>\n\n          <div class=\"col-lg-4 col-md-6 footer-newsletter\">\n            <h4>Join Our Newsletter</h4>\n            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>\n            <form action=\"\" method=\"post\">\n              <input type=\"email\" name=\"email\"><input type=\"submit\" value=\"Subscribe\">\n            </form>\n          </div>\n -->\n        </div>\n      </div>\n    </div>\n\n    <div class=\"container\">\n\n      <div class=\"copyright-wrap d-md-flex py-4\">\n        <div class=\"me-md-auto text-center text-md-start\">\n          <div class=\"copyright\">\n            <strong><span>Bolt Card Wallet</span></strong>. MIT license\n          </div>\n          <div class=\"credits\">\n            <!-- All the links in the footer should remain intact. -->\n            <!-- You can delete the links only if you purchased the pro version. -->\n            <!-- Licensing information: https://bootstrapmade.com/license/ -->\n            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/techie-free-skin-bootstrap-3/ -->\n            Designed by <a href=\"https://bootstrapmade.com/\">BootstrapMade</a>\n          </div>\n        </div>\n        <div class=\"social-links text-center text-md-right pt-3 pt-md-0\">\n          <a href=\"https://twitter.com/bolt_card\" class=\"twitter\"><i class=\"bx bxl-twitter\"></i></a>\n          <a href=\"https://github.com/boltcard\" class=\"github\"><i class=\"bx bxl-github\"></i></a>\n          <!-- <a href=\"#\" class=\"instagram\"><i class=\"bx bxl-instagram\"></i></a>\n          <a href=\"#\" class=\"google-plus\"><i class=\"bx bxl-skype\"></i></a>\n          <a href=\"#\" class=\"linkedin\"><i class=\"bx bxl-linkedin\"></i></a> -->\n        </div>\n      </div>\n\n    </div>\n  </footer><!-- End Footer -->\r\n  <a href=\"#\" class=\"back-to-top d-flex align-items-center justify-content-center\"><i class=\"bi bi-arrow-up-short\"></i></a>\r\n  <div id=\"preloader\"></div>\r\n\r\n  <!-- Vendor JS Files -->\r\n  <!-- <script src=\"assets/vendor/purecounter/purecounter_vanilla.js\"></script>\r\n  <script src=\"assets/vendor/aos/aos.js\"></script> -->\r\n  <script src=\"assets/vendor/bootstrap/js/bootstrap.bundle.min.js\"></script>\r\n  <script src=\"assets/vendor/glightbox/js/glightbox.min.js\"></script>\r\n  <script src=\"assets/vendor/isotope-layout/isotope.pkgd.min.js\"></script>\r\n  <script src=\"assets/vendor/swiper/swiper-bundle.min.js\"></script>\r\n  <script src=\"assets/vendor/php-email-form/validate.js\"></script>\r\n\r\n  <!-- Template Main JS File -->\r\n  <script src=\"assets/js/main.js\"></script>\r\n  \r\n</body>\r\n\r\n</html>\r\n",
+                "favicons": [
+                  {
+                    "size": 19216,
+                    "name": "https://170.75.163.162/assets/img/bolt-card-icon.png",
+                    "hash_sha256": "d573ccd666ed8052f988ac1231b9542229eee0e8c89264d0cd5c2f17167ad7be",
+                    "hash_md5": "67e6960725a472c4589af71cffd514ce",
+                    "hash_shodan": 125667300
+                  },
+                  {
+                    "size": 19216,
+                    "name": "https://170.75.163.162/assets/img/bolt-card-icon.png",
+                    "hash_sha256": "d573ccd666ed8052f988ac1231b9542229eee0e8c89264d0cd5c2f17167ad7be",
+                    "hash_md5": "67e6960725a472c4589af71cffd514ce",
+                    "hash_shodan": 125667300
+                  }
+                ],
+                "html_title": "Bolt Card Wallet - Connect your bolt card",
+                "body_hash_sha256": "70c17fe5e2f2a254cfff4cddedc719fe2e3734dc6181932db2dbb26c08de5a8b",
+                "body_hash_sha1": "49961d7894994ec33e438a0bc70e540214be7551",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "170.75.163.162"
+            }
+          ]
+        }
+      ],
+      "service_count": 3,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-01-25T10:31:06Z",
+          "names": [
+            "162.163.75.170.lunanode-rdns.com"
+          ]
+        },
+        "names": [
+          "www.boltcardwallet.com",
+          "pay.bitcoin.aramokka.com",
+          "boltcardwallet.com"
+        ],
+        "forward_dns": {
+          "boltcardwallet.com": {
+            "resolve_time": "2026-01-22T12:26:26Z",
+            "name": "boltcardwallet.com",
+            "record_type": "a"
+          },
+          "pay.bitcoin.aramokka.com": {
+            "resolve_time": "2026-01-27T14:51:19Z",
+            "name": "pay.bitcoin.aramokka.com",
+            "record_type": "a"
+          },
+          "www.boltcardwallet.com": {
+            "resolve_time": "2026-01-29T16:34:24Z",
+            "name": "www.boltcardwallet.com",
+            "record_type": "a"
+          }
+        }
+      },
+      "operating_system": {
+        "vendor": "canonical",
+        "product": "linux"
+      }
+    },
+    "extensions": {}
+  }
+}

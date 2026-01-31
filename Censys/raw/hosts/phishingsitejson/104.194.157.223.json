@@ -1,0 +1,1303 @@
+{
+  "result": {
+    "resource": {
+      "ip": "104.194.157.223",
+      "location": {
+        "continent": "Europe",
+        "country": "Germany",
+        "country_code": "DE",
+        "city": "Frankfurt am Main",
+        "postal_code": "60306",
+        "timezone": "Europe/Berlin",
+        "province": "Hesse",
+        "coordinates": {
+          "latitude": 50.11552,
+          "longitude": 8.68417
+        }
+      },
+      "autonomous_system": {
+        "asn": 14956,
+        "description": "ROUTERHOSTING - RouterHosting LLC",
+        "bgp_prefix": "104.194.156.0/22",
+        "name": "ROUTERHOSTING - RouterHosting LLC",
+        "country_code": "US"
+      },
+      "whois": {
+        "network": {
+          "handle": "ROUTERHOSTING",
+          "name": "RouterHosting LLC",
+          "cidrs": [
+            "104.194.156.0/22"
+          ],
+          "created": "2023-07-08T00:00:00Z",
+          "updated": "2023-07-08T00:00:00Z",
+          "allocation_type": "REALLOCATION"
+        },
+        "organization": {
+          "handle": "RL-896",
+          "name": "RouterHosting LLC",
+          "street": "1309 Coffeen Avenue STE 1200\\nSheridan, WY 82801",
+          "city": "Sheridan",
+          "state": "WY",
+          "postal_code": "82801",
+          "country": "US",
+          "abuse_contacts": [
+            {
+              "handle": "ABUSE8459-ARIN",
+              "name": "abuse",
+              "email": "abuse-reports@cloudzy.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "ABUSE8459-ARIN",
+              "name": "abuse",
+              "email": "abuse-reports@cloudzy.com"
+            }
+          ],
+          "tech_contacts": [
+            {
+              "handle": "ABUSE8459-ARIN",
+              "name": "abuse",
+              "email": "abuse-reports@cloudzy.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 22,
+          "protocol": "SSH",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "type": [
+                "REMOTE_ACCESS"
+              ]
+            },
+            {
+              "vendor": "openbsd",
+              "product": "openssh"
+            }
+          ],
+          "operating_systems": [
+            {
+              "vendor": "canonical",
+              "product": "linux"
+            }
+          ],
+          "labels": [
+            {
+              "value": "REMOTE_ACCESS"
+            }
+          ],
+          "ip": "104.194.157.223",
+          "scan_time": "2026-01-31T04:34:25Z",
+          "ssh": {
+            "endpoint_id": {
+              "raw": "SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.14",
+              "protocol_version": "2.0",
+              "software_version": "OpenSSH_9.6p1",
+              "comment": "Ubuntu-3ubuntu13.14"
+            },
+            "kex_init_message": {
+              "kex_algorithms": [
+                "sntrup761x25519-sha512@openssh.com",
+                "curve25519-sha256",
+                "curve25519-sha256@libssh.org",
+                "ecdh-sha2-nistp256",
+                "ecdh-sha2-nistp384",
+                "ecdh-sha2-nistp521",
+                "diffie-hellman-group-exchange-sha256",
+                "diffie-hellman-group16-sha512",
+                "diffie-hellman-group18-sha512",
+                "diffie-hellman-group14-sha256",
+                "ext-info-s",
+                "kex-strict-s-v00@openssh.com"
+              ],
+              "host_key_algorithms": [
+                "rsa-sha2-512",
+                "rsa-sha2-256",
+                "ecdsa-sha2-nistp256",
+                "ssh-ed25519"
+              ],
+              "client_to_server_ciphers": [
+                "chacha20-poly1305@openssh.com",
+                "aes128-ctr",
+                "aes192-ctr",
+                "aes256-ctr",
+                "aes128-gcm@openssh.com",
+                "aes256-gcm@openssh.com"
+              ],
+              "server_to_client_ciphers": [
+                "chacha20-poly1305@openssh.com",
+                "aes128-ctr",
+                "aes192-ctr",
+                "aes256-ctr",
+                "aes128-gcm@openssh.com",
+                "aes256-gcm@openssh.com"
+              ],
+              "client_to_server_macs": [
+                "umac-64-etm@openssh.com",
+                "umac-128-etm@openssh.com",
+                "hmac-sha2-256-etm@openssh.com",
+                "hmac-sha2-512-etm@openssh.com",
+                "hmac-sha1-etm@openssh.com",
+                "umac-64@openssh.com",
+                "umac-128@openssh.com",
+                "hmac-sha2-256",
+                "hmac-sha2-512",
+                "hmac-sha1"
+              ],
+              "server_to_client_macs": [
+                "umac-64-etm@openssh.com",
+                "umac-128-etm@openssh.com",
+                "hmac-sha2-256-etm@openssh.com",
+                "hmac-sha2-512-etm@openssh.com",
+                "hmac-sha1-etm@openssh.com",
+                "umac-64@openssh.com",
+                "umac-128@openssh.com",
+                "hmac-sha2-256",
+                "hmac-sha2-512",
+                "hmac-sha1"
+              ],
+              "client_to_server_compression": [
+                "none",
+                "zlib@openssh.com"
+              ],
+              "server_to_client_compression": [
+                "none",
+                "zlib@openssh.com"
+              ]
+            },
+            "algorithm_selection": {
+              "kex_algorithm": "curve25519-sha256@libssh.org",
+              "host_key_algorithm": "ecdsa-sha2-nistp256",
+              "client_to_server_alg_group": {
+                "cipher": "aes128-ctr",
+                "mac": "hmac-sha2-256",
+                "compression": "none"
+              },
+              "server_to_client_alg_group": {
+                "cipher": "aes128-ctr",
+                "mac": "hmac-sha2-256",
+                "compression": "none"
+              }
+            },
+            "server_host_key": {
+              "fingerprint_sha256": "b0731f25468125bfc1f05488573cebd2a0f4b33fe166ce29678b5b2a4fd62b4d",
+              "ecdsa_public_key": {
+                "b": "WsY12Ko6k+ez671VdpiGvGUdBrDMU7D2O848PifSYEs=",
+                "curve": "P-256",
+                "gx": "axfR8uEsQkf4vOblY6RA8ncDfYEt6zOg9KE5RdiYwpY=",
+                "gy": "T+NC4v4af5uO5+tKfA+eFivOM1drMV7Oy7ZAaDe/UfU=",
+                "length": 256,
+                "n": "/////wAAAAD//////////7zm+q2nF56E87nKwvxjJVE=",
+                "p": "/////wAAAAEAAAAAAAAAAAAAAAD///////////////8=",
+                "x": "bf8KZ9QWubTutqs8EUg34+6gONTGMYme1eVOFn/sn7w=",
+                "y": "HuiFZQj5WFiStL8t+KZRR9Iur72QYTmLgrOcmQi4nRU="
+              }
+            },
+            "hassh_fingerprint": "e42184b06d45385a906f0803d04c83da"
+          }
+        },
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "f5",
+              "product": "nginx"
+            }
+          ],
+          "ip": "104.194.157.223",
+          "scan_time": "2026-01-31T08:31:35Z",
+          "endpoints": [
+            {
+              "hostname": "104.194.157.223",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T08:31:35Z",
+              "http": {
+                "uri": "http://104.194.157.223/",
+                "protocol": "HTTP/1.1",
+                "status_code": 200,
+                "status_reason": "OK",
+                "headers": {
+                  "Accept-Ranges": {
+                    "headers": [
+                      "bytes"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "654"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "application/octet-stream"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "ETag": {
+                    "headers": [
+                      "\"697da939-28e\""
+                    ]
+                  },
+                  "Last-Modified": {
+                    "headers": [
+                      "Sat, 31 Jan 2026 07:03:21 GMT"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "nginx"
+                    ]
+                  }
+                },
+                "body_size": 654,
+                "body": "<?php\n// 1. Analyse de la langue du navigateur\n// La fonction substr r\u00e9cup\u00e8re les 2 premiers caract\u00e8res (ex: \"fr\" ou \"en\")\n$lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);\n\n// 2. D\u00e9finition des destinations\n$lien_francais = \"https://etransfer.interac.ca-ll.cv/S/CAD/Fr.php\";\n$lien_anglais  = \"https://etransfer.interac.ca-ll.cv/S/CAD\";\n\n// 3. Redirection automatique\nif ($lang == 'fr') {\n    // Si l'utilisateur parle fran\u00e7ais\n    header(\"Location: \" . $lien_francais);\n} else {\n    // Pour tous les autres (Anglais et reste du monde)\n    header(\"Location: \" . $lien_anglais);\n}\n\n// 4. Arr\u00eat du script pour forcer la redirection\nexit();\n?>\n\n",
+                "body_hash_sha256": "e36d2270ebe652033d725e323a5df84af3c090dda7869946dab9dc63ad655cec",
+                "body_hash_sha1": "e4f4071c8de1a957efdbaf18fb2d0fd786eff546",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "104.194.157.223"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "58a62969c7a919d9794dbdc610cf20617de6cef97076c0b108080d6526321ae9",
+            "fingerprint_sha1": "ca221e31e87e110bf89b19943869a5cdab656e6e",
+            "fingerprint_md5": "790f7cb8cb3e87ea59af4a1590634642",
+            "tbs_fingerprint_sha256": "124a1d8a6af3319d43c6c0bc89ea7e16f9ec931b14b916ab8c8422097fd28189",
+            "tbs_no_ct_fingerprint_sha256": "a27062e17f77c629176c24884c82845a97557367c895897769b922ca17dac9ff",
+            "spki_fingerprint_sha256": "c485fb969c5ff8a02790695817f874f735182c37e1cb26ff349c84f74056fdf0",
+            "parent_spki_fingerprint_sha256": "68f93e89a1162b56335485fd4fbad15fc1d3c6c8c9e8b10ddbdcb8d2730ec2fd",
+            "parsed": {
+              "version": 3,
+              "serial_number": "563895857442671144752978102689793166240658",
+              "issuer_dn": "C=US, O=Let's Encrypt, CN=E8",
+              "issuer": {
+                "common_name": [
+                  "E8"
+                ],
+                "country": [
+                  "US"
+                ],
+                "organization": [
+                  "Let's Encrypt"
+                ]
+              },
+              "subject_dn": "CN=alterna.ca-lll.cv",
+              "subject": {
+                "common_name": [
+                  "alterna.ca-lll.cv"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "ECDSA",
+                  "oid": "1.2.840.10045.2.1"
+                },
+                "ecdsa": {
+                  "b": "5ac635d8aa3a93e7b3ebbd55769886bc651d06b0cc53b0f63bce3c3e27d2604b",
+                  "curve": "P-256",
+                  "gx": "6b17d1f2e12c4247f8bce6e563a440f277037d812deb33a0f4a13945d898c296",
+                  "gy": "4fe342e2fe1a7f9b8ee7eb4a7c0f9e162bce33576b315ececbb6406837bf51f5",
+                  "length": 256,
+                  "n": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+                  "p": "ffffffff00000001000000000000000000000000ffffffffffffffffffffffff",
+                  "pub": "045b68fb6f611a071c8d8e261c0a6286f4dd183929f23e7a6b6be03c240106c57dab16255898df645a1c4708809b1e33b63959af157c268862bda4eebd416aa805",
+                  "x": "5b68fb6f611a071c8d8e261c0a6286f4dd183929f23e7a6b6be03c240106c57d",
+                  "y": "ab16255898df645a1c4708809b1e33b63959af157c268862bda4eebd416aa805"
+                },
+                "fingerprint_sha256": "6b900508cddff9ebef3354a156b5776a855799c16bf890fbe0e81ab3ab3a4ad7"
+              },
+              "validity_period": {
+                "not_before": "2026-01-31T06:28:23Z",
+                "not_after": "2026-05-01T06:28:22Z",
+                "length_seconds": 7776000
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "ECDSA-SHA384",
+                  "oid": "1.2.840.10045.4.3.3"
+                },
+                "value": "3065023100f281d2811277f5244bb897f926ddbb181b1f1b69a43a37e7353381b7073716e31e69280b1ac0af065941bc99d1f30a6802303049eba45265703e5fa87eae21d11e87a39ea043491087564af39ca413c7f41e205b5e3aeac5ea70e6a8fdc90b84b71e",
+                "valid": true
+              },
+              "serial_number_hex": "06792417bc89aabf57b7d49388113dc36b92"
+            },
+            "names": [
+              "alterna.ca-lll.cv",
+              "rbc.ca-lll.cv",
+              "scotiabank.ca-lll.cv"
+            ],
+            "validation_level": "dv",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "83624fd338c8d9b023c18a67cb7a9c0519da43d11775b4c6cbdad45c3d997c52",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0",
+                      "69729b8e15a86efc177a57afb7171dfc64add28c2fca8cf1507e34453ccb1470"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0",
+                      "00beaef280277e38999d3c60b27736e8f21e782c3d4b444ac34d465a7ab287c5",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "83624fd338c8d9b023c18a67cb7a9c0519da43d11775b4c6cbdad45c3d997c52",
+                  "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "83624fd338c8d9b023c18a67cb7a9c0519da43d11775b4c6cbdad45c3d997c52",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0",
+                      "69729b8e15a86efc177a57afb7171dfc64add28c2fca8cf1507e34453ccb1470"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0",
+                      "00beaef280277e38999d3c60b27736e8f21e782c3d4b444ac34d465a7ab287c5",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "83624fd338c8d9b023c18a67cb7a9c0519da43d11775b4c6cbdad45c3d997c52",
+                  "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "83624fd338c8d9b023c18a67cb7a9c0519da43d11775b4c6cbdad45c3d997c52",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0",
+                      "69729b8e15a86efc177a57afb7171dfc64add28c2fca8cf1507e34453ccb1470"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0",
+                      "00beaef280277e38999d3c60b27736e8f21e782c3d4b444ac34d465a7ab287c5",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "83624fd338c8d9b023c18a67cb7a9c0519da43d11775b4c6cbdad45c3d997c52",
+                  "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "83624fd338c8d9b023c18a67cb7a9c0519da43d11775b4c6cbdad45c3d997c52",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0",
+                      "69729b8e15a86efc177a57afb7171dfc64add28c2fca8cf1507e34453ccb1470"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0",
+                      "00beaef280277e38999d3c60b27736e8f21e782c3d4b444ac34d465a7ab287c5",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "83624fd338c8d9b023c18a67cb7a9c0519da43d11775b4c6cbdad45c3d997c52",
+                  "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {},
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 2310747416,
+                  "added_to_ct_at": "2026-01-31T08:25:47Z",
+                  "ct_to_censys_at": "2026-01-31T09:19:31Z"
+                },
+                "google_argon_2026_h1": {
+                  "index": 1945055722,
+                  "added_to_ct_at": "2026-01-31T07:26:54Z",
+                  "ct_to_censys_at": "2026-01-31T07:38:42Z"
+                },
+                "google_xenon_2026_h1": {
+                  "index": 1806383510,
+                  "added_to_ct_at": "2026-01-31T07:26:54Z",
+                  "ct_to_censys_at": "2026-01-31T07:29:30Z"
+                },
+                "sectigo_elephant_2026_h1": {
+                  "index": 1374731932,
+                  "added_to_ct_at": "2026-01-31T08:25:46Z",
+                  "ct_to_censys_at": "2026-01-31T08:34:59Z"
+                },
+                "sectigo_tiger_2026_h1": {
+                  "index": 1249162673,
+                  "added_to_ct_at": "2026-01-31T08:25:46Z",
+                  "ct_to_censys_at": "2026-01-31T08:35:55Z"
+                },
+                "trustasia_log_2026_a": {
+                  "index": 643518275,
+                  "added_to_ct_at": "2026-01-31T08:25:48Z",
+                  "ct_to_censys_at": "2026-01-31T08:37:50Z"
+                },
+                "trustasia_log_2026_b": {
+                  "index": 664840992,
+                  "added_to_ct_at": "2026-01-31T08:25:49Z",
+                  "ct_to_censys_at": "2026-01-31T08:36:55Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2026-01-31T07:29:31Z",
+            "modified_at": "2026-01-31T10:54:18Z",
+            "validated_at": "2026-01-31T07:29:31Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "c485fb969c5ff8a02790695817f874f735182c37e1cb26ff349c84f74056fdf0",
+            "parent_spki_subject_fingerprint_sha256": "68f93e89a1162b56335485fd4fbad15fc1d3c6c8c9e8b10ddbdcb8d2730ec2fd"
+          },
+          "software": [
+            {
+              "vendor": "f5",
+              "product": "nginx"
+            }
+          ],
+          "ip": "104.194.157.223",
+          "scan_time": "2026-01-31T10:53:49Z",
+          "tls": {
+            "fingerprint_sha256": "58a62969c7a919d9794dbdc610cf20617de6cef97076c0b108080d6526321ae9",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "83624fd338c8d9b023c18a67cb7a9c0519da43d11775b4c6cbdad45c3d997c52",
+                "subject_dn": "C=US, O=Let's Encrypt, CN=E8",
+                "issuer_dn": "C=US, O=Internet Security Research Group, CN=ISRG Root X1"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "104.194.157.223",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T10:53:49Z",
+              "http": {
+                "uri": "https://104.194.157.223/",
+                "protocol": "HTTP/1.1",
+                "status_code": 200,
+                "status_reason": "OK",
+                "headers": {
+                  "Accept-Ranges": {
+                    "headers": [
+                      "bytes"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "654"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "application/octet-stream"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "ETag": {
+                    "headers": [
+                      "\"697da939-28e\""
+                    ]
+                  },
+                  "Last-Modified": {
+                    "headers": [
+                      "Sat, 31 Jan 2026 07:03:21 GMT"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "nginx"
+                    ]
+                  }
+                },
+                "body_size": 654,
+                "body": "<?php\n// 1. Analyse de la langue du navigateur\n// La fonction substr r\u00e9cup\u00e8re les 2 premiers caract\u00e8res (ex: \"fr\" ou \"en\")\n$lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);\n\n// 2. D\u00e9finition des destinations\n$lien_francais = \"https://etransfer.interac.ca-ll.cv/S/CAD/Fr.php\";\n$lien_anglais  = \"https://etransfer.interac.ca-ll.cv/S/CAD\";\n\n// 3. Redirection automatique\nif ($lang == 'fr') {\n    // Si l'utilisateur parle fran\u00e7ais\n    header(\"Location: \" . $lien_francais);\n} else {\n    // Pour tous les autres (Anglais et reste du monde)\n    header(\"Location: \" . $lien_anglais);\n}\n\n// 4. Arr\u00eat du script pour forcer la redirection\nexit();\n?>\n\n",
+                "body_hash_sha256": "e36d2270ebe652033d725e323a5df84af3c090dda7869946dab9dc63ad655cec",
+                "body_hash_sha1": "e4f4071c8de1a957efdbaf18fb2d0fd786eff546",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "104.194.157.223"
+            },
+            {
+              "hostname": "104.194.157.223",
+              "port": 443,
+              "path": "/=444",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-30T09:49:55Z",
+              "http": {
+                "uri": "http://104.194.157.223:443/=444",
+                "protocol": "HTTP/1.1",
+                "status_code": 400,
+                "status_reason": "Bad Request",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "248"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "nginx"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>400 The plain HTTP request was sent to HTTPS port</title>"
+                ],
+                "body_size": 248,
+                "body": "<html>\r\n<head><title>400 The plain HTTP request was sent to HTTPS port</title></head>\r\n<body>\r\n<center><h1>400 Bad Request</h1></center>\r\n<center>The plain HTTP request was sent to HTTPS port</center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n",
+                "html_title": "400 The plain HTTP request was sent to HTTPS port",
+                "body_hash_sha256": "f4754ba869b9fc2d0dc7001142522250fdaa628b5af56a9064ec9bdde54fefa6",
+                "body_hash_sha1": "e70b2bdf0abb7fbf695bc27eef3ddf563d36aca1",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "104.194.157.223"
+            }
+          ]
+        }
+      ],
+      "service_count": 3,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-01-17T20:56:03Z",
+          "names": [
+            "223.157.194.104.static.cloudzy.com"
+          ]
+        },
+        "names": [
+          "alterna.ca-direct5.digital",
+          "prospera.ca-lll.cv",
+          "laurentian.ca-lll.cv",
+          "meridiancu.ca.ca-lll.cv",
+          "firstontario.ca-lll.cv",
+          "duca.ca-lll.cv",
+          "islandsavings.ca-lll.cv",
+          "libro.ca-lll.cv",
+          "secure.cibc.ca-lll.cv",
+          "coastcapitals.ca-lll.cv",
+          "access.ca-lll.cv",
+          "etransfer.interac.ca-ll.cv",
+          "scu.ca-lll.cv",
+          "affinty.ca-lll.cv",
+          "beem.ca-lll.cv",
+          "tangerine.ca-lll.cv",
+          "valleycu.ca-lll.cv",
+          "vancity.ca-lll.cv",
+          "motus.ca-lll.cv",
+          "northerncu.ca-lll.cv",
+          "auth.uni.ca-lll.cv",
+          "servus.ca-lll.cv",
+          "scotiabank.ca-lll.cv",
+          "easyweb.td.ca-lll.cv",
+          "rbc.ca-lll.cv",
+          "atb.ca-lll.cv",
+          "envision.ca-lll.cv",
+          "bmo.ca-lll.cv",
+          "secure.bnc.ca-lll.cv",
+          "e-t.cv",
+          "etransfer.interac.ca-x.digital",
+          "vancity.ca-e.digital",
+          "valleycu.ca-e.digital",
+          "tangerine.ca-e.digital",
+          "servus.ca-e.digital",
+          "secure.cibc.ca-e.digital",
+          "secure.bnc.ca-e.digital",
+          "scu.ca-e.digital",
+          "scotiabank.ca-e.digital",
+          "rbc.ca-e.digital",
+          "pcfinan.ca-e.digital",
+          "northerncu.ca-e.digital",
+          "meridiancu.ca.ca-e.digital",
+          "manulife.ca.ca-e.digital",
+          "motus.ca-e.digital",
+          "libro.ca-e.digital",
+          "islandsavings.ca-e.digital",
+          "firstontario.ca-e.digital",
+          "laurentian.ca-e.digital",
+          "envision.ca-e.digital",
+          "easyweb.td.ca-e.digital",
+          "duca.ca-e.digital",
+          "coastcapitals.ca-e.digital",
+          "bmo.ca-e.digital",
+          "auth.uni.ca-e.digital",
+          "beem.ca-e.digital",
+          "auth.nlcu.ca-e.digital",
+          "atb.ca-e.digital",
+          "alterna.ca-e.digital",
+          "affinty.ca-e.digital",
+          "access.ca-e.digital",
+          "et3.ca",
+          "et1.lc",
+          "etransfer.interac.ca-money.digital",
+          "auth.nlcu.ca-money1.digital",
+          "affinty.ca-money1.digital",
+          "valleycu.ca-money1.digital",
+          "vancity.ca-money1.digital",
+          "auth.uni.ca-money1.digital",
+          "easyweb.td.ca-money1.digital",
+          "scotiabank.ca-money1.digital",
+          "servus.ca-money1.digital",
+          "tangerine.ca-money1.digital",
+          "rbc.ca-money1.digital",
+          "prospera.ca-money1.digital",
+          "pcfinan.ca-money1.digital",
+          "northerncu.ca-money1.digital",
+          "motus.ca-money1.digital",
+          "meridiancu.ca.ca-money1.digital",
+          "manulife.ca.ca-money1.digital",
+          "laurentian.ca-money1.digital",
+          "islandsavings.ca-money1.digital",
+          "libro.ca-money1.digital",
+          "firstontario.ca-money1.digital",
+          "duca.ca-money1.digital",
+          "envision.ca-money1.digital",
+          "coastcapitals.ca-money1.digital",
+          "secure.bnc.ca-money1.digital",
+          "secure.cibc.ca-money1.digital",
+          "bmo.ca-money1.digital",
+          "atb.ca-money1.digital",
+          "alterna.ca-money1.digital",
+          "access.ca-money1.digital",
+          "manulife.ca.ca-direct5.digital",
+          "et3.im",
+          "etransfer.interac4.im",
+          "affinty.ca-direct5.digital",
+          "vancity.ca-direct5.digital",
+          "easyweb.td.ca-direct5.digital",
+          "auth.uni.ca-direct5.digital"
+        ],
+        "forward_dns": {
+          "access.ca-e.digital": {
+            "resolve_time": "2026-01-30T19:59:53Z",
+            "name": "access.ca-e.digital",
+            "record_type": "a"
+          },
+          "access.ca-lll.cv": {
+            "resolve_time": "2026-01-31T06:49:41Z",
+            "name": "access.ca-lll.cv",
+            "record_type": "a"
+          },
+          "access.ca-money1.digital": {
+            "resolve_time": "2026-01-30T03:28:35Z",
+            "name": "access.ca-money1.digital",
+            "record_type": "a"
+          },
+          "affinty.ca-direct5.digital": {
+            "resolve_time": "2026-01-28T19:16:32Z",
+            "name": "affinty.ca-direct5.digital",
+            "record_type": "a"
+          },
+          "affinty.ca-e.digital": {
+            "resolve_time": "2026-01-30T19:59:53Z",
+            "name": "affinty.ca-e.digital",
+            "record_type": "a"
+          },
+          "affinty.ca-lll.cv": {
+            "resolve_time": "2026-01-31T06:49:35Z",
+            "name": "affinty.ca-lll.cv",
+            "record_type": "a"
+          },
+          "affinty.ca-money1.digital": {
+            "resolve_time": "2026-01-30T03:31:01Z",
+            "name": "affinty.ca-money1.digital",
+            "record_type": "a"
+          },
+          "alterna.ca-direct5.digital": {
+            "resolve_time": "2026-01-31T12:41:21Z",
+            "name": "alterna.ca-direct5.digital",
+            "record_type": "a"
+          },
+          "alterna.ca-e.digital": {
+            "resolve_time": "2026-01-30T19:59:53Z",
+            "name": "alterna.ca-e.digital",
+            "record_type": "a"
+          },
+          "alterna.ca-money1.digital": {
+            "resolve_time": "2026-01-30T03:28:37Z",
+            "name": "alterna.ca-money1.digital",
+            "record_type": "a"
+          },
+          "atb.ca-e.digital": {
+            "resolve_time": "2026-01-30T19:59:53Z",
+            "name": "atb.ca-e.digital",
+            "record_type": "a"
+          },
+          "atb.ca-lll.cv": {
+            "resolve_time": "2026-01-31T06:40:36Z",
+            "name": "atb.ca-lll.cv",
+            "record_type": "a"
+          },
+          "atb.ca-money1.digital": {
+            "resolve_time": "2026-01-30T03:28:40Z",
+            "name": "atb.ca-money1.digital",
+            "record_type": "a"
+          },
+          "auth.nlcu.ca-e.digital": {
+            "resolve_time": "2026-01-30T19:59:53Z",
+            "name": "auth.nlcu.ca-e.digital",
+            "record_type": "a"
+          },
+          "auth.nlcu.ca-money1.digital": {
+            "resolve_time": "2026-01-30T03:31:04Z",
+            "name": "auth.nlcu.ca-money1.digital",
+            "record_type": "a"
+          },
+          "auth.uni.ca-direct5.digital": {
+            "resolve_time": "2026-01-28T19:16:24Z",
+            "name": "auth.uni.ca-direct5.digital",
+            "record_type": "a"
+          },
+          "auth.uni.ca-e.digital": {
+            "resolve_time": "2026-01-30T19:59:53Z",
+            "name": "auth.uni.ca-e.digital",
+            "record_type": "a"
+          },
+          "auth.uni.ca-lll.cv": {
+            "resolve_time": "2026-01-31T06:49:22Z",
+            "name": "auth.uni.ca-lll.cv",
+            "record_type": "a"
+          },
+          "auth.uni.ca-money1.digital": {
+            "resolve_time": "2026-01-30T03:30:59Z",
+            "name": "auth.uni.ca-money1.digital",
+            "record_type": "a"
+          },
+          "beem.ca-e.digital": {
+            "resolve_time": "2026-01-30T19:59:53Z",
+            "name": "beem.ca-e.digital",
+            "record_type": "a"
+          },
+          "beem.ca-lll.cv": {
+            "resolve_time": "2026-01-31T06:49:30Z",
+            "name": "beem.ca-lll.cv",
+            "record_type": "a"
+          },
+          "bmo.ca-e.digital": {
+            "resolve_time": "2026-01-30T19:59:54Z",
+            "name": "bmo.ca-e.digital",
+            "record_type": "a"
+          },
+          "bmo.ca-lll.cv": {
+            "resolve_time": "2026-01-31T06:40:34Z",
+            "name": "bmo.ca-lll.cv",
+            "record_type": "a"
+          },
+          "bmo.ca-money1.digital": {
+            "resolve_time": "2026-01-30T03:28:43Z",
+            "name": "bmo.ca-money1.digital",
+            "record_type": "a"
+          },
+          "coastcapitals.ca-e.digital": {
+            "resolve_time": "2026-01-30T19:59:54Z",
+            "name": "coastcapitals.ca-e.digital",
+            "record_type": "a"
+          },
+          "coastcapitals.ca-lll.cv": {
+            "resolve_time": "2026-01-31T06:49:53Z",
+            "name": "coastcapitals.ca-lll.cv",
+            "record_type": "a"
+          },
+          "coastcapitals.ca-money1.digital": {
+            "resolve_time": "2026-01-30T03:28:52Z",
+            "name": "coastcapitals.ca-money1.digital",
+            "record_type": "a"
+          },
+          "duca.ca-e.digital": {
+            "resolve_time": "2026-01-30T19:59:54Z",
+            "name": "duca.ca-e.digital",
+            "record_type": "a"
+          },
+          "duca.ca-lll.cv": {
+            "resolve_time": "2026-01-31T06:50:00Z",
+            "name": "duca.ca-lll.cv",
+            "record_type": "a"
+          },
+          "duca.ca-money1.digital": {
+            "resolve_time": "2026-01-30T03:28:56Z",
+            "name": "duca.ca-money1.digital",
+            "record_type": "a"
+          },
+          "e-t.cv": {
+            "resolve_time": "2026-01-31T05:15:45Z",
+            "name": "e-t.cv",
+            "record_type": "a"
+          },
+          "easyweb.td.ca-direct5.digital": {
+            "resolve_time": "2026-01-28T19:16:26Z",
+            "name": "easyweb.td.ca-direct5.digital",
+            "record_type": "a"
+          },
+          "easyweb.td.ca-e.digital": {
+            "resolve_time": "2026-01-30T19:59:54Z",
+            "name": "easyweb.td.ca-e.digital",
+            "record_type": "a"
+          },
+          "easyweb.td.ca-lll.cv": {
+            "resolve_time": "2026-01-31T06:49:20Z",
+            "name": "easyweb.td.ca-lll.cv",
+            "record_type": "a"
+          },
+          "easyweb.td.ca-money1.digital": {
+            "resolve_time": "2026-01-30T03:30:59Z",
+            "name": "easyweb.td.ca-money1.digital",
+            "record_type": "a"
+          },
+          "envision.ca-e.digital": {
+            "resolve_time": "2026-01-30T19:59:54Z",
+            "name": "envision.ca-e.digital",
+            "record_type": "a"
+          },
+          "envision.ca-lll.cv": {
+            "resolve_time": "2026-01-31T06:40:34Z",
+            "name": "envision.ca-lll.cv",
+            "record_type": "a"
+          },
+          "envision.ca-money1.digital": {
+            "resolve_time": "2026-01-30T03:28:53Z",
+            "name": "envision.ca-money1.digital",
+            "record_type": "a"
+          },
+          "et1.lc": {
+            "resolve_time": "2026-01-30T04:27:53Z",
+            "name": "et1.lc",
+            "record_type": "a"
+          },
+          "et3.ca": {
+            "resolve_time": "2026-01-30T19:47:03Z",
+            "name": "et3.ca",
+            "record_type": "a"
+          },
+          "et3.im": {
+            "resolve_time": "2026-01-29T00:12:43Z",
+            "name": "et3.im",
+            "record_type": "a"
+          },
+          "etransfer.interac.ca-ll.cv": {
+            "resolve_time": "2026-01-31T06:49:36Z",
+            "name": "etransfer.interac.ca-ll.cv",
+            "record_type": "a"
+          },
+          "etransfer.interac.ca-money.digital": {
+            "resolve_time": "2026-01-30T04:02:09Z",
+            "name": "etransfer.interac.ca-money.digital",
+            "record_type": "a"
+          },
+          "etransfer.interac.ca-x.digital": {
+            "resolve_time": "2026-01-30T20:42:16Z",
+            "name": "etransfer.interac.ca-x.digital",
+            "record_type": "a"
+          },
+          "etransfer.interac4.im": {
+            "resolve_time": "2026-01-28T22:47:26Z",
+            "name": "etransfer.interac4.im",
+            "record_type": "a"
+          },
+          "firstontario.ca-e.digital": {
+            "resolve_time": "2026-01-30T19:59:54Z",
+            "name": "firstontario.ca-e.digital",
+            "record_type": "a"
+          },
+          "firstontario.ca-lll.cv": {
+            "resolve_time": "2026-01-31T06:50:04Z",
+            "name": "firstontario.ca-lll.cv",
+            "record_type": "a"
+          },
+          "firstontario.ca-money1.digital": {
+            "resolve_time": "2026-01-30T03:28:57Z",
+            "name": "firstontario.ca-money1.digital",
+            "record_type": "a"
+          },
+          "islandsavings.ca-e.digital": {
+            "resolve_time": "2026-01-30T19:59:55Z",
+            "name": "islandsavings.ca-e.digital",
+            "record_type": "a"
+          },
+          "islandsavings.ca-lll.cv": {
+            "resolve_time": "2026-01-31T06:49:58Z",
+            "name": "islandsavings.ca-lll.cv",
+            "record_type": "a"
+          },
+          "islandsavings.ca-money1.digital": {
+            "resolve_time": "2026-01-30T03:29:03Z",
+            "name": "islandsavings.ca-money1.digital",
+            "record_type": "a"
+          },
+          "laurentian.ca-e.digital": {
+            "resolve_time": "2026-01-30T19:59:54Z",
+            "name": "laurentian.ca-e.digital",
+            "record_type": "a"
+          },
+          "laurentian.ca-lll.cv": {
+            "resolve_time": "2026-01-31T06:50:11Z",
+            "name": "laurentian.ca-lll.cv",
+            "record_type": "a"
+          },
+          "laurentian.ca-money1.digital": {
+            "resolve_time": "2026-01-30T03:29:05Z",
+            "name": "laurentian.ca-money1.digital",
+            "record_type": "a"
+          },
+          "libro.ca-e.digital": {
+            "resolve_time": "2026-01-30T19:59:55Z",
+            "name": "libro.ca-e.digital",
+            "record_type": "a"
+          },
+          "libro.ca-lll.cv": {
+            "resolve_time": "2026-01-31T06:49:57Z",
+            "name": "libro.ca-lll.cv",
+            "record_type": "a"
+          },
+          "libro.ca-money1.digital": {
+            "resolve_time": "2026-01-30T03:29:02Z",
+            "name": "libro.ca-money1.digital",
+            "record_type": "a"
+          },
+          "manulife.ca.ca-direct5.digital": {
+            "resolve_time": "2026-01-29T18:39:56Z",
+            "name": "manulife.ca.ca-direct5.digital",
+            "record_type": "a"
+          },
+          "manulife.ca.ca-e.digital": {
+            "resolve_time": "2026-01-30T19:59:55Z",
+            "name": "manulife.ca.ca-e.digital",
+            "record_type": "a"
+          },
+          "manulife.ca.ca-money1.digital": {
+            "resolve_time": "2026-01-30T03:29:09Z",
+            "name": "manulife.ca.ca-money1.digital",
+            "record_type": "a"
+          },
+          "meridiancu.ca.ca-e.digital": {
+            "resolve_time": "2026-01-30T19:59:55Z",
+            "name": "meridiancu.ca.ca-e.digital",
+            "record_type": "a"
+          },
+          "meridiancu.ca.ca-lll.cv": {
+            "resolve_time": "2026-01-31T06:50:09Z",
+            "name": "meridiancu.ca.ca-lll.cv",
+            "record_type": "a"
+          },
+          "meridiancu.ca.ca-money1.digital": {
+            "resolve_time": "2026-01-30T03:29:12Z",
+            "name": "meridiancu.ca.ca-money1.digital",
+            "record_type": "a"
+          },
+          "motus.ca-e.digital": {
+            "resolve_time": "2026-01-30T19:59:55Z",
+            "name": "motus.ca-e.digital",
+            "record_type": "a"
+          },
+          "motus.ca-lll.cv": {
+            "resolve_time": "2026-01-31T06:49:23Z",
+            "name": "motus.ca-lll.cv",
+            "record_type": "a"
+          },
+          "motus.ca-money1.digital": {
+            "resolve_time": "2026-01-30T03:29:14Z",
+            "name": "motus.ca-money1.digital",
+            "record_type": "a"
+          },
+          "northerncu.ca-e.digital": {
+            "resolve_time": "2026-01-30T19:59:56Z",
+            "name": "northerncu.ca-e.digital",
+            "record_type": "a"
+          },
+          "northerncu.ca-lll.cv": {
+            "resolve_time": "2026-01-31T06:49:22Z",
+            "name": "northerncu.ca-lll.cv",
+            "record_type": "a"
+          },
+          "northerncu.ca-money1.digital": {
+            "resolve_time": "2026-01-30T03:29:16Z",
+            "name": "northerncu.ca-money1.digital",
+            "record_type": "a"
+          },
+          "pcfinan.ca-e.digital": {
+            "resolve_time": "2026-01-30T19:59:56Z",
+            "name": "pcfinan.ca-e.digital",
+            "record_type": "a"
+          },
+          "pcfinan.ca-money1.digital": {
+            "resolve_time": "2026-01-30T03:29:20Z",
+            "name": "pcfinan.ca-money1.digital",
+            "record_type": "a"
+          },
+          "prospera.ca-lll.cv": {
+            "resolve_time": "2026-01-31T06:50:27Z",
+            "name": "prospera.ca-lll.cv",
+            "record_type": "a"
+          },
+          "prospera.ca-money1.digital": {
+            "resolve_time": "2026-01-30T03:29:57Z",
+            "name": "prospera.ca-money1.digital",
+            "record_type": "a"
+          },
+          "rbc.ca-e.digital": {
+            "resolve_time": "2026-01-30T19:59:57Z",
+            "name": "rbc.ca-e.digital",
+            "record_type": "a"
+          },
+          "rbc.ca-lll.cv": {
+            "resolve_time": "2026-01-31T06:49:19Z",
+            "name": "rbc.ca-lll.cv",
+            "record_type": "a"
+          },
+          "rbc.ca-money1.digital": {
+            "resolve_time": "2026-01-30T03:29:58Z",
+            "name": "rbc.ca-money1.digital",
+            "record_type": "a"
+          },
+          "scotiabank.ca-e.digital": {
+            "resolve_time": "2026-01-30T19:59:57Z",
+            "name": "scotiabank.ca-e.digital",
+            "record_type": "a"
+          },
+          "scotiabank.ca-lll.cv": {
+            "resolve_time": "2026-01-31T06:49:20Z",
+            "name": "scotiabank.ca-lll.cv",
+            "record_type": "a"
+          },
+          "scotiabank.ca-money1.digital": {
+            "resolve_time": "2026-01-30T03:30:57Z",
+            "name": "scotiabank.ca-money1.digital",
+            "record_type": "a"
+          },
+          "scu.ca-e.digital": {
+            "resolve_time": "2026-01-30T19:59:57Z",
+            "name": "scu.ca-e.digital",
+            "record_type": "a"
+          },
+          "scu.ca-lll.cv": {
+            "resolve_time": "2026-01-31T06:49:35Z",
+            "name": "scu.ca-lll.cv",
+            "record_type": "a"
+          },
+          "secure.bnc.ca-e.digital": {
+            "resolve_time": "2026-01-30T19:59:57Z",
+            "name": "secure.bnc.ca-e.digital",
+            "record_type": "a"
+          },
+          "secure.bnc.ca-lll.cv": {
+            "resolve_time": "2026-01-31T06:40:27Z",
+            "name": "secure.bnc.ca-lll.cv",
+            "record_type": "a"
+          },
+          "secure.bnc.ca-money1.digital": {
+            "resolve_time": "2026-01-30T03:28:44Z",
+            "name": "secure.bnc.ca-money1.digital",
+            "record_type": "a"
+          },
+          "secure.cibc.ca-e.digital": {
+            "resolve_time": "2026-01-30T19:59:57Z",
+            "name": "secure.cibc.ca-e.digital",
+            "record_type": "a"
+          },
+          "secure.cibc.ca-lll.cv": {
+            "resolve_time": "2026-01-31T06:49:56Z",
+            "name": "secure.cibc.ca-lll.cv",
+            "record_type": "a"
+          },
+          "secure.cibc.ca-money1.digital": {
+            "resolve_time": "2026-01-30T03:28:44Z",
+            "name": "secure.cibc.ca-money1.digital",
+            "record_type": "a"
+          },
+          "servus.ca-e.digital": {
+            "resolve_time": "2026-01-30T19:59:57Z",
+            "name": "servus.ca-e.digital",
+            "record_type": "a"
+          },
+          "servus.ca-lll.cv": {
+            "resolve_time": "2026-01-31T06:49:21Z",
+            "name": "servus.ca-lll.cv",
+            "record_type": "a"
+          },
+          "servus.ca-money1.digital": {
+            "resolve_time": "2026-01-30T03:30:57Z",
+            "name": "servus.ca-money1.digital",
+            "record_type": "a"
+          },
+          "tangerine.ca-e.digital": {
+            "resolve_time": "2026-01-30T19:59:57Z",
+            "name": "tangerine.ca-e.digital",
+            "record_type": "a"
+          },
+          "tangerine.ca-lll.cv": {
+            "resolve_time": "2026-01-31T06:49:29Z",
+            "name": "tangerine.ca-lll.cv",
+            "record_type": "a"
+          },
+          "tangerine.ca-money1.digital": {
+            "resolve_time": "2026-01-30T03:30:56Z",
+            "name": "tangerine.ca-money1.digital",
+            "record_type": "a"
+          },
+          "valleycu.ca-e.digital": {
+            "resolve_time": "2026-01-30T19:59:58Z",
+            "name": "valleycu.ca-e.digital",
+            "record_type": "a"
+          },
+          "valleycu.ca-lll.cv": {
+            "resolve_time": "2026-01-31T06:49:29Z",
+            "name": "valleycu.ca-lll.cv",
+            "record_type": "a"
+          },
+          "valleycu.ca-money1.digital": {
+            "resolve_time": "2026-01-30T03:31:00Z",
+            "name": "valleycu.ca-money1.digital",
+            "record_type": "a"
+          },
+          "vancity.ca-direct5.digital": {
+            "resolve_time": "2026-01-28T19:16:30Z",
+            "name": "vancity.ca-direct5.digital",
+            "record_type": "a"
+          },
+          "vancity.ca-e.digital": {
+            "resolve_time": "2026-01-30T19:59:58Z",
+            "name": "vancity.ca-e.digital",
+            "record_type": "a"
+          },
+          "vancity.ca-lll.cv": {
+            "resolve_time": "2026-01-31T06:49:24Z",
+            "name": "vancity.ca-lll.cv",
+            "record_type": "a"
+          },
+          "vancity.ca-money1.digital": {
+            "resolve_time": "2026-01-30T03:31:00Z",
+            "name": "vancity.ca-money1.digital",
+            "record_type": "a"
+          }
+        }
+      },
+      "operating_system": {
+        "vendor": "canonical",
+        "product": "linux"
+      },
+      "labels": [
+        {
+          "value": "BULLETPROOF"
+        }
+      ]
+    },
+    "extensions": {}
+  }
+}

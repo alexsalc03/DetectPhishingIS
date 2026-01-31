@@ -1,0 +1,793 @@
+{
+  "result": {
+    "resource": {
+      "ip": "43.162.115.222",
+      "location": {
+        "continent": "North America",
+        "country": "United States",
+        "country_code": "US",
+        "city": "Santa Clara",
+        "postal_code": "95050",
+        "timezone": "America/Los_Angeles",
+        "province": "California",
+        "coordinates": {
+          "latitude": 37.35411,
+          "longitude": -121.95524
+        }
+      },
+      "autonomous_system": {
+        "asn": 132203,
+        "description": "TENCENT-NET-AP-CN Tencent Building, Kejizhongyi Avenue",
+        "bgp_prefix": "43.162.112.0/20",
+        "name": "TENCENT-NET-AP-CN Tencent Building, Kejizhongyi Avenue",
+        "country_code": "CN"
+      },
+      "whois": {
+        "network": {
+          "handle": "ACEVILLEPTELTD-SG",
+          "name": "6 COLLYER QUAY",
+          "cidrs": [
+            "43.162.0.0/17"
+          ],
+          "updated": "2022-07-06T00:00:00Z"
+        }
+      },
+      "services": [
+        {
+          "port": 22,
+          "protocol": "SSH",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "type": [
+                "REMOTE_ACCESS"
+              ]
+            },
+            {
+              "vendor": "openbsd",
+              "product": "openssh"
+            }
+          ],
+          "operating_systems": [
+            {
+              "vendor": "canonical",
+              "product": "linux"
+            }
+          ],
+          "labels": [
+            {
+              "value": "REMOTE_ACCESS"
+            }
+          ],
+          "ip": "43.162.115.222",
+          "scan_time": "2026-01-31T02:30:54Z",
+          "ssh": {
+            "endpoint_id": {
+              "raw": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13",
+              "protocol_version": "2.0",
+              "software_version": "OpenSSH_8.9p1",
+              "comment": "Ubuntu-3ubuntu0.13"
+            },
+            "kex_init_message": {
+              "kex_algorithms": [
+                "curve25519-sha256",
+                "curve25519-sha256@libssh.org",
+                "ecdh-sha2-nistp256",
+                "ecdh-sha2-nistp384",
+                "ecdh-sha2-nistp521",
+                "sntrup761x25519-sha512@openssh.com",
+                "diffie-hellman-group-exchange-sha256",
+                "diffie-hellman-group16-sha512",
+                "diffie-hellman-group18-sha512",
+                "diffie-hellman-group14-sha256",
+                "kex-strict-s-v00@openssh.com"
+              ],
+              "host_key_algorithms": [
+                "rsa-sha2-512",
+                "rsa-sha2-256",
+                "ecdsa-sha2-nistp256",
+                "ssh-ed25519"
+              ],
+              "client_to_server_ciphers": [
+                "chacha20-poly1305@openssh.com",
+                "aes128-ctr",
+                "aes192-ctr",
+                "aes256-ctr",
+                "aes128-gcm@openssh.com",
+                "aes256-gcm@openssh.com"
+              ],
+              "server_to_client_ciphers": [
+                "chacha20-poly1305@openssh.com",
+                "aes128-ctr",
+                "aes192-ctr",
+                "aes256-ctr",
+                "aes128-gcm@openssh.com",
+                "aes256-gcm@openssh.com"
+              ],
+              "client_to_server_macs": [
+                "umac-64-etm@openssh.com",
+                "umac-128-etm@openssh.com",
+                "hmac-sha2-256-etm@openssh.com",
+                "hmac-sha2-512-etm@openssh.com",
+                "hmac-sha1-etm@openssh.com",
+                "umac-64@openssh.com",
+                "umac-128@openssh.com",
+                "hmac-sha2-256",
+                "hmac-sha2-512",
+                "hmac-sha1"
+              ],
+              "server_to_client_macs": [
+                "umac-64-etm@openssh.com",
+                "umac-128-etm@openssh.com",
+                "hmac-sha2-256-etm@openssh.com",
+                "hmac-sha2-512-etm@openssh.com",
+                "hmac-sha1-etm@openssh.com",
+                "umac-64@openssh.com",
+                "umac-128@openssh.com",
+                "hmac-sha2-256",
+                "hmac-sha2-512",
+                "hmac-sha1"
+              ],
+              "client_to_server_compression": [
+                "none",
+                "zlib@openssh.com"
+              ],
+              "server_to_client_compression": [
+                "none",
+                "zlib@openssh.com"
+              ]
+            },
+            "algorithm_selection": {
+              "kex_algorithm": "curve25519-sha256@libssh.org",
+              "host_key_algorithm": "ecdsa-sha2-nistp256",
+              "client_to_server_alg_group": {
+                "cipher": "aes128-ctr",
+                "mac": "hmac-sha2-256",
+                "compression": "none"
+              },
+              "server_to_client_alg_group": {
+                "cipher": "aes128-ctr",
+                "mac": "hmac-sha2-256",
+                "compression": "none"
+              }
+            },
+            "server_host_key": {
+              "fingerprint_sha256": "f11ce70320052c4e0f84da2e63616b51ba58830edc9e10f5f6348847057f8a86",
+              "ecdsa_public_key": {
+                "b": "WsY12Ko6k+ez671VdpiGvGUdBrDMU7D2O848PifSYEs=",
+                "curve": "P-256",
+                "gx": "axfR8uEsQkf4vOblY6RA8ncDfYEt6zOg9KE5RdiYwpY=",
+                "gy": "T+NC4v4af5uO5+tKfA+eFivOM1drMV7Oy7ZAaDe/UfU=",
+                "length": 256,
+                "n": "/////wAAAAD//////////7zm+q2nF56E87nKwvxjJVE=",
+                "p": "/////wAAAAEAAAAAAAAAAAAAAAD///////////////8=",
+                "x": "57SnvEiKOz/2f6gE1b/LEXOES//fF7kIQITkmWAWm6Y=",
+                "y": "1mIdLIO/8e+/TAgWT5HgxyT2/ZJIt5HoH/NvTIUOZ/Q="
+              }
+            },
+            "hassh_fingerprint": "41ff3ecd1458b0bf86e1b4891636213e"
+          }
+        },
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "ip": "43.162.115.222",
+          "scan_time": "2026-01-31T15:48:04Z",
+          "endpoints": [
+            {
+              "hostname": "43.162.115.222",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T15:48:04Z",
+              "http": {
+                "uri": "http://43.162.115.222/",
+                "protocol": "HTTP/1.1",
+                "status_code": 404,
+                "status_reason": "Not Found",
+                "headers": {
+                  "Content-Language": {
+                    "headers": [
+                      "zh"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "0"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  }
+                },
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "43.162.115.222"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "ip": "43.162.115.222",
+          "scan_time": "2026-01-31T08:10:32Z",
+          "endpoints": [
+            {
+              "hostname": "43.162.115.222",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T08:10:32Z",
+              "http": {
+                "uri": "http://43.162.115.222:443/",
+                "protocol": "HTTP/1.0",
+                "status_code": 400,
+                "status_reason": "Bad Request",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  }
+                },
+                "body_size": 48,
+                "body": "Client sent an HTTP request to an HTTPS server.\n",
+                "body_hash_sha256": "7a1fabf227903297428f36da3b3547d91e308a992063271e8fe1a4f1e1e6cd26",
+                "body_hash_sha1": "d56b41edced83968087065f2e8edf65e592ebadc",
+                "supported_versions": [
+                  "HTTP/1.0"
+                ]
+              },
+              "ip": "43.162.115.222"
+            }
+          ]
+        }
+      ],
+      "service_count": 3,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-01-28T01:15:51Z"
+        },
+        "names": [
+          "fidelityworkplacebz.one",
+          "fidelityworkplacex.one",
+          "fidelitysafetyaf.one",
+          "fidelityworkplaceab.one",
+          "fidelityworkplacead.one",
+          "fidelitysafetyac.one",
+          "fidelityworkplacey.one",
+          "fidelitysafetyab.one",
+          "fidelitysafetyu.one",
+          "fidelityworkplacew.one",
+          "fidelityworkplaceac.one",
+          "fidelitysafetyr.one",
+          "fidelityworkplaceaf.one",
+          "fidelitysafetyt.one",
+          "fidelityworkplaceae.one",
+          "fidelitysafetyae.one",
+          "fidelityworkplaceaa.one",
+          "fidelitysafetyad.one",
+          "fidelityworkplacez.one",
+          "fidelitysafetyaa.one",
+          "fidelityworkplaceaj.one",
+          "fidelityworkplaceag.one",
+          "fidelityworkplaceah.one",
+          "fidelitysafetyag.one",
+          "fidelityworkplaceai.one",
+          "fidelitysafetyaj.one",
+          "fidelityworkplaceak.one",
+          "fidelitysafetyai.one",
+          "fidelityworkplacean.one",
+          "fidelityworkplaceal.one",
+          "fidelitysafetyao.one",
+          "fidelitysafetyan.one",
+          "fidelityworkplaceay.one",
+          "fidelityworkplaceat.one",
+          "fidelityworkplaceao.one",
+          "fidelityworkplaceax.one",
+          "fidelityworkplaceas.one",
+          "fidelitysafetyap.one",
+          "fidelityworkplaceap.one",
+          "fidelityworkplaceam.one",
+          "fidelitysafetyal.one",
+          "fidelitysafetyam.one",
+          "fidelitysafetyabz.one",
+          "fidelitysafetyabv.one",
+          "fidelitysafetyar.one",
+          "fidelitysafetyabw.one",
+          "fidelitysafetyas.one",
+          "fidelitysafetyat.one",
+          "fidelityworkplaceau.one",
+          "fidelityworkplaceaz.one",
+          "fidelityworkplaceav.one",
+          "fidelityworkplaceaq.one",
+          "fidelityworkplacear.one",
+          "fidelitysafetyau.one",
+          "fidelitysafetyabx.one",
+          "fidelitysafetyaby.one",
+          "fidelitysafetyaq.one",
+          "fidelityworkplaceh.one",
+          "fidelityworkplacee.one",
+          "fidelityworkplacef.one",
+          "fidelityworkplaceg.one",
+          "fidelitysafetybx.one",
+          "fidelitysafetybz.one",
+          "fidelitysafetybv.one",
+          "fidelitysafetym.one",
+          "fidelitysafetyn.one",
+          "fidelitysafetyk.one",
+          "fidelitysafetyg.one",
+          "fidelitysafetyh.one",
+          "fldelitysafetya.cyou",
+          "fla-delity.icu",
+          "f1d-elity-com-us.cyou",
+          "fldelityworkplacea.bond",
+          "fldelitysafetya.bond",
+          "f1d-elity-com-us.shop",
+          "fidelitysafetyf.one",
+          "fidelitysafetya.cc",
+          "fidelitysafetye.one",
+          "fidelityworkplacea.top",
+          "fidelityworkplacea.cfd",
+          "fidelityworkplacec.cfd",
+          "fidelityworkplaceb.cfd",
+          "fidelityworkplacee.cfd",
+          "fidelitysafetyb.one",
+          "fidelitysafetyd.one",
+          "fidelitysafetya.one",
+          "fidelitysafetyc.one"
+        ],
+        "forward_dns": {
+          "f1d-elity-com-us.cyou": {
+            "resolve_time": "2026-01-29T16:22:18Z",
+            "name": "f1d-elity-com-us.cyou",
+            "record_type": "a"
+          },
+          "f1d-elity-com-us.shop": {
+            "resolve_time": "2026-01-29T15:53:04Z",
+            "name": "f1d-elity-com-us.shop",
+            "record_type": "a"
+          },
+          "fidelitysafetya.cc": {
+            "resolve_time": "2026-01-29T13:35:39Z",
+            "name": "fidelitysafetya.cc",
+            "record_type": "a"
+          },
+          "fidelitysafetya.one": {
+            "resolve_time": "2026-01-23T14:56:44Z",
+            "name": "fidelitysafetya.one",
+            "record_type": "a"
+          },
+          "fidelitysafetyaa.one": {
+            "resolve_time": "2026-01-30T16:46:44Z",
+            "name": "fidelitysafetyaa.one",
+            "record_type": "a"
+          },
+          "fidelitysafetyab.one": {
+            "resolve_time": "2026-01-30T16:59:34Z",
+            "name": "fidelitysafetyab.one",
+            "record_type": "a"
+          },
+          "fidelitysafetyabv.one": {
+            "resolve_time": "2026-01-30T15:00:16Z",
+            "name": "fidelitysafetyabv.one",
+            "record_type": "a"
+          },
+          "fidelitysafetyabw.one": {
+            "resolve_time": "2026-01-30T14:57:48Z",
+            "name": "fidelitysafetyabw.one",
+            "record_type": "a"
+          },
+          "fidelitysafetyabx.one": {
+            "resolve_time": "2026-01-30T14:38:41Z",
+            "name": "fidelitysafetyabx.one",
+            "record_type": "a"
+          },
+          "fidelitysafetyaby.one": {
+            "resolve_time": "2026-01-30T14:38:40Z",
+            "name": "fidelitysafetyaby.one",
+            "record_type": "a"
+          },
+          "fidelitysafetyabz.one": {
+            "resolve_time": "2026-01-30T15:00:22Z",
+            "name": "fidelitysafetyabz.one",
+            "record_type": "a"
+          },
+          "fidelitysafetyac.one": {
+            "resolve_time": "2026-01-30T17:20:13Z",
+            "name": "fidelitysafetyac.one",
+            "record_type": "a"
+          },
+          "fidelitysafetyad.one": {
+            "resolve_time": "2026-01-30T16:46:45Z",
+            "name": "fidelitysafetyad.one",
+            "record_type": "a"
+          },
+          "fidelitysafetyae.one": {
+            "resolve_time": "2026-01-30T16:46:45Z",
+            "name": "fidelitysafetyae.one",
+            "record_type": "a"
+          },
+          "fidelitysafetyaf.one": {
+            "resolve_time": "2026-01-30T17:22:05Z",
+            "name": "fidelitysafetyaf.one",
+            "record_type": "a"
+          },
+          "fidelitysafetyag.one": {
+            "resolve_time": "2026-01-30T16:25:56Z",
+            "name": "fidelitysafetyag.one",
+            "record_type": "a"
+          },
+          "fidelitysafetyai.one": {
+            "resolve_time": "2026-01-30T16:25:26Z",
+            "name": "fidelitysafetyai.one",
+            "record_type": "a"
+          },
+          "fidelitysafetyaj.one": {
+            "resolve_time": "2026-01-30T16:25:29Z",
+            "name": "fidelitysafetyaj.one",
+            "record_type": "a"
+          },
+          "fidelitysafetyal.one": {
+            "resolve_time": "2026-01-30T15:22:14Z",
+            "name": "fidelitysafetyal.one",
+            "record_type": "a"
+          },
+          "fidelitysafetyam.one": {
+            "resolve_time": "2026-01-30T15:22:13Z",
+            "name": "fidelitysafetyam.one",
+            "record_type": "a"
+          },
+          "fidelitysafetyan.one": {
+            "resolve_time": "2026-01-30T15:57:14Z",
+            "name": "fidelitysafetyan.one",
+            "record_type": "a"
+          },
+          "fidelitysafetyao.one": {
+            "resolve_time": "2026-01-30T16:04:18Z",
+            "name": "fidelitysafetyao.one",
+            "record_type": "a"
+          },
+          "fidelitysafetyap.one": {
+            "resolve_time": "2026-01-30T15:22:18Z",
+            "name": "fidelitysafetyap.one",
+            "record_type": "a"
+          },
+          "fidelitysafetyaq.one": {
+            "resolve_time": "2026-01-30T14:38:39Z",
+            "name": "fidelitysafetyaq.one",
+            "record_type": "a"
+          },
+          "fidelitysafetyar.one": {
+            "resolve_time": "2026-01-30T15:00:11Z",
+            "name": "fidelitysafetyar.one",
+            "record_type": "a"
+          },
+          "fidelitysafetyas.one": {
+            "resolve_time": "2026-01-30T14:39:43Z",
+            "name": "fidelitysafetyas.one",
+            "record_type": "a"
+          },
+          "fidelitysafetyat.one": {
+            "resolve_time": "2026-01-30T14:39:43Z",
+            "name": "fidelitysafetyat.one",
+            "record_type": "a"
+          },
+          "fidelitysafetyau.one": {
+            "resolve_time": "2026-01-30T14:38:42Z",
+            "name": "fidelitysafetyau.one",
+            "record_type": "a"
+          },
+          "fidelitysafetyb.one": {
+            "resolve_time": "2026-01-23T14:57:30Z",
+            "name": "fidelitysafetyb.one",
+            "record_type": "a"
+          },
+          "fidelitysafetybv.one": {
+            "resolve_time": "2026-01-29T18:21:20Z",
+            "name": "fidelitysafetybv.one",
+            "record_type": "a"
+          },
+          "fidelitysafetybx.one": {
+            "resolve_time": "2026-01-29T18:21:21Z",
+            "name": "fidelitysafetybx.one",
+            "record_type": "a"
+          },
+          "fidelitysafetybz.one": {
+            "resolve_time": "2026-01-29T18:21:21Z",
+            "name": "fidelitysafetybz.one",
+            "record_type": "a"
+          },
+          "fidelitysafetyc.one": {
+            "resolve_time": "2026-01-23T14:56:30Z",
+            "name": "fidelitysafetyc.one",
+            "record_type": "a"
+          },
+          "fidelitysafetyd.one": {
+            "resolve_time": "2026-01-23T14:57:28Z",
+            "name": "fidelitysafetyd.one",
+            "record_type": "a"
+          },
+          "fidelitysafetye.one": {
+            "resolve_time": "2026-01-26T16:16:27Z",
+            "name": "fidelitysafetye.one",
+            "record_type": "a"
+          },
+          "fidelitysafetyf.one": {
+            "resolve_time": "2026-01-29T13:48:13Z",
+            "name": "fidelitysafetyf.one",
+            "record_type": "a"
+          },
+          "fidelitysafetyg.one": {
+            "resolve_time": "2026-01-29T17:34:44Z",
+            "name": "fidelitysafetyg.one",
+            "record_type": "a"
+          },
+          "fidelitysafetyh.one": {
+            "resolve_time": "2026-01-29T17:34:44Z",
+            "name": "fidelitysafetyh.one",
+            "record_type": "a"
+          },
+          "fidelitysafetyk.one": {
+            "resolve_time": "2026-01-29T17:34:45Z",
+            "name": "fidelitysafetyk.one",
+            "record_type": "a"
+          },
+          "fidelitysafetym.one": {
+            "resolve_time": "2026-01-29T17:36:42Z",
+            "name": "fidelitysafetym.one",
+            "record_type": "a"
+          },
+          "fidelitysafetyn.one": {
+            "resolve_time": "2026-01-29T17:36:42Z",
+            "name": "fidelitysafetyn.one",
+            "record_type": "a"
+          },
+          "fidelitysafetyr.one": {
+            "resolve_time": "2026-01-30T16:47:08Z",
+            "name": "fidelitysafetyr.one",
+            "record_type": "a"
+          },
+          "fidelitysafetyt.one": {
+            "resolve_time": "2026-01-30T16:46:47Z",
+            "name": "fidelitysafetyt.one",
+            "record_type": "a"
+          },
+          "fidelitysafetyu.one": {
+            "resolve_time": "2026-01-30T16:52:42Z",
+            "name": "fidelitysafetyu.one",
+            "record_type": "a"
+          },
+          "fidelityworkplacea.cfd": {
+            "resolve_time": "2026-01-23T15:06:10Z",
+            "name": "fidelityworkplacea.cfd",
+            "record_type": "a"
+          },
+          "fidelityworkplacea.top": {
+            "resolve_time": "2026-01-23T15:20:23Z",
+            "name": "fidelityworkplacea.top",
+            "record_type": "a"
+          },
+          "fidelityworkplaceaa.one": {
+            "resolve_time": "2026-01-30T16:46:45Z",
+            "name": "fidelityworkplaceaa.one",
+            "record_type": "a"
+          },
+          "fidelityworkplaceab.one": {
+            "resolve_time": "2026-01-30T17:22:05Z",
+            "name": "fidelityworkplaceab.one",
+            "record_type": "a"
+          },
+          "fidelityworkplaceac.one": {
+            "resolve_time": "2026-01-30T16:48:52Z",
+            "name": "fidelityworkplaceac.one",
+            "record_type": "a"
+          },
+          "fidelityworkplacead.one": {
+            "resolve_time": "2026-01-30T17:21:42Z",
+            "name": "fidelityworkplacead.one",
+            "record_type": "a"
+          },
+          "fidelityworkplaceae.one": {
+            "resolve_time": "2026-01-30T16:46:47Z",
+            "name": "fidelityworkplaceae.one",
+            "record_type": "a"
+          },
+          "fidelityworkplaceaf.one": {
+            "resolve_time": "2026-01-30T16:46:59Z",
+            "name": "fidelityworkplaceaf.one",
+            "record_type": "a"
+          },
+          "fidelityworkplaceag.one": {
+            "resolve_time": "2026-01-30T16:30:26Z",
+            "name": "fidelityworkplaceag.one",
+            "record_type": "a"
+          },
+          "fidelityworkplaceah.one": {
+            "resolve_time": "2026-01-30T16:30:21Z",
+            "name": "fidelityworkplaceah.one",
+            "record_type": "a"
+          },
+          "fidelityworkplaceai.one": {
+            "resolve_time": "2026-01-30T16:25:45Z",
+            "name": "fidelityworkplaceai.one",
+            "record_type": "a"
+          },
+          "fidelityworkplaceaj.one": {
+            "resolve_time": "2026-01-30T16:30:26Z",
+            "name": "fidelityworkplaceaj.one",
+            "record_type": "a"
+          },
+          "fidelityworkplaceak.one": {
+            "resolve_time": "2026-01-30T16:25:29Z",
+            "name": "fidelityworkplaceak.one",
+            "record_type": "a"
+          },
+          "fidelityworkplaceal.one": {
+            "resolve_time": "2026-01-30T16:04:26Z",
+            "name": "fidelityworkplaceal.one",
+            "record_type": "a"
+          },
+          "fidelityworkplaceam.one": {
+            "resolve_time": "2026-01-30T15:22:14Z",
+            "name": "fidelityworkplaceam.one",
+            "record_type": "a"
+          },
+          "fidelityworkplacean.one": {
+            "resolve_time": "2026-01-30T16:04:32Z",
+            "name": "fidelityworkplacean.one",
+            "record_type": "a"
+          },
+          "fidelityworkplaceao.one": {
+            "resolve_time": "2026-01-30T15:34:54Z",
+            "name": "fidelityworkplaceao.one",
+            "record_type": "a"
+          },
+          "fidelityworkplaceap.one": {
+            "resolve_time": "2026-01-30T15:22:16Z",
+            "name": "fidelityworkplaceap.one",
+            "record_type": "a"
+          },
+          "fidelityworkplaceaq.one": {
+            "resolve_time": "2026-01-30T14:38:43Z",
+            "name": "fidelityworkplaceaq.one",
+            "record_type": "a"
+          },
+          "fidelityworkplacear.one": {
+            "resolve_time": "2026-01-30T14:38:42Z",
+            "name": "fidelityworkplacear.one",
+            "record_type": "a"
+          },
+          "fidelityworkplaceas.one": {
+            "resolve_time": "2026-01-30T15:34:47Z",
+            "name": "fidelityworkplaceas.one",
+            "record_type": "a"
+          },
+          "fidelityworkplaceat.one": {
+            "resolve_time": "2026-01-30T15:34:56Z",
+            "name": "fidelityworkplaceat.one",
+            "record_type": "a"
+          },
+          "fidelityworkplaceau.one": {
+            "resolve_time": "2026-01-30T14:39:39Z",
+            "name": "fidelityworkplaceau.one",
+            "record_type": "a"
+          },
+          "fidelityworkplaceav.one": {
+            "resolve_time": "2026-01-30T14:39:38Z",
+            "name": "fidelityworkplaceav.one",
+            "record_type": "a"
+          },
+          "fidelityworkplaceax.one": {
+            "resolve_time": "2026-01-30T15:34:53Z",
+            "name": "fidelityworkplaceax.one",
+            "record_type": "a"
+          },
+          "fidelityworkplaceay.one": {
+            "resolve_time": "2026-01-30T15:41:57Z",
+            "name": "fidelityworkplaceay.one",
+            "record_type": "a"
+          },
+          "fidelityworkplaceaz.one": {
+            "resolve_time": "2026-01-30T14:39:38Z",
+            "name": "fidelityworkplaceaz.one",
+            "record_type": "a"
+          },
+          "fidelityworkplaceb.cfd": {
+            "resolve_time": "2026-01-23T15:04:20Z",
+            "name": "fidelityworkplaceb.cfd",
+            "record_type": "a"
+          },
+          "fidelityworkplacebz.one": {
+            "resolve_time": "2026-01-31T14:16:31Z",
+            "name": "fidelityworkplacebz.one",
+            "record_type": "a"
+          },
+          "fidelityworkplacec.cfd": {
+            "resolve_time": "2026-01-23T15:05:08Z",
+            "name": "fidelityworkplacec.cfd",
+            "record_type": "a"
+          },
+          "fidelityworkplacee.cfd": {
+            "resolve_time": "2026-01-23T15:03:42Z",
+            "name": "fidelityworkplacee.cfd",
+            "record_type": "a"
+          },
+          "fidelityworkplacee.one": {
+            "resolve_time": "2026-01-29T18:32:15Z",
+            "name": "fidelityworkplacee.one",
+            "record_type": "a"
+          },
+          "fidelityworkplacef.one": {
+            "resolve_time": "2026-01-29T18:32:02Z",
+            "name": "fidelityworkplacef.one",
+            "record_type": "a"
+          },
+          "fidelityworkplaceg.one": {
+            "resolve_time": "2026-01-29T18:32:01Z",
+            "name": "fidelityworkplaceg.one",
+            "record_type": "a"
+          },
+          "fidelityworkplaceh.one": {
+            "resolve_time": "2026-01-29T18:32:20Z",
+            "name": "fidelityworkplaceh.one",
+            "record_type": "a"
+          },
+          "fidelityworkplacew.one": {
+            "resolve_time": "2026-01-30T16:52:36Z",
+            "name": "fidelityworkplacew.one",
+            "record_type": "a"
+          },
+          "fidelityworkplacex.one": {
+            "resolve_time": "2026-01-30T17:22:26Z",
+            "name": "fidelityworkplacex.one",
+            "record_type": "a"
+          },
+          "fidelityworkplacey.one": {
+            "resolve_time": "2026-01-30T17:00:42Z",
+            "name": "fidelityworkplacey.one",
+            "record_type": "a"
+          },
+          "fidelityworkplacez.one": {
+            "resolve_time": "2026-01-30T16:46:44Z",
+            "name": "fidelityworkplacez.one",
+            "record_type": "a"
+          },
+          "fla-delity.icu": {
+            "resolve_time": "2026-01-29T16:22:18Z",
+            "name": "fla-delity.icu",
+            "record_type": "a"
+          },
+          "fldelitysafetya.bond": {
+            "resolve_time": "2026-01-29T15:53:05Z",
+            "name": "fldelitysafetya.bond",
+            "record_type": "a"
+          },
+          "fldelitysafetya.cyou": {
+            "resolve_time": "2026-01-29T16:22:21Z",
+            "name": "fldelitysafetya.cyou",
+            "record_type": "a"
+          },
+          "fldelityworkplacea.bond": {
+            "resolve_time": "2026-01-29T15:53:07Z",
+            "name": "fldelityworkplacea.bond",
+            "record_type": "a"
+          }
+        }
+      },
+      "operating_system": {
+        "vendor": "canonical",
+        "product": "linux"
+      }
+    },
+    "extensions": {}
+  }
+}

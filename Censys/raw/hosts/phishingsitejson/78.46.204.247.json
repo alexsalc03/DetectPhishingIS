@@ -1,0 +1,882 @@
+{
+  "result": {
+    "resource": {
+      "ip": "78.46.204.247",
+      "location": {
+        "continent": "Europe",
+        "country": "Germany",
+        "country_code": "DE",
+        "city": "Falkenstein",
+        "postal_code": "08520",
+        "timezone": "Europe/Berlin",
+        "province": "Saxony",
+        "coordinates": {
+          "latitude": 50.47788,
+          "longitude": 12.37129
+        }
+      },
+      "autonomous_system": {
+        "asn": 24940,
+        "description": "HETZNER-AS",
+        "bgp_prefix": "78.46.0.0/15",
+        "name": "HETZNER-AS",
+        "country_code": "DE"
+      },
+      "whois": {
+        "network": {
+          "handle": "CLOUD-FSN1",
+          "name": "Hetzner Online GmbH",
+          "cidrs": [
+            "78.46.204.240/29"
+          ],
+          "created": "2018-03-15T00:00:00Z",
+          "updated": "2023-12-12T00:00:00Z"
+        },
+        "organization": {
+          "handle": "ORG-HOA1-RIPE",
+          "name": "Hetzner Online GmbH",
+          "address": "Industriestrasse 25\\nD-91710\\nGunzenhausen\\nGERMANY",
+          "abuse_contacts": [
+            {
+              "handle": "HOAC1-RIPE",
+              "name": "Hetzner Online GmbH - Contact Role",
+              "email": "ripe@hetzner.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "GM834-RIPE",
+              "name": "Guenther Mueller",
+              "email": "info@hetzner.de"
+            },
+            {
+              "handle": "HOAC1-RIPE",
+              "name": "Hetzner Online GmbH - Contact Role",
+              "email": "ripe@hetzner.com"
+            },
+            {
+              "handle": "MF1400-RIPE",
+              "name": "Martin Fritzsche",
+              "email": "martin.fritzsche@hetzner.com"
+            },
+            {
+              "handle": "MH375-RIPE",
+              "name": "Martin Hetzner",
+              "email": "info@hetzner.de"
+            },
+            {
+              "handle": "SK2374-RIPE",
+              "name": "Stephan Konvickova",
+              "email": "stephan.konvickova@hetzner.de"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 22,
+          "protocol": "SSH",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "type": [
+                "REMOTE_ACCESS"
+              ]
+            },
+            {
+              "vendor": "openbsd",
+              "product": "openssh"
+            }
+          ],
+          "operating_systems": [
+            {
+              "vendor": "freebsd",
+              "product": "freebsd"
+            }
+          ],
+          "labels": [
+            {
+              "value": "REMOTE_ACCESS"
+            }
+          ],
+          "ip": "78.46.204.247",
+          "scan_time": "2026-01-31T09:14:31Z",
+          "ssh": {
+            "endpoint_id": {
+              "raw": "SSH-2.0-OpenSSH_9.9 FreeBSD-20250219",
+              "protocol_version": "2.0",
+              "software_version": "OpenSSH_9.9",
+              "comment": "FreeBSD-20250219"
+            },
+            "kex_init_message": {
+              "kex_algorithms": [
+                "sntrup761x25519-sha512",
+                "sntrup761x25519-sha512@openssh.com",
+                "mlkem768x25519-sha256",
+                "curve25519-sha256",
+                "curve25519-sha256@libssh.org",
+                "ecdh-sha2-nistp256",
+                "ecdh-sha2-nistp384",
+                "ecdh-sha2-nistp521",
+                "diffie-hellman-group-exchange-sha256",
+                "diffie-hellman-group16-sha512",
+                "diffie-hellman-group18-sha512",
+                "diffie-hellman-group14-sha256",
+                "ext-info-s",
+                "kex-strict-s-v00@openssh.com"
+              ],
+              "host_key_algorithms": [
+                "rsa-sha2-512",
+                "rsa-sha2-256",
+                "ecdsa-sha2-nistp256",
+                "ssh-ed25519"
+              ],
+              "client_to_server_ciphers": [
+                "chacha20-poly1305@openssh.com",
+                "aes128-ctr",
+                "aes192-ctr",
+                "aes256-ctr",
+                "aes128-gcm@openssh.com",
+                "aes256-gcm@openssh.com"
+              ],
+              "server_to_client_ciphers": [
+                "chacha20-poly1305@openssh.com",
+                "aes128-ctr",
+                "aes192-ctr",
+                "aes256-ctr",
+                "aes128-gcm@openssh.com",
+                "aes256-gcm@openssh.com"
+              ],
+              "client_to_server_macs": [
+                "umac-64-etm@openssh.com",
+                "umac-128-etm@openssh.com",
+                "hmac-sha2-256-etm@openssh.com",
+                "hmac-sha2-512-etm@openssh.com",
+                "hmac-sha1-etm@openssh.com",
+                "umac-64@openssh.com",
+                "umac-128@openssh.com",
+                "hmac-sha2-256",
+                "hmac-sha2-512",
+                "hmac-sha1"
+              ],
+              "server_to_client_macs": [
+                "umac-64-etm@openssh.com",
+                "umac-128-etm@openssh.com",
+                "hmac-sha2-256-etm@openssh.com",
+                "hmac-sha2-512-etm@openssh.com",
+                "hmac-sha1-etm@openssh.com",
+                "umac-64@openssh.com",
+                "umac-128@openssh.com",
+                "hmac-sha2-256",
+                "hmac-sha2-512",
+                "hmac-sha1"
+              ],
+              "client_to_server_compression": [
+                "none",
+                "zlib@openssh.com"
+              ],
+              "server_to_client_compression": [
+                "none",
+                "zlib@openssh.com"
+              ]
+            },
+            "algorithm_selection": {
+              "kex_algorithm": "curve25519-sha256@libssh.org",
+              "host_key_algorithm": "ecdsa-sha2-nistp256",
+              "client_to_server_alg_group": {
+                "cipher": "aes128-ctr",
+                "mac": "hmac-sha2-256",
+                "compression": "none"
+              },
+              "server_to_client_alg_group": {
+                "cipher": "aes128-ctr",
+                "mac": "hmac-sha2-256",
+                "compression": "none"
+              }
+            },
+            "server_host_key": {
+              "fingerprint_sha256": "3fe5f74d1a8887ae33cbd91e488636f84a96aa7f9251823506a261915d4ae945",
+              "ecdsa_public_key": {
+                "b": "WsY12Ko6k+ez671VdpiGvGUdBrDMU7D2O848PifSYEs=",
+                "curve": "P-256",
+                "gx": "axfR8uEsQkf4vOblY6RA8ncDfYEt6zOg9KE5RdiYwpY=",
+                "gy": "T+NC4v4af5uO5+tKfA+eFivOM1drMV7Oy7ZAaDe/UfU=",
+                "length": 256,
+                "n": "/////wAAAAD//////////7zm+q2nF56E87nKwvxjJVE=",
+                "p": "/////wAAAAEAAAAAAAAAAAAAAAD///////////////8=",
+                "x": "0SK1oDaRzXGcLKECyG2JbzS59H6kogdnsy6IQ5Ip9/w=",
+                "y": "wvu9px6r3fJ0P0UellAQxzc5d9Tex3UWnPj4MFlkuHE="
+              }
+            },
+            "hassh_fingerprint": "bbd3df916ddc675cc91c127ab1a90657"
+          }
+        },
+        {
+          "port": 25,
+          "protocol": "SMTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "sendmail",
+              "product": "sendmail"
+            }
+          ],
+          "ip": "78.46.204.247",
+          "scan_time": "2026-01-31T14:13:33Z",
+          "smtp": {
+            "ehlo": "250-shay.nono.io Hello 223.125.142.162.censys-scanner.com [162.142.125.223], pleased to meet you\r\n250 ENHANCEDSTATUSCODES\r\n",
+            "start_tls": "554 5.7.1 Rejected 162.142.125.223 found in cbl.abuseat.org\r\n"
+          }
+        },
+        {
+          "port": 53,
+          "protocol": "DNS",
+          "transport_protocol": "udp",
+          "software": [
+            {
+              "vendor": "isc",
+              "product": "bind"
+            }
+          ],
+          "ip": "78.46.204.247",
+          "scan_time": "2026-01-31T11:46:15Z",
+          "dns": {
+            "version": "9.18.39",
+            "server_type": "authoritative",
+            "r_code": "refused"
+          }
+        },
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "f5",
+              "product": "nginx"
+            }
+          ],
+          "ip": "78.46.204.247",
+          "scan_time": "2026-01-31T15:57:30Z",
+          "endpoints": [
+            {
+              "hostname": "78.46.204.247",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T15:57:30Z",
+              "http": {
+                "uri": "http://78.46.204.247/",
+                "protocol": "HTTP/1.1",
+                "status_code": 301,
+                "status_reason": "Moved Permanently",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Location": {
+                    "headers": [
+                      "https://nono.io/"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "nginx/1.28.0"
+                    ]
+                  },
+                  "Transfer-Encoding": {
+                    "headers": [
+                      "chunked"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>301 Moved Permanently</title>"
+                ],
+                "body_size": 169,
+                "body": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently</h1></center>\r\n<hr><center>nginx/1.28.0</center>\r\n</body>\r\n</html>\r\n",
+                "html_title": "301 Moved Permanently",
+                "body_hash_sha256": "30d532cd5a93f41cb200ef5626294aefd452ece4fc268387777e12ec617a290e",
+                "body_hash_sha1": "65f1d3dcbd247e121f25916efe090556e685ac50",
+                "supported_versions": [
+                  "HTTP/1.1",
+                  "HTTP/2"
+                ]
+              },
+              "ip": "78.46.204.247"
+            }
+          ]
+        },
+        {
+          "port": 123,
+          "protocol": "NTP",
+          "transport_protocol": "udp",
+          "ip": "78.46.204.247",
+          "scan_time": "2026-01-31T07:46:48Z",
+          "ntp": {
+            "get_time_header": {
+              "version": 3,
+              "mode": 4,
+              "stratum": 2,
+              "poll": 3,
+              "precision": -17,
+              "reference_id": "8d2083f6"
+            }
+          }
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "11de43ddb1a144263afc204982d0da55deaaadd4ff7820271acbe69ad9704e6d",
+            "fingerprint_sha1": "3968784ec05e7564042c85d0a06316125f56be65",
+            "fingerprint_md5": "2179b9f94ca59741bc0be5b965dba8e3",
+            "tbs_fingerprint_sha256": "fda4e37590ccdc5486b1f910f7b6ddbb5f578e48f28c86bf13c1b894c3d4ee73",
+            "tbs_no_ct_fingerprint_sha256": "d1f16519063ce110b6700fca556d163f49843e14a434a0e5b2c7f800f20b1730",
+            "spki_fingerprint_sha256": "719941f47830cc9c53932d7e6ac62af201f514e7e82edb3ac43f7220eb45066b",
+            "parent_spki_fingerprint_sha256": "68f93e89a1162b56335485fd4fbad15fc1d3c6c8c9e8b10ddbdcb8d2730ec2fd",
+            "parsed": {
+              "version": 3,
+              "serial_number": "563138224725914341495553299831470798990876",
+              "issuer_dn": "C=US, O=Let's Encrypt, CN=E8",
+              "issuer": {
+                "common_name": [
+                  "E8"
+                ],
+                "country": [
+                  "US"
+                ],
+                "organization": [
+                  "Let's Encrypt"
+                ]
+              },
+              "subject_dn": "CN=nono.io",
+              "subject": {
+                "common_name": [
+                  "nono.io"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "ECDSA",
+                  "oid": "1.2.840.10045.2.1"
+                },
+                "ecdsa": {
+                  "b": "5ac635d8aa3a93e7b3ebbd55769886bc651d06b0cc53b0f63bce3c3e27d2604b",
+                  "curve": "P-256",
+                  "gx": "6b17d1f2e12c4247f8bce6e563a440f277037d812deb33a0f4a13945d898c296",
+                  "gy": "4fe342e2fe1a7f9b8ee7eb4a7c0f9e162bce33576b315ececbb6406837bf51f5",
+                  "length": 256,
+                  "n": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+                  "p": "ffffffff00000001000000000000000000000000ffffffffffffffffffffffff",
+                  "pub": "04c057a6f2cc6ff035ea564da981c44d31d47b1e3cc759d7da82841c269539b82677415560ce2d382d8ea7637865cc2d0ee03c46676cf34c501d5959602520f990",
+                  "x": "c057a6f2cc6ff035ea564da981c44d31d47b1e3cc759d7da82841c269539b826",
+                  "y": "77415560ce2d382d8ea7637865cc2d0ee03c46676cf34c501d5959602520f990"
+                },
+                "fingerprint_sha256": "4322602dc041e51d65d9fa9dfc635d6e9b6a799d10497f9b3b98314b1b638cf4"
+              },
+              "validity_period": {
+                "not_before": "2025-12-21T00:28:19Z",
+                "not_after": "2026-03-21T00:28:18Z",
+                "length_seconds": 7776000
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "ECDSA-SHA384",
+                  "oid": "1.2.840.10045.4.3.3"
+                },
+                "value": "3065023100abb97291a931d862ac2cbb097916cf6cf8286605f13f7e7ffeb04bdcb1d1c47a4978d35c1ca47c19028bf69cb60904e3023053859450ae64b4f7fb8ae0a9d1114926d58f4626116e0ef31fa84f44682dc091040210414968ce2060d61ce8be1ad089",
+                "valid": true
+              },
+              "serial_number_hex": "0676ea1cfb9d69ec4f2b4562201368d8ee1c"
+            },
+            "names": [
+              "2a01-4f8-c17-b8f--2.sslip.io",
+              "78-46-204-247.sslip.io",
+              "blabbertabber.com",
+              "brian-old.cunnie.com",
+              "brian.cunnie.com",
+              "cunnie.com",
+              "ipv4.nono.io",
+              "ipv6.nono.io",
+              "meet.cunnie.com",
+              "nip.io",
+              "nono.io",
+              "sslip.io",
+              "www-78-46-204-247.sslip.io",
+              "www.nono.io"
+            ],
+            "validation_level": "dv",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "83624fd338c8d9b023c18a67cb7a9c0519da43d11775b4c6cbdad45c3d997c52",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0",
+                      "69729b8e15a86efc177a57afb7171dfc64add28c2fca8cf1507e34453ccb1470"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0",
+                      "00beaef280277e38999d3c60b27736e8f21e782c3d4b444ac34d465a7ab287c5",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "83624fd338c8d9b023c18a67cb7a9c0519da43d11775b4c6cbdad45c3d997c52",
+                  "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "83624fd338c8d9b023c18a67cb7a9c0519da43d11775b4c6cbdad45c3d997c52",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0",
+                      "69729b8e15a86efc177a57afb7171dfc64add28c2fca8cf1507e34453ccb1470"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0",
+                      "00beaef280277e38999d3c60b27736e8f21e782c3d4b444ac34d465a7ab287c5",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "83624fd338c8d9b023c18a67cb7a9c0519da43d11775b4c6cbdad45c3d997c52",
+                  "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "83624fd338c8d9b023c18a67cb7a9c0519da43d11775b4c6cbdad45c3d997c52",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0",
+                      "69729b8e15a86efc177a57afb7171dfc64add28c2fca8cf1507e34453ccb1470"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0",
+                      "00beaef280277e38999d3c60b27736e8f21e782c3d4b444ac34d465a7ab287c5",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "83624fd338c8d9b023c18a67cb7a9c0519da43d11775b4c6cbdad45c3d997c52",
+                  "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "83624fd338c8d9b023c18a67cb7a9c0519da43d11775b4c6cbdad45c3d997c52",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0",
+                      "69729b8e15a86efc177a57afb7171dfc64add28c2fca8cf1507e34453ccb1470"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0",
+                      "00beaef280277e38999d3c60b27736e8f21e782c3d4b444ac34d465a7ab287c5",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "83624fd338c8d9b023c18a67cb7a9c0519da43d11775b4c6cbdad45c3d997c52",
+                  "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {},
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 1613908665,
+                  "added_to_ct_at": "2025-12-21T01:28:54Z",
+                  "ct_to_censys_at": "2025-12-21T02:00:14Z"
+                },
+                "google_argon_2026_h1": {
+                  "index": 1414703792,
+                  "added_to_ct_at": "2025-12-21T01:26:50Z",
+                  "ct_to_censys_at": "2025-12-21T01:36:19Z"
+                },
+                "google_xenon_2026_h1": {
+                  "index": 1344610798,
+                  "added_to_ct_at": "2025-12-21T01:26:50Z",
+                  "ct_to_censys_at": "2025-12-21T01:35:12Z"
+                },
+                "sectigo_elephant_2026_h1": {
+                  "index": 915721167,
+                  "added_to_ct_at": "2025-12-21T01:28:54Z",
+                  "ct_to_censys_at": "2025-12-21T01:37:15Z"
+                },
+                "sectigo_tiger_2026_h1": {
+                  "index": 805772449,
+                  "added_to_ct_at": "2025-12-21T01:28:54Z",
+                  "ct_to_censys_at": "2025-12-21T01:36:13Z"
+                },
+                "trustasia_log_2026_a": {
+                  "index": 338184272,
+                  "added_to_ct_at": "2025-12-21T03:01:13Z",
+                  "ct_to_censys_at": "2025-12-21T06:52:18Z"
+                },
+                "trustasia_log_2026_b": {
+                  "index": 349448918,
+                  "added_to_ct_at": "2025-12-21T03:01:17Z",
+                  "ct_to_censys_at": "2025-12-21T18:08:35Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2025-12-21T01:35:13Z",
+            "modified_at": "2025-12-21T18:08:41Z",
+            "validated_at": "2026-01-31T00:14:55Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "719941f47830cc9c53932d7e6ac62af201f514e7e82edb3ac43f7220eb45066b",
+            "parent_spki_subject_fingerprint_sha256": "68f93e89a1162b56335485fd4fbad15fc1d3c6c8c9e8b10ddbdcb8d2730ec2fd"
+          },
+          "software": [
+            {
+              "vendor": "f5",
+              "product": "nginx"
+            }
+          ],
+          "ip": "78.46.204.247",
+          "scan_time": "2026-01-31T14:47:24Z",
+          "tls": {
+            "fingerprint_sha256": "11de43ddb1a144263afc204982d0da55deaaadd4ff7820271acbe69ad9704e6d",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "83624fd338c8d9b023c18a67cb7a9c0519da43d11775b4c6cbdad45c3d997c52",
+                "subject_dn": "C=US, O=Let's Encrypt, CN=E8",
+                "issuer_dn": "C=US, O=Internet Security Research Group, CN=ISRG Root X1"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "78.46.204.247",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T13:10:54Z",
+              "http": {
+                "uri": "https://78.46.204.247/",
+                "protocol": "HTTP/1.1",
+                "status_code": 200,
+                "status_reason": "OK",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "nginx/1.28.0"
+                    ]
+                  },
+                  "Transfer-Encoding": {
+                    "headers": [
+                      "chunked"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>nono.com / nono.io</title>",
+                  "<meta name=\"generator\" content=\"HTML Tidy for HTML5 for FreeBSD version 5.8.0\" />",
+                  "<meta charset=\"UTF-8\" />"
+                ],
+                "body_size": 24680,
+                "body": "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n  <meta name=\"generator\" content=\"HTML Tidy for HTML5 for FreeBSD version 5.8.0\" />\n  <meta charset=\"UTF-8\" />\n  <title>nono.com / nono.io</title>\n  <link href=\"persistent-style.css\" rel=\"stylesheet\" type=\"text/css\" />\n  <script type=\"module\" src=\"https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js\" async=\"async\"></script>\n</head>\n<body>\n  <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" summary=\"cool looks\">\n    <tr>\n      <td valign=\"top\">\n        <table style=\"border-spacing: 4px\" width=\"100%\">\n          <tr class=\"nono_menubar_table\">\n            <td>\n              &nbsp;&nbsp;<a href=\"/\"><b>home</b></a>&nbsp;&nbsp;&nbsp; <a href=\"/about.shtml\">about</a>\n            </td>\n            <td style=\"padding:0px\" width=\"1%\"><img src=\"/images/noble_party.jpg\" alt=\"Noble Party\" /></td>\n            <td style=\"text-align:right;\"><span id=\"ipv4\"></span><br />\n            <span id=\"ipv6\"></span></td>\n          </tr>\n        </table>\n      </td>\n    </tr>\n    <tr>\n      <td valign=\"top\">\n        <div class=\"nono_margin\">\n          <bsky-embed username=\"brian-cunnie.bsky.social\" limit=\"5\"></bsky-embed>\n          <!-- table for Nono News -->\n          <!-- table for black borders -->\n          <!-- table for white cells -->\n          <p><b>Deutschland \u00dcber Alles 5/9/2014</b> Nono.com is now hosted in Germany by <a href=\n          \"http://www.hetzner.de/en/\">Hetzner</a>, now on FreeBSD 9.1 and nginx.</p>\n          <p><b>Speed Tests 3/21/12</b> Quick comparison using \"time ssh-keygen -T moduli-1024 -f\n          moduli-1024.candidates\" with identical candidate files. Note that ssh-keygen is single-threaded, so multiple\n          cores don't help. Also, there may be slight differences related to compilers (OS X's llvm vs. FreeBSD's gcc)\n          &amp; architectures (32-bit vs. 64-bit):</p>\n          <div style=\"margin-left: 2em;\">\n            <table summary=\"CPU speeds\" class=\"simple_table\" style=\"td {text-align: right}\">\n              <col width=\"180\" />\n              <tr>\n                <th>CPU</th>\n                <th>OS</th>\n                <th>Time</th>\n                <th>Speed (relative to Geode)</th>\n              </tr>\n              <tr>\n                <th>AMD Geode 500MHz</th>\n                <td>FreeBSD 7.2 32-bit</td>\n                <td style=\"text-align: right\">1364.4</td>\n                <td style=\"text-align: right\">1</td>\n              </tr>\n              <tr>\n                <th>Intel Atom E6xx 1.6 Ghz</th>\n                <td>FreeBSD 9 64-bit</td>\n                <td style=\"text-align: right\">399.5</td>\n                <td style=\"text-align: right\">3.4</td>\n              </tr>\n              <tr>\n                <th>AMD GX-412TC 1 GHz quad-core Jaguar</th>\n                <td>FreeBSD 11.1 64-bit</td>\n                <td style=\"text-align: right\">104.2</td>\n                <td style=\"text-align: right\">13.1</td>\n              </tr>\n              <tr>\n                <th>Intel Core i5 2.5 GHz</th>\n                <td>Mac OS X 10.7.3</td>\n                <td style=\"text-align: right\">61.4</td>\n                <td style=\"text-align: right\">22.2</td>\n              </tr>\n            </table>\n          </div>\n          <p><b>Mac Mini Upgrades 3/18/12</b> Upgraded my mac mini to include a 2nd internal hard drive (1TB Samsung)\n          to go with the 240GB OWC SSD. The Mac Mini is now the <i>Mighty</i> Mac Mini.</p>\n          <p><b>Fire is the Cleanser 10/16/11</b> A reinstall is the ultimate cleanser for removing cruft from a\n          system, and that's what I did to my mac mini (last re-install had been earlier than '07) (I'm not counting\n          migrations as clean installs\u2014migrations usually bring the cruft along with everything else).</p>\n          <p>I also installed Boot Camp on my MacBook Air &amp; my mini\u2014SWTOR is coming out in December, and it only\n          runs on Windows.</p>\n          <p><b>Webserver Migration 10/9/11</b> I finally moved most of my websites (e.g. nono.com, cunnie.com,\n          brian.cunnie.com), to my new arpnetworks.com webserver. I'll shut down the old FC7 Godaddy server once I move\n          the final website (https://nono.com). The Arpnetworks server is 64-bit FreeBSD 8.2, and is quite the cutting\n          edge.</p>\n          <p><b>New printer 10/2/11</b> My old HP 2200, after ten years of faithful service, could no longer duplex. So\n          I got a new printer, and it rocks! HP 1536 dnf MFP for the win. It not only duplexes, but it scans &amp;\n          copies, too. And it's hella faster.</p>\n          <p><b>Wifi for the Building 3/6/11</b> Upgraded wifi for the building. Was using WDS, but since my two\n          routers are different chipsets (Broadcom &amp; Atheros), I switched to using a client-bridged configuration\n          with a VAP. A little lame, but I'll go back to using WDS once I get my second router.</p>\n          <p><b>Another router upgrade 7/14/08</b> (Bastille Day). I upgraded my router, again. I got tired of dd-wrt's\n          shortcomings (specifically, I couldn't do a tcpdump). Don't get me wrong: dd-wrt is pretty good. But it's not\n          the same as a full-blown FreeBSD 7.2 system running on a Soekris box with a 30GB HD. I love my new\n          router!</p>\n          <p><b>nono.com instead of www.nono.com 11/7/08</b> I tired of domain speculators emailing me to sell my\n          domain because I wasn't using it (apparently domain speculators no longer type in \"www.nono.com\" and instead\n          merely type \"nono.com\"), so I did some DNS and web changes, and now my URL for nono.com is http://nono.com.\n          The change, though sounding trivial, took a surprising amount of effort (e.g. I had to get &amp; install new\n          ssl certs; I had to relocate my subversione'd files to use the server svn.nono.com instead of nono.com (my\n          subversion server and my web server are two physically different machines)).</p>\n          <p><b>High Speed Home Access 8/22/08</b> I installed Comcast Cable Business Internet 15Mbps, and it's\n          changing my world. It's blazingly fast. Here's how the new cable Internet access compares to my old DSL\n          connection:</p>\n          <div style=\"margin-left: 2em;\">\n            <table summary=\"dsl speeds\" class=\"simple_table\" style=\"td {text-align: right}\">\n              <col width=\"180\" />\n              <tr>\n                <th>Mb/s</th>\n                <th>Download</th>\n                <th>Upload</th>\n              </tr>\n              <tr>\n                <th>Old (DSL)</th>\n                <td style=\"text-align: right\">2.912</td>\n                <td style=\"text-align: right\">.612</td>\n              </tr>\n              <tr>\n                <th>New (Cable)</th>\n                <td style=\"text-align: right\">17.735</td>\n                <td style=\"text-align: right\">2.692</td>\n              </tr>\n              <tr>\n                <th>Speed Factor</th>\n                <td style=\"text-align: right\">6.1</td>\n                <td style=\"text-align: right\">4.5</td>\n              </tr>\n            </table>\n          </div>\n          <p><b>Server Upgrade 8/16/08</b> I upgraded my main server from FreeBSD 6.2 to FreeBSD 6.3. I was feeling\n          anxious about the recently announced DNS-exploit.</p>\n          <p><b>Router Upgrade 8/09/08</b> I upgraded my router. I said goodbye to the old FreeBSD 4.3 handbuilt router\n          using ipf, and said hello to the new Linksys wrt54gl router using dd-wrt and iptables. <i>(Note: I am not\n          convinced that iptables has a more intuitive interface than ipf).</i></p>\n          <p><b>Move to new apartment 9/30/07</b> I moved to my new apartment in San Francisco. The DSL cutover went\n          smoothly, and once again I cannot say enough good things about my DSL vendor, Rawbandwidth\n          Communications.</p>\n          <p><b>Web site redesign 7/13/07</b> I've made major changes to the website: I got rid of the jpeg banner\n          across the top, and replaced it with a tasteful image from a handful of Gustave Dor\u00e9 images that I scanned\n          in. Reload this page several times, and you should see the image at the top change.</p>\n          <p>There were several things I wanted in the new redesign, and I'd like to think that I achieved most of\n          them. For one, I wanted an image at the top (all classy websites seem to have an image). But I didn't want an\n          image to take up too much space: A sweeping banner across the top was out of the question. My solution: An\n          image that was inserted in the menubar at the top.</p>\n          <p>I also wanted to show off my technical prowess, so I made the image change each time the web page was\n          reloaded. It wasn't too hard to do: an arrary of images in a PHP script. But it's still pretty cool.</p>\n          <p>I also wanted a consistent color scheme. In this case, black and white with shades of gray. There could be\n          improvement in this area, but don't underestimate the good looks of basic black. Also, it goes well with my\n          black and white images.</p>\n          <p>The favicon next to the site name has been re-done. It's black with a gray inside, echoing the same colors\n          as the menubar at the top of the page. It's not brilliant, but I'm pleased with the result. I also trimmed\n          several obsolete pages, and updated the text on the remaining ones (or, to be more specific, the remaining\n          two).</p>\n          <p>I also wanted to list the IP address of the person that was viewing the page. This was more for my benefit\n          than anyone else's: I sometimes need to know what IP address I'm coming from, and this is a very convenient\n          way to find it.</p>\n          <p>Whenever I undertake a re-design, I always ask myself at the end, \u201cwas it worth it?\u201d The answer is,\n          \u201cProbably not.\u201d The end result is never quite as grand as I pictured it in my mind's eye, and it always seems\n          to take more time than I anticipated. But I think there are greater forces at work. I'm about to undertake a\n          web project, and before I began I felt compelled to re-design my websites. It reminds me of my days at\n          school, when before I would study, I would clean my room. I suspect I did that for at least two reasons, the\n          first being a simple exercise of control: I can clean my room, therefore I can study for this exam. The\n          second reason was because it's much easier to study in a clean room\u2014I was not distracted by an errant sock on\n          the floor, or the sad state of my laundry, or the disorganized pile of CDs.</p>\n          <p><b>Web site redesign 7/7/07</b> I'm going to redesign (well, maybe \"tweak\" would be a more appropriate\n          description) the nono.com website, and, in the course of my research, I would like to take a moment to rant\n          about a serious shortcoming in most websites: the fixed-width problem.</p>\n          <p>Many websites are built to display at a fixed width. They display at the fixed width (usually 800 pixels)\n          and they leave the sides of the page empty. Apparently the thing to do is put some big swath of color on the\n          empty space to show that they're aware of the space, but they're going to waste it anyway. This is very\n          annoying to me: I didn't shell out a lot of money for a 1400x1050 display only to have the following websites\n          decide that I should only be able to use, say, 600x1050:</p>\n          <ul>\n            <li>\n              <a href=\"http://shop.elizabetharden.com/home/index.jsp\">Elizabeth Arden</a>. Yes, it's nice to look at\n              Catherine Zeta-Jones-Douglas, but I don't need to look at huge swaths of red on each side of the\n              screen\u2014why don't you do something with that empty space?\n            </li>\n            <li>\n              <a href=\"http://www.sfc.org.sg/main.html\">Singapore Film Commission</a>\n            </li>\n            <li>And the worst one of all, <a href=\"http://www.designinteract.com/\">Design Interact</a>\n            </li>\n          </ul>\n          <p>I have a beef with designinteract in particular. They choose a new \"site of the week\" website every week,\n          one that's ostensibly well-designed, and yet almost every one they choose has the fixed-width problem.\n          Furthermore, they seem to have a bias towards flash-based website. Now let me say this: flash is pretty cool,\n          and it definitely makes it possible to watch youtube videos, which makes it a necessity in my book, but I\n          find it annoying almost anyplace else. Most people travel to a website to find information, not to watch some\n          thirty-second flash commercial.</p>\n          <p>Now let's turn to some really popular websites: google, craigslist, nytimes, yahoo, youtube. Actually, now\n          that I actually look at those sites, I realize that they, too, have the fixed-width problem. But at least\n          they have made the width much, much wider than some of the lame sites previously mentioned. Also, they don't\n          try to force flash down your throat.</p>\n          <p><b>Nono.com has been shut down 6/17/07</b> I have finally shut down nono.com: There are four computers and\n          one router on my couch, once mighty Internet warriors, now lifeless husks designated to be sold on ebay. My\n          nineteen-inch rack, once my pride and joy, will find a second life at my friend's startup. My feelings are\n          mixed about shutting down everything: on one hand, it's very liberating\u2014I don't need to worry if my friends\n          are getting their emails. On the other hand, some of my identity was tied into nono.com, and by shutting down\n          everything, it feels like I'm losing a part of myself. It's the right decision. I still feel a little sad,\n          though.</p>\n          <p><span style=\"background-color: #ff4; font-weight: bold\">Nono.com shutting down on Thursday\n          6/21/2007</span> And, for those of you who want to purchase the domain name, it's <b>not for sale</b>, so\n          please don't ask me if you can buy it.</p>\n          <p>Technically speaking, nono.com is not shutting down; a more accurate description would be, \u201cOn Thursday\n          6/21/2007, nono.com will respond to DNS queries for the domains it hosts with an NXDOMAIN; additionally, it\n          will no longer handle inbound email for people with nono.com email addresses; said email will bounce.\u201d Which\n          means means that if I host your domain, or if you receive email through one of my servers, it will stop\n          Thursday 6/21/2007. Email will bounce, your webserver will not be found. It's been an exciting eleven years,\n          but I need to take a break for a while.</p>\n          <p>The more obvservant among you may notice that I've postponed the shutdown another two weeks. The reason is\n          that it costs more to cancel my SDSL line in the last month of a 12-month contract than simply to let the\n          contract run its course (and, by the way, they're charging a hefty $300/mo for the SDSL line). So we have a\n          little more breathing time.</p>\n          <p><b>New nameserver (ns-gd.nono.com) 5/20/07</b> I have signed up for <a href=\n          \"http://www.godaddy.com/\">godaddy</a> virtual dedicated server. I am pleased with them because they provide\n          bandwidth at a fraction of the cost of most other providers (most colo facilities charge $100/Mbit bandwidth.\n          Godaddy charges $10/Mbit. Yes, that's right: 1/10th the cost of everyone else). I signed up for 10Mbits this\n          month and will host one of the biggest torrents during the Fedora 7 release (unless their release date slips\n          again). I'm also going to migrate my webservers over there (but no email: too much of a headache).</p>\n          <p><b>Cyrus-imapd &amp; saslauthd 3/11/07</b> Are now up and running on my soon-to-be mailserver. I plan on\n          migrating everything over before I move to a new place.</p>\n          <p><b>LDAP 3/4/07</b> I have finally configured an ldap server (openldap 2.3.34). I have been meaning to do\n          this several years now, so to finally accomplish it is quite gratifying. So far only one machine uses ldap\n          authentication (homo.nono.com), but I'm hoping to roll it out to my other servers soon (tang &amp; chimp). In\n          the distant future, I'll perhaps include my mac mini as well as my windows machines.</p>\n          <p><b>Not Found and Forbidden 2/11/07</b> I have tweaked my <a href=\"/asdf\">\"Page Not Found\"</a> and <a href=\n          \"/cgi-bin/\">\"Page Forbidden\"</a> error pages. Not Found now appropriately attributes the text of the error\n          message to Forrest L. Norvell, a man whom I've never met but who is endowed with a unique mastery of the\n          English language. The Forbidden page now rotates through a random sequence of messages. Also, I finally got\n          my certificates working again (i.e. <a href=\"https://www.nono.com\">https</a> now works properly).</p>\n          <p><b>Hacked! 1/28/07</b> My defenses were breached, and an unscrupulous hacker used my compromised webserver\n          to send spam messages to 182,000 unsuspecting Brazilians. I've reloaded my webserver, cleaned out the\n          infestation, and put additional safeguards in place.</p>\n          <p><b>Disk Crash! 10/14/06:</b> Sometime in the morning on Saturday 10/14/06 the 60GB Hard Drive on the\n          webserver (and secondary nameserver, and dhcp server), homo.nono.com, failed. I rebuilt the server, taking\n          the opportunity to upgrade from FreeBSD 5.4 to FreeBSD 6.1, Apache 2.0 to Apache 2.2. The machine was\n          reloaded 10/15/06, nameservice was restored 10/18/06, and the web service restored on 10/20/06. Apologies to\n          everyone affected by the outage. Email should not have been affected.</p>\n          <p><b>Faster Speakeasy connection 6/18/06:</b> I've just switched to a faster Speakeasy connection (SDSL,\n          1.2Mbps upload speed) for my server connection. This entailed re-IP'ing most of my servers, so if something\n          is broken, please let me know. If I'm hosting a domain for you, make sure you have set the nameservers to\n          ns0.nono.com and the new ns5.nono.com (64.81.253.131).</p>\n          <p><b>ns0.nono.com back up 2/20/06:</b> One of my nameservers, ns0.nono.com, had been down since Monday\n          2/13/06 due to a hard drive failure. Fortunately, it's now back up. It took longer than expected to rebuild\n          it because it has been a very busy week and also because I haven't set up a new backup system since I moved\n          most of the data to the <a href=\"http://www.infrant.com\">infrant</a> RAID box two months ago, so I had to\n          coax the domain tables off the faulty drive.</p>\n          <p><b>nono.com joins ntp.org pool 1/15/06:</b> I have set two servers up to join the <a href=\n          \"http://www.pool.ntp.org\">ntp pool</a>:</p>\n          <ul>\n            <li>\n              <a href=\"http://www.pool.ntp.org/scores/64.81.253.134\">tick.nono.com</a>\n            </li>\n            <li>\n              <a href=\"http://www.pool.ntp.org/scores/198.144.195.20\">tock.nono.com</a>\n            </li>\n          </ul>\n          <p><b>https finally working 11/27/05:</b> I finally managed to get <a href=\n          \"https://www.nono.com\">https://www.nono.com</a> working. It was a fairly painful process, but the\n          breakthrough came when I ran \"httpd -S\" to parse my virtual domains and realized that my unencrypted\n          connections were fighting with my encrypted connections for the https port (443).</p>\n          <p><b>New Webserver 11/17/02:</b>I have moved all the web nameserver, ns3.nono.com (66.93.79.206). The new\n          webserver features Apache 2.0.39 (yes, we're back on Apache 2). Let me know if there are any problems.</p>\n          <p><b>New Nameserver 11/16/02:</b>I have inaugrated the newest nameserver, ns3.nono.com (66.93.79.206). This\n          new nameserver is on the Speakeasy.Net network, and is intended to replace ns2.nono.com (66.123.173.242),\n          which is on the now-deprecated pacbell network. I have updated the domains <i>for which I am a technical\n          contact</i> to point to ns3 and to no longer point to ns2.</p>\n          <p><b>Web Outage 11/05/02:</b>The web server for www.nono.com and other domains hung. It appears to be a\n          problem with the firewall (which had been running for 48 days without reboot).</p>\n          <p><b>Weird Outage 8/9/02:</b> The main server, nono.nono.com, hung between 4:41 and 8:39 a.m. PDT (when I\n          rebooted him). From the console I could see IO errors (perhaps the ultimate irony--another bad disk).\n          Unfortunately the syslog didn't have any messages after the reboot. On the brighter side, it appears no email\n          bounced (i.e. the ping-ponging problem is fixed).</p>\n          <p><b>Disk Crash! 8/4/02:</b> At roughly 12:41 p.m. Saturday 8/3/02 the 40GB Hard Drive on my primary server,\n          nono.nono.com, failed. I rebuilt the server with a new hard drive (purchased from Fry's at short notice). The\n          server was back up in service Sunday 8/4/02 23:41. I was able to restore nono.com with files dated from\n          5/11/02 23:46. (almost three months old). All email was bounced during the outage (technical glitch; should\n          be fixed now).</p>\n          <p><b>New Nono 5/13/02:</b> Nono.nono.com is the primary mail, nfs, samba, and http server. It has been\n          completely rebuilt with a 40GB drive (previously 20GB; was &gt; 93% full on two filesystems). Now has FreeBSD\n          4.5 (was 4.3) with the faster filesystem, Samba 2.2.2, Apache 2.0.28, and more. We did suffer 14 hours of web\n          outage while I updated the apache configuration to work properly under 2.0.</p>\n          <p><b>New Naynay 4/28/02:</b> Naynay.nono.com is the primary DNS, backup mail server, and print server. It\n          has been completely rebuilt. Features include a 20GB hard drive (formerly 7GB), and FreeBSD 4.5. (was 4.3)\n          and CUPS 1.1.12</p>\n          <p><b>Spam Filters now in place 11/16/01:</b> This has been a lot of work (signing contracts with\n          mail-abuse.org, sending them money, modifying nameserver configuration to change source-ip, modifying\n          firewall rules to map DNS queries to specific IPs, and much much troubleshooting). Special thanks to Margie\n          at mail-abuse.org for her patience &amp; persistence.</p>\n          <p><b>Cleaning up this website 10/28/01.</b>The sidebar links have been cleaned up--the ones pointing to\n          mozilla.org have been removed, and the remaining ones point to real pages.</p>\n          <p><b>Server-Side Includes 10/24/01.</b>Yes, this is simply a nice touch to allow consistent footers,\n          timestamps, etc...). I used the \"IncludesNoExec\" apache directive (i.e. you can't use it to run code).</p>\n          <p><b>Reverse-Lookups now working for Rawbandwidth DSL 10/23/01.</b> They are a top-notch DSL provider and I\n          haven't regretted going with them. I'm assuming PacBell is going to be a struggle.</p>\n          <p><b>Webalizer is up and running 10/18/01.</b> If your domain is hosted here, you can go to\n          http://<i>yourdomainname</i>/webalizer to see a beautiful graph of your website traffic. Webalizer simply\n          rocks. And the data is updated every night at one a.m. via a cron job.</p>\n          <p><b>Nono.com now has inbound ftp 10/17/01.</b>This time it really works. Active ftp only though (I simply\n          could not get passive ftp working through the firewall; It requires something called a \"reverse-proxy\" to\n          work properly, and ipfilter doesn't have that for ftp yet (or so it appears)).</p>\n          <p><b>Nono.com has moved as of 8/31/01.</b> Thanks for all your patience everyone for bearing the various\n          outages with good humor. The new setup features redundant DSL lines and should be much more robust.</p>\n          <p><b>Dial-up Service terminated 7/15/01</b>. I have turned off the dialin lines on 7/15/01. End of an era\n          (four years of dialin service).</p>\n          <p><b>Nono.com's New Website Launched 6/30/01.</b> Special thanks to a special friend at Macromedia for\n          obtaining a legitimate copy of Dreamweaver--she's a good egg!</p>\n        </div>\n      </td>\n    </tr>\n  </table>\n  <script src=\"https://nono.io/js/remote_addr.js\"></script>\n</body>\n</html>\n",
+                "favicons": [
+                  {
+                    "size": 318,
+                    "name": "https://78.46.204.247/favicon.ico",
+                    "hash_sha256": "0037b0d774828ff4e5ed97831e3a484f0e7d6dd95020f58b842b06402f3950c2",
+                    "hash_md5": "9105deb4c70b06f1947723f83b8c670d",
+                    "hash_shodan": 2092629713
+                  }
+                ],
+                "html_title": "nono.com / nono.io",
+                "body_hash_sha256": "d21038bcd030eed8d2381e1aeb283f2547e10c6df61f43be09fb34913df5e6bd",
+                "body_hash_sha1": "531969066a3ee520a9d9547310594d83012f5692",
+                "supported_versions": [
+                  "HTTP/1.1",
+                  "HTTP/2"
+                ]
+              },
+              "ip": "78.46.204.247"
+            },
+            {
+              "hostname": "78.46.204.247",
+              "port": 443,
+              "path": "/robots.txt",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T14:47:24Z",
+              "http": {
+                "uri": "https://78.46.204.247/robots.txt",
+                "protocol": "HTTP/1.1",
+                "status_code": 200,
+                "status_reason": "OK",
+                "headers": {
+                  "Accept-Ranges": {
+                    "headers": [
+                      "bytes"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "52"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/plain"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "ETag": {
+                    "headers": [
+                      "\"465a1107-34\""
+                    ]
+                  },
+                  "Last-Modified": {
+                    "headers": [
+                      "Sun, 27 May 2007 23:15:19 GMT"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "nginx/1.28.0"
+                    ]
+                  }
+                },
+                "body_size": 52,
+                "body": "User-agent: *\nDisallow: /stats\nDisallow: /nono/gifs\n",
+                "favicons": [
+                  {
+                    "size": 318,
+                    "name": "https://78.46.204.247/favicon.ico",
+                    "hash_sha256": "0037b0d774828ff4e5ed97831e3a484f0e7d6dd95020f58b842b06402f3950c2",
+                    "hash_md5": "9105deb4c70b06f1947723f83b8c670d",
+                    "hash_shodan": 2092629713
+                  }
+                ],
+                "body_hash_sha256": "710254beca52a9d55e6b70783cd40da4a7041f486d0a0eb6993ed9476596e18d",
+                "body_hash_sha1": "5e6ab8c060d0e68426cf9091b67bc4e232d82704",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "78.46.204.247"
+            }
+          ]
+        },
+        {
+          "port": 587,
+          "protocol": "SMTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "sendmail",
+              "product": "sendmail"
+            }
+          ],
+          "ip": "78.46.204.247",
+          "scan_time": "2026-01-31T07:46:10Z",
+          "smtp": {
+            "ehlo": "250-shay.nono.io Hello 179.138.94.167.censys-scanner.com [167.94.138.179], pleased to meet you\r\n250 ENHANCEDSTATUSCODES\r\n",
+            "start_tls": "554 5.7.1 Rejected 167.94.138.179 found in cbl.abuseat.org\r\n"
+          }
+        }
+      ],
+      "service_count": 7,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-01-29T14:07:30Z",
+          "names": [
+            "nono.io"
+          ]
+        },
+        "names": [
+          "nip.io",
+          "sslip.io",
+          "meet.cunnie.com",
+          "brian.cunnie.com",
+          "home.edibleiso.top",
+          "ha.edibleiso.top",
+          "www.nono.io",
+          "nono.io",
+          "ipv4.nono.io",
+          "brian-old.cunnie.com",
+          "www.lumo.sale",
+          "lumo.sale",
+          "cunnie.com"
+        ],
+        "forward_dns": {
+          "brian-old.cunnie.com": {
+            "resolve_time": "2026-01-04T15:45:40Z",
+            "name": "brian-old.cunnie.com",
+            "record_type": "a"
+          },
+          "brian.cunnie.com": {
+            "resolve_time": "2026-01-26T14:03:18Z",
+            "name": "brian.cunnie.com",
+            "record_type": "a"
+          },
+          "cunnie.com": {
+            "resolve_time": "2025-12-25T19:02:15Z",
+            "name": "cunnie.com",
+            "record_type": "a"
+          },
+          "ha.edibleiso.top": {
+            "resolve_time": "2026-01-17T12:12:49Z",
+            "name": "ha.edibleiso.top",
+            "record_type": "a"
+          },
+          "home.edibleiso.top": {
+            "resolve_time": "2026-01-26T12:12:18Z",
+            "name": "home.edibleiso.top",
+            "record_type": "a"
+          },
+          "ipv4.nono.io": {
+            "resolve_time": "2026-01-08T16:14:32Z",
+            "name": "ipv4.nono.io",
+            "record_type": "a"
+          },
+          "lumo.sale": {
+            "resolve_time": "2025-12-28T12:11:54Z",
+            "name": "lumo.sale",
+            "record_type": "a"
+          },
+          "meet.cunnie.com": {
+            "resolve_time": "2026-01-26T14:03:28Z",
+            "name": "meet.cunnie.com",
+            "record_type": "a"
+          },
+          "nip.io": {
+            "resolve_time": "2026-01-29T15:24:24Z",
+            "name": "nip.io",
+            "record_type": "a"
+          },
+          "nono.io": {
+            "resolve_time": "2026-01-11T15:13:01Z",
+            "name": "nono.io",
+            "record_type": "a"
+          },
+          "sslip.io": {
+            "resolve_time": "2026-01-29T14:00:06Z",
+            "name": "sslip.io",
+            "record_type": "a"
+          },
+          "www.lumo.sale": {
+            "resolve_time": "2026-01-03T17:30:06Z",
+            "name": "www.lumo.sale",
+            "record_type": "a"
+          },
+          "www.nono.io": {
+            "resolve_time": "2026-01-15T21:05:22Z",
+            "name": "www.nono.io",
+            "record_type": "a"
+          }
+        }
+      },
+      "operating_system": {
+        "vendor": "freebsd",
+        "product": "freebsd"
+      }
+    },
+    "extensions": {}
+  }
+}

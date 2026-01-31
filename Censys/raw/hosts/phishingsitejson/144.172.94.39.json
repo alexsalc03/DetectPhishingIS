@@ -1,0 +1,508 @@
+{
+  "result": {
+    "resource": {
+      "ip": "144.172.94.39",
+      "location": {
+        "continent": "North America",
+        "country": "United States",
+        "country_code": "US",
+        "city": "Ogden",
+        "postal_code": "84401",
+        "timezone": "America/Denver",
+        "province": "Utah",
+        "coordinates": {
+          "latitude": 41.223,
+          "longitude": -111.97383
+        }
+      },
+      "autonomous_system": {
+        "asn": 14956,
+        "description": "ROUTERHOSTING - RouterHosting LLC",
+        "bgp_prefix": "144.172.94.0/24",
+        "name": "ROUTERHOSTING - RouterHosting LLC",
+        "country_code": "US"
+      },
+      "whois": {
+        "network": {
+          "handle": "ROUTERHOSTING",
+          "name": "RouterHosting LLC",
+          "cidrs": [
+            "144.172.92.0/22"
+          ],
+          "created": "2025-01-03T00:00:00Z",
+          "updated": "2025-01-03T00:00:00Z",
+          "allocation_type": "REALLOCATION"
+        },
+        "organization": {
+          "handle": "RL-896",
+          "name": "RouterHosting LLC",
+          "street": "1309 Coffeen Avenue STE 1200\\nSheridan, WY 82801",
+          "city": "Sheridan",
+          "state": "WY",
+          "postal_code": "82801",
+          "country": "US",
+          "abuse_contacts": [
+            {
+              "handle": "ABUSE8459-ARIN",
+              "name": "abuse",
+              "email": "abuse-reports@cloudzy.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "ABUSE8459-ARIN",
+              "name": "abuse",
+              "email": "abuse-reports@cloudzy.com"
+            }
+          ],
+          "tech_contacts": [
+            {
+              "handle": "ABUSE8459-ARIN",
+              "name": "abuse",
+              "email": "abuse-reports@cloudzy.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 22,
+          "protocol": "SSH",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "type": [
+                "REMOTE_ACCESS"
+              ]
+            },
+            {
+              "vendor": "openbsd",
+              "product": "openssh"
+            }
+          ],
+          "operating_systems": [
+            {
+              "vendor": "canonical",
+              "product": "linux"
+            }
+          ],
+          "labels": [
+            {
+              "value": "REMOTE_ACCESS"
+            }
+          ],
+          "ip": "144.172.94.39",
+          "scan_time": "2026-01-31T08:02:54Z",
+          "ssh": {
+            "endpoint_id": {
+              "raw": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13",
+              "protocol_version": "2.0",
+              "software_version": "OpenSSH_8.9p1",
+              "comment": "Ubuntu-3ubuntu0.13"
+            },
+            "kex_init_message": {
+              "kex_algorithms": [
+                "curve25519-sha256",
+                "curve25519-sha256@libssh.org",
+                "ecdh-sha2-nistp256",
+                "ecdh-sha2-nistp384",
+                "ecdh-sha2-nistp521",
+                "sntrup761x25519-sha512@openssh.com",
+                "diffie-hellman-group-exchange-sha256",
+                "diffie-hellman-group16-sha512",
+                "diffie-hellman-group18-sha512",
+                "diffie-hellman-group14-sha256",
+                "kex-strict-s-v00@openssh.com"
+              ],
+              "host_key_algorithms": [
+                "rsa-sha2-512",
+                "rsa-sha2-256",
+                "ecdsa-sha2-nistp256",
+                "ssh-ed25519"
+              ],
+              "client_to_server_ciphers": [
+                "chacha20-poly1305@openssh.com",
+                "aes128-ctr",
+                "aes192-ctr",
+                "aes256-ctr",
+                "aes128-gcm@openssh.com",
+                "aes256-gcm@openssh.com"
+              ],
+              "server_to_client_ciphers": [
+                "chacha20-poly1305@openssh.com",
+                "aes128-ctr",
+                "aes192-ctr",
+                "aes256-ctr",
+                "aes128-gcm@openssh.com",
+                "aes256-gcm@openssh.com"
+              ],
+              "client_to_server_macs": [
+                "umac-64-etm@openssh.com",
+                "umac-128-etm@openssh.com",
+                "hmac-sha2-256-etm@openssh.com",
+                "hmac-sha2-512-etm@openssh.com",
+                "hmac-sha1-etm@openssh.com",
+                "umac-64@openssh.com",
+                "umac-128@openssh.com",
+                "hmac-sha2-256",
+                "hmac-sha2-512",
+                "hmac-sha1"
+              ],
+              "server_to_client_macs": [
+                "umac-64-etm@openssh.com",
+                "umac-128-etm@openssh.com",
+                "hmac-sha2-256-etm@openssh.com",
+                "hmac-sha2-512-etm@openssh.com",
+                "hmac-sha1-etm@openssh.com",
+                "umac-64@openssh.com",
+                "umac-128@openssh.com",
+                "hmac-sha2-256",
+                "hmac-sha2-512",
+                "hmac-sha1"
+              ],
+              "client_to_server_compression": [
+                "none",
+                "zlib@openssh.com"
+              ],
+              "server_to_client_compression": [
+                "none",
+                "zlib@openssh.com"
+              ]
+            },
+            "algorithm_selection": {
+              "kex_algorithm": "curve25519-sha256@libssh.org",
+              "host_key_algorithm": "ecdsa-sha2-nistp256",
+              "client_to_server_alg_group": {
+                "cipher": "aes128-ctr",
+                "mac": "hmac-sha2-256",
+                "compression": "none"
+              },
+              "server_to_client_alg_group": {
+                "cipher": "aes128-ctr",
+                "mac": "hmac-sha2-256",
+                "compression": "none"
+              }
+            },
+            "server_host_key": {
+              "fingerprint_sha256": "ec788f07131a2a10e4e3be48a6e7e80231c7d36cbdec68491f68dd6556f50a0a",
+              "ecdsa_public_key": {
+                "b": "WsY12Ko6k+ez671VdpiGvGUdBrDMU7D2O848PifSYEs=",
+                "curve": "P-256",
+                "gx": "axfR8uEsQkf4vOblY6RA8ncDfYEt6zOg9KE5RdiYwpY=",
+                "gy": "T+NC4v4af5uO5+tKfA+eFivOM1drMV7Oy7ZAaDe/UfU=",
+                "length": 256,
+                "n": "/////wAAAAD//////////7zm+q2nF56E87nKwvxjJVE=",
+                "p": "/////wAAAAEAAAAAAAAAAAAAAAD///////////////8=",
+                "x": "38LJ/fcDv06w4e52FZwjcRMbtzzI9s4lo0yeA0huIYs=",
+                "y": "Qa2KkruareT8JlgZNFzyZXFscT36FQ9PZQ65wsThiuA="
+              }
+            },
+            "hassh_fingerprint": "41ff3ecd1458b0bf86e1b4891636213e"
+          }
+        },
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "apache",
+              "product": "http_server"
+            }
+          ],
+          "operating_systems": [
+            {
+              "vendor": "canonical",
+              "product": "linux"
+            }
+          ],
+          "labels": [
+            {
+              "value": "DEFAULT_LANDING_PAGE"
+            }
+          ],
+          "ip": "144.172.94.39",
+          "scan_time": "2026-01-31T11:54:35Z",
+          "endpoints": [
+            {
+              "hostname": "144.172.94.39",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T11:54:35Z",
+              "http": {
+                "uri": "http://144.172.94.39/",
+                "protocol": "HTTP/1.1",
+                "status_code": 200,
+                "status_reason": "OK",
+                "headers": {
+                  "Accept-Ranges": {
+                    "headers": [
+                      "bytes"
+                    ]
+                  },
+                  "Content-Encoding": {
+                    "headers": [
+                      "gzip"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "3121"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "ETag": {
+                    "headers": [
+                      "\"29af-6484f74e903db-gzip\""
+                    ]
+                  },
+                  "Last-Modified": {
+                    "headers": [
+                      "Wed, 14 Jan 2026 01:59:21 GMT"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "Apache/2.4.52 (Ubuntu)"
+                    ]
+                  },
+                  "Vary": {
+                    "headers": [
+                      "Accept-Encoding"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>Apache2 Ubuntu Default Page: It works</title>",
+                  "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />"
+                ],
+                "body_size": 10671,
+                "body": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n  <!--\n    Modified from the Debian original for Ubuntu\n    Last updated: 2022-03-22\n    See: https://launchpad.net/bugs/1966004\n  -->\n  <head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n    <title>Apache2 Ubuntu Default Page: It works</title>\n    <style type=\"text/css\" media=\"screen\">\n  * {\n    margin: 0px 0px 0px 0px;\n    padding: 0px 0px 0px 0px;\n  }\n\n  body, html {\n    padding: 3px 3px 3px 3px;\n\n    background-color: #D8DBE2;\n\n    font-family: Ubuntu, Verdana, sans-serif;\n    font-size: 11pt;\n    text-align: center;\n  }\n\n  div.main_page {\n    position: relative;\n    display: table;\n\n    width: 800px;\n\n    margin-bottom: 3px;\n    margin-left: auto;\n    margin-right: auto;\n    padding: 0px 0px 0px 0px;\n\n    border-width: 2px;\n    border-color: #212738;\n    border-style: solid;\n\n    background-color: #FFFFFF;\n\n    text-align: center;\n  }\n\n  div.page_header {\n    height: 180px;\n    width: 100%;\n\n    background-color: #F5F6F7;\n  }\n\n  div.page_header span {\n    margin: 15px 0px 0px 50px;\n\n    font-size: 180%;\n    font-weight: bold;\n  }\n\n  div.page_header img {\n    margin: 3px 0px 0px 40px;\n\n    border: 0px 0px 0px;\n  }\n\n  div.banner {\n    padding: 9px 6px 9px 6px;\n    background-color: #E9510E;\n    color: #FFFFFF;\n    font-weight: bold;\n    font-size: 112%;\n    text-align: center;\n    position: absolute;\n    left: 40%;\n    bottom: 30px;\n    width: 20%;\n  }\n\n  div.table_of_contents {\n    clear: left;\n\n    min-width: 200px;\n\n    margin: 3px 3px 3px 3px;\n\n    background-color: #FFFFFF;\n\n    text-align: left;\n  }\n\n  div.table_of_contents_item {\n    clear: left;\n\n    width: 100%;\n\n    margin: 4px 0px 0px 0px;\n\n    background-color: #FFFFFF;\n\n    color: #000000;\n    text-align: left;\n  }\n\n  div.table_of_contents_item a {\n    margin: 6px 0px 0px 6px;\n  }\n\n  div.content_section {\n    margin: 3px 3px 3px 3px;\n\n    background-color: #FFFFFF;\n\n    text-align: left;\n  }\n\n  div.content_section_text {\n    padding: 4px 8px 4px 8px;\n\n    color: #000000;\n    font-size: 100%;\n  }\n\n  div.content_section_text pre {\n    margin: 8px 0px 8px 0px;\n    padding: 8px 8px 8px 8px;\n\n    border-width: 1px;\n    border-style: dotted;\n    border-color: #000000;\n\n    background-color: #F5F6F7;\n\n    font-style: italic;\n  }\n\n  div.content_section_text p {\n    margin-bottom: 6px;\n  }\n\n  div.content_section_text ul, div.content_section_text li {\n    padding: 4px 8px 4px 16px;\n  }\n\n  div.section_header {\n    padding: 3px 6px 3px 6px;\n\n    background-color: #8E9CB2;\n\n    color: #FFFFFF;\n    font-weight: bold;\n    font-size: 112%;\n    text-align: center;\n  }\n\n  div.section_header_grey {\n    background-color: #9F9386;\n  }\n\n  .floating_element {\n    position: relative;\n    float: left;\n  }\n\n  div.table_of_contents_item a,\n  div.content_section_text a {\n    text-decoration: none;\n    font-weight: bold;\n  }\n\n  div.table_of_contents_item a:link,\n  div.table_of_contents_item a:visited,\n  div.table_of_contents_item a:active {\n    color: #000000;\n  }\n\n  div.table_of_contents_item a:hover {\n    background-color: #000000;\n\n    color: #FFFFFF;\n  }\n\n  div.content_section_text a:link,\n  div.content_section_text a:visited,\n   div.content_section_text a:active {\n    background-color: #DCDFE6;\n\n    color: #000000;\n  }\n\n  div.content_section_text a:hover {\n    background-color: #000000;\n\n    color: #DCDFE6;\n  }\n\n  div.validator {\n  }\n    </style>\n  </head>\n  <body>\n    <div class=\"main_page\">\n      <div class=\"page_header floating_element\">\n        <img src=\"icons/ubuntu-logo.png\" alt=\"Ubuntu Logo\"\n             style=\"width:184px;height:146px;\" class=\"floating_element\" />\n        <div>\n          <span style=\"margin-top: 1.5em;\" class=\"floating_element\">\n            Apache2 Default Page\n          </span>\n        </div>\n        <div class=\"banner\">\n          <div id=\"about\"></div>\n          It works!\n        </div>\n\n      </div>\n      <div class=\"content_section floating_element\">\n        <div class=\"content_section_text\">\n          <p>\n                This is the default welcome page used to test the correct \n                operation of the Apache2 server after installation on Ubuntu systems.\n                It is based on the equivalent page on Debian, from which the Ubuntu Apache\n                packaging is derived.\n                If you can read this page, it means that the Apache HTTP server installed at\n                this site is working properly. You should <b>replace this file</b> (located at\n                <tt>/var/www/html/index.html</tt>) before continuing to operate your HTTP server.\n          </p>\n\n          <p>\n                If you are a normal user of this web site and don't know what this page is\n                about, this probably means that the site is currently unavailable due to\n                maintenance.\n                If the problem persists, please contact the site's administrator.\n          </p>\n\n        </div>\n        <div class=\"section_header\">\n          <div id=\"changes\"></div>\n                Configuration Overview\n        </div>\n        <div class=\"content_section_text\">\n          <p>\n                Ubuntu's Apache2 default configuration is different from the\n                upstream default configuration, and split into several files optimized for\n                interaction with Ubuntu tools. The configuration system is\n                <b>fully documented in\n                /usr/share/doc/apache2/README.Debian.gz</b>. Refer to this for the full\n                documentation. Documentation for the web server itself can be\n                found by accessing the <a href=\"/manual\">manual</a> if the <tt>apache2-doc</tt>\n                package was installed on this server.\n          </p>\n          <p>\n                The configuration layout for an Apache2 web server installation on Ubuntu systems is as follows:\n          </p>\n          <pre>\n/etc/apache2/\n|-- apache2.conf\n|       `--  ports.conf\n|-- mods-enabled\n|       |-- *.load\n|       `-- *.conf\n|-- conf-enabled\n|       `-- *.conf\n|-- sites-enabled\n|       `-- *.conf\n          </pre>\n          <ul>\n                        <li>\n                           <tt>apache2.conf</tt> is the main configuration\n                           file. It puts the pieces together by including all remaining configuration\n                           files when starting up the web server.\n                        </li>\n\n                        <li>\n                           <tt>ports.conf</tt> is always included from the\n                           main configuration file. It is used to determine the listening ports for\n                           incoming connections, and this file can be customized anytime.\n                        </li>\n\n                        <li>\n                           Configuration files in the <tt>mods-enabled/</tt>,\n                           <tt>conf-enabled/</tt> and <tt>sites-enabled/</tt> directories contain\n                           particular configuration snippets which manage modules, global configuration\n                           fragments, or virtual host configurations, respectively.\n                        </li>\n\n                        <li>\n                           They are activated by symlinking available\n                           configuration files from their respective\n                           *-available/ counterparts. These should be managed\n                           by using our helpers\n                           <tt>\n                                a2enmod,\n                                a2dismod,\n                           </tt>\n                           <tt>\n                                a2ensite,\n                                a2dissite,\n                            </tt>\n                                and\n                           <tt>\n                                a2enconf,\n                                a2disconf\n                           </tt>. See their respective man pages for detailed information.\n                        </li>\n\n                        <li>\n                           The binary is called apache2 and is managed using systemd, so to\n                           start/stop the service use <tt>systemctl start apache2</tt> and\n                           <tt>systemctl stop apache2</tt>, and use <tt>systemctl status apache2</tt>\n                           and <tt>journalctl -u apache2</tt> to check status.  <tt>system</tt>\n                           and <tt>apache2ctl</tt> can also be used for service management if\n                           desired.\n                           <b>Calling <tt>/usr/bin/apache2</tt> directly will not work</b> with the\n                           default configuration.\n                        </li>\n          </ul>\n        </div>\n\n        <div class=\"section_header\">\n            <div id=\"docroot\"></div>\n                Document Roots\n        </div>\n\n        <div class=\"content_section_text\">\n            <p>\n                By default, Ubuntu does not allow access through the web browser to\n                <em>any</em> file outside of those located in <tt>/var/www</tt>,\n                <a href=\"http://httpd.apache.org/docs/2.4/mod/mod_userdir.html\" rel=\"nofollow\">public_html</a>\n                directories (when enabled) and <tt>/usr/share</tt> (for web\n                applications). If your site is using a web document root\n                located elsewhere (such as in <tt>/srv</tt>) you may need to whitelist your\n                document root directory in <tt>/etc/apache2/apache2.conf</tt>.\n            </p>\n            <p>\n                The default Ubuntu document root is <tt>/var/www/html</tt>. You\n                can make your own virtual hosts under /var/www.\n            </p>\n        </div>\n\n        <div class=\"section_header\">\n          <div id=\"bugs\"></div>\n                Reporting Problems\n        </div>\n        <div class=\"content_section_text\">\n          <p>\n                Please use the <tt>ubuntu-bug</tt> tool to report bugs in the\n                Apache2 package with Ubuntu. However, check <a\n                href=\"https://bugs.launchpad.net/ubuntu/+source/apache2\"\n                rel=\"nofollow\">existing bug reports</a> before reporting a new bug.\n          </p>\n          <p>\n                Please report bugs specific to modules (such as PHP and others)\n                to their respective packages, not to the web server itself.\n          </p>\n        </div>\n\n      </div>\n    </div>\n    <div class=\"validator\">\n    </div>\n  </body>\n</html>\n",
+                "html_title": "Apache2 Ubuntu Default Page: It works",
+                "body_hash_sha256": "6faef4d5d777fdcaa653766b0ac8b9ed32d0fd87f7dcd79f02ff524dd1b0eb69",
+                "body_hash_sha1": "152a75d80c0bdadb382e1cafe517159cb76a19cc",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "144.172.94.39"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "d4c83fdcad1678de5a56b21418a23f07f1114c19245734ff888a7ceaabae8b37",
+            "fingerprint_sha1": "c48b388d5da8842f826cb18acf5991fe42e8e85b",
+            "fingerprint_md5": "8a8d62278e3b7fa22a2893b6439341e8",
+            "tbs_fingerprint_sha256": "43a08d8aa97ed02620fb677e4a62962ceb4babd1553a7ad8a9e9b3c8de4524f2",
+            "tbs_no_ct_fingerprint_sha256": "43a08d8aa97ed02620fb677e4a62962ceb4babd1553a7ad8a9e9b3c8de4524f2",
+            "spki_fingerprint_sha256": "8e88377e30283dbc60fd1461f983707c920b3e5217e244a4e2babaa5894b0e76",
+            "parsed": {
+              "version": 3,
+              "serial_number": "74201270048793343997478976535137628790961798738",
+              "issuer_dn": "CN=ubuntu-Utah-2gb",
+              "issuer": {
+                "common_name": [
+                  "ubuntu-Utah-2gb"
+                ]
+              },
+              "subject_dn": "CN=ubuntu-Utah-2gb",
+              "subject": {
+                "common_name": [
+                  "ubuntu-Utah-2gb"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "RSA",
+                  "oid": "1.2.840.113549.1.1.1"
+                },
+                "rsa": {
+                  "exponent": 65537,
+                  "modulus": "b7f471949ffd5565f92da26cd2c73dae96d66eb7eaa0b467426beb30a86e75dc074f1ef1bcd0d4efd01178a9d3419455fa043563c6c2bbe6a846cb368297b8442ea8131607955097a972b1dddbd1a2f6f5a026d71f401f814261e6f1e7a3be4a205c5e7ee46bdc6155a6b9557174aa5bcd5a97c62f6c130034eebc61a2c2be3901856e22e2973c4fd40db582691948bd63f7a8944af3788c542c6f4d794f5190a535ed693958b6bf0c5d2713cdb2614dfc13a13061d4daa527631ca0b54b8032b0ba4a7c12376886258d86207ca1c402f685a618ceddd4d920c01cbb689ba24c447523c3fb874c4e7cb91d1a461d3e34b9e1a0b563e560808984089ec17e70c9",
+                  "length": 2048
+                },
+                "fingerprint_sha256": "761ebcc41acefda4b0bb45173533ed18986980b710fc7b50c5f198abaec48b99"
+              },
+              "validity_period": {
+                "not_before": "2026-01-14T01:59:06Z",
+                "not_after": "2036-01-12T01:59:06Z",
+                "length_seconds": 315360001
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "SHA256-RSA",
+                  "oid": "1.2.840.113549.1.1.11"
+                },
+                "value": "6abb7394d05f2ee64d8090eb129fe19e4498936b89d09bfb8b27787ddec779b359a58e4c1ff47454c1895632d980bd4f795b988559ff5acf5e17fb37af92cc16c739a270e3f338373d84fc558979962b917bf24e877dd21e9fa5e1a49b9f3e35f78aaa166e2ba2215934a5b53264a8ffb98474eceeaa12ee3474a9b7b03309ca3edb29f2a752c23d5b464012370f80cf6fca521c1609db39f0f38a6d4f44475b76f456ef2d91a49b4794543d4bdd58569265c4b375574451d87498446e3f882d29293ce86f0f94c4dbf790a6a4164dcf7ed7b9d13803922b0a630e91113692c86f6386a767ce0f9e322cf678f4a246d92fbdfeb928fa0dc213cd14e255809dbf",
+                "valid": true,
+                "self_signed": true
+              },
+              "serial_number_hex": "0cff4cce6a5d7bc29416de13b55672377620fe52"
+            },
+            "names": [
+              "ubuntu-Utah-2gb"
+            ],
+            "validation": {
+              "nss": {},
+              "microsoft": {},
+              "apple": {},
+              "chrome": {}
+            },
+            "revocation": {
+              "ocsp": {},
+              "crl": {}
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2026-01-14T03:54:16Z",
+            "modified_at": "2026-01-14T03:54:16Z",
+            "validated_at": "2026-01-30T20:11:12Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "8e88377e30283dbc60fd1461f983707c920b3e5217e244a4e2babaa5894b0e76"
+          },
+          "software": [
+            {
+              "vendor": "apache",
+              "product": "http_server"
+            }
+          ],
+          "operating_systems": [
+            {
+              "vendor": "canonical",
+              "product": "linux"
+            }
+          ],
+          "labels": [
+            {
+              "value": "DEFAULT_LANDING_PAGE"
+            }
+          ],
+          "ip": "144.172.94.39",
+          "scan_time": "2026-01-31T11:52:05Z",
+          "tls": {
+            "fingerprint_sha256": "d4c83fdcad1678de5a56b21418a23f07f1114c19245734ff888a7ceaabae8b37"
+          },
+          "endpoints": [
+            {
+              "hostname": "144.172.94.39",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T11:52:05Z",
+              "http": {
+                "uri": "https://144.172.94.39/",
+                "protocol": "HTTP/1.1",
+                "status_code": 200,
+                "status_reason": "OK",
+                "headers": {
+                  "Accept-Ranges": {
+                    "headers": [
+                      "bytes"
+                    ]
+                  },
+                  "Content-Encoding": {
+                    "headers": [
+                      "gzip"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "3121"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "ETag": {
+                    "headers": [
+                      "\"29af-6484f74e903db-gzip\""
+                    ]
+                  },
+                  "Last-Modified": {
+                    "headers": [
+                      "Wed, 14 Jan 2026 01:59:21 GMT"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "Apache/2.4.52 (Ubuntu)"
+                    ]
+                  },
+                  "Vary": {
+                    "headers": [
+                      "Accept-Encoding"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>Apache2 Ubuntu Default Page: It works</title>",
+                  "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />"
+                ],
+                "body_size": 10671,
+                "body": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n  <!--\n    Modified from the Debian original for Ubuntu\n    Last updated: 2022-03-22\n    See: https://launchpad.net/bugs/1966004\n  -->\n  <head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n    <title>Apache2 Ubuntu Default Page: It works</title>\n    <style type=\"text/css\" media=\"screen\">\n  * {\n    margin: 0px 0px 0px 0px;\n    padding: 0px 0px 0px 0px;\n  }\n\n  body, html {\n    padding: 3px 3px 3px 3px;\n\n    background-color: #D8DBE2;\n\n    font-family: Ubuntu, Verdana, sans-serif;\n    font-size: 11pt;\n    text-align: center;\n  }\n\n  div.main_page {\n    position: relative;\n    display: table;\n\n    width: 800px;\n\n    margin-bottom: 3px;\n    margin-left: auto;\n    margin-right: auto;\n    padding: 0px 0px 0px 0px;\n\n    border-width: 2px;\n    border-color: #212738;\n    border-style: solid;\n\n    background-color: #FFFFFF;\n\n    text-align: center;\n  }\n\n  div.page_header {\n    height: 180px;\n    width: 100%;\n\n    background-color: #F5F6F7;\n  }\n\n  div.page_header span {\n    margin: 15px 0px 0px 50px;\n\n    font-size: 180%;\n    font-weight: bold;\n  }\n\n  div.page_header img {\n    margin: 3px 0px 0px 40px;\n\n    border: 0px 0px 0px;\n  }\n\n  div.banner {\n    padding: 9px 6px 9px 6px;\n    background-color: #E9510E;\n    color: #FFFFFF;\n    font-weight: bold;\n    font-size: 112%;\n    text-align: center;\n    position: absolute;\n    left: 40%;\n    bottom: 30px;\n    width: 20%;\n  }\n\n  div.table_of_contents {\n    clear: left;\n\n    min-width: 200px;\n\n    margin: 3px 3px 3px 3px;\n\n    background-color: #FFFFFF;\n\n    text-align: left;\n  }\n\n  div.table_of_contents_item {\n    clear: left;\n\n    width: 100%;\n\n    margin: 4px 0px 0px 0px;\n\n    background-color: #FFFFFF;\n\n    color: #000000;\n    text-align: left;\n  }\n\n  div.table_of_contents_item a {\n    margin: 6px 0px 0px 6px;\n  }\n\n  div.content_section {\n    margin: 3px 3px 3px 3px;\n\n    background-color: #FFFFFF;\n\n    text-align: left;\n  }\n\n  div.content_section_text {\n    padding: 4px 8px 4px 8px;\n\n    color: #000000;\n    font-size: 100%;\n  }\n\n  div.content_section_text pre {\n    margin: 8px 0px 8px 0px;\n    padding: 8px 8px 8px 8px;\n\n    border-width: 1px;\n    border-style: dotted;\n    border-color: #000000;\n\n    background-color: #F5F6F7;\n\n    font-style: italic;\n  }\n\n  div.content_section_text p {\n    margin-bottom: 6px;\n  }\n\n  div.content_section_text ul, div.content_section_text li {\n    padding: 4px 8px 4px 16px;\n  }\n\n  div.section_header {\n    padding: 3px 6px 3px 6px;\n\n    background-color: #8E9CB2;\n\n    color: #FFFFFF;\n    font-weight: bold;\n    font-size: 112%;\n    text-align: center;\n  }\n\n  div.section_header_grey {\n    background-color: #9F9386;\n  }\n\n  .floating_element {\n    position: relative;\n    float: left;\n  }\n\n  div.table_of_contents_item a,\n  div.content_section_text a {\n    text-decoration: none;\n    font-weight: bold;\n  }\n\n  div.table_of_contents_item a:link,\n  div.table_of_contents_item a:visited,\n  div.table_of_contents_item a:active {\n    color: #000000;\n  }\n\n  div.table_of_contents_item a:hover {\n    background-color: #000000;\n\n    color: #FFFFFF;\n  }\n\n  div.content_section_text a:link,\n  div.content_section_text a:visited,\n   div.content_section_text a:active {\n    background-color: #DCDFE6;\n\n    color: #000000;\n  }\n\n  div.content_section_text a:hover {\n    background-color: #000000;\n\n    color: #DCDFE6;\n  }\n\n  div.validator {\n  }\n    </style>\n  </head>\n  <body>\n    <div class=\"main_page\">\n      <div class=\"page_header floating_element\">\n        <img src=\"icons/ubuntu-logo.png\" alt=\"Ubuntu Logo\"\n             style=\"width:184px;height:146px;\" class=\"floating_element\" />\n        <div>\n          <span style=\"margin-top: 1.5em;\" class=\"floating_element\">\n            Apache2 Default Page\n          </span>\n        </div>\n        <div class=\"banner\">\n          <div id=\"about\"></div>\n          It works!\n        </div>\n\n      </div>\n      <div class=\"content_section floating_element\">\n        <div class=\"content_section_text\">\n          <p>\n                This is the default welcome page used to test the correct \n                operation of the Apache2 server after installation on Ubuntu systems.\n                It is based on the equivalent page on Debian, from which the Ubuntu Apache\n                packaging is derived.\n                If you can read this page, it means that the Apache HTTP server installed at\n                this site is working properly. You should <b>replace this file</b> (located at\n                <tt>/var/www/html/index.html</tt>) before continuing to operate your HTTP server.\n          </p>\n\n          <p>\n                If you are a normal user of this web site and don't know what this page is\n                about, this probably means that the site is currently unavailable due to\n                maintenance.\n                If the problem persists, please contact the site's administrator.\n          </p>\n\n        </div>\n        <div class=\"section_header\">\n          <div id=\"changes\"></div>\n                Configuration Overview\n        </div>\n        <div class=\"content_section_text\">\n          <p>\n                Ubuntu's Apache2 default configuration is different from the\n                upstream default configuration, and split into several files optimized for\n                interaction with Ubuntu tools. The configuration system is\n                <b>fully documented in\n                /usr/share/doc/apache2/README.Debian.gz</b>. Refer to this for the full\n                documentation. Documentation for the web server itself can be\n                found by accessing the <a href=\"/manual\">manual</a> if the <tt>apache2-doc</tt>\n                package was installed on this server.\n          </p>\n          <p>\n                The configuration layout for an Apache2 web server installation on Ubuntu systems is as follows:\n          </p>\n          <pre>\n/etc/apache2/\n|-- apache2.conf\n|       `--  ports.conf\n|-- mods-enabled\n|       |-- *.load\n|       `-- *.conf\n|-- conf-enabled\n|       `-- *.conf\n|-- sites-enabled\n|       `-- *.conf\n          </pre>\n          <ul>\n                        <li>\n                           <tt>apache2.conf</tt> is the main configuration\n                           file. It puts the pieces together by including all remaining configuration\n                           files when starting up the web server.\n                        </li>\n\n                        <li>\n                           <tt>ports.conf</tt> is always included from the\n                           main configuration file. It is used to determine the listening ports for\n                           incoming connections, and this file can be customized anytime.\n                        </li>\n\n                        <li>\n                           Configuration files in the <tt>mods-enabled/</tt>,\n                           <tt>conf-enabled/</tt> and <tt>sites-enabled/</tt> directories contain\n                           particular configuration snippets which manage modules, global configuration\n                           fragments, or virtual host configurations, respectively.\n                        </li>\n\n                        <li>\n                           They are activated by symlinking available\n                           configuration files from their respective\n                           *-available/ counterparts. These should be managed\n                           by using our helpers\n                           <tt>\n                                a2enmod,\n                                a2dismod,\n                           </tt>\n                           <tt>\n                                a2ensite,\n                                a2dissite,\n                            </tt>\n                                and\n                           <tt>\n                                a2enconf,\n                                a2disconf\n                           </tt>. See their respective man pages for detailed information.\n                        </li>\n\n                        <li>\n                           The binary is called apache2 and is managed using systemd, so to\n                           start/stop the service use <tt>systemctl start apache2</tt> and\n                           <tt>systemctl stop apache2</tt>, and use <tt>systemctl status apache2</tt>\n                           and <tt>journalctl -u apache2</tt> to check status.  <tt>system</tt>\n                           and <tt>apache2ctl</tt> can also be used for service management if\n                           desired.\n                           <b>Calling <tt>/usr/bin/apache2</tt> directly will not work</b> with the\n                           default configuration.\n                        </li>\n          </ul>\n        </div>\n\n        <div class=\"section_header\">\n            <div id=\"docroot\"></div>\n                Document Roots\n        </div>\n\n        <div class=\"content_section_text\">\n            <p>\n                By default, Ubuntu does not allow access through the web browser to\n                <em>any</em> file outside of those located in <tt>/var/www</tt>,\n                <a href=\"http://httpd.apache.org/docs/2.4/mod/mod_userdir.html\" rel=\"nofollow\">public_html</a>\n                directories (when enabled) and <tt>/usr/share</tt> (for web\n                applications). If your site is using a web document root\n                located elsewhere (such as in <tt>/srv</tt>) you may need to whitelist your\n                document root directory in <tt>/etc/apache2/apache2.conf</tt>.\n            </p>\n            <p>\n                The default Ubuntu document root is <tt>/var/www/html</tt>. You\n                can make your own virtual hosts under /var/www.\n            </p>\n        </div>\n\n        <div class=\"section_header\">\n          <div id=\"bugs\"></div>\n                Reporting Problems\n        </div>\n        <div class=\"content_section_text\">\n          <p>\n                Please use the <tt>ubuntu-bug</tt> tool to report bugs in the\n                Apache2 package with Ubuntu. However, check <a\n                href=\"https://bugs.launchpad.net/ubuntu/+source/apache2\"\n                rel=\"nofollow\">existing bug reports</a> before reporting a new bug.\n          </p>\n          <p>\n                Please report bugs specific to modules (such as PHP and others)\n                to their respective packages, not to the web server itself.\n          </p>\n        </div>\n\n      </div>\n    </div>\n    <div class=\"validator\">\n    </div>\n  </body>\n</html>\n",
+                "html_title": "Apache2 Ubuntu Default Page: It works",
+                "body_hash_sha256": "6faef4d5d777fdcaa653766b0ac8b9ed32d0fd87f7dcd79f02ff524dd1b0eb69",
+                "body_hash_sha1": "152a75d80c0bdadb382e1cafe517159cb76a19cc",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "144.172.94.39"
+            }
+          ]
+        }
+      ],
+      "service_count": 3,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-01-28T06:25:26Z",
+          "names": [
+            "39.94.172.144.static.cloudzy.com"
+          ]
+        },
+        "names": [
+          "wolfsmetals.com"
+        ],
+        "forward_dns": {
+          "wolfsmetals.com": {
+            "resolve_time": "2026-01-29T18:26:18Z",
+            "name": "wolfsmetals.com",
+            "record_type": "a"
+          }
+        }
+      },
+      "operating_system": {
+        "vendor": "canonical",
+        "product": "linux"
+      },
+      "labels": [
+        {
+          "value": "BULLETPROOF"
+        }
+      ]
+    },
+    "extensions": {}
+  }
+}

@@ -1,0 +1,1498 @@
+{
+  "result": {
+    "resource": {
+      "ip": "52.5.117.114",
+      "location": {
+        "continent": "North America",
+        "country": "United States",
+        "country_code": "US",
+        "city": "Ashburn",
+        "postal_code": "20147",
+        "timezone": "America/New_York",
+        "province": "Virginia",
+        "coordinates": {
+          "latitude": 39.04372,
+          "longitude": -77.48749
+        }
+      },
+      "autonomous_system": {
+        "asn": 14618,
+        "description": "AMAZON-AES - Amazon.com, Inc.",
+        "bgp_prefix": "52.4.0.0/14",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "country_code": "US"
+      },
+      "whois": {
+        "network": {
+          "handle": "AT-88-Z",
+          "name": "Amazon Technologies Inc.",
+          "cidrs": [
+            "52.0.0.0/10",
+            "52.64.0.0/12"
+          ],
+          "created": "1991-12-19T00:00:00Z",
+          "updated": "2024-02-05T00:00:00Z",
+          "allocation_type": "ALLOCATION"
+        },
+        "organization": {
+          "handle": "AT-88-Z",
+          "name": "Amazon Technologies Inc.",
+          "street": "410 Terry Ave N.",
+          "city": "Seattle",
+          "state": "WA",
+          "postal_code": "98109",
+          "country": "US",
+          "abuse_contacts": [
+            {
+              "handle": "AEA8-ARIN",
+              "name": "Amazon EC2 Abuse",
+              "email": "trustandsafety@support.aws.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "IPMAN40-ARIN",
+              "name": "IP Management",
+              "email": "ipmanagement@amazon.com"
+            }
+          ],
+          "tech_contacts": [
+            {
+              "handle": "ANO24-ARIN",
+              "name": "Amazon EC2 Network Operations",
+              "email": "amzn-noc-contact@amazon.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "ip": "52.5.117.114",
+          "scan_time": "2026-01-31T14:49:54Z",
+          "endpoints": [
+            {
+              "hostname": "52.5.117.114",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T14:49:54Z",
+              "http": {
+                "uri": "http://52.5.117.114/",
+                "protocol": "HTTP/1.1",
+                "status_code": 301,
+                "status_reason": "Moved Permanently",
+                "headers": {
+                  "Content-Length": {
+                    "headers": [
+                      "55"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html; charset=utf-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Location": {
+                    "headers": [
+                      "https://52.5.117.114"
+                    ]
+                  }
+                },
+                "body_size": 55,
+                "body": "<a href=\"https://52.5.117.114\">Moved Permanently</a>.\n\n",
+                "body_hash_sha256": "9be890da73eab38905d96f3d5d063da3edd97c2703ed1f036e2f59ec3232fdcb",
+                "body_hash_sha1": "65f28d78eb96cd19f7859c1b9e94e3a8947f9f6f",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "52.5.117.114"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "d7307fae53e5285371dc2da54eb610660fe85f0a1c03f5349338ae7ae46e28f1",
+            "fingerprint_sha1": "ed2fa6023266c10d184eb624d5fdf2cd23900de5",
+            "fingerprint_md5": "06ba5d89a0a429866c3d306068af4375",
+            "tbs_fingerprint_sha256": "f7f3d8aa9d8c8df356dc57c6d3b825ea90307ff3135362dfac8edc6d045e4583",
+            "tbs_no_ct_fingerprint_sha256": "f17401f5b60ba9b22fa5f8ccdb568635ff9fc968dbc0785eeaca191e1b6d742d",
+            "spki_fingerprint_sha256": "f26c1097ab3d1ee6ab6e8ce0a1c092b6fea7c1d1f2bcea3c10adce5afbe5b2a6",
+            "parent_spki_fingerprint_sha256": "1f70653e95b050d09bff26bc33d1545064c6e1b96d9221cd639133041f6fa653",
+            "parsed": {
+              "version": 3,
+              "serial_number": "9972052082045846478538850042451010354",
+              "issuer_dn": "C=US, O=Amazon, CN=Amazon RSA 2048 M04",
+              "issuer": {
+                "common_name": [
+                  "Amazon RSA 2048 M04"
+                ],
+                "country": [
+                  "US"
+                ],
+                "organization": [
+                  "Amazon"
+                ]
+              },
+              "subject_dn": "CN=proxy.ipfs-prod.eks.infura.org",
+              "subject": {
+                "common_name": [
+                  "proxy.ipfs-prod.eks.infura.org"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "RSA",
+                  "oid": "1.2.840.113549.1.1.1"
+                },
+                "rsa": {
+                  "exponent": 65537,
+                  "modulus": "d11ef3a603320c2864faf6ad539cef2e1ffa947ce7cb61362c088f45f410d5d86086c6b3f927e355e0392495d9d9a87041a1749192b575812021518fbd701cc31bc2410e878bd9e51e7b10fd94be32923595b243857f6aff08da706775caea4eecd848cf6a63e55060c473fd973b50825586c43aa7a563be1bd79ad7508770ed2f07519e38149843cb7fe72b88c7ba824188efc52f97477b775c8fe4bf642c26ca44761e58c46f4f246a9cd989b54e18fec7659487dc960259a118ea7527a0b989118869bc56b76ce056c20625ca2cca0de12e613ad60ba4528af7ae32bcf0638219ded429992a44ae2dcc89020126cfc8e08711a3bc9a3e95dbe74e10080e25",
+                  "length": 2048
+                },
+                "fingerprint_sha256": "81e35af8d53589830884ef6b8e924603ae00bd1f9874f055a4d429fb17227766"
+              },
+              "validity_period": {
+                "not_before": "2025-08-27T00:00:00Z",
+                "not_after": "2026-09-25T23:59:59Z",
+                "length_seconds": 34128000
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "SHA256-RSA",
+                  "oid": "1.2.840.113549.1.1.11"
+                },
+                "value": "9591f223475e865a79ea8801014b5ccee07b3eb01454bae83ea7419d5cb86e1422cf203d2e2d83f62d7dd93481d7ffaecda4f418c41fc720539b9ada0ef2523b9fc31316ae87b8ba08dcab429545de0b30c1b3af0862cf648440b981e3cc5b85206542d2880010ba9ff888be5ed05d7ea0db62e99197dca19fb34e52be5771545dd53350ef68e013c6b8a6f17f70de03fb3e4cc3def4dc5ae77529f8b7af7b8bb6bade31cc963e3aff8147ddb3b7b88cd4610b620b55f13cb74532ccbde344d22e011059f597904052816597dae82b29a0b68876df79130045b8f046a670084d4684713da2f702940b2ad27dda189fa720c4fa84f8e96f81a2c3ff1fabf39555",
+                "valid": true
+              },
+              "serial_number_hex": "07808c20848560d6e13d76ff15f72332"
+            },
+            "names": [
+              "*.ipfs.proxy.ipfs-prod.eks.infura.org",
+              "*.ipns.proxy.ipfs-prod.eks.infura.org",
+              "*.proxy.ipfs-prod.eks.infura.org",
+              "proxy.ipfs-prod.eks.infura.org"
+            ],
+            "validation_level": "dv",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "138bdf6e23ac971eb4e626b279dd6a26f057510f1de394293a5eea2860de019b",
+                      "8ecde6884f3d87b1125ba31ac3fcb13d7016de7f57cc904fe1cb97c6ae98196e"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "138bdf6e23ac971eb4e626b279dd6a26f057510f1de394293a5eea2860de019b",
+                      "391220705b75bcf3ed3cd4b3631213f569d2cf8226101e170799a5354ab12861",
+                      "568d6905a2c88708a4b3025190edcfedb1974a606a13c6e5290fcb2ae63edab5"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "138bdf6e23ac971eb4e626b279dd6a26f057510f1de394293a5eea2860de019b",
+                      "87dcd4dc74640a322cd205552506d1be64f12596258096544986b4850bc72706",
+                      "568d6905a2c88708a4b3025190edcfedb1974a606a13c6e5290fcb2ae63edab5"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "138bdf6e23ac971eb4e626b279dd6a26f057510f1de394293a5eea2860de019b",
+                      "391220705b75bcf3ed3cd4b3631213f569d2cf8226101e170799a5354ab12861",
+                      "28689b30e4c306aab53b027b29e36ad6dd1dcf4b953994482ca84bdc1ecac996",
+                      "1465fa205397b876faa6f0a9958e5590e40fcc7faa4fb7c2c8677521fb5fb658"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "138bdf6e23ac971eb4e626b279dd6a26f057510f1de394293a5eea2860de019b",
+                      "391220705b75bcf3ed3cd4b3631213f569d2cf8226101e170799a5354ab12861",
+                      "2d12b619a660cefb013271831d891213fc434e982a21568256cf4e2e86324bea",
+                      "1465fa205397b876faa6f0a9958e5590e40fcc7faa4fb7c2c8677521fb5fb658"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "138bdf6e23ac971eb4e626b279dd6a26f057510f1de394293a5eea2860de019b"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "138bdf6e23ac971eb4e626b279dd6a26f057510f1de394293a5eea2860de019b",
+                      "8ecde6884f3d87b1125ba31ac3fcb13d7016de7f57cc904fe1cb97c6ae98196e"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "138bdf6e23ac971eb4e626b279dd6a26f057510f1de394293a5eea2860de019b",
+                      "391220705b75bcf3ed3cd4b3631213f569d2cf8226101e170799a5354ab12861",
+                      "568d6905a2c88708a4b3025190edcfedb1974a606a13c6e5290fcb2ae63edab5"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "138bdf6e23ac971eb4e626b279dd6a26f057510f1de394293a5eea2860de019b",
+                      "87dcd4dc74640a322cd205552506d1be64f12596258096544986b4850bc72706",
+                      "568d6905a2c88708a4b3025190edcfedb1974a606a13c6e5290fcb2ae63edab5"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "138bdf6e23ac971eb4e626b279dd6a26f057510f1de394293a5eea2860de019b",
+                      "391220705b75bcf3ed3cd4b3631213f569d2cf8226101e170799a5354ab12861",
+                      "28689b30e4c306aab53b027b29e36ad6dd1dcf4b953994482ca84bdc1ecac996",
+                      "1465fa205397b876faa6f0a9958e5590e40fcc7faa4fb7c2c8677521fb5fb658"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "138bdf6e23ac971eb4e626b279dd6a26f057510f1de394293a5eea2860de019b",
+                      "391220705b75bcf3ed3cd4b3631213f569d2cf8226101e170799a5354ab12861",
+                      "2d12b619a660cefb013271831d891213fc434e982a21568256cf4e2e86324bea",
+                      "1465fa205397b876faa6f0a9958e5590e40fcc7faa4fb7c2c8677521fb5fb658"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "138bdf6e23ac971eb4e626b279dd6a26f057510f1de394293a5eea2860de019b"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "138bdf6e23ac971eb4e626b279dd6a26f057510f1de394293a5eea2860de019b",
+                      "8ecde6884f3d87b1125ba31ac3fcb13d7016de7f57cc904fe1cb97c6ae98196e"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "138bdf6e23ac971eb4e626b279dd6a26f057510f1de394293a5eea2860de019b",
+                      "391220705b75bcf3ed3cd4b3631213f569d2cf8226101e170799a5354ab12861",
+                      "568d6905a2c88708a4b3025190edcfedb1974a606a13c6e5290fcb2ae63edab5"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "138bdf6e23ac971eb4e626b279dd6a26f057510f1de394293a5eea2860de019b",
+                      "87dcd4dc74640a322cd205552506d1be64f12596258096544986b4850bc72706",
+                      "568d6905a2c88708a4b3025190edcfedb1974a606a13c6e5290fcb2ae63edab5"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "138bdf6e23ac971eb4e626b279dd6a26f057510f1de394293a5eea2860de019b",
+                      "391220705b75bcf3ed3cd4b3631213f569d2cf8226101e170799a5354ab12861",
+                      "28689b30e4c306aab53b027b29e36ad6dd1dcf4b953994482ca84bdc1ecac996",
+                      "1465fa205397b876faa6f0a9958e5590e40fcc7faa4fb7c2c8677521fb5fb658"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "138bdf6e23ac971eb4e626b279dd6a26f057510f1de394293a5eea2860de019b",
+                      "391220705b75bcf3ed3cd4b3631213f569d2cf8226101e170799a5354ab12861",
+                      "2d12b619a660cefb013271831d891213fc434e982a21568256cf4e2e86324bea",
+                      "1465fa205397b876faa6f0a9958e5590e40fcc7faa4fb7c2c8677521fb5fb658"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "138bdf6e23ac971eb4e626b279dd6a26f057510f1de394293a5eea2860de019b"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "138bdf6e23ac971eb4e626b279dd6a26f057510f1de394293a5eea2860de019b",
+                      "8ecde6884f3d87b1125ba31ac3fcb13d7016de7f57cc904fe1cb97c6ae98196e"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "138bdf6e23ac971eb4e626b279dd6a26f057510f1de394293a5eea2860de019b"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 496165724,
+                  "added_to_ct_at": "2025-08-27T06:19:03Z",
+                  "ct_to_censys_at": "2025-08-27T06:51:38Z"
+                },
+                "comodo_mammoth_2026_h2": {
+                  "index": 44572330,
+                  "added_to_ct_at": "2025-08-27T06:22:48Z",
+                  "ct_to_censys_at": "2025-08-27T06:35:20Z"
+                },
+                "comodo_sabre_2026_h2": {
+                  "index": 54117007,
+                  "added_to_ct_at": "2025-08-27T06:22:48Z",
+                  "ct_to_censys_at": "2025-08-27T06:31:21Z"
+                },
+                "google_argon_2026_h2": {
+                  "index": 108783771,
+                  "added_to_ct_at": "2025-08-27T06:19:03Z",
+                  "ct_to_censys_at": "2025-08-27T06:29:04Z"
+                },
+                "google_xenon_2026_h2": {
+                  "index": 83367736,
+                  "added_to_ct_at": "2025-08-27T06:19:03Z",
+                  "ct_to_censys_at": "2025-08-27T06:20:51Z"
+                },
+                "sectigo_elephant_2026_h2": {
+                  "index": 42713975,
+                  "added_to_ct_at": "2025-08-27T06:22:49Z",
+                  "ct_to_censys_at": "2025-08-27T06:35:50Z"
+                },
+                "sectigo_tiger_2026_h2": {
+                  "index": 42858219,
+                  "added_to_ct_at": "2025-08-27T06:22:49Z",
+                  "ct_to_censys_at": "2025-08-27T06:32:46Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2025-08-27T05:12:04Z",
+            "modified_at": "2025-09-10T09:15:42Z",
+            "validated_at": "2026-01-30T19:20:41Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "f26c1097ab3d1ee6ab6e8ce0a1c092b6fea7c1d1f2bcea3c10adce5afbe5b2a6",
+            "parent_spki_subject_fingerprint_sha256": "1f70653e95b050d09bff26bc33d1545064c6e1b96d9221cd639133041f6fa653"
+          },
+          "ip": "52.5.117.114",
+          "scan_time": "2026-01-31T14:49:54Z",
+          "tls": {
+            "fingerprint_sha256": "d7307fae53e5285371dc2da54eb610660fe85f0a1c03f5349338ae7ae46e28f1",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "138bdf6e23ac971eb4e626b279dd6a26f057510f1de394293a5eea2860de019b",
+                "subject_dn": "C=US, O=Amazon, CN=Amazon RSA 2048 M04",
+                "issuer_dn": "C=US, O=Amazon, CN=Amazon Root CA 1"
+              },
+              {
+                "fingerprint_sha256": "87dcd4dc74640a322cd205552506d1be64f12596258096544986b4850bc72706",
+                "subject_dn": "C=US, O=Amazon, CN=Amazon Root CA 1",
+                "issuer_dn": "C=US, ST=Arizona, L=Scottsdale, O=Starfield Technologies\\, Inc., CN=Starfield Services Root Certificate Authority - G2"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "52.5.117.114",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T14:49:54Z",
+              "http": {
+                "uri": "https://52.5.117.114/",
+                "protocol": "HTTP/1.1",
+                "status_code": 400,
+                "status_reason": "Bad Request",
+                "headers": {
+                  "Content-Length": {
+                    "headers": [
+                      "19"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/plain; charset=utf-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "X-Content-Type-Options": {
+                    "headers": [
+                      "nosniff"
+                    ]
+                  },
+                  "X-Robots-Tag": {
+                    "headers": [
+                      "noindex"
+                    ]
+                  }
+                },
+                "body_size": 19,
+                "body": "unsupported domain\n",
+                "body_hash_sha256": "a3dd3bc5eab656d48163349e6d397444656beea2428c780f1e644a5f6a055ebc",
+                "body_hash_sha1": "f4e0898e8dffd4253aee1d662cc9524592a0c551",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "52.5.117.114"
+            }
+          ]
+        },
+        {
+          "port": 5001,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "d7307fae53e5285371dc2da54eb610660fe85f0a1c03f5349338ae7ae46e28f1",
+            "fingerprint_sha1": "ed2fa6023266c10d184eb624d5fdf2cd23900de5",
+            "fingerprint_md5": "06ba5d89a0a429866c3d306068af4375",
+            "tbs_fingerprint_sha256": "f7f3d8aa9d8c8df356dc57c6d3b825ea90307ff3135362dfac8edc6d045e4583",
+            "tbs_no_ct_fingerprint_sha256": "f17401f5b60ba9b22fa5f8ccdb568635ff9fc968dbc0785eeaca191e1b6d742d",
+            "spki_fingerprint_sha256": "f26c1097ab3d1ee6ab6e8ce0a1c092b6fea7c1d1f2bcea3c10adce5afbe5b2a6",
+            "parent_spki_fingerprint_sha256": "1f70653e95b050d09bff26bc33d1545064c6e1b96d9221cd639133041f6fa653",
+            "parsed": {
+              "version": 3,
+              "serial_number": "9972052082045846478538850042451010354",
+              "issuer_dn": "C=US, O=Amazon, CN=Amazon RSA 2048 M04",
+              "issuer": {
+                "common_name": [
+                  "Amazon RSA 2048 M04"
+                ],
+                "country": [
+                  "US"
+                ],
+                "organization": [
+                  "Amazon"
+                ]
+              },
+              "subject_dn": "CN=proxy.ipfs-prod.eks.infura.org",
+              "subject": {
+                "common_name": [
+                  "proxy.ipfs-prod.eks.infura.org"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "RSA",
+                  "oid": "1.2.840.113549.1.1.1"
+                },
+                "rsa": {
+                  "exponent": 65537,
+                  "modulus": "d11ef3a603320c2864faf6ad539cef2e1ffa947ce7cb61362c088f45f410d5d86086c6b3f927e355e0392495d9d9a87041a1749192b575812021518fbd701cc31bc2410e878bd9e51e7b10fd94be32923595b243857f6aff08da706775caea4eecd848cf6a63e55060c473fd973b50825586c43aa7a563be1bd79ad7508770ed2f07519e38149843cb7fe72b88c7ba824188efc52f97477b775c8fe4bf642c26ca44761e58c46f4f246a9cd989b54e18fec7659487dc960259a118ea7527a0b989118869bc56b76ce056c20625ca2cca0de12e613ad60ba4528af7ae32bcf0638219ded429992a44ae2dcc89020126cfc8e08711a3bc9a3e95dbe74e10080e25",
+                  "length": 2048
+                },
+                "fingerprint_sha256": "81e35af8d53589830884ef6b8e924603ae00bd1f9874f055a4d429fb17227766"
+              },
+              "validity_period": {
+                "not_before": "2025-08-27T00:00:00Z",
+                "not_after": "2026-09-25T23:59:59Z",
+                "length_seconds": 34128000
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "SHA256-RSA",
+                  "oid": "1.2.840.113549.1.1.11"
+                },
+                "value": "9591f223475e865a79ea8801014b5ccee07b3eb01454bae83ea7419d5cb86e1422cf203d2e2d83f62d7dd93481d7ffaecda4f418c41fc720539b9ada0ef2523b9fc31316ae87b8ba08dcab429545de0b30c1b3af0862cf648440b981e3cc5b85206542d2880010ba9ff888be5ed05d7ea0db62e99197dca19fb34e52be5771545dd53350ef68e013c6b8a6f17f70de03fb3e4cc3def4dc5ae77529f8b7af7b8bb6bade31cc963e3aff8147ddb3b7b88cd4610b620b55f13cb74532ccbde344d22e011059f597904052816597dae82b29a0b68876df79130045b8f046a670084d4684713da2f702940b2ad27dda189fa720c4fa84f8e96f81a2c3ff1fabf39555",
+                "valid": true
+              },
+              "serial_number_hex": "07808c20848560d6e13d76ff15f72332"
+            },
+            "names": [
+              "*.ipfs.proxy.ipfs-prod.eks.infura.org",
+              "*.ipns.proxy.ipfs-prod.eks.infura.org",
+              "*.proxy.ipfs-prod.eks.infura.org",
+              "proxy.ipfs-prod.eks.infura.org"
+            ],
+            "validation_level": "dv",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "138bdf6e23ac971eb4e626b279dd6a26f057510f1de394293a5eea2860de019b",
+                      "8ecde6884f3d87b1125ba31ac3fcb13d7016de7f57cc904fe1cb97c6ae98196e"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "138bdf6e23ac971eb4e626b279dd6a26f057510f1de394293a5eea2860de019b",
+                      "391220705b75bcf3ed3cd4b3631213f569d2cf8226101e170799a5354ab12861",
+                      "568d6905a2c88708a4b3025190edcfedb1974a606a13c6e5290fcb2ae63edab5"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "138bdf6e23ac971eb4e626b279dd6a26f057510f1de394293a5eea2860de019b",
+                      "87dcd4dc74640a322cd205552506d1be64f12596258096544986b4850bc72706",
+                      "568d6905a2c88708a4b3025190edcfedb1974a606a13c6e5290fcb2ae63edab5"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "138bdf6e23ac971eb4e626b279dd6a26f057510f1de394293a5eea2860de019b",
+                      "391220705b75bcf3ed3cd4b3631213f569d2cf8226101e170799a5354ab12861",
+                      "28689b30e4c306aab53b027b29e36ad6dd1dcf4b953994482ca84bdc1ecac996",
+                      "1465fa205397b876faa6f0a9958e5590e40fcc7faa4fb7c2c8677521fb5fb658"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "138bdf6e23ac971eb4e626b279dd6a26f057510f1de394293a5eea2860de019b",
+                      "391220705b75bcf3ed3cd4b3631213f569d2cf8226101e170799a5354ab12861",
+                      "2d12b619a660cefb013271831d891213fc434e982a21568256cf4e2e86324bea",
+                      "1465fa205397b876faa6f0a9958e5590e40fcc7faa4fb7c2c8677521fb5fb658"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "138bdf6e23ac971eb4e626b279dd6a26f057510f1de394293a5eea2860de019b"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "138bdf6e23ac971eb4e626b279dd6a26f057510f1de394293a5eea2860de019b",
+                      "8ecde6884f3d87b1125ba31ac3fcb13d7016de7f57cc904fe1cb97c6ae98196e"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "138bdf6e23ac971eb4e626b279dd6a26f057510f1de394293a5eea2860de019b",
+                      "391220705b75bcf3ed3cd4b3631213f569d2cf8226101e170799a5354ab12861",
+                      "568d6905a2c88708a4b3025190edcfedb1974a606a13c6e5290fcb2ae63edab5"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "138bdf6e23ac971eb4e626b279dd6a26f057510f1de394293a5eea2860de019b",
+                      "87dcd4dc74640a322cd205552506d1be64f12596258096544986b4850bc72706",
+                      "568d6905a2c88708a4b3025190edcfedb1974a606a13c6e5290fcb2ae63edab5"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "138bdf6e23ac971eb4e626b279dd6a26f057510f1de394293a5eea2860de019b",
+                      "391220705b75bcf3ed3cd4b3631213f569d2cf8226101e170799a5354ab12861",
+                      "28689b30e4c306aab53b027b29e36ad6dd1dcf4b953994482ca84bdc1ecac996",
+                      "1465fa205397b876faa6f0a9958e5590e40fcc7faa4fb7c2c8677521fb5fb658"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "138bdf6e23ac971eb4e626b279dd6a26f057510f1de394293a5eea2860de019b",
+                      "391220705b75bcf3ed3cd4b3631213f569d2cf8226101e170799a5354ab12861",
+                      "2d12b619a660cefb013271831d891213fc434e982a21568256cf4e2e86324bea",
+                      "1465fa205397b876faa6f0a9958e5590e40fcc7faa4fb7c2c8677521fb5fb658"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "138bdf6e23ac971eb4e626b279dd6a26f057510f1de394293a5eea2860de019b"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "138bdf6e23ac971eb4e626b279dd6a26f057510f1de394293a5eea2860de019b",
+                      "8ecde6884f3d87b1125ba31ac3fcb13d7016de7f57cc904fe1cb97c6ae98196e"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "138bdf6e23ac971eb4e626b279dd6a26f057510f1de394293a5eea2860de019b",
+                      "391220705b75bcf3ed3cd4b3631213f569d2cf8226101e170799a5354ab12861",
+                      "568d6905a2c88708a4b3025190edcfedb1974a606a13c6e5290fcb2ae63edab5"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "138bdf6e23ac971eb4e626b279dd6a26f057510f1de394293a5eea2860de019b",
+                      "87dcd4dc74640a322cd205552506d1be64f12596258096544986b4850bc72706",
+                      "568d6905a2c88708a4b3025190edcfedb1974a606a13c6e5290fcb2ae63edab5"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "138bdf6e23ac971eb4e626b279dd6a26f057510f1de394293a5eea2860de019b",
+                      "391220705b75bcf3ed3cd4b3631213f569d2cf8226101e170799a5354ab12861",
+                      "28689b30e4c306aab53b027b29e36ad6dd1dcf4b953994482ca84bdc1ecac996",
+                      "1465fa205397b876faa6f0a9958e5590e40fcc7faa4fb7c2c8677521fb5fb658"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "138bdf6e23ac971eb4e626b279dd6a26f057510f1de394293a5eea2860de019b",
+                      "391220705b75bcf3ed3cd4b3631213f569d2cf8226101e170799a5354ab12861",
+                      "2d12b619a660cefb013271831d891213fc434e982a21568256cf4e2e86324bea",
+                      "1465fa205397b876faa6f0a9958e5590e40fcc7faa4fb7c2c8677521fb5fb658"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "138bdf6e23ac971eb4e626b279dd6a26f057510f1de394293a5eea2860de019b"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "138bdf6e23ac971eb4e626b279dd6a26f057510f1de394293a5eea2860de019b",
+                      "8ecde6884f3d87b1125ba31ac3fcb13d7016de7f57cc904fe1cb97c6ae98196e"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "138bdf6e23ac971eb4e626b279dd6a26f057510f1de394293a5eea2860de019b"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 496165724,
+                  "added_to_ct_at": "2025-08-27T06:19:03Z",
+                  "ct_to_censys_at": "2025-08-27T06:51:38Z"
+                },
+                "comodo_mammoth_2026_h2": {
+                  "index": 44572330,
+                  "added_to_ct_at": "2025-08-27T06:22:48Z",
+                  "ct_to_censys_at": "2025-08-27T06:35:20Z"
+                },
+                "comodo_sabre_2026_h2": {
+                  "index": 54117007,
+                  "added_to_ct_at": "2025-08-27T06:22:48Z",
+                  "ct_to_censys_at": "2025-08-27T06:31:21Z"
+                },
+                "google_argon_2026_h2": {
+                  "index": 108783771,
+                  "added_to_ct_at": "2025-08-27T06:19:03Z",
+                  "ct_to_censys_at": "2025-08-27T06:29:04Z"
+                },
+                "google_xenon_2026_h2": {
+                  "index": 83367736,
+                  "added_to_ct_at": "2025-08-27T06:19:03Z",
+                  "ct_to_censys_at": "2025-08-27T06:20:51Z"
+                },
+                "sectigo_elephant_2026_h2": {
+                  "index": 42713975,
+                  "added_to_ct_at": "2025-08-27T06:22:49Z",
+                  "ct_to_censys_at": "2025-08-27T06:35:50Z"
+                },
+                "sectigo_tiger_2026_h2": {
+                  "index": 42858219,
+                  "added_to_ct_at": "2025-08-27T06:22:49Z",
+                  "ct_to_censys_at": "2025-08-27T06:32:46Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2025-08-27T05:12:04Z",
+            "modified_at": "2025-09-10T09:15:42Z",
+            "validated_at": "2026-01-30T19:20:41Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "f26c1097ab3d1ee6ab6e8ce0a1c092b6fea7c1d1f2bcea3c10adce5afbe5b2a6",
+            "parent_spki_subject_fingerprint_sha256": "1f70653e95b050d09bff26bc33d1545064c6e1b96d9221cd639133041f6fa653"
+          },
+          "ip": "52.5.117.114",
+          "scan_time": "2026-01-31T01:06:27Z",
+          "tls": {
+            "fingerprint_sha256": "d7307fae53e5285371dc2da54eb610660fe85f0a1c03f5349338ae7ae46e28f1",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "138bdf6e23ac971eb4e626b279dd6a26f057510f1de394293a5eea2860de019b",
+                "subject_dn": "C=US, O=Amazon, CN=Amazon RSA 2048 M04",
+                "issuer_dn": "C=US, O=Amazon, CN=Amazon Root CA 1"
+              },
+              {
+                "fingerprint_sha256": "87dcd4dc74640a322cd205552506d1be64f12596258096544986b4850bc72706",
+                "subject_dn": "C=US, O=Amazon, CN=Amazon Root CA 1",
+                "issuer_dn": "C=US, ST=Arizona, L=Scottsdale, O=Starfield Technologies\\, Inc., CN=Starfield Services Root Certificate Authority - G2"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "52.5.117.114",
+              "port": 5001,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T01:06:27Z",
+              "http": {
+                "uri": "https://52.5.117.114:5001/",
+                "protocol": "HTTP/1.1",
+                "status_code": 401,
+                "status_reason": "Unauthorized",
+                "headers": {
+                  "Content-Length": {
+                    "headers": [
+                      "20"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/plain; charset=utf-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Vary": {
+                    "headers": [
+                      "Origin"
+                    ]
+                  },
+                  "Www-Authenticate": {
+                    "headers": [
+                      "Basic realm=\"Project ID is required\""
+                    ]
+                  },
+                  "X-Content-Type-Options": {
+                    "headers": [
+                      "nosniff"
+                    ]
+                  },
+                  "X-Robots-Tag": {
+                    "headers": [
+                      "noindex"
+                    ]
+                  }
+                },
+                "body_size": 20,
+                "body": "project id required\n",
+                "body_hash_sha256": "8b6c8e5a966099b87e8ef663640c0caec8d4069c069c1c904bf773ae2552a935",
+                "body_hash_sha1": "d980dd8737b207a6192919742dd2f0bf391b9b24",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "52.5.117.114"
+            },
+            {
+              "hostname": "52.5.117.114",
+              "port": 5001,
+              "path": "/robots.txt",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-30T17:01:24Z",
+              "http": {
+                "uri": "https://52.5.117.114:5001/robots.txt",
+                "protocol": "HTTP/1.1",
+                "status_code": 200,
+                "status_reason": "OK",
+                "headers": {
+                  "Content-Length": {
+                    "headers": [
+                      "26"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/plain; charset=utf-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  }
+                },
+                "body_size": 26,
+                "body": "User-agent: *\nDisallow: /\n",
+                "body_hash_sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
+                "body_hash_sha1": "63657cbb7d7086c56b0cd4e5c6999bb683664868",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "52.5.117.114"
+            }
+          ]
+        }
+      ],
+      "service_count": 3,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-01-29T15:53:56Z",
+          "names": [
+            "ec2-52-5-117-114.compute-1.amazonaws.com"
+          ]
+        },
+        "names": [
+          "ipfs.web3.coach",
+          "denver.f.ipfs.infura.io",
+          "eyo68gz3w3w81ozs.ipfs.infura.io",
+          "yz.ipfs.infura.io",
+          "vk.ipfs.infura.io",
+          "v6rduk5k6a2zf85z.ipfs.infura.io",
+          "9750405.fls.ipfs.infura.io",
+          "0jqx69g11fqf543j.ipfs.ipfs.infura.io",
+          "zu5j5q6ts29qmssg.ipfs.ipfs.infura.io",
+          "ipfs-wallet.ipfs.infura.io",
+          "jrg2bs9fktcfk9ht.ipfs.infura.io",
+          "klcssjaa15bzvsvi.ipfs.ipfs.infura.io",
+          "n39rn2183zmq.s.ipfs.infura.io",
+          "fr3.ipfs.infura.io",
+          "walletconnectipns.ipfs.infura.io",
+          "ej407dl7hwvr0ulr.fls.ipfs.infura.io",
+          "9768490.fls.ipfs.infura.io",
+          "ipfs-ms.ipfs.infura.io",
+          "fod.ipfs.infura.io",
+          "k720npntm9l6qpw4.ipfs.infura.io",
+          "nabtrade.sc.ipfs.infura.io",
+          "newhouse.gz.ipfs.infura.io",
+          "esi.ipfs.infura.io",
+          "w4.ipfs.infura.io",
+          "oouy1jazetipszm8.ipfs.infura.io",
+          "ecm.ipfs.infura.io",
+          "7itk9ymv4uqy5h20.ipfs.infura.io",
+          "lite1.7.ipfs.infura.io",
+          "6s.ipfs.infura.io",
+          "497.ipfs.infura.io",
+          "broadcast-ip.ipfs.infura.io",
+          "www.ad2.ipfs.infura.io",
+          "e1.ipfs.infura.io",
+          "abu.ipfs.infura.io",
+          "awg56tkowkgbtk2m.ipfs.infura.io",
+          "documents-ipfs.ipfs.infura.io",
+          "9ks1v5ksfzfmz3vc.ipfs.infura.io",
+          "img.e.ipfs.infura.io",
+          "mail.av.ipfs.infura.io",
+          "bgs.ipfs.infura.io",
+          "dtx.ipfs.infura.io",
+          "ej407dl7hwvr0ulr.cdn.ipfs.infura.io",
+          "dcc.ipfs.infura.io",
+          "bun.ipfs.infura.io",
+          "2iqsd80tlezspf52.ipfs.infura.io",
+          "ipfs.infura-ipfs.io",
+          "dogelonspaceships.infura-ipfs.io",
+          "ipfslabs.ipfs.infura.io",
+          "z98nav33cuj2hkn5.ipfs.ipfs.infura.io",
+          "wf8ja2r47lj7fy23.ipfs.ipfs.infura.io",
+          "rxjz5asq43o8khhb.ipfs.infura.io",
+          "jefebbyeegwhuqjp.usphpipfs.ipfs.infura.io",
+          "i7.ipfs.infura.io",
+          "ksrnyn4n8gg7n7vt.ipfs.infura.io",
+          "onnowtv.api.ipfs.infura.io",
+          "bf.ipfs.infura.io",
+          "bqw.ipfs.infura.io",
+          "ygldmgdeab4ij6uw.ipfs.ipfs.infura.io",
+          "avy.ipfs.infura.io",
+          "drb.ipfs.infura.io",
+          "y3vn709bjry3wdrr.ipfs.ipfs.infura.io",
+          "xus02c8j212oou5r.ipfs.ipfs.infura.io",
+          "v3.f.ipfs.infura.io",
+          "c2zfzesz8hij4hq4.ipfs.infura.io",
+          "ej407dl7hwvr0ulr.s3ipns.ipfs.infura.io",
+          "llv63q5m2kd4povz.ipfs.infura.io",
+          "ej407dl7hwvr0ulr.ipfs.infura.io",
+          "intranet.fm.ipfs.infura.io",
+          "yrje4htef1wk.n.ipfs.infura.io",
+          "atn.ipfs.infura.io",
+          "ipnsproduction.ipfs.infura.io",
+          "ipns-webmaster.ipfs.infura.io",
+          "ipfs.metafi.ipfs.infura.io",
+          "raw-ipns.ipfs.infura.io",
+          "khtsgupt46lsme28.ipfs.ipfs.infura.io",
+          "iy8uof6wxjiunvdg.ipfs.ipfs.infura.io",
+          "ko699qej0wq7pymh.ipfs.infura.io",
+          "njgq6k750zf9wr0f.ipfs.infura.io",
+          "cn-ipns.ipfs.infura.io",
+          "9252279.fls.ipfs.infura.io",
+          "observability.ipfs.ipfs.infura.io",
+          "dwd.ipfs.infura.io",
+          "8p4pidzxghevhsvn.ipfs.ipfs.infura.io",
+          "afm.ipfs.infura.io",
+          "910.ipfs.infura.io",
+          "communityipns.api.ipfs.infura.io",
+          "payipfs.ipfs.infura.io",
+          "www.amy.ipfs.infura.io",
+          "18b.ipfs.infura.io",
+          "144.ipfs.infura.io",
+          "nj841svwpnmm1ty4.ipfs.infura.io",
+          "www.me.ipfs.infura.io",
+          "ado.ipfs.infura.io",
+          "documentationipns.ipfs.infura.io",
+          "mail.080.ipfs.infura.io",
+          "docs-uatipns.ipfs.infura.io",
+          "ipfsai.ipfs.infura.io",
+          "zhu7a4x7uddzx5n7.ipfs.ipfs.infura.io",
+          "ipns-frankfurt.ipfs.infura.io",
+          "southeast.ipns.ipfs.infura.io"
+        ],
+        "forward_dns": {
+          "0jqx69g11fqf543j.ipfs.ipfs.infura.io": {
+            "resolve_time": "2026-01-30T12:40:35Z",
+            "name": "0jqx69g11fqf543j.ipfs.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "144.ipfs.infura.io": {
+            "resolve_time": "2026-01-27T16:02:03Z",
+            "name": "144.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "18b.ipfs.infura.io": {
+            "resolve_time": "2026-01-27T16:02:03Z",
+            "name": "18b.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "2iqsd80tlezspf52.ipfs.infura.io": {
+            "resolve_time": "2026-01-30T12:40:30Z",
+            "name": "2iqsd80tlezspf52.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "497.ipfs.infura.io": {
+            "resolve_time": "2026-01-30T12:40:31Z",
+            "name": "497.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "6s.ipfs.infura.io": {
+            "resolve_time": "2026-01-30T12:40:32Z",
+            "name": "6s.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "7itk9ymv4uqy5h20.ipfs.infura.io": {
+            "resolve_time": "2026-01-30T12:40:33Z",
+            "name": "7itk9ymv4uqy5h20.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "8p4pidzxghevhsvn.ipfs.ipfs.infura.io": {
+            "resolve_time": "2026-01-28T14:22:35Z",
+            "name": "8p4pidzxghevhsvn.ipfs.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "910.ipfs.infura.io": {
+            "resolve_time": "2026-01-28T14:22:35Z",
+            "name": "910.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "9252279.fls.ipfs.infura.io": {
+            "resolve_time": "2026-01-28T14:22:35Z",
+            "name": "9252279.fls.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "9750405.fls.ipfs.infura.io": {
+            "resolve_time": "2026-01-30T12:40:35Z",
+            "name": "9750405.fls.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "9768490.fls.ipfs.infura.io": {
+            "resolve_time": "2026-01-30T12:40:34Z",
+            "name": "9768490.fls.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "9ks1v5ksfzfmz3vc.ipfs.infura.io": {
+            "resolve_time": "2026-01-30T12:40:30Z",
+            "name": "9ks1v5ksfzfmz3vc.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "abu.ipfs.infura.io": {
+            "resolve_time": "2026-01-30T12:40:30Z",
+            "name": "abu.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "ado.ipfs.infura.io": {
+            "resolve_time": "2026-01-27T16:02:02Z",
+            "name": "ado.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "afm.ipfs.infura.io": {
+            "resolve_time": "2026-01-28T14:22:35Z",
+            "name": "afm.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "atn.ipfs.infura.io": {
+            "resolve_time": "2026-01-28T14:22:37Z",
+            "name": "atn.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "avy.ipfs.infura.io": {
+            "resolve_time": "2026-01-29T15:40:57Z",
+            "name": "avy.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "awg56tkowkgbtk2m.ipfs.infura.io": {
+            "resolve_time": "2026-01-30T12:40:30Z",
+            "name": "awg56tkowkgbtk2m.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "bf.ipfs.infura.io": {
+            "resolve_time": "2026-01-29T15:40:57Z",
+            "name": "bf.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "bgs.ipfs.infura.io": {
+            "resolve_time": "2026-01-30T12:40:30Z",
+            "name": "bgs.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "bqw.ipfs.infura.io": {
+            "resolve_time": "2026-01-29T15:40:57Z",
+            "name": "bqw.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "broadcast-ip.ipfs.infura.io": {
+            "resolve_time": "2026-01-30T12:40:31Z",
+            "name": "broadcast-ip.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "bun.ipfs.infura.io": {
+            "resolve_time": "2026-01-30T12:40:30Z",
+            "name": "bun.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "c2zfzesz8hij4hq4.ipfs.infura.io": {
+            "resolve_time": "2026-01-28T14:22:38Z",
+            "name": "c2zfzesz8hij4hq4.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "cn-ipns.ipfs.infura.io": {
+            "resolve_time": "2026-01-28T14:22:36Z",
+            "name": "cn-ipns.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "communityipns.api.ipfs.infura.io": {
+            "resolve_time": "2026-01-28T14:22:35Z",
+            "name": "communityipns.api.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "dcc.ipfs.infura.io": {
+            "resolve_time": "2026-01-30T12:40:30Z",
+            "name": "dcc.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "denver.f.ipfs.infura.io": {
+            "resolve_time": "2026-01-30T12:40:38Z",
+            "name": "denver.f.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "docs-uatipns.ipfs.infura.io": {
+            "resolve_time": "2026-01-27T16:02:02Z",
+            "name": "docs-uatipns.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "documentationipns.ipfs.infura.io": {
+            "resolve_time": "2026-01-27T16:02:02Z",
+            "name": "documentationipns.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "documents-ipfs.ipfs.infura.io": {
+            "resolve_time": "2026-01-30T12:40:30Z",
+            "name": "documents-ipfs.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "dogelonspaceships.infura-ipfs.io": {
+            "resolve_time": "2026-01-30T12:40:30Z",
+            "name": "dogelonspaceships.infura-ipfs.io",
+            "record_type": "a"
+          },
+          "drb.ipfs.infura.io": {
+            "resolve_time": "2026-01-29T15:40:57Z",
+            "name": "drb.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "dtx.ipfs.infura.io": {
+            "resolve_time": "2026-01-30T12:40:30Z",
+            "name": "dtx.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "dwd.ipfs.infura.io": {
+            "resolve_time": "2026-01-28T14:22:35Z",
+            "name": "dwd.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "e1.ipfs.infura.io": {
+            "resolve_time": "2026-01-30T12:40:30Z",
+            "name": "e1.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "ecm.ipfs.infura.io": {
+            "resolve_time": "2026-01-30T12:40:33Z",
+            "name": "ecm.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "ej407dl7hwvr0ulr.cdn.ipfs.infura.io": {
+            "resolve_time": "2026-01-30T12:40:30Z",
+            "name": "ej407dl7hwvr0ulr.cdn.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "ej407dl7hwvr0ulr.fls.ipfs.infura.io": {
+            "resolve_time": "2026-01-30T12:40:34Z",
+            "name": "ej407dl7hwvr0ulr.fls.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "ej407dl7hwvr0ulr.ipfs.infura.io": {
+            "resolve_time": "2026-01-28T14:22:37Z",
+            "name": "ej407dl7hwvr0ulr.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "ej407dl7hwvr0ulr.s3ipns.ipfs.infura.io": {
+            "resolve_time": "2026-01-28T14:22:37Z",
+            "name": "ej407dl7hwvr0ulr.s3ipns.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "esi.ipfs.infura.io": {
+            "resolve_time": "2026-01-30T12:40:33Z",
+            "name": "esi.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "eyo68gz3w3w81ozs.ipfs.infura.io": {
+            "resolve_time": "2026-01-30T12:40:38Z",
+            "name": "eyo68gz3w3w81ozs.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "fod.ipfs.infura.io": {
+            "resolve_time": "2026-01-30T12:40:34Z",
+            "name": "fod.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "fr3.ipfs.infura.io": {
+            "resolve_time": "2026-01-30T12:40:34Z",
+            "name": "fr3.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "i7.ipfs.infura.io": {
+            "resolve_time": "2026-01-29T15:40:57Z",
+            "name": "i7.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "img.e.ipfs.infura.io": {
+            "resolve_time": "2026-01-30T12:40:30Z",
+            "name": "img.e.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "intranet.fm.ipfs.infura.io": {
+            "resolve_time": "2026-01-28T14:22:37Z",
+            "name": "intranet.fm.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "ipfs-ms.ipfs.infura.io": {
+            "resolve_time": "2026-01-30T12:40:34Z",
+            "name": "ipfs-ms.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "ipfs-wallet.ipfs.infura.io": {
+            "resolve_time": "2026-01-30T12:40:34Z",
+            "name": "ipfs-wallet.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "ipfs.infura-ipfs.io": {
+            "resolve_time": "2026-01-30T12:40:30Z",
+            "name": "ipfs.infura-ipfs.io",
+            "record_type": "a"
+          },
+          "ipfs.metafi.ipfs.infura.io": {
+            "resolve_time": "2026-01-28T14:22:36Z",
+            "name": "ipfs.metafi.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "ipfs.web3.coach": {
+            "resolve_time": "2026-01-31T12:10:11Z",
+            "name": "ipfs.web3.coach",
+            "record_type": "a"
+          },
+          "ipfsai.ipfs.infura.io": {
+            "resolve_time": "2026-01-27T16:02:02Z",
+            "name": "ipfsai.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "ipfslabs.ipfs.infura.io": {
+            "resolve_time": "2026-01-29T15:40:58Z",
+            "name": "ipfslabs.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "ipns-frankfurt.ipfs.infura.io": {
+            "resolve_time": "2026-01-27T16:02:01Z",
+            "name": "ipns-frankfurt.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "ipns-webmaster.ipfs.infura.io": {
+            "resolve_time": "2026-01-28T14:22:36Z",
+            "name": "ipns-webmaster.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "ipnsproduction.ipfs.infura.io": {
+            "resolve_time": "2026-01-28T14:22:37Z",
+            "name": "ipnsproduction.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "iy8uof6wxjiunvdg.ipfs.ipfs.infura.io": {
+            "resolve_time": "2026-01-28T14:22:36Z",
+            "name": "iy8uof6wxjiunvdg.ipfs.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "jefebbyeegwhuqjp.usphpipfs.ipfs.infura.io": {
+            "resolve_time": "2026-01-29T15:40:57Z",
+            "name": "jefebbyeegwhuqjp.usphpipfs.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "jrg2bs9fktcfk9ht.ipfs.infura.io": {
+            "resolve_time": "2026-01-30T12:40:34Z",
+            "name": "jrg2bs9fktcfk9ht.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "k720npntm9l6qpw4.ipfs.infura.io": {
+            "resolve_time": "2026-01-30T12:40:34Z",
+            "name": "k720npntm9l6qpw4.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "khtsgupt46lsme28.ipfs.ipfs.infura.io": {
+            "resolve_time": "2026-01-28T14:22:36Z",
+            "name": "khtsgupt46lsme28.ipfs.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "klcssjaa15bzvsvi.ipfs.ipfs.infura.io": {
+            "resolve_time": "2026-01-30T12:40:34Z",
+            "name": "klcssjaa15bzvsvi.ipfs.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "ko699qej0wq7pymh.ipfs.infura.io": {
+            "resolve_time": "2026-01-28T14:22:36Z",
+            "name": "ko699qej0wq7pymh.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "ksrnyn4n8gg7n7vt.ipfs.infura.io": {
+            "resolve_time": "2026-01-29T15:40:57Z",
+            "name": "ksrnyn4n8gg7n7vt.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "lite1.7.ipfs.infura.io": {
+            "resolve_time": "2026-01-30T12:40:32Z",
+            "name": "lite1.7.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "llv63q5m2kd4povz.ipfs.infura.io": {
+            "resolve_time": "2026-01-28T14:22:37Z",
+            "name": "llv63q5m2kd4povz.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "mail.080.ipfs.infura.io": {
+            "resolve_time": "2026-01-27T16:02:02Z",
+            "name": "mail.080.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "mail.av.ipfs.infura.io": {
+            "resolve_time": "2026-01-30T12:40:30Z",
+            "name": "mail.av.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "n39rn2183zmq.s.ipfs.infura.io": {
+            "resolve_time": "2026-01-30T12:40:34Z",
+            "name": "n39rn2183zmq.s.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "nabtrade.sc.ipfs.infura.io": {
+            "resolve_time": "2026-01-30T12:40:33Z",
+            "name": "nabtrade.sc.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "newhouse.gz.ipfs.infura.io": {
+            "resolve_time": "2026-01-30T12:40:33Z",
+            "name": "newhouse.gz.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "nj841svwpnmm1ty4.ipfs.infura.io": {
+            "resolve_time": "2026-01-27T16:02:02Z",
+            "name": "nj841svwpnmm1ty4.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "njgq6k750zf9wr0f.ipfs.infura.io": {
+            "resolve_time": "2026-01-28T14:22:36Z",
+            "name": "njgq6k750zf9wr0f.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "observability.ipfs.ipfs.infura.io": {
+            "resolve_time": "2026-01-28T14:22:35Z",
+            "name": "observability.ipfs.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "onnowtv.api.ipfs.infura.io": {
+            "resolve_time": "2026-01-29T15:40:57Z",
+            "name": "onnowtv.api.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "oouy1jazetipszm8.ipfs.infura.io": {
+            "resolve_time": "2026-01-30T12:40:33Z",
+            "name": "oouy1jazetipszm8.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "payipfs.ipfs.infura.io": {
+            "resolve_time": "2026-01-27T16:02:07Z",
+            "name": "payipfs.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "raw-ipns.ipfs.infura.io": {
+            "resolve_time": "2026-01-28T14:22:36Z",
+            "name": "raw-ipns.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "rxjz5asq43o8khhb.ipfs.infura.io": {
+            "resolve_time": "2026-01-29T15:40:57Z",
+            "name": "rxjz5asq43o8khhb.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "southeast.ipns.ipfs.infura.io": {
+            "resolve_time": "2026-01-27T16:02:01Z",
+            "name": "southeast.ipns.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "v3.f.ipfs.infura.io": {
+            "resolve_time": "2026-01-28T14:22:38Z",
+            "name": "v3.f.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "v6rduk5k6a2zf85z.ipfs.infura.io": {
+            "resolve_time": "2026-01-30T12:40:36Z",
+            "name": "v6rduk5k6a2zf85z.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "vk.ipfs.infura.io": {
+            "resolve_time": "2026-01-30T12:40:36Z",
+            "name": "vk.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "w4.ipfs.infura.io": {
+            "resolve_time": "2026-01-30T12:40:33Z",
+            "name": "w4.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "walletconnectipns.ipfs.infura.io": {
+            "resolve_time": "2026-01-30T12:40:34Z",
+            "name": "walletconnectipns.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "wf8ja2r47lj7fy23.ipfs.ipfs.infura.io": {
+            "resolve_time": "2026-01-29T15:40:58Z",
+            "name": "wf8ja2r47lj7fy23.ipfs.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "www.ad2.ipfs.infura.io": {
+            "resolve_time": "2026-01-30T12:40:31Z",
+            "name": "www.ad2.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "www.amy.ipfs.infura.io": {
+            "resolve_time": "2026-01-27T16:02:03Z",
+            "name": "www.amy.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "www.me.ipfs.infura.io": {
+            "resolve_time": "2026-01-27T16:02:02Z",
+            "name": "www.me.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "xus02c8j212oou5r.ipfs.ipfs.infura.io": {
+            "resolve_time": "2026-01-28T14:22:41Z",
+            "name": "xus02c8j212oou5r.ipfs.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "y3vn709bjry3wdrr.ipfs.ipfs.infura.io": {
+            "resolve_time": "2026-01-28T14:22:41Z",
+            "name": "y3vn709bjry3wdrr.ipfs.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "ygldmgdeab4ij6uw.ipfs.ipfs.infura.io": {
+            "resolve_time": "2026-01-29T15:40:57Z",
+            "name": "ygldmgdeab4ij6uw.ipfs.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "yrje4htef1wk.n.ipfs.infura.io": {
+            "resolve_time": "2026-01-28T14:22:37Z",
+            "name": "yrje4htef1wk.n.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "yz.ipfs.infura.io": {
+            "resolve_time": "2026-01-30T12:40:37Z",
+            "name": "yz.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "z98nav33cuj2hkn5.ipfs.ipfs.infura.io": {
+            "resolve_time": "2026-01-29T15:40:58Z",
+            "name": "z98nav33cuj2hkn5.ipfs.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "zhu7a4x7uddzx5n7.ipfs.ipfs.infura.io": {
+            "resolve_time": "2026-01-27T16:02:01Z",
+            "name": "zhu7a4x7uddzx5n7.ipfs.ipfs.infura.io",
+            "record_type": "a"
+          },
+          "zu5j5q6ts29qmssg.ipfs.ipfs.infura.io": {
+            "resolve_time": "2026-01-30T12:40:35Z",
+            "name": "zu5j5q6ts29qmssg.ipfs.ipfs.infura.io",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

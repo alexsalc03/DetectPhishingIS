@@ -1,0 +1,2082 @@
+{
+  "result": {
+    "resource": {
+      "ip": "172.67.193.120",
+      "location": {
+        "continent": "North America",
+        "country": "United States",
+        "country_code": "US",
+        "city": "San Francisco",
+        "postal_code": "94107",
+        "timezone": "America/Los_Angeles",
+        "province": "California",
+        "coordinates": {
+          "latitude": 37.7621,
+          "longitude": -122.3971
+        }
+      },
+      "autonomous_system": {
+        "asn": 13335,
+        "description": "CLOUDFLARENET - Cloudflare, Inc.",
+        "bgp_prefix": "172.67.192.0/20",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "country_code": "US"
+      },
+      "whois": {
+        "network": {
+          "handle": "CLOUDFLARENET",
+          "name": "Cloudflare, Inc.",
+          "cidrs": [
+            "172.64.0.0/13"
+          ],
+          "created": "2015-02-25T00:00:00Z",
+          "updated": "2024-09-04T00:00:00Z",
+          "allocation_type": "ALLOCATION"
+        },
+        "organization": {
+          "handle": "CLOUD14",
+          "name": "Cloudflare, Inc.",
+          "street": "101 Townsend Street",
+          "city": "San Francisco",
+          "state": "CA",
+          "postal_code": "94107",
+          "country": "US",
+          "abuse_contacts": [
+            {
+              "handle": "ABUSE2916-ARIN",
+              "name": "Abuse",
+              "email": "abuse@cloudflare.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "ADMIN2521-ARIN",
+              "name": "Admin",
+              "email": "rir@cloudflare.com"
+            }
+          ],
+          "tech_contacts": [
+            {
+              "handle": "ADMIN2521-ARIN",
+              "name": "Admin",
+              "email": "rir@cloudflare.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "cloudflare",
+              "product": "cloudflare_load_balancer"
+            },
+            {
+              "type": [
+                "WAF"
+              ],
+              "vendor": "cloudflare",
+              "product": "waf"
+            }
+          ],
+          "labels": [
+            {
+              "value": "WAF"
+            }
+          ],
+          "ip": "172.67.193.120",
+          "scan_time": "2026-01-31T14:51:52Z",
+          "endpoints": [
+            {
+              "hostname": "172.67.193.120",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T14:51:52Z",
+              "http": {
+                "uri": "http://172.67.193.120/",
+                "protocol": "HTTP/1.1",
+                "status_code": 403,
+                "status_reason": "Forbidden",
+                "headers": {
+                  "CF-RAY": {
+                    "headers": [
+                      "9c6a07927c45e537-FRA"
+                    ]
+                  },
+                  "Cache-Control": {
+                    "headers": [
+                      "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Encoding": {
+                    "headers": [
+                      "gzip"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html; charset=UTF-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Expires": {
+                    "headers": [
+                      "Thu, 01 Jan 1970 00:00:01 GMT"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "cloudflare"
+                    ]
+                  },
+                  "Transfer-Encoding": {
+                    "headers": [
+                      "chunked"
+                    ]
+                  },
+                  "Vary": {
+                    "headers": [
+                      "Accept-Encoding"
+                    ]
+                  },
+                  "accept-ch": {
+                    "headers": [
+                      "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA"
+                    ]
+                  },
+                  "cf-mitigated": {
+                    "headers": [
+                      "challenge"
+                    ]
+                  },
+                  "critical-ch": {
+                    "headers": [
+                      "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA"
+                    ]
+                  },
+                  "cross-origin-embedder-policy": {
+                    "headers": [
+                      "require-corp"
+                    ]
+                  },
+                  "cross-origin-opener-policy": {
+                    "headers": [
+                      "same-origin"
+                    ]
+                  },
+                  "cross-origin-resource-policy": {
+                    "headers": [
+                      "same-origin"
+                    ]
+                  },
+                  "origin-agent-cluster": {
+                    "headers": [
+                      "?1"
+                    ]
+                  },
+                  "permissions-policy": {
+                    "headers": [
+                      "accelerometer=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()"
+                    ]
+                  },
+                  "referrer-policy": {
+                    "headers": [
+                      "same-origin"
+                    ]
+                  },
+                  "server-timing": {
+                    "headers": [
+                      "chlray;desc=\"9c6a07927c45e537\""
+                    ]
+                  },
+                  "x-content-type-options": {
+                    "headers": [
+                      "nosniff"
+                    ]
+                  },
+                  "x-frame-options": {
+                    "headers": [
+                      "SAMEORIGIN"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>Just a moment...</title>",
+                  "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">",
+                  "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\">",
+                  "<meta name=\"robots\" content=\"noindex,nofollow\">",
+                  "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">",
+                  "<meta http-equiv=\"refresh\" content=\"360\">"
+                ],
+                "body_size": 4398,
+                "body": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}.h2{line-height:2.25rem;font-size:1.5rem;font-weight:500}@media (width <= 720px){.h2{line-height:1.5rem;font-size:1.25rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}@media (prefers-color-scheme: dark){body{background-color:#222;color:#d9d9d9}}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script>(function(){window._cf_chl_opt = {cvId: '3',cZone: '172.67.193.120',cType: 'managed',cRay: '9c6a07927c45e537',cH: 'r676ZT9frXKYCU9yfGJ9LHZN5qTNhZsXOyBhZ4kagKE-1769871112-1.2.1.1-Xy8pj6GuP1pfoFBFfbeG8f3BZA3kpDP2WvHw.iDBbxNLo5UoiDbgnNgL1dSDznJL',cUPMDTk:\"\\/?__cf_chl_tk=B3bN7TrKUctKVWj0538ZZfmz.NbccX4cZ0J5LNHNC4c-1769871112-1.0.1.1-D0AG60z8XSlSp_82hmX83pRULv24oxnf_8P02Fq6g_E\",cFPWv: 'b',cITimeS: '1769871112',cTplC:0,cTplV:5,cTplB: '0',fa:\"\\/?__cf_chl_f_tk=B3bN7TrKUctKVWj0538ZZfmz.NbccX4cZ0J5LNHNC4c-1769871112-1.0.1.1-D0AG60z8XSlSp_82hmX83pRULv24oxnf_8P02Fq6g_E\",md: 'xifGLwFBYF3CgjgcVcrgPDd6XIo_rGe9veBPdmQzLaU-1769871112-1.2.1.1-UFCxwRULoK1U7kVz9WDFFqYx4Qle8Ne1aYjof_vVMC8ZnMOpovwCTlJZN3R9.Za8MplPYi.mGSHQiE3JW6_MVRDrw84gtJ0fcOqNh4nY45e5uXDoqzzSpjHsoBDcX.mqUmpmWKKOpC9Gg2lvacYW2McjMqRKxjSZrJtQ1gfIkQ4RYg.nDlmddqks69A1vKHVA6JLa5_OrCPyTHkMPCj.9btWGqVTRm9STzWQkLBispOEmf86FUKoeNsf5vlC8AtDBSXRsveYVXmxPR7Ra247lYfQKdYfghcfn8b.rS_SuJFw2AOPM8ANS35wpU4O_69nqPWCoECQXmAWK9ivgrnJGJ0SyU1o8201zcNjqkodPIjiAzK5IJowcjFdRvuyg.5XEq_f2IF89RAKUZQblaaPtQbNRD7D1D2uJ8IoiXkC5jLVDKSpNUYCcpo5M1CZ7yAfVktv1HtW5P11YNAqbsSJd0oXfvUNZ.T0DwHBBZtLmJ4XoWHF4CmRMe9kytR86L0p7jC2Muu1o31QfhBkxALj54G45mWo1ru2cRJQRYaWOh.nuYfR0wF5OduqHrVCexSzJqJq.bSvJCzMob8xJbGmnNDW5ivO3wbc2PinTRNrVwKEbKt.JPyaQTywyxN_0apouinZUFN7HpUe_v9WBemgEhv97Aum49e8MsCxIAtUUkVSCyOISUeIoagmiNProxSJGBnRi2k8.4640lrAy874sWlDI95v9Joq0X6YqOrgF1dueN9bMOlS7vt6w82aWWD852B5c67u6TAxQKXKZ5jlulAKKa3FXppJICcI9nmSPCxFWsbDwvWZI21mB40M7qZX87.nFbsz5J0GOh.TzXANpFwcfj0rvHqN8W.rm9In3PE',mdrd: '',};var a = document.createElement('script');a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c6a07927c45e537';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"\\/?__cf_chl_rt_tk=B3bN7TrKUctKVWj0538ZZfmz.NbccX4cZ0J5LNHNC4c-1769871112-1.0.1.1-D0AG60z8XSlSp_82hmX83pRULv24oxnf_8P02Fq6g_E\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>",
+                "html_title": "Just a moment...",
+                "body_hash_sha256": "077d25ada5c95c48b67a331e4ebca79814a4a0a38de230828fd1851b39cf2aac",
+                "body_hash_sha1": "7862eb2709dab3d64e02a7d914c401fec78c7a9e",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "172.67.193.120"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "cloudflare",
+              "product": "cloudflare_load_balancer"
+            },
+            {
+              "type": [
+                "WAF"
+              ],
+              "vendor": "cloudflare",
+              "product": "waf"
+            }
+          ],
+          "labels": [
+            {
+              "value": "WAF"
+            }
+          ],
+          "ip": "172.67.193.120",
+          "scan_time": "2026-01-30T21:23:58Z",
+          "endpoints": [
+            {
+              "hostname": "172.67.193.120",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-30T21:23:58Z",
+              "http": {
+                "uri": "http://172.67.193.120:443/",
+                "protocol": "HTTP/1.1",
+                "status_code": 400,
+                "status_reason": "Bad Request",
+                "headers": {
+                  "CF-RAY": {
+                    "headers": [
+                      "-"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "253"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "cloudflare"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>400 The plain HTTP request was sent to HTTPS port</title>"
+                ],
+                "body_size": 253,
+                "body": "<html>\r\n<head><title>400 The plain HTTP request was sent to HTTPS port</title></head>\r\n<body>\r\n<center><h1>400 Bad Request</h1></center>\r\n<center>The plain HTTP request was sent to HTTPS port</center>\r\n<hr><center>cloudflare</center>\r\n</body>\r\n</html>\r\n",
+                "html_title": "400 The plain HTTP request was sent to HTTPS port",
+                "body_hash_sha256": "50e770b96bc49d107e17a982422d4eefea5bb4ad5bdb5bbb88fd6200ecf2f689",
+                "body_hash_sha1": "108b6115dc6ebfde76aef4336126f605252d957f",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "172.67.193.120"
+            }
+          ]
+        },
+        {
+          "port": 2052,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "cloudflare",
+              "product": "cloudflare_load_balancer"
+            },
+            {
+              "type": [
+                "WAF"
+              ],
+              "vendor": "cloudflare",
+              "product": "waf"
+            }
+          ],
+          "labels": [
+            {
+              "value": "WAF"
+            }
+          ],
+          "ip": "172.67.193.120",
+          "scan_time": "2026-01-31T06:43:28Z",
+          "endpoints": [
+            {
+              "hostname": "172.67.193.120",
+              "port": 2052,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T06:43:28Z",
+              "http": {
+                "uri": "http://172.67.193.120:2052/",
+                "protocol": "HTTP/1.1",
+                "status_code": 403,
+                "status_reason": "Forbidden",
+                "headers": {
+                  "CF-RAY": {
+                    "headers": [
+                      "9c673c291a65a465-ORD"
+                    ]
+                  },
+                  "Cache-Control": {
+                    "headers": [
+                      "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Encoding": {
+                    "headers": [
+                      "gzip"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html; charset=UTF-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Expires": {
+                    "headers": [
+                      "Thu, 01 Jan 1970 00:00:01 GMT"
+                    ]
+                  },
+                  "Referrer-Policy": {
+                    "headers": [
+                      "same-origin"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "cloudflare"
+                    ]
+                  },
+                  "Transfer-Encoding": {
+                    "headers": [
+                      "chunked"
+                    ]
+                  },
+                  "Vary": {
+                    "headers": [
+                      "Accept-Encoding"
+                    ]
+                  },
+                  "X-Frame-Options": {
+                    "headers": [
+                      "SAMEORIGIN"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>Direct IP access not allowed | Cloudflare</title>",
+                  "<meta charset=\"UTF-8\" />",
+                  "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />",
+                  "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />",
+                  "<meta name=\"robots\" content=\"noindex, nofollow\" />",
+                  "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />"
+                ],
+                "body_size": 6237,
+                "body": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Direct IP access not allowed | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />\n<meta name=\"robots\" content=\"noindex, nofollow\" />\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n<link rel=\"stylesheet\" id=\"cf_styles-css\" href=\"/cdn-cgi/styles/main.css\" />\n\n\n<script>\n(function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById(\"error-feedback-survey\"),d=document.getElementById(\"error-feedback-success\"),b=new XMLHttpRequest;a={event:\"feedback clicked\",properties:{errorCode:1003,helpful:a,version:1}};b.open(\"POST\",\"https://sparrow.cloudflare.com/api/v1/event\");b.setRequestHeader(\"Content-Type\",\"application/json\");b.setRequestHeader(\"Sparrow-Source-Key\",\"c771f0e4b54944bebf4261d44bd79a1e\");\nb.send(JSON.stringify(a));c.classList.add(\"feedback-hidden\");d.classList.remove(\"feedback-hidden\")};document.addEventListener(\"DOMContentLoaded\",function(){var a=document.getElementById(\"error-feedback\"),c=document.getElementById(\"feedback-button-yes\"),d=document.getElementById(\"feedback-button-no\");\"classList\"in a&&(a.classList.remove(\"feedback-hidden\"),c.addEventListener(\"click\",function(){e(!0)}),d.addEventListener(\"click\",function(){e(!1)}))})}})();\n</script>\n\n<script defer src=\"https://performance.radar.cloudflare.com/beacon.js\"></script>\n</head>\n<body>\n  <div id=\"cf-wrapper\">\n    <div class=\"cf-alert cf-alert-error cf-cookie-error hidden\" id=\"cookie-alert\" data-translate=\"enable_cookies\">Please enable cookies.</div>\n    <div id=\"cf-error-details\" class=\"p-0\">\n      <header class=\"mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased\">\n         <h1 class=\"inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight\">\n           <span data-translate=\"error\">Error</span>\n           <span>1003</span>\n         </h1>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">Ray ID: 9c673c291a65a465 &bull;</span>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">2026-01-31 06:43:28 UTC</span>\n        <h2 class=\"text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light\">Direct IP access not allowed</h2>\n      </header>\n\n      <section class=\"w-240 lg:w-full mx-auto mb-8 lg:px-8\">\n          <div id=\"what-happened-section\" class=\"w-1/2 md:w-full\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_happened\">What happened?</h2>\n            <p>You've requested an IP address that is part of the <a href=\"https://www.cloudflare.com/5xx-error-landing/\" target=\"_blank\">Cloudflare</a> network. A valid Host header must be supplied to reach the desired website.</p>\n            \n              <p>Please see <a rel=\"noopener noreferrer\" href=\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1003/\" target=\"_blank\">https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1003/</a> for more details.</p>\n            \n          </div>\n\n          \n          <div id=\"resolution-copy-section\" class=\"w-1/2 mt-6 text-15 leading-normal\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_can_i_do\">What can I do?</h2>\n            <p>If you are interested in learning more about Cloudflare, please <a href=\"https://www.cloudflare.com/5xx-error-landing/\" target=\"_blank\">visit our website</a>.</p>\n          </div>\n          \n      </section>\n\n      <div class=\"feedback-hidden py-8 text-center\" id=\"error-feedback\">\n    <div id=\"error-feedback-survey\" class=\"footer-line-wrapper\">\n        Was this page helpful?\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-yes\" type=\"button\">Yes</button>\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-no\" type=\"button\">No</button>\n    </div>\n    <div class=\"feedback-success feedback-hidden\" id=\"error-feedback-success\">\n        Thank you for your feedback!\n    </div>\n</div>\n\n\n      <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n  <p class=\"text-13\">\n    <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">9c673c291a65a465</strong></span>\n    <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    <span id=\"cf-footer-item-ip\" class=\"cf-footer-item hidden sm:block sm:mb-1\">\n      Your IP:\n      <button type=\"button\" id=\"cf-footer-ip-reveal\" class=\"cf-footer-ip-reveal-btn\">Click to reveal</button>\n      <span class=\"hidden\" id=\"cf-footer-ip\">162.142.125.115</span>\n      <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    </span>\n    <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance &amp; security by</span> <a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/5xx-error-landing\" id=\"brand_link\" target=\"_blank\">Cloudflare</a></span>\n    \n  </p>\n  <script>(function(){function d(){var b=a.getElementById(\"cf-footer-item-ip\"),c=a.getElementById(\"cf-footer-ip-reveal\");b&&\"classList\"in b&&(b.classList.remove(\"hidden\"),c.addEventListener(\"click\",function(){c.classList.add(\"hidden\");a.getElementById(\"cf-footer-ip\").classList.remove(\"hidden\")}))}var a=document;document.addEventListener&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n</div><!-- /.error-footer -->\n\n\n    </div><!-- /#cf-error-details -->\n  </div><!-- /#cf-wrapper -->\n\n  <script>\n  window._cf_translation = {};\n  \n  \n</script>\n\n</body>\n</html>\n",
+                "html_title": "Direct IP access not allowed | Cloudflare",
+                "body_hash_sha256": "3287c4d8e2a1f5100b1fcc1f4da976044945ec11b132410ea8c84ef34398b723",
+                "body_hash_sha1": "719e5f83a13efeec13e62b3222c350db842d0fbd",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "172.67.193.120"
+            }
+          ]
+        },
+        {
+          "port": 2053,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "cloudflare",
+              "product": "cloudflare_load_balancer"
+            },
+            {
+              "type": [
+                "WAF"
+              ],
+              "vendor": "cloudflare",
+              "product": "waf"
+            }
+          ],
+          "labels": [
+            {
+              "value": "WAF"
+            }
+          ],
+          "ip": "172.67.193.120",
+          "scan_time": "2026-01-31T15:55:49Z",
+          "endpoints": [
+            {
+              "hostname": "172.67.193.120",
+              "port": 2053,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T15:55:49Z",
+              "http": {
+                "uri": "http://172.67.193.120:2053/",
+                "protocol": "HTTP/1.1",
+                "status_code": 400,
+                "status_reason": "Bad Request",
+                "headers": {
+                  "CF-RAY": {
+                    "headers": [
+                      "-"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "253"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "cloudflare"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>400 The plain HTTP request was sent to HTTPS port</title>"
+                ],
+                "body_size": 253,
+                "body": "<html>\r\n<head><title>400 The plain HTTP request was sent to HTTPS port</title></head>\r\n<body>\r\n<center><h1>400 Bad Request</h1></center>\r\n<center>The plain HTTP request was sent to HTTPS port</center>\r\n<hr><center>cloudflare</center>\r\n</body>\r\n</html>\r\n",
+                "html_title": "400 The plain HTTP request was sent to HTTPS port",
+                "body_hash_sha256": "50e770b96bc49d107e17a982422d4eefea5bb4ad5bdb5bbb88fd6200ecf2f689",
+                "body_hash_sha1": "108b6115dc6ebfde76aef4336126f605252d957f",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "172.67.193.120"
+            }
+          ]
+        },
+        {
+          "port": 2082,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "cloudflare",
+              "product": "cloudflare_load_balancer"
+            },
+            {
+              "type": [
+                "WAF"
+              ],
+              "vendor": "cloudflare",
+              "product": "waf"
+            }
+          ],
+          "labels": [
+            {
+              "value": "WAF"
+            }
+          ],
+          "ip": "172.67.193.120",
+          "scan_time": "2026-01-31T16:10:24Z",
+          "endpoints": [
+            {
+              "hostname": "172.67.193.120",
+              "port": 2082,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T16:10:24Z",
+              "http": {
+                "uri": "http://172.67.193.120:2082/",
+                "protocol": "HTTP/1.1",
+                "status_code": 403,
+                "status_reason": "Forbidden",
+                "headers": {
+                  "CF-RAY": {
+                    "headers": [
+                      "9c6a7a9dbe325d69-FRA"
+                    ]
+                  },
+                  "Cache-Control": {
+                    "headers": [
+                      "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Encoding": {
+                    "headers": [
+                      "gzip"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html; charset=UTF-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Expires": {
+                    "headers": [
+                      "Thu, 01 Jan 1970 00:00:01 GMT"
+                    ]
+                  },
+                  "Referrer-Policy": {
+                    "headers": [
+                      "same-origin"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "cloudflare"
+                    ]
+                  },
+                  "Transfer-Encoding": {
+                    "headers": [
+                      "chunked"
+                    ]
+                  },
+                  "Vary": {
+                    "headers": [
+                      "Accept-Encoding"
+                    ]
+                  },
+                  "X-Frame-Options": {
+                    "headers": [
+                      "SAMEORIGIN"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>Direct IP access not allowed | Cloudflare</title>",
+                  "<meta charset=\"UTF-8\" />",
+                  "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />",
+                  "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />",
+                  "<meta name=\"robots\" content=\"noindex, nofollow\" />",
+                  "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />"
+                ],
+                "body_size": 6235,
+                "body": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Direct IP access not allowed | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />\n<meta name=\"robots\" content=\"noindex, nofollow\" />\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n<link rel=\"stylesheet\" id=\"cf_styles-css\" href=\"/cdn-cgi/styles/main.css\" />\n\n\n<script>\n(function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById(\"error-feedback-survey\"),d=document.getElementById(\"error-feedback-success\"),b=new XMLHttpRequest;a={event:\"feedback clicked\",properties:{errorCode:1003,helpful:a,version:1}};b.open(\"POST\",\"https://sparrow.cloudflare.com/api/v1/event\");b.setRequestHeader(\"Content-Type\",\"application/json\");b.setRequestHeader(\"Sparrow-Source-Key\",\"c771f0e4b54944bebf4261d44bd79a1e\");\nb.send(JSON.stringify(a));c.classList.add(\"feedback-hidden\");d.classList.remove(\"feedback-hidden\")};document.addEventListener(\"DOMContentLoaded\",function(){var a=document.getElementById(\"error-feedback\"),c=document.getElementById(\"feedback-button-yes\"),d=document.getElementById(\"feedback-button-no\");\"classList\"in a&&(a.classList.remove(\"feedback-hidden\"),c.addEventListener(\"click\",function(){e(!0)}),d.addEventListener(\"click\",function(){e(!1)}))})}})();\n</script>\n\n<script defer src=\"https://performance.radar.cloudflare.com/beacon.js\"></script>\n</head>\n<body>\n  <div id=\"cf-wrapper\">\n    <div class=\"cf-alert cf-alert-error cf-cookie-error hidden\" id=\"cookie-alert\" data-translate=\"enable_cookies\">Please enable cookies.</div>\n    <div id=\"cf-error-details\" class=\"p-0\">\n      <header class=\"mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased\">\n         <h1 class=\"inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight\">\n           <span data-translate=\"error\">Error</span>\n           <span>1003</span>\n         </h1>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">Ray ID: 9c6a7a9dbe325d69 &bull;</span>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">2026-01-31 16:10:24 UTC</span>\n        <h2 class=\"text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light\">Direct IP access not allowed</h2>\n      </header>\n\n      <section class=\"w-240 lg:w-full mx-auto mb-8 lg:px-8\">\n          <div id=\"what-happened-section\" class=\"w-1/2 md:w-full\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_happened\">What happened?</h2>\n            <p>You've requested an IP address that is part of the <a href=\"https://www.cloudflare.com/5xx-error-landing/\" target=\"_blank\">Cloudflare</a> network. A valid Host header must be supplied to reach the desired website.</p>\n            \n              <p>Please see <a rel=\"noopener noreferrer\" href=\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1003/\" target=\"_blank\">https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1003/</a> for more details.</p>\n            \n          </div>\n\n          \n          <div id=\"resolution-copy-section\" class=\"w-1/2 mt-6 text-15 leading-normal\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_can_i_do\">What can I do?</h2>\n            <p>If you are interested in learning more about Cloudflare, please <a href=\"https://www.cloudflare.com/5xx-error-landing/\" target=\"_blank\">visit our website</a>.</p>\n          </div>\n          \n      </section>\n\n      <div class=\"feedback-hidden py-8 text-center\" id=\"error-feedback\">\n    <div id=\"error-feedback-survey\" class=\"footer-line-wrapper\">\n        Was this page helpful?\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-yes\" type=\"button\">Yes</button>\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-no\" type=\"button\">No</button>\n    </div>\n    <div class=\"feedback-success feedback-hidden\" id=\"error-feedback-success\">\n        Thank you for your feedback!\n    </div>\n</div>\n\n\n      <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n  <p class=\"text-13\">\n    <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">9c6a7a9dbe325d69</strong></span>\n    <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    <span id=\"cf-footer-item-ip\" class=\"cf-footer-item hidden sm:block sm:mb-1\">\n      Your IP:\n      <button type=\"button\" id=\"cf-footer-ip-reveal\" class=\"cf-footer-ip-reveal-btn\">Click to reveal</button>\n      <span class=\"hidden\" id=\"cf-footer-ip\">167.94.146.52</span>\n      <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    </span>\n    <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance &amp; security by</span> <a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/5xx-error-landing\" id=\"brand_link\" target=\"_blank\">Cloudflare</a></span>\n    \n  </p>\n  <script>(function(){function d(){var b=a.getElementById(\"cf-footer-item-ip\"),c=a.getElementById(\"cf-footer-ip-reveal\");b&&\"classList\"in b&&(b.classList.remove(\"hidden\"),c.addEventListener(\"click\",function(){c.classList.add(\"hidden\");a.getElementById(\"cf-footer-ip\").classList.remove(\"hidden\")}))}var a=document;document.addEventListener&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n</div><!-- /.error-footer -->\n\n\n    </div><!-- /#cf-error-details -->\n  </div><!-- /#cf-wrapper -->\n\n  <script>\n  window._cf_translation = {};\n  \n  \n</script>\n\n</body>\n</html>\n",
+                "html_title": "Direct IP access not allowed | Cloudflare",
+                "body_hash_sha256": "15a0d8bd3c49e5865ca034b9c5fde278d032465f3ab02c9b21d8b81a652a1341",
+                "body_hash_sha1": "1bbbfa9dfcf76f3b4ade0d717c8a10280c65a8df",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "172.67.193.120"
+            }
+          ]
+        },
+        {
+          "port": 2083,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "cloudflare",
+              "product": "cloudflare_load_balancer"
+            },
+            {
+              "type": [
+                "WAF"
+              ],
+              "vendor": "cloudflare",
+              "product": "waf"
+            }
+          ],
+          "labels": [
+            {
+              "value": "WAF"
+            }
+          ],
+          "ip": "172.67.193.120",
+          "scan_time": "2026-01-31T06:54:42Z",
+          "endpoints": [
+            {
+              "hostname": "172.67.193.120",
+              "port": 2083,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T06:54:42Z",
+              "http": {
+                "uri": "http://172.67.193.120:2083/",
+                "protocol": "HTTP/1.1",
+                "status_code": 400,
+                "status_reason": "Bad Request",
+                "headers": {
+                  "CF-RAY": {
+                    "headers": [
+                      "-"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "253"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "cloudflare"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>400 The plain HTTP request was sent to HTTPS port</title>"
+                ],
+                "body_size": 253,
+                "body": "<html>\r\n<head><title>400 The plain HTTP request was sent to HTTPS port</title></head>\r\n<body>\r\n<center><h1>400 Bad Request</h1></center>\r\n<center>The plain HTTP request was sent to HTTPS port</center>\r\n<hr><center>cloudflare</center>\r\n</body>\r\n</html>\r\n",
+                "html_title": "400 The plain HTTP request was sent to HTTPS port",
+                "body_hash_sha256": "50e770b96bc49d107e17a982422d4eefea5bb4ad5bdb5bbb88fd6200ecf2f689",
+                "body_hash_sha1": "108b6115dc6ebfde76aef4336126f605252d957f",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "172.67.193.120"
+            }
+          ]
+        },
+        {
+          "port": 2086,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "cloudflare",
+              "product": "cloudflare_load_balancer"
+            },
+            {
+              "type": [
+                "WAF"
+              ],
+              "vendor": "cloudflare",
+              "product": "waf"
+            }
+          ],
+          "labels": [
+            {
+              "value": "WAF"
+            }
+          ],
+          "ip": "172.67.193.120",
+          "scan_time": "2026-01-31T05:55:25Z",
+          "endpoints": [
+            {
+              "hostname": "172.67.193.120",
+              "port": 2086,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T05:55:25Z",
+              "http": {
+                "uri": "http://172.67.193.120:2086/",
+                "protocol": "HTTP/1.1",
+                "status_code": 403,
+                "status_reason": "Forbidden",
+                "headers": {
+                  "CF-RAY": {
+                    "headers": [
+                      "9c66f5bccf411b04-ORD"
+                    ]
+                  },
+                  "Cache-Control": {
+                    "headers": [
+                      "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Encoding": {
+                    "headers": [
+                      "gzip"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html; charset=UTF-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Expires": {
+                    "headers": [
+                      "Thu, 01 Jan 1970 00:00:01 GMT"
+                    ]
+                  },
+                  "Referrer-Policy": {
+                    "headers": [
+                      "same-origin"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "cloudflare"
+                    ]
+                  },
+                  "Transfer-Encoding": {
+                    "headers": [
+                      "chunked"
+                    ]
+                  },
+                  "Vary": {
+                    "headers": [
+                      "Accept-Encoding"
+                    ]
+                  },
+                  "X-Frame-Options": {
+                    "headers": [
+                      "SAMEORIGIN"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>Direct IP access not allowed | Cloudflare</title>",
+                  "<meta charset=\"UTF-8\" />",
+                  "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />",
+                  "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />",
+                  "<meta name=\"robots\" content=\"noindex, nofollow\" />",
+                  "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />"
+                ],
+                "body_size": 6236,
+                "body": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Direct IP access not allowed | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />\n<meta name=\"robots\" content=\"noindex, nofollow\" />\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n<link rel=\"stylesheet\" id=\"cf_styles-css\" href=\"/cdn-cgi/styles/main.css\" />\n\n\n<script>\n(function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById(\"error-feedback-survey\"),d=document.getElementById(\"error-feedback-success\"),b=new XMLHttpRequest;a={event:\"feedback clicked\",properties:{errorCode:1003,helpful:a,version:1}};b.open(\"POST\",\"https://sparrow.cloudflare.com/api/v1/event\");b.setRequestHeader(\"Content-Type\",\"application/json\");b.setRequestHeader(\"Sparrow-Source-Key\",\"c771f0e4b54944bebf4261d44bd79a1e\");\nb.send(JSON.stringify(a));c.classList.add(\"feedback-hidden\");d.classList.remove(\"feedback-hidden\")};document.addEventListener(\"DOMContentLoaded\",function(){var a=document.getElementById(\"error-feedback\"),c=document.getElementById(\"feedback-button-yes\"),d=document.getElementById(\"feedback-button-no\");\"classList\"in a&&(a.classList.remove(\"feedback-hidden\"),c.addEventListener(\"click\",function(){e(!0)}),d.addEventListener(\"click\",function(){e(!1)}))})}})();\n</script>\n\n<script defer src=\"https://performance.radar.cloudflare.com/beacon.js\"></script>\n</head>\n<body>\n  <div id=\"cf-wrapper\">\n    <div class=\"cf-alert cf-alert-error cf-cookie-error hidden\" id=\"cookie-alert\" data-translate=\"enable_cookies\">Please enable cookies.</div>\n    <div id=\"cf-error-details\" class=\"p-0\">\n      <header class=\"mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased\">\n         <h1 class=\"inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight\">\n           <span data-translate=\"error\">Error</span>\n           <span>1003</span>\n         </h1>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">Ray ID: 9c66f5bccf411b04 &bull;</span>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">2026-01-31 05:55:24 UTC</span>\n        <h2 class=\"text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light\">Direct IP access not allowed</h2>\n      </header>\n\n      <section class=\"w-240 lg:w-full mx-auto mb-8 lg:px-8\">\n          <div id=\"what-happened-section\" class=\"w-1/2 md:w-full\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_happened\">What happened?</h2>\n            <p>You've requested an IP address that is part of the <a href=\"https://www.cloudflare.com/5xx-error-landing/\" target=\"_blank\">Cloudflare</a> network. A valid Host header must be supplied to reach the desired website.</p>\n            \n              <p>Please see <a rel=\"noopener noreferrer\" href=\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1003/\" target=\"_blank\">https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1003/</a> for more details.</p>\n            \n          </div>\n\n          \n          <div id=\"resolution-copy-section\" class=\"w-1/2 mt-6 text-15 leading-normal\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_can_i_do\">What can I do?</h2>\n            <p>If you are interested in learning more about Cloudflare, please <a href=\"https://www.cloudflare.com/5xx-error-landing/\" target=\"_blank\">visit our website</a>.</p>\n          </div>\n          \n      </section>\n\n      <div class=\"feedback-hidden py-8 text-center\" id=\"error-feedback\">\n    <div id=\"error-feedback-survey\" class=\"footer-line-wrapper\">\n        Was this page helpful?\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-yes\" type=\"button\">Yes</button>\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-no\" type=\"button\">No</button>\n    </div>\n    <div class=\"feedback-success feedback-hidden\" id=\"error-feedback-success\">\n        Thank you for your feedback!\n    </div>\n</div>\n\n\n      <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n  <p class=\"text-13\">\n    <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">9c66f5bccf411b04</strong></span>\n    <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    <span id=\"cf-footer-item-ip\" class=\"cf-footer-item hidden sm:block sm:mb-1\">\n      Your IP:\n      <button type=\"button\" id=\"cf-footer-ip-reveal\" class=\"cf-footer-ip-reveal-btn\">Click to reveal</button>\n      <span class=\"hidden\" id=\"cf-footer-ip\">206.168.34.220</span>\n      <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    </span>\n    <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance &amp; security by</span> <a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/5xx-error-landing\" id=\"brand_link\" target=\"_blank\">Cloudflare</a></span>\n    \n  </p>\n  <script>(function(){function d(){var b=a.getElementById(\"cf-footer-item-ip\"),c=a.getElementById(\"cf-footer-ip-reveal\");b&&\"classList\"in b&&(b.classList.remove(\"hidden\"),c.addEventListener(\"click\",function(){c.classList.add(\"hidden\");a.getElementById(\"cf-footer-ip\").classList.remove(\"hidden\")}))}var a=document;document.addEventListener&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n</div><!-- /.error-footer -->\n\n\n    </div><!-- /#cf-error-details -->\n  </div><!-- /#cf-wrapper -->\n\n  <script>\n  window._cf_translation = {};\n  \n  \n</script>\n\n</body>\n</html>\n",
+                "html_title": "Direct IP access not allowed | Cloudflare",
+                "body_hash_sha256": "6ddf8156ccb4236cc57278787ba65cdcc73bf42cce459bbcd60fc0a21d9b2e58",
+                "body_hash_sha1": "2ed4aa0b7874634608c0624fc2992a90614d4f99",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "172.67.193.120"
+            }
+          ]
+        },
+        {
+          "port": 2087,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "cloudflare",
+              "product": "cloudflare_load_balancer"
+            },
+            {
+              "type": [
+                "WAF"
+              ],
+              "vendor": "cloudflare",
+              "product": "waf"
+            }
+          ],
+          "labels": [
+            {
+              "value": "WAF"
+            }
+          ],
+          "ip": "172.67.193.120",
+          "scan_time": "2026-01-31T08:30:29Z",
+          "endpoints": [
+            {
+              "hostname": "172.67.193.120",
+              "port": 2087,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T08:30:29Z",
+              "http": {
+                "uri": "http://172.67.193.120:2087/",
+                "protocol": "HTTP/1.1",
+                "status_code": 400,
+                "status_reason": "Bad Request",
+                "headers": {
+                  "CF-RAY": {
+                    "headers": [
+                      "-"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "253"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "cloudflare"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>400 The plain HTTP request was sent to HTTPS port</title>"
+                ],
+                "body_size": 253,
+                "body": "<html>\r\n<head><title>400 The plain HTTP request was sent to HTTPS port</title></head>\r\n<body>\r\n<center><h1>400 Bad Request</h1></center>\r\n<center>The plain HTTP request was sent to HTTPS port</center>\r\n<hr><center>cloudflare</center>\r\n</body>\r\n</html>\r\n",
+                "html_title": "400 The plain HTTP request was sent to HTTPS port",
+                "body_hash_sha256": "50e770b96bc49d107e17a982422d4eefea5bb4ad5bdb5bbb88fd6200ecf2f689",
+                "body_hash_sha1": "108b6115dc6ebfde76aef4336126f605252d957f",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "172.67.193.120"
+            }
+          ]
+        },
+        {
+          "port": 2095,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "cloudflare",
+              "product": "cloudflare_load_balancer"
+            },
+            {
+              "type": [
+                "WAF"
+              ],
+              "vendor": "cloudflare",
+              "product": "waf"
+            }
+          ],
+          "labels": [
+            {
+              "value": "WAF"
+            }
+          ],
+          "ip": "172.67.193.120",
+          "scan_time": "2026-01-31T00:49:46Z",
+          "endpoints": [
+            {
+              "hostname": "172.67.193.120",
+              "port": 2095,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T00:49:46Z",
+              "http": {
+                "uri": "http://172.67.193.120:2095/",
+                "protocol": "HTTP/1.1",
+                "status_code": 403,
+                "status_reason": "Forbidden",
+                "headers": {
+                  "CF-RAY": {
+                    "headers": [
+                      "9c65360a1ac60d35-ORD"
+                    ]
+                  },
+                  "Cache-Control": {
+                    "headers": [
+                      "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Encoding": {
+                    "headers": [
+                      "gzip"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html; charset=UTF-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Expires": {
+                    "headers": [
+                      "Thu, 01 Jan 1970 00:00:01 GMT"
+                    ]
+                  },
+                  "Referrer-Policy": {
+                    "headers": [
+                      "same-origin"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "cloudflare"
+                    ]
+                  },
+                  "Transfer-Encoding": {
+                    "headers": [
+                      "chunked"
+                    ]
+                  },
+                  "Vary": {
+                    "headers": [
+                      "Accept-Encoding"
+                    ]
+                  },
+                  "X-Frame-Options": {
+                    "headers": [
+                      "SAMEORIGIN"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>Direct IP access not allowed | Cloudflare</title>",
+                  "<meta charset=\"UTF-8\" />",
+                  "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />",
+                  "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />",
+                  "<meta name=\"robots\" content=\"noindex, nofollow\" />",
+                  "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />"
+                ],
+                "body_size": 6236,
+                "body": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Direct IP access not allowed | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />\n<meta name=\"robots\" content=\"noindex, nofollow\" />\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n<link rel=\"stylesheet\" id=\"cf_styles-css\" href=\"/cdn-cgi/styles/main.css\" />\n\n\n<script>\n(function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById(\"error-feedback-survey\"),d=document.getElementById(\"error-feedback-success\"),b=new XMLHttpRequest;a={event:\"feedback clicked\",properties:{errorCode:1003,helpful:a,version:1}};b.open(\"POST\",\"https://sparrow.cloudflare.com/api/v1/event\");b.setRequestHeader(\"Content-Type\",\"application/json\");b.setRequestHeader(\"Sparrow-Source-Key\",\"c771f0e4b54944bebf4261d44bd79a1e\");\nb.send(JSON.stringify(a));c.classList.add(\"feedback-hidden\");d.classList.remove(\"feedback-hidden\")};document.addEventListener(\"DOMContentLoaded\",function(){var a=document.getElementById(\"error-feedback\"),c=document.getElementById(\"feedback-button-yes\"),d=document.getElementById(\"feedback-button-no\");\"classList\"in a&&(a.classList.remove(\"feedback-hidden\"),c.addEventListener(\"click\",function(){e(!0)}),d.addEventListener(\"click\",function(){e(!1)}))})}})();\n</script>\n\n<script defer src=\"https://performance.radar.cloudflare.com/beacon.js\"></script>\n</head>\n<body>\n  <div id=\"cf-wrapper\">\n    <div class=\"cf-alert cf-alert-error cf-cookie-error hidden\" id=\"cookie-alert\" data-translate=\"enable_cookies\">Please enable cookies.</div>\n    <div id=\"cf-error-details\" class=\"p-0\">\n      <header class=\"mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased\">\n         <h1 class=\"inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight\">\n           <span data-translate=\"error\">Error</span>\n           <span>1003</span>\n         </h1>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">Ray ID: 9c65360a1ac60d35 &bull;</span>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">2026-01-31 00:49:46 UTC</span>\n        <h2 class=\"text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light\">Direct IP access not allowed</h2>\n      </header>\n\n      <section class=\"w-240 lg:w-full mx-auto mb-8 lg:px-8\">\n          <div id=\"what-happened-section\" class=\"w-1/2 md:w-full\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_happened\">What happened?</h2>\n            <p>You've requested an IP address that is part of the <a href=\"https://www.cloudflare.com/5xx-error-landing/\" target=\"_blank\">Cloudflare</a> network. A valid Host header must be supplied to reach the desired website.</p>\n            \n              <p>Please see <a rel=\"noopener noreferrer\" href=\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1003/\" target=\"_blank\">https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1003/</a> for more details.</p>\n            \n          </div>\n\n          \n          <div id=\"resolution-copy-section\" class=\"w-1/2 mt-6 text-15 leading-normal\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_can_i_do\">What can I do?</h2>\n            <p>If you are interested in learning more about Cloudflare, please <a href=\"https://www.cloudflare.com/5xx-error-landing/\" target=\"_blank\">visit our website</a>.</p>\n          </div>\n          \n      </section>\n\n      <div class=\"feedback-hidden py-8 text-center\" id=\"error-feedback\">\n    <div id=\"error-feedback-survey\" class=\"footer-line-wrapper\">\n        Was this page helpful?\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-yes\" type=\"button\">Yes</button>\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-no\" type=\"button\">No</button>\n    </div>\n    <div class=\"feedback-success feedback-hidden\" id=\"error-feedback-success\">\n        Thank you for your feedback!\n    </div>\n</div>\n\n\n      <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n  <p class=\"text-13\">\n    <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">9c65360a1ac60d35</strong></span>\n    <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    <span id=\"cf-footer-item-ip\" class=\"cf-footer-item hidden sm:block sm:mb-1\">\n      Your IP:\n      <button type=\"button\" id=\"cf-footer-ip-reveal\" class=\"cf-footer-ip-reveal-btn\">Click to reveal</button>\n      <span class=\"hidden\" id=\"cf-footer-ip\">167.94.138.187</span>\n      <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    </span>\n    <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance &amp; security by</span> <a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/5xx-error-landing\" id=\"brand_link\" target=\"_blank\">Cloudflare</a></span>\n    \n  </p>\n  <script>(function(){function d(){var b=a.getElementById(\"cf-footer-item-ip\"),c=a.getElementById(\"cf-footer-ip-reveal\");b&&\"classList\"in b&&(b.classList.remove(\"hidden\"),c.addEventListener(\"click\",function(){c.classList.add(\"hidden\");a.getElementById(\"cf-footer-ip\").classList.remove(\"hidden\")}))}var a=document;document.addEventListener&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n</div><!-- /.error-footer -->\n\n\n    </div><!-- /#cf-error-details -->\n  </div><!-- /#cf-wrapper -->\n\n  <script>\n  window._cf_translation = {};\n  \n  \n</script>\n\n</body>\n</html>\n",
+                "html_title": "Direct IP access not allowed | Cloudflare",
+                "body_hash_sha256": "c6a7ff2e0521e4d285c8b05117df6e5cc2e7a0df6cd8a6deda3737eaf1d19e14",
+                "body_hash_sha1": "da0ffbac54d852673886312452b1d0fd76628252",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "172.67.193.120"
+            }
+          ]
+        },
+        {
+          "port": 2096,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "cloudflare",
+              "product": "cloudflare_load_balancer"
+            },
+            {
+              "type": [
+                "WAF"
+              ],
+              "vendor": "cloudflare",
+              "product": "waf"
+            }
+          ],
+          "labels": [
+            {
+              "value": "WAF"
+            }
+          ],
+          "ip": "172.67.193.120",
+          "scan_time": "2026-01-31T01:58:46Z",
+          "endpoints": [
+            {
+              "hostname": "172.67.193.120",
+              "port": 2096,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T01:58:46Z",
+              "http": {
+                "uri": "http://172.67.193.120:2096/",
+                "protocol": "HTTP/1.1",
+                "status_code": 400,
+                "status_reason": "Bad Request",
+                "headers": {
+                  "CF-RAY": {
+                    "headers": [
+                      "-"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "253"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "cloudflare"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>400 The plain HTTP request was sent to HTTPS port</title>"
+                ],
+                "body_size": 253,
+                "body": "<html>\r\n<head><title>400 The plain HTTP request was sent to HTTPS port</title></head>\r\n<body>\r\n<center><h1>400 Bad Request</h1></center>\r\n<center>The plain HTTP request was sent to HTTPS port</center>\r\n<hr><center>cloudflare</center>\r\n</body>\r\n</html>\r\n",
+                "html_title": "400 The plain HTTP request was sent to HTTPS port",
+                "body_hash_sha256": "50e770b96bc49d107e17a982422d4eefea5bb4ad5bdb5bbb88fd6200ecf2f689",
+                "body_hash_sha1": "108b6115dc6ebfde76aef4336126f605252d957f",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "172.67.193.120"
+            }
+          ]
+        },
+        {
+          "port": 8080,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "cloudflare",
+              "product": "cloudflare_load_balancer"
+            },
+            {
+              "type": [
+                "WAF"
+              ],
+              "vendor": "cloudflare",
+              "product": "waf"
+            }
+          ],
+          "labels": [
+            {
+              "value": "WAF"
+            }
+          ],
+          "ip": "172.67.193.120",
+          "scan_time": "2026-01-30T22:09:23Z",
+          "endpoints": [
+            {
+              "hostname": "172.67.193.120",
+              "port": 8080,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-30T22:09:23Z",
+              "http": {
+                "uri": "http://172.67.193.120:8080/",
+                "protocol": "HTTP/1.1",
+                "status_code": 403,
+                "status_reason": "Forbidden",
+                "headers": {
+                  "CF-RAY": {
+                    "headers": [
+                      "9c644b1019e2c0a8-ORD"
+                    ]
+                  },
+                  "Cache-Control": {
+                    "headers": [
+                      "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Encoding": {
+                    "headers": [
+                      "gzip"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html; charset=UTF-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Expires": {
+                    "headers": [
+                      "Thu, 01 Jan 1970 00:00:01 GMT"
+                    ]
+                  },
+                  "Referrer-Policy": {
+                    "headers": [
+                      "same-origin"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "cloudflare"
+                    ]
+                  },
+                  "Transfer-Encoding": {
+                    "headers": [
+                      "chunked"
+                    ]
+                  },
+                  "Vary": {
+                    "headers": [
+                      "Accept-Encoding"
+                    ]
+                  },
+                  "X-Frame-Options": {
+                    "headers": [
+                      "SAMEORIGIN"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>Direct IP access not allowed | Cloudflare</title>",
+                  "<meta charset=\"UTF-8\" />",
+                  "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />",
+                  "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />",
+                  "<meta name=\"robots\" content=\"noindex, nofollow\" />",
+                  "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />"
+                ],
+                "body_size": 6236,
+                "body": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Direct IP access not allowed | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />\n<meta name=\"robots\" content=\"noindex, nofollow\" />\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n<link rel=\"stylesheet\" id=\"cf_styles-css\" href=\"/cdn-cgi/styles/main.css\" />\n\n\n<script>\n(function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById(\"error-feedback-survey\"),d=document.getElementById(\"error-feedback-success\"),b=new XMLHttpRequest;a={event:\"feedback clicked\",properties:{errorCode:1003,helpful:a,version:1}};b.open(\"POST\",\"https://sparrow.cloudflare.com/api/v1/event\");b.setRequestHeader(\"Content-Type\",\"application/json\");b.setRequestHeader(\"Sparrow-Source-Key\",\"c771f0e4b54944bebf4261d44bd79a1e\");\nb.send(JSON.stringify(a));c.classList.add(\"feedback-hidden\");d.classList.remove(\"feedback-hidden\")};document.addEventListener(\"DOMContentLoaded\",function(){var a=document.getElementById(\"error-feedback\"),c=document.getElementById(\"feedback-button-yes\"),d=document.getElementById(\"feedback-button-no\");\"classList\"in a&&(a.classList.remove(\"feedback-hidden\"),c.addEventListener(\"click\",function(){e(!0)}),d.addEventListener(\"click\",function(){e(!1)}))})}})();\n</script>\n\n<script defer src=\"https://performance.radar.cloudflare.com/beacon.js\"></script>\n</head>\n<body>\n  <div id=\"cf-wrapper\">\n    <div class=\"cf-alert cf-alert-error cf-cookie-error hidden\" id=\"cookie-alert\" data-translate=\"enable_cookies\">Please enable cookies.</div>\n    <div id=\"cf-error-details\" class=\"p-0\">\n      <header class=\"mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased\">\n         <h1 class=\"inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight\">\n           <span data-translate=\"error\">Error</span>\n           <span>1003</span>\n         </h1>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">Ray ID: 9c644b1019e2c0a8 &bull;</span>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">2026-01-30 22:09:21 UTC</span>\n        <h2 class=\"text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light\">Direct IP access not allowed</h2>\n      </header>\n\n      <section class=\"w-240 lg:w-full mx-auto mb-8 lg:px-8\">\n          <div id=\"what-happened-section\" class=\"w-1/2 md:w-full\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_happened\">What happened?</h2>\n            <p>You've requested an IP address that is part of the <a href=\"https://www.cloudflare.com/5xx-error-landing/\" target=\"_blank\">Cloudflare</a> network. A valid Host header must be supplied to reach the desired website.</p>\n            \n              <p>Please see <a rel=\"noopener noreferrer\" href=\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1003/\" target=\"_blank\">https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1003/</a> for more details.</p>\n            \n          </div>\n\n          \n          <div id=\"resolution-copy-section\" class=\"w-1/2 mt-6 text-15 leading-normal\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_can_i_do\">What can I do?</h2>\n            <p>If you are interested in learning more about Cloudflare, please <a href=\"https://www.cloudflare.com/5xx-error-landing/\" target=\"_blank\">visit our website</a>.</p>\n          </div>\n          \n      </section>\n\n      <div class=\"feedback-hidden py-8 text-center\" id=\"error-feedback\">\n    <div id=\"error-feedback-survey\" class=\"footer-line-wrapper\">\n        Was this page helpful?\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-yes\" type=\"button\">Yes</button>\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-no\" type=\"button\">No</button>\n    </div>\n    <div class=\"feedback-success feedback-hidden\" id=\"error-feedback-success\">\n        Thank you for your feedback!\n    </div>\n</div>\n\n\n      <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n  <p class=\"text-13\">\n    <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">9c644b1019e2c0a8</strong></span>\n    <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    <span id=\"cf-footer-item-ip\" class=\"cf-footer-item hidden sm:block sm:mb-1\">\n      Your IP:\n      <button type=\"button\" id=\"cf-footer-ip-reveal\" class=\"cf-footer-ip-reveal-btn\">Click to reveal</button>\n      <span class=\"hidden\" id=\"cf-footer-ip\">162.142.125.42</span>\n      <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    </span>\n    <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance &amp; security by</span> <a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/5xx-error-landing\" id=\"brand_link\" target=\"_blank\">Cloudflare</a></span>\n    \n  </p>\n  <script>(function(){function d(){var b=a.getElementById(\"cf-footer-item-ip\"),c=a.getElementById(\"cf-footer-ip-reveal\");b&&\"classList\"in b&&(b.classList.remove(\"hidden\"),c.addEventListener(\"click\",function(){c.classList.add(\"hidden\");a.getElementById(\"cf-footer-ip\").classList.remove(\"hidden\")}))}var a=document;document.addEventListener&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n</div><!-- /.error-footer -->\n\n\n    </div><!-- /#cf-error-details -->\n  </div><!-- /#cf-wrapper -->\n\n  <script>\n  window._cf_translation = {};\n  \n  \n</script>\n\n</body>\n</html>\n",
+                "html_title": "Direct IP access not allowed | Cloudflare",
+                "body_hash_sha256": "e37bfa595e8211d186a3ab61991f2d3365e31859db571f39d97333fa815cd4b7",
+                "body_hash_sha1": "6184fc74acc8f503d260864a87d646f95d7e75be",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "172.67.193.120"
+            }
+          ]
+        },
+        {
+          "port": 8443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "cloudflare",
+              "product": "cloudflare_load_balancer"
+            },
+            {
+              "type": [
+                "WAF"
+              ],
+              "vendor": "cloudflare",
+              "product": "waf"
+            }
+          ],
+          "labels": [
+            {
+              "value": "WAF"
+            }
+          ],
+          "ip": "172.67.193.120",
+          "scan_time": "2026-01-31T06:13:22Z",
+          "endpoints": [
+            {
+              "hostname": "172.67.193.120",
+              "port": 8443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T06:13:22Z",
+              "http": {
+                "uri": "http://172.67.193.120:8443/",
+                "protocol": "HTTP/1.1",
+                "status_code": 400,
+                "status_reason": "Bad Request",
+                "headers": {
+                  "CF-RAY": {
+                    "headers": [
+                      "-"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "253"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "cloudflare"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>400 The plain HTTP request was sent to HTTPS port</title>"
+                ],
+                "body_size": 253,
+                "body": "<html>\r\n<head><title>400 The plain HTTP request was sent to HTTPS port</title></head>\r\n<body>\r\n<center><h1>400 Bad Request</h1></center>\r\n<center>The plain HTTP request was sent to HTTPS port</center>\r\n<hr><center>cloudflare</center>\r\n</body>\r\n</html>\r\n",
+                "html_title": "400 The plain HTTP request was sent to HTTPS port",
+                "body_hash_sha256": "50e770b96bc49d107e17a982422d4eefea5bb4ad5bdb5bbb88fd6200ecf2f689",
+                "body_hash_sha1": "108b6115dc6ebfde76aef4336126f605252d957f",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "172.67.193.120"
+            }
+          ]
+        },
+        {
+          "port": 8880,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "cloudflare",
+              "product": "cloudflare_load_balancer"
+            },
+            {
+              "type": [
+                "WAF"
+              ],
+              "vendor": "cloudflare",
+              "product": "waf"
+            }
+          ],
+          "labels": [
+            {
+              "value": "WAF"
+            }
+          ],
+          "ip": "172.67.193.120",
+          "scan_time": "2026-01-31T02:02:32Z",
+          "endpoints": [
+            {
+              "hostname": "172.67.193.120",
+              "port": 8880,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T02:02:32Z",
+              "http": {
+                "uri": "http://172.67.193.120:8880/",
+                "protocol": "HTTP/1.1",
+                "status_code": 403,
+                "status_reason": "Forbidden",
+                "headers": {
+                  "CF-RAY": {
+                    "headers": [
+                      "9c65a09c1b3beaed-ORD"
+                    ]
+                  },
+                  "Cache-Control": {
+                    "headers": [
+                      "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Encoding": {
+                    "headers": [
+                      "gzip"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html; charset=UTF-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Expires": {
+                    "headers": [
+                      "Thu, 01 Jan 1970 00:00:01 GMT"
+                    ]
+                  },
+                  "Referrer-Policy": {
+                    "headers": [
+                      "same-origin"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "cloudflare"
+                    ]
+                  },
+                  "Transfer-Encoding": {
+                    "headers": [
+                      "chunked"
+                    ]
+                  },
+                  "Vary": {
+                    "headers": [
+                      "Accept-Encoding"
+                    ]
+                  },
+                  "X-Frame-Options": {
+                    "headers": [
+                      "SAMEORIGIN"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>Direct IP access not allowed | Cloudflare</title>",
+                  "<meta charset=\"UTF-8\" />",
+                  "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />",
+                  "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />",
+                  "<meta name=\"robots\" content=\"noindex, nofollow\" />",
+                  "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />"
+                ],
+                "body_size": 6236,
+                "body": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Direct IP access not allowed | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />\n<meta name=\"robots\" content=\"noindex, nofollow\" />\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n<link rel=\"stylesheet\" id=\"cf_styles-css\" href=\"/cdn-cgi/styles/main.css\" />\n\n\n<script>\n(function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById(\"error-feedback-survey\"),d=document.getElementById(\"error-feedback-success\"),b=new XMLHttpRequest;a={event:\"feedback clicked\",properties:{errorCode:1003,helpful:a,version:1}};b.open(\"POST\",\"https://sparrow.cloudflare.com/api/v1/event\");b.setRequestHeader(\"Content-Type\",\"application/json\");b.setRequestHeader(\"Sparrow-Source-Key\",\"c771f0e4b54944bebf4261d44bd79a1e\");\nb.send(JSON.stringify(a));c.classList.add(\"feedback-hidden\");d.classList.remove(\"feedback-hidden\")};document.addEventListener(\"DOMContentLoaded\",function(){var a=document.getElementById(\"error-feedback\"),c=document.getElementById(\"feedback-button-yes\"),d=document.getElementById(\"feedback-button-no\");\"classList\"in a&&(a.classList.remove(\"feedback-hidden\"),c.addEventListener(\"click\",function(){e(!0)}),d.addEventListener(\"click\",function(){e(!1)}))})}})();\n</script>\n\n<script defer src=\"https://performance.radar.cloudflare.com/beacon.js\"></script>\n</head>\n<body>\n  <div id=\"cf-wrapper\">\n    <div class=\"cf-alert cf-alert-error cf-cookie-error hidden\" id=\"cookie-alert\" data-translate=\"enable_cookies\">Please enable cookies.</div>\n    <div id=\"cf-error-details\" class=\"p-0\">\n      <header class=\"mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased\">\n         <h1 class=\"inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight\">\n           <span data-translate=\"error\">Error</span>\n           <span>1003</span>\n         </h1>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">Ray ID: 9c65a09c1b3beaed &bull;</span>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">2026-01-31 02:02:31 UTC</span>\n        <h2 class=\"text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light\">Direct IP access not allowed</h2>\n      </header>\n\n      <section class=\"w-240 lg:w-full mx-auto mb-8 lg:px-8\">\n          <div id=\"what-happened-section\" class=\"w-1/2 md:w-full\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_happened\">What happened?</h2>\n            <p>You've requested an IP address that is part of the <a href=\"https://www.cloudflare.com/5xx-error-landing/\" target=\"_blank\">Cloudflare</a> network. A valid Host header must be supplied to reach the desired website.</p>\n            \n              <p>Please see <a rel=\"noopener noreferrer\" href=\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1003/\" target=\"_blank\">https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1003/</a> for more details.</p>\n            \n          </div>\n\n          \n          <div id=\"resolution-copy-section\" class=\"w-1/2 mt-6 text-15 leading-normal\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_can_i_do\">What can I do?</h2>\n            <p>If you are interested in learning more about Cloudflare, please <a href=\"https://www.cloudflare.com/5xx-error-landing/\" target=\"_blank\">visit our website</a>.</p>\n          </div>\n          \n      </section>\n\n      <div class=\"feedback-hidden py-8 text-center\" id=\"error-feedback\">\n    <div id=\"error-feedback-survey\" class=\"footer-line-wrapper\">\n        Was this page helpful?\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-yes\" type=\"button\">Yes</button>\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-no\" type=\"button\">No</button>\n    </div>\n    <div class=\"feedback-success feedback-hidden\" id=\"error-feedback-success\">\n        Thank you for your feedback!\n    </div>\n</div>\n\n\n      <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n  <p class=\"text-13\">\n    <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">9c65a09c1b3beaed</strong></span>\n    <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    <span id=\"cf-footer-item-ip\" class=\"cf-footer-item hidden sm:block sm:mb-1\">\n      Your IP:\n      <button type=\"button\" id=\"cf-footer-ip-reveal\" class=\"cf-footer-ip-reveal-btn\">Click to reveal</button>\n      <span class=\"hidden\" id=\"cf-footer-ip\">206.168.34.215</span>\n      <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    </span>\n    <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance &amp; security by</span> <a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/5xx-error-landing\" id=\"brand_link\" target=\"_blank\">Cloudflare</a></span>\n    \n  </p>\n  <script>(function(){function d(){var b=a.getElementById(\"cf-footer-item-ip\"),c=a.getElementById(\"cf-footer-ip-reveal\");b&&\"classList\"in b&&(b.classList.remove(\"hidden\"),c.addEventListener(\"click\",function(){c.classList.add(\"hidden\");a.getElementById(\"cf-footer-ip\").classList.remove(\"hidden\")}))}var a=document;document.addEventListener&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n</div><!-- /.error-footer -->\n\n\n    </div><!-- /#cf-error-details -->\n  </div><!-- /#cf-wrapper -->\n\n  <script>\n  window._cf_translation = {};\n  \n  \n</script>\n\n</body>\n</html>\n",
+                "html_title": "Direct IP access not allowed | Cloudflare",
+                "body_hash_sha256": "dad84a41513f965974cd9b1f4a0b915410f251dc20c0bf1a739de2d5eebbd708",
+                "body_hash_sha1": "6e4de6cd4b4c3fd767ce42f6d814c323f53ca3dd",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "172.67.193.120"
+            }
+          ]
+        }
+      ],
+      "service_count": 13,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-01-31T11:58:15Z"
+        },
+        "names": [
+          "www.joint-fix.shop",
+          "porn-ok.com",
+          "tuihat.com",
+          "xpet.tech",
+          "pvp-api.xpet.tech",
+          "3779b.top",
+          "sni.viefast.vn",
+          "kiki.ncsc.vn",
+          "patternlanguage.io.vn",
+          "hallen-oberkotzau.de",
+          "link.coldergames.com",
+          "coldergames.com",
+          "springs.com.ye",
+          "boatparts-shop.com",
+          "www.boalsfarm.com",
+          "prosenyapi.com",
+          "caritotov.lat",
+          "butikkarya.store",
+          "bedavagiris.store",
+          "blog.ruamduang.co",
+          "ruamduang.co",
+          "mepyhafo.pro",
+          "crownbetz.casino",
+          "akkusbranda.com.tr",
+          "789f.cymru",
+          "dachspenglerwien.at",
+          "kristalgids.nl",
+          "mail.misrsweets.com",
+          "mail.explorenccoast.com",
+          "explorenccoast.com",
+          "www.calendariodobolsafamilia.com.br",
+          "hbhw66.com",
+          "bastaodemadeira.com.br",
+          "heymade.com",
+          "hexuvium-experience.com",
+          "betmastersarena.quest",
+          "ultimateautomotivecare.com",
+          "nutrimichellybohnen.com",
+          "m.tzaqs.com",
+          "tuvexbit.com",
+          "support.apostolicsinglesnetwork.com",
+          "qwerta.info",
+          "fungamesonlinehub.com",
+          "shbrfm.com",
+          "dormitoriosquart.com",
+          "usnume.online",
+          "nets-china.com",
+          "la.7788.date",
+          "www.klongthomtech.com",
+          "www.tavernamareluipaharnic.com",
+          "www.kimigainai.com",
+          "kimigainai.com",
+          "tools.tanzaniatechmedia.com",
+          "merahbest.xyz",
+          "www.olcense.asia",
+          "eugenewebhost.com",
+          "online.essaydigger.com",
+          "eshangyuan.com",
+          "abcpresse.com",
+          "dldlog.studiodld.com",
+          "www.wanse8.com",
+          "www.pereiraemarquesadv.com.br",
+          "tuki.com.tr",
+          "75l.com.br",
+          "akinpaslanmaz.com.tr",
+          "exon51trial.com",
+          "www.357657.com",
+          "www.acrossthe-universe.net",
+          "www.inauguralscholar.com",
+          "copparoniedimei.com",
+          "icefishingwin.com",
+          "sirius.filstar.com",
+          "sub.viefast.vn",
+          "maryann.teamzavadowski.com",
+          "filmyzilla.co.nz",
+          "yuanbosz.com",
+          "dentium-milling-center.com",
+          "themorsecode.live",
+          "chavismoinc.com",
+          "tuff-usa.com",
+          "shop.trusof.com",
+          "book.trusof.com",
+          "www.trprodeexpert.com",
+          "socium.vin",
+          "olive-7979.com",
+          "avex-labs.com",
+          "xn77a.com",
+          "maldendirect.us",
+          "liketravel.us",
+          "slotstechmag.co.uk",
+          "norfolkpooltablemovers.com",
+          "seoauditconsultant.com",
+          "www.sqbgj.com",
+          "www.nextechforums.com",
+          "www.quest.co.ke",
+          "09898.cn",
+          "yqybbmk.cn",
+          "dakotahdavidson.com",
+          "mulherinfiel.com",
+          "hghg.online"
+        ],
+        "forward_dns": {
+          "09898.cn": {
+            "resolve_time": "2026-01-29T17:33:02Z",
+            "name": "09898.cn",
+            "record_type": "a"
+          },
+          "3779b.top": {
+            "resolve_time": "2026-01-31T12:33:05Z",
+            "name": "3779b.top",
+            "record_type": "a"
+          },
+          "75l.com.br": {
+            "resolve_time": "2026-01-29T19:39:57Z",
+            "name": "75l.com.br",
+            "record_type": "a"
+          },
+          "789f.cymru": {
+            "resolve_time": "2026-01-30T19:21:06Z",
+            "name": "789f.cymru",
+            "record_type": "a"
+          },
+          "abcpresse.com": {
+            "resolve_time": "2026-01-29T19:52:52Z",
+            "name": "abcpresse.com",
+            "record_type": "a"
+          },
+          "akinpaslanmaz.com.tr": {
+            "resolve_time": "2026-01-29T19:36:44Z",
+            "name": "akinpaslanmaz.com.tr",
+            "record_type": "a"
+          },
+          "akkusbranda.com.tr": {
+            "resolve_time": "2026-01-31T03:15:55Z",
+            "name": "akkusbranda.com.tr",
+            "record_type": "a"
+          },
+          "avex-labs.com": {
+            "resolve_time": "2026-01-29T18:11:27Z",
+            "name": "avex-labs.com",
+            "record_type": "a"
+          },
+          "bastaodemadeira.com.br": {
+            "resolve_time": "2026-01-30T12:42:24Z",
+            "name": "bastaodemadeira.com.br",
+            "record_type": "a"
+          },
+          "bedavagiris.store": {
+            "resolve_time": "2026-01-31T12:10:55Z",
+            "name": "bedavagiris.store",
+            "record_type": "a"
+          },
+          "betmastersarena.quest": {
+            "resolve_time": "2026-01-30T12:29:45Z",
+            "name": "betmastersarena.quest",
+            "record_type": "a"
+          },
+          "blog.ruamduang.co": {
+            "resolve_time": "2026-01-31T12:02:58Z",
+            "name": "blog.ruamduang.co",
+            "record_type": "a"
+          },
+          "boatparts-shop.com": {
+            "resolve_time": "2026-01-31T12:23:40Z",
+            "name": "boatparts-shop.com",
+            "record_type": "a"
+          },
+          "book.trusof.com": {
+            "resolve_time": "2026-01-29T18:24:23Z",
+            "name": "book.trusof.com",
+            "record_type": "a"
+          },
+          "butikkarya.store": {
+            "resolve_time": "2026-01-31T12:11:24Z",
+            "name": "butikkarya.store",
+            "record_type": "a"
+          },
+          "caritotov.lat": {
+            "resolve_time": "2026-01-31T12:12:54Z",
+            "name": "caritotov.lat",
+            "record_type": "a"
+          },
+          "chavismoinc.com": {
+            "resolve_time": "2026-01-29T18:41:00Z",
+            "name": "chavismoinc.com",
+            "record_type": "a"
+          },
+          "coldergames.com": {
+            "resolve_time": "2026-01-31T12:25:17Z",
+            "name": "coldergames.com",
+            "record_type": "a"
+          },
+          "copparoniedimei.com": {
+            "resolve_time": "2026-01-29T19:13:39Z",
+            "name": "copparoniedimei.com",
+            "record_type": "a"
+          },
+          "crownbetz.casino": {
+            "resolve_time": "2026-01-31T10:05:58Z",
+            "name": "crownbetz.casino",
+            "record_type": "a"
+          },
+          "dachspenglerwien.at": {
+            "resolve_time": "2026-01-30T15:10:48Z",
+            "name": "dachspenglerwien.at",
+            "record_type": "a"
+          },
+          "dakotahdavidson.com": {
+            "resolve_time": "2026-01-29T17:13:49Z",
+            "name": "dakotahdavidson.com",
+            "record_type": "a"
+          },
+          "dentium-milling-center.com": {
+            "resolve_time": "2026-01-29T18:51:21Z",
+            "name": "dentium-milling-center.com",
+            "record_type": "a"
+          },
+          "dldlog.studiodld.com": {
+            "resolve_time": "2026-01-29T19:52:46Z",
+            "name": "dldlog.studiodld.com",
+            "record_type": "a"
+          },
+          "dormitoriosquart.com": {
+            "resolve_time": "2026-01-29T20:26:00Z",
+            "name": "dormitoriosquart.com",
+            "record_type": "a"
+          },
+          "eshangyuan.com": {
+            "resolve_time": "2026-01-29T20:09:14Z",
+            "name": "eshangyuan.com",
+            "record_type": "a"
+          },
+          "eugenewebhost.com": {
+            "resolve_time": "2026-01-29T20:12:12Z",
+            "name": "eugenewebhost.com",
+            "record_type": "a"
+          },
+          "exon51trial.com": {
+            "resolve_time": "2026-01-29T19:32:00Z",
+            "name": "exon51trial.com",
+            "record_type": "a"
+          },
+          "explorenccoast.com": {
+            "resolve_time": "2026-01-30T12:52:06Z",
+            "name": "explorenccoast.com",
+            "record_type": "a"
+          },
+          "filmyzilla.co.nz": {
+            "resolve_time": "2026-01-29T19:02:36Z",
+            "name": "filmyzilla.co.nz",
+            "record_type": "a"
+          },
+          "fungamesonlinehub.com": {
+            "resolve_time": "2026-01-29T20:29:55Z",
+            "name": "fungamesonlinehub.com",
+            "record_type": "a"
+          },
+          "hallen-oberkotzau.de": {
+            "resolve_time": "2026-01-31T12:26:02Z",
+            "name": "hallen-oberkotzau.de",
+            "record_type": "a"
+          },
+          "hbhw66.com": {
+            "resolve_time": "2026-01-30T12:43:26Z",
+            "name": "hbhw66.com",
+            "record_type": "a"
+          },
+          "hexuvium-experience.com": {
+            "resolve_time": "2026-01-30T12:41:34Z",
+            "name": "hexuvium-experience.com",
+            "record_type": "a"
+          },
+          "heymade.com": {
+            "resolve_time": "2026-01-30T12:41:50Z",
+            "name": "heymade.com",
+            "record_type": "a"
+          },
+          "hghg.online": {
+            "resolve_time": "2026-01-29T17:12:39Z",
+            "name": "hghg.online",
+            "record_type": "a"
+          },
+          "icefishingwin.com": {
+            "resolve_time": "2026-01-29T19:11:38Z",
+            "name": "icefishingwin.com",
+            "record_type": "a"
+          },
+          "kiki.ncsc.vn": {
+            "resolve_time": "2026-01-31T12:32:14Z",
+            "name": "kiki.ncsc.vn",
+            "record_type": "a"
+          },
+          "kimigainai.com": {
+            "resolve_time": "2026-01-29T20:17:04Z",
+            "name": "kimigainai.com",
+            "record_type": "a"
+          },
+          "kristalgids.nl": {
+            "resolve_time": "2026-01-30T14:27:32Z",
+            "name": "kristalgids.nl",
+            "record_type": "a"
+          },
+          "la.7788.date": {
+            "resolve_time": "2026-01-29T20:20:54Z",
+            "name": "la.7788.date",
+            "record_type": "a"
+          },
+          "liketravel.us": {
+            "resolve_time": "2026-01-29T18:07:30Z",
+            "name": "liketravel.us",
+            "record_type": "a"
+          },
+          "link.coldergames.com": {
+            "resolve_time": "2026-01-31T12:25:17Z",
+            "name": "link.coldergames.com",
+            "record_type": "a"
+          },
+          "m.tzaqs.com": {
+            "resolve_time": "2026-01-30T12:04:51Z",
+            "name": "m.tzaqs.com",
+            "record_type": "a"
+          },
+          "mail.explorenccoast.com": {
+            "resolve_time": "2026-01-30T12:52:09Z",
+            "name": "mail.explorenccoast.com",
+            "record_type": "a"
+          },
+          "mail.misrsweets.com": {
+            "resolve_time": "2026-01-30T13:01:21Z",
+            "name": "mail.misrsweets.com",
+            "record_type": "a"
+          },
+          "maldendirect.us": {
+            "resolve_time": "2026-01-29T18:07:49Z",
+            "name": "maldendirect.us",
+            "record_type": "a"
+          },
+          "maryann.teamzavadowski.com": {
+            "resolve_time": "2026-01-29T19:04:02Z",
+            "name": "maryann.teamzavadowski.com",
+            "record_type": "a"
+          },
+          "mepyhafo.pro": {
+            "resolve_time": "2026-01-31T12:02:28Z",
+            "name": "mepyhafo.pro",
+            "record_type": "a"
+          },
+          "merahbest.xyz": {
+            "resolve_time": "2026-01-29T20:15:11Z",
+            "name": "merahbest.xyz",
+            "record_type": "a"
+          },
+          "mulherinfiel.com": {
+            "resolve_time": "2026-01-29T17:13:25Z",
+            "name": "mulherinfiel.com",
+            "record_type": "a"
+          },
+          "nets-china.com": {
+            "resolve_time": "2026-01-29T20:21:43Z",
+            "name": "nets-china.com",
+            "record_type": "a"
+          },
+          "norfolkpooltablemovers.com": {
+            "resolve_time": "2026-01-29T18:02:31Z",
+            "name": "norfolkpooltablemovers.com",
+            "record_type": "a"
+          },
+          "nutrimichellybohnen.com": {
+            "resolve_time": "2026-01-30T12:07:09Z",
+            "name": "nutrimichellybohnen.com",
+            "record_type": "a"
+          },
+          "olive-7979.com": {
+            "resolve_time": "2026-01-29T18:14:52Z",
+            "name": "olive-7979.com",
+            "record_type": "a"
+          },
+          "online.essaydigger.com": {
+            "resolve_time": "2026-01-29T20:09:55Z",
+            "name": "online.essaydigger.com",
+            "record_type": "a"
+          },
+          "patternlanguage.io.vn": {
+            "resolve_time": "2026-01-31T12:31:48Z",
+            "name": "patternlanguage.io.vn",
+            "record_type": "a"
+          },
+          "porn-ok.com": {
+            "resolve_time": "2026-01-31T12:48:29Z",
+            "name": "porn-ok.com",
+            "record_type": "a"
+          },
+          "prosenyapi.com": {
+            "resolve_time": "2026-01-31T12:20:18Z",
+            "name": "prosenyapi.com",
+            "record_type": "a"
+          },
+          "pvp-api.xpet.tech": {
+            "resolve_time": "2026-01-31T12:39:15Z",
+            "name": "pvp-api.xpet.tech",
+            "record_type": "a"
+          },
+          "qwerta.info": {
+            "resolve_time": "2026-01-29T20:30:35Z",
+            "name": "qwerta.info",
+            "record_type": "a"
+          },
+          "ruamduang.co": {
+            "resolve_time": "2026-01-31T12:02:58Z",
+            "name": "ruamduang.co",
+            "record_type": "a"
+          },
+          "seoauditconsultant.com": {
+            "resolve_time": "2026-01-29T18:02:31Z",
+            "name": "seoauditconsultant.com",
+            "record_type": "a"
+          },
+          "shbrfm.com": {
+            "resolve_time": "2026-01-29T20:28:19Z",
+            "name": "shbrfm.com",
+            "record_type": "a"
+          },
+          "shop.trusof.com": {
+            "resolve_time": "2026-01-29T18:24:23Z",
+            "name": "shop.trusof.com",
+            "record_type": "a"
+          },
+          "sirius.filstar.com": {
+            "resolve_time": "2026-01-29T19:10:37Z",
+            "name": "sirius.filstar.com",
+            "record_type": "a"
+          },
+          "slotstechmag.co.uk": {
+            "resolve_time": "2026-01-29T18:05:48Z",
+            "name": "slotstechmag.co.uk",
+            "record_type": "a"
+          },
+          "sni.viefast.vn": {
+            "resolve_time": "2026-01-31T12:33:04Z",
+            "name": "sni.viefast.vn",
+            "record_type": "a"
+          },
+          "socium.vin": {
+            "resolve_time": "2026-01-29T18:21:42Z",
+            "name": "socium.vin",
+            "record_type": "a"
+          },
+          "springs.com.ye": {
+            "resolve_time": "2026-01-31T12:24:35Z",
+            "name": "springs.com.ye",
+            "record_type": "a"
+          },
+          "sub.viefast.vn": {
+            "resolve_time": "2026-01-29T19:04:03Z",
+            "name": "sub.viefast.vn",
+            "record_type": "a"
+          },
+          "support.apostolicsinglesnetwork.com": {
+            "resolve_time": "2026-01-30T08:52:31Z",
+            "name": "support.apostolicsinglesnetwork.com",
+            "record_type": "a"
+          },
+          "themorsecode.live": {
+            "resolve_time": "2026-01-29T18:43:42Z",
+            "name": "themorsecode.live",
+            "record_type": "a"
+          },
+          "tools.tanzaniatechmedia.com": {
+            "resolve_time": "2026-01-29T20:15:50Z",
+            "name": "tools.tanzaniatechmedia.com",
+            "record_type": "a"
+          },
+          "tuff-usa.com": {
+            "resolve_time": "2026-01-29T18:27:52Z",
+            "name": "tuff-usa.com",
+            "record_type": "a"
+          },
+          "tuihat.com": {
+            "resolve_time": "2026-01-31T12:45:56Z",
+            "name": "tuihat.com",
+            "record_type": "a"
+          },
+          "tuki.com.tr": {
+            "resolve_time": "2026-01-29T19:43:13Z",
+            "name": "tuki.com.tr",
+            "record_type": "a"
+          },
+          "tuvexbit.com": {
+            "resolve_time": "2026-01-30T12:01:59Z",
+            "name": "tuvexbit.com",
+            "record_type": "a"
+          },
+          "ultimateautomotivecare.com": {
+            "resolve_time": "2026-01-30T12:13:11Z",
+            "name": "ultimateautomotivecare.com",
+            "record_type": "a"
+          },
+          "usnume.online": {
+            "resolve_time": "2026-01-29T20:23:47Z",
+            "name": "usnume.online",
+            "record_type": "a"
+          },
+          "www.357657.com": {
+            "resolve_time": "2026-01-29T19:30:56Z",
+            "name": "www.357657.com",
+            "record_type": "a"
+          },
+          "www.acrossthe-universe.net": {
+            "resolve_time": "2026-01-29T19:21:58Z",
+            "name": "www.acrossthe-universe.net",
+            "record_type": "a"
+          },
+          "www.boalsfarm.com": {
+            "resolve_time": "2026-01-31T12:23:17Z",
+            "name": "www.boalsfarm.com",
+            "record_type": "a"
+          },
+          "www.calendariodobolsafamilia.com.br": {
+            "resolve_time": "2026-01-30T12:44:11Z",
+            "name": "www.calendariodobolsafamilia.com.br",
+            "record_type": "a"
+          },
+          "www.inauguralscholar.com": {
+            "resolve_time": "2026-01-29T19:19:50Z",
+            "name": "www.inauguralscholar.com",
+            "record_type": "a"
+          },
+          "www.joint-fix.shop": {
+            "resolve_time": "2026-01-31T14:47:38Z",
+            "name": "www.joint-fix.shop",
+            "record_type": "a"
+          },
+          "www.kimigainai.com": {
+            "resolve_time": "2026-01-29T20:17:07Z",
+            "name": "www.kimigainai.com",
+            "record_type": "a"
+          },
+          "www.klongthomtech.com": {
+            "resolve_time": "2026-01-29T20:19:53Z",
+            "name": "www.klongthomtech.com",
+            "record_type": "a"
+          },
+          "www.nextechforums.com": {
+            "resolve_time": "2026-01-29T17:36:20Z",
+            "name": "www.nextechforums.com",
+            "record_type": "a"
+          },
+          "www.olcense.asia": {
+            "resolve_time": "2026-01-29T20:14:34Z",
+            "name": "www.olcense.asia",
+            "record_type": "a"
+          },
+          "www.pereiraemarquesadv.com.br": {
+            "resolve_time": "2026-01-29T19:43:49Z",
+            "name": "www.pereiraemarquesadv.com.br",
+            "record_type": "a"
+          },
+          "www.quest.co.ke": {
+            "resolve_time": "2026-01-29T17:34:01Z",
+            "name": "www.quest.co.ke",
+            "record_type": "a"
+          },
+          "www.sqbgj.com": {
+            "resolve_time": "2026-01-29T17:39:21Z",
+            "name": "www.sqbgj.com",
+            "record_type": "a"
+          },
+          "www.tavernamareluipaharnic.com": {
+            "resolve_time": "2026-01-29T20:17:21Z",
+            "name": "www.tavernamareluipaharnic.com",
+            "record_type": "a"
+          },
+          "www.trprodeexpert.com": {
+            "resolve_time": "2026-01-29T18:23:22Z",
+            "name": "www.trprodeexpert.com",
+            "record_type": "a"
+          },
+          "www.wanse8.com": {
+            "resolve_time": "2026-01-29T19:43:57Z",
+            "name": "www.wanse8.com",
+            "record_type": "a"
+          },
+          "xn77a.com": {
+            "resolve_time": "2026-01-29T18:08:51Z",
+            "name": "xn77a.com",
+            "record_type": "a"
+          },
+          "xpet.tech": {
+            "resolve_time": "2026-01-31T12:39:16Z",
+            "name": "xpet.tech",
+            "record_type": "a"
+          },
+          "yqybbmk.cn": {
+            "resolve_time": "2026-01-29T17:22:49Z",
+            "name": "yqybbmk.cn",
+            "record_type": "a"
+          },
+          "yuanbosz.com": {
+            "resolve_time": "2026-01-29T18:58:21Z",
+            "name": "yuanbosz.com",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

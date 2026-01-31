@@ -1,0 +1,706 @@
+{
+  "result": {
+    "resource": {
+      "ip": "82.39.117.71",
+      "location": {
+        "continent": "North America",
+        "country": "United States",
+        "country_code": "US",
+        "city": "Kansas City",
+        "postal_code": "64106",
+        "timezone": "America/Chicago",
+        "province": "Missouri",
+        "coordinates": {
+          "latitude": 39.09973,
+          "longitude": -94.57857
+        }
+      },
+      "autonomous_system": {
+        "asn": 7488,
+        "description": "CNSERVER-AP-AS CNServer LLC",
+        "bgp_prefix": "82.39.117.0/24",
+        "name": "CNSERVER-AP-AS CNServer LLC",
+        "country_code": "US"
+      },
+      "whois": {
+        "network": {
+          "handle": "UK-NTLI-20030131",
+          "name": "Virgin Media Limited",
+          "cidrs": [
+            "82.30.0.0/15",
+            "82.32.0.0/12"
+          ],
+          "created": "2024-12-23T00:00:00Z",
+          "updated": "2024-12-23T00:00:00Z"
+        },
+        "organization": {
+          "handle": "ORG-NI9-RIPE",
+          "name": "Virgin Media Limited",
+          "address": "500 Brook Drive\\nRG2 6UU\\nReading, Berkshire\\nUNITED KINGDOM",
+          "abuse_contacts": [
+            {
+              "handle": "AR17821-RIPE",
+              "name": "Abuse-C Role",
+              "email": "abuse@virginmedia.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "AM2111-RIPE",
+              "name": "Andrew Mouzoures"
+            },
+            {
+              "handle": "DH687-RIPE",
+              "name": "Duty Hostmaster",
+              "email": "hostmaster@virginmedia.co.uk"
+            },
+            {
+              "handle": "DIA118-RIPE",
+              "name": "Direct Internet Access",
+              "email": "GPMBActivateDelivery@virginmedia.co.uk"
+            },
+            {
+              "handle": "IPAM2-RIPE",
+              "name": "Virgin Media IP Address Management",
+              "email": "ipam@virginmedia.co.uk"
+            },
+            {
+              "handle": "NNMC1-RIPE",
+              "name": "Virgin Media Network Management Centre",
+              "email": "ipam@virginmedia.co.uk"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 22,
+          "protocol": "SSH",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "type": [
+                "REMOTE_ACCESS"
+              ]
+            },
+            {
+              "vendor": "openbsd",
+              "product": "openssh"
+            }
+          ],
+          "labels": [
+            {
+              "value": "REMOTE_ACCESS"
+            }
+          ],
+          "ip": "82.39.117.71",
+          "scan_time": "2026-01-31T12:31:22Z",
+          "ssh": {
+            "endpoint_id": {
+              "raw": "SSH-2.0-OpenSSH_8.0",
+              "protocol_version": "2.0",
+              "software_version": "OpenSSH_8.0"
+            },
+            "kex_init_message": {
+              "kex_algorithms": [
+                "curve25519-sha256",
+                "curve25519-sha256@libssh.org",
+                "ecdh-sha2-nistp256",
+                "ecdh-sha2-nistp384",
+                "ecdh-sha2-nistp521",
+                "diffie-hellman-group-exchange-sha256",
+                "diffie-hellman-group14-sha256",
+                "diffie-hellman-group16-sha512",
+                "diffie-hellman-group18-sha512",
+                "diffie-hellman-group-exchange-sha1",
+                "diffie-hellman-group14-sha1"
+              ],
+              "host_key_algorithms": [
+                "rsa-sha2-512",
+                "rsa-sha2-256",
+                "ssh-rsa",
+                "ecdsa-sha2-nistp256",
+                "ssh-ed25519"
+              ],
+              "client_to_server_ciphers": [
+                "aes256-gcm@openssh.com",
+                "chacha20-poly1305@openssh.com",
+                "aes256-ctr",
+                "aes256-cbc",
+                "aes128-gcm@openssh.com",
+                "aes128-ctr",
+                "aes128-cbc"
+              ],
+              "server_to_client_ciphers": [
+                "aes256-gcm@openssh.com",
+                "chacha20-poly1305@openssh.com",
+                "aes256-ctr",
+                "aes256-cbc",
+                "aes128-gcm@openssh.com",
+                "aes128-ctr",
+                "aes128-cbc"
+              ],
+              "client_to_server_macs": [
+                "hmac-sha2-256-etm@openssh.com",
+                "hmac-sha1-etm@openssh.com",
+                "umac-128-etm@openssh.com",
+                "hmac-sha2-512-etm@openssh.com",
+                "hmac-sha2-256",
+                "hmac-sha1",
+                "umac-128@openssh.com",
+                "hmac-sha2-512"
+              ],
+              "server_to_client_macs": [
+                "hmac-sha2-256-etm@openssh.com",
+                "hmac-sha1-etm@openssh.com",
+                "umac-128-etm@openssh.com",
+                "hmac-sha2-512-etm@openssh.com",
+                "hmac-sha2-256",
+                "hmac-sha1",
+                "umac-128@openssh.com",
+                "hmac-sha2-512"
+              ],
+              "client_to_server_compression": [
+                "none",
+                "zlib@openssh.com"
+              ],
+              "server_to_client_compression": [
+                "none",
+                "zlib@openssh.com"
+              ]
+            },
+            "algorithm_selection": {
+              "kex_algorithm": "curve25519-sha256@libssh.org",
+              "host_key_algorithm": "ecdsa-sha2-nistp256",
+              "client_to_server_alg_group": {
+                "cipher": "aes128-ctr",
+                "mac": "hmac-sha2-256",
+                "compression": "none"
+              },
+              "server_to_client_alg_group": {
+                "cipher": "aes128-ctr",
+                "mac": "hmac-sha2-256",
+                "compression": "none"
+              }
+            },
+            "server_host_key": {
+              "fingerprint_sha256": "7b871b7ea2cea2a1c8a9fb353d043a330803a1774c7001ba1c8314edcd520bee",
+              "ecdsa_public_key": {
+                "b": "WsY12Ko6k+ez671VdpiGvGUdBrDMU7D2O848PifSYEs=",
+                "curve": "P-256",
+                "gx": "axfR8uEsQkf4vOblY6RA8ncDfYEt6zOg9KE5RdiYwpY=",
+                "gy": "T+NC4v4af5uO5+tKfA+eFivOM1drMV7Oy7ZAaDe/UfU=",
+                "length": 256,
+                "n": "/////wAAAAD//////////7zm+q2nF56E87nKwvxjJVE=",
+                "p": "/////wAAAAEAAAAAAAAAAAAAAAD///////////////8=",
+                "x": "alUC/D9ae6ki1dsww4p73Zqc/BSQbxYnWX8TUHw8sXs=",
+                "y": "P1puD8Ue/lrIpoUgSPIzug7PdFoS4eCrJXHMXaJhtvg="
+              }
+            },
+            "hassh_fingerprint": "f64043bfb57b94caaffcf99ca8a5eb0f"
+          }
+        },
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "f5",
+              "product": "nginx"
+            }
+          ],
+          "ip": "82.39.117.71",
+          "scan_time": "2026-01-31T10:48:11Z",
+          "endpoints": [
+            {
+              "hostname": "82.39.117.71",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T10:48:11Z",
+              "http": {
+                "uri": "http://82.39.117.71/",
+                "protocol": "HTTP/1.1",
+                "status_code": 200,
+                "status_reason": "OK",
+                "headers": {
+                  "Accept-Ranges": {
+                    "headers": [
+                      "bytes"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "138"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "ETag": {
+                    "headers": [
+                      "\"675dd480-8a\""
+                    ]
+                  },
+                  "Last-Modified": {
+                    "headers": [
+                      "Sat, 14 Dec 2024 18:54:56 GMT"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "nginx"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>404 Not Found</title>"
+                ],
+                "body_size": 138,
+                "body": "<html>\n<head><title>404 Not Found</title></head>\n<body>\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>",
+                "html_title": "404 Not Found",
+                "body_hash_sha256": "301bd9f16f94feedfae7a946a14bac38cb73c43efe6117bc5586835af03d7d6f",
+                "body_hash_sha1": "8d2a4760aa0b47984d11cd1a66448719177fb791",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "82.39.117.71"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "a054f43356a8c4fb90b3177b9b1903e475c9962deb89535eac7b9b862f792909",
+            "fingerprint_sha1": "af646d51c33b8ca471f9f5827c53af6844cfd106",
+            "fingerprint_md5": "bb33633c25785ebbace5df7bc18a4588",
+            "tbs_fingerprint_sha256": "d6fdebeb002da8624b5daaf6e69fa5a50b3437289f977fdf515de19f5fe49f6f",
+            "tbs_no_ct_fingerprint_sha256": "98fd01923911b6defc6ad5608c4df69efc7ba92de2e50a344a4da25ba1cdce5f",
+            "spki_fingerprint_sha256": "4c09f927e72f0e6a13bab66c667faaae143bf554c4b9e34cb1eef4ba0c63eb72",
+            "parent_spki_fingerprint_sha256": "86e9eeb01e9ebed3fb1da0516b5ae132dccf15aac3bd392e9f6f66594ab6c338",
+            "parsed": {
+              "version": 3,
+              "serial_number": "351358174206430024461657247572973643047814",
+              "issuer_dn": "C=US, O=Let's Encrypt, CN=R11",
+              "issuer": {
+                "common_name": [
+                  "R11"
+                ],
+                "country": [
+                  "US"
+                ],
+                "organization": [
+                  "Let's Encrypt"
+                ]
+              },
+              "subject_dn": "CN=www.0020365.com",
+              "subject": {
+                "common_name": [
+                  "www.0020365.com"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "RSA",
+                  "oid": "1.2.840.113549.1.1.1"
+                },
+                "rsa": {
+                  "exponent": 65537,
+                  "modulus": "c862218c95beaf9b602ba169e69eba8a11be496eea18d262d4a4cb04399c7392389abd03ca438ca058306f66bc7c8beb15165cc493b90887652cf8e86ba94d9a1f5aece65c7d56eb7c976769968f080972bec4caf539d9b4ba7bfebd82b94aeddda421f6c87f88250df9c9f37ab30491385d67bc6dfe399ae720536d3da27d4fffee594c8b40bf597523a6f4255dfe504b570301c5f11e699d044b0931949780ff6a471b149d1d2d066ae30faddcdd46c8ce245f27f74de238354d1afc6363a92755473f12547bd8ff51b353b7ac4680860d070d967e13a8b89f406b6423576a52124c8e78693c4838227689cf50610f4ff4c82c7e387dfe9368001ab9d1d9cf",
+                  "length": 2048
+                },
+                "fingerprint_sha256": "e74e72db2170e01cf5476537a86d9abe07649450e4515810efaab1eff442f887"
+              },
+              "validity_period": {
+                "not_before": "2024-12-24T16:09:13Z",
+                "not_after": "2025-03-24T16:09:12Z",
+                "length_seconds": 7776000
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "SHA256-RSA",
+                  "oid": "1.2.840.113549.1.1.11"
+                },
+                "value": "aad43bf2d24bb0f7ec242d928f8fea404cdc115b2d9deedcaaa3a3dc5e0e69e38b64dc770f291726813472687464e0a5136c589bfcb76f9396a8b10b31b4e496bbf385864b40e720641c873c7f7351cf034274af016cde49cbaa8faccff6792b28cd27c1d8e79c59817dcd1c588a30a37a173b95b1bb1b4c4cb07112e5e6751ab986bb71a51b52d82a99aad0e00b751dd62e7249f2d58f20ec8f7950c1c41a78dfff41d9470e7520c41bf951c2dbf7e403506db644ed387f78a91dd7898096cd414be3699dab20563a84576ea61bcaa68b2c35708fbed0d78c9f905fd5a868e68edc3bc111c75ae605a818d24113e0ca016964f5afcfaa5d38f56d0c8f4e1da1"
+              },
+              "serial_number_hex": "04088c82e41494e4190a5622587193bf2386"
+            },
+            "names": [
+              "0020365.com",
+              "www.0020365.com"
+            ],
+            "validation_level": "dv",
+            "validation": {
+              "nss": {
+                "ever_valid": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "591e9ce6c863d3a079e9fabe1478c7339a26b21269dde795211361024ae31a44",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "9283b2196bce874a3637de2b517758266400175b2d96490ee604a9b382f0cc5c",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "fe471af8952ed5bcea786ff9df397906c6d9e2c5d9c02ced1dcbb6e3e059458b",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "591e9ce6c863d3a079e9fabe1478c7339a26b21269dde795211361024ae31a44",
+                  "9283b2196bce874a3637de2b517758266400175b2d96490ee604a9b382f0cc5c",
+                  "fe471af8952ed5bcea786ff9df397906c6d9e2c5d9c02ced1dcbb6e3e059458b"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "ever_valid": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "591e9ce6c863d3a079e9fabe1478c7339a26b21269dde795211361024ae31a44",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "9283b2196bce874a3637de2b517758266400175b2d96490ee604a9b382f0cc5c",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "fe471af8952ed5bcea786ff9df397906c6d9e2c5d9c02ced1dcbb6e3e059458b",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "591e9ce6c863d3a079e9fabe1478c7339a26b21269dde795211361024ae31a44",
+                  "9283b2196bce874a3637de2b517758266400175b2d96490ee604a9b382f0cc5c",
+                  "fe471af8952ed5bcea786ff9df397906c6d9e2c5d9c02ced1dcbb6e3e059458b"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "ever_valid": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "591e9ce6c863d3a079e9fabe1478c7339a26b21269dde795211361024ae31a44",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "9283b2196bce874a3637de2b517758266400175b2d96490ee604a9b382f0cc5c",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "fe471af8952ed5bcea786ff9df397906c6d9e2c5d9c02ced1dcbb6e3e059458b",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "591e9ce6c863d3a079e9fabe1478c7339a26b21269dde795211361024ae31a44",
+                  "9283b2196bce874a3637de2b517758266400175b2d96490ee604a9b382f0cc5c",
+                  "fe471af8952ed5bcea786ff9df397906c6d9e2c5d9c02ced1dcbb6e3e059458b"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "ever_valid": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "591e9ce6c863d3a079e9fabe1478c7339a26b21269dde795211361024ae31a44",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "9283b2196bce874a3637de2b517758266400175b2d96490ee604a9b382f0cc5c",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "fe471af8952ed5bcea786ff9df397906c6d9e2c5d9c02ced1dcbb6e3e059458b",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "591e9ce6c863d3a079e9fabe1478c7339a26b21269dde795211361024ae31a44",
+                  "9283b2196bce874a3637de2b517758266400175b2d96490ee604a9b382f0cc5c",
+                  "fe471af8952ed5bcea786ff9df397906c6d9e2c5d9c02ced1dcbb6e3e059458b"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {}
+            },
+            "ct": {
+              "entries": {
+                "google_argon_2025_h1": {
+                  "index": 517378073,
+                  "added_to_ct_at": "2024-12-24T17:07:43Z",
+                  "ct_to_censys_at": "2024-12-24T17:10:45Z"
+                },
+                "google_xenon_2025_h1": {
+                  "index": 931493166,
+                  "added_to_ct_at": "2024-12-24T17:07:43Z",
+                  "ct_to_censys_at": "2024-12-24T17:11:58Z"
+                },
+                "letsencrypt_ct_sycamore_2025_h1_b": {
+                  "index": 888339129,
+                  "added_to_ct_at": "2024-12-24T17:07:43Z",
+                  "ct_to_censys_at": "2024-12-24T17:12:42Z"
+                },
+                "letsencrypt_ct_twig_2025_h1_b": {
+                  "index": 1037140887,
+                  "added_to_ct_at": "2024-12-24T17:07:43Z",
+                  "ct_to_censys_at": "2024-12-24T17:09:37Z"
+                },
+                "letsencrypt_ct_willow_2025_h1_b": {
+                  "index": 889264792,
+                  "added_to_ct_at": "2024-12-24T17:07:44Z",
+                  "ct_to_censys_at": "2024-12-24T17:11:47Z"
+                },
+                "sunlight_rome_2025_h1": {
+                  "index": 868858055,
+                  "added_to_ct_at": "2024-12-24T17:07:43Z",
+                  "ct_to_censys_at": "2024-12-24T17:11:07Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2024-12-24T17:09:37Z",
+            "modified_at": "2025-03-25T01:36:13Z",
+            "validated_at": "2025-03-25T01:36:13Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "4c09f927e72f0e6a13bab66c667faaae143bf554c4b9e34cb1eef4ba0c63eb72",
+            "parent_spki_subject_fingerprint_sha256": "86e9eeb01e9ebed3fb1da0516b5ae132dccf15aac3bd392e9f6f66594ab6c338"
+          },
+          "software": [
+            {
+              "vendor": "f5",
+              "product": "nginx"
+            }
+          ],
+          "ip": "82.39.117.71",
+          "scan_time": "2026-01-31T15:50:18Z",
+          "tls": {
+            "fingerprint_sha256": "a054f43356a8c4fb90b3177b9b1903e475c9962deb89535eac7b9b862f792909",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "591e9ce6c863d3a079e9fabe1478c7339a26b21269dde795211361024ae31a44",
+                "subject_dn": "C=US, O=Let's Encrypt, CN=R11",
+                "issuer_dn": "C=US, O=Internet Security Research Group, CN=ISRG Root X1"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "82.39.117.71",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T15:50:18Z",
+              "http": {
+                "uri": "https://82.39.117.71/",
+                "protocol": "HTTP/1.1",
+                "status_code": 200,
+                "status_reason": "OK",
+                "headers": {
+                  "Accept-Ranges": {
+                    "headers": [
+                      "bytes"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "210"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "ETag": {
+                    "headers": [
+                      "\"66005ee9-d2\""
+                    ]
+                  },
+                  "Last-Modified": {
+                    "headers": [
+                      "Sun, 24 Mar 2024 17:12:09 GMT"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "nginx"
+                    ]
+                  },
+                  "Strict-Transport-Security": {
+                    "headers": [
+                      "max-age=31536000"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>\u6b22\u8fce\u5149\u4e34</title>",
+                  "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />",
+                  "<meta http-equiv=\"refresh\" content=\"0; url=https://www-0020365.com\">"
+                ],
+                "body_size": 210,
+                "body": "<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n<title>\u6b22\u8fce\u5149\u4e34</title>\n<meta http-equiv=\"refresh\" content=\"0; url=https://www-0020365.com\">\n</head>\n<body></body>\n</html>",
+                "html_title": "\u6b22\u8fce\u5149\u4e34",
+                "body_hash_sha256": "3bae9718159b1691081a42710b5e0e254e43c58999630851b95b5c1993306fe5",
+                "body_hash_sha1": "4ff4f4aad107b4dcb19a5848bab391a4102c75d1",
+                "supported_versions": [
+                  "HTTP/1.1",
+                  "HTTP/2"
+                ]
+              },
+              "ip": "82.39.117.71"
+            }
+          ]
+        },
+        {
+          "port": 8888,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "f5",
+              "product": "nginx"
+            }
+          ],
+          "ip": "82.39.117.71",
+          "scan_time": "2026-01-31T02:18:49Z",
+          "endpoints": [
+            {
+              "hostname": "82.39.117.71",
+              "port": 8888,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T02:18:49Z",
+              "http": {
+                "uri": "http://82.39.117.71:8888/",
+                "protocol": "HTTP/1.1",
+                "status_code": 404,
+                "status_reason": "Not Found",
+                "headers": {
+                  "Content-Length": {
+                    "headers": [
+                      "146"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "nginx"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>404 Not Found</title>"
+                ],
+                "body_size": 146,
+                "body": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n",
+                "html_title": "404 Not Found",
+                "body_hash_sha256": "55f7d9e99b8e2d4e0e193b2f0275501e6d9c1ebd29cadbea6a0da48a8587e3e0",
+                "body_hash_sha1": "3c0af39ecb3753c5fee3b53d063c7286019eac3b",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "82.39.117.71"
+            }
+          ]
+        }
+      ],
+      "service_count": 4,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-01-25T20:27:32Z"
+        },
+        "names": [
+          "www.bet365qs.com",
+          "bet365qs.com"
+        ],
+        "forward_dns": {
+          "bet365qs.com": {
+            "resolve_time": "2026-01-11T18:13:58Z",
+            "name": "bet365qs.com",
+            "record_type": "a"
+          },
+          "www.bet365qs.com": {
+            "resolve_time": "2026-01-26T15:41:18Z",
+            "name": "www.bet365qs.com",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

@@ -1,0 +1,401 @@
+{
+  "result": {
+    "resource": {
+      "ip": "188.166.12.164",
+      "location": {
+        "continent": "Europe",
+        "country": "Netherlands",
+        "country_code": "NL",
+        "city": "Amsterdam",
+        "postal_code": "1012",
+        "timezone": "Europe/Amsterdam",
+        "province": "North Holland",
+        "coordinates": {
+          "latitude": 52.37403,
+          "longitude": 4.88969
+        }
+      },
+      "autonomous_system": {
+        "asn": 14061,
+        "description": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "bgp_prefix": "188.166.0.0/18",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "country_code": "US"
+      },
+      "whois": {
+        "network": {
+          "handle": "EU-DIGITALOCEAN-NL1",
+          "name": "Digital Ocean, Inc.",
+          "cidrs": [
+            "188.166.0.0/17"
+          ],
+          "created": "2015-06-03T00:00:00Z",
+          "updated": "2015-11-20T00:00:00Z"
+        },
+        "organization": {
+          "handle": "ORG-DOI2-RIPE",
+          "name": "DigitalOcean, LLC",
+          "address": "101 Avenue of the Americas, 10th Floor\\nNew York\\n10013\\nUNITED STATES",
+          "abuse_contacts": [
+            {
+              "handle": "AD10778-RIPE",
+              "name": "Abuse Department",
+              "email": "abuse@digitalocean.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 22,
+          "protocol": "SSH",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "type": [
+                "REMOTE_ACCESS"
+              ]
+            }
+          ],
+          "labels": [
+            {
+              "value": "REMOTE_ACCESS"
+            }
+          ],
+          "ip": "188.166.12.164",
+          "scan_time": "2026-01-31T12:30:39Z",
+          "ssh": {
+            "endpoint_id": {
+              "raw": "SSH-2.0-OpenSSH_9.2p1 Debian-2+deb12u7",
+              "protocol_version": "2.0",
+              "software_version": "OpenSSH_9.2p1",
+              "comment": "Debian-2+deb12u7"
+            },
+            "kex_init_message": {
+              "kex_algorithms": [
+                "sntrup761x25519-sha512",
+                "sntrup761x25519-sha512@openssh.com",
+                "curve25519-sha256",
+                "curve25519-sha256@libssh.org",
+                "ecdh-sha2-nistp256",
+                "ecdh-sha2-nistp384",
+                "ecdh-sha2-nistp521",
+                "diffie-hellman-group-exchange-sha256",
+                "diffie-hellman-group16-sha512",
+                "diffie-hellman-group18-sha512",
+                "diffie-hellman-group14-sha256",
+                "kex-strict-s-v00@openssh.com"
+              ],
+              "host_key_algorithms": [
+                "rsa-sha2-512",
+                "rsa-sha2-256",
+                "ecdsa-sha2-nistp256",
+                "ssh-ed25519"
+              ],
+              "client_to_server_ciphers": [
+                "chacha20-poly1305@openssh.com",
+                "aes128-ctr",
+                "aes192-ctr",
+                "aes256-ctr",
+                "aes128-gcm@openssh.com",
+                "aes256-gcm@openssh.com"
+              ],
+              "server_to_client_ciphers": [
+                "chacha20-poly1305@openssh.com",
+                "aes128-ctr",
+                "aes192-ctr",
+                "aes256-ctr",
+                "aes128-gcm@openssh.com",
+                "aes256-gcm@openssh.com"
+              ],
+              "client_to_server_macs": [
+                "umac-64-etm@openssh.com",
+                "umac-128-etm@openssh.com",
+                "hmac-sha2-256-etm@openssh.com",
+                "hmac-sha2-512-etm@openssh.com",
+                "hmac-sha1-etm@openssh.com",
+                "umac-64@openssh.com",
+                "umac-128@openssh.com",
+                "hmac-sha2-256",
+                "hmac-sha2-512",
+                "hmac-sha1"
+              ],
+              "server_to_client_macs": [
+                "umac-64-etm@openssh.com",
+                "umac-128-etm@openssh.com",
+                "hmac-sha2-256-etm@openssh.com",
+                "hmac-sha2-512-etm@openssh.com",
+                "hmac-sha1-etm@openssh.com",
+                "umac-64@openssh.com",
+                "umac-128@openssh.com",
+                "hmac-sha2-256",
+                "hmac-sha2-512",
+                "hmac-sha1"
+              ],
+              "client_to_server_compression": [
+                "none",
+                "zlib@openssh.com"
+              ],
+              "server_to_client_compression": [
+                "none",
+                "zlib@openssh.com"
+              ]
+            },
+            "algorithm_selection": {
+              "kex_algorithm": "curve25519-sha256@libssh.org",
+              "host_key_algorithm": "ecdsa-sha2-nistp256",
+              "client_to_server_alg_group": {
+                "cipher": "aes128-ctr",
+                "mac": "hmac-sha2-256",
+                "compression": "none"
+              },
+              "server_to_client_alg_group": {
+                "cipher": "aes128-ctr",
+                "mac": "hmac-sha2-256",
+                "compression": "none"
+              }
+            },
+            "server_host_key": {
+              "fingerprint_sha256": "36e3d4f43945a4f04550e34cbdebc7dba33180a8cecd0bcc95e1fb16812a217f",
+              "ecdsa_public_key": {
+                "b": "WsY12Ko6k+ez671VdpiGvGUdBrDMU7D2O848PifSYEs=",
+                "curve": "P-256",
+                "gx": "axfR8uEsQkf4vOblY6RA8ncDfYEt6zOg9KE5RdiYwpY=",
+                "gy": "T+NC4v4af5uO5+tKfA+eFivOM1drMV7Oy7ZAaDe/UfU=",
+                "length": 256,
+                "n": "/////wAAAAD//////////7zm+q2nF56E87nKwvxjJVE=",
+                "p": "/////wAAAAEAAAAAAAAAAAAAAAD///////////////8=",
+                "x": "llXitkLiSnbJq2irSc0xds02phcNqhsV5P7L/NkSze0=",
+                "y": "a0g8xT1e19pUT3zDwAuDTSgoxw8w2iA0mJnAUugQWpM="
+              }
+            },
+            "hassh_fingerprint": "425d29fe50d8e4f5e37efb6e24bcf660"
+          }
+        },
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "f5",
+              "product": "nginx"
+            }
+          ],
+          "labels": [
+            {
+              "value": "DEFAULT_LANDING_PAGE"
+            }
+          ],
+          "ip": "188.166.12.164",
+          "scan_time": "2026-01-31T11:19:40Z",
+          "endpoints": [
+            {
+              "hostname": "188.166.12.164",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T11:19:40Z",
+              "http": {
+                "uri": "http://188.166.12.164/",
+                "protocol": "HTTP/1.1",
+                "status_code": 200,
+                "status_reason": "OK",
+                "headers": {
+                  "Accept-Ranges": {
+                    "headers": [
+                      "bytes"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "615"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "ETag": {
+                    "headers": [
+                      "\"697739d2-267\""
+                    ]
+                  },
+                  "Last-Modified": {
+                    "headers": [
+                      "Mon, 26 Jan 2026 09:54:26 GMT"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "nginx/1.22.1"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>Welcome to nginx!</title>"
+                ],
+                "body_size": 615,
+                "body": "<!DOCTYPE html>\n<html>\n<head>\n<title>Welcome to nginx!</title>\n<style>\nhtml { color-scheme: light dark; }\nbody { width: 35em; margin: 0 auto;\nfont-family: Tahoma, Verdana, Arial, sans-serif; }\n</style>\n</head>\n<body>\n<h1>Welcome to nginx!</h1>\n<p>If you see this page, the nginx web server is successfully installed and\nworking. Further configuration is required.</p>\n\n<p>For online documentation and support please refer to\n<a href=\"http://nginx.org/\">nginx.org</a>.<br/>\nCommercial support is available at\n<a href=\"http://nginx.com/\">nginx.com</a>.</p>\n\n<p><em>Thank you for using nginx.</em></p>\n</body>\n</html>\n",
+                "html_title": "Welcome to nginx!",
+                "body_hash_sha256": "fb47468a2cd3953c7131431991afcc6a2703f14640520102eea0a685a7e8d6de",
+                "body_hash_sha1": "c51a3f0e6de4eb802d5630941c3fd9e1d0efae4b",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "188.166.12.164"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "f5",
+              "product": "nginx"
+            }
+          ],
+          "ip": "188.166.12.164",
+          "scan_time": "2026-01-31T14:54:18Z",
+          "endpoints": [
+            {
+              "hostname": "188.166.12.164",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T09:55:09Z",
+              "http": {
+                "uri": "http://188.166.12.164:443/",
+                "protocol": "HTTP/1.1",
+                "status_code": 400,
+                "status_reason": "Bad Request",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "255"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "nginx/1.22.1"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>400 The plain HTTP request was sent to HTTPS port</title>"
+                ],
+                "body_size": 255,
+                "body": "<html>\r\n<head><title>400 The plain HTTP request was sent to HTTPS port</title></head>\r\n<body>\r\n<center><h1>400 Bad Request</h1></center>\r\n<center>The plain HTTP request was sent to HTTPS port</center>\r\n<hr><center>nginx/1.22.1</center>\r\n</body>\r\n</html>\r\n",
+                "html_title": "400 The plain HTTP request was sent to HTTPS port",
+                "body_hash_sha256": "cc830fab033d30772e8b46c68ed20215ed81a7f16b7778432101b8825038ea6a",
+                "body_hash_sha1": "67cc7cb1047d847c90ac45cf99532477917889d8",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "188.166.12.164"
+            },
+            {
+              "hostname": "188.166.12.164",
+              "port": 443,
+              "path": "/robots.txt",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T14:54:18Z",
+              "http": {
+                "uri": "https://188.166.12.164/robots.txt",
+                "protocol": "HTTP/1.1",
+                "status_code": 200,
+                "status_reason": "OK",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "26"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/plain",
+                      "text/plain"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "nginx/1.22.1"
+                    ]
+                  }
+                },
+                "body_size": 26,
+                "body": "User-agent: *\nDisallow: /\n",
+                "body_hash_sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
+                "body_hash_sha1": "63657cbb7d7086c56b0cd4e5c6999bb683664868",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "188.166.12.164"
+            }
+          ]
+        }
+      ],
+      "service_count": 3,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-01-19T22:09:44Z"
+        },
+        "names": [
+          "smtp.par-soft-app.online"
+        ],
+        "forward_dns": {
+          "smtp.par-soft-app.online": {
+            "resolve_time": "2026-01-26T16:26:54Z",
+            "name": "smtp.par-soft-app.online",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

