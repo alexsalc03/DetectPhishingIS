@@ -123,9 +123,7 @@ def process_ips(input_file):
     print(f"IP totali da processare: {len(ips)}")
     print(f"Inizio lookup su Censys...\n")
     
-    if CENSYS_API_TOKEN == "YOUR_PERSONAL_ACCESS_TOKEN":
-        print("ATTENZIONE: Devi configurare il tuo Personal Access Token!")
-        return
+
     
     stats = {
         'found': 0, 
