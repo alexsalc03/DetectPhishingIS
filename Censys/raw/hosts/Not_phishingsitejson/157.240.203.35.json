@@ -1,0 +1,649 @@
+{
+  "result": {
+    "resource": {
+      "ip": "157.240.203.35",
+      "location": {
+        "continent": "Europe",
+        "country": "Italy",
+        "country_code": "IT",
+        "city": "Milan",
+        "postal_code": "20121",
+        "timezone": "Europe/Rome",
+        "province": "Lombardy",
+        "coordinates": {
+          "latitude": 45.46427,
+          "longitude": 9.18951
+        }
+      },
+      "autonomous_system": {
+        "asn": 32934,
+        "description": "FACEBOOK - Facebook, Inc.",
+        "bgp_prefix": "157.240.203.0/24",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "country_code": "US"
+      },
+      "whois": {
+        "network": {
+          "handle": "THEFA-3",
+          "name": "Facebook, Inc.",
+          "cidrs": [
+            "157.240.0.0/16"
+          ],
+          "created": "2015-05-14T00:00:00Z",
+          "updated": "2021-12-14T00:00:00Z",
+          "allocation_type": "ALLOCATION"
+        },
+        "organization": {
+          "handle": "THEFA-3",
+          "name": "Facebook, Inc.",
+          "street": "1601 Willow Rd.",
+          "city": "Menlo Park",
+          "state": "CA",
+          "postal_code": "94025",
+          "country": "US",
+          "abuse_contacts": [
+            {
+              "handle": "OPERA82-ARIN",
+              "name": "Operations",
+              "email": "domain@facebook.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "OPERA82-ARIN",
+              "name": "Operations",
+              "email": "domain@facebook.com"
+            }
+          ],
+          "tech_contacts": [
+            {
+              "handle": "OPERA82-ARIN",
+              "name": "Operations",
+              "email": "domain@facebook.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "facebook",
+              "product": "proxygen"
+            }
+          ],
+          "ip": "157.240.203.35",
+          "scan_time": "2026-02-13T06:14:37Z",
+          "endpoints": [
+            {
+              "hostname": "157.240.203.35",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T06:14:37Z",
+              "http": {
+                "uri": "http://157.240.203.35/",
+                "protocol": "HTTP/1.1",
+                "status_code": 301,
+                "status_reason": "Moved Permanently",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "0"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/plain"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Location": {
+                    "headers": [
+                      "https://157.240.203.35/"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "proxygen-bolt"
+                    ]
+                  }
+                },
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "157.240.203.35"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "UNKNOWN",
+          "transport_protocol": "quic",
+          "ip": "157.240.203.35",
+          "scan_time": "2026-02-13T03:32:12Z"
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "c7dc84db3486b60dd5b4086b16499917b36d1311d6f300aa736fbacfda677f6e",
+            "fingerprint_sha1": "affaeb4ffe638b785df97f49fbd5b15b071a61c1",
+            "fingerprint_md5": "2171298c0f5ebbad04cdd2f80c456015",
+            "tbs_fingerprint_sha256": "ce9df3bcc675edfa3e2cb5d7828727eca857278058fd2d863bef5708e52e3f81",
+            "tbs_no_ct_fingerprint_sha256": "d510cc46fa7e8da94f8f6c67ee315e01eb4e06c2f067fa9f5f1d16d43b6c56e4",
+            "spki_fingerprint_sha256": "a9294780f580413c7ddc9caf781a60529b9bb8cd0f56abfb197ccc2e276861f2",
+            "parent_spki_fingerprint_sha256": "f737aa26549dce01eb1dc2e8ce19ecb6692f4f439c946f3b7fae0b7abb3d87d7",
+            "parsed": {
+              "version": 3,
+              "serial_number": "13922905102959857204795372174797706763",
+              "issuer_dn": "C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+              "issuer": {
+                "common_name": [
+                  "DigiCert Global G2 TLS RSA SHA256 2020 CA1"
+                ],
+                "country": [
+                  "US"
+                ],
+                "organization": [
+                  "DigiCert Inc"
+                ]
+              },
+              "subject_dn": "C=US, ST=California, L=Menlo Park, O=Meta Platforms\\, Inc., CN=*.facebook.com",
+              "subject": {
+                "common_name": [
+                  "*.facebook.com"
+                ],
+                "country": [
+                  "US"
+                ],
+                "locality": [
+                  "Menlo Park"
+                ],
+                "province": [
+                  "California"
+                ],
+                "organization": [
+                  "Meta Platforms, Inc."
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "ECDSA",
+                  "oid": "1.2.840.10045.2.1"
+                },
+                "ecdsa": {
+                  "b": "5ac635d8aa3a93e7b3ebbd55769886bc651d06b0cc53b0f63bce3c3e27d2604b",
+                  "curve": "P-256",
+                  "gx": "6b17d1f2e12c4247f8bce6e563a440f277037d812deb33a0f4a13945d898c296",
+                  "gy": "4fe342e2fe1a7f9b8ee7eb4a7c0f9e162bce33576b315ececbb6406837bf51f5",
+                  "length": 256,
+                  "n": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+                  "p": "ffffffff00000001000000000000000000000000ffffffffffffffffffffffff",
+                  "pub": "041c8a9d0e63b250793a30be95e83497c438f3c000c071226c4455a5296486994d686b8741bdb906d64cad7c8ecd0d98ebd0b3ba080d5d17a64035686aad7f5adf",
+                  "x": "1c8a9d0e63b250793a30be95e83497c438f3c000c071226c4455a5296486994d",
+                  "y": "686b8741bdb906d64cad7c8ecd0d98ebd0b3ba080d5d17a64035686aad7f5adf"
+                },
+                "fingerprint_sha256": "e05f5e9421aa956a4f6ba27a2d628739a2ef963ec5b894105d271b077d9cd695"
+              },
+              "validity_period": {
+                "not_before": "2025-11-22T00:00:00Z",
+                "not_after": "2026-02-20T23:59:59Z",
+                "length_seconds": 7862400
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "SHA256-RSA",
+                  "oid": "1.2.840.113549.1.1.11"
+                },
+                "value": "b30c98443907516bd1052a378e5fd9b84b2ef6d028908fabed6b51218e8b05f0faebfc2a6f1d38c284bdb337f3a304d8c25874cd685e8c89b428a1a92273d794ab2394d68469247adf083cac21fc5a5d959a43ae56d550545d0fd3ccd3c33b75abb058b58e8bbff1425ac351e94926430633e0a3f6a15218a7c3f38cea8705506b0a526aa979f86e1978f6882a4cfb9153fc25489ad8015f4b92f79ce8bb47d0fbeee5c0627e31d1befb43f453a0ec71b57794ecbc28314d9d26a8ce630bd135fac0cb2361c6a8a5e6c46e64a012a8d12aa4b2567ca3dd17715fb56267d8a5ecc1a392c364a7eb5a46a41f75e175542b75534a07cadf006813afdc584370babf",
+                "valid": true
+              },
+              "serial_number_hex": "0a7974385d800270999cdab9df5c160b"
+            },
+            "names": [
+              "*.facebook.com",
+              "*.facebook.net",
+              "*.fbcdn.net",
+              "*.fbsbx.com",
+              "*.m.facebook.com",
+              "*.messenger.com",
+              "*.xx.fbcdn.net",
+              "*.xy.fbcdn.net",
+              "*.xz.fbcdn.net",
+              "facebook.com",
+              "messenger.com"
+            ],
+            "validation_level": "ov",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "a0d609a7e3c434e878a9a1c1bd065b8dcf33aa7efee1b11bc75cce5e5a042080",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                  "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "0ba8c0d459b76abc0825294f565e24f4f169d4a4819d0692d371522d297724b8",
+                      "2399561127a57125de8cefea610ddf2fa078b5c8067f4e828290bfb860e84b3c"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                  "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "a0d609a7e3c434e878a9a1c1bd065b8dcf33aa7efee1b11bc75cce5e5a042080",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                  "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "a0d609a7e3c434e878a9a1c1bd065b8dcf33aa7efee1b11bc75cce5e5a042080",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                  "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 2545607333,
+                  "added_to_ct_at": "2026-02-13T00:23:20Z",
+                  "ct_to_censys_at": "2026-02-13T01:22:50Z"
+                },
+                "google_argon_2026_h1": {
+                  "index": 2118423178,
+                  "added_to_ct_at": "2026-02-13T00:10:39Z",
+                  "ct_to_censys_at": "2026-02-13T00:20:26Z"
+                },
+                "google_xenon_2026_h1": {
+                  "index": 1954627250,
+                  "added_to_ct_at": "2026-02-13T00:10:39Z",
+                  "ct_to_censys_at": "2026-02-13T00:21:11Z"
+                },
+                "letsencrypt_ct_sycamore_2026_h1": {
+                  "index": 839379000,
+                  "added_to_ct_at": "2026-02-13T00:10:57Z",
+                  "ct_to_censys_at": "2026-02-13T00:21:13Z"
+                },
+                "letsencrypt_ct_willow_2026_h1": {
+                  "index": 845519465,
+                  "added_to_ct_at": "2026-02-13T00:10:58Z",
+                  "ct_to_censys_at": "2026-02-13T00:21:19Z"
+                },
+                "sectigo_elephant_2026_h1": {
+                  "index": 1516535711,
+                  "added_to_ct_at": "2026-02-13T00:10:39Z",
+                  "ct_to_censys_at": "2026-02-13T00:20:32Z"
+                },
+                "sectigo_tiger_2026_h1": {
+                  "index": 1397175865,
+                  "added_to_ct_at": "2026-02-13T00:10:39Z",
+                  "ct_to_censys_at": "2026-02-13T00:21:20Z"
+                },
+                "trustasia_log_2026_a": {
+                  "index": 761084086,
+                  "added_to_ct_at": "2026-02-13T00:10:41Z",
+                  "ct_to_censys_at": "2026-02-13T01:38:53Z"
+                },
+                "trustasia_log_2026_b": {
+                  "index": 782054338,
+                  "added_to_ct_at": "2026-02-13T00:10:43Z",
+                  "ct_to_censys_at": "2026-02-13T02:20:03Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2026-02-11T17:49:10Z",
+            "modified_at": "2026-02-13T02:20:04Z",
+            "validated_at": "2026-02-12T19:07:33Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "a9294780f580413c7ddc9caf781a60529b9bb8cd0f56abfb197ccc2e276861f2",
+            "parent_spki_subject_fingerprint_sha256": "f737aa26549dce01eb1dc2e8ce19ecb6692f4f439c946f3b7fae0b7abb3d87d7"
+          },
+          "ip": "157.240.203.35",
+          "scan_time": "2026-02-13T00:35:12Z",
+          "tls": {
+            "fingerprint_sha256": "c7dc84db3486b60dd5b4086b16499917b36d1311d6f300aa736fbacfda677f6e",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9",
+                "subject_dn": "C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+                "issuer_dn": "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root G2"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "157.240.203.35",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T00:35:12Z",
+              "http": {
+                "uri": "https://157.240.203.35/",
+                "protocol": "HTTP/1.1",
+                "status_code": 400,
+                "status_reason": "Bad Request",
+                "headers": {
+                  "Alt-Svc": {
+                    "headers": [
+                      "h3=\":443\"; ma=86400"
+                    ]
+                  },
+                  "Cache-Control": {
+                    "headers": [
+                      "private, no-cache, no-store, must-revalidate"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Encoding": {
+                    "headers": [
+                      "gzip"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "836"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html; charset=\"utf-8\""
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Expires": {
+                    "headers": [
+                      "Sat, 01 Jan 2000 00:00:00 GMT"
+                    ]
+                  },
+                  "Pragma": {
+                    "headers": [
+                      "no-cache"
+                    ]
+                  },
+                  "Proxy-Status": {
+                    "headers": [
+                      "http_request_error; e_fb_vipaddr=\"AcPqGOy0TBxwtaQYznzaUFTja5-hCgeB2uWU4wALiVhjnIsLw-QuocAXnVgmzgRAeu-PahGiiNcWUzyhA1c64BJ6qahWKG8FB4Ll\"; e_clientaddr=\"AcMK2l-QXUdyG91uhyzN0ObDzhwrzQ4j76LGoPZuzwOG7sDBDT63QVSObVv4Iej4S_uX-PwOZM1LoyuLMQKWMvHV_UpQq9qQm_TXCKfY2YRUu2Txfg\"; e_upip=\"AcNrfQfyL5P2JMTiz_hundUB01mCC3dEhiSsZSXWW--Kx1wcNvgTa6_gA6ypRQzB8nhjLHXlFErqXVf4eHsSLMnvKbzQ4scj9GLFpin_pGU\"; e_fb_zone=\"AcNAWMXsKKzbUbJvHknjDfjJHnPoDZfD54bYA7oosenUjhS38qfmU1aefqh26_zx\"; e_fb_twtaskhandle=\"AcOozytwnEZtZxhCSUFX2VIPJsnRXjm6zAS-mAbSSZ0MkliUAuPqnk9r78fFkMQajopRmK_Jk_kQvVeqyuUZJCLBPAL8nwimEJCxni3Wuy_MBCw\"; e_proxy=\"AcOLVxn2ftF4OgLOwBDQW8nILN9doSqLBX2N4LFl21TOnAPj9Npl3kgBMIe0M_VsYtiV5EDn6Kk-CazMwWme\", http_request_error; e_fb_vipaddr=\"AcNPCbKb5_EeRjpVKfYDoOQ9SR1Btnzhr_wDXAX63ocCa0uc57fuhBXwGJEYiH8i6LdMjOGELEo\"; e_clientaddr=\"AcOZOmngho4xzfj4LCOgU7TLXPDiorbc3qwd_2AJyPorsS5BcZk9KP0pX1AwUgXExO6C0JIVtHS1yHGAmRY\"; e_upip=\"AcPTzNXp8tAgtjTxaEdNn-dGCgLe6uzyn-vpOISsFgIgJE42HrJ0Tv2nlisevQgs5QgkTpcDB-L-ceV4SYjCPYzm2470dI-StmNj\"; e_fb_zone=\"AcMmoFVE-A1WI1ZljFGGN3v-YkT_P8Et6WAU5zzK-4ZCzKUid5pewylor4EWpg\"; e_fb_twtaskhandle=\"AcPU-7GeicVvh7q4TqnEenGj7SjNtGxc1whitOlaY_TQfwpl83fQOv-fbXiEDyl0nA1GNyoJJTmvQuvTCZMCrhNr53vGozgR7-ne\"; e_proxy=\"AcPp1xzzQXPzUWLMxwXsKAysK5TC5I2_t18iUuou1AFzbo_-24WEhNXN8WZrxO7NbdQKgx4EuF6EgfQ\""
+                    ]
+                  },
+                  "Vary": {
+                    "headers": [
+                      "Accept-Encoding"
+                    ]
+                  },
+                  "X-Content-Type-Options": {
+                    "headers": [
+                      "nosniff"
+                    ]
+                  },
+                  "X-FB-Connection-Quality": {
+                    "headers": [
+                      "GOOD; q=0.7, rtt=110, rtx=0, c=10, mss=1380, tbw=3282, tp=-1, tpl=-1, uplat=107, ullat=0"
+                    ]
+                  },
+                  "X-FB-Debug": {
+                    "headers": [
+                      "lkSgbHpkXaLsE81IaKo2qEuJRmHqc6aoHMsS59v+PtEUMNMaiO1nOlXltK+qqLW8CG6XafBXvnVCrvqtqwpSTw=="
+                    ]
+                  },
+                  "X-Frame-Options": {
+                    "headers": [
+                      "DENY"
+                    ]
+                  },
+                  "X-XSS-Protection": {
+                    "headers": [
+                      "0"
+                    ]
+                  },
+                  "content-security-policy": {
+                    "headers": [
+                      "default-src 'self' blob: *;script-src 'nonce-6f2miwku' 127.0.0.1:* blob: 'self' https://*.google-analytics.com *.google.com;style-src 'self' data: blob: 'unsafe-inline';connect-src 'self' data: blob: ws://localhost:* https://*.google-analytics.com;font-src 'self' data: blob: *;img-src 'self' data: blob: * https://*.google-analytics.com;media-src 'self' data: blob: *;child-src 'self' data: blob: *;frame-src 'self' data: blob: *;manifest-src 'self' data: blob: *;object-src 'self' data: blob: *;worker-src 'self' data: blob: *;block-all-mixed-content;upgrade-insecure-requests;"
+                    ]
+                  },
+                  "cross-origin-opener-policy": {
+                    "headers": [
+                      "same-origin-allow-popups"
+                    ]
+                  },
+                  "document-policy": {
+                    "headers": [
+                      "include-js-call-stacks-in-crash-reports"
+                    ]
+                  },
+                  "report-to": {
+                    "headers": [
+                      "{\"max_age\":2592000,\"endpoints\":[{\"url\":\"https:\\/\\/www.facebook.com\\/browser_reporting\\/coop\\/?minimize=0\"}],\"group\":\"coop_report\",\"include_subdomains\":true}"
+                    ]
+                  },
+                  "reporting-endpoints": {
+                    "headers": [
+                      "coop_report=\"https://www.facebook.com/browser_reporting/coop/?minimize=0\""
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>Error</title>",
+                  "<meta charset=\"utf-8\" />",
+                  "<meta http-equiv=\"Cache-Control\" content=\"no-cache\" />",
+                  "<meta name=\"robots\" content=\"noindex,nofollow\" />"
+                ],
+                "body_size": 1542,
+                "body": "<!DOCTYPE html><html lang=\"en\" id=\"facebook\"><head><title>Error</title><meta charset=\"utf-8\" /><meta http-equiv=\"Cache-Control\" content=\"no-cache\" /><meta name=\"robots\" content=\"noindex,nofollow\" /><style nonce=\"6f2miwku\">html, body { color: #333; font-family: 'Lucida Grande', 'Tahoma', 'Verdana', 'Arial', sans-serif; margin: 0; padding: 0; text-align: center;}\n#header { height: 30px; padding-bottom: 10px; padding-top: 10px; text-align: center;}\n#icon { width: 30px;}\n.core { margin: auto; padding: 1em 0; text-align: left; width: 904px;}\nh1 { font-size: 18px;}\np { font-size: 13px;}\n.footer { border-top: 1px solid #ddd; color: #777; float: left; font-size: 11px; padding: 5px 8px 6px 0; width: 904px;}</style></head><body><div id=\"header\"><a href=\"//www.facebook.com/\"><img id=\"icon\" src=\"//static.facebook.com/images/logos/facebook_2x.png\" /></a></div><div class=\"core\"><h1>Sorry, something went wrong.</h1><p>We&#039;re working on getting this fixed as soon as we can.</p><p><a id=\"back\" href=\"//www.facebook.com/\">Go back</a></p><div class=\"footer\"> Meta &#169; 2026 &#183; <a href=\"//www.facebook.com/help/?ref=href052\">Help</a></div></div><script nonce=\"6f2miwku\">\n              document.getElementById(\"back\").onclick = function() {\n                if (history.length > 1) {\n                  history.back();\n                  return false;\n                }\n              };\n            </script></body></html><!-- @codegen-command : phps GenerateErrorPages --><!-- @generated SignedSource<<df9c809b58b9859de61d5022430cb24e>> -->",
+                "html_title": "Error",
+                "body_hash_sha256": "ce38b07d1d268eb911d9a98e27528ca46d2a3d2b78d191cd523ae3c10a45d26a",
+                "body_hash_sha1": "9fe0e3b4edab93480cd87da64692c6ed1fcbe2e5",
+                "supported_versions": [
+                  "HTTP/1.1",
+                  "HTTP/2"
+                ]
+              },
+              "ip": "157.240.203.35"
+            }
+          ]
+        }
+      ],
+      "service_count": 3,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-02-05T09:47:37Z",
+          "names": [
+            "edge-star-mini-shv-01-mxp2.facebook.com"
+          ]
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

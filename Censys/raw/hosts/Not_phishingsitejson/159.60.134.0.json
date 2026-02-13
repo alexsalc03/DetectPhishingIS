@@ -1,0 +1,329 @@
+{
+  "result": {
+    "resource": {
+      "ip": "159.60.134.0",
+      "location": {
+        "continent": "North America",
+        "country": "United States",
+        "country_code": "US",
+        "city": "Seattle",
+        "postal_code": "98104",
+        "timezone": "America/Los_Angeles",
+        "province": "Washington",
+        "coordinates": {
+          "latitude": 47.6036,
+          "longitude": -122.3256
+        }
+      },
+      "autonomous_system": {
+        "asn": 35280,
+        "description": "F5",
+        "bgp_prefix": "159.60.128.0/20",
+        "name": "F5",
+        "country_code": "FR"
+      },
+      "whois": {
+        "network": {
+          "handle": "F5-ANYCAST-1",
+          "name": "F5 Anycast 1",
+          "cidrs": [
+            "159.60.128.0/21"
+          ],
+          "created": "2022-03-22T00:00:00Z",
+          "updated": "2024-11-13T00:00:00Z"
+        },
+        "organization": {
+          "handle": "ORG-FI76-RIPE",
+          "name": "F5, Inc.",
+          "address": "801 5th Avenue, Seattle WA, 98104 USA",
+          "abuse_contacts": [
+            {
+              "handle": "AN29577-RIPE",
+              "name": "F5 Inc. - Network Engineering",
+              "email": "f5-cloud-netops@f5.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "ip": "159.60.134.0",
+          "scan_time": "2026-02-13T03:07:42Z",
+          "endpoints": [
+            {
+              "hostname": "159.60.134.0",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T03:07:42Z",
+              "http": {
+                "uri": "http://159.60.134.0/",
+                "protocol": "HTTP/1.1",
+                "status_code": 404,
+                "status_reason": "Not Found",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "content-length": {
+                    "headers": [
+                      "309"
+                    ]
+                  },
+                  "content-type": {
+                    "headers": [
+                      "text/html; charset=UTF-8"
+                    ]
+                  },
+                  "date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "server": {
+                    "headers": [
+                      "volt-adc"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>Error Page</title>"
+                ],
+                "body_size": 309,
+                "body": "<html><head><title>Error Page</title></head>\n<body>The requested URL was rejected. Please consult with your administrator.<br/><br/>\nYour support ID is 1208c15d-5cad-41b0-9df9-3eea1c03cc00<h2>Error 404 - Not Found</h2>F5 site: fr4-fra<br/><br/><a href='javascript:history.back();'>[Go Back]</a></body></html>\n",
+                "html_title": "Error Page",
+                "body_hash_sha256": "fdaadd178d90c788f5e52518da1fea5cecccfd3cdb1cba685efffaf05c520689",
+                "body_hash_sha1": "cdc4913d2e1f957df4e778ebcf29a2be44a3b6b0",
+                "supported_versions": [
+                  "HTTP/1.1",
+                  "HTTP/2"
+                ]
+              },
+              "ip": "159.60.134.0"
+            }
+          ]
+        }
+      ],
+      "service_count": 1,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-02-06T11:36:31Z"
+        },
+        "names": [
+          "strongbox.f5.com",
+          "interact.f5.com",
+          "labs.f5.com",
+          "www.shapesecurity.com",
+          "partner.f5.com",
+          "nginx.com",
+          "www.nginx.co.jp",
+          "shapesecurity.com",
+          "chaosmonkey.f5networks.net",
+          "strongbox.f5networks.net",
+          "mktcomponents.f5.com",
+          "lab.f5.com",
+          "f5networks.net",
+          "www.f5labs.com",
+          "studio.f5.com",
+          "www.f5.com",
+          "www.wib.com",
+          "brianasworkshop.com",
+          "leaksignal.com",
+          "www.nginx.com",
+          "blog.shapesecurity.com",
+          "wib.com",
+          "blog.nginx.com",
+          "partners.f5.com",
+          "f5networks.co.jp",
+          "f5.com",
+          "www.f5agility.com",
+          "www.f5networks.net",
+          "stg.f5labs.com",
+          "www.leaksignal.com",
+          "f5labs.com",
+          "www.polykill.io",
+          "polykill.io"
+        ],
+        "forward_dns": {
+          "blog.nginx.com": {
+            "resolve_time": "2026-01-26T14:19:22Z",
+            "name": "blog.nginx.com",
+            "record_type": "a"
+          },
+          "blog.shapesecurity.com": {
+            "resolve_time": "2026-01-27T19:48:29Z",
+            "name": "blog.shapesecurity.com",
+            "record_type": "a"
+          },
+          "brianasworkshop.com": {
+            "resolve_time": "2026-01-29T16:41:52Z",
+            "name": "brianasworkshop.com",
+            "record_type": "a"
+          },
+          "chaosmonkey.f5networks.net": {
+            "resolve_time": "2026-02-06T13:35:57Z",
+            "name": "chaosmonkey.f5networks.net",
+            "record_type": "a"
+          },
+          "f5.com": {
+            "resolve_time": "2026-01-20T01:38:54Z",
+            "name": "f5.com",
+            "record_type": "a"
+          },
+          "f5labs.com": {
+            "resolve_time": "2026-01-08T20:12:20Z",
+            "name": "f5labs.com",
+            "record_type": "a"
+          },
+          "f5networks.co.jp": {
+            "resolve_time": "2026-01-25T22:34:03Z",
+            "name": "f5networks.co.jp",
+            "record_type": "a"
+          },
+          "f5networks.net": {
+            "resolve_time": "2026-02-05T12:41:21Z",
+            "name": "f5networks.net",
+            "record_type": "a"
+          },
+          "interact.f5.com": {
+            "resolve_time": "2026-02-12T12:37:28Z",
+            "name": "interact.f5.com",
+            "record_type": "a"
+          },
+          "lab.f5.com": {
+            "resolve_time": "2026-02-05T12:47:43Z",
+            "name": "lab.f5.com",
+            "record_type": "a"
+          },
+          "labs.f5.com": {
+            "resolve_time": "2026-02-11T17:47:10Z",
+            "name": "labs.f5.com",
+            "record_type": "a"
+          },
+          "leaksignal.com": {
+            "resolve_time": "2026-01-29T12:49:23Z",
+            "name": "leaksignal.com",
+            "record_type": "a"
+          },
+          "mktcomponents.f5.com": {
+            "resolve_time": "2026-02-05T12:47:44Z",
+            "name": "mktcomponents.f5.com",
+            "record_type": "a"
+          },
+          "nginx.com": {
+            "resolve_time": "2026-02-07T21:33:54Z",
+            "name": "nginx.com",
+            "record_type": "a"
+          },
+          "partner.f5.com": {
+            "resolve_time": "2026-02-08T19:39:01Z",
+            "name": "partner.f5.com",
+            "record_type": "a"
+          },
+          "partners.f5.com": {
+            "resolve_time": "2026-01-26T12:08:44Z",
+            "name": "partners.f5.com",
+            "record_type": "a"
+          },
+          "polykill.io": {
+            "resolve_time": "2025-12-31T18:41:47Z",
+            "name": "polykill.io",
+            "record_type": "a"
+          },
+          "shapesecurity.com": {
+            "resolve_time": "2026-02-06T16:24:42Z",
+            "name": "shapesecurity.com",
+            "record_type": "a"
+          },
+          "stg.f5labs.com": {
+            "resolve_time": "2026-01-12T18:46:34Z",
+            "name": "stg.f5labs.com",
+            "record_type": "a"
+          },
+          "strongbox.f5.com": {
+            "resolve_time": "2026-02-12T12:37:29Z",
+            "name": "strongbox.f5.com",
+            "record_type": "a"
+          },
+          "strongbox.f5networks.net": {
+            "resolve_time": "2026-02-06T13:35:57Z",
+            "name": "strongbox.f5networks.net",
+            "record_type": "a"
+          },
+          "studio.f5.com": {
+            "resolve_time": "2026-01-30T12:54:47Z",
+            "name": "studio.f5.com",
+            "record_type": "a"
+          },
+          "wib.com": {
+            "resolve_time": "2026-01-26T19:51:43Z",
+            "name": "wib.com",
+            "record_type": "a"
+          },
+          "www.f5.com": {
+            "resolve_time": "2026-01-30T12:54:45Z",
+            "name": "www.f5.com",
+            "record_type": "a"
+          },
+          "www.f5agility.com": {
+            "resolve_time": "2026-01-14T20:29:32Z",
+            "name": "www.f5agility.com",
+            "record_type": "a"
+          },
+          "www.f5labs.com": {
+            "resolve_time": "2026-01-30T12:54:47Z",
+            "name": "www.f5labs.com",
+            "record_type": "a"
+          },
+          "www.f5networks.net": {
+            "resolve_time": "2026-01-14T12:12:51Z",
+            "name": "www.f5networks.net",
+            "record_type": "a"
+          },
+          "www.leaksignal.com": {
+            "resolve_time": "2026-01-11T12:28:08Z",
+            "name": "www.leaksignal.com",
+            "record_type": "a"
+          },
+          "www.nginx.co.jp": {
+            "resolve_time": "2026-02-07T12:53:35Z",
+            "name": "www.nginx.co.jp",
+            "record_type": "a"
+          },
+          "www.nginx.com": {
+            "resolve_time": "2026-01-28T16:45:55Z",
+            "name": "www.nginx.com",
+            "record_type": "a"
+          },
+          "www.polykill.io": {
+            "resolve_time": "2026-01-07T15:53:27Z",
+            "name": "www.polykill.io",
+            "record_type": "a"
+          },
+          "www.shapesecurity.com": {
+            "resolve_time": "2026-02-10T14:39:53Z",
+            "name": "www.shapesecurity.com",
+            "record_type": "a"
+          },
+          "www.wib.com": {
+            "resolve_time": "2026-01-29T18:19:56Z",
+            "name": "www.wib.com",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

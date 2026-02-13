@@ -6,8 +6,12 @@ from datetime import datetime
 import time
 import ipaddress
 
+from dotenv import load_dotenv
+load_dotenv()
+
 # Configurazione Censys API
-CENSYS_API_TOKEN = "censys_aLN8cFxD_Psjwf11XDCaySuBFdeHdZg3i"  # Sostituisci con il tuo PAT
+CENSYS_API_TOKEN = os.getenv("CENSYS_API_TOKEN")
+CENSYS_ORG_ID = os.getenv("CENSYS_ORG_ID")  # Sostituisci con il tuo PAT
 CENSYS_API_BASE_URL = "https://api.platform.censys.io/v3/global/asset/host"
 
 # Path base

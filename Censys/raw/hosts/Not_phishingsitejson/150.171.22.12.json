@@ -1,0 +1,623 @@
+{
+  "result": {
+    "resource": {
+      "ip": "150.171.22.12",
+      "location": {
+        "continent": "North America",
+        "country": "United States",
+        "country_code": "US",
+        "city": "Redmond",
+        "postal_code": "98052",
+        "timezone": "America/Los_Angeles",
+        "province": "Washington",
+        "coordinates": {
+          "latitude": 47.67399,
+          "longitude": -122.12151
+        }
+      },
+      "autonomous_system": {
+        "asn": 8075,
+        "description": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "bgp_prefix": "150.171.0.0/16",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "country_code": "US"
+      },
+      "whois": {
+        "network": {
+          "handle": "MSFT",
+          "name": "Microsoft Corporation",
+          "cidrs": [
+            "150.171.0.0/16"
+          ],
+          "created": "2015-11-24T00:00:00Z",
+          "updated": "2021-12-14T00:00:00Z",
+          "allocation_type": "ALLOCATION"
+        },
+        "organization": {
+          "handle": "MSFT",
+          "name": "Microsoft Corporation",
+          "street": "One Microsoft Way",
+          "city": "Redmond",
+          "state": "WA",
+          "postal_code": "98052",
+          "country": "US",
+          "abuse_contacts": [
+            {
+              "handle": "MAC74-ARIN",
+              "name": "Microsoft Abuse Contact",
+              "email": "abuse@microsoft.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "IPHOS5-ARIN",
+              "name": "IPHostmaster IPHostmaster",
+              "email": "iphostmaster@microsoft.com"
+            }
+          ],
+          "tech_contacts": [
+            {
+              "handle": "BEDAR6-ARIN",
+              "name": "Dawn Bedard",
+              "email": "dabedard@microsoft.com"
+            },
+            {
+              "handle": "IPHOS5-ARIN",
+              "name": "IPHostmaster IPHostmaster",
+              "email": "iphostmaster@microsoft.com"
+            },
+            {
+              "handle": "MRPD-ARIN",
+              "name": "Microsoft Routing, Peering, and DNS",
+              "email": "IOC@microsoft.com"
+            },
+            {
+              "handle": "SINGH683-ARIN",
+              "name": "Prachi Singh",
+              "email": "pracsin@microsoft.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "ip": "150.171.22.12",
+          "scan_time": "2026-02-12T20:15:29Z",
+          "endpoints": [
+            {
+              "hostname": "150.171.22.12",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-12T20:15:29Z",
+              "http": {
+                "uri": "http://150.171.22.12/",
+                "protocol": "HTTP/1.1",
+                "status_code": 400,
+                "status_reason": "Bad Request",
+                "headers": {
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Transfer-Encoding": {
+                    "headers": [
+                      "chunked"
+                    ]
+                  },
+                  "X-MSEdge-Ref": {
+                    "headers": [
+                      "04TSOaQAAAACvcRkx95gSRb125K6j70NhTU5MMzBFREdFMDYxNwBFZGdl"
+                    ]
+                  }
+                },
+                "body_size": 194,
+                "body": "<h2>Our services aren't available right now</h2><p>We're working to restore all services as soon as possible. Please check back soon.</p>04TSOaQAAAACvcRkx95gSRb125K6j70NhTU5MMzBFREdFMDYxNwBFZGdl",
+                "body_hash_sha256": "61c1b9c40411dd12d2a65c3c9bfb7c1ffc01fe1e41289305df6d106389bc41b5",
+                "body_hash_sha1": "e5064afba73737e71cdd80b01ba6f705ff8e8c75",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "150.171.22.12"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "781d8cdfbfdb69280428ef534e32816bef0b71990b6966efe5fb19a0c4f1581e",
+            "fingerprint_sha1": "dbffa51a52c4913606f92ab8f21d1279d4deb578",
+            "fingerprint_md5": "f37ae8d6f47a244fa7975ef6f551a86a",
+            "tbs_fingerprint_sha256": "dfdeb2d561eaaddcf71f1bff519dc016ddcb7e4f7bf7fd187c5b3786d71cb2b9",
+            "tbs_no_ct_fingerprint_sha256": "a6bdf8de2e3cd77adc6d8c510de37f0e04e77a0673409d35e9555757156d49a4",
+            "spki_fingerprint_sha256": "bd90af5172725dd33b15565dcb592688e611d9babfabb614a0e8be6c9521f907",
+            "parent_spki_fingerprint_sha256": "4feaafc031fc11331ccb9c026a75827fce0fe4ad98650451c2a8ad4693099083",
+            "parsed": {
+              "version": 3,
+              "serial_number": "1137588699579120926074474129758581653856369035",
+              "issuer_dn": "C=US, O=Microsoft Corporation, CN=Microsoft Azure RSA TLS Issuing CA 08",
+              "issuer": {
+                "common_name": [
+                  "Microsoft Azure RSA TLS Issuing CA 08"
+                ],
+                "country": [
+                  "US"
+                ],
+                "organization": [
+                  "Microsoft Corporation"
+                ]
+              },
+              "subject_dn": "C=US, ST=WA, L=Redmond, O=Microsoft Corporation, CN=*.azureedge.net",
+              "subject": {
+                "common_name": [
+                  "*.azureedge.net"
+                ],
+                "country": [
+                  "US"
+                ],
+                "locality": [
+                  "Redmond"
+                ],
+                "province": [
+                  "WA"
+                ],
+                "organization": [
+                  "Microsoft Corporation"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "RSA",
+                  "oid": "1.2.840.113549.1.1.1"
+                },
+                "rsa": {
+                  "exponent": 65537,
+                  "modulus": "ca6a9953cb6ef168f301738d902034de7fc4818d6ced8ea26a6dca9129357656f10edad64396d6c52ab2c00ffd5dad072a568f21a120abee645309042c2b656bd7aeae00145b5b49cd031f8508ac8ad126eecacb1346d03f46a6011753db9f7a823c9ca0fc01814413287083f05cebf46a6747bbff0d1a3e9f1cbfa2ffb66e375bc75827443ab9e889e3cef29aa9c50e06a361e0241a6eec8e97a03fdadb67c9f5dd3b6b8409e42890e5628dde5eaa7fe835e857e231b6fc9b2605d343af6887ab9a2a834201cccf06472c6729891875f98040bb0d31a67dc05d0ffe3f90de9ff07259c607779a431f5055c790286ef970b3b6bf599484c784cd8643c24ef495",
+                  "length": 2048
+                },
+                "fingerprint_sha256": "10d816330edb078ec3202800847373fd3971cb8b3e15f0adc9ffad7b0ee0b84c"
+              },
+              "validity_period": {
+                "not_before": "2025-12-30T16:14:19Z",
+                "not_after": "2026-06-28T16:14:19Z",
+                "length_seconds": 15552001
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "SHA384-RSA",
+                  "oid": "1.2.840.113549.1.1.12"
+                },
+                "value": "142ee774e3f465c21501f857e8d13d0ce6f9d47f9f8e9d5b60a507a8d1f1a8fd0383fd3f9b58665b39cccb65362f3308b0da3b2b4d78e0b80980993788322d603c10aa93df62b6b32c6354afdeabbdcb75e0277686f660ba9ac14a0b003491b4aadf95fff264f1be59429ffd78824e85fc1139a9bf842ff4ac9e4609c09468a8adf64ebb9ec3ec461bcccd69e1ccd6c9862a4c14dc34b51c4eab685031ec431d8f7265471f9ff0701dca5a235c8a4a2d3d5fc2fab93f9fb569a05cefa0b2525ad9585c992ed4dc81fe79e560ff7066360502f3c385d837c7411c879f55954376218c711aed2bc24b85b3b414e4b29f5a9d22cdc1c2fbd540edfffacc3748a813621ca43047b0d155b6b46ed4e43e36edebbd770ddfd82df00c00f91f3bf80085d7ba889afb9cc12c064fba07701835042592c1283860c5a1957383f6332727946d2e417e7397c295e5e3d6a4493989864522d8e5ab7d3ca8dc42e3f38f8a10914c1a4d93f10b6cf741d434459b0d84d346a5a5ec5975801559c7c427ad113c75ba55c28f2b4cf91f3b28d71b566a9eea35115938e84b96ed3c7c5582b32f0f0ae7aaf40e2c1f44b9885e99d4b8eb814df38fb3212c14a48ce342a159b082811de2a67c24987b8e2beb4014c2fde50114a961986f03979252f4f9b52e371fd3bfea2faeca8eb01840d2e9fa4a8d95482de6e61b1bbaaa5327c3ba518cebf806df",
+                "valid": true
+              },
+              "serial_number_hex": "3302e0b98b98afc334855e8942000002e0b98b"
+            },
+            "names": [
+              "*.azureedge.net"
+            ],
+            "validation_level": "ov",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "511c1c41cb7eb2a10078c32c82f17925ba786de46c633921d038e7409e15a5ea",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "cfdd061fcd4cff3bb9e133264ca7fde45ca49b70cfaa977ae0dc422b4330a8c1",
+                      "c741f70f4b2a8d88bf2e71c14122ef53ef10eba0cfa5e64cfa20f418853073e0"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                  "511c1c41cb7eb2a10078c32c82f17925ba786de46c633921d038e7409e15a5ea",
+                  "cfdd061fcd4cff3bb9e133264ca7fde45ca49b70cfaa977ae0dc422b4330a8c1"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "511c1c41cb7eb2a10078c32c82f17925ba786de46c633921d038e7409e15a5ea",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "cfdd061fcd4cff3bb9e133264ca7fde45ca49b70cfaa977ae0dc422b4330a8c1",
+                      "c741f70f4b2a8d88bf2e71c14122ef53ef10eba0cfa5e64cfa20f418853073e0"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                      "0ba8c0d459b76abc0825294f565e24f4f169d4a4819d0692d371522d297724b8",
+                      "2399561127a57125de8cefea610ddf2fa078b5c8067f4e828290bfb860e84b3c"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                  "511c1c41cb7eb2a10078c32c82f17925ba786de46c633921d038e7409e15a5ea",
+                  "cfdd061fcd4cff3bb9e133264ca7fde45ca49b70cfaa977ae0dc422b4330a8c1"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "511c1c41cb7eb2a10078c32c82f17925ba786de46c633921d038e7409e15a5ea",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "cfdd061fcd4cff3bb9e133264ca7fde45ca49b70cfaa977ae0dc422b4330a8c1",
+                      "c741f70f4b2a8d88bf2e71c14122ef53ef10eba0cfa5e64cfa20f418853073e0"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                  "511c1c41cb7eb2a10078c32c82f17925ba786de46c633921d038e7409e15a5ea",
+                  "cfdd061fcd4cff3bb9e133264ca7fde45ca49b70cfaa977ae0dc422b4330a8c1"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "511c1c41cb7eb2a10078c32c82f17925ba786de46c633921d038e7409e15a5ea",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "cfdd061fcd4cff3bb9e133264ca7fde45ca49b70cfaa977ae0dc422b4330a8c1",
+                      "c741f70f4b2a8d88bf2e71c14122ef53ef10eba0cfa5e64cfa20f418853073e0"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                  "511c1c41cb7eb2a10078c32c82f17925ba786de46c633921d038e7409e15a5ea",
+                  "cfdd061fcd4cff3bb9e133264ca7fde45ca49b70cfaa977ae0dc422b4330a8c1"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 1950084296,
+                  "added_to_ct_at": "2026-01-08T08:20:03Z",
+                  "ct_to_censys_at": "2026-01-08T09:05:41Z"
+                },
+                "google_argon_2026_h1": {
+                  "index": 1651007241,
+                  "added_to_ct_at": "2026-01-08T08:20:03Z",
+                  "ct_to_censys_at": "2026-01-08T08:23:32Z"
+                },
+                "google_xenon_2026_h1": {
+                  "index": 1554390106,
+                  "added_to_ct_at": "2026-01-08T08:20:03Z",
+                  "ct_to_censys_at": "2026-01-08T08:31:41Z"
+                },
+                "letsencrypt_ct_sycamore_2026_h2": {
+                  "index": 37624677,
+                  "added_to_ct_at": "2026-01-26T17:43:00Z",
+                  "ct_to_censys_at": "2026-01-26T17:52:50Z"
+                },
+                "letsencrypt_ct_willow_2026_h2": {
+                  "index": 37476940,
+                  "added_to_ct_at": "2026-01-26T17:43:16Z",
+                  "ct_to_censys_at": "2026-01-26T17:51:53Z"
+                },
+                "sectigo_elephant_2026_h1": {
+                  "index": 1130756831,
+                  "added_to_ct_at": "2026-01-08T08:20:03Z",
+                  "ct_to_censys_at": "2026-01-08T08:28:17Z"
+                },
+                "sectigo_tiger_2026_h1": {
+                  "index": 997315515,
+                  "added_to_ct_at": "2026-01-08T08:20:03Z",
+                  "ct_to_censys_at": "2026-01-08T08:32:53Z"
+                },
+                "trustasia_log_2026_a": {
+                  "index": 474735038,
+                  "added_to_ct_at": "2026-01-08T08:20:07Z",
+                  "ct_to_censys_at": "2026-01-08T08:32:56Z"
+                },
+                "trustasia_log_2026_b": {
+                  "index": 491774096,
+                  "added_to_ct_at": "2026-01-08T08:20:06Z",
+                  "ct_to_censys_at": "2026-01-08T08:32:24Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2025-12-30T17:58:01Z",
+            "modified_at": "2026-01-26T17:52:51Z",
+            "validated_at": "2026-02-13T03:10:35Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "bd90af5172725dd33b15565dcb592688e611d9babfabb614a0e8be6c9521f907",
+            "parent_spki_subject_fingerprint_sha256": "4feaafc031fc11331ccb9c026a75827fce0fe4ad98650451c2a8ad4693099083"
+          },
+          "ip": "150.171.22.12",
+          "scan_time": "2026-02-13T11:12:33Z",
+          "tls": {
+            "fingerprint_sha256": "781d8cdfbfdb69280428ef534e32816bef0b71990b6966efe5fb19a0c4f1581e",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "511c1c41cb7eb2a10078c32c82f17925ba786de46c633921d038e7409e15a5ea",
+                "subject_dn": "C=US, O=Microsoft Corporation, CN=Microsoft Azure RSA TLS Issuing CA 08",
+                "issuer_dn": "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root G2"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "150.171.22.12",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T11:12:33Z",
+              "http": {
+                "uri": "https://150.171.22.12/",
+                "protocol": "HTTP/1.1",
+                "status_code": 400,
+                "status_reason": "Bad Request",
+                "headers": {
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Transfer-Encoding": {
+                    "headers": [
+                      "chunked"
+                    ]
+                  },
+                  "X-MSEdge-Ref": {
+                    "headers": [
+                      "0IQePaQAAAAAmk9Ih7PbqT4LVPxduTSG+TU5MMzBFREdFMDUyMABFZGdl"
+                    ]
+                  }
+                },
+                "body_size": 194,
+                "body": "<h2>Our services aren't available right now</h2><p>We're working to restore all services as soon as possible. Please check back soon.</p>0IQePaQAAAAAmk9Ih7PbqT4LVPxduTSG+TU5MMzBFREdFMDUyMABFZGdl",
+                "body_hash_sha256": "b757f083fca55b5d1ea998e1685dce0290969ca64864776031909d156090f651",
+                "body_hash_sha1": "b1d79589bbb09fa1cb31f5bce1b20e35a025782d",
+                "supported_versions": [
+                  "HTTP/1.1",
+                  "HTTP/2"
+                ]
+              },
+              "ip": "150.171.22.12"
+            }
+          ]
+        }
+      ],
+      "service_count": 2,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-02-12T22:51:42Z"
+        },
+        "names": [
+          "afd-wcs.www.linkedin.com",
+          "linkedin.com",
+          "www.seanfranklin.net",
+          "px.ads.linkedin.com",
+          "brafi.nl",
+          "www.linkedin-measure.com",
+          "afd-cf.www.linkedin.com",
+          "mccune.ca",
+          "lnkd.in",
+          "payment.www.linkedin.com",
+          "px.ads.linkedin.cn",
+          "afd-lnkd.www.linkedin.com",
+          "static-afd.licdn.com",
+          "www.tronitech.com.br",
+          "ln-0002.ln-msedge.net",
+          "static-exp1.licdn.com"
+        ],
+        "forward_dns": {
+          "afd-cf.www.linkedin.com": {
+            "resolve_time": "2026-02-06T17:53:43Z",
+            "name": "afd-cf.www.linkedin.com",
+            "record_type": "a"
+          },
+          "afd-lnkd.www.linkedin.com": {
+            "resolve_time": "2026-01-26T19:02:52Z",
+            "name": "afd-lnkd.www.linkedin.com",
+            "record_type": "a"
+          },
+          "afd-wcs.www.linkedin.com": {
+            "resolve_time": "2026-02-10T13:32:32Z",
+            "name": "afd-wcs.www.linkedin.com",
+            "record_type": "a"
+          },
+          "brafi.nl": {
+            "resolve_time": "2026-02-08T15:11:20Z",
+            "name": "brafi.nl",
+            "record_type": "a"
+          },
+          "linkedin.com": {
+            "resolve_time": "2026-02-09T18:23:20Z",
+            "name": "linkedin.com",
+            "record_type": "a"
+          },
+          "ln-0002.ln-msedge.net": {
+            "resolve_time": "2026-01-12T18:28:45Z",
+            "name": "ln-0002.ln-msedge.net",
+            "record_type": "a"
+          },
+          "lnkd.in": {
+            "resolve_time": "2026-02-06T15:42:36Z",
+            "name": "lnkd.in",
+            "record_type": "a"
+          },
+          "mccune.ca": {
+            "resolve_time": "2026-02-06T17:04:59Z",
+            "name": "mccune.ca",
+            "record_type": "a"
+          },
+          "payment.www.linkedin.com": {
+            "resolve_time": "2026-02-02T12:08:22Z",
+            "name": "payment.www.linkedin.com",
+            "record_type": "a"
+          },
+          "px.ads.linkedin.cn": {
+            "resolve_time": "2026-01-28T18:16:47Z",
+            "name": "px.ads.linkedin.cn",
+            "record_type": "a"
+          },
+          "px.ads.linkedin.com": {
+            "resolve_time": "2026-02-08T16:35:30Z",
+            "name": "px.ads.linkedin.com",
+            "record_type": "a"
+          },
+          "static-afd.licdn.com": {
+            "resolve_time": "2026-01-26T18:59:14Z",
+            "name": "static-afd.licdn.com",
+            "record_type": "a"
+          },
+          "static-exp1.licdn.com": {
+            "resolve_time": "2026-01-07T14:36:19Z",
+            "name": "static-exp1.licdn.com",
+            "record_type": "a"
+          },
+          "www.linkedin-measure.com": {
+            "resolve_time": "2026-02-07T13:04:08Z",
+            "name": "www.linkedin-measure.com",
+            "record_type": "a"
+          },
+          "www.seanfranklin.net": {
+            "resolve_time": "2026-02-08T16:57:46Z",
+            "name": "www.seanfranklin.net",
+            "record_type": "a"
+          },
+          "www.tronitech.com.br": {
+            "resolve_time": "2026-01-15T16:15:59Z",
+            "name": "www.tronitech.com.br",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

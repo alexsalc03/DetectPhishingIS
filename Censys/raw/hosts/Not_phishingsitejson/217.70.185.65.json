@@ -1,0 +1,640 @@
+{
+  "result": {
+    "resource": {
+      "ip": "217.70.185.65",
+      "location": {
+        "continent": "Europe",
+        "country": "France",
+        "country_code": "FR",
+        "city": "Paris",
+        "postal_code": "75000",
+        "timezone": "Europe/Paris",
+        "province": "\u00cele-de-France",
+        "coordinates": {
+          "latitude": 48.85341,
+          "longitude": 2.3488
+        }
+      },
+      "autonomous_system": {
+        "asn": 29169,
+        "description": "GANDI-AS Domain name registrar - www.gandi.net",
+        "bgp_prefix": "217.70.176.0/20",
+        "name": "GANDI-AS Domain name registrar - www.gandi.net",
+        "country_code": "FR"
+      },
+      "whois": {
+        "network": {
+          "handle": "GANDI-PUBNET25",
+          "name": "GANDI GLOBAL PUBLIC SERVICES V25",
+          "cidrs": [
+            "217.70.185.0/24"
+          ],
+          "created": "2011-01-10T00:00:00Z",
+          "updated": "2024-06-19T00:00:00Z"
+        },
+        "organization": {
+          "handle": "ORG-GA13-RIPE",
+          "name": "GANDI SAS",
+          "address": "63-65 Boulevard Massena\\n75013\\nPARIS\\nFRANCE",
+          "abuse_contacts": [
+            {
+              "handle": "GAD42-RIPE",
+              "name": "Gandi Abuse Department",
+              "email": "abuse@gandi.net"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "GAD42-RIPE",
+              "name": "Gandi Abuse Department",
+              "email": "abuse@gandi.net"
+            },
+            {
+              "handle": "GNO4-RIPE",
+              "name": "Gandi Network Operations",
+              "email": "noc@gandi.net"
+            },
+            {
+              "handle": "NP5725-RIPE",
+              "name": "Nicolas Piatto"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "varnish_cache_project",
+              "product": "varnish_cache"
+            }
+          ],
+          "ip": "217.70.185.65",
+          "scan_time": "2026-02-12T19:53:07Z",
+          "endpoints": [
+            {
+              "hostname": "217.70.185.65",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-12T19:53:07Z",
+              "http": {
+                "uri": "http://217.70.185.65/",
+                "protocol": "HTTP/1.1",
+                "status_code": 404,
+                "status_reason": "Vhost unknown.",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "209"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html; charset=utf-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "Varnish"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>404 Vhost unknown.</title>"
+                ],
+                "body_size": 209,
+                "body": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>404 Vhost unknown.</title>\n  </head>\n  <body>\n    <h1>Error 404 Vhost unknown.</h1>\n    <p>Vhost unknown.</p>\n    <hr>\n    <p>Varnish L7 server</p>\n  </body>\n</html>\n",
+                "html_title": "404 Vhost unknown.",
+                "body_hash_sha256": "00b3cf3473f6b67f7311b60d4e94e4a1615b943e2fc4c0ef895a641217cb9645",
+                "body_hash_sha1": "a24621b57b93a557b2b82737281414cad0b45f44",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "217.70.185.65"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "c4c88f9232e4376a362bc0f9c9405a5ef3b7dbcdbbb9cffb301f196e5f2cd779",
+            "fingerprint_sha1": "b5c07d927809e21ad59da02b363657e74a0cf6c2",
+            "fingerprint_md5": "25774472290a6c1b82bca521393fb015",
+            "tbs_fingerprint_sha256": "b982cb6f5dce91e4c9680a6bea563c11af2fddcafe5533e018db7dc968876a52",
+            "tbs_no_ct_fingerprint_sha256": "4e817e674025c51eb6ba846b9edc67be16ed78d7aa537c0da583d6deda3cdfaa",
+            "spki_fingerprint_sha256": "deb98b5cd5775423cbe30679fb79a2d0d13d65283efd7ee34870f1fbebbaffc7",
+            "parent_spki_fingerprint_sha256": "655878cb55f0ddd7dc02398e31af3e7055d508bea37a215469be20ed149b964e",
+            "parsed": {
+              "version": 3,
+              "serial_number": "1717457081052706834986472519282617493",
+              "issuer_dn": "C=FR, O=Gandi SAS, CN=GandiCert",
+              "issuer": {
+                "common_name": [
+                  "GandiCert"
+                ],
+                "country": [
+                  "FR"
+                ],
+                "organization": [
+                  "Gandi SAS"
+                ]
+              },
+              "subject_dn": "CN=www.gandi.net",
+              "subject": {
+                "common_name": [
+                  "www.gandi.net"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "RSA",
+                  "oid": "1.2.840.113549.1.1.1"
+                },
+                "rsa": {
+                  "exponent": 65537,
+                  "modulus": "f5bdd6037807c3f1d2236b31e82a4e029a5e7e1f611c9a18edcc3bc70800d66a361499e378a1981ad677149685637a426d406f0b5853320d54ae9020dcc85d38146087d90530fda9cad1448d952249ba1dea64980defe8d906d43ae9f9ff0e71137a57863db6e27e69857afdf72eae6ee0dbe76d043be24d7abf096679ce7547de52c897dacc61017d81a40d19e05e5b84e0794835aa3dc3f17b845aeda8334127512a38a747041b3de9f0559241ff0e15407cef5002d25826eacabfdd4f8936e7be2c9b36d84661fbf95d8a233fbfffe6c8370561fa067aafb8b7695f4e7aa2f8f577a37dedb9dc2dfe1cb8de15d1ab4c36eb5e8e1035c33587a28eff90122277e818ef5c1f4002d9f893dfe0471c33f9abefd78807c549274cd52b3b10fa42aa0cd19964277110606dea51a61a811d3d0325965a1face1e41a4de6cd9e9aa41cd3225c2a4a3566d5d25c85929455da610465423af81937b07d4bdda6afc1ade0ee5fe1f75d1ddf43f1b832312a802a259fec263ba3c4b3d1c8b44f0ad98b8b77e4a2f26b55d8dedc310636e97011d7b67235a6d7af9590d9e52648f8ecb5a0c357b9c7505c7cbd3982058de445c22c0fdec8ca7c53c43921b4e7fbba7403245bcd4753f5c8e344e2bb0071464b0286c795346eb98a8dd5263e633d6fd3bc851846fc6d9abe979f4b3d714798bdea79fa0a2201840b2891908b85601e646f51",
+                  "length": 4096
+                },
+                "fingerprint_sha256": "1d205de46814a3039c365224e24ebd0e48ea263e49c18ccdb38f8c55ce1ea20c"
+              },
+              "validity_period": {
+                "not_before": "2025-05-07T00:00:00Z",
+                "not_after": "2026-06-07T23:59:59Z",
+                "length_seconds": 34300800
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "SHA256-RSA",
+                  "oid": "1.2.840.113549.1.1.11"
+                },
+                "value": "531e85656f73c57b9a62e1cd4e667c9b7e0643ff7c6c4d4b69d47a116d218dc90594f4090e4b7a17736c51696f35f0b42f10109825e9441d19f361c027bc9c657214a2c97140a738fdbea64e35882ebc406caaedbf5430b10b3e5db3a74cb1604756b5f39ce33253c6b85a620a6f3a9fce60b5538326452a6b2127f59746b42f4b634e78b3d525cc370212e4f244dfc1cb927177fbfb1364ea13cd009cb5574c68bf2228c1e2433cd64aad239dc4a9a7f86ccd8f58eca95bbf0fc25bd564fb52ad8acc1df1ace2dbd19866e63335c443a195274142f0a53fb05e8d9ff99d89f7691fbc85a274fbb34e5664c0d378c93125dd1fb96b1ee03b0037032bd6d95dec50333f7b49fd52a5ee66fdea02fd0ad0f5b6592c633afb77f8c71f45f1fd934b28aceff8674907827d132eb9d2202ab9b46f4577def45838292b4b28cf5f7c89014e933e36680101f7b5fc53537dcb13f11b3488838e90bd572b5a78e53594f0df19a10da203d8a7815a20dbeeb1de3b408f8cc2d477f4bd55d3cc7f72a9734e3282eb13aabee819af63928d6144000a8671a17c4179b6c99a27b7a4aba99b1699cf30c57e3e87e033b69bace067fcf62fc64818e45d3af06967e0757c46de32fb9d58a1feacf8d2bb27441b4e7a8261e5f48f63853a434ca5085429892d8daaef442d1e2e19501e929ac3abac7dc6580840e3632f903b6d54cf984a9087e521",
+                "valid": true
+              },
+              "serial_number_hex": "014ac52bf652b68340839d47418e6c95"
+            },
+            "names": [
+              "gandi.net",
+              "www.gandi.net"
+            ],
+            "validation_level": "dv",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "3337d4e4b4ef6a94f04915d2e86b1f8f47a3c83667da2519d9b95ae7270affe1",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "3337d4e4b4ef6a94f04915d2e86b1f8f47a3c83667da2519d9b95ae7270affe1",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "3337d4e4b4ef6a94f04915d2e86b1f8f47a3c83667da2519d9b95ae7270affe1",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "3337d4e4b4ef6a94f04915d2e86b1f8f47a3c83667da2519d9b95ae7270affe1",
+                      "a0d609a7e3c434e878a9a1c1bd065b8dcf33aa7efee1b11bc75cce5e5a042080",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "3337d4e4b4ef6a94f04915d2e86b1f8f47a3c83667da2519d9b95ae7270affe1",
+                      "caf8ad697f7bda712ab127a8ad8b83f74a91a0de1784a1b483fef9ac79b67513",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "3337d4e4b4ef6a94f04915d2e86b1f8f47a3c83667da2519d9b95ae7270affe1"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "3337d4e4b4ef6a94f04915d2e86b1f8f47a3c83667da2519d9b95ae7270affe1",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "3337d4e4b4ef6a94f04915d2e86b1f8f47a3c83667da2519d9b95ae7270affe1",
+                      "0ba8c0d459b76abc0825294f565e24f4f169d4a4819d0692d371522d297724b8",
+                      "2399561127a57125de8cefea610ddf2fa078b5c8067f4e828290bfb860e84b3c"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "3337d4e4b4ef6a94f04915d2e86b1f8f47a3c83667da2519d9b95ae7270affe1",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "3337d4e4b4ef6a94f04915d2e86b1f8f47a3c83667da2519d9b95ae7270affe1",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "3337d4e4b4ef6a94f04915d2e86b1f8f47a3c83667da2519d9b95ae7270affe1",
+                      "a0d609a7e3c434e878a9a1c1bd065b8dcf33aa7efee1b11bc75cce5e5a042080",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "3337d4e4b4ef6a94f04915d2e86b1f8f47a3c83667da2519d9b95ae7270affe1"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "3337d4e4b4ef6a94f04915d2e86b1f8f47a3c83667da2519d9b95ae7270affe1",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "3337d4e4b4ef6a94f04915d2e86b1f8f47a3c83667da2519d9b95ae7270affe1",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "3337d4e4b4ef6a94f04915d2e86b1f8f47a3c83667da2519d9b95ae7270affe1",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "3337d4e4b4ef6a94f04915d2e86b1f8f47a3c83667da2519d9b95ae7270affe1",
+                      "a0d609a7e3c434e878a9a1c1bd065b8dcf33aa7efee1b11bc75cce5e5a042080",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "3337d4e4b4ef6a94f04915d2e86b1f8f47a3c83667da2519d9b95ae7270affe1",
+                      "caf8ad697f7bda712ab127a8ad8b83f74a91a0de1784a1b483fef9ac79b67513",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "3337d4e4b4ef6a94f04915d2e86b1f8f47a3c83667da2519d9b95ae7270affe1"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "3337d4e4b4ef6a94f04915d2e86b1f8f47a3c83667da2519d9b95ae7270affe1",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "3337d4e4b4ef6a94f04915d2e86b1f8f47a3c83667da2519d9b95ae7270affe1",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "3337d4e4b4ef6a94f04915d2e86b1f8f47a3c83667da2519d9b95ae7270affe1",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "3337d4e4b4ef6a94f04915d2e86b1f8f47a3c83667da2519d9b95ae7270affe1",
+                      "a0d609a7e3c434e878a9a1c1bd065b8dcf33aa7efee1b11bc75cce5e5a042080",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "3337d4e4b4ef6a94f04915d2e86b1f8f47a3c83667da2519d9b95ae7270affe1",
+                      "caf8ad697f7bda712ab127a8ad8b83f74a91a0de1784a1b483fef9ac79b67513",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "3337d4e4b4ef6a94f04915d2e86b1f8f47a3c83667da2519d9b95ae7270affe1"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 302791389,
+                  "added_to_ct_at": "2025-06-15T00:52:22Z",
+                  "ct_to_censys_at": "2025-06-15T01:39:15Z"
+                },
+                "comodo_mammoth_2026_h1": {
+                  "index": 50062716,
+                  "added_to_ct_at": "2025-06-15T00:52:25Z",
+                  "ct_to_censys_at": "2025-06-15T00:58:28Z"
+                },
+                "comodo_sabre_2026_h1": {
+                  "index": 53769742,
+                  "added_to_ct_at": "2025-06-15T00:52:25Z",
+                  "ct_to_censys_at": "2025-06-15T00:59:08Z"
+                },
+                "google_argon_2026_h1": {
+                  "index": 192252125,
+                  "added_to_ct_at": "2025-06-15T00:52:21Z",
+                  "ct_to_censys_at": "2025-06-15T01:04:13Z"
+                },
+                "google_xenon_2026_h1": {
+                  "index": 142855761,
+                  "added_to_ct_at": "2025-06-15T00:52:22Z",
+                  "ct_to_censys_at": "2025-06-15T01:01:58Z"
+                },
+                "letsencrypt_ct_oak_2026_h1": {
+                  "index": 70165040,
+                  "added_to_ct_at": "2025-06-15T00:52:24Z",
+                  "ct_to_censys_at": "2025-06-15T00:59:29Z"
+                },
+                "sectigo_elephant_2026_h1": {
+                  "index": 44250753,
+                  "added_to_ct_at": "2025-06-15T00:52:22Z",
+                  "ct_to_censys_at": "2025-06-15T01:00:04Z"
+                },
+                "sectigo_tiger_2026_h1": {
+                  "index": 44682616,
+                  "added_to_ct_at": "2025-06-15T00:52:24Z",
+                  "ct_to_censys_at": "2025-06-15T01:00:09Z"
+                },
+                "trustasia_log_2026_a": {
+                  "index": 12612318,
+                  "added_to_ct_at": "2025-07-07T13:06:10Z",
+                  "ct_to_censys_at": "2025-07-07T13:17:38Z"
+                },
+                "trustasia_log_2026_b": {
+                  "index": 18932922,
+                  "added_to_ct_at": "2025-07-07T13:06:14Z",
+                  "ct_to_censys_at": "2025-07-07T13:19:24Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2025-05-07T14:41:16Z",
+            "modified_at": "2025-10-23T03:19:23Z",
+            "validated_at": "2026-02-13T01:37:43Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "deb98b5cd5775423cbe30679fb79a2d0d13d65283efd7ee34870f1fbebbaffc7",
+            "parent_spki_subject_fingerprint_sha256": "655878cb55f0ddd7dc02398e31af3e7055d508bea37a215469be20ed149b964e"
+          },
+          "software": [
+            {
+              "vendor": "varnish_cache_project",
+              "product": "varnish_cache"
+            }
+          ],
+          "ip": "217.70.185.65",
+          "scan_time": "2026-02-13T11:23:42Z",
+          "tls": {
+            "fingerprint_sha256": "c4c88f9232e4376a362bc0f9c9405a5ef3b7dbcdbbb9cffb301f196e5f2cd779",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "3337d4e4b4ef6a94f04915d2e86b1f8f47a3c83667da2519d9b95ae7270affe1",
+                "subject_dn": "C=FR, O=Gandi SAS, CN=GandiCert",
+                "issuer_dn": "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root G2"
+              },
+              {
+                "fingerprint_sha256": "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f",
+                "subject_dn": "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root G2",
+                "issuer_dn": "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root G2"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "217.70.185.65",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T11:23:42Z",
+              "http": {
+                "uri": "https://217.70.185.65/",
+                "protocol": "HTTP/1.1",
+                "status_code": 404,
+                "status_reason": "Vhost unknown.",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "209"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html; charset=utf-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "Varnish"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>404 Vhost unknown.</title>"
+                ],
+                "body_size": 209,
+                "body": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>404 Vhost unknown.</title>\n  </head>\n  <body>\n    <h1>Error 404 Vhost unknown.</h1>\n    <p>Vhost unknown.</p>\n    <hr>\n    <p>Varnish L7 server</p>\n  </body>\n</html>\n",
+                "html_title": "404 Vhost unknown.",
+                "body_hash_sha256": "00b3cf3473f6b67f7311b60d4e94e4a1615b943e2fc4c0ef895a641217cb9645",
+                "body_hash_sha1": "a24621b57b93a557b2b82737281414cad0b45f44",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "217.70.185.65"
+            }
+          ]
+        }
+      ],
+      "service_count": 2,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-02-08T04:10:44Z",
+          "names": [
+            "v5.gandi.net"
+          ]
+        },
+        "names": [
+          "gandi.net",
+          "jobs.gandi.net",
+          "contract.gandi.net",
+          "link.gandi.net",
+          "tb2.gandi.net",
+          "address.gandi.net",
+          "oldwiki.gandi.net",
+          "wiki.gandi.net",
+          "beta.gandi.net",
+          "www.gandi.fr",
+          "gandi.fr",
+          "help.gandi.net",
+          "www.yoga.blue",
+          "tb.gandi.net",
+          "v5.gandi.net"
+        ],
+        "forward_dns": {
+          "address.gandi.net": {
+            "resolve_time": "2026-02-07T18:52:03Z",
+            "name": "address.gandi.net",
+            "record_type": "a"
+          },
+          "beta.gandi.net": {
+            "resolve_time": "2026-01-29T14:45:49Z",
+            "name": "beta.gandi.net",
+            "record_type": "a"
+          },
+          "contract.gandi.net": {
+            "resolve_time": "2026-02-11T21:25:28Z",
+            "name": "contract.gandi.net",
+            "record_type": "a"
+          },
+          "gandi.fr": {
+            "resolve_time": "2026-01-27T13:15:57Z",
+            "name": "gandi.fr",
+            "record_type": "a"
+          },
+          "gandi.net": {
+            "resolve_time": "2026-02-12T12:08:42Z",
+            "name": "gandi.net",
+            "record_type": "a"
+          },
+          "help.gandi.net": {
+            "resolve_time": "2026-01-15T20:28:23Z",
+            "name": "help.gandi.net",
+            "record_type": "a"
+          },
+          "jobs.gandi.net": {
+            "resolve_time": "2026-02-12T12:08:38Z",
+            "name": "jobs.gandi.net",
+            "record_type": "a"
+          },
+          "link.gandi.net": {
+            "resolve_time": "2026-02-11T21:25:26Z",
+            "name": "link.gandi.net",
+            "record_type": "a"
+          },
+          "oldwiki.gandi.net": {
+            "resolve_time": "2026-02-02T12:57:30Z",
+            "name": "oldwiki.gandi.net",
+            "record_type": "a"
+          },
+          "tb.gandi.net": {
+            "resolve_time": "2026-01-06T12:20:16Z",
+            "name": "tb.gandi.net",
+            "record_type": "a"
+          },
+          "tb2.gandi.net": {
+            "resolve_time": "2026-02-08T13:17:26Z",
+            "name": "tb2.gandi.net",
+            "record_type": "a"
+          },
+          "v5.gandi.net": {
+            "resolve_time": "2026-01-06T12:20:16Z",
+            "name": "v5.gandi.net",
+            "record_type": "a"
+          },
+          "wiki.gandi.net": {
+            "resolve_time": "2026-01-29T14:45:50Z",
+            "name": "wiki.gandi.net",
+            "record_type": "a"
+          },
+          "www.gandi.fr": {
+            "resolve_time": "2026-01-27T13:15:58Z",
+            "name": "www.gandi.fr",
+            "record_type": "a"
+          },
+          "www.yoga.blue": {
+            "resolve_time": "2026-01-15T12:13:23Z",
+            "name": "www.yoga.blue",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

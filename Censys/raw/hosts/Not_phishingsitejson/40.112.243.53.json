@@ -1,0 +1,1523 @@
+{
+  "result": {
+    "resource": {
+      "ip": "40.112.243.53",
+      "location": {
+        "continent": "North America",
+        "country": "United States",
+        "country_code": "US",
+        "city": "San Jose",
+        "postal_code": "95025",
+        "timezone": "America/Los_Angeles",
+        "province": "California",
+        "coordinates": {
+          "latitude": 37.33939,
+          "longitude": -121.89496
+        }
+      },
+      "autonomous_system": {
+        "asn": 8075,
+        "description": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "bgp_prefix": "40.112.0.0/13",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "country_code": "US"
+      },
+      "whois": {
+        "network": {
+          "handle": "MSFT",
+          "name": "Microsoft Corporation",
+          "cidrs": [
+            "40.74.0.0/15",
+            "40.76.0.0/14",
+            "40.80.0.0/12",
+            "40.96.0.0/12",
+            "40.112.0.0/13",
+            "40.120.0.0/14",
+            "40.124.0.0/16",
+            "40.125.0.0/17"
+          ],
+          "created": "2015-02-23T00:00:00Z",
+          "updated": "2021-12-14T00:00:00Z",
+          "allocation_type": "ALLOCATION"
+        },
+        "organization": {
+          "handle": "MSFT",
+          "name": "Microsoft Corporation",
+          "street": "One Microsoft Way",
+          "city": "Redmond",
+          "state": "WA",
+          "postal_code": "98052",
+          "country": "US",
+          "abuse_contacts": [
+            {
+              "handle": "MAC74-ARIN",
+              "name": "Microsoft Abuse Contact",
+              "email": "abuse@microsoft.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "IPHOS5-ARIN",
+              "name": "IPHostmaster IPHostmaster",
+              "email": "iphostmaster@microsoft.com"
+            }
+          ],
+          "tech_contacts": [
+            {
+              "handle": "BEDAR6-ARIN",
+              "name": "Dawn Bedard",
+              "email": "dabedard@microsoft.com"
+            },
+            {
+              "handle": "IPHOS5-ARIN",
+              "name": "IPHostmaster IPHostmaster",
+              "email": "iphostmaster@microsoft.com"
+            },
+            {
+              "handle": "MRPD-ARIN",
+              "name": "Microsoft Routing, Peering, and DNS",
+              "email": "IOC@microsoft.com"
+            },
+            {
+              "handle": "SINGH683-ARIN",
+              "name": "Prachi Singh",
+              "email": "pracsin@microsoft.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "microsoft",
+              "product": "azure_app_service_on_azure_stack"
+            }
+          ],
+          "ip": "40.112.243.53",
+          "scan_time": "2026-02-13T16:03:27Z",
+          "endpoints": [
+            {
+              "hostname": "40.112.243.53",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T16:03:27Z",
+              "http": {
+                "uri": "http://40.112.243.53/",
+                "protocol": "HTTP/1.1",
+                "status_code": 404,
+                "status_reason": "Site Not Found",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "2667"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>Microsoft Azure Web App - Error 404</title>"
+                ],
+                "body_size": 2667,
+                "body": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n    <title>Microsoft Azure Web App - Error 404</title>\r\n    <style type=\"text/css\">\r\n        html {\r\n            height: 100%;\r\n            width: 100%;\r\n        }\r\n\r\n        #feature {\r\n            width: 960px;\r\n            margin: 75px auto 0 auto;\r\n            overflow: auto;\r\n        }\r\n\r\n        #content {\r\n            font-family: \"Segoe UI\";\r\n            font-weight: normal;\r\n            font-size: 22px;\r\n            color: #ffffff;\r\n            float: left;\r\n            margin-top: 68px;\r\n            margin-left: 0px;\r\n            vertical-align: middle;\r\n        }\r\n\r\n            #content h1 {\r\n                font-family: \"Segoe UI Light\";\r\n                color: #ffffff;\r\n                font-weight: normal;\r\n                font-size: 60px;\r\n                line-height: 48pt;\r\n                width: 800px;\r\n            }\r\n\r\n        a, a:visited, a:active, a:hover {\r\n            color: #ffffff;\r\n        }\r\n\r\n        #content a.button {\r\n            background: #0DBCF2;\r\n            border: 1px solid #FFFFFF;\r\n            color: #FFFFFF;\r\n            display: inline-block;\r\n            font-family: Segoe UI;\r\n            font-size: 24px;\r\n            line-height: 46px;\r\n            margin-top: 10px;\r\n            padding: 0 15px 3px;\r\n            text-decoration: none;\r\n        }\r\n\r\n            #content a.button img {\r\n                float: right;\r\n                padding: 10px 0 0 15px;\r\n            }\r\n\r\n            #content a.button:hover {\r\n                background: #1C75BC;\r\n            }\r\n    </style>\r\n    <script type=\"text/javascript\">\r\n        function toggle_visibility(id) {\r\n            var e = document.getElementById(id);\r\n            if (e.style.display == 'block')\r\n                e.style.display = 'none';\r\n            else\r\n                e.style.display = 'block';\r\n        }\r\n    </script>\r\n</head>\r\n<body bgcolor=\"#00abec\">\r\n    <div id=\"feature\">\r\n        <div id=\"content\">\r\n            <h1>404 Web Site not found.</h1>\r\n            <p>You may be seeing this error due to one of the reasons listed below :</p>\r\n            <ul>\r\n                <li>Custom domain has not been configured inside Azure. See <a href=\"https://go.microsoft.com/fwlink/?linkid=2194614\">how to map an existing domain</a> to resolve this.</li>\r\n                <li>Client cache is still pointing the domain to old IP address. Clear the cache by running the command <i>ipconfig/flushdns.</i></li>\r\n            </ul>\r\n            <p>Checkout <a href=\"https://go.microsoft.com/fwlink/?linkid=2194451\">App Service Domain FAQ</a> for more questions.</p>\r\n        </div>\r\n     </div>\r\n</body>\r\n</html>\r\n",
+                "html_title": "Microsoft Azure Web App - Error 404",
+                "body_hash_sha256": "1e0878f232e32cf44e87ba00bd6957c1ebdfc9bc7c1c0a1389f8c62e6ae3311a",
+                "body_hash_sha1": "e5bbbbc9480c0ee393f15a56b751278fcfea8b39",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "40.112.243.53"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "e85108f8d2b49a5504c6ec6f19b64ca4ebc9c215a65e4d4d1e0e20d4982617fa",
+            "fingerprint_sha1": "eb2b60636f2d648226ce870368ec76155067a1f7",
+            "fingerprint_md5": "2176371ccde462c35e5c1a23e874ea8e",
+            "tbs_fingerprint_sha256": "14b184cb74d58ec7b452204eb5f436cabe0aa22ec191399ce22105c9a9250868",
+            "tbs_no_ct_fingerprint_sha256": "a49e12adb756f6dcdf9a2766f8897c1abe80bfaf357d3f866b14da0cda669b93",
+            "spki_fingerprint_sha256": "de999c63a12a4711c0f0e9b7736a9ee250a189a712502a168e26a7060e75cb99",
+            "parent_spki_fingerprint_sha256": "4feaafc031fc11331ccb9c026a75827fce0fe4ad98650451c2a8ad4693099083",
+            "parsed": {
+              "version": 3,
+              "serial_number": "1137604678741493742750324401318668172363017966",
+              "issuer_dn": "C=US, O=Microsoft Corporation, CN=Microsoft Azure RSA TLS Issuing CA 08",
+              "issuer": {
+                "common_name": [
+                  "Microsoft Azure RSA TLS Issuing CA 08"
+                ],
+                "country": [
+                  "US"
+                ],
+                "organization": [
+                  "Microsoft Corporation"
+                ]
+              },
+              "subject_dn": "C=US, ST=WA, L=Redmond, O=Microsoft Corporation, CN=*.azurewebsites.net",
+              "subject": {
+                "common_name": [
+                  "*.azurewebsites.net"
+                ],
+                "country": [
+                  "US"
+                ],
+                "locality": [
+                  "Redmond"
+                ],
+                "province": [
+                  "WA"
+                ],
+                "organization": [
+                  "Microsoft Corporation"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "RSA",
+                  "oid": "1.2.840.113549.1.1.1"
+                },
+                "rsa": {
+                  "exponent": 65537,
+                  "modulus": "a67de43957e4de814fc4913f8a5c783f4f4b9923b0ba362832bf97567d9f2d652ae70261bb0a37ef5119a1a07ff54c03be43b5363a674a23ad5778e6078653a731de95c36e7571c7523ca6873bf76cc854b38a24c23223c024271afce5b0000c1cf7c531121561e912a88153eb5a582fb8f326c1e5d5434b7cdb57cec08c696d394f788aec70f20e2af4f5da0eeaa67bb395a40e4712262d68caff66e8593d0909ab9a6e1f8ea50a7ec8e5d586a81f3eb2530026b5912eaae82a864a790c747500ad994a2dfb099776666ff2e6269e29fa22479f4ae639b7496de22b91aa6cf05089f0454f99bc665d74a4e65ce11334178952334a70469d954a3f3edaeec975",
+                  "length": 2048
+                },
+                "fingerprint_sha256": "9538c43754c8e27f81c54e71278d08bd1501182f366b02365be84f7bc958b788"
+              },
+              "validity_period": {
+                "not_before": "2026-02-01T02:51:29Z",
+                "not_after": "2026-07-31T02:51:29Z",
+                "length_seconds": 15552001
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "SHA384-RSA",
+                  "oid": "1.2.840.113549.1.1.12"
+                },
+                "value": "359598aab108302887562fcc3f1f181f0668dd70211bcea4457ee1c1ce3d6893878ed1466ab5587a82bf2482304e0172fc27bab1031580558eebb01522ccfdd4e77d3c3b5f0f6789787eab51355125b01f8ba44a732e22541337d4c6fa95638bdd2778374e80aa456ae9b771dd0876d51b62f1d4736be8438aace2a38b6e2d51e389dcbf16e4595ab8da0c9aa0570069c8dd400ce447941ddbe7178706f6f259ffcfbdfbca94d16ac2586513731fdc4c1d92f16ee6994fb19db74f31235ccc66eccce02d1b62846e3dce7049da1b0e238572553685bbf8450838067e67548d7b3c2bd407ae096add6d3210507d42539810f8a3cba7a7433162d7ffb2e72be42b3a804ef7162944dbad6dd1e554058e8ee2ea2290c31420c89ca9e078eb088e92028c901d46ae6b116828608018a2ec5d7f68e6d35a67c6a617a0f789cea1394cc100abc206f8703c76a24796c28ee58e63b009d1ed96aa22e2e88dd99554adab2d50302ac370a1d2228327a8b464d0aa53e073dd1f92351268a6db6bcec23eed1cded2108ab6a37550681d11d6e1fa281e8e3e8c7d1744a2d80ce96e877ab67cef728a0fd719dd5be918e8db9569825f8ec336c40bb85d24640a39fdb0dc8fa38211d3327ec0fb2ed6a639a2f26679fd7cd9124569c4dc832e6360e1c6f3c31106b8e93cc0321a602d2221fa4d2c90afdf255d792bcac7d510b8314eaab36543",
+                "valid": true
+              },
+              "serial_number_hex": "33030faeee539142f9a0c721d20000030faeee"
+            },
+            "names": [
+              "*.azure-mobile.net",
+              "*.azurewebsites.net",
+              "*.scm.azure-mobile.net",
+              "*.scm.azurewebsites.net",
+              "*.scm.westus-01.azurewebsites.net",
+              "*.scm.westus.c.azurewebsites.net",
+              "*.sso.azurewebsites.net",
+              "*.sso.westus-01.azurewebsites.net",
+              "*.sso.westus.c.azurewebsites.net",
+              "*.westus-01.azurewebsites.net",
+              "*.westus.c.azurewebsites.net"
+            ],
+            "validation_level": "ov",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "511c1c41cb7eb2a10078c32c82f17925ba786de46c633921d038e7409e15a5ea",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "cfdd061fcd4cff3bb9e133264ca7fde45ca49b70cfaa977ae0dc422b4330a8c1",
+                      "c741f70f4b2a8d88bf2e71c14122ef53ef10eba0cfa5e64cfa20f418853073e0"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                  "511c1c41cb7eb2a10078c32c82f17925ba786de46c633921d038e7409e15a5ea",
+                  "cfdd061fcd4cff3bb9e133264ca7fde45ca49b70cfaa977ae0dc422b4330a8c1"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "511c1c41cb7eb2a10078c32c82f17925ba786de46c633921d038e7409e15a5ea",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "cfdd061fcd4cff3bb9e133264ca7fde45ca49b70cfaa977ae0dc422b4330a8c1",
+                      "c741f70f4b2a8d88bf2e71c14122ef53ef10eba0cfa5e64cfa20f418853073e0"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                      "0ba8c0d459b76abc0825294f565e24f4f169d4a4819d0692d371522d297724b8",
+                      "2399561127a57125de8cefea610ddf2fa078b5c8067f4e828290bfb860e84b3c"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                  "511c1c41cb7eb2a10078c32c82f17925ba786de46c633921d038e7409e15a5ea",
+                  "cfdd061fcd4cff3bb9e133264ca7fde45ca49b70cfaa977ae0dc422b4330a8c1"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "511c1c41cb7eb2a10078c32c82f17925ba786de46c633921d038e7409e15a5ea",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "cfdd061fcd4cff3bb9e133264ca7fde45ca49b70cfaa977ae0dc422b4330a8c1",
+                      "c741f70f4b2a8d88bf2e71c14122ef53ef10eba0cfa5e64cfa20f418853073e0"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                  "511c1c41cb7eb2a10078c32c82f17925ba786de46c633921d038e7409e15a5ea",
+                  "cfdd061fcd4cff3bb9e133264ca7fde45ca49b70cfaa977ae0dc422b4330a8c1"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "511c1c41cb7eb2a10078c32c82f17925ba786de46c633921d038e7409e15a5ea",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "cfdd061fcd4cff3bb9e133264ca7fde45ca49b70cfaa977ae0dc422b4330a8c1",
+                      "c741f70f4b2a8d88bf2e71c14122ef53ef10eba0cfa5e64cfa20f418853073e0"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                  "511c1c41cb7eb2a10078c32c82f17925ba786de46c633921d038e7409e15a5ea",
+                  "cfdd061fcd4cff3bb9e133264ca7fde45ca49b70cfaa977ae0dc422b4330a8c1"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 2329914825,
+                  "added_to_ct_at": "2026-02-01T12:56:18Z",
+                  "ct_to_censys_at": "2026-02-01T14:09:07Z"
+                },
+                "google_argon_2026_h2": {
+                  "index": 245143984,
+                  "added_to_ct_at": "2026-02-01T12:56:18Z",
+                  "ct_to_censys_at": "2026-02-01T13:06:40Z"
+                },
+                "google_xenon_2026_h2": {
+                  "index": 188537843,
+                  "added_to_ct_at": "2026-02-01T12:56:18Z",
+                  "ct_to_censys_at": "2026-02-01T13:07:16Z"
+                },
+                "letsencrypt_ct_sycamore_2026_h2": {
+                  "index": 41917039,
+                  "added_to_ct_at": "2026-02-12T09:39:00Z",
+                  "ct_to_censys_at": "2026-02-12T09:41:03Z"
+                },
+                "letsencrypt_ct_willow_2026_h2": {
+                  "index": 41744385,
+                  "added_to_ct_at": "2026-02-12T09:39:00Z",
+                  "ct_to_censys_at": "2026-02-12T09:40:04Z"
+                },
+                "sectigo_elephant_2026_h2": {
+                  "index": 114065501,
+                  "added_to_ct_at": "2026-02-01T12:56:18Z",
+                  "ct_to_censys_at": "2026-02-01T13:09:05Z"
+                },
+                "sectigo_tiger_2026_h2": {
+                  "index": 117436421,
+                  "added_to_ct_at": "2026-02-01T12:56:18Z",
+                  "ct_to_censys_at": "2026-02-01T13:05:52Z"
+                },
+                "trustasia_log_2026_a": {
+                  "index": 653231395,
+                  "added_to_ct_at": "2026-02-01T12:56:21Z",
+                  "ct_to_censys_at": "2026-02-01T13:08:17Z"
+                },
+                "trustasia_log_2026_b": {
+                  "index": 674481116,
+                  "added_to_ct_at": "2026-02-01T12:56:20Z",
+                  "ct_to_censys_at": "2026-02-01T13:10:53Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2026-02-01T06:23:02Z",
+            "modified_at": "2026-02-12T09:41:03Z",
+            "validated_at": "2026-02-12T17:51:34Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "de999c63a12a4711c0f0e9b7736a9ee250a189a712502a168e26a7060e75cb99",
+            "parent_spki_subject_fingerprint_sha256": "4feaafc031fc11331ccb9c026a75827fce0fe4ad98650451c2a8ad4693099083"
+          },
+          "software": [
+            {
+              "vendor": "microsoft",
+              "product": "azure_app_service_on_azure_stack"
+            }
+          ],
+          "ip": "40.112.243.53",
+          "scan_time": "2026-02-13T03:44:24Z",
+          "tls": {
+            "fingerprint_sha256": "e85108f8d2b49a5504c6ec6f19b64ca4ebc9c215a65e4d4d1e0e20d4982617fa",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "511c1c41cb7eb2a10078c32c82f17925ba786de46c633921d038e7409e15a5ea",
+                "subject_dn": "C=US, O=Microsoft Corporation, CN=Microsoft Azure RSA TLS Issuing CA 08",
+                "issuer_dn": "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root G2"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "40.112.243.53",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T03:44:24Z",
+              "http": {
+                "uri": "https://40.112.243.53/",
+                "protocol": "HTTP/1.1",
+                "status_code": 404,
+                "status_reason": "Site Not Found",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "2667"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>Microsoft Azure Web App - Error 404</title>"
+                ],
+                "body_size": 2667,
+                "body": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n    <title>Microsoft Azure Web App - Error 404</title>\r\n    <style type=\"text/css\">\r\n        html {\r\n            height: 100%;\r\n            width: 100%;\r\n        }\r\n\r\n        #feature {\r\n            width: 960px;\r\n            margin: 75px auto 0 auto;\r\n            overflow: auto;\r\n        }\r\n\r\n        #content {\r\n            font-family: \"Segoe UI\";\r\n            font-weight: normal;\r\n            font-size: 22px;\r\n            color: #ffffff;\r\n            float: left;\r\n            margin-top: 68px;\r\n            margin-left: 0px;\r\n            vertical-align: middle;\r\n        }\r\n\r\n            #content h1 {\r\n                font-family: \"Segoe UI Light\";\r\n                color: #ffffff;\r\n                font-weight: normal;\r\n                font-size: 60px;\r\n                line-height: 48pt;\r\n                width: 800px;\r\n            }\r\n\r\n        a, a:visited, a:active, a:hover {\r\n            color: #ffffff;\r\n        }\r\n\r\n        #content a.button {\r\n            background: #0DBCF2;\r\n            border: 1px solid #FFFFFF;\r\n            color: #FFFFFF;\r\n            display: inline-block;\r\n            font-family: Segoe UI;\r\n            font-size: 24px;\r\n            line-height: 46px;\r\n            margin-top: 10px;\r\n            padding: 0 15px 3px;\r\n            text-decoration: none;\r\n        }\r\n\r\n            #content a.button img {\r\n                float: right;\r\n                padding: 10px 0 0 15px;\r\n            }\r\n\r\n            #content a.button:hover {\r\n                background: #1C75BC;\r\n            }\r\n    </style>\r\n    <script type=\"text/javascript\">\r\n        function toggle_visibility(id) {\r\n            var e = document.getElementById(id);\r\n            if (e.style.display == 'block')\r\n                e.style.display = 'none';\r\n            else\r\n                e.style.display = 'block';\r\n        }\r\n    </script>\r\n</head>\r\n<body bgcolor=\"#00abec\">\r\n    <div id=\"feature\">\r\n        <div id=\"content\">\r\n            <h1>404 Web Site not found.</h1>\r\n            <p>You may be seeing this error due to one of the reasons listed below :</p>\r\n            <ul>\r\n                <li>Custom domain has not been configured inside Azure. See <a href=\"https://go.microsoft.com/fwlink/?linkid=2194614\">how to map an existing domain</a> to resolve this.</li>\r\n                <li>Client cache is still pointing the domain to old IP address. Clear the cache by running the command <i>ipconfig/flushdns.</i></li>\r\n            </ul>\r\n            <p>Checkout <a href=\"https://go.microsoft.com/fwlink/?linkid=2194451\">App Service Domain FAQ</a> for more questions.</p>\r\n        </div>\r\n     </div>\r\n</body>\r\n</html>\r\n",
+                "html_title": "Microsoft Azure Web App - Error 404",
+                "body_hash_sha256": "1e0878f232e32cf44e87ba00bd6957c1ebdfc9bc7c1c0a1389f8c62e6ae3311a",
+                "body_hash_sha1": "e5bbbbc9480c0ee393f15a56b751278fcfea8b39",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "40.112.243.53"
+            }
+          ]
+        },
+        {
+          "port": 8172,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "615a44edff4f035899e975d339ea6222f9228470c386e9856f39166e9eb2b71d",
+            "fingerprint_sha1": "0d620a5d361cff0e289fd977b8fd54bc213bf1f0",
+            "fingerprint_md5": "8800eee8eed2c029dc256e3238fc68c1",
+            "tbs_fingerprint_sha256": "2d592f1e892f4e23a2e0ba84b40b5166e654f7879ab69d3f6b24eff547f70867",
+            "tbs_no_ct_fingerprint_sha256": "15958d524794c76726638b9d8a738ca6ff7b7c14e15a94865e1db817acf8fed6",
+            "spki_fingerprint_sha256": "7012136c06aee9bb636ea3733e7691e70f191cf89fa7ac8af1985a0d49ecfa74",
+            "parent_spki_fingerprint_sha256": "4feaafc031fc11331ccb9c026a75827fce0fe4ad98650451c2a8ad4693099083",
+            "parsed": {
+              "version": 3,
+              "serial_number": "1137604335663702600038568967275642229112089811",
+              "issuer_dn": "C=US, O=Microsoft Corporation, CN=Microsoft Azure RSA TLS Issuing CA 08",
+              "issuer": {
+                "common_name": [
+                  "Microsoft Azure RSA TLS Issuing CA 08"
+                ],
+                "country": [
+                  "US"
+                ],
+                "organization": [
+                  "Microsoft Corporation"
+                ]
+              },
+              "subject_dn": "C=US, ST=WA, L=Redmond, O=Microsoft Corporation, CN=waws-prod-bay-171.publish.azurewebsites.windows.net",
+              "subject": {
+                "common_name": [
+                  "waws-prod-bay-171.publish.azurewebsites.windows.net"
+                ],
+                "country": [
+                  "US"
+                ],
+                "locality": [
+                  "Redmond"
+                ],
+                "province": [
+                  "WA"
+                ],
+                "organization": [
+                  "Microsoft Corporation"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "RSA",
+                  "oid": "1.2.840.113549.1.1.1"
+                },
+                "rsa": {
+                  "exponent": 65537,
+                  "modulus": "d80b70e1e545602bfd91f9ffeb070d3d848407b2380589b2c32f38ff1dca6e2a82519f28592c2f6faac98842e4a172baa1f7892dfbb2ba5cd84c9014e98afb1f379eadd9be7292f33eb09dfabed1cb3a59908bb399c996e5b94754b8404d838884645c6aadf0e9122615b7623a57b3eff3d7c2dcadfcabacef798f6b021ea2aa18f054bb1cc523c542713991dfe704928c0c30ba4fca69bc1f3aa0ac6801b54110c37e3c9a028833ed1390dce8ae29c71caf5e12e42260677f4f44e3528da6a1949b3f0dd36a972a74d699c48dd6fc76adc9af7f27115eba850ae9d9dad351ef7b10106a651769b43c002c58aed468b154460a1984f62ee7011c92c20783f7a1",
+                  "length": 2048
+                },
+                "fingerprint_sha256": "ac2b11b05678a903e3d2d3309950c7842cee5c28bbe765595932dc74ae7143b0"
+              },
+              "validity_period": {
+                "not_before": "2026-01-31T04:29:50Z",
+                "not_after": "2026-07-30T04:29:50Z",
+                "length_seconds": 15552001
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "SHA384-RSA",
+                  "oid": "1.2.840.113549.1.1.12"
+                },
+                "value": "af500562b066ba4c94e9ce1de3cf6e28e2d3463ec21fec69aeacdf1aa9a9ec920305af1d54a45f3335b07f7413de71242f8539614bb90c58d92b3a115fc0079342a800cb5347b4f7c53153eb83ebe4ee3883329191fbfb370d1a4927c4f2387391973827d7c0ac7cc5deb77cc2d1d8e97b6b444de279ee9c4bd545a3d0d803796677293ef68a122885e9b7a9d2c2ff84e743939b4573151e6bd7dbe967e068ad7c64de6d429d39a6c1cb9c7e755ec19747446746f8da03961946b6f6c00c6d386045404b9263b818d08a8849a663ffa08b6060611e2e121c914cb598e393f92e67e01b5bd21b87111fa71f536519f5d651e38fa0164451577b5dbd9a402b3a4fb2df715ffea118e5ea377f49522825b966b00c1aaee8defa393c5bbd6edf1f6366641a695b90be8a823ecf1488f920c6b4ee8da09b4c0f7e89ae68bb564502dce3e89e28060a3fa8037784664fc3e76978f048268dfe883eeeb1b83bd6360381496c04c4ea723f15c397e8ddabaa7f067ee6794fc6878d80e8a1b82f99e49dae6ff45080276db1154e81940163063509f9d16aa13aa11eb30e692e88871f6c412961b77a179921e472d8cb6dc7d20c45a0b20dc5810deacb83dfd95606919b3da05e2601a810e210398250771ddbe1d5ca386fb1217dee3755e42432787b8178153e95d8bcb32c3e617a515d80dd01285b768f794f4d666cbc7be16b16954873",
+                "valid": true
+              },
+              "serial_number_hex": "33030eacd3f2832609a02e17b00000030eacd3"
+            },
+            "names": [
+              "waws-prod-bay-171.ftp.azurewebsites.windows.net",
+              "waws-prod-bay-171.publish.azurewebsites.windows.net"
+            ],
+            "validation_level": "ov",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "511c1c41cb7eb2a10078c32c82f17925ba786de46c633921d038e7409e15a5ea",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "cfdd061fcd4cff3bb9e133264ca7fde45ca49b70cfaa977ae0dc422b4330a8c1",
+                      "c741f70f4b2a8d88bf2e71c14122ef53ef10eba0cfa5e64cfa20f418853073e0"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                  "511c1c41cb7eb2a10078c32c82f17925ba786de46c633921d038e7409e15a5ea",
+                  "cfdd061fcd4cff3bb9e133264ca7fde45ca49b70cfaa977ae0dc422b4330a8c1"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "511c1c41cb7eb2a10078c32c82f17925ba786de46c633921d038e7409e15a5ea",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "cfdd061fcd4cff3bb9e133264ca7fde45ca49b70cfaa977ae0dc422b4330a8c1",
+                      "c741f70f4b2a8d88bf2e71c14122ef53ef10eba0cfa5e64cfa20f418853073e0"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                      "0ba8c0d459b76abc0825294f565e24f4f169d4a4819d0692d371522d297724b8",
+                      "2399561127a57125de8cefea610ddf2fa078b5c8067f4e828290bfb860e84b3c"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                  "511c1c41cb7eb2a10078c32c82f17925ba786de46c633921d038e7409e15a5ea",
+                  "cfdd061fcd4cff3bb9e133264ca7fde45ca49b70cfaa977ae0dc422b4330a8c1"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "511c1c41cb7eb2a10078c32c82f17925ba786de46c633921d038e7409e15a5ea",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "cfdd061fcd4cff3bb9e133264ca7fde45ca49b70cfaa977ae0dc422b4330a8c1",
+                      "c741f70f4b2a8d88bf2e71c14122ef53ef10eba0cfa5e64cfa20f418853073e0"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                  "511c1c41cb7eb2a10078c32c82f17925ba786de46c633921d038e7409e15a5ea",
+                  "cfdd061fcd4cff3bb9e133264ca7fde45ca49b70cfaa977ae0dc422b4330a8c1"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "511c1c41cb7eb2a10078c32c82f17925ba786de46c633921d038e7409e15a5ea",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "cfdd061fcd4cff3bb9e133264ca7fde45ca49b70cfaa977ae0dc422b4330a8c1",
+                      "c741f70f4b2a8d88bf2e71c14122ef53ef10eba0cfa5e64cfa20f418853073e0"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "04e385fa49454ba99020dfaaa78a97c5b37e212763d03c648fb11f0999f9fd1f",
+                  "511c1c41cb7eb2a10078c32c82f17925ba786de46c633921d038e7409e15a5ea",
+                  "cfdd061fcd4cff3bb9e133264ca7fde45ca49b70cfaa977ae0dc422b4330a8c1"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2026-01-31T12:31:05Z",
+            "modified_at": "2026-01-31T12:31:05Z",
+            "validated_at": "2026-02-12T18:12:48Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "7012136c06aee9bb636ea3733e7691e70f191cf89fa7ac8af1985a0d49ecfa74",
+            "parent_spki_subject_fingerprint_sha256": "4feaafc031fc11331ccb9c026a75827fce0fe4ad98650451c2a8ad4693099083"
+          },
+          "software": [
+            {
+              "vendor": "microsoft",
+              "product": "internet_information_services"
+            }
+          ],
+          "ip": "40.112.243.53",
+          "scan_time": "2026-02-13T02:52:24Z",
+          "tls": {
+            "fingerprint_sha256": "615a44edff4f035899e975d339ea6222f9228470c386e9856f39166e9eb2b71d",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "511c1c41cb7eb2a10078c32c82f17925ba786de46c633921d038e7409e15a5ea",
+                "subject_dn": "C=US, O=Microsoft Corporation, CN=Microsoft Azure RSA TLS Issuing CA 08",
+                "issuer_dn": "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root G2"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "40.112.243.53",
+              "port": 8172,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T02:52:24Z",
+              "http": {
+                "uri": "https://40.112.243.53:8172/",
+                "protocol": "HTTP/1.1",
+                "status_code": 404,
+                "status_reason": "Not Found",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "103"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "Microsoft-IIS/10.0"
+                    ]
+                  }
+                },
+                "body_size": 103,
+                "body": "The resource you are looking for has been removed, had its name changed, or is temporarily unavailable.",
+                "body_hash_sha256": "90b2d35cd5e08370ed20db81197dd9da1a4dbb421f71293fd5733ea49eb7b3e1",
+                "body_hash_sha1": "2a416f86c3c9e26f9c34bf1f8b1bb5daa46e86f9",
+                "supported_versions": [
+                  "HTTP/1.1",
+                  "HTTP/2"
+                ]
+              },
+              "ip": "40.112.243.53"
+            }
+          ]
+        }
+      ],
+      "service_count": 3,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-02-13T01:46:21Z"
+        },
+        "names": [
+          "berlinal.gov",
+          "spo.ms",
+          "adobe-ep.ahausoftware.com",
+          "www.cloudcraftsolutions.com",
+          "www.zinfraupvise.app",
+          "expfg.truetech.app",
+          "studyshare.com",
+          "fairplayams.au",
+          "mail.gsimmonsrealty.com",
+          "gregbclement.com",
+          "teams.com",
+          "www.eolianbot.com",
+          "lms.cas.edu.co",
+          "lmiportal.2mtech.com",
+          "campbellusd.org",
+          "inventory.campbellusd.org",
+          "mail.jascopvc.com",
+          "spencerg.me",
+          "dist-aliados.azurewebsites.net",
+          "devthymowebsite.azurewebsites.net",
+          "directory-cusdweb.azurewebsites.net",
+          "achondroplasia-linux.azurewebsites.net",
+          "chat.galaxy.saponrhel.org",
+          "snlagent.com",
+          "bhargavablog.com",
+          "www.fairplayams.com.au",
+          "login.autharmor.com",
+          "purchasedids.alertcommunications.com",
+          "www.baddyboysclub.com",
+          "internalapidev.skypointcloud.com",
+          "api.splendr.ai",
+          "www.office365.com",
+          "virtua-api.azurewebsites.net",
+          "netzi.azurewebsites.net",
+          "mybook-giveimpart.azurewebsites.net",
+          "gxwww.azurewebsites.net",
+          "fv-inspector.azurewebsites.net",
+          "www.colyprocongreso.com",
+          "aps.campbellusd.org",
+          "mail.ziyandaconsulting.co.za",
+          "www.ayvanetworks.com",
+          "veritablereviews.com",
+          "apitwo3102.classpoint.app",
+          "analytics.connectmyevent.com",
+          "yolofootball-datacenter.azurewebsites.net",
+          "splendrapi.azurewebsites.net",
+          "testavideo-admin.azurewebsites.net",
+          "redirect-cusdweb.azurewebsites.net",
+          "peakemployeeapp.azurewebsites.net",
+          "lgcyweb01.azurewebsites.net",
+          "fv-feedsapi.azurewebsites.net",
+          "api.splititfor.me",
+          "exppahc.truetech.app",
+          "wtx-gatekeeper-rest.wavetronix.com",
+          "mail.axant.ca",
+          "pge-battery-pilot.com",
+          "madetight.hunchinsights.com",
+          "api-private.arcavis.com",
+          "dotrimproduction.azurewebsites.net",
+          "connexdemoservices.azurewebsites.net",
+          "calfirerditools.azurewebsites.net",
+          "ayva.azurewebsites.net",
+          "admin.primerimpacto.es",
+          "mail.aljazera.com",
+          "backendapi.superpoint.com.tw",
+          "admin.academica.ro",
+          "codextechworks.pia.ai",
+          "alpha.connectmyevent.com",
+          "qr.campbellusd.org",
+          "www.goodheartsyfs.org",
+          "zinfraupvise.azurewebsites.net",
+          "piadmin.azurewebsites.net",
+          "mycloset.azurewebsites.net",
+          "mopicrtcdev.azurewebsites.net",
+          "response.2mtech.com",
+          "cloudcraftsolutions.com",
+          "villeos.app",
+          "exphisig.truetech.app",
+          "assemblea-cee.azurewebsites.net",
+          "wsuathub.merlot.aero",
+          "webhook.loadchief.com",
+          "account.autharmor.com",
+          "www.ayva.network",
+          "reportservices.carland.com",
+          "api.ae.lumiconnect.com",
+          "uwuusub0svwap03.azurewebsites.net",
+          "truexportal.azurewebsites.net",
+          "truex.azurewebsites.net",
+          "superpointbackendapi.azurewebsites.net",
+          "situationalawareness-admin.azurewebsites.net",
+          "rms-cg-eu.azurewebsites.net",
+          "ppt-parts.azurewebsites.net",
+          "gxmobile.azurewebsites.net",
+          "gxapp1.azurewebsites.net",
+          "luli-tracker.azurewebsites.net",
+          "admin.wil.360-advisor.com",
+          "mail.hillandassociates.biz",
+          "liveportalapp.audiocodes.io",
+          "demo.fairplayams.com",
+          "quantum.smartflows.xpertdoc.com"
+        ],
+        "forward_dns": {
+          "account.autharmor.com": {
+            "resolve_time": "2026-02-09T13:07:13Z",
+            "name": "account.autharmor.com",
+            "record_type": "a"
+          },
+          "achondroplasia-linux.azurewebsites.net": {
+            "resolve_time": "2026-02-11T16:04:40Z",
+            "name": "achondroplasia-linux.azurewebsites.net",
+            "record_type": "a"
+          },
+          "admin.academica.ro": {
+            "resolve_time": "2026-02-09T21:38:41Z",
+            "name": "admin.academica.ro",
+            "record_type": "a"
+          },
+          "admin.primerimpacto.es": {
+            "resolve_time": "2026-02-10T12:06:58Z",
+            "name": "admin.primerimpacto.es",
+            "record_type": "a"
+          },
+          "admin.wil.360-advisor.com": {
+            "resolve_time": "2026-02-08T20:27:39Z",
+            "name": "admin.wil.360-advisor.com",
+            "record_type": "a"
+          },
+          "adobe-ep.ahausoftware.com": {
+            "resolve_time": "2026-02-13T12:55:59Z",
+            "name": "adobe-ep.ahausoftware.com",
+            "record_type": "a"
+          },
+          "alpha.connectmyevent.com": {
+            "resolve_time": "2026-02-09T20:51:54Z",
+            "name": "alpha.connectmyevent.com",
+            "record_type": "a"
+          },
+          "analytics.connectmyevent.com": {
+            "resolve_time": "2026-02-10T18:59:41Z",
+            "name": "analytics.connectmyevent.com",
+            "record_type": "a"
+          },
+          "api-private.arcavis.com": {
+            "resolve_time": "2026-02-10T12:56:54Z",
+            "name": "api-private.arcavis.com",
+            "record_type": "a"
+          },
+          "api.ae.lumiconnect.com": {
+            "resolve_time": "2026-02-08T22:04:21Z",
+            "name": "api.ae.lumiconnect.com",
+            "record_type": "a"
+          },
+          "api.splendr.ai": {
+            "resolve_time": "2026-02-11T13:36:29Z",
+            "name": "api.splendr.ai",
+            "record_type": "a"
+          },
+          "api.splititfor.me": {
+            "resolve_time": "2026-02-10T17:29:41Z",
+            "name": "api.splititfor.me",
+            "record_type": "a"
+          },
+          "apitwo3102.classpoint.app": {
+            "resolve_time": "2026-02-10T19:54:01Z",
+            "name": "apitwo3102.classpoint.app",
+            "record_type": "a"
+          },
+          "aps.campbellusd.org": {
+            "resolve_time": "2026-02-10T22:11:15Z",
+            "name": "aps.campbellusd.org",
+            "record_type": "a"
+          },
+          "assemblea-cee.azurewebsites.net": {
+            "resolve_time": "2026-02-09T14:10:30Z",
+            "name": "assemblea-cee.azurewebsites.net",
+            "record_type": "a"
+          },
+          "ayva.azurewebsites.net": {
+            "resolve_time": "2026-02-10T12:27:22Z",
+            "name": "ayva.azurewebsites.net",
+            "record_type": "a"
+          },
+          "backendapi.superpoint.com.tw": {
+            "resolve_time": "2026-02-09T22:13:07Z",
+            "name": "backendapi.superpoint.com.tw",
+            "record_type": "a"
+          },
+          "berlinal.gov": {
+            "resolve_time": "2026-02-13T13:00:53Z",
+            "name": "berlinal.gov",
+            "record_type": "a"
+          },
+          "bhargavablog.com": {
+            "resolve_time": "2026-02-11T15:52:54Z",
+            "name": "bhargavablog.com",
+            "record_type": "a"
+          },
+          "calfirerditools.azurewebsites.net": {
+            "resolve_time": "2026-02-10T12:27:26Z",
+            "name": "calfirerditools.azurewebsites.net",
+            "record_type": "a"
+          },
+          "campbellusd.org": {
+            "resolve_time": "2026-02-11T17:19:19Z",
+            "name": "campbellusd.org",
+            "record_type": "a"
+          },
+          "chat.galaxy.saponrhel.org": {
+            "resolve_time": "2026-02-11T16:01:07Z",
+            "name": "chat.galaxy.saponrhel.org",
+            "record_type": "a"
+          },
+          "cloudcraftsolutions.com": {
+            "resolve_time": "2026-02-09T14:50:26Z",
+            "name": "cloudcraftsolutions.com",
+            "record_type": "a"
+          },
+          "codextechworks.pia.ai": {
+            "resolve_time": "2026-02-09T21:17:16Z",
+            "name": "codextechworks.pia.ai",
+            "record_type": "a"
+          },
+          "connexdemoservices.azurewebsites.net": {
+            "resolve_time": "2026-02-10T12:27:29Z",
+            "name": "connexdemoservices.azurewebsites.net",
+            "record_type": "a"
+          },
+          "demo.fairplayams.com": {
+            "resolve_time": "2026-02-08T19:40:57Z",
+            "name": "demo.fairplayams.com",
+            "record_type": "a"
+          },
+          "devthymowebsite.azurewebsites.net": {
+            "resolve_time": "2026-02-11T16:04:58Z",
+            "name": "devthymowebsite.azurewebsites.net",
+            "record_type": "a"
+          },
+          "directory-cusdweb.azurewebsites.net": {
+            "resolve_time": "2026-02-11T16:04:58Z",
+            "name": "directory-cusdweb.azurewebsites.net",
+            "record_type": "a"
+          },
+          "dist-aliados.azurewebsites.net": {
+            "resolve_time": "2026-02-11T16:04:59Z",
+            "name": "dist-aliados.azurewebsites.net",
+            "record_type": "a"
+          },
+          "dotrimproduction.azurewebsites.net": {
+            "resolve_time": "2026-02-10T12:27:33Z",
+            "name": "dotrimproduction.azurewebsites.net",
+            "record_type": "a"
+          },
+          "expfg.truetech.app": {
+            "resolve_time": "2026-02-11T22:26:17Z",
+            "name": "expfg.truetech.app",
+            "record_type": "a"
+          },
+          "exphisig.truetech.app": {
+            "resolve_time": "2026-02-09T14:22:02Z",
+            "name": "exphisig.truetech.app",
+            "record_type": "a"
+          },
+          "exppahc.truetech.app": {
+            "resolve_time": "2026-02-10T16:52:32Z",
+            "name": "exppahc.truetech.app",
+            "record_type": "a"
+          },
+          "fairplayams.au": {
+            "resolve_time": "2026-02-11T21:37:29Z",
+            "name": "fairplayams.au",
+            "record_type": "a"
+          },
+          "fv-feedsapi.azurewebsites.net": {
+            "resolve_time": "2026-02-10T18:54:13Z",
+            "name": "fv-feedsapi.azurewebsites.net",
+            "record_type": "a"
+          },
+          "fv-inspector.azurewebsites.net": {
+            "resolve_time": "2026-02-11T13:17:36Z",
+            "name": "fv-inspector.azurewebsites.net",
+            "record_type": "a"
+          },
+          "gregbclement.com": {
+            "resolve_time": "2026-02-11T20:56:47Z",
+            "name": "gregbclement.com",
+            "record_type": "a"
+          },
+          "gxapp1.azurewebsites.net": {
+            "resolve_time": "2026-02-08T21:03:28Z",
+            "name": "gxapp1.azurewebsites.net",
+            "record_type": "a"
+          },
+          "gxmobile.azurewebsites.net": {
+            "resolve_time": "2026-02-08T21:03:35Z",
+            "name": "gxmobile.azurewebsites.net",
+            "record_type": "a"
+          },
+          "gxwww.azurewebsites.net": {
+            "resolve_time": "2026-02-11T13:17:39Z",
+            "name": "gxwww.azurewebsites.net",
+            "record_type": "a"
+          },
+          "internalapidev.skypointcloud.com": {
+            "resolve_time": "2026-02-11T14:18:18Z",
+            "name": "internalapidev.skypointcloud.com",
+            "record_type": "a"
+          },
+          "inventory.campbellusd.org": {
+            "resolve_time": "2026-02-11T17:19:19Z",
+            "name": "inventory.campbellusd.org",
+            "record_type": "a"
+          },
+          "lgcyweb01.azurewebsites.net": {
+            "resolve_time": "2026-02-10T18:54:16Z",
+            "name": "lgcyweb01.azurewebsites.net",
+            "record_type": "a"
+          },
+          "liveportalapp.audiocodes.io": {
+            "resolve_time": "2026-02-08T19:47:28Z",
+            "name": "liveportalapp.audiocodes.io",
+            "record_type": "a"
+          },
+          "lmiportal.2mtech.com": {
+            "resolve_time": "2026-02-11T19:02:09Z",
+            "name": "lmiportal.2mtech.com",
+            "record_type": "a"
+          },
+          "lms.cas.edu.co": {
+            "resolve_time": "2026-02-11T19:29:39Z",
+            "name": "lms.cas.edu.co",
+            "record_type": "a"
+          },
+          "login.autharmor.com": {
+            "resolve_time": "2026-02-11T15:19:32Z",
+            "name": "login.autharmor.com",
+            "record_type": "a"
+          },
+          "luli-tracker.azurewebsites.net": {
+            "resolve_time": "2026-02-08T21:03:28Z",
+            "name": "luli-tracker.azurewebsites.net",
+            "record_type": "a"
+          },
+          "madetight.hunchinsights.com": {
+            "resolve_time": "2026-02-10T14:08:26Z",
+            "name": "madetight.hunchinsights.com",
+            "record_type": "a"
+          },
+          "mail.aljazera.com": {
+            "resolve_time": "2026-02-10T00:57:21Z",
+            "name": "mail.aljazera.com",
+            "record_type": "a"
+          },
+          "mail.axant.ca": {
+            "resolve_time": "2026-02-10T15:09:03Z",
+            "name": "mail.axant.ca",
+            "record_type": "a"
+          },
+          "mail.gsimmonsrealty.com": {
+            "resolve_time": "2026-02-11T21:01:09Z",
+            "name": "mail.gsimmonsrealty.com",
+            "record_type": "a"
+          },
+          "mail.hillandassociates.biz": {
+            "resolve_time": "2026-02-08T20:02:33Z",
+            "name": "mail.hillandassociates.biz",
+            "record_type": "a"
+          },
+          "mail.jascopvc.com": {
+            "resolve_time": "2026-02-11T16:53:59Z",
+            "name": "mail.jascopvc.com",
+            "record_type": "a"
+          },
+          "mail.ziyandaconsulting.co.za": {
+            "resolve_time": "2026-02-10T21:21:48Z",
+            "name": "mail.ziyandaconsulting.co.za",
+            "record_type": "a"
+          },
+          "mopicrtcdev.azurewebsites.net": {
+            "resolve_time": "2026-02-09T15:46:47Z",
+            "name": "mopicrtcdev.azurewebsites.net",
+            "record_type": "a"
+          },
+          "mybook-giveimpart.azurewebsites.net": {
+            "resolve_time": "2026-02-11T13:17:47Z",
+            "name": "mybook-giveimpart.azurewebsites.net",
+            "record_type": "a"
+          },
+          "mycloset.azurewebsites.net": {
+            "resolve_time": "2026-02-09T15:46:51Z",
+            "name": "mycloset.azurewebsites.net",
+            "record_type": "a"
+          },
+          "netzi.azurewebsites.net": {
+            "resolve_time": "2026-02-11T13:17:49Z",
+            "name": "netzi.azurewebsites.net",
+            "record_type": "a"
+          },
+          "peakemployeeapp.azurewebsites.net": {
+            "resolve_time": "2026-02-10T18:56:22Z",
+            "name": "peakemployeeapp.azurewebsites.net",
+            "record_type": "a"
+          },
+          "pge-battery-pilot.com": {
+            "resolve_time": "2026-02-10T14:15:02Z",
+            "name": "pge-battery-pilot.com",
+            "record_type": "a"
+          },
+          "piadmin.azurewebsites.net": {
+            "resolve_time": "2026-02-09T15:48:30Z",
+            "name": "piadmin.azurewebsites.net",
+            "record_type": "a"
+          },
+          "ppt-parts.azurewebsites.net": {
+            "resolve_time": "2026-02-08T21:06:09Z",
+            "name": "ppt-parts.azurewebsites.net",
+            "record_type": "a"
+          },
+          "purchasedids.alertcommunications.com": {
+            "resolve_time": "2026-02-11T15:16:50Z",
+            "name": "purchasedids.alertcommunications.com",
+            "record_type": "a"
+          },
+          "qr.campbellusd.org": {
+            "resolve_time": "2026-02-09T20:03:17Z",
+            "name": "qr.campbellusd.org",
+            "record_type": "a"
+          },
+          "quantum.smartflows.xpertdoc.com": {
+            "resolve_time": "2026-02-08T18:08:32Z",
+            "name": "quantum.smartflows.xpertdoc.com",
+            "record_type": "a"
+          },
+          "redirect-cusdweb.azurewebsites.net": {
+            "resolve_time": "2026-02-10T18:56:32Z",
+            "name": "redirect-cusdweb.azurewebsites.net",
+            "record_type": "a"
+          },
+          "reportservices.carland.com": {
+            "resolve_time": "2026-02-08T22:10:19Z",
+            "name": "reportservices.carland.com",
+            "record_type": "a"
+          },
+          "response.2mtech.com": {
+            "resolve_time": "2026-02-09T15:46:12Z",
+            "name": "response.2mtech.com",
+            "record_type": "a"
+          },
+          "rms-cg-eu.azurewebsites.net": {
+            "resolve_time": "2026-02-08T21:06:17Z",
+            "name": "rms-cg-eu.azurewebsites.net",
+            "record_type": "a"
+          },
+          "situationalawareness-admin.azurewebsites.net": {
+            "resolve_time": "2026-02-08T21:06:22Z",
+            "name": "situationalawareness-admin.azurewebsites.net",
+            "record_type": "a"
+          },
+          "snlagent.com": {
+            "resolve_time": "2026-02-11T15:53:28Z",
+            "name": "snlagent.com",
+            "record_type": "a"
+          },
+          "spencerg.me": {
+            "resolve_time": "2026-02-11T16:34:59Z",
+            "name": "spencerg.me",
+            "record_type": "a"
+          },
+          "splendrapi.azurewebsites.net": {
+            "resolve_time": "2026-02-10T18:56:38Z",
+            "name": "splendrapi.azurewebsites.net",
+            "record_type": "a"
+          },
+          "spo.ms": {
+            "resolve_time": "2026-02-13T12:56:50Z",
+            "name": "spo.ms",
+            "record_type": "a"
+          },
+          "studyshare.com": {
+            "resolve_time": "2026-02-11T21:40:41Z",
+            "name": "studyshare.com",
+            "record_type": "a"
+          },
+          "superpointbackendapi.azurewebsites.net": {
+            "resolve_time": "2026-02-08T21:06:25Z",
+            "name": "superpointbackendapi.azurewebsites.net",
+            "record_type": "a"
+          },
+          "teams.com": {
+            "resolve_time": "2026-02-11T20:50:29Z",
+            "name": "teams.com",
+            "record_type": "a"
+          },
+          "testavideo-admin.azurewebsites.net": {
+            "resolve_time": "2026-02-10T18:56:36Z",
+            "name": "testavideo-admin.azurewebsites.net",
+            "record_type": "a"
+          },
+          "truex.azurewebsites.net": {
+            "resolve_time": "2026-02-08T21:06:28Z",
+            "name": "truex.azurewebsites.net",
+            "record_type": "a"
+          },
+          "truexportal.azurewebsites.net": {
+            "resolve_time": "2026-02-08T21:06:28Z",
+            "name": "truexportal.azurewebsites.net",
+            "record_type": "a"
+          },
+          "uwuusub0svwap03.azurewebsites.net": {
+            "resolve_time": "2026-02-08T21:06:30Z",
+            "name": "uwuusub0svwap03.azurewebsites.net",
+            "record_type": "a"
+          },
+          "veritablereviews.com": {
+            "resolve_time": "2026-02-10T20:12:07Z",
+            "name": "veritablereviews.com",
+            "record_type": "a"
+          },
+          "villeos.app": {
+            "resolve_time": "2026-02-09T14:22:56Z",
+            "name": "villeos.app",
+            "record_type": "a"
+          },
+          "virtua-api.azurewebsites.net": {
+            "resolve_time": "2026-02-11T13:20:15Z",
+            "name": "virtua-api.azurewebsites.net",
+            "record_type": "a"
+          },
+          "webhook.loadchief.com": {
+            "resolve_time": "2026-02-09T13:11:13Z",
+            "name": "webhook.loadchief.com",
+            "record_type": "a"
+          },
+          "wsuathub.merlot.aero": {
+            "resolve_time": "2026-02-09T13:26:33Z",
+            "name": "wsuathub.merlot.aero",
+            "record_type": "a"
+          },
+          "wtx-gatekeeper-rest.wavetronix.com": {
+            "resolve_time": "2026-02-10T16:17:36Z",
+            "name": "wtx-gatekeeper-rest.wavetronix.com",
+            "record_type": "a"
+          },
+          "www.ayva.network": {
+            "resolve_time": "2026-02-09T12:06:37Z",
+            "name": "www.ayva.network",
+            "record_type": "a"
+          },
+          "www.ayvanetworks.com": {
+            "resolve_time": "2026-02-10T21:00:16Z",
+            "name": "www.ayvanetworks.com",
+            "record_type": "a"
+          },
+          "www.baddyboysclub.com": {
+            "resolve_time": "2026-02-11T14:28:45Z",
+            "name": "www.baddyboysclub.com",
+            "record_type": "a"
+          },
+          "www.cloudcraftsolutions.com": {
+            "resolve_time": "2026-02-12T20:19:18Z",
+            "name": "www.cloudcraftsolutions.com",
+            "record_type": "a"
+          },
+          "www.colyprocongreso.com": {
+            "resolve_time": "2026-02-11T13:00:19Z",
+            "name": "www.colyprocongreso.com",
+            "record_type": "a"
+          },
+          "www.eolianbot.com": {
+            "resolve_time": "2026-02-11T19:52:22Z",
+            "name": "www.eolianbot.com",
+            "record_type": "a"
+          },
+          "www.fairplayams.com.au": {
+            "resolve_time": "2026-02-11T15:46:56Z",
+            "name": "www.fairplayams.com.au",
+            "record_type": "a"
+          },
+          "www.goodheartsyfs.org": {
+            "resolve_time": "2026-02-09T19:56:16Z",
+            "name": "www.goodheartsyfs.org",
+            "record_type": "a"
+          },
+          "www.office365.com": {
+            "resolve_time": "2026-02-11T13:23:41Z",
+            "name": "www.office365.com",
+            "record_type": "a"
+          },
+          "www.zinfraupvise.app": {
+            "resolve_time": "2026-02-11T22:27:41Z",
+            "name": "www.zinfraupvise.app",
+            "record_type": "a"
+          },
+          "yolofootball-datacenter.azurewebsites.net": {
+            "resolve_time": "2026-02-10T18:56:44Z",
+            "name": "yolofootball-datacenter.azurewebsites.net",
+            "record_type": "a"
+          },
+          "zinfraupvise.azurewebsites.net": {
+            "resolve_time": "2026-02-09T15:48:47Z",
+            "name": "zinfraupvise.azurewebsites.net",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

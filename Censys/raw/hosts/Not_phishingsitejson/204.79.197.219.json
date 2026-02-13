@@ -1,0 +1,1128 @@
+{
+  "result": {
+    "resource": {
+      "ip": "204.79.197.219",
+      "location": {
+        "continent": "North America",
+        "country": "United States",
+        "country_code": "US",
+        "city": "Redmond",
+        "postal_code": "98052",
+        "timezone": "America/Los_Angeles",
+        "province": "Washington",
+        "coordinates": {
+          "latitude": 47.67399,
+          "longitude": -122.12151
+        }
+      },
+      "autonomous_system": {
+        "asn": 8068,
+        "description": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "bgp_prefix": "204.79.197.0/24",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "country_code": "US"
+      },
+      "whois": {
+        "network": {
+          "handle": "ECN-NETWORK",
+          "name": "Microsoft Corporation",
+          "cidrs": [
+            "204.79.195.0/24",
+            "204.79.196.0/23"
+          ],
+          "created": "1994-12-15T00:00:00Z",
+          "updated": "2021-12-14T00:00:00Z",
+          "allocation_type": "ALLOCATION"
+        },
+        "organization": {
+          "handle": "MSFT",
+          "name": "Microsoft Corporation",
+          "street": "One Microsoft Way",
+          "city": "Redmond",
+          "state": "WA",
+          "postal_code": "98052",
+          "country": "US",
+          "abuse_contacts": [
+            {
+              "handle": "MAC74-ARIN",
+              "name": "Microsoft Abuse Contact",
+              "email": "abuse@microsoft.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "IPHOS5-ARIN",
+              "name": "IPHostmaster IPHostmaster",
+              "email": "iphostmaster@microsoft.com"
+            }
+          ],
+          "tech_contacts": [
+            {
+              "handle": "BEDAR6-ARIN",
+              "name": "Dawn Bedard",
+              "email": "dabedard@microsoft.com"
+            },
+            {
+              "handle": "IPHOS5-ARIN",
+              "name": "IPHostmaster IPHostmaster",
+              "email": "iphostmaster@microsoft.com"
+            },
+            {
+              "handle": "MRPD-ARIN",
+              "name": "Microsoft Routing, Peering, and DNS",
+              "email": "IOC@microsoft.com"
+            },
+            {
+              "handle": "SINGH683-ARIN",
+              "name": "Prachi Singh",
+              "email": "pracsin@microsoft.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "ip": "204.79.197.219",
+          "scan_time": "2026-02-13T14:46:22Z",
+          "endpoints": [
+            {
+              "hostname": "204.79.197.219",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T14:46:22Z",
+              "http": {
+                "uri": "http://204.79.197.219/",
+                "protocol": "HTTP/1.1",
+                "status_code": 400,
+                "status_reason": "Bad Request",
+                "headers": {
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Transfer-Encoding": {
+                    "headers": [
+                      "chunked"
+                    ]
+                  },
+                  "X-MSEdge-Ref": {
+                    "headers": [
+                      "0PTmPaQAAAADYMCymdrRoSo+NI94Uo+44Q0hJMzBFREdFMDQxOABFZGdl"
+                    ]
+                  }
+                },
+                "body_size": 194,
+                "body": "<h2>Our services aren't available right now</h2><p>We're working to restore all services as soon as possible. Please check back soon.</p>0PTmPaQAAAADYMCymdrRoSo+NI94Uo+44Q0hJMzBFREdFMDQxOABFZGdl",
+                "body_hash_sha256": "db44d5acf6390dc51b055b73b49b762df41369879cb0462f9864660a3125e3f9",
+                "body_hash_sha1": "127bb78f8123a371b823ba1e69cbe45104fe7429",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "204.79.197.219"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "a306b4c5b94a415fc5806f168ac343a780de1555840064dc7b308948608d8340",
+            "fingerprint_sha1": "64e81338581150d46fbffaca5d8e1cf21e9bd252",
+            "fingerprint_md5": "ec639764edfc3ccbf7dd35b7ba340d54",
+            "tbs_fingerprint_sha256": "c5c80c77427fb1ad0cf381fe4c3f75a8ace00d978d721975ff3c450910f263d3",
+            "tbs_no_ct_fingerprint_sha256": "a0974ef0bed8d1ee8026475d7d3f58ef08ba817eba945567c5e8797f5e1513dd",
+            "spki_fingerprint_sha256": "f2e907c0196bd22910a7588b50f6186198c32dd1ce45d76606a733c3753f2f1a",
+            "parent_spki_fingerprint_sha256": "7ae75d5db90e34d95e3f79914aedc555dfd2d5aaaf15eae089bebd47390c89b9",
+            "parsed": {
+              "version": 3,
+              "serial_number": "1137598751300224047360458597090672400463184798",
+              "issuer_dn": "C=US, O=Microsoft Corporation, CN=Microsoft Azure RSA TLS Issuing CA 07",
+              "issuer": {
+                "common_name": [
+                  "Microsoft Azure RSA TLS Issuing CA 07"
+                ],
+                "country": [
+                  "US"
+                ],
+                "organization": [
+                  "Microsoft Corporation"
+                ]
+              },
+              "subject_dn": "C=US, ST=WA, L=Redmond, O=Microsoft Corporation, CN=*.azureedge.net",
+              "subject": {
+                "common_name": [
+                  "*.azureedge.net"
+                ],
+                "country": [
+                  "US"
+                ],
+                "locality": [
+                  "Redmond"
+                ],
+                "province": [
+                  "WA"
+                ],
+                "organization": [
+                  "Microsoft Corporation"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "RSA",
+                  "oid": "1.2.840.113549.1.1.1"
+                },
+                "rsa": {
+                  "exponent": 65537,
+                  "modulus": "d00db5cc1b45c559ba3a8535a44ed18687b64bd6dab36ad2df3ffde0fa631ab83729a8123f264fb592221cd6c5cb4231177bd084e3f1fb7037116fbf589b971440dd1f73c65995d6c02a3f9df5da126c2f2076d6262fbbacd9221654b55007e59b784a801711f714e240b80969c64ec71223b41947d80d2bb83ade1073d6fc9880d6e14d7b6f5d0f1cd3dbb9f2af873a641a0fa2df28f888cdc42566073621ff8898769e137457b3720d56ac50da19ecb7c7bfdb18698f536a83a4e86f1c385fe10ab491aa28876aa70cbe59c628212ab4bb0f8dbab347ef7f5ed9c6b4ed681e2553b66dd83a194de782c1542c625afb928eba55864567e65f06778338c77b1d",
+                  "length": 2048
+                },
+                "fingerprint_sha256": "7b0d9b1d2916adeba723f5acf20741fe9de17b372c9bdf565c02aec9a077fb1b"
+              },
+              "validity_period": {
+                "not_before": "2026-01-08T17:41:17Z",
+                "not_after": "2026-07-07T17:41:17Z",
+                "length_seconds": 15552001
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "SHA384-RSA",
+                  "oid": "1.2.840.113549.1.1.12"
+                },
+                "value": "5b77a5e675c6c6bff08c26578d7b86987f52bce04343e3c9983b0e0444d7459361f18c31859ba90133f72d52ee085e3f44328d075091b208e7572268cd658429be6db9e9300ad1d06fd62447344322a82c10f21c6c62aae8e7b3c1bc737deb85297ce83dfaaa78c1cec8d9b774a48e831c60ab4447f848d67bc75302b50bea8637a6986f3a7f4e9752471aed65c6e729f8740841fb0af98b64a964a5894f2080c7dad034ec8caf266a27521b6525b34a4747c391fbf30473f457217ac5cba7b0d76aa4fd0e4c447ddd39220083dfa4cb2158213b612671a471897e6c5521e7a82c4d95ab900ca84b3c4e30016a12d3a614942cf01253c6cab2a11c35742428d5ecdabf74b5f9123cec15c1c73cd8f167cc0fbf5c37d4a2f3089fdb376a9705ecb1824a5ea45ea7b01c30140b2c61923dfd563f48b16423f9bf5c9bdc11871968f233292e6eac92b8d697512fe175c4cd305623693a94eff48da3fbcb4711703320e1e5d96769c5795982fd6dcd6d261245c498016c526301ddaf7ce8b64f25638a7144f71aa2c23f9e8cbbcf7bbafc3157dd2acff02012c27d591cb3823de07d82b07c902dec69c1e96771fe11def814c3662a8aade0144acdd183ca7987f827f2d160e11cb4b9eb7394deaaeb9d0176a9cfb7eee93c1f97f01e3986f576eebb4fb59c42a99770f6210d0839ff628674da862f2bb0f9dffd8936849fe4be4aac",
+                "valid": true
+              },
+              "serial_number_hex": "3302fe439ea9b6c2d0ec04c069000002fe439e"
+            },
+            "names": [
+              "*.azureedge.net"
+            ],
+            "validation_level": "ov",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "724247794951c93f3e41711617e95ce143263e3196c345a1da78f6639749ec03",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "fbb7926a451badf516be518614a77e6e325e29819908796d807f59320f918ee2",
+                      "c741f70f4b2a8d88bf2e71c14122ef53ef10eba0cfa5e64cfa20f418853073e0"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                  "724247794951c93f3e41711617e95ce143263e3196c345a1da78f6639749ec03",
+                  "fbb7926a451badf516be518614a77e6e325e29819908796d807f59320f918ee2"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "724247794951c93f3e41711617e95ce143263e3196c345a1da78f6639749ec03",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "fbb7926a451badf516be518614a77e6e325e29819908796d807f59320f918ee2",
+                      "c741f70f4b2a8d88bf2e71c14122ef53ef10eba0cfa5e64cfa20f418853073e0"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                      "0ba8c0d459b76abc0825294f565e24f4f169d4a4819d0692d371522d297724b8",
+                      "2399561127a57125de8cefea610ddf2fa078b5c8067f4e828290bfb860e84b3c"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                  "724247794951c93f3e41711617e95ce143263e3196c345a1da78f6639749ec03",
+                  "fbb7926a451badf516be518614a77e6e325e29819908796d807f59320f918ee2"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "724247794951c93f3e41711617e95ce143263e3196c345a1da78f6639749ec03",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "fbb7926a451badf516be518614a77e6e325e29819908796d807f59320f918ee2",
+                      "c741f70f4b2a8d88bf2e71c14122ef53ef10eba0cfa5e64cfa20f418853073e0"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                  "724247794951c93f3e41711617e95ce143263e3196c345a1da78f6639749ec03",
+                  "fbb7926a451badf516be518614a77e6e325e29819908796d807f59320f918ee2"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "724247794951c93f3e41711617e95ce143263e3196c345a1da78f6639749ec03",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "fbb7926a451badf516be518614a77e6e325e29819908796d807f59320f918ee2",
+                      "c741f70f4b2a8d88bf2e71c14122ef53ef10eba0cfa5e64cfa20f418853073e0"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                  "724247794951c93f3e41711617e95ce143263e3196c345a1da78f6639749ec03",
+                  "fbb7926a451badf516be518614a77e6e325e29819908796d807f59320f918ee2"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 2302593168,
+                  "added_to_ct_at": "2026-01-30T20:46:54Z",
+                  "ct_to_censys_at": "2026-01-30T21:17:44Z"
+                },
+                "google_argon_2026_h2": {
+                  "index": 227466335,
+                  "added_to_ct_at": "2026-01-10T04:17:01Z",
+                  "ct_to_censys_at": "2026-01-10T04:18:27Z"
+                },
+                "google_xenon_2026_h2": {
+                  "index": 175495626,
+                  "added_to_ct_at": "2026-01-10T04:17:01Z",
+                  "ct_to_censys_at": "2026-01-10T04:18:28Z"
+                },
+                "letsencrypt_ct_sycamore_2026_h2": {
+                  "index": 34628563,
+                  "added_to_ct_at": "2026-01-10T04:17:01Z",
+                  "ct_to_censys_at": "2026-01-10T04:18:25Z"
+                },
+                "letsencrypt_ct_willow_2026_h2": {
+                  "index": 34493199,
+                  "added_to_ct_at": "2026-01-10T04:17:02Z",
+                  "ct_to_censys_at": "2026-01-10T04:18:26Z"
+                },
+                "sectigo_elephant_2026_h2": {
+                  "index": 106069516,
+                  "added_to_ct_at": "2026-01-10T04:17:01Z",
+                  "ct_to_censys_at": "2026-01-10T04:18:27Z"
+                },
+                "sectigo_tiger_2026_h2": {
+                  "index": 104383921,
+                  "added_to_ct_at": "2026-01-10T04:17:01Z",
+                  "ct_to_censys_at": "2026-01-10T04:18:50Z"
+                },
+                "trustasia_log_2026_a": {
+                  "index": 498361000,
+                  "added_to_ct_at": "2026-01-11T08:41:25Z",
+                  "ct_to_censys_at": "2026-01-11T08:50:21Z"
+                },
+                "trustasia_log_2026_b": {
+                  "index": 516773036,
+                  "added_to_ct_at": "2026-01-11T08:53:44Z",
+                  "ct_to_censys_at": "2026-01-11T09:06:02Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2026-01-08T18:57:07Z",
+            "modified_at": "2026-01-30T21:17:44Z",
+            "validated_at": "2026-02-13T02:28:15Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "f2e907c0196bd22910a7588b50f6186198c32dd1ce45d76606a733c3753f2f1a",
+            "parent_spki_subject_fingerprint_sha256": "7ae75d5db90e34d95e3f79914aedc555dfd2d5aaaf15eae089bebd47390c89b9"
+          },
+          "ip": "204.79.197.219",
+          "scan_time": "2026-02-13T05:56:11Z",
+          "tls": {
+            "fingerprint_sha256": "a306b4c5b94a415fc5806f168ac343a780de1555840064dc7b308948608d8340",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "724247794951c93f3e41711617e95ce143263e3196c345a1da78f6639749ec03",
+                "subject_dn": "C=US, O=Microsoft Corporation, CN=Microsoft Azure RSA TLS Issuing CA 07",
+                "issuer_dn": "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root G2"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "204.79.197.219",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T05:56:11Z",
+              "http": {
+                "uri": "https://204.79.197.219/",
+                "protocol": "HTTP/1.1",
+                "status_code": 400,
+                "status_reason": "Bad Request",
+                "headers": {
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Transfer-Encoding": {
+                    "headers": [
+                      "chunked"
+                    ]
+                  },
+                  "X-MSEdge-Ref": {
+                    "headers": [
+                      "0+byOaQAAAAD63Cs5LGrBQI7vCNWswhRbQ0hJMzBFREdFMDMxMQBFZGdl"
+                    ]
+                  }
+                },
+                "body_size": 194,
+                "body": "<h2>Our services aren't available right now</h2><p>We're working to restore all services as soon as possible. Please check back soon.</p>0+byOaQAAAAD63Cs5LGrBQI7vCNWswhRbQ0hJMzBFREdFMDMxMQBFZGdl",
+                "body_hash_sha256": "d3acd4270a47f1b4e3dd9507dc7b8b45bf8f5c10d44c319011303b64a560b227",
+                "body_hash_sha1": "47d06e2044813028bdd5c139b2b78d0c12f5855e",
+                "supported_versions": [
+                  "HTTP/1.1",
+                  "HTTP/2"
+                ]
+              },
+              "ip": "204.79.197.219"
+            }
+          ]
+        }
+      ],
+      "service_count": 2,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-02-07T23:19:42Z"
+        },
+        "names": [
+          "msn.com",
+          "partner.microsoftstart.com",
+          "browser.events.data.microsoftstart.com",
+          "msdl.microsoft.com",
+          "dl-eoc.ds.microsoft.com",
+          "ds.microsoft.com",
+          "maps.bing.jp",
+          "www.localbing.com",
+          "virtualearth.se",
+          "virtualearth.be",
+          "bing.com.ph",
+          "virtualearth.msn.com",
+          "www.maps.msn.com",
+          "mappoint.msn.com",
+          "bing.co.il",
+          "wobble.start.com",
+          "www.mapblast.net",
+          "www.bing.com.pl",
+          "bing.com.pl",
+          "bing.co.ma",
+          "www.virtualearth.com.pt",
+          "virtualearth.jp",
+          "virtualearth.cz",
+          "www.virtualearth.gr",
+          "virtualearth.com.fr",
+          "bing.co.in",
+          "nfloaderforwin.bing.co.in",
+          "kia.bing.co.in",
+          "virtualearth.net.nz",
+          "maps.msn.co.uk",
+          "www.bing.ae",
+          "int1.msnewsmedia.com",
+          "www.sunnetsolar.com",
+          "server1.start.com",
+          "www.local.live.ca",
+          "microsoftstart.com",
+          "www.maps.msn.co.uk",
+          "www.virtualearthinfo.com",
+          "www.ackmarinecontracting.com",
+          "local.live.de",
+          "www.mymapblast.com",
+          "www.virtualearth.ch",
+          "virtualearth.org",
+          "msdl.microsoft.akadns.net",
+          "ackmarinecontracting.com",
+          "start.start.com",
+          "bing.ma",
+          "www.msn-amp.com",
+          "maps.live.jp",
+          "www.local.live.co.jp",
+          "bing.com.bo",
+          "www.maps.live.co.uk",
+          "mappoint.msn.de",
+          "coord2stim.bing.jp",
+          "bing.com.pt",
+          "virtualearth.com.ve",
+          "mail.start.com",
+          "domains.start.com",
+          "events-sandbox.data.microsoftstart.com",
+          "internal.download.microsoft.com",
+          "rewards.microsoft-ppe.com",
+          "absa-za-bk.com",
+          "multimap.com",
+          "int.msnewsmedia.com",
+          "bing.com.vn",
+          "virtualearth.in",
+          "mapblast.net",
+          "sr-frontend.speech.microsoft.com",
+          "sunnetsolar.com",
+          "maps.msn.at",
+          "virtualearth.com.sg",
+          "inclass05.bing.gen.tr",
+          "www.bing.com.gr",
+          "preview.fe.mscr.io",
+          "localbing.com",
+          "local.live.co.jp",
+          "www.bing.jp",
+          "win-e2t08v8s7bq.start.com",
+          "win.start.com",
+          "ori.start.com",
+          "openweb.start.com",
+          "object-diff.bing.co.in",
+          "www.virtualearth.ru",
+          "www.mappoint.com",
+          "www.mapblast.com",
+          "mapblast.com",
+          "virtualearth.cl",
+          "onnettesting.msedge.net",
+          "www.virtualearth.com",
+          "www.msnewsmedia.com",
+          "www.msnmaps.com",
+          "map.msn.com",
+          "virtualearth.ch",
+          "bing.com.pa",
+          "www.virtualearth.com.mx",
+          "rancher.start.com",
+          "bing.co.za",
+          "www.maps.live.jp",
+          "www.bing.co.in",
+          "fuery.bing.co.in"
+        ],
+        "forward_dns": {
+          "absa-za-bk.com": {
+            "resolve_time": "2026-02-08T13:51:54Z",
+            "name": "absa-za-bk.com",
+            "record_type": "a"
+          },
+          "ackmarinecontracting.com": {
+            "resolve_time": "2026-02-09T18:58:44Z",
+            "name": "ackmarinecontracting.com",
+            "record_type": "a"
+          },
+          "bing.co.il": {
+            "resolve_time": "2026-02-11T17:41:46Z",
+            "name": "bing.co.il",
+            "record_type": "a"
+          },
+          "bing.co.in": {
+            "resolve_time": "2026-02-11T13:58:57Z",
+            "name": "bing.co.in",
+            "record_type": "a"
+          },
+          "bing.co.ma": {
+            "resolve_time": "2026-02-11T16:29:34Z",
+            "name": "bing.co.ma",
+            "record_type": "a"
+          },
+          "bing.co.za": {
+            "resolve_time": "2026-02-06T17:08:28Z",
+            "name": "bing.co.za",
+            "record_type": "a"
+          },
+          "bing.com.bo": {
+            "resolve_time": "2026-02-09T13:39:16Z",
+            "name": "bing.com.bo",
+            "record_type": "a"
+          },
+          "bing.com.pa": {
+            "resolve_time": "2026-02-06T18:01:03Z",
+            "name": "bing.com.pa",
+            "record_type": "a"
+          },
+          "bing.com.ph": {
+            "resolve_time": "2026-02-11T19:32:40Z",
+            "name": "bing.com.ph",
+            "record_type": "a"
+          },
+          "bing.com.pl": {
+            "resolve_time": "2026-02-11T16:40:06Z",
+            "name": "bing.com.pl",
+            "record_type": "a"
+          },
+          "bing.com.pt": {
+            "resolve_time": "2026-02-08T16:55:10Z",
+            "name": "bing.com.pt",
+            "record_type": "a"
+          },
+          "bing.com.vn": {
+            "resolve_time": "2026-02-08T13:17:59Z",
+            "name": "bing.com.vn",
+            "record_type": "a"
+          },
+          "bing.ma": {
+            "resolve_time": "2026-02-09T18:18:00Z",
+            "name": "bing.ma",
+            "record_type": "a"
+          },
+          "browser.events.data.microsoftstart.com": {
+            "resolve_time": "2026-02-12T12:43:11Z",
+            "name": "browser.events.data.microsoftstart.com",
+            "record_type": "a"
+          },
+          "coord2stim.bing.jp": {
+            "resolve_time": "2026-02-08T17:15:56Z",
+            "name": "coord2stim.bing.jp",
+            "record_type": "a"
+          },
+          "dl-eoc.ds.microsoft.com": {
+            "resolve_time": "2026-02-12T12:42:56Z",
+            "name": "dl-eoc.ds.microsoft.com",
+            "record_type": "a"
+          },
+          "domains.start.com": {
+            "resolve_time": "2026-02-08T15:22:03Z",
+            "name": "domains.start.com",
+            "record_type": "a"
+          },
+          "ds.microsoft.com": {
+            "resolve_time": "2026-02-12T12:42:52Z",
+            "name": "ds.microsoft.com",
+            "record_type": "a"
+          },
+          "events-sandbox.data.microsoftstart.com": {
+            "resolve_time": "2026-02-08T14:39:48Z",
+            "name": "events-sandbox.data.microsoftstart.com",
+            "record_type": "a"
+          },
+          "fuery.bing.co.in": {
+            "resolve_time": "2026-02-06T15:32:01Z",
+            "name": "fuery.bing.co.in",
+            "record_type": "a"
+          },
+          "inclass05.bing.gen.tr": {
+            "resolve_time": "2026-02-07T15:21:45Z",
+            "name": "inclass05.bing.gen.tr",
+            "record_type": "a"
+          },
+          "int.msnewsmedia.com": {
+            "resolve_time": "2026-02-08T13:30:22Z",
+            "name": "int.msnewsmedia.com",
+            "record_type": "a"
+          },
+          "int1.msnewsmedia.com": {
+            "resolve_time": "2026-02-10T21:09:56Z",
+            "name": "int1.msnewsmedia.com",
+            "record_type": "a"
+          },
+          "internal.download.microsoft.com": {
+            "resolve_time": "2026-02-08T14:39:39Z",
+            "name": "internal.download.microsoft.com",
+            "record_type": "a"
+          },
+          "kia.bing.co.in": {
+            "resolve_time": "2026-02-11T13:58:56Z",
+            "name": "kia.bing.co.in",
+            "record_type": "a"
+          },
+          "local.live.co.jp": {
+            "resolve_time": "2026-02-07T12:53:20Z",
+            "name": "local.live.co.jp",
+            "record_type": "a"
+          },
+          "local.live.de": {
+            "resolve_time": "2026-02-09T20:20:42Z",
+            "name": "local.live.de",
+            "record_type": "a"
+          },
+          "localbing.com": {
+            "resolve_time": "2026-02-07T13:13:32Z",
+            "name": "localbing.com",
+            "record_type": "a"
+          },
+          "mail.start.com": {
+            "resolve_time": "2026-02-08T15:22:03Z",
+            "name": "mail.start.com",
+            "record_type": "a"
+          },
+          "map.msn.com": {
+            "resolve_time": "2026-02-06T20:26:23Z",
+            "name": "map.msn.com",
+            "record_type": "a"
+          },
+          "mapblast.com": {
+            "resolve_time": "2026-02-06T21:58:00Z",
+            "name": "mapblast.com",
+            "record_type": "a"
+          },
+          "mapblast.net": {
+            "resolve_time": "2026-02-07T20:45:14Z",
+            "name": "mapblast.net",
+            "record_type": "a"
+          },
+          "mappoint.msn.com": {
+            "resolve_time": "2026-02-11T18:36:55Z",
+            "name": "mappoint.msn.com",
+            "record_type": "a"
+          },
+          "mappoint.msn.de": {
+            "resolve_time": "2026-02-08T19:49:01Z",
+            "name": "mappoint.msn.de",
+            "record_type": "a"
+          },
+          "maps.bing.jp": {
+            "resolve_time": "2026-02-11T21:55:14Z",
+            "name": "maps.bing.jp",
+            "record_type": "a"
+          },
+          "maps.live.jp": {
+            "resolve_time": "2026-02-09T16:00:34Z",
+            "name": "maps.live.jp",
+            "record_type": "a"
+          },
+          "maps.msn.at": {
+            "resolve_time": "2026-02-07T18:03:21Z",
+            "name": "maps.msn.at",
+            "record_type": "a"
+          },
+          "maps.msn.co.uk": {
+            "resolve_time": "2026-02-11T12:32:13Z",
+            "name": "maps.msn.co.uk",
+            "record_type": "a"
+          },
+          "microsoftstart.com": {
+            "resolve_time": "2026-02-10T17:17:39Z",
+            "name": "microsoftstart.com",
+            "record_type": "a"
+          },
+          "msdl.microsoft.akadns.net": {
+            "resolve_time": "2026-02-09T19:16:28Z",
+            "name": "msdl.microsoft.akadns.net",
+            "record_type": "a"
+          },
+          "msdl.microsoft.com": {
+            "resolve_time": "2026-02-12T12:43:00Z",
+            "name": "msdl.microsoft.com",
+            "record_type": "a"
+          },
+          "msn.com": {
+            "resolve_time": "2026-02-12T12:50:10Z",
+            "name": "msn.com",
+            "record_type": "a"
+          },
+          "multimap.com": {
+            "resolve_time": "2026-02-08T13:32:23Z",
+            "name": "multimap.com",
+            "record_type": "a"
+          },
+          "nfloaderforwin.bing.co.in": {
+            "resolve_time": "2026-02-11T13:58:56Z",
+            "name": "nfloaderforwin.bing.co.in",
+            "record_type": "a"
+          },
+          "object-diff.bing.co.in": {
+            "resolve_time": "2026-02-07T12:11:25Z",
+            "name": "object-diff.bing.co.in",
+            "record_type": "a"
+          },
+          "onnettesting.msedge.net": {
+            "resolve_time": "2026-02-06T21:44:22Z",
+            "name": "onnettesting.msedge.net",
+            "record_type": "a"
+          },
+          "openweb.start.com": {
+            "resolve_time": "2026-02-07T12:43:51Z",
+            "name": "openweb.start.com",
+            "record_type": "a"
+          },
+          "ori.start.com": {
+            "resolve_time": "2026-02-07T12:43:51Z",
+            "name": "ori.start.com",
+            "record_type": "a"
+          },
+          "partner.microsoftstart.com": {
+            "resolve_time": "2026-02-12T12:43:11Z",
+            "name": "partner.microsoftstart.com",
+            "record_type": "a"
+          },
+          "preview.fe.mscr.io": {
+            "resolve_time": "2026-02-07T13:48:41Z",
+            "name": "preview.fe.mscr.io",
+            "record_type": "a"
+          },
+          "rancher.start.com": {
+            "resolve_time": "2026-02-06T17:26:55Z",
+            "name": "rancher.start.com",
+            "record_type": "a"
+          },
+          "rewards.microsoft-ppe.com": {
+            "resolve_time": "2026-02-08T14:39:38Z",
+            "name": "rewards.microsoft-ppe.com",
+            "record_type": "a"
+          },
+          "server1.start.com": {
+            "resolve_time": "2026-02-10T19:07:16Z",
+            "name": "server1.start.com",
+            "record_type": "a"
+          },
+          "sr-frontend.speech.microsoft.com": {
+            "resolve_time": "2026-02-07T20:25:38Z",
+            "name": "sr-frontend.speech.microsoft.com",
+            "record_type": "a"
+          },
+          "start.start.com": {
+            "resolve_time": "2026-02-09T18:39:44Z",
+            "name": "start.start.com",
+            "record_type": "a"
+          },
+          "sunnetsolar.com": {
+            "resolve_time": "2026-02-07T19:45:40Z",
+            "name": "sunnetsolar.com",
+            "record_type": "a"
+          },
+          "virtualearth.be": {
+            "resolve_time": "2026-02-11T19:34:38Z",
+            "name": "virtualearth.be",
+            "record_type": "a"
+          },
+          "virtualearth.ch": {
+            "resolve_time": "2026-02-06T19:49:04Z",
+            "name": "virtualearth.ch",
+            "record_type": "a"
+          },
+          "virtualearth.cl": {
+            "resolve_time": "2026-02-06T21:57:00Z",
+            "name": "virtualearth.cl",
+            "record_type": "a"
+          },
+          "virtualearth.com.fr": {
+            "resolve_time": "2026-02-11T14:01:26Z",
+            "name": "virtualearth.com.fr",
+            "record_type": "a"
+          },
+          "virtualearth.com.sg": {
+            "resolve_time": "2026-02-07T17:06:40Z",
+            "name": "virtualearth.com.sg",
+            "record_type": "a"
+          },
+          "virtualearth.com.ve": {
+            "resolve_time": "2026-02-08T16:14:44Z",
+            "name": "virtualearth.com.ve",
+            "record_type": "a"
+          },
+          "virtualearth.cz": {
+            "resolve_time": "2026-02-11T14:35:54Z",
+            "name": "virtualearth.cz",
+            "record_type": "a"
+          },
+          "virtualearth.in": {
+            "resolve_time": "2026-02-07T21:08:46Z",
+            "name": "virtualearth.in",
+            "record_type": "a"
+          },
+          "virtualearth.jp": {
+            "resolve_time": "2026-02-11T15:14:30Z",
+            "name": "virtualearth.jp",
+            "record_type": "a"
+          },
+          "virtualearth.msn.com": {
+            "resolve_time": "2026-02-11T18:36:58Z",
+            "name": "virtualearth.msn.com",
+            "record_type": "a"
+          },
+          "virtualearth.net.nz": {
+            "resolve_time": "2026-02-11T12:36:18Z",
+            "name": "virtualearth.net.nz",
+            "record_type": "a"
+          },
+          "virtualearth.org": {
+            "resolve_time": "2026-02-09T19:53:26Z",
+            "name": "virtualearth.org",
+            "record_type": "a"
+          },
+          "virtualearth.se": {
+            "resolve_time": "2026-02-11T19:57:20Z",
+            "name": "virtualearth.se",
+            "record_type": "a"
+          },
+          "win-e2t08v8s7bq.start.com": {
+            "resolve_time": "2026-02-07T12:43:52Z",
+            "name": "win-e2t08v8s7bq.start.com",
+            "record_type": "a"
+          },
+          "win.start.com": {
+            "resolve_time": "2026-02-07T12:43:51Z",
+            "name": "win.start.com",
+            "record_type": "a"
+          },
+          "wobble.start.com": {
+            "resolve_time": "2026-02-11T17:39:46Z",
+            "name": "wobble.start.com",
+            "record_type": "a"
+          },
+          "www.ackmarinecontracting.com": {
+            "resolve_time": "2026-02-10T13:21:21Z",
+            "name": "www.ackmarinecontracting.com",
+            "record_type": "a"
+          },
+          "www.bing.ae": {
+            "resolve_time": "2026-02-10T22:08:11Z",
+            "name": "www.bing.ae",
+            "record_type": "a"
+          },
+          "www.bing.co.in": {
+            "resolve_time": "2026-02-06T15:32:03Z",
+            "name": "www.bing.co.in",
+            "record_type": "a"
+          },
+          "www.bing.com.gr": {
+            "resolve_time": "2026-02-07T14:19:03Z",
+            "name": "www.bing.com.gr",
+            "record_type": "a"
+          },
+          "www.bing.com.pl": {
+            "resolve_time": "2026-02-11T16:40:06Z",
+            "name": "www.bing.com.pl",
+            "record_type": "a"
+          },
+          "www.bing.jp": {
+            "resolve_time": "2026-02-07T12:51:42Z",
+            "name": "www.bing.jp",
+            "record_type": "a"
+          },
+          "www.local.live.ca": {
+            "resolve_time": "2026-02-10T19:00:34Z",
+            "name": "www.local.live.ca",
+            "record_type": "a"
+          },
+          "www.local.live.co.jp": {
+            "resolve_time": "2026-02-09T15:53:53Z",
+            "name": "www.local.live.co.jp",
+            "record_type": "a"
+          },
+          "www.localbing.com": {
+            "resolve_time": "2026-02-11T20:59:58Z",
+            "name": "www.localbing.com",
+            "record_type": "a"
+          },
+          "www.mapblast.com": {
+            "resolve_time": "2026-02-06T21:58:00Z",
+            "name": "www.mapblast.com",
+            "record_type": "a"
+          },
+          "www.mapblast.net": {
+            "resolve_time": "2026-02-11T17:18:37Z",
+            "name": "www.mapblast.net",
+            "record_type": "a"
+          },
+          "www.mappoint.com": {
+            "resolve_time": "2026-02-06T21:58:05Z",
+            "name": "www.mappoint.com",
+            "record_type": "a"
+          },
+          "www.maps.live.co.uk": {
+            "resolve_time": "2026-02-09T13:33:43Z",
+            "name": "www.maps.live.co.uk",
+            "record_type": "a"
+          },
+          "www.maps.live.jp": {
+            "resolve_time": "2026-02-06T16:18:10Z",
+            "name": "www.maps.live.jp",
+            "record_type": "a"
+          },
+          "www.maps.msn.co.uk": {
+            "resolve_time": "2026-02-10T16:27:37Z",
+            "name": "www.maps.msn.co.uk",
+            "record_type": "a"
+          },
+          "www.maps.msn.com": {
+            "resolve_time": "2026-02-11T18:36:55Z",
+            "name": "www.maps.msn.com",
+            "record_type": "a"
+          },
+          "www.msn-amp.com": {
+            "resolve_time": "2026-02-09T16:16:31Z",
+            "name": "www.msn-amp.com",
+            "record_type": "a"
+          },
+          "www.msnewsmedia.com": {
+            "resolve_time": "2026-02-06T20:26:35Z",
+            "name": "www.msnewsmedia.com",
+            "record_type": "a"
+          },
+          "www.msnmaps.com": {
+            "resolve_time": "2026-02-06T20:26:23Z",
+            "name": "www.msnmaps.com",
+            "record_type": "a"
+          },
+          "www.mymapblast.com": {
+            "resolve_time": "2026-02-09T20:05:19Z",
+            "name": "www.mymapblast.com",
+            "record_type": "a"
+          },
+          "www.sunnetsolar.com": {
+            "resolve_time": "2026-02-10T19:21:32Z",
+            "name": "www.sunnetsolar.com",
+            "record_type": "a"
+          },
+          "www.virtualearth.ch": {
+            "resolve_time": "2026-02-09T19:57:04Z",
+            "name": "www.virtualearth.ch",
+            "record_type": "a"
+          },
+          "www.virtualearth.com": {
+            "resolve_time": "2026-02-06T21:38:13Z",
+            "name": "www.virtualearth.com",
+            "record_type": "a"
+          },
+          "www.virtualearth.com.mx": {
+            "resolve_time": "2026-02-06T17:38:17Z",
+            "name": "www.virtualearth.com.mx",
+            "record_type": "a"
+          },
+          "www.virtualearth.com.pt": {
+            "resolve_time": "2026-02-11T15:33:47Z",
+            "name": "www.virtualearth.com.pt",
+            "record_type": "a"
+          },
+          "www.virtualearth.gr": {
+            "resolve_time": "2026-02-11T14:01:57Z",
+            "name": "www.virtualearth.gr",
+            "record_type": "a"
+          },
+          "www.virtualearth.ru": {
+            "resolve_time": "2026-02-06T22:15:11Z",
+            "name": "www.virtualearth.ru",
+            "record_type": "a"
+          },
+          "www.virtualearthinfo.com": {
+            "resolve_time": "2026-02-10T13:57:37Z",
+            "name": "www.virtualearthinfo.com",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

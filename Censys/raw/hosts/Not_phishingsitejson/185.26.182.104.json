@@ -1,0 +1,629 @@
+{
+  "result": {
+    "resource": {
+      "ip": "185.26.182.104",
+      "location": {
+        "continent": "Europe",
+        "country": "Netherlands",
+        "country_code": "NL",
+        "city": "Lelystad",
+        "postal_code": "8224",
+        "timezone": "Europe/Amsterdam",
+        "province": "Flevoland",
+        "coordinates": {
+          "latitude": 52.50833,
+          "longitude": 5.475
+        }
+      },
+      "autonomous_system": {
+        "asn": 39832,
+        "description": "NO-OPERA",
+        "bgp_prefix": "185.26.180.0/22",
+        "name": "NO-OPERA",
+        "country_code": "NO"
+      },
+      "whois": {
+        "network": {
+          "handle": "NO-OPERA-AMS-PUBLIC",
+          "name": "Opera Software AS",
+          "cidrs": [
+            "185.26.182.64/26"
+          ],
+          "created": "2014-02-05T00:00:00Z",
+          "updated": "2016-05-13T00:00:00Z"
+        },
+        "organization": {
+          "handle": "ORG-OSA28-RIPE",
+          "name": "Opera Norway AS",
+          "address": "Vitaminveien 4\\nNO-0485\\nOSLO\\nNORWAY",
+          "abuse_contacts": [
+            {
+              "handle": "OSAA1-RIPE",
+              "name": "Opera Software AS Abuse",
+              "email": "abuse@opera.software"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "OSA34-RIPE",
+              "name": "Opera Software AS Netops",
+              "email": "netops@opera.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "f5",
+              "product": "nginx"
+            }
+          ],
+          "ip": "185.26.182.104",
+          "scan_time": "2026-02-13T00:22:12Z",
+          "endpoints": [
+            {
+              "hostname": "185.26.182.104",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T00:22:12Z",
+              "http": {
+                "uri": "http://185.26.182.104/",
+                "protocol": "HTTP/1.1",
+                "status_code": 301,
+                "status_reason": "Moved Permanently",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "162"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Location": {
+                    "headers": [
+                      "https://opera.com/"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "nginx"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>301 Moved Permanently</title>"
+                ],
+                "body_size": 162,
+                "body": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n",
+                "html_title": "301 Moved Permanently",
+                "body_hash_sha256": "9e17cb15dd75bbbd5dbb984eda674863c3b10ab72613cf8a39a00c3e11a8492a",
+                "body_hash_sha1": "3adb1f02d5b6054de0046e367c1d687b6cdf7aff",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ],
+                "redirect_chain": [
+                  {
+                    "hostname": "opera.com",
+                    "port": 443,
+                    "transport_protocol": "tcp",
+                    "path": "/",
+                    "reason": "HTTP_3XX"
+                  }
+                ]
+              },
+              "ip": "185.26.182.104"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "64605534c9b7eae92647bcd6ea18b0286d12a8ce0a01a5153871fbe8dca6a7b8",
+            "fingerprint_sha1": "41252747f9bf68ceef2ba68ddbcb515480382982",
+            "fingerprint_md5": "f125e9d40caed844ab1c44dc02db8213",
+            "tbs_fingerprint_sha256": "65f3367bcb2824b8486cbb38d6f631bbef26eb6863f0ad99adb2093bbd686a9e",
+            "tbs_no_ct_fingerprint_sha256": "0dd1147809a12e396e9f72ccbc6a66457c6d27733f63f3ccbcda8f9a9f92e59a",
+            "spki_fingerprint_sha256": "48be7ab06486ef609dedb1d4166c8bf21f0ba7f95885060ddad78046d5a869a0",
+            "parent_spki_fingerprint_sha256": "18e6881def1a63c5b498dbb0dc5da600a2d50b043a799cc94ed727618b4b095d",
+            "parsed": {
+              "version": 3,
+              "serial_number": "6115849543123457263200651050972701176",
+              "issuer_dn": "C=NL, O=Trust Provider B.V., OU=Domain Validated SSL, CN=Trust Provider B.V. TLS RSA CA G1",
+              "issuer": {
+                "common_name": [
+                  "Trust Provider B.V. TLS RSA CA G1"
+                ],
+                "country": [
+                  "NL"
+                ],
+                "organization": [
+                  "Trust Provider B.V."
+                ],
+                "organizational_unit": [
+                  "Domain Validated SSL"
+                ]
+              },
+              "subject_dn": "CN=*.opera.com",
+              "subject": {
+                "common_name": [
+                  "*.opera.com"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "ECDSA",
+                  "oid": "1.2.840.10045.2.1"
+                },
+                "ecdsa": {
+                  "b": "5ac635d8aa3a93e7b3ebbd55769886bc651d06b0cc53b0f63bce3c3e27d2604b",
+                  "curve": "P-256",
+                  "gx": "6b17d1f2e12c4247f8bce6e563a440f277037d812deb33a0f4a13945d898c296",
+                  "gy": "4fe342e2fe1a7f9b8ee7eb4a7c0f9e162bce33576b315ececbb6406837bf51f5",
+                  "length": 256,
+                  "n": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+                  "p": "ffffffff00000001000000000000000000000000ffffffffffffffffffffffff",
+                  "pub": "0458c5a565840bfb39f64808caf254b05dbf73ab20f65e966a0cc3f350c9c66d988dd1b7c0f752ca202d35bfa74be983cbe30b66b36adc843bfd8e9816ca77aaf6",
+                  "x": "58c5a565840bfb39f64808caf254b05dbf73ab20f65e966a0cc3f350c9c66d98",
+                  "y": "8dd1b7c0f752ca202d35bfa74be983cbe30b66b36adc843bfd8e9816ca77aaf6"
+                },
+                "fingerprint_sha256": "2c666fcf285cbea639271f50eb8aff9f23f38dfbe1314dedac822a7ee38f9b2e"
+              },
+              "validity_period": {
+                "not_before": "2026-01-07T00:00:00Z",
+                "not_after": "2027-02-06T23:59:59Z",
+                "length_seconds": 34214400
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "SHA256-RSA",
+                  "oid": "1.2.840.113549.1.1.11"
+                },
+                "value": "58ee0dc34bcea5bca1cff3f4384c28061dde6f6762bb21001c6df768ab25cadda139f4f7411d8ad5dd7a740671c0168fa4b921c6e2072aeffc0f92dd8a65bb6aef3839f6f4dada1732652a7b3219365ac3d1c428858375be66454629ea97f507187bb88a8261928db335706dd066038858394355405b1b193ec42b54af3b70150b91bb46944496520d8c95e5a7a512d0a1a6851d1667431bee91cc00b6c8c49cb223598f94f38180126ebb246f17a6b3ea81919c7cd9c8152902a93088ae28d54f32d53b179316cffa397d49a82598c4dab6dcb845e5eaf150c38a4966d759703a95d9e15132eb0f94bc940e907421124c1fe16d46c82ca22c2a6bf06cbb8711",
+                "valid": true
+              },
+              "serial_number_hex": "0499dea9b563040cfdb2e0f56f6561f8"
+            },
+            "names": [
+              "*.opera.com",
+              "opera.com"
+            ],
+            "validation_level": "dv",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "009871c3a4c607311e5ae92f01095f9bf76100b8794ab0a9a5210e6794c8607c",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "009871c3a4c607311e5ae92f01095f9bf76100b8794ab0a9a5210e6794c8607c",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "009871c3a4c607311e5ae92f01095f9bf76100b8794ab0a9a5210e6794c8607c",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "009871c3a4c607311e5ae92f01095f9bf76100b8794ab0a9a5210e6794c8607c",
+                      "a0d609a7e3c434e878a9a1c1bd065b8dcf33aa7efee1b11bc75cce5e5a042080",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "009871c3a4c607311e5ae92f01095f9bf76100b8794ab0a9a5210e6794c8607c",
+                      "caf8ad697f7bda712ab127a8ad8b83f74a91a0de1784a1b483fef9ac79b67513",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "009871c3a4c607311e5ae92f01095f9bf76100b8794ab0a9a5210e6794c8607c"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "009871c3a4c607311e5ae92f01095f9bf76100b8794ab0a9a5210e6794c8607c",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "009871c3a4c607311e5ae92f01095f9bf76100b8794ab0a9a5210e6794c8607c",
+                      "0ba8c0d459b76abc0825294f565e24f4f169d4a4819d0692d371522d297724b8",
+                      "2399561127a57125de8cefea610ddf2fa078b5c8067f4e828290bfb860e84b3c"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "009871c3a4c607311e5ae92f01095f9bf76100b8794ab0a9a5210e6794c8607c",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "009871c3a4c607311e5ae92f01095f9bf76100b8794ab0a9a5210e6794c8607c",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "009871c3a4c607311e5ae92f01095f9bf76100b8794ab0a9a5210e6794c8607c",
+                      "a0d609a7e3c434e878a9a1c1bd065b8dcf33aa7efee1b11bc75cce5e5a042080",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "009871c3a4c607311e5ae92f01095f9bf76100b8794ab0a9a5210e6794c8607c"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "009871c3a4c607311e5ae92f01095f9bf76100b8794ab0a9a5210e6794c8607c",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "009871c3a4c607311e5ae92f01095f9bf76100b8794ab0a9a5210e6794c8607c",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "009871c3a4c607311e5ae92f01095f9bf76100b8794ab0a9a5210e6794c8607c",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "009871c3a4c607311e5ae92f01095f9bf76100b8794ab0a9a5210e6794c8607c",
+                      "a0d609a7e3c434e878a9a1c1bd065b8dcf33aa7efee1b11bc75cce5e5a042080",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "009871c3a4c607311e5ae92f01095f9bf76100b8794ab0a9a5210e6794c8607c",
+                      "caf8ad697f7bda712ab127a8ad8b83f74a91a0de1784a1b483fef9ac79b67513",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "009871c3a4c607311e5ae92f01095f9bf76100b8794ab0a9a5210e6794c8607c"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "009871c3a4c607311e5ae92f01095f9bf76100b8794ab0a9a5210e6794c8607c",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "009871c3a4c607311e5ae92f01095f9bf76100b8794ab0a9a5210e6794c8607c",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "009871c3a4c607311e5ae92f01095f9bf76100b8794ab0a9a5210e6794c8607c",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "009871c3a4c607311e5ae92f01095f9bf76100b8794ab0a9a5210e6794c8607c",
+                      "a0d609a7e3c434e878a9a1c1bd065b8dcf33aa7efee1b11bc75cce5e5a042080",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "009871c3a4c607311e5ae92f01095f9bf76100b8794ab0a9a5210e6794c8607c",
+                      "caf8ad697f7bda712ab127a8ad8b83f74a91a0de1784a1b483fef9ac79b67513",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "009871c3a4c607311e5ae92f01095f9bf76100b8794ab0a9a5210e6794c8607c"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "letsencrypt_ct_sycamore_2027_h1": {
+                  "index": 20537356,
+                  "added_to_ct_at": "2026-01-09T05:55:08Z",
+                  "ct_to_censys_at": "2026-01-09T05:58:17Z"
+                },
+                "letsencrypt_ct_willow_2027_h1": {
+                  "index": 19682814,
+                  "added_to_ct_at": "2026-01-09T05:55:08Z",
+                  "ct_to_censys_at": "2026-01-09T05:59:26Z"
+                },
+                "sectigo_elephant_2027_h1": {
+                  "index": 17604585,
+                  "added_to_ct_at": "2026-01-09T05:54:54Z",
+                  "ct_to_censys_at": "2026-01-09T06:00:50Z"
+                },
+                "sectigo_tiger_2027_h1": {
+                  "index": 17111315,
+                  "added_to_ct_at": "2026-01-09T05:54:54Z",
+                  "ct_to_censys_at": "2026-01-09T06:00:50Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2026-01-08T14:59:15Z",
+            "modified_at": "2026-01-09T06:00:53Z",
+            "validated_at": "2026-02-12T16:51:21Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "48be7ab06486ef609dedb1d4166c8bf21f0ba7f95885060ddad78046d5a869a0",
+            "parent_spki_subject_fingerprint_sha256": "18e6881def1a63c5b498dbb0dc5da600a2d50b043a799cc94ed727618b4b095d"
+          },
+          "software": [
+            {
+              "vendor": "f5",
+              "product": "nginx"
+            }
+          ],
+          "ip": "185.26.182.104",
+          "scan_time": "2026-02-13T06:53:10Z",
+          "tls": {
+            "fingerprint_sha256": "64605534c9b7eae92647bcd6ea18b0286d12a8ce0a01a5153871fbe8dca6a7b8",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "009871c3a4c607311e5ae92f01095f9bf76100b8794ab0a9a5210e6794c8607c",
+                "subject_dn": "C=NL, O=Trust Provider B.V., OU=Domain Validated SSL, CN=Trust Provider B.V. TLS RSA CA G1",
+                "issuer_dn": "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root G2"
+              },
+              {
+                "fingerprint_sha256": "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f",
+                "subject_dn": "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root G2",
+                "issuer_dn": "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root G2"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "185.26.182.104",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T02:59:39Z",
+              "http": {
+                "uri": "https://185.26.182.104/",
+                "protocol": "HTTP/1.1",
+                "status_code": 301,
+                "status_reason": "Moved Permanently",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "162"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Location": {
+                    "headers": [
+                      "https://www.opera.com/"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "nginx"
+                    ]
+                  },
+                  "Strict-Transport-Security": {
+                    "headers": [
+                      "max-age=31536000"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>301 Moved Permanently</title>"
+                ],
+                "body_size": 162,
+                "body": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n",
+                "html_title": "301 Moved Permanently",
+                "body_hash_sha256": "9e17cb15dd75bbbd5dbb984eda674863c3b10ab72613cf8a39a00c3e11a8492a",
+                "body_hash_sha1": "3adb1f02d5b6054de0046e367c1d687b6cdf7aff",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ],
+                "redirect_chain": [
+                  {
+                    "hostname": "www.opera.com",
+                    "port": 443,
+                    "transport_protocol": "tcp",
+                    "path": "/",
+                    "reason": "HTTP_3XX"
+                  }
+                ]
+              },
+              "ip": "185.26.182.104"
+            },
+            {
+              "hostname": "185.26.182.104",
+              "port": 443,
+              "path": "/.well-known/security.txt",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T06:53:10Z",
+              "http": {
+                "uri": "https://185.26.182.104/.well-known/security.txt",
+                "protocol": "HTTP/1.1",
+                "status_code": 200,
+                "status_reason": "OK",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Encoding": {
+                    "headers": [
+                      "gzip"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/plain; charset=utf-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "ETag": {
+                    "headers": [
+                      "W/\"6811de70-b4d\""
+                    ]
+                  },
+                  "Last-Modified": {
+                    "headers": [
+                      "Wed, 30 Apr 2025 08:25:20 GMT"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "nginx"
+                    ]
+                  },
+                  "Strict-Transport-Security": {
+                    "headers": [
+                      "max-age=31536000"
+                    ]
+                  },
+                  "Transfer-Encoding": {
+                    "headers": [
+                      "chunked"
+                    ]
+                  }
+                },
+                "body_size": 2893,
+                "body": "-----BEGIN PGP SIGNED MESSAGE-----\r\nHash: SHA256\r\n\r\n# Please always try to contact Opera Security Team through our responsible disclosure form which is available\r\n# under Report an Issue to speed up things. Keep in mind that there are also separate dedicated forms for\r\n# reporting a fraud page or submitting privacy inquiry.\r\nContact: https://security.opera.com\r\n# Reporting an issue regarding Opera assets covered by Opera Public Bug Bounty should be done at:\r\nContact: https://bugcrowd.com/opera\r\n# Should that not be an option please reach to us via following email address:\r\nContact: mailto:security@opera.com\r\n \r\n# You shouldn't trust this file, once it has expired.\r\n# We are sometimes a bit forgetful, but we do have an annual re-occuring task to keep this file up-to-date.\r\nExpires: 2026-04-30T00:00:00.000Z\r\n \r\n\r\n#\tpub   rsa4096 2024-05-02 [SC] [expires: 2026-05-02]\r\n#        Key fingerprint = 9054 676E E72E 2654 4AA2 B642 200D 06B9 1A99 301A\r\n#\tuid                      Opera Security Team <security@opera.com>\r\n\r\n\r\n# Available at:\r\nEncryption: https://security.opera.com/gpg-key/\r\n# Or via PGP keyservers: hkps://keyserver.ubuntu.com and hkps://keys.openpgp.org\r\n# Example: gpg --keyserver hkps://pgp.mit.edu --recv-keys 9054676EE72E26544AA2B642200D06B91A99301A\r\nEncryption: openpgp4fpr:9054676EE72E26544AA2B642200D06B91A99301A\r\n \r\n# Hall of Fame honouring resarchers that helped Opera improve security can be found at:\r\nAcknowledgments: https://security.opera.com/hall-of-fame/\r\n# Up to date Opera Public Bug Bounty hall of fame can be found at:\r\nAcknowledgments: https://bugcrowd.com/opera/hall-of-fame\r\n \r\n# We can offer you a proper response in the following languages:\r\nPreferred-Languages: en, pl\r\n \r\n# If you would like to report a security issue please first read our responsible disclosure policy:\r\nPolicy: https://security.opera.com/policy/\r\n \r\n# Opera is hiring and looking for people like you! Current opening can be found at:\r\nHiring: https://jobs.opera.com\r\nHiring: https://linkedin.com/company/opera-software/jobs\r\n-----BEGIN PGP SIGNATURE-----\r\n\r\niQIzBAEBCAAdFiEEkFRnbucuJlRKorZCIA0GuRqZMBoFAmgQ7s0ACgkQIA0GuRqZ\r\nMBqABA//baufiGSiEL6fCOb3cu20uzq5tRGeopgEML+W2+L+PkzdxZtis92JqSC3\r\nTf0UcO4q9SBFnTYpf5fb7wh1DKkvC411tAyA7ruu8T8r0M4fGCv9lL0nb47AqzoV\r\nyqPcAGvrOLwayc5cBi7bAEYaOiada9E2TyG/asa48WyIm4vNHPoIfxRT8thJg/Wc\r\nKMrQnVd+8l5JwOnttDz8Vg7Gmu9NJ3IR5hhv+9WYcj9OG/iprxcY7haHzQdxYy0l\r\nMvzOkRv6nVqvd8XE6L35lNy3TyCAGtz24Ja8yPEuEqolHWWsPNOKMT+wAh3JwWcd\r\nyViASIkgJXwrnaMsCIUCFb3+vAKvsiYQP6jufBVnG98gOIRWmH2mPFAZ9YHYvmGV\r\na0ozF2P1qqlKTZYHpX/QEpKSwptDgcBpo4bmOt3ymTtD66MaHZ+Zgdeqf+oR9sxL\r\ngR2xKwQrxYURhr94YH0mf7P5ZLQboC2gslKCzlqYQpk90lrUX9aRwTz+OtlfGMwc\r\nypefi9FuLC2uCVnYkpmdNHLOuDfVpYjJ8ihGFJUhPu8szLmd6eSEzzR8o1Tm9PAh\r\noMZMxJd/yy3PJTs8m3QRXo6dLuuO4zNtrPGcb/mow1WyXDcn3xpQHhMGtzK4ISoc\r\nLsNpvpX9KA4HxT9kuFk5B62F4intUO4jNDke1AzRdgRYq5rC1kA=\r\n=+k9h\r\n-----END PGP SIGNATURE-----\r\n",
+                "body_hash_sha256": "76dff648c22e18c3a466fc0e50a0c36e89e5a84e39abca619cbb60536b7f5de9",
+                "body_hash_sha1": "dacc4a9b7eb17aae14b14a9dc80c84cc74d2cb98",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "185.26.182.104"
+            }
+          ]
+        }
+      ],
+      "service_count": 2,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-02-11T18:17:24Z",
+          "names": [
+            "opera.com"
+          ]
+        },
+        "names": [
+          "opera.com"
+        ],
+        "forward_dns": {
+          "opera.com": {
+            "resolve_time": "2026-01-04T20:15:44Z",
+            "name": "opera.com",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

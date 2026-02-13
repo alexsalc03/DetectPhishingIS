@@ -1,0 +1,821 @@
+{
+  "result": {
+    "resource": {
+      "ip": "5.255.255.77",
+      "location": {
+        "continent": "Europe",
+        "country": "Russia",
+        "country_code": "RU",
+        "city": "Moscow",
+        "postal_code": "101000",
+        "timezone": "Europe/Moscow",
+        "province": "Moscow",
+        "coordinates": {
+          "latitude": 55.75204,
+          "longitude": 37.61781
+        }
+      },
+      "autonomous_system": {
+        "asn": 208398,
+        "description": "TELETECH",
+        "bgp_prefix": "5.255.255.0/24",
+        "name": "TELETECH",
+        "country_code": "RS"
+      },
+      "whois": {
+        "network": {
+          "handle": "YANDEX-5-255-255-0",
+          "name": "Yandex enterprise network",
+          "cidrs": [
+            "5.255.255.0/24"
+          ],
+          "created": "2013-04-25T00:00:00Z",
+          "updated": "2024-10-28T00:00:00Z"
+        },
+        "organization": {
+          "handle": "ORG-YA1-RIPE",
+          "name": "YANDEX LLC",
+          "address": "LVA TOLSTOY STREET, 16\\n119021\\nMoscow\\nRUSSIAN FEDERATION",
+          "abuse_contacts": [
+            {
+              "handle": "YAH6-RIPE",
+              "name": "Yandex Abuse handler",
+              "email": "noc@yandex.net"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "YNDX1-RIPE",
+              "name": "Yandex LLC Network Operations",
+              "email": "noc@yandex.net"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "ip": "5.255.255.77",
+          "scan_time": "2026-02-13T15:50:23Z",
+          "endpoints": [
+            {
+              "hostname": "5.255.255.77",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T15:50:23Z",
+              "http": {
+                "uri": "http://5.255.255.77/",
+                "protocol": "HTTP/1.1",
+                "status_code": 406,
+                "status_reason": "Not acceptable",
+                "headers": {
+                  "Accept-CH": {
+                    "headers": [
+                      "Sec-CH-UA-Platform-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA, Sec-CH-UA-Full-Version-List, Sec-CH-UA-WoW64, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Platform, Sec-CH-UA-Full-Version, Sec-CH-Viewport-Width, Viewport-Width, DPR, Device-Memory, RTT, Downlink, ECT, Width, Sec-Ch-Viewport-Height"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "0"
+                    ]
+                  },
+                  "Set-Cookie": {
+                    "headers": [
+                      "_yasc=1yYeEmGQvb12iHiPfVDuq5FhL6yIUXQ4/bfhe9FEJYO79BGQsaWCnCKXxEjUauQ=; domain=.255.77; path=/; expires=Mon, 11 Feb 2036 15:50:22 GMT; secure",
+                      "bh=YL6QvcwGagrcytW6D5j1la0J; Path=/; Domain=.255.77; Expires=Sat, 20 Mar 2027 15:50:22 GMT"
+                    ]
+                  },
+                  "X-Content-Type-Options": {
+                    "headers": [
+                      "nosniff"
+                    ]
+                  },
+                  "X-Yandex-Req-Id": {
+                    "headers": [
+                      "1770997822917472-447196155660267810-balancer-l7leveler-kubr-yp-vla-199-BAL"
+                    ]
+                  }
+                },
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "5.255.255.77"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "004b73abc7082568a07182924623a26973fb7f4ab4ed30a5f022c3fa17c355eb",
+            "fingerprint_sha1": "605919a67a7a525ef5b89aa02c243d1c0e39e3ef",
+            "fingerprint_md5": "75c00b21798e3d0fb2aff2b981a33654",
+            "tbs_fingerprint_sha256": "d48ee3c798c611383670f6819573dd63780d0c3516aaed8e67dea2b91c29ea88",
+            "tbs_no_ct_fingerprint_sha256": "47a2af012037835e9820ab8d0b5fb274fd3a9c4f2721f673e6f955c518f3d2e5",
+            "spki_fingerprint_sha256": "415f664006457b1e01cdb144120114fb6735d51dc0eaaa13fbf11499ba35a05c",
+            "parent_spki_fingerprint_sha256": "686889adf8f4d3fddf44fa6022584e8b047920dd5a7dd604b637e10e172ae107",
+            "parsed": {
+              "version": 3,
+              "serial_number": "39407677803156180833546491487",
+              "issuer_dn": "C=BE, O=GlobalSign nv-sa, CN=GlobalSign ECC OV SSL CA 2018",
+              "issuer": {
+                "common_name": [
+                  "GlobalSign ECC OV SSL CA 2018"
+                ],
+                "country": [
+                  "BE"
+                ],
+                "organization": [
+                  "GlobalSign nv-sa"
+                ]
+              },
+              "subject_dn": "C=RU, ST=Moscow, L=Moscow, O=YANDEX LLC, CN=*.yandex.tr",
+              "subject": {
+                "common_name": [
+                  "*.yandex.tr"
+                ],
+                "country": [
+                  "RU"
+                ],
+                "locality": [
+                  "Moscow"
+                ],
+                "province": [
+                  "Moscow"
+                ],
+                "organization": [
+                  "YANDEX LLC"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "ECDSA",
+                  "oid": "1.2.840.10045.2.1"
+                },
+                "ecdsa": {
+                  "b": "5ac635d8aa3a93e7b3ebbd55769886bc651d06b0cc53b0f63bce3c3e27d2604b",
+                  "curve": "P-256",
+                  "gx": "6b17d1f2e12c4247f8bce6e563a440f277037d812deb33a0f4a13945d898c296",
+                  "gy": "4fe342e2fe1a7f9b8ee7eb4a7c0f9e162bce33576b315ececbb6406837bf51f5",
+                  "length": 256,
+                  "n": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+                  "p": "ffffffff00000001000000000000000000000000ffffffffffffffffffffffff",
+                  "pub": "04c54b3b333659dd305814bcebd43765d7560a7195f66e328931dc4ea0176c45de3336ab36f66fe082aff5619440183bb9ddb4b338d36765738d8625e38735e04a",
+                  "x": "c54b3b333659dd305814bcebd43765d7560a7195f66e328931dc4ea0176c45de",
+                  "y": "3336ab36f66fe082aff5619440183bb9ddb4b338d36765738d8625e38735e04a"
+                },
+                "fingerprint_sha256": "d9a116ccd46726341a81352aca216661e052d4017ef699eb42fb7437777a111e"
+              },
+              "validity_period": {
+                "not_before": "2026-02-06T06:58:08Z",
+                "not_after": "2026-08-06T20:59:59Z",
+                "length_seconds": 15688912
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "ECDSA-SHA384",
+                  "oid": "1.2.840.10045.4.3.3"
+                },
+                "value": "3065023079264cad38346701c35fc4eb0afbf65e7cfffef52559980976641bdd92e018b2984471e3ffc7cb77218af12496d9a45a023100809e686a316ac114543fff3ac19b99f6f21ac81852b883c53ec6488873f48ebc3bbb9080bdecad71c843b5a6f917ca34",
+                "valid": true
+              },
+              "serial_number_hex": "7f55445e56ebd6821b0f565f"
+            },
+            "names": [
+              "*.xn--d1acpjx3f.xn--p1ai",
+              "*.ya.ru",
+              "*.yandex.aero",
+              "*.yandex.az",
+              "*.yandex.by",
+              "*.yandex.co.il",
+              "*.yandex.com",
+              "*.yandex.com.am",
+              "*.yandex.com.ge",
+              "*.yandex.com.tr",
+              "*.yandex.de",
+              "*.yandex.ee",
+              "*.yandex.fr",
+              "*.yandex.it",
+              "*.yandex.jobs",
+              "*.yandex.kz",
+              "*.yandex.lt",
+              "*.yandex.lv",
+              "*.yandex.md",
+              "*.yandex.net",
+              "*.yandex.org",
+              "*.yandex.ru",
+              "*.yandex.tj",
+              "*.yandex.tm",
+              "*.yandex.tr",
+              "*.yandex.uz",
+              "xn--d1acpjx3f.xn--p1ai",
+              "ya.ru",
+              "yandex.aero",
+              "yandex.az",
+              "yandex.by",
+              "yandex.co.il",
+              "yandex.com",
+              "yandex.com.am",
+              "yandex.com.ge",
+              "yandex.com.tr",
+              "yandex.de",
+              "yandex.ee",
+              "yandex.fr",
+              "yandex.it",
+              "yandex.jobs",
+              "yandex.kz",
+              "yandex.lt",
+              "yandex.lv",
+              "yandex.md",
+              "yandex.net",
+              "yandex.org",
+              "yandex.ru",
+              "yandex.tj",
+              "yandex.tm",
+              "yandex.tr",
+              "yandex.uz"
+            ],
+            "validation_level": "ov",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "87c71553445eb3c33c3e0710711b99e9c7773f04d91ac38a9f4c082ee24101ea",
+                      "179fbc148a3dd00fd24ea13458cc43bfa7f59c8182d783a513f6ebec100c8924"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "87c71553445eb3c33c3e0710711b99e9c7773f04d91ac38a9f4c082ee24101ea",
+                      "3f319b2afed4a0f75127be59925550d0428e68763a09e273eb6a9ff8d18dbb5b",
+                      "cbb522d7b7f127ad6a0113865bdf1cd4102e7d0759af635a7cf4720dc963c53b"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "87c71553445eb3c33c3e0710711b99e9c7773f04d91ac38a9f4c082ee24101ea",
+                      "f349954e8fb6d44011bcb789d97d9a2cb2032bd5f0b598d1fb8a099f5848d523",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "87c71553445eb3c33c3e0710711b99e9c7773f04d91ac38a9f4c082ee24101ea",
+                      "3f319b2afed4a0f75127be59925550d0428e68763a09e273eb6a9ff8d18dbb5b",
+                      "445eec78bc61215044a0379656aa2d5db5e42f76cb70b8d14c2077aa943d4ebb",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "87c71553445eb3c33c3e0710711b99e9c7773f04d91ac38a9f4c082ee24101ea",
+                      "3f319b2afed4a0f75127be59925550d0428e68763a09e273eb6a9ff8d18dbb5b",
+                      "c94fedda4e8608908580bc7f87b434e03bb262e42f64c63820a8f50fb17c1cec",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "87c71553445eb3c33c3e0710711b99e9c7773f04d91ac38a9f4c082ee24101ea"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "87c71553445eb3c33c3e0710711b99e9c7773f04d91ac38a9f4c082ee24101ea",
+                      "179fbc148a3dd00fd24ea13458cc43bfa7f59c8182d783a513f6ebec100c8924"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "87c71553445eb3c33c3e0710711b99e9c7773f04d91ac38a9f4c082ee24101ea",
+                      "3f319b2afed4a0f75127be59925550d0428e68763a09e273eb6a9ff8d18dbb5b",
+                      "cbb522d7b7f127ad6a0113865bdf1cd4102e7d0759af635a7cf4720dc963c53b"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "87c71553445eb3c33c3e0710711b99e9c7773f04d91ac38a9f4c082ee24101ea",
+                      "f349954e8fb6d44011bcb789d97d9a2cb2032bd5f0b598d1fb8a099f5848d523",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "87c71553445eb3c33c3e0710711b99e9c7773f04d91ac38a9f4c082ee24101ea",
+                      "3f319b2afed4a0f75127be59925550d0428e68763a09e273eb6a9ff8d18dbb5b",
+                      "445eec78bc61215044a0379656aa2d5db5e42f76cb70b8d14c2077aa943d4ebb",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "87c71553445eb3c33c3e0710711b99e9c7773f04d91ac38a9f4c082ee24101ea",
+                      "3f319b2afed4a0f75127be59925550d0428e68763a09e273eb6a9ff8d18dbb5b",
+                      "c94fedda4e8608908580bc7f87b434e03bb262e42f64c63820a8f50fb17c1cec",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "87c71553445eb3c33c3e0710711b99e9c7773f04d91ac38a9f4c082ee24101ea"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "87c71553445eb3c33c3e0710711b99e9c7773f04d91ac38a9f4c082ee24101ea",
+                      "179fbc148a3dd00fd24ea13458cc43bfa7f59c8182d783a513f6ebec100c8924"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "87c71553445eb3c33c3e0710711b99e9c7773f04d91ac38a9f4c082ee24101ea",
+                      "3f319b2afed4a0f75127be59925550d0428e68763a09e273eb6a9ff8d18dbb5b",
+                      "cbb522d7b7f127ad6a0113865bdf1cd4102e7d0759af635a7cf4720dc963c53b"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "87c71553445eb3c33c3e0710711b99e9c7773f04d91ac38a9f4c082ee24101ea",
+                      "f349954e8fb6d44011bcb789d97d9a2cb2032bd5f0b598d1fb8a099f5848d523",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "87c71553445eb3c33c3e0710711b99e9c7773f04d91ac38a9f4c082ee24101ea",
+                      "3f319b2afed4a0f75127be59925550d0428e68763a09e273eb6a9ff8d18dbb5b",
+                      "445eec78bc61215044a0379656aa2d5db5e42f76cb70b8d14c2077aa943d4ebb",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "87c71553445eb3c33c3e0710711b99e9c7773f04d91ac38a9f4c082ee24101ea",
+                      "3f319b2afed4a0f75127be59925550d0428e68763a09e273eb6a9ff8d18dbb5b",
+                      "c94fedda4e8608908580bc7f87b434e03bb262e42f64c63820a8f50fb17c1cec",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "87c71553445eb3c33c3e0710711b99e9c7773f04d91ac38a9f4c082ee24101ea"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "87c71553445eb3c33c3e0710711b99e9c7773f04d91ac38a9f4c082ee24101ea",
+                      "179fbc148a3dd00fd24ea13458cc43bfa7f59c8182d783a513f6ebec100c8924"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "87c71553445eb3c33c3e0710711b99e9c7773f04d91ac38a9f4c082ee24101ea",
+                      "3f319b2afed4a0f75127be59925550d0428e68763a09e273eb6a9ff8d18dbb5b",
+                      "cbb522d7b7f127ad6a0113865bdf1cd4102e7d0759af635a7cf4720dc963c53b"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "87c71553445eb3c33c3e0710711b99e9c7773f04d91ac38a9f4c082ee24101ea"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 2535380388,
+                  "added_to_ct_at": "2026-02-12T11:49:29Z",
+                  "ct_to_censys_at": "2026-02-12T12:22:49Z"
+                },
+                "google_argon_2026_h2": {
+                  "index": 255894490,
+                  "added_to_ct_at": "2026-02-12T11:49:27Z",
+                  "ct_to_censys_at": "2026-02-12T11:57:46Z"
+                },
+                "google_xenon_2026_h2": {
+                  "index": 196362008,
+                  "added_to_ct_at": "2026-02-12T11:49:27Z",
+                  "ct_to_censys_at": "2026-02-12T11:58:48Z"
+                },
+                "letsencrypt_ct_sycamore_2026_h2": {
+                  "index": 41926489,
+                  "added_to_ct_at": "2026-02-12T11:51:18Z",
+                  "ct_to_censys_at": "2026-02-12T11:58:41Z"
+                },
+                "letsencrypt_ct_willow_2026_h2": {
+                  "index": 41753710,
+                  "added_to_ct_at": "2026-02-12T11:51:17Z",
+                  "ct_to_censys_at": "2026-02-12T11:58:42Z"
+                },
+                "sectigo_elephant_2026_h2": {
+                  "index": 119810960,
+                  "added_to_ct_at": "2026-02-12T11:49:28Z",
+                  "ct_to_censys_at": "2026-02-12T11:57:44Z"
+                },
+                "sectigo_tiger_2026_h2": {
+                  "index": 125308651,
+                  "added_to_ct_at": "2026-02-12T11:49:28Z",
+                  "ct_to_censys_at": "2026-02-12T11:57:48Z"
+                },
+                "trustasia_log_2026_a": {
+                  "index": 759859701,
+                  "added_to_ct_at": "2026-02-12T21:17:58Z",
+                  "ct_to_censys_at": "2026-02-12T22:29:14Z"
+                },
+                "trustasia_log_2026_b": {
+                  "index": 777000343,
+                  "added_to_ct_at": "2026-02-12T11:49:30Z",
+                  "ct_to_censys_at": "2026-02-12T12:00:46Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2026-02-12T09:02:32Z",
+            "modified_at": "2026-02-12T22:29:16Z",
+            "validated_at": "2026-02-12T23:03:58Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "415f664006457b1e01cdb144120114fb6735d51dc0eaaa13fbf11499ba35a05c",
+            "parent_spki_subject_fingerprint_sha256": "686889adf8f4d3fddf44fa6022584e8b047920dd5a7dd604b637e10e172ae107"
+          },
+          "ip": "5.255.255.77",
+          "scan_time": "2026-02-13T04:35:17Z",
+          "tls": {
+            "fingerprint_sha256": "004b73abc7082568a07182924623a26973fb7f4ab4ed30a5f022c3fa17c355eb",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "87c71553445eb3c33c3e0710711b99e9c7773f04d91ac38a9f4c082ee24101ea",
+                "subject_dn": "C=BE, O=GlobalSign nv-sa, CN=GlobalSign ECC OV SSL CA 2018",
+                "issuer_dn": "OU=GlobalSign ECC Root CA - R5, O=GlobalSign, CN=GlobalSign"
+              },
+              {
+                "fingerprint_sha256": "f349954e8fb6d44011bcb789d97d9a2cb2032bd5f0b598d1fb8a099f5848d523",
+                "subject_dn": "OU=GlobalSign ECC Root CA - R5, O=GlobalSign, CN=GlobalSign",
+                "issuer_dn": "C=BE, O=GlobalSign nv-sa, OU=Root CA, CN=GlobalSign Root CA"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "5.255.255.77",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T04:35:17Z",
+              "http": {
+                "uri": "https://5.255.255.77/",
+                "protocol": "HTTP/1.1",
+                "status_code": 406,
+                "status_reason": "Not acceptable",
+                "headers": {
+                  "Accept-CH": {
+                    "headers": [
+                      "Sec-CH-UA-Platform-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA, Sec-CH-UA-Full-Version-List, Sec-CH-UA-WoW64, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Platform, Sec-CH-UA-Full-Version, Sec-CH-Viewport-Width, Viewport-Width, DPR, Device-Memory, RTT, Downlink, ECT, Width, Sec-Ch-Viewport-Height"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "0"
+                    ]
+                  },
+                  "Set-Cookie": {
+                    "headers": [
+                      "_yasc=JHlJ8WHcPm7Y9sSsC7gM3M7b3NbSn8Lmq20gP9EhoDLI5H82sTe2jd+HzReNoqw=; domain=.255.77; path=/; expires=Mon, 11 Feb 2036 04:35:15 GMT; secure",
+                      "bh=YIPUuswGagrcytW6D5j1la0J; Path=/; Domain=.255.77; Expires=Sat, 20 Mar 2027 04:35:15 GMT"
+                    ]
+                  },
+                  "X-Content-Type-Options": {
+                    "headers": [
+                      "nosniff"
+                    ]
+                  },
+                  "X-Yandex-Req-Id": {
+                    "headers": [
+                      "1770957315365029-6952574893636439435-balancer-l7leveler-kubr-yp-vla-45-BAL"
+                    ]
+                  }
+                },
+                "supported_versions": [
+                  "HTTP/1.1",
+                  "HTTP/2"
+                ]
+              },
+              "ip": "5.255.255.77"
+            }
+          ]
+        }
+      ],
+      "service_count": 2,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-02-13T04:57:46Z",
+          "names": [
+            "yandex.ru"
+          ]
+        },
+        "names": [
+          "lihy.pub",
+          "yandex.ru",
+          "yandex.md",
+          "yandex.com",
+          "yandex.co.il",
+          "www.tel.yandex.com.tr",
+          "www.pda.yandex.com.tr",
+          "m.yandex.by",
+          "yandex.com.ge",
+          "0nt0.com",
+          "m.yandex.ee",
+          "www.pda.yaca.yandex.com",
+          "interes.yandex.com",
+          "redgrass.in",
+          "l7test.xn--d1acpjx3f.xn--p1ai",
+          "l00l.vip",
+          "yandex.com.am",
+          "www.studiodesvu.com",
+          "yesweare21.ru",
+          "yandex.tm",
+          "yandex.by",
+          "yandex.az",
+          "m.yandex.com",
+          "swiftletter.top",
+          "m.video.yandex.ru",
+          "www.proteii.ru",
+          "m.yandex.ru",
+          "www.yandex.by",
+          "www.interes.yandex.com",
+          "mail.turgenev.ru",
+          "cl1.xn--d1acpjx3f.xn--p1ai",
+          "xn--b1avpfcv.xn--p1ai",
+          "yandex.lt",
+          "autodiscover.xn--d1acpjx3f.xn--p1ai",
+          "yandex.tj",
+          "yandex.lv",
+          "pda.yaca.yandex.com",
+          "yandex.eu",
+          "www.yandex.ru",
+          "xmlsearch.yandex.com",
+          "goroda.yandex.com"
+        ],
+        "forward_dns": {
+          "0nt0.com": {
+            "resolve_time": "2026-02-08T20:37:19Z",
+            "name": "0nt0.com",
+            "record_type": "a"
+          },
+          "autodiscover.xn--d1acpjx3f.xn--p1ai": {
+            "resolve_time": "2026-01-21T12:24:31Z",
+            "name": "autodiscover.xn--d1acpjx3f.xn--p1ai",
+            "record_type": "a"
+          },
+          "cl1.xn--d1acpjx3f.xn--p1ai": {
+            "resolve_time": "2026-01-27T19:26:06Z",
+            "name": "cl1.xn--d1acpjx3f.xn--p1ai",
+            "record_type": "a"
+          },
+          "goroda.yandex.com": {
+            "resolve_time": "2026-01-01T16:36:15Z",
+            "name": "goroda.yandex.com",
+            "record_type": "a"
+          },
+          "interes.yandex.com": {
+            "resolve_time": "2026-02-08T18:13:46Z",
+            "name": "interes.yandex.com",
+            "record_type": "a"
+          },
+          "l00l.vip": {
+            "resolve_time": "2026-02-08T13:12:25Z",
+            "name": "l00l.vip",
+            "record_type": "a"
+          },
+          "l7test.xn--d1acpjx3f.xn--p1ai": {
+            "resolve_time": "2026-02-08T14:31:13Z",
+            "name": "l7test.xn--d1acpjx3f.xn--p1ai",
+            "record_type": "a"
+          },
+          "lihy.pub": {
+            "resolve_time": "2026-02-13T00:55:19Z",
+            "name": "lihy.pub",
+            "record_type": "a"
+          },
+          "m.video.yandex.ru": {
+            "resolve_time": "2026-01-29T13:37:02Z",
+            "name": "m.video.yandex.ru",
+            "record_type": "a"
+          },
+          "m.yandex.by": {
+            "resolve_time": "2026-02-09T19:22:27Z",
+            "name": "m.yandex.by",
+            "record_type": "a"
+          },
+          "m.yandex.com": {
+            "resolve_time": "2026-01-29T18:13:19Z",
+            "name": "m.yandex.com",
+            "record_type": "a"
+          },
+          "m.yandex.ee": {
+            "resolve_time": "2026-02-08T18:38:55Z",
+            "name": "m.yandex.ee",
+            "record_type": "a"
+          },
+          "m.yandex.ru": {
+            "resolve_time": "2026-01-28T18:44:31Z",
+            "name": "m.yandex.ru",
+            "record_type": "a"
+          },
+          "mail.turgenev.ru": {
+            "resolve_time": "2026-01-28T16:45:00Z",
+            "name": "mail.turgenev.ru",
+            "record_type": "a"
+          },
+          "pda.yaca.yandex.com": {
+            "resolve_time": "2026-01-13T19:03:32Z",
+            "name": "pda.yaca.yandex.com",
+            "record_type": "a"
+          },
+          "redgrass.in": {
+            "resolve_time": "2026-02-08T17:51:20Z",
+            "name": "redgrass.in",
+            "record_type": "a"
+          },
+          "swiftletter.top": {
+            "resolve_time": "2026-01-29T13:59:21Z",
+            "name": "swiftletter.top",
+            "record_type": "a"
+          },
+          "www.interes.yandex.com": {
+            "resolve_time": "2026-01-28T16:50:10Z",
+            "name": "www.interes.yandex.com",
+            "record_type": "a"
+          },
+          "www.pda.yaca.yandex.com": {
+            "resolve_time": "2026-02-08T18:13:48Z",
+            "name": "www.pda.yaca.yandex.com",
+            "record_type": "a"
+          },
+          "www.pda.yandex.com.tr": {
+            "resolve_time": "2026-02-10T12:37:32Z",
+            "name": "www.pda.yandex.com.tr",
+            "record_type": "a"
+          },
+          "www.proteii.ru": {
+            "resolve_time": "2026-01-29T13:06:45Z",
+            "name": "www.proteii.ru",
+            "record_type": "a"
+          },
+          "www.studiodesvu.com": {
+            "resolve_time": "2026-02-07T12:54:53Z",
+            "name": "www.studiodesvu.com",
+            "record_type": "a"
+          },
+          "www.tel.yandex.com.tr": {
+            "resolve_time": "2026-02-10T12:37:33Z",
+            "name": "www.tel.yandex.com.tr",
+            "record_type": "a"
+          },
+          "www.yandex.by": {
+            "resolve_time": "2026-01-28T17:23:50Z",
+            "name": "www.yandex.by",
+            "record_type": "a"
+          },
+          "www.yandex.ru": {
+            "resolve_time": "2026-01-10T15:33:01Z",
+            "name": "www.yandex.ru",
+            "record_type": "a"
+          },
+          "xmlsearch.yandex.com": {
+            "resolve_time": "2026-01-07T14:03:57Z",
+            "name": "xmlsearch.yandex.com",
+            "record_type": "a"
+          },
+          "xn--b1avpfcv.xn--p1ai": {
+            "resolve_time": "2026-01-27T19:26:05Z",
+            "name": "xn--b1avpfcv.xn--p1ai",
+            "record_type": "a"
+          },
+          "yandex.az": {
+            "resolve_time": "2026-01-30T16:24:13Z",
+            "name": "yandex.az",
+            "record_type": "a"
+          },
+          "yandex.by": {
+            "resolve_time": "2026-01-30T16:24:13Z",
+            "name": "yandex.by",
+            "record_type": "a"
+          },
+          "yandex.co.il": {
+            "resolve_time": "2026-02-10T21:24:57Z",
+            "name": "yandex.co.il",
+            "record_type": "a"
+          },
+          "yandex.com": {
+            "resolve_time": "2026-02-11T15:29:35Z",
+            "name": "yandex.com",
+            "record_type": "a"
+          },
+          "yandex.com.am": {
+            "resolve_time": "2026-02-07T13:50:28Z",
+            "name": "yandex.com.am",
+            "record_type": "a"
+          },
+          "yandex.com.ge": {
+            "resolve_time": "2026-02-08T21:57:13Z",
+            "name": "yandex.com.ge",
+            "record_type": "a"
+          },
+          "yandex.eu": {
+            "resolve_time": "2026-01-13T17:11:31Z",
+            "name": "yandex.eu",
+            "record_type": "a"
+          },
+          "yandex.lt": {
+            "resolve_time": "2026-01-27T12:18:45Z",
+            "name": "yandex.lt",
+            "record_type": "a"
+          },
+          "yandex.lv": {
+            "resolve_time": "2026-01-14T16:56:25Z",
+            "name": "yandex.lv",
+            "record_type": "a"
+          },
+          "yandex.md": {
+            "resolve_time": "2026-02-11T16:33:37Z",
+            "name": "yandex.md",
+            "record_type": "a"
+          },
+          "yandex.ru": {
+            "resolve_time": "2026-02-11T22:25:04Z",
+            "name": "yandex.ru",
+            "record_type": "a"
+          },
+          "yandex.tj": {
+            "resolve_time": "2026-01-20T12:59:17Z",
+            "name": "yandex.tj",
+            "record_type": "a"
+          },
+          "yandex.tm": {
+            "resolve_time": "2026-02-06T15:32:06Z",
+            "name": "yandex.tm",
+            "record_type": "a"
+          },
+          "yesweare21.ru": {
+            "resolve_time": "2026-02-06T22:17:27Z",
+            "name": "yesweare21.ru",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

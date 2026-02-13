@@ -1,0 +1,1089 @@
+{
+  "result": {
+    "resource": {
+      "ip": "17.253.144.10",
+      "location": {
+        "continent": "North America",
+        "country": "United States",
+        "country_code": "US",
+        "city": "Cupertino",
+        "postal_code": "95014",
+        "timezone": "America/Los_Angeles",
+        "province": "California",
+        "coordinates": {
+          "latitude": 37.323,
+          "longitude": -122.03218
+        }
+      },
+      "autonomous_system": {
+        "asn": 714,
+        "description": "APPLE-ENGINEERING - Apple Inc.",
+        "bgp_prefix": "17.253.144.0/24",
+        "name": "APPLE-ENGINEERING - Apple Inc.",
+        "country_code": "US"
+      },
+      "whois": {
+        "network": {
+          "handle": "APPLE-WWNET",
+          "name": "Apple Inc.",
+          "cidrs": [
+            "17.0.0.0/8"
+          ],
+          "created": "1990-04-16T00:00:00Z",
+          "updated": "2025-04-02T00:00:00Z",
+          "allocation_type": "ALLOCATION"
+        },
+        "organization": {
+          "handle": "APPLEC-1-Z",
+          "name": "Apple Inc.",
+          "street": "One Apple Park Way",
+          "city": "Cupertino",
+          "state": "CA",
+          "postal_code": "95014",
+          "country": "US",
+          "abuse_contacts": [
+            {
+              "handle": "APPLE11-ARIN",
+              "name": "Apple Abuse",
+              "email": "abuse@apple.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "APPLE141-ARIN",
+              "name": "Apple Inc",
+              "email": "ip-hostmaster@group.apple.com"
+            }
+          ],
+          "tech_contacts": [
+            {
+              "handle": "IPHOS7-ARIN",
+              "name": "IP Hostmaster",
+              "email": "ip-hostmaster@group.apple.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "ip": "17.253.144.10",
+          "scan_time": "2026-02-13T10:45:44Z",
+          "endpoints": [
+            {
+              "hostname": "17.253.144.10",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T10:45:44Z",
+              "http": {
+                "uri": "http://17.253.144.10/",
+                "protocol": "HTTP/1.1",
+                "status_code": 404,
+                "status_reason": "Not Found on Accelerator",
+                "headers": {
+                  "CDNUUID": {
+                    "headers": [
+                      "fd726dbc-9866-4315-a8b8-619ceeba9ae9-84495785"
+                    ]
+                  },
+                  "Cache-Control": {
+                    "headers": [
+                      "no-store"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Language": {
+                    "headers": [
+                      "en"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "287"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Via": {
+                    "headers": [
+                      "http/1.1 defra1-edge-fx-064.ts.apple.com (acdn/3.16363)"
+                    ]
+                  },
+                  "X-Cache": {
+                    "headers": [
+                      "none"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<TITLE>Not Found on Accelerator</TITLE>"
+                ],
+                "body_size": 287,
+                "body": "<HTML>\n<HEAD>\n<TITLE>Not Found on Accelerator</TITLE>\n</HEAD>\n\n<BODY BGCOLOR=\"white\" FGCOLOR=\"black\">\n<H1>Not Found on Accelerator</H1>\n<HR>\n\n<FONT FACE=\"Helvetica,Arial\"><B>\nDescription: Your request on the host was not found.\nCheck the location and try again.\n</B></FONT>\n<HR>\n</BODY>\n",
+                "html_title": "Not Found on Accelerator",
+                "body_hash_sha256": "3e28e130157e8259223785ba5ce2a2078cd2696d33db11d4f03de9df418c8d52",
+                "body_hash_sha1": "467b832b3852450ece65776fdabca05f004e3727",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "17.253.144.10"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "db6a7d82f706e543607ed807c41838829131f99a552a718c9027c235ac2761b0",
+            "fingerprint_sha1": "ba79b3169ddfff3cc1ba4d317a75ab00e1eb23c8",
+            "fingerprint_md5": "f9f6ec79d14e499133447b7cef98032f",
+            "tbs_fingerprint_sha256": "ca766048e384f018c34eda454b3218af6e47b589ef48af12769ac6be406b12bb",
+            "tbs_no_ct_fingerprint_sha256": "1cfea98563ee429f6abaf095e6094b0faa8caa4fda85852582c3ce13ad9fc57e",
+            "spki_fingerprint_sha256": "4ddfb99a067a41e535eb3bc31a718eb7ee180900e0b351314ffedb367715d62c",
+            "parent_spki_fingerprint_sha256": "4e949f1649dda5a89e43bc8e872a2d140c691386ce5ceb17f4d3238729e142de",
+            "parsed": {
+              "version": 3,
+              "serial_number": "108598034977348379668433969682856782506",
+              "issuer_dn": "C=US, O=Apple Inc., CN=Apple Public EV Server ECC CA 1 - G1",
+              "issuer": {
+                "common_name": [
+                  "Apple Public EV Server ECC CA 1 - G1"
+                ],
+                "country": [
+                  "US"
+                ],
+                "organization": [
+                  "Apple Inc."
+                ]
+              },
+              "subject_dn": "businessCategory=Private Organization, jurisdictionCountry=US, jurisdictionStateOrProvince=California, serialNumber=C0806592, C=US, ST=California, L=Cupertino, O=Apple Inc., CN=images.apple.com",
+              "subject": {
+                "common_name": [
+                  "images.apple.com"
+                ],
+                "serial_number": [
+                  "C0806592"
+                ],
+                "country": [
+                  "US"
+                ],
+                "locality": [
+                  "Cupertino"
+                ],
+                "province": [
+                  "California"
+                ],
+                "organization": [
+                  "Apple Inc."
+                ],
+                "jurisdiction_country": [
+                  "US"
+                ],
+                "jurisdiction_province": [
+                  "California"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "ECDSA",
+                  "oid": "1.2.840.10045.2.1"
+                },
+                "ecdsa": {
+                  "b": "5ac635d8aa3a93e7b3ebbd55769886bc651d06b0cc53b0f63bce3c3e27d2604b",
+                  "curve": "P-256",
+                  "gx": "6b17d1f2e12c4247f8bce6e563a440f277037d812deb33a0f4a13945d898c296",
+                  "gy": "4fe342e2fe1a7f9b8ee7eb4a7c0f9e162bce33576b315ececbb6406837bf51f5",
+                  "length": 256,
+                  "n": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+                  "p": "ffffffff00000001000000000000000000000000ffffffffffffffffffffffff",
+                  "pub": "04f3458d1670e2aed14a4015e55b7cdb301f718b90710e5f26338f70085f87f6c9546201f59bdc05e9d1ce7d61e1602b7ff6ce9fba93bf094da6b465fe203307db",
+                  "x": "f3458d1670e2aed14a4015e55b7cdb301f718b90710e5f26338f70085f87f6c9",
+                  "y": "546201f59bdc05e9d1ce7d61e1602b7ff6ce9fba93bf094da6b465fe203307db"
+                },
+                "fingerprint_sha256": "c8b8f45953cde203ddf567c63653499a2686f1e60397a16ad7c574f2cc416071"
+              },
+              "validity_period": {
+                "not_before": "2026-02-09T18:49:53Z",
+                "not_after": "2026-05-06T17:15:31Z",
+                "length_seconds": 7424739
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "ECDSA-SHA256",
+                  "oid": "1.2.840.10045.4.3.2"
+                },
+                "value": "3044022002863550f42b3c00bc087f2eb56544b2a691b8fabe2357964cc4ccaaae55adc702205bad7d889a4657d49103fd80e28b6f9f38880930dab90037336816f79c0806da",
+                "valid": true
+              },
+              "serial_number_hex": "51b33882d6da285928e81e8ab9c7aaaa"
+            },
+            "names": [
+              "images.apple.com"
+            ],
+            "validation_level": "ev",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "2585928d2c5bfd952e025bd12e27c6776224cf752ec362d3031cdd49351844d4",
+                      "31ad6648f8104138c738f39ea4320133393e3a18cc02296ef97c2ac9ef6731d0"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "2585928d2c5bfd952e025bd12e27c6776224cf752ec362d3031cdd49351844d4"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "2585928d2c5bfd952e025bd12e27c6776224cf752ec362d3031cdd49351844d4",
+                      "31ad6648f8104138c738f39ea4320133393e3a18cc02296ef97c2ac9ef6731d0"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "2585928d2c5bfd952e025bd12e27c6776224cf752ec362d3031cdd49351844d4"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "2585928d2c5bfd952e025bd12e27c6776224cf752ec362d3031cdd49351844d4",
+                      "31ad6648f8104138c738f39ea4320133393e3a18cc02296ef97c2ac9ef6731d0"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "2585928d2c5bfd952e025bd12e27c6776224cf752ec362d3031cdd49351844d4"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "2585928d2c5bfd952e025bd12e27c6776224cf752ec362d3031cdd49351844d4",
+                      "31ad6648f8104138c738f39ea4320133393e3a18cc02296ef97c2ac9ef6731d0"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "2585928d2c5bfd952e025bd12e27c6776224cf752ec362d3031cdd49351844d4"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 2493013296,
+                  "added_to_ct_at": "2026-02-10T06:14:22Z",
+                  "ct_to_censys_at": "2026-02-10T07:15:19Z"
+                },
+                "google_argon_2026_h1": {
+                  "index": 2071543414,
+                  "added_to_ct_at": "2026-02-09T22:33:47Z",
+                  "ct_to_censys_at": "2026-02-09T22:41:49Z"
+                },
+                "google_xenon_2026_h1": {
+                  "index": 1915616266,
+                  "added_to_ct_at": "2026-02-09T22:33:47Z",
+                  "ct_to_censys_at": "2026-02-09T22:43:20Z"
+                },
+                "letsencrypt_ct_sycamore_2026_h1": {
+                  "index": 834041611,
+                  "added_to_ct_at": "2026-02-10T01:20:49Z",
+                  "ct_to_censys_at": "2026-02-10T01:28:38Z"
+                },
+                "letsencrypt_ct_willow_2026_h1": {
+                  "index": 840280191,
+                  "added_to_ct_at": "2026-02-10T01:49:58Z",
+                  "ct_to_censys_at": "2026-02-10T01:58:07Z"
+                },
+                "sectigo_elephant_2026_h1": {
+                  "index": 1473616195,
+                  "added_to_ct_at": "2026-02-09T22:33:47Z",
+                  "ct_to_censys_at": "2026-02-09T22:43:43Z"
+                },
+                "sectigo_tiger_2026_h1": {
+                  "index": 1362790296,
+                  "added_to_ct_at": "2026-02-09T22:33:47Z",
+                  "ct_to_censys_at": "2026-02-09T22:43:14Z"
+                },
+                "trustasia_log_2026_a": {
+                  "index": 731285253,
+                  "added_to_ct_at": "2026-02-09T22:33:49Z",
+                  "ct_to_censys_at": "2026-02-09T22:46:36Z"
+                },
+                "trustasia_log_2026_b": {
+                  "index": 752320653,
+                  "added_to_ct_at": "2026-02-09T22:33:49Z",
+                  "ct_to_censys_at": "2026-02-09T22:46:36Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2026-02-09T19:57:59Z",
+            "modified_at": "2026-02-10T07:15:20Z",
+            "validated_at": "2026-02-13T01:54:19Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "4ddfb99a067a41e535eb3bc31a718eb7ee180900e0b351314ffedb367715d62c",
+            "parent_spki_subject_fingerprint_sha256": "4e949f1649dda5a89e43bc8e872a2d140c691386ce5ceb17f4d3238729e142de"
+          },
+          "ip": "17.253.144.10",
+          "scan_time": "2026-02-13T15:22:10Z",
+          "tls": {
+            "fingerprint_sha256": "db6a7d82f706e543607ed807c41838829131f99a552a718c9027c235ac2761b0",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "2585928d2c5bfd952e025bd12e27c6776224cf752ec362d3031cdd49351844d4",
+                "subject_dn": "C=US, O=Apple Inc., CN=Apple Public EV Server ECC CA 1 - G1",
+                "issuer_dn": "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root G3"
+              },
+              {
+                "fingerprint_sha256": "31ad6648f8104138c738f39ea4320133393e3a18cc02296ef97c2ac9ef6731d0",
+                "subject_dn": "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root G3",
+                "issuer_dn": "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root G3"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "17.253.144.10",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T15:22:10Z",
+              "http": {
+                "uri": "https://17.253.144.10/",
+                "protocol": "HTTP/1.1",
+                "status_code": 404,
+                "status_reason": "Not Found on Accelerator",
+                "headers": {
+                  "CDNUUID": {
+                    "headers": [
+                      "826cd95a-63bb-4b2d-aabf-090a08067288-5095212332"
+                    ]
+                  },
+                  "Cache-Control": {
+                    "headers": [
+                      "no-store"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Language": {
+                    "headers": [
+                      "en"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "287"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Via": {
+                    "headers": [
+                      "http/1.1 hkhkg1-edge-bx-006.ts.apple.com (acdn/293.16398)"
+                    ]
+                  },
+                  "X-Cache": {
+                    "headers": [
+                      "none"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<TITLE>Not Found on Accelerator</TITLE>"
+                ],
+                "body_size": 287,
+                "body": "<HTML>\n<HEAD>\n<TITLE>Not Found on Accelerator</TITLE>\n</HEAD>\n\n<BODY BGCOLOR=\"white\" FGCOLOR=\"black\">\n<H1>Not Found on Accelerator</H1>\n<HR>\n\n<FONT FACE=\"Helvetica,Arial\"><B>\nDescription: Your request on the host was not found.\nCheck the location and try again.\n</B></FONT>\n<HR>\n</BODY>\n",
+                "html_title": "Not Found on Accelerator",
+                "body_hash_sha256": "3e28e130157e8259223785ba5ce2a2078cd2696d33db11d4f03de9df418c8d52",
+                "body_hash_sha1": "467b832b3852450ece65776fdabca05f004e3727",
+                "supported_versions": [
+                  "HTTP/1.1",
+                  "HTTP/2"
+                ]
+              },
+              "ip": "17.253.144.10"
+            }
+          ]
+        }
+      ],
+      "service_count": 2,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-02-13T09:13:24Z"
+        },
+        "names": [
+          "icloud.com",
+          "apple.com.pe",
+          "flarenotes.com",
+          "apple.com.cn",
+          "mail.kalwoda.com",
+          "www.propertyservicesmichigan.com",
+          "apple.com.lk",
+          "apple.it",
+          "apple.com",
+          "livepage.apple.com",
+          "apple.apple.com",
+          "www.apple.fr",
+          "git2.dfb.io",
+          "sh.dfb.io",
+          "meet3.dfb.io",
+          "btpan.dfb.io",
+          "layui.dfb.io",
+          "vpn.dfb.io",
+          "apple.com.pa",
+          "smsapk.dfb.io",
+          "dow.dfb.io",
+          "honey20558.dfb.io",
+          "cai.dfb.io",
+          "52088.dfb.io",
+          "www.squeakytoytrainingcamp.com",
+          "mail.stueben.st",
+          "lihuacat.space",
+          "mail.area51.gen.nz",
+          "www.apple.nl",
+          "appstore.com",
+          "podcast.apple.com",
+          "iphone.apple.com",
+          "asia.apple.com",
+          "www.asia.apple.com",
+          "aperturetrialbuy.apple.com",
+          "world-any.aaplimg.com",
+          "www.apple.com.tt",
+          "www.apple.com.py",
+          "www.akwifyen.cyou",
+          "www.podcast.apple.com",
+          "apple.com.gy",
+          "pve.dfb.io",
+          "www.apple.es",
+          "alipay.dfb.io",
+          "jj.dfb.io",
+          "meet2.dfb.io",
+          "apple.de",
+          "apple.com.sg",
+          "www.apple.com.au",
+          "itunespartner.apple.com",
+          "seminars.apple.com",
+          "mail.gudut5.com",
+          "testcash.dfb.io",
+          "difi.dfb.io",
+          "asddasasdsd.dfb.io",
+          "casino2.dfb.io",
+          "4pay.dfb.io",
+          "www.apple.com.my",
+          "www.apple.com.mx",
+          "safaricampaign.apple",
+          "www.seminars.apple.com",
+          "apple.com.tt",
+          "apple.com.do",
+          "file.dfb.io",
+          "usdt.dfb.io",
+          "ttt.dfb.io",
+          "casino.dfb.io",
+          "apple.com.my",
+          "www.appstore.com",
+          "firewire.apple.com",
+          "www.firewire.apple.com",
+          "applescript.apple.com",
+          "www.apple.co.uk",
+          "www.vc66.com",
+          "www.brkgls.com",
+          "mail.shellman.se",
+          "www.apple.com.lk",
+          "bt.dfb.io",
+          "666.dfb.io",
+          "bcweb.dfb.io",
+          "web.dfb.io",
+          "devkc.dfb.io",
+          "dfb.io",
+          "pay2.dfb.io",
+          "apple.com.co",
+          "squeakytoytrainingcamp.com",
+          "apibtpan.dfb.io",
+          "claud.dfb.io",
+          "siemens.dfb.io",
+          "www.apple.com.pe",
+          "www.apple.com.hn",
+          "tgapi.dfb.io",
+          "points.dfb.io",
+          "pay.dfb.io",
+          "notepad.dfb.io",
+          "caigi.dfb.io",
+          "apple.com.uy",
+          "www.oooo.ooo",
+          "tron.dfb.io",
+          "6666.dfb.io"
+        ],
+        "forward_dns": {
+          "4pay.dfb.io": {
+            "resolve_time": "2026-02-07T22:06:43Z",
+            "name": "4pay.dfb.io",
+            "record_type": "a"
+          },
+          "52088.dfb.io": {
+            "resolve_time": "2026-02-10T19:42:55Z",
+            "name": "52088.dfb.io",
+            "record_type": "a"
+          },
+          "666.dfb.io": {
+            "resolve_time": "2026-02-01T12:49:22Z",
+            "name": "666.dfb.io",
+            "record_type": "a"
+          },
+          "6666.dfb.io": {
+            "resolve_time": "2026-01-27T19:08:05Z",
+            "name": "6666.dfb.io",
+            "record_type": "a"
+          },
+          "alipay.dfb.io": {
+            "resolve_time": "2026-02-08T18:31:19Z",
+            "name": "alipay.dfb.io",
+            "record_type": "a"
+          },
+          "aperturetrialbuy.apple.com": {
+            "resolve_time": "2026-02-10T12:52:50Z",
+            "name": "aperturetrialbuy.apple.com",
+            "record_type": "a"
+          },
+          "apibtpan.dfb.io": {
+            "resolve_time": "2026-01-29T16:55:53Z",
+            "name": "apibtpan.dfb.io",
+            "record_type": "a"
+          },
+          "apple.apple.com": {
+            "resolve_time": "2026-02-11T15:19:04Z",
+            "name": "apple.apple.com",
+            "record_type": "a"
+          },
+          "apple.com": {
+            "resolve_time": "2026-02-11T16:08:43Z",
+            "name": "apple.com",
+            "record_type": "a"
+          },
+          "apple.com.cn": {
+            "resolve_time": "2026-02-11T20:34:47Z",
+            "name": "apple.com.cn",
+            "record_type": "a"
+          },
+          "apple.com.co": {
+            "resolve_time": "2026-01-30T12:06:36Z",
+            "name": "apple.com.co",
+            "record_type": "a"
+          },
+          "apple.com.do": {
+            "resolve_time": "2026-02-07T13:32:36Z",
+            "name": "apple.com.do",
+            "record_type": "a"
+          },
+          "apple.com.gy": {
+            "resolve_time": "2026-02-09T14:26:58Z",
+            "name": "apple.com.gy",
+            "record_type": "a"
+          },
+          "apple.com.lk": {
+            "resolve_time": "2026-02-11T16:42:41Z",
+            "name": "apple.com.lk",
+            "record_type": "a"
+          },
+          "apple.com.my": {
+            "resolve_time": "2026-02-06T17:46:45Z",
+            "name": "apple.com.my",
+            "record_type": "a"
+          },
+          "apple.com.pa": {
+            "resolve_time": "2026-02-10T21:40:15Z",
+            "name": "apple.com.pa",
+            "record_type": "a"
+          },
+          "apple.com.pe": {
+            "resolve_time": "2026-02-11T21:45:53Z",
+            "name": "apple.com.pe",
+            "record_type": "a"
+          },
+          "apple.com.sg": {
+            "resolve_time": "2026-02-08T18:17:53Z",
+            "name": "apple.com.sg",
+            "record_type": "a"
+          },
+          "apple.com.tt": {
+            "resolve_time": "2026-02-07T15:22:54Z",
+            "name": "apple.com.tt",
+            "record_type": "a"
+          },
+          "apple.com.uy": {
+            "resolve_time": "2026-01-28T12:33:09Z",
+            "name": "apple.com.uy",
+            "record_type": "a"
+          },
+          "apple.de": {
+            "resolve_time": "2026-02-08T18:18:57Z",
+            "name": "apple.de",
+            "record_type": "a"
+          },
+          "apple.it": {
+            "resolve_time": "2026-02-11T16:42:32Z",
+            "name": "apple.it",
+            "record_type": "a"
+          },
+          "applescript.apple.com": {
+            "resolve_time": "2026-02-06T16:07:50Z",
+            "name": "applescript.apple.com",
+            "record_type": "a"
+          },
+          "appstore.com": {
+            "resolve_time": "2026-02-10T12:54:01Z",
+            "name": "appstore.com",
+            "record_type": "a"
+          },
+          "asddasasdsd.dfb.io": {
+            "resolve_time": "2026-02-07T22:06:43Z",
+            "name": "asddasasdsd.dfb.io",
+            "record_type": "a"
+          },
+          "asia.apple.com": {
+            "resolve_time": "2026-02-10T12:52:51Z",
+            "name": "asia.apple.com",
+            "record_type": "a"
+          },
+          "bcweb.dfb.io": {
+            "resolve_time": "2026-02-01T12:49:22Z",
+            "name": "bcweb.dfb.io",
+            "record_type": "a"
+          },
+          "bt.dfb.io": {
+            "resolve_time": "2026-02-01T12:49:24Z",
+            "name": "bt.dfb.io",
+            "record_type": "a"
+          },
+          "btpan.dfb.io": {
+            "resolve_time": "2026-02-11T12:46:44Z",
+            "name": "btpan.dfb.io",
+            "record_type": "a"
+          },
+          "cai.dfb.io": {
+            "resolve_time": "2026-02-10T19:42:55Z",
+            "name": "cai.dfb.io",
+            "record_type": "a"
+          },
+          "caigi.dfb.io": {
+            "resolve_time": "2026-01-28T14:35:47Z",
+            "name": "caigi.dfb.io",
+            "record_type": "a"
+          },
+          "casino.dfb.io": {
+            "resolve_time": "2026-02-06T19:53:58Z",
+            "name": "casino.dfb.io",
+            "record_type": "a"
+          },
+          "casino2.dfb.io": {
+            "resolve_time": "2026-02-07T22:06:43Z",
+            "name": "casino2.dfb.io",
+            "record_type": "a"
+          },
+          "claud.dfb.io": {
+            "resolve_time": "2026-01-29T16:55:53Z",
+            "name": "claud.dfb.io",
+            "record_type": "a"
+          },
+          "devkc.dfb.io": {
+            "resolve_time": "2026-02-01T12:49:22Z",
+            "name": "devkc.dfb.io",
+            "record_type": "a"
+          },
+          "dfb.io": {
+            "resolve_time": "2026-02-01T12:49:22Z",
+            "name": "dfb.io",
+            "record_type": "a"
+          },
+          "difi.dfb.io": {
+            "resolve_time": "2026-02-07T22:06:45Z",
+            "name": "difi.dfb.io",
+            "record_type": "a"
+          },
+          "dow.dfb.io": {
+            "resolve_time": "2026-02-10T19:42:56Z",
+            "name": "dow.dfb.io",
+            "record_type": "a"
+          },
+          "file.dfb.io": {
+            "resolve_time": "2026-02-06T19:54:00Z",
+            "name": "file.dfb.io",
+            "record_type": "a"
+          },
+          "firewire.apple.com": {
+            "resolve_time": "2026-02-06T16:07:52Z",
+            "name": "firewire.apple.com",
+            "record_type": "a"
+          },
+          "flarenotes.com": {
+            "resolve_time": "2026-02-11T21:44:32Z",
+            "name": "flarenotes.com",
+            "record_type": "a"
+          },
+          "git2.dfb.io": {
+            "resolve_time": "2026-02-11T12:46:45Z",
+            "name": "git2.dfb.io",
+            "record_type": "a"
+          },
+          "honey20558.dfb.io": {
+            "resolve_time": "2026-02-10T19:42:56Z",
+            "name": "honey20558.dfb.io",
+            "record_type": "a"
+          },
+          "icloud.com": {
+            "resolve_time": "2026-02-13T00:51:34Z",
+            "name": "icloud.com",
+            "record_type": "a"
+          },
+          "iphone.apple.com": {
+            "resolve_time": "2026-02-10T12:52:52Z",
+            "name": "iphone.apple.com",
+            "record_type": "a"
+          },
+          "itunespartner.apple.com": {
+            "resolve_time": "2026-02-08T13:41:30Z",
+            "name": "itunespartner.apple.com",
+            "record_type": "a"
+          },
+          "jj.dfb.io": {
+            "resolve_time": "2026-02-08T18:31:19Z",
+            "name": "jj.dfb.io",
+            "record_type": "a"
+          },
+          "layui.dfb.io": {
+            "resolve_time": "2026-02-11T12:46:44Z",
+            "name": "layui.dfb.io",
+            "record_type": "a"
+          },
+          "lihuacat.space": {
+            "resolve_time": "2026-02-10T17:45:11Z",
+            "name": "lihuacat.space",
+            "record_type": "a"
+          },
+          "livepage.apple.com": {
+            "resolve_time": "2026-02-11T15:19:05Z",
+            "name": "livepage.apple.com",
+            "record_type": "a"
+          },
+          "mail.area51.gen.nz": {
+            "resolve_time": "2026-02-10T13:48:43Z",
+            "name": "mail.area51.gen.nz",
+            "record_type": "a"
+          },
+          "mail.gudut5.com": {
+            "resolve_time": "2026-02-08T13:09:39Z",
+            "name": "mail.gudut5.com",
+            "record_type": "a"
+          },
+          "mail.kalwoda.com": {
+            "resolve_time": "2026-02-11T19:35:20Z",
+            "name": "mail.kalwoda.com",
+            "record_type": "a"
+          },
+          "mail.shellman.se": {
+            "resolve_time": "2026-02-04T12:43:23Z",
+            "name": "mail.shellman.se",
+            "record_type": "a"
+          },
+          "mail.stueben.st": {
+            "resolve_time": "2026-02-10T17:50:11Z",
+            "name": "mail.stueben.st",
+            "record_type": "a"
+          },
+          "meet2.dfb.io": {
+            "resolve_time": "2026-02-08T18:31:15Z",
+            "name": "meet2.dfb.io",
+            "record_type": "a"
+          },
+          "meet3.dfb.io": {
+            "resolve_time": "2026-02-11T12:46:44Z",
+            "name": "meet3.dfb.io",
+            "record_type": "a"
+          },
+          "notepad.dfb.io": {
+            "resolve_time": "2026-01-28T14:35:47Z",
+            "name": "notepad.dfb.io",
+            "record_type": "a"
+          },
+          "pay.dfb.io": {
+            "resolve_time": "2026-01-28T14:35:47Z",
+            "name": "pay.dfb.io",
+            "record_type": "a"
+          },
+          "pay2.dfb.io": {
+            "resolve_time": "2026-02-01T12:49:21Z",
+            "name": "pay2.dfb.io",
+            "record_type": "a"
+          },
+          "podcast.apple.com": {
+            "resolve_time": "2026-02-10T12:52:53Z",
+            "name": "podcast.apple.com",
+            "record_type": "a"
+          },
+          "points.dfb.io": {
+            "resolve_time": "2026-01-28T14:35:47Z",
+            "name": "points.dfb.io",
+            "record_type": "a"
+          },
+          "pve.dfb.io": {
+            "resolve_time": "2026-02-09T12:45:44Z",
+            "name": "pve.dfb.io",
+            "record_type": "a"
+          },
+          "safaricampaign.apple": {
+            "resolve_time": "2026-02-07T20:06:27Z",
+            "name": "safaricampaign.apple",
+            "record_type": "a"
+          },
+          "seminars.apple.com": {
+            "resolve_time": "2026-02-08T13:41:27Z",
+            "name": "seminars.apple.com",
+            "record_type": "a"
+          },
+          "sh.dfb.io": {
+            "resolve_time": "2026-02-11T12:46:44Z",
+            "name": "sh.dfb.io",
+            "record_type": "a"
+          },
+          "siemens.dfb.io": {
+            "resolve_time": "2026-01-29T16:55:53Z",
+            "name": "siemens.dfb.io",
+            "record_type": "a"
+          },
+          "smsapk.dfb.io": {
+            "resolve_time": "2026-02-10T19:42:57Z",
+            "name": "smsapk.dfb.io",
+            "record_type": "a"
+          },
+          "squeakytoytrainingcamp.com": {
+            "resolve_time": "2026-01-29T17:39:32Z",
+            "name": "squeakytoytrainingcamp.com",
+            "record_type": "a"
+          },
+          "testcash.dfb.io": {
+            "resolve_time": "2026-02-07T22:06:48Z",
+            "name": "testcash.dfb.io",
+            "record_type": "a"
+          },
+          "tgapi.dfb.io": {
+            "resolve_time": "2026-01-28T14:35:48Z",
+            "name": "tgapi.dfb.io",
+            "record_type": "a"
+          },
+          "tron.dfb.io": {
+            "resolve_time": "2026-01-27T19:08:05Z",
+            "name": "tron.dfb.io",
+            "record_type": "a"
+          },
+          "ttt.dfb.io": {
+            "resolve_time": "2026-02-06T19:53:58Z",
+            "name": "ttt.dfb.io",
+            "record_type": "a"
+          },
+          "usdt.dfb.io": {
+            "resolve_time": "2026-02-06T19:53:59Z",
+            "name": "usdt.dfb.io",
+            "record_type": "a"
+          },
+          "vpn.dfb.io": {
+            "resolve_time": "2026-02-11T12:46:44Z",
+            "name": "vpn.dfb.io",
+            "record_type": "a"
+          },
+          "web.dfb.io": {
+            "resolve_time": "2026-02-01T12:49:22Z",
+            "name": "web.dfb.io",
+            "record_type": "a"
+          },
+          "world-any.aaplimg.com": {
+            "resolve_time": "2026-02-10T12:50:48Z",
+            "name": "world-any.aaplimg.com",
+            "record_type": "a"
+          },
+          "www.akwifyen.cyou": {
+            "resolve_time": "2026-02-09T20:00:55Z",
+            "name": "www.akwifyen.cyou",
+            "record_type": "a"
+          },
+          "www.apple.co.uk": {
+            "resolve_time": "2026-02-06T15:07:20Z",
+            "name": "www.apple.co.uk",
+            "record_type": "a"
+          },
+          "www.apple.com.au": {
+            "resolve_time": "2026-02-08T18:12:08Z",
+            "name": "www.apple.com.au",
+            "record_type": "a"
+          },
+          "www.apple.com.hn": {
+            "resolve_time": "2026-01-29T12:24:28Z",
+            "name": "www.apple.com.hn",
+            "record_type": "a"
+          },
+          "www.apple.com.lk": {
+            "resolve_time": "2026-02-02T00:35:48Z",
+            "name": "www.apple.com.lk",
+            "record_type": "a"
+          },
+          "www.apple.com.mx": {
+            "resolve_time": "2026-02-07T21:53:17Z",
+            "name": "www.apple.com.mx",
+            "record_type": "a"
+          },
+          "www.apple.com.my": {
+            "resolve_time": "2026-02-07T22:02:48Z",
+            "name": "www.apple.com.my",
+            "record_type": "a"
+          },
+          "www.apple.com.pe": {
+            "resolve_time": "2026-01-29T14:26:23Z",
+            "name": "www.apple.com.pe",
+            "record_type": "a"
+          },
+          "www.apple.com.py": {
+            "resolve_time": "2026-02-09T21:31:56Z",
+            "name": "www.apple.com.py",
+            "record_type": "a"
+          },
+          "www.apple.com.tt": {
+            "resolve_time": "2026-02-10T12:39:43Z",
+            "name": "www.apple.com.tt",
+            "record_type": "a"
+          },
+          "www.apple.es": {
+            "resolve_time": "2026-02-08T20:23:43Z",
+            "name": "www.apple.es",
+            "record_type": "a"
+          },
+          "www.apple.fr": {
+            "resolve_time": "2026-02-11T13:52:49Z",
+            "name": "www.apple.fr",
+            "record_type": "a"
+          },
+          "www.apple.nl": {
+            "resolve_time": "2026-02-10T13:43:25Z",
+            "name": "www.apple.nl",
+            "record_type": "a"
+          },
+          "www.appstore.com": {
+            "resolve_time": "2026-02-06T16:09:48Z",
+            "name": "www.appstore.com",
+            "record_type": "a"
+          },
+          "www.asia.apple.com": {
+            "resolve_time": "2026-02-10T12:52:51Z",
+            "name": "www.asia.apple.com",
+            "record_type": "a"
+          },
+          "www.brkgls.com": {
+            "resolve_time": "2026-02-05T04:27:21Z",
+            "name": "www.brkgls.com",
+            "record_type": "a"
+          },
+          "www.firewire.apple.com": {
+            "resolve_time": "2026-02-06T16:07:52Z",
+            "name": "www.firewire.apple.com",
+            "record_type": "a"
+          },
+          "www.oooo.ooo": {
+            "resolve_time": "2026-01-27T20:11:31Z",
+            "name": "www.oooo.ooo",
+            "record_type": "a"
+          },
+          "www.podcast.apple.com": {
+            "resolve_time": "2026-02-09T17:23:22Z",
+            "name": "www.podcast.apple.com",
+            "record_type": "a"
+          },
+          "www.propertyservicesmichigan.com": {
+            "resolve_time": "2026-02-11T17:55:26Z",
+            "name": "www.propertyservicesmichigan.com",
+            "record_type": "a"
+          },
+          "www.seminars.apple.com": {
+            "resolve_time": "2026-02-07T16:11:41Z",
+            "name": "www.seminars.apple.com",
+            "record_type": "a"
+          },
+          "www.squeakytoytrainingcamp.com": {
+            "resolve_time": "2026-02-10T19:03:33Z",
+            "name": "www.squeakytoytrainingcamp.com",
+            "record_type": "a"
+          },
+          "www.vc66.com": {
+            "resolve_time": "2026-02-06T15:02:11Z",
+            "name": "www.vc66.com",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

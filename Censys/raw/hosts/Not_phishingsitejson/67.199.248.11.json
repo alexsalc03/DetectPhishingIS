@@ -1,0 +1,1006 @@
+{
+  "result": {
+    "resource": {
+      "ip": "67.199.248.11",
+      "location": {
+        "continent": "North America",
+        "country": "United States",
+        "country_code": "US",
+        "city": "New York City",
+        "postal_code": "10001",
+        "timezone": "America/New_York",
+        "province": "New York",
+        "coordinates": {
+          "latitude": 40.71427,
+          "longitude": -74.00597
+        }
+      },
+      "autonomous_system": {
+        "asn": 396982,
+        "description": "GOOGLE-CLOUD-PLATFORM - Google LLC",
+        "bgp_prefix": "67.199.248.0/24",
+        "name": "GOOGLE-CLOUD-PLATFORM - Google LLC",
+        "country_code": "US"
+      },
+      "whois": {
+        "network": {
+          "handle": "BITLY",
+          "name": "Bitly Inc",
+          "cidrs": [
+            "67.199.248.0/24"
+          ],
+          "created": "2016-05-31T00:00:00Z",
+          "updated": "2021-12-14T00:00:00Z",
+          "allocation_type": "ALLOCATION"
+        },
+        "organization": {
+          "handle": "BITLY",
+          "name": "Bitly Inc",
+          "street": "DPT 5006\\n601 W 26th St, 3rd Floor, STE 357",
+          "city": "New York",
+          "state": "NY",
+          "postal_code": "10001",
+          "country": "US",
+          "abuse_contacts": [
+            {
+              "handle": "ABUSE3257-ARIN",
+              "name": "Abuse",
+              "email": "abuse@bitly.com"
+            },
+            {
+              "handle": "OPERA345-ARIN",
+              "name": "Bitly Operations",
+              "email": "hostmaster@bitly.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "OPERA345-ARIN",
+              "name": "Bitly Operations",
+              "email": "hostmaster@bitly.com"
+            }
+          ],
+          "tech_contacts": [
+            {
+              "handle": "OPERA345-ARIN",
+              "name": "Bitly Operations",
+              "email": "hostmaster@bitly.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "f5",
+              "product": "nginx"
+            }
+          ],
+          "ip": "67.199.248.11",
+          "scan_time": "2026-02-13T14:55:45Z",
+          "endpoints": [
+            {
+              "hostname": "67.199.248.11",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T14:55:39Z",
+              "http": {
+                "uri": "http://67.199.248.11/",
+                "protocol": "HTTP/1.1",
+                "status_code": 302,
+                "status_reason": "Found",
+                "headers": {
+                  "Content-Length": {
+                    "headers": [
+                      "111"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html; charset=utf-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "nginx"
+                    ]
+                  },
+                  "Via": {
+                    "headers": [
+                      "1.1 google, 1.1 google"
+                    ]
+                  },
+                  "cache-control": {
+                    "headers": [
+                      "no-cache, no-store, max-age=0, must-revalidate"
+                    ]
+                  },
+                  "location": {
+                    "headers": [
+                      "https://bitly.com/pages/landing/branded-short-domains-powered-by-bitly?bsd=67.199.248.11"
+                    ]
+                  },
+                  "pragma": {
+                    "headers": [
+                      "no-cache"
+                    ]
+                  },
+                  "x-frame-options": {
+                    "headers": [
+                      "DENY"
+                    ]
+                  }
+                },
+                "body_size": 111,
+                "body": "<a href=\"https://bitly.com/pages/landing/branded-short-domains-powered-by-bitly?bsd=67.199.248.11\">Found</a>.\n\n",
+                "body_hash_sha256": "4d19f2034d34f48f2e61bebc81dc759533c7f5ca6c5ebc0d474080defbff4d29",
+                "body_hash_sha1": "9b4ff5fc18f78289452adf10a8bdfb357b67fa0f",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ],
+                "redirect_chain": [
+                  {
+                    "hostname": "bitly.com",
+                    "port": 443,
+                    "transport_protocol": "tcp",
+                    "path": "/pages/landing/branded-short-domains-powered-by-bitly",
+                    "reason": "HTTP_3XX"
+                  }
+                ]
+              },
+              "ip": "67.199.248.11"
+            },
+            {
+              "hostname": "67.199.248.11",
+              "port": 80,
+              "path": "/robots.txt",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T14:55:45Z",
+              "http": {
+                "uri": "http://67.199.248.11/robots.txt",
+                "protocol": "HTTP/1.1",
+                "status_code": 200,
+                "status_reason": "OK",
+                "headers": {
+                  "Accept-Ranges": {
+                    "headers": [
+                      "bytes"
+                    ]
+                  },
+                  "Cache-Control": {
+                    "headers": [
+                      "max-age=86400"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "123"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/plain"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "ETag": {
+                    "headers": [
+                      "\"67b64653-7b\""
+                    ]
+                  },
+                  "Expires": {
+                    "headers": [
+                      "Sat, 14 Feb 2026 14:55:48 GMT"
+                    ]
+                  },
+                  "Last-Modified": {
+                    "headers": [
+                      "Wed, 19 Feb 2025 21:00:03 GMT"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "nginx"
+                    ]
+                  },
+                  "Via": {
+                    "headers": [
+                      "1.1 google"
+                    ]
+                  }
+                },
+                "body_size": 123,
+                "body": "# Welcome to Bitly =)\n# robots welcome;\n# API documentation can be found at https://dev.bitly.com/\nUser-Agent: *\nDisallow:\n",
+                "favicons": [
+                  {
+                    "size": 5430,
+                    "name": "http://67.199.248.11/favicon.ico",
+                    "hash_sha256": "4260c4ca799132f04bfa7af774c1a5f4ac12b775e21d380884d7d08b35270679",
+                    "hash_md5": "ce0260c17b7f1dbdb7726ef7e8fd8c7a",
+                    "hash_shodan": -434501501
+                  }
+                ],
+                "body_hash_sha256": "aeddaf37d71afe500676c334c63a84340d99c91651b9d41bc0c4b2f9437d6cd8",
+                "body_hash_sha1": "62117826e96392fd059ca456be89392ca3f68204",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "67.199.248.11"
+            },
+            {
+              "hostname": "67.199.248.11",
+              "port": 80,
+              "path": "/security.txt",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T09:45:35Z",
+              "http": {
+                "uri": "http://67.199.248.11/security.txt",
+                "protocol": "HTTP/1.1",
+                "status_code": 200,
+                "status_reason": "OK",
+                "headers": {
+                  "Accept-Ranges": {
+                    "headers": [
+                      "bytes"
+                    ]
+                  },
+                  "Cache-Control": {
+                    "headers": [
+                      "max-age=86400"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "95"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/plain"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "ETag": {
+                    "headers": [
+                      "\"67b66193-5f\""
+                    ]
+                  },
+                  "Expires": {
+                    "headers": [
+                      "Sat, 14 Feb 2026 09:45:38 GMT"
+                    ]
+                  },
+                  "Last-Modified": {
+                    "headers": [
+                      "Wed, 19 Feb 2025 22:56:19 GMT"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "nginx"
+                    ]
+                  },
+                  "Via": {
+                    "headers": [
+                      "1.1 google"
+                    ]
+                  }
+                },
+                "body_size": 95,
+                "body": "Contact: security@bitly.com\nEncryption: https://bitly.com/security_pgp.txt\nDisclosure: Partial\n",
+                "favicons": [
+                  {
+                    "size": 5430,
+                    "name": "http://67.199.248.11/favicon.ico",
+                    "hash_sha256": "4260c4ca799132f04bfa7af774c1a5f4ac12b775e21d380884d7d08b35270679",
+                    "hash_md5": "ce0260c17b7f1dbdb7726ef7e8fd8c7a",
+                    "hash_shodan": -434501501
+                  }
+                ],
+                "body_hash_sha256": "156a9e4b0ec998998b14f0c3228e91cb8c47f73cf9fac684ccfd9c600f2a6dd6",
+                "body_hash_sha1": "221ac4d0e23fa0d6b0079fc4ff4d86c2aadaf6f5",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "67.199.248.11"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "UNKNOWN",
+          "transport_protocol": "quic",
+          "ip": "67.199.248.11",
+          "scan_time": "2026-02-13T13:33:27Z"
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "cc0ff8a443b829365346ba3fc0c93f062d63ef36ed7f997e0ff6f0a2701cf175",
+            "fingerprint_sha1": "275c6dc2bb8653710585b42593ddc86d75bb831f",
+            "fingerprint_md5": "17df8547c5c4e08dce6fecbf7136c410",
+            "tbs_fingerprint_sha256": "9e42a3e823b7f59c0087dfc6f51534b10e19bc880ad05e8117165efa387428fb",
+            "tbs_no_ct_fingerprint_sha256": "a6ba47c7afac4f2541a87eaded9163cda5e2753a4fe44444c64c009b2de9fc82",
+            "spki_fingerprint_sha256": "9a7d356351892fca3242687771f142891bd0f9c882f062cc302569d4f4b322a2",
+            "parent_spki_fingerprint_sha256": "0b61a7579cd975e4228a985b17cc38e3db504e669e4322423ab2a062d46535e1",
+            "parsed": {
+              "version": 3,
+              "serial_number": "5739299115734573410224712493333051888",
+              "issuer_dn": "C=US, O=DigiCert Inc, CN=DigiCert EV RSA CA G2",
+              "issuer": {
+                "common_name": [
+                  "DigiCert EV RSA CA G2"
+                ],
+                "country": [
+                  "US"
+                ],
+                "organization": [
+                  "DigiCert Inc"
+                ]
+              },
+              "subject_dn": "jurisdictionCountry=US, jurisdictionStateOrProvince=Delaware, businessCategory=Private Organization, serialNumber=4627013, C=US, ST=New York, L=New York, O=Bitly\\, Inc., CN=bit.ly",
+              "subject": {
+                "common_name": [
+                  "bit.ly"
+                ],
+                "serial_number": [
+                  "4627013"
+                ],
+                "country": [
+                  "US"
+                ],
+                "locality": [
+                  "New York"
+                ],
+                "province": [
+                  "New York"
+                ],
+                "organization": [
+                  "Bitly, Inc."
+                ],
+                "jurisdiction_country": [
+                  "US"
+                ],
+                "jurisdiction_province": [
+                  "Delaware"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "RSA",
+                  "oid": "1.2.840.113549.1.1.1"
+                },
+                "rsa": {
+                  "exponent": 65537,
+                  "modulus": "9d9928cdc8d193e62037e347cfe69b12b898bbc6f05155ae2a6333598e94c56b6232ac5e238e2e86d959fe2ee215254ef264b913bc19d34af2ce2e875504aa35ea5c3983410606610a712819a094dc9a9e7a17137cdf2aa4d55bb72e2c4a21e11e79cb23ef21844c5e886ad805c97ea81a3d43e0838c5979809cde7d3d65d3014659439033643f0ae3d6ad1c9feac928637b009b41c010767cfed0e2209d5945abad84f2600b9d9e786b67e27acd86956cc46c25989f70a6f23ea37264f8ed016e60103c1955c6fcac9edc5587eb9e40bb9de9bca65bf3fe533b7198410930b9aca9a6ade7a2bb5830c9fbd391248c18b2e2b1d4eedfe943f84ea454cf66be43",
+                  "length": 2048
+                },
+                "fingerprint_sha256": "d6e0cf03d5610192837e9dca63c347b3444786f1c0edca66d5e66f01cb313737"
+              },
+              "validity_period": {
+                "not_before": "2025-03-26T00:00:00Z",
+                "not_after": "2026-03-25T23:59:59Z",
+                "length_seconds": 31536000
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "SHA256-RSA",
+                  "oid": "1.2.840.113549.1.1.11"
+                },
+                "value": "8d13b49f5723983d46fe7a734a0c6134bf225bed9ff63cab0188d5582806bd4b5dde314ab633b8812ea128d416581e024b6702662002d2a78d385f650957c46b13ad68b239e30ac56e5dd418f966f83d4f9cf70027f0c9afeff6f272829e6a6f9425c2b57316d381fb182946168d5bce743f3bcd6eda4049ac323bf16e15e46131b0ae74096629b4d018f77d55316ceadd21634751e481bd1afc85e7e743603c5822ba19d1d5689a8cb0c35e5147fe3fc559f6c8ea5f4a1960ec84d9aea46771bf7958b22306cf58d3d3c519e330520d36a2c298b98c1fee15e25f68f49a8dbf6f640cbb028ec59886649acec7848ef4c7c407cbbb42da50ee4df4acad0291ea",
+                "valid": true
+              },
+              "serial_number_hex": "0451594b21e25fdfc83bdce66dfd79f0"
+            },
+            "names": [
+              "bit.ly",
+              "www.bit.ly"
+            ],
+            "validation_level": "ev",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614",
+                      "a0d609a7e3c434e878a9a1c1bd065b8dcf33aa7efee1b11bc75cce5e5a042080",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614",
+                      "caf8ad697f7bda712ab127a8ad8b83f74a91a0de1784a1b483fef9ac79b67513",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614",
+                      "0ba8c0d459b76abc0825294f565e24f4f169d4a4819d0692d371522d297724b8",
+                      "2399561127a57125de8cefea610ddf2fa078b5c8067f4e828290bfb860e84b3c"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614",
+                      "a0d609a7e3c434e878a9a1c1bd065b8dcf33aa7efee1b11bc75cce5e5a042080",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614",
+                      "a0d609a7e3c434e878a9a1c1bd065b8dcf33aa7efee1b11bc75cce5e5a042080",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614",
+                      "caf8ad697f7bda712ab127a8ad8b83f74a91a0de1784a1b483fef9ac79b67513",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614",
+                      "a0d609a7e3c434e878a9a1c1bd065b8dcf33aa7efee1b11bc75cce5e5a042080",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614",
+                      "caf8ad697f7bda712ab127a8ad8b83f74a91a0de1784a1b483fef9ac79b67513",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 2326255302,
+                  "added_to_ct_at": "2026-02-01T07:25:16Z",
+                  "ct_to_censys_at": "2026-02-01T08:13:22Z"
+                },
+                "comodo_dodo": {
+                  "index": 237801080,
+                  "added_to_ct_at": "2025-03-29T00:08:54Z",
+                  "ct_to_censys_at": "2025-03-29T00:18:48Z"
+                },
+                "comodo_mammoth_2026_h1": {
+                  "index": 11134547,
+                  "added_to_ct_at": "2025-03-27T13:49:01Z",
+                  "ct_to_censys_at": "2025-05-10T22:35:58Z"
+                },
+                "comodo_sabre_2026_h1": {
+                  "index": 12003413,
+                  "added_to_ct_at": "2025-03-27T13:49:04Z",
+                  "ct_to_censys_at": "2025-05-10T08:41:57Z"
+                },
+                "google_argon_2026_h1": {
+                  "index": 74542732,
+                  "added_to_ct_at": "2025-03-27T05:26:23Z",
+                  "ct_to_censys_at": "2025-05-13T03:04:44Z"
+                },
+                "google_xenon_2026_h1": {
+                  "index": 56505222,
+                  "added_to_ct_at": "2025-03-27T05:26:23Z",
+                  "ct_to_censys_at": "2025-05-19T15:29:52Z"
+                },
+                "letsencrypt_ct_oak_2026_h1": {
+                  "index": 23357889,
+                  "added_to_ct_at": "2025-03-27T11:10:54Z",
+                  "ct_to_censys_at": "2025-05-10T02:38:44Z"
+                },
+                "letsencrypt_ct_sycamore_2026_h1": {
+                  "index": 18407,
+                  "added_to_ct_at": "2025-09-09T11:20:07Z",
+                  "ct_to_censys_at": "2025-12-12T14:50:05Z"
+                },
+                "letsencrypt_ct_willow_2026_h1": {
+                  "index": 18411,
+                  "added_to_ct_at": "2025-09-09T11:20:06Z",
+                  "ct_to_censys_at": "2025-12-12T14:50:10Z"
+                },
+                "sectigo_elephant_2026_h1": {
+                  "index": 4396392,
+                  "added_to_ct_at": "2025-03-27T05:26:35Z",
+                  "ct_to_censys_at": "2025-03-27T05:34:34Z"
+                },
+                "sectigo_tiger_2026_h1": {
+                  "index": 3484365,
+                  "added_to_ct_at": "2025-03-27T11:11:03Z",
+                  "ct_to_censys_at": "2025-03-27T11:13:28Z"
+                },
+                "trustasia_log_2026_a": {
+                  "index": 3702722,
+                  "added_to_ct_at": "2025-03-30T19:20:05Z",
+                  "ct_to_censys_at": "2025-05-10T08:10:50Z"
+                },
+                "trustasia_log_2026_b": {
+                  "index": 9324274,
+                  "added_to_ct_at": "2025-03-27T13:49:08Z",
+                  "ct_to_censys_at": "2025-05-11T09:33:07Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2025-03-27T00:03:33Z",
+            "modified_at": "2026-02-01T08:13:22Z",
+            "validated_at": "2026-02-13T03:01:20Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "9a7d356351892fca3242687771f142891bd0f9c882f062cc302569d4f4b322a2",
+            "parent_spki_subject_fingerprint_sha256": "0b61a7579cd975e4228a985b17cc38e3db504e669e4322423ab2a062d46535e1"
+          },
+          "software": [
+            {
+              "vendor": "f5",
+              "product": "nginx"
+            }
+          ],
+          "ip": "67.199.248.11",
+          "scan_time": "2026-02-13T14:55:38Z",
+          "tls": {
+            "fingerprint_sha256": "cc0ff8a443b829365346ba3fc0c93f062d63ef36ed7f997e0ff6f0a2701cf175",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614",
+                "subject_dn": "C=US, O=DigiCert Inc, CN=DigiCert EV RSA CA G2",
+                "issuer_dn": "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root G2"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "67.199.248.11",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T14:55:38Z",
+              "http": {
+                "uri": "https://67.199.248.11/",
+                "protocol": "HTTP/1.1",
+                "status_code": 302,
+                "status_reason": "Found",
+                "headers": {
+                  "Alt-Svc": {
+                    "headers": [
+                      "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "111"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html; charset=utf-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "nginx"
+                    ]
+                  },
+                  "Via": {
+                    "headers": [
+                      "1.1 google, 1.1 google"
+                    ]
+                  },
+                  "cache-control": {
+                    "headers": [
+                      "no-cache, no-store, max-age=0, must-revalidate"
+                    ]
+                  },
+                  "location": {
+                    "headers": [
+                      "https://bitly.com/pages/landing/branded-short-domains-powered-by-bitly?bsd=67.199.248.11"
+                    ]
+                  },
+                  "pragma": {
+                    "headers": [
+                      "no-cache"
+                    ]
+                  },
+                  "x-frame-options": {
+                    "headers": [
+                      "DENY"
+                    ]
+                  }
+                },
+                "body_size": 111,
+                "body": "<a href=\"https://bitly.com/pages/landing/branded-short-domains-powered-by-bitly?bsd=67.199.248.11\">Found</a>.\n\n",
+                "body_hash_sha256": "4d19f2034d34f48f2e61bebc81dc759533c7f5ca6c5ebc0d474080defbff4d29",
+                "body_hash_sha1": "9b4ff5fc18f78289452adf10a8bdfb357b67fa0f",
+                "supported_versions": [
+                  "HTTP/1.1",
+                  "HTTP/2"
+                ],
+                "redirect_chain": [
+                  {
+                    "hostname": "bitly.com",
+                    "port": 443,
+                    "transport_protocol": "tcp",
+                    "path": "/pages/landing/branded-short-domains-powered-by-bitly",
+                    "reason": "HTTP_3XX"
+                  }
+                ]
+              },
+              "ip": "67.199.248.11"
+            },
+            {
+              "hostname": "67.199.248.11",
+              "port": 443,
+              "path": "/robots.txt",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T02:25:14Z",
+              "http": {
+                "uri": "https://67.199.248.11/robots.txt",
+                "protocol": "HTTP/1.1",
+                "status_code": 200,
+                "status_reason": "OK",
+                "headers": {
+                  "Accept-Ranges": {
+                    "headers": [
+                      "bytes"
+                    ]
+                  },
+                  "Alt-Svc": {
+                    "headers": [
+                      "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+                    ]
+                  },
+                  "Cache-Control": {
+                    "headers": [
+                      "max-age=86400"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "123"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/plain"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "ETag": {
+                    "headers": [
+                      "\"67a292e0-7b\""
+                    ]
+                  },
+                  "Expires": {
+                    "headers": [
+                      "Sat, 14 Feb 2026 02:25:14 GMT"
+                    ]
+                  },
+                  "Last-Modified": {
+                    "headers": [
+                      "Tue, 04 Feb 2025 22:21:20 GMT"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "nginx"
+                    ]
+                  },
+                  "Via": {
+                    "headers": [
+                      "1.1 google"
+                    ]
+                  }
+                },
+                "body_size": 123,
+                "body": "# Welcome to Bitly =)\n# robots welcome;\n# API documentation can be found at https://dev.bitly.com/\nUser-Agent: *\nDisallow:\n",
+                "favicons": [
+                  {
+                    "size": 5430,
+                    "name": "https://67.199.248.11/favicon.ico",
+                    "hash_sha256": "4260c4ca799132f04bfa7af774c1a5f4ac12b775e21d380884d7d08b35270679",
+                    "hash_md5": "ce0260c17b7f1dbdb7726ef7e8fd8c7a",
+                    "hash_shodan": -434501501
+                  }
+                ],
+                "body_hash_sha256": "aeddaf37d71afe500676c334c63a84340d99c91651b9d41bc0c4b2f9437d6cd8",
+                "body_hash_sha1": "62117826e96392fd059ca456be89392ca3f68204",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "67.199.248.11"
+            },
+            {
+              "hostname": "67.199.248.11",
+              "port": 443,
+              "path": "/security.txt",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T06:26:25Z",
+              "http": {
+                "uri": "https://67.199.248.11/security.txt",
+                "protocol": "HTTP/1.1",
+                "status_code": 200,
+                "status_reason": "OK",
+                "headers": {
+                  "Accept-Ranges": {
+                    "headers": [
+                      "bytes"
+                    ]
+                  },
+                  "Alt-Svc": {
+                    "headers": [
+                      "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+                    ]
+                  },
+                  "Cache-Control": {
+                    "headers": [
+                      "max-age=86400"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "95"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/plain"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "ETag": {
+                    "headers": [
+                      "\"67a292e0-5f\""
+                    ]
+                  },
+                  "Expires": {
+                    "headers": [
+                      "Sat, 14 Feb 2026 06:26:27 GMT"
+                    ]
+                  },
+                  "Last-Modified": {
+                    "headers": [
+                      "Tue, 04 Feb 2025 22:21:20 GMT"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "nginx"
+                    ]
+                  },
+                  "Via": {
+                    "headers": [
+                      "1.1 google"
+                    ]
+                  }
+                },
+                "body_size": 95,
+                "body": "Contact: security@bitly.com\nEncryption: https://bitly.com/security_pgp.txt\nDisclosure: Partial\n",
+                "favicons": [
+                  {
+                    "size": 5430,
+                    "name": "https://67.199.248.11/favicon.ico",
+                    "hash_sha256": "4260c4ca799132f04bfa7af774c1a5f4ac12b775e21d380884d7d08b35270679",
+                    "hash_md5": "ce0260c17b7f1dbdb7726ef7e8fd8c7a",
+                    "hash_shodan": -434501501
+                  }
+                ],
+                "body_hash_sha256": "156a9e4b0ec998998b14f0c3228e91cb8c47f73cf9fac684ccfd9c600f2a6dd6",
+                "body_hash_sha1": "221ac4d0e23fa0d6b0079fc4ff4d86c2aadaf6f5",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "67.199.248.11"
+            }
+          ]
+        }
+      ],
+      "service_count": 3,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-02-12T10:21:18Z",
+          "names": [
+            "bit.ly"
+          ]
+        },
+        "names": [
+          "www.bit.ly",
+          "bit.ly"
+        ],
+        "forward_dns": {
+          "bit.ly": {
+            "resolve_time": "2026-01-14T16:56:31Z",
+            "name": "bit.ly",
+            "record_type": "a"
+          },
+          "www.bit.ly": {
+            "resolve_time": "2026-01-15T19:48:06Z",
+            "name": "www.bit.ly",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

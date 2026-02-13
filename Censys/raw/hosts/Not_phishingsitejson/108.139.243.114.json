@@ -1,0 +1,177 @@
+{
+  "result": {
+    "resource": {
+      "ip": "108.139.243.114",
+      "location": {
+        "continent": "Europe",
+        "country": "Italy",
+        "country_code": "IT",
+        "city": "Milan",
+        "postal_code": "20121",
+        "timezone": "Europe/Rome",
+        "province": "Lombardy",
+        "coordinates": {
+          "latitude": 45.46427,
+          "longitude": 9.18951
+        }
+      },
+      "autonomous_system": {
+        "asn": 16509,
+        "description": "AMAZON-02 - Amazon.com, Inc.",
+        "bgp_prefix": "108.139.240.0/21",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "country_code": "US"
+      },
+      "whois": {
+        "network": {
+          "handle": "AMAZON-CF",
+          "name": "Amazon.com, Inc.",
+          "cidrs": [
+            "108.138.0.0/15"
+          ],
+          "created": "2021-05-03T00:00:00Z",
+          "updated": "2021-05-03T00:00:00Z",
+          "allocation_type": "REALLOCATION"
+        },
+        "organization": {
+          "handle": "AMAZON-4",
+          "name": "Amazon.com, Inc.",
+          "street": "1918 8th Ave",
+          "city": "SEATTLE",
+          "state": "WA",
+          "postal_code": "98101-1244",
+          "country": "US",
+          "abuse_contacts": [
+            {
+              "handle": "AEA8-ARIN",
+              "name": "Amazon EC2 Abuse",
+              "email": "trustandsafety@support.aws.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "IPMAN40-ARIN",
+              "name": "IP Management",
+              "email": "ipmanagement@amazon.com"
+            }
+          ],
+          "tech_contacts": [
+            {
+              "handle": "ANO24-ARIN",
+              "name": "Amazon EC2 Network Operations",
+              "email": "amzn-noc-contact@amazon.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "amazon",
+              "product": "cloudfront_load_balancer"
+            }
+          ],
+          "ip": "108.139.243.114",
+          "scan_time": "2026-02-13T03:24:45Z",
+          "endpoints": [
+            {
+              "hostname": "108.139.243.114",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T03:24:45Z",
+              "http": {
+                "uri": "http://108.139.243.114/",
+                "protocol": "HTTP/1.1",
+                "status_code": 403,
+                "status_reason": "Forbidden",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "915"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "CloudFront"
+                    ]
+                  },
+                  "Via": {
+                    "headers": [
+                      "1.1 f0c44fcb623b0b5d0059f8c13f9793b0.cloudfront.net (CloudFront)"
+                    ]
+                  },
+                  "X-Amz-Cf-Id": {
+                    "headers": [
+                      "4zZBa7Onq6fz_YyckVrVpdkezFi4lEnQf9IvFiV84PYlkXmrzuD8bQ=="
+                    ]
+                  },
+                  "X-Amz-Cf-Pop": {
+                    "headers": [
+                      "MXP63-P3"
+                    ]
+                  },
+                  "X-Cache": {
+                    "headers": [
+                      "Error from cloudfront"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<TITLE>ERROR: The request could not be satisfied</TITLE>",
+                  "<META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\">"
+                ],
+                "body_size": 915,
+                "body": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">\n<HTML><HEAD><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\">\n<TITLE>ERROR: The request could not be satisfied</TITLE>\n</HEAD><BODY>\n<H1>403 ERROR</H1>\n<H2>The request could not be satisfied.</H2>\n<HR noshade size=\"1px\">\nBad request.\nWe can't connect to the server for this app or website at this time. There might be too much traffic or a configuration error. Try again later, or contact the app or website owner.\n<BR clear=\"all\">\nIf you provide content to customers through CloudFront, you can find steps to troubleshoot and help prevent this error by reviewing the CloudFront documentation.\n<BR clear=\"all\">\n<HR noshade size=\"1px\">\n<PRE>\nGenerated by cloudfront (CloudFront)\nRequest ID: 4zZBa7Onq6fz_YyckVrVpdkezFi4lEnQf9IvFiV84PYlkXmrzuD8bQ==\n</PRE>\n<ADDRESS>\n</ADDRESS>\n</BODY></HTML>",
+                "html_title": "ERROR: The request could not be satisfied",
+                "body_hash_sha256": "40586eff28b56b69840925bb438e8b58f726fbdcc07031197682ce981b55074b",
+                "body_hash_sha1": "e8c1777b1315818d3ab797dd6b738269a01e576b",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "108.139.243.114"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "UNKNOWN",
+          "transport_protocol": "tcp",
+          "ip": "108.139.243.114",
+          "scan_time": "2026-02-12T19:22:26Z"
+        }
+      ],
+      "service_count": 2,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-02-08T16:27:58Z",
+          "names": [
+            "server-108-139-243-114.mxp63.r.cloudfront.net"
+          ]
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

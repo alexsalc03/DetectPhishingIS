@@ -1,0 +1,187 @@
+{
+  "result": {
+    "resource": {
+      "ip": "13.32.220.58",
+      "location": {
+        "continent": "Europe",
+        "country": "Italy",
+        "country_code": "IT",
+        "city": "Samarate",
+        "postal_code": "21017",
+        "timezone": "Europe/Rome",
+        "province": "Lombardy",
+        "coordinates": {
+          "latitude": 45.6241,
+          "longitude": 8.78507
+        }
+      },
+      "autonomous_system": {
+        "asn": 16509,
+        "description": "AMAZON-02 - Amazon.com, Inc.",
+        "bgp_prefix": "13.32.216.0/21",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "country_code": "US"
+      },
+      "whois": {
+        "network": {
+          "handle": "AMAZO-CF",
+          "name": "Amazon.com, Inc.",
+          "cidrs": [
+            "13.32.0.0/15"
+          ],
+          "created": "2018-05-08T00:00:00Z",
+          "updated": "2021-02-10T00:00:00Z",
+          "allocation_type": "REALLOCATION"
+        },
+        "organization": {
+          "handle": "AMAZON-4",
+          "name": "Amazon.com, Inc.",
+          "street": "1918 8th Ave",
+          "city": "SEATTLE",
+          "state": "WA",
+          "postal_code": "98101-1244",
+          "country": "US",
+          "abuse_contacts": [
+            {
+              "handle": "AEA8-ARIN",
+              "name": "Amazon EC2 Abuse",
+              "email": "trustandsafety@support.aws.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "IPMAN40-ARIN",
+              "name": "IP Management",
+              "email": "ipmanagement@amazon.com"
+            }
+          ],
+          "tech_contacts": [
+            {
+              "handle": "ANO24-ARIN",
+              "name": "Amazon EC2 Network Operations",
+              "email": "amzn-noc-contact@amazon.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "amazon",
+              "product": "cloudfront_load_balancer"
+            }
+          ],
+          "ip": "13.32.220.58",
+          "scan_time": "2026-02-13T08:47:11Z",
+          "endpoints": [
+            {
+              "hostname": "13.32.220.58",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T08:47:11Z",
+              "http": {
+                "uri": "http://13.32.220.58/",
+                "protocol": "HTTP/1.1",
+                "status_code": 403,
+                "status_reason": "Forbidden",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "915"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "CloudFront"
+                    ]
+                  },
+                  "Via": {
+                    "headers": [
+                      "1.1 00ad10994434a1e80075ff87851a8f64.cloudfront.net (CloudFront)"
+                    ]
+                  },
+                  "X-Amz-Cf-Id": {
+                    "headers": [
+                      "OeH-_XeRbv2KnNYKq9mgZ3I18o5s96yBq3QfOjkD-g3buUOhjj86Nw=="
+                    ]
+                  },
+                  "X-Amz-Cf-Pop": {
+                    "headers": [
+                      "MXP63-P5"
+                    ]
+                  },
+                  "X-Cache": {
+                    "headers": [
+                      "Error from cloudfront"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<TITLE>ERROR: The request could not be satisfied</TITLE>",
+                  "<META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\">"
+                ],
+                "body_size": 915,
+                "body": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">\n<HTML><HEAD><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\">\n<TITLE>ERROR: The request could not be satisfied</TITLE>\n</HEAD><BODY>\n<H1>403 ERROR</H1>\n<H2>The request could not be satisfied.</H2>\n<HR noshade size=\"1px\">\nBad request.\nWe can't connect to the server for this app or website at this time. There might be too much traffic or a configuration error. Try again later, or contact the app or website owner.\n<BR clear=\"all\">\nIf you provide content to customers through CloudFront, you can find steps to troubleshoot and help prevent this error by reviewing the CloudFront documentation.\n<BR clear=\"all\">\n<HR noshade size=\"1px\">\n<PRE>\nGenerated by cloudfront (CloudFront)\nRequest ID: OeH-_XeRbv2KnNYKq9mgZ3I18o5s96yBq3QfOjkD-g3buUOhjj86Nw==\n</PRE>\n<ADDRESS>\n</ADDRESS>\n</BODY></HTML>",
+                "html_title": "ERROR: The request could not be satisfied",
+                "body_hash_sha256": "dae8c616e85427a61285d621a789400c384968dfb0f3bcd89a6377138709cf88",
+                "body_hash_sha1": "1fde07846f44038f64ebbdfc6ee825fa3a5580bc",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "13.32.220.58"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "UNKNOWN",
+          "transport_protocol": "tcp",
+          "ip": "13.32.220.58",
+          "scan_time": "2026-02-13T13:09:01Z"
+        }
+      ],
+      "service_count": 2,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-02-12T09:27:28Z",
+          "names": [
+            "server-13-32-220-58.mxp63.r.cloudfront.net"
+          ]
+        },
+        "names": [
+          "ecoedilesrl.com"
+        ],
+        "forward_dns": {
+          "ecoedilesrl.com": {
+            "resolve_time": "2026-02-06T12:24:42Z",
+            "name": "ecoedilesrl.com",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

@@ -1,0 +1,823 @@
+{
+  "result": {
+    "resource": {
+      "ip": "35.186.224.24",
+      "location": {
+        "continent": "North America",
+        "country": "United States",
+        "country_code": "US",
+        "city": "Kansas City",
+        "postal_code": "64106",
+        "timezone": "America/Chicago",
+        "province": "Missouri",
+        "coordinates": {
+          "latitude": 39.09973,
+          "longitude": -94.57857
+        }
+      },
+      "autonomous_system": {
+        "asn": 396982,
+        "description": "GOOGLE-CLOUD-PLATFORM - Google LLC",
+        "bgp_prefix": "35.186.0.0/16",
+        "name": "GOOGLE-CLOUD-PLATFORM - Google LLC",
+        "country_code": "US"
+      },
+      "whois": {
+        "network": {
+          "handle": "GOOGLE-CLOUD",
+          "name": "Google LLC",
+          "cidrs": [
+            "35.184.0.0/13"
+          ],
+          "created": "2016-10-11T00:00:00Z",
+          "updated": "2016-10-17T00:00:00Z",
+          "allocation_type": "ALLOCATION"
+        },
+        "organization": {
+          "handle": "GOOGL-2",
+          "name": "Google LLC",
+          "street": "1600 Amphitheatre Parkway",
+          "city": "Mountain View",
+          "state": "CA",
+          "postal_code": "94043",
+          "country": "US",
+          "abuse_contacts": [
+            {
+              "handle": "GCABU-ARIN",
+              "name": "GC Abuse",
+              "email": "google-cloud-compliance@google.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "ZG39-ARIN",
+              "name": "Google LLC",
+              "email": "arin-contact@google.com"
+            }
+          ],
+          "tech_contacts": [
+            {
+              "handle": "ZG39-ARIN",
+              "name": "Google LLC",
+              "email": "arin-contact@google.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "envoy_proxy",
+              "product": "envoy"
+            }
+          ],
+          "ip": "35.186.224.24",
+          "scan_time": "2026-02-12T19:55:09Z",
+          "endpoints": [
+            {
+              "hostname": "35.186.224.24",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-12T19:55:09Z",
+              "http": {
+                "uri": "http://35.186.224.24/",
+                "protocol": "HTTP/1.1",
+                "status_code": 301,
+                "status_reason": "Moved Permanently",
+                "headers": {
+                  "Content-Length": {
+                    "headers": [
+                      "0"
+                    ]
+                  },
+                  "date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "location": {
+                    "headers": [
+                      "https://35.186.224.24/"
+                    ]
+                  },
+                  "server": {
+                    "headers": [
+                      "envoy"
+                    ]
+                  },
+                  "via": {
+                    "headers": [
+                      "1.1 google"
+                    ]
+                  }
+                },
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "35.186.224.24"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "9cbfea8c000af1939295d02206b2426ba4e547010d5960a13903e469c2b7d582",
+            "fingerprint_sha1": "50b7abe5ac3ebd052bb1064c509187cdf612ab2c",
+            "fingerprint_md5": "a04dfc7de7fca4f0e17135cfee88a783",
+            "tbs_fingerprint_sha256": "05180498b24d10cb2a5a12ce0598b4a9d2185983c8e4a09b0977e3be7f92c0e4",
+            "tbs_no_ct_fingerprint_sha256": "6ddf2354481feb9df84aa7791a661b3386071f2c5634d8a32c07be851798a264",
+            "spki_fingerprint_sha256": "e556b6a446e960b794633ee23fe25953ee19061ba600e9667db353b4342555b2",
+            "parent_spki_fingerprint_sha256": "f737aa26549dce01eb1dc2e8ce19ecb6692f4f439c946f3b7fae0b7abb3d87d7",
+            "parsed": {
+              "version": 3,
+              "serial_number": "12259011073710021341307230048842693809",
+              "issuer_dn": "C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+              "issuer": {
+                "common_name": [
+                  "DigiCert Global G2 TLS RSA SHA256 2020 CA1"
+                ],
+                "country": [
+                  "US"
+                ],
+                "organization": [
+                  "DigiCert Inc"
+                ]
+              },
+              "subject_dn": "C=SE, L=Stockholm, O=Spotify AB, CN=canary-certificate-for-noop.spotify.com",
+              "subject": {
+                "common_name": [
+                  "canary-certificate-for-noop.spotify.com"
+                ],
+                "country": [
+                  "SE"
+                ],
+                "locality": [
+                  "Stockholm"
+                ],
+                "organization": [
+                  "Spotify AB"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "ECDSA",
+                  "oid": "1.2.840.10045.2.1"
+                },
+                "ecdsa": {
+                  "b": "5ac635d8aa3a93e7b3ebbd55769886bc651d06b0cc53b0f63bce3c3e27d2604b",
+                  "curve": "P-256",
+                  "gx": "6b17d1f2e12c4247f8bce6e563a440f277037d812deb33a0f4a13945d898c296",
+                  "gy": "4fe342e2fe1a7f9b8ee7eb4a7c0f9e162bce33576b315ececbb6406837bf51f5",
+                  "length": 256,
+                  "n": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+                  "p": "ffffffff00000001000000000000000000000000ffffffffffffffffffffffff",
+                  "pub": "0497e14d810e36f197835ea76b5cfb5f8b75c3a6cd3a7828b09201e4e41914c42fa7328a6a92e573ce256695af63d0e6e8e315ce3cc8eeb55a584593cb92267c58",
+                  "x": "97e14d810e36f197835ea76b5cfb5f8b75c3a6cd3a7828b09201e4e41914c42f",
+                  "y": "a7328a6a92e573ce256695af63d0e6e8e315ce3cc8eeb55a584593cb92267c58"
+                },
+                "fingerprint_sha256": "ae103d0b2ec606e308070de471368a7f2265e2788b2546e1c0607621ed29ef7a"
+              },
+              "validity_period": {
+                "not_before": "2026-02-09T00:00:00Z",
+                "not_after": "2026-03-17T23:59:59Z",
+                "length_seconds": 3196800
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "SHA256-RSA",
+                  "oid": "1.2.840.113549.1.1.11"
+                },
+                "value": "336b73ce27cb6668c60dfa9768ad42a94386da3051a1841e35b08c34f7db63c76fc1cd441c1ffdf14f7545561b31fb8591b060953099d092d6b51a9756f1bb01d104ba1a8696cf8ac7d516ff4ecac8d1a1129c8e6c4f29bf7d8ffce1578f5de7077656d6bba14e135cdc00c19167a6725ee0a43c7d8012aebf8a17d96ac8b5025c0919c054709228a02982a36f586e8ed34b0a8c4155a2746c6f1519fc2e353e84612114f934d8e14851ee862cb98935ca5def0101d4aac04a9560e938c8ed09a7fd3e6af8785082d1b297ed3e22b559ba889a0f95f14b57b0faf8a7665ee1034a8d2f38e97bf0857bbb307f199cb63a7bc0412e6795b0501eba63978fc86ace",
+                "valid": true
+              },
+              "serial_number_hex": "0938ffe929ddce117653d3fcaeec3cb1"
+            },
+            "names": [
+              "canary-certificate-for-noop.spotify.com"
+            ],
+            "validation_level": "ov",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "a0d609a7e3c434e878a9a1c1bd065b8dcf33aa7efee1b11bc75cce5e5a042080",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                  "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "0ba8c0d459b76abc0825294f565e24f4f169d4a4819d0692d371522d297724b8",
+                      "2399561127a57125de8cefea610ddf2fa078b5c8067f4e828290bfb860e84b3c"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                  "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "a0d609a7e3c434e878a9a1c1bd065b8dcf33aa7efee1b11bc75cce5e5a042080",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                  "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "a0d609a7e3c434e878a9a1c1bd065b8dcf33aa7efee1b11bc75cce5e5a042080",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                  "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2026-02-09T12:53:44Z",
+            "modified_at": "2026-02-09T12:53:44Z",
+            "validated_at": "2026-02-13T02:00:52Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "e556b6a446e960b794633ee23fe25953ee19061ba600e9667db353b4342555b2",
+            "parent_spki_subject_fingerprint_sha256": "f737aa26549dce01eb1dc2e8ce19ecb6692f4f439c946f3b7fae0b7abb3d87d7"
+          },
+          "software": [
+            {
+              "vendor": "envoy_proxy",
+              "product": "envoy"
+            }
+          ],
+          "ip": "35.186.224.24",
+          "scan_time": "2026-02-13T14:23:46Z",
+          "tls": {
+            "fingerprint_sha256": "9cbfea8c000af1939295d02206b2426ba4e547010d5960a13903e469c2b7d582",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9",
+                "subject_dn": "C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+                "issuer_dn": "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root G2"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "35.186.224.24",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T14:23:46Z",
+              "http": {
+                "uri": "https://35.186.224.24/",
+                "protocol": "HTTP/1.1",
+                "status_code": 404,
+                "status_reason": "Not Found",
+                "headers": {
+                  "Alt-Svc": {
+                    "headers": [
+                      "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "0"
+                    ]
+                  },
+                  "date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "server": {
+                    "headers": [
+                      "envoy"
+                    ]
+                  },
+                  "vary": {
+                    "headers": [
+                      "Accept-Encoding"
+                    ]
+                  },
+                  "via": {
+                    "headers": [
+                      "HTTP/2 edgeproxy, 1.1 google"
+                    ]
+                  }
+                },
+                "supported_versions": [
+                  "HTTP/1.1",
+                  "HTTP/2"
+                ]
+              },
+              "ip": "35.186.224.24"
+            }
+          ]
+        }
+      ],
+      "service_count": 2,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-02-13T15:31:27Z",
+          "names": [
+            "24.224.186.35.bc.googleusercontent.com"
+          ]
+        },
+        "names": [
+          "chrt.fm",
+          "www.songwritingstudios.byspotify.com",
+          "chrtnotchtbl.com",
+          "feeds-origin.megaphone.fm",
+          "www.infocus.byspotify.com",
+          "spotify-edge.megaphone.fm",
+          "inapp-support.spotify.com",
+          "accounts.spotify.com",
+          "status.spotify.net",
+          "apresolve.spotify.com",
+          "www.clips.byspotify.com",
+          "api-partner.spotify.com",
+          "dai-traffic.spotify.com",
+          "traffic.megaphone.fm",
+          "signup.megaphone.fm",
+          "challenge.spotify.com",
+          "spotify.com",
+          "backstage.spotify.net",
+          "developer.spotify.com",
+          "sparta-api.spotify.com",
+          "resources.byspotify.com",
+          "api.spotify.com",
+          "podcasters.spotify.com",
+          "www.noteable.spotify.com",
+          "buyspotify.xyz",
+          "ethics.atspotify.com",
+          "www.fanstudy.byspotify.com",
+          "megaphone-onboarding-web.spotify.com",
+          "adanalytics.spotify.com",
+          "beta.developer.spotify.com",
+          "notary.spotify.com",
+          "chtbl.com",
+          "login5.spotify.com",
+          "www.canvas.spotify.com",
+          "www.ads.spotify.com",
+          "canvas.spotify.com",
+          "slackin.spotify.com",
+          "adssea.byspotify.com",
+          "decrepitos.com",
+          "spclient.wg.spotify.com",
+          "wg.spotify.com",
+          "music.nickkizirnis.com",
+          "support.spotify.com",
+          "infocus.byspotify.com",
+          "megaphone.link",
+          "confidence.spotify.com",
+          "www.resources.byspotify.com",
+          "creator.wg.spotify.com",
+          "clips.byspotify.com",
+          "ads.spotify.com",
+          "noteable.spotify.com",
+          "crashdump.spotify.com",
+          "coverart.spotify.com",
+          "clienttoken.spotify.com"
+        ],
+        "forward_dns": {
+          "accounts.spotify.com": {
+            "resolve_time": "2026-02-10T13:01:28Z",
+            "name": "accounts.spotify.com",
+            "record_type": "a"
+          },
+          "adanalytics.spotify.com": {
+            "resolve_time": "2026-01-28T12:28:29Z",
+            "name": "adanalytics.spotify.com",
+            "record_type": "a"
+          },
+          "ads.spotify.com": {
+            "resolve_time": "2026-01-10T17:30:58Z",
+            "name": "ads.spotify.com",
+            "record_type": "a"
+          },
+          "adssea.byspotify.com": {
+            "resolve_time": "2026-01-26T13:34:24Z",
+            "name": "adssea.byspotify.com",
+            "record_type": "a"
+          },
+          "api-partner.spotify.com": {
+            "resolve_time": "2026-02-08T22:17:03Z",
+            "name": "api-partner.spotify.com",
+            "record_type": "a"
+          },
+          "api.spotify.com": {
+            "resolve_time": "2026-02-04T12:48:29Z",
+            "name": "api.spotify.com",
+            "record_type": "a"
+          },
+          "apresolve.spotify.com": {
+            "resolve_time": "2026-02-09T15:30:39Z",
+            "name": "apresolve.spotify.com",
+            "record_type": "a"
+          },
+          "backstage.spotify.net": {
+            "resolve_time": "2026-02-06T20:14:18Z",
+            "name": "backstage.spotify.net",
+            "record_type": "a"
+          },
+          "beta.developer.spotify.com": {
+            "resolve_time": "2026-01-28T12:28:27Z",
+            "name": "beta.developer.spotify.com",
+            "record_type": "a"
+          },
+          "buyspotify.xyz": {
+            "resolve_time": "2026-02-02T12:23:53Z",
+            "name": "buyspotify.xyz",
+            "record_type": "a"
+          },
+          "canvas.spotify.com": {
+            "resolve_time": "2026-01-26T15:05:34Z",
+            "name": "canvas.spotify.com",
+            "record_type": "a"
+          },
+          "challenge.spotify.com": {
+            "resolve_time": "2026-02-07T12:54:15Z",
+            "name": "challenge.spotify.com",
+            "record_type": "a"
+          },
+          "chrt.fm": {
+            "resolve_time": "2026-02-12T12:52:03Z",
+            "name": "chrt.fm",
+            "record_type": "a"
+          },
+          "chrtnotchtbl.com": {
+            "resolve_time": "2026-02-11T14:05:55Z",
+            "name": "chrtnotchtbl.com",
+            "record_type": "a"
+          },
+          "chtbl.com": {
+            "resolve_time": "2026-01-26T20:11:12Z",
+            "name": "chtbl.com",
+            "record_type": "a"
+          },
+          "clienttoken.spotify.com": {
+            "resolve_time": "2026-01-07T18:49:47Z",
+            "name": "clienttoken.spotify.com",
+            "record_type": "a"
+          },
+          "clips.byspotify.com": {
+            "resolve_time": "2026-01-10T20:57:14Z",
+            "name": "clips.byspotify.com",
+            "record_type": "a"
+          },
+          "confidence.spotify.com": {
+            "resolve_time": "2026-01-12T19:32:43Z",
+            "name": "confidence.spotify.com",
+            "record_type": "a"
+          },
+          "coverart.spotify.com": {
+            "resolve_time": "2026-01-08T22:45:06Z",
+            "name": "coverart.spotify.com",
+            "record_type": "a"
+          },
+          "crashdump.spotify.com": {
+            "resolve_time": "2026-01-08T22:45:07Z",
+            "name": "crashdump.spotify.com",
+            "record_type": "a"
+          },
+          "creator.wg.spotify.com": {
+            "resolve_time": "2026-01-11T12:31:14Z",
+            "name": "creator.wg.spotify.com",
+            "record_type": "a"
+          },
+          "dai-traffic.spotify.com": {
+            "resolve_time": "2026-02-08T22:17:02Z",
+            "name": "dai-traffic.spotify.com",
+            "record_type": "a"
+          },
+          "decrepitos.com": {
+            "resolve_time": "2026-01-26T13:27:57Z",
+            "name": "decrepitos.com",
+            "record_type": "a"
+          },
+          "developer.spotify.com": {
+            "resolve_time": "2026-02-06T17:54:27Z",
+            "name": "developer.spotify.com",
+            "record_type": "a"
+          },
+          "ethics.atspotify.com": {
+            "resolve_time": "2026-01-28T19:21:25Z",
+            "name": "ethics.atspotify.com",
+            "record_type": "a"
+          },
+          "feeds-origin.megaphone.fm": {
+            "resolve_time": "2026-02-11T13:50:37Z",
+            "name": "feeds-origin.megaphone.fm",
+            "record_type": "a"
+          },
+          "inapp-support.spotify.com": {
+            "resolve_time": "2026-02-10T13:01:29Z",
+            "name": "inapp-support.spotify.com",
+            "record_type": "a"
+          },
+          "infocus.byspotify.com": {
+            "resolve_time": "2026-01-13T13:25:24Z",
+            "name": "infocus.byspotify.com",
+            "record_type": "a"
+          },
+          "login5.spotify.com": {
+            "resolve_time": "2026-01-26T15:05:34Z",
+            "name": "login5.spotify.com",
+            "record_type": "a"
+          },
+          "megaphone-onboarding-web.spotify.com": {
+            "resolve_time": "2026-01-28T12:28:31Z",
+            "name": "megaphone-onboarding-web.spotify.com",
+            "record_type": "a"
+          },
+          "megaphone.link": {
+            "resolve_time": "2026-01-13T12:19:09Z",
+            "name": "megaphone.link",
+            "record_type": "a"
+          },
+          "music.nickkizirnis.com": {
+            "resolve_time": "2026-01-17T12:05:32Z",
+            "name": "music.nickkizirnis.com",
+            "record_type": "a"
+          },
+          "notary.spotify.com": {
+            "resolve_time": "2026-01-27T15:48:41Z",
+            "name": "notary.spotify.com",
+            "record_type": "a"
+          },
+          "noteable.spotify.com": {
+            "resolve_time": "2026-01-08T22:45:07Z",
+            "name": "noteable.spotify.com",
+            "record_type": "a"
+          },
+          "podcasters.spotify.com": {
+            "resolve_time": "2026-02-04T12:48:27Z",
+            "name": "podcasters.spotify.com",
+            "record_type": "a"
+          },
+          "resources.byspotify.com": {
+            "resolve_time": "2026-02-05T12:42:10Z",
+            "name": "resources.byspotify.com",
+            "record_type": "a"
+          },
+          "signup.megaphone.fm": {
+            "resolve_time": "2026-02-07T15:26:58Z",
+            "name": "signup.megaphone.fm",
+            "record_type": "a"
+          },
+          "slackin.spotify.com": {
+            "resolve_time": "2026-01-26T15:05:34Z",
+            "name": "slackin.spotify.com",
+            "record_type": "a"
+          },
+          "sparta-api.spotify.com": {
+            "resolve_time": "2026-02-06T17:54:26Z",
+            "name": "sparta-api.spotify.com",
+            "record_type": "a"
+          },
+          "spclient.wg.spotify.com": {
+            "resolve_time": "2026-01-24T12:19:07Z",
+            "name": "spclient.wg.spotify.com",
+            "record_type": "a"
+          },
+          "spotify-edge.megaphone.fm": {
+            "resolve_time": "2026-02-10T15:18:52Z",
+            "name": "spotify-edge.megaphone.fm",
+            "record_type": "a"
+          },
+          "spotify.com": {
+            "resolve_time": "2026-02-07T12:54:14Z",
+            "name": "spotify.com",
+            "record_type": "a"
+          },
+          "status.spotify.net": {
+            "resolve_time": "2026-02-09T17:49:39Z",
+            "name": "status.spotify.net",
+            "record_type": "a"
+          },
+          "support.spotify.com": {
+            "resolve_time": "2026-01-14T16:44:48Z",
+            "name": "support.spotify.com",
+            "record_type": "a"
+          },
+          "traffic.megaphone.fm": {
+            "resolve_time": "2026-02-07T15:26:58Z",
+            "name": "traffic.megaphone.fm",
+            "record_type": "a"
+          },
+          "wg.spotify.com": {
+            "resolve_time": "2026-01-24T12:19:07Z",
+            "name": "wg.spotify.com",
+            "record_type": "a"
+          },
+          "www.ads.spotify.com": {
+            "resolve_time": "2026-01-26T15:05:34Z",
+            "name": "www.ads.spotify.com",
+            "record_type": "a"
+          },
+          "www.canvas.spotify.com": {
+            "resolve_time": "2026-01-26T15:05:34Z",
+            "name": "www.canvas.spotify.com",
+            "record_type": "a"
+          },
+          "www.clips.byspotify.com": {
+            "resolve_time": "2026-02-09T14:07:12Z",
+            "name": "www.clips.byspotify.com",
+            "record_type": "a"
+          },
+          "www.fanstudy.byspotify.com": {
+            "resolve_time": "2026-01-28T16:09:25Z",
+            "name": "www.fanstudy.byspotify.com",
+            "record_type": "a"
+          },
+          "www.infocus.byspotify.com": {
+            "resolve_time": "2026-02-10T22:13:19Z",
+            "name": "www.infocus.byspotify.com",
+            "record_type": "a"
+          },
+          "www.noteable.spotify.com": {
+            "resolve_time": "2026-02-04T12:48:26Z",
+            "name": "www.noteable.spotify.com",
+            "record_type": "a"
+          },
+          "www.resources.byspotify.com": {
+            "resolve_time": "2026-01-12T18:09:18Z",
+            "name": "www.resources.byspotify.com",
+            "record_type": "a"
+          },
+          "www.songwritingstudios.byspotify.com": {
+            "resolve_time": "2026-02-11T15:53:53Z",
+            "name": "www.songwritingstudios.byspotify.com",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

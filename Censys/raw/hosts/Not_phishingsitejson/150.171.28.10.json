@@ -1,0 +1,1127 @@
+{
+  "result": {
+    "resource": {
+      "ip": "150.171.28.10",
+      "location": {
+        "continent": "North America",
+        "country": "United States",
+        "country_code": "US",
+        "city": "Redmond",
+        "postal_code": "98052",
+        "timezone": "America/Los_Angeles",
+        "province": "Washington",
+        "coordinates": {
+          "latitude": 47.67399,
+          "longitude": -122.12151
+        }
+      },
+      "autonomous_system": {
+        "asn": 8075,
+        "description": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "bgp_prefix": "150.171.0.0/16",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "country_code": "US"
+      },
+      "whois": {
+        "network": {
+          "handle": "MSFT",
+          "name": "Microsoft Corporation",
+          "cidrs": [
+            "150.171.0.0/16"
+          ],
+          "created": "2015-11-24T00:00:00Z",
+          "updated": "2021-12-14T00:00:00Z",
+          "allocation_type": "ALLOCATION"
+        },
+        "organization": {
+          "handle": "MSFT",
+          "name": "Microsoft Corporation",
+          "street": "One Microsoft Way",
+          "city": "Redmond",
+          "state": "WA",
+          "postal_code": "98052",
+          "country": "US",
+          "abuse_contacts": [
+            {
+              "handle": "MAC74-ARIN",
+              "name": "Microsoft Abuse Contact",
+              "email": "abuse@microsoft.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "IPHOS5-ARIN",
+              "name": "IPHostmaster IPHostmaster",
+              "email": "iphostmaster@microsoft.com"
+            }
+          ],
+          "tech_contacts": [
+            {
+              "handle": "BEDAR6-ARIN",
+              "name": "Dawn Bedard",
+              "email": "dabedard@microsoft.com"
+            },
+            {
+              "handle": "IPHOS5-ARIN",
+              "name": "IPHostmaster IPHostmaster",
+              "email": "iphostmaster@microsoft.com"
+            },
+            {
+              "handle": "MRPD-ARIN",
+              "name": "Microsoft Routing, Peering, and DNS",
+              "email": "IOC@microsoft.com"
+            },
+            {
+              "handle": "SINGH683-ARIN",
+              "name": "Prachi Singh",
+              "email": "pracsin@microsoft.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "ip": "150.171.28.10",
+          "scan_time": "2026-02-13T11:47:52Z",
+          "endpoints": [
+            {
+              "hostname": "150.171.28.10",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T11:47:52Z",
+              "http": {
+                "uri": "http://150.171.28.10/",
+                "protocol": "HTTP/1.1",
+                "status_code": 400,
+                "status_reason": "Bad Request",
+                "headers": {
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Transfer-Encoding": {
+                    "headers": [
+                      "chunked"
+                    ]
+                  },
+                  "X-MSEdge-Ref": {
+                    "headers": [
+                      "0Yw+PaQAAAACFGaLQiiIdTpqTlEQwCiupQ0hHRURHRTE3MDYARWRnZQ=="
+                    ]
+                  }
+                },
+                "body_size": 194,
+                "body": "<h2>Our services aren't available right now</h2><p>We're working to restore all services as soon as possible. Please check back soon.</p>0Yw+PaQAAAACFGaLQiiIdTpqTlEQwCiupQ0hHRURHRTE3MDYARWRnZQ==",
+                "body_hash_sha256": "d91736a8b391db7288273a3f063978b20900b13531d597df5b50e3cef2cd3c12",
+                "body_hash_sha1": "8a2e91007b2b071d9ad331762ede5078d8f73ef7",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "150.171.28.10"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "a306b4c5b94a415fc5806f168ac343a780de1555840064dc7b308948608d8340",
+            "fingerprint_sha1": "64e81338581150d46fbffaca5d8e1cf21e9bd252",
+            "fingerprint_md5": "ec639764edfc3ccbf7dd35b7ba340d54",
+            "tbs_fingerprint_sha256": "c5c80c77427fb1ad0cf381fe4c3f75a8ace00d978d721975ff3c450910f263d3",
+            "tbs_no_ct_fingerprint_sha256": "a0974ef0bed8d1ee8026475d7d3f58ef08ba817eba945567c5e8797f5e1513dd",
+            "spki_fingerprint_sha256": "f2e907c0196bd22910a7588b50f6186198c32dd1ce45d76606a733c3753f2f1a",
+            "parent_spki_fingerprint_sha256": "7ae75d5db90e34d95e3f79914aedc555dfd2d5aaaf15eae089bebd47390c89b9",
+            "parsed": {
+              "version": 3,
+              "serial_number": "1137598751300224047360458597090672400463184798",
+              "issuer_dn": "C=US, O=Microsoft Corporation, CN=Microsoft Azure RSA TLS Issuing CA 07",
+              "issuer": {
+                "common_name": [
+                  "Microsoft Azure RSA TLS Issuing CA 07"
+                ],
+                "country": [
+                  "US"
+                ],
+                "organization": [
+                  "Microsoft Corporation"
+                ]
+              },
+              "subject_dn": "C=US, ST=WA, L=Redmond, O=Microsoft Corporation, CN=*.azureedge.net",
+              "subject": {
+                "common_name": [
+                  "*.azureedge.net"
+                ],
+                "country": [
+                  "US"
+                ],
+                "locality": [
+                  "Redmond"
+                ],
+                "province": [
+                  "WA"
+                ],
+                "organization": [
+                  "Microsoft Corporation"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "RSA",
+                  "oid": "1.2.840.113549.1.1.1"
+                },
+                "rsa": {
+                  "exponent": 65537,
+                  "modulus": "d00db5cc1b45c559ba3a8535a44ed18687b64bd6dab36ad2df3ffde0fa631ab83729a8123f264fb592221cd6c5cb4231177bd084e3f1fb7037116fbf589b971440dd1f73c65995d6c02a3f9df5da126c2f2076d6262fbbacd9221654b55007e59b784a801711f714e240b80969c64ec71223b41947d80d2bb83ade1073d6fc9880d6e14d7b6f5d0f1cd3dbb9f2af873a641a0fa2df28f888cdc42566073621ff8898769e137457b3720d56ac50da19ecb7c7bfdb18698f536a83a4e86f1c385fe10ab491aa28876aa70cbe59c628212ab4bb0f8dbab347ef7f5ed9c6b4ed681e2553b66dd83a194de782c1542c625afb928eba55864567e65f06778338c77b1d",
+                  "length": 2048
+                },
+                "fingerprint_sha256": "7b0d9b1d2916adeba723f5acf20741fe9de17b372c9bdf565c02aec9a077fb1b"
+              },
+              "validity_period": {
+                "not_before": "2026-01-08T17:41:17Z",
+                "not_after": "2026-07-07T17:41:17Z",
+                "length_seconds": 15552001
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "SHA384-RSA",
+                  "oid": "1.2.840.113549.1.1.12"
+                },
+                "value": "5b77a5e675c6c6bff08c26578d7b86987f52bce04343e3c9983b0e0444d7459361f18c31859ba90133f72d52ee085e3f44328d075091b208e7572268cd658429be6db9e9300ad1d06fd62447344322a82c10f21c6c62aae8e7b3c1bc737deb85297ce83dfaaa78c1cec8d9b774a48e831c60ab4447f848d67bc75302b50bea8637a6986f3a7f4e9752471aed65c6e729f8740841fb0af98b64a964a5894f2080c7dad034ec8caf266a27521b6525b34a4747c391fbf30473f457217ac5cba7b0d76aa4fd0e4c447ddd39220083dfa4cb2158213b612671a471897e6c5521e7a82c4d95ab900ca84b3c4e30016a12d3a614942cf01253c6cab2a11c35742428d5ecdabf74b5f9123cec15c1c73cd8f167cc0fbf5c37d4a2f3089fdb376a9705ecb1824a5ea45ea7b01c30140b2c61923dfd563f48b16423f9bf5c9bdc11871968f233292e6eac92b8d697512fe175c4cd305623693a94eff48da3fbcb4711703320e1e5d96769c5795982fd6dcd6d261245c498016c526301ddaf7ce8b64f25638a7144f71aa2c23f9e8cbbcf7bbafc3157dd2acff02012c27d591cb3823de07d82b07c902dec69c1e96771fe11def814c3662a8aade0144acdd183ca7987f827f2d160e11cb4b9eb7394deaaeb9d0176a9cfb7eee93c1f97f01e3986f576eebb4fb59c42a99770f6210d0839ff628674da862f2bb0f9dffd8936849fe4be4aac",
+                "valid": true
+              },
+              "serial_number_hex": "3302fe439ea9b6c2d0ec04c069000002fe439e"
+            },
+            "names": [
+              "*.azureedge.net"
+            ],
+            "validation_level": "ov",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "724247794951c93f3e41711617e95ce143263e3196c345a1da78f6639749ec03",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "fbb7926a451badf516be518614a77e6e325e29819908796d807f59320f918ee2",
+                      "c741f70f4b2a8d88bf2e71c14122ef53ef10eba0cfa5e64cfa20f418853073e0"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                  "724247794951c93f3e41711617e95ce143263e3196c345a1da78f6639749ec03",
+                  "fbb7926a451badf516be518614a77e6e325e29819908796d807f59320f918ee2"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "724247794951c93f3e41711617e95ce143263e3196c345a1da78f6639749ec03",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "fbb7926a451badf516be518614a77e6e325e29819908796d807f59320f918ee2",
+                      "c741f70f4b2a8d88bf2e71c14122ef53ef10eba0cfa5e64cfa20f418853073e0"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                      "0ba8c0d459b76abc0825294f565e24f4f169d4a4819d0692d371522d297724b8",
+                      "2399561127a57125de8cefea610ddf2fa078b5c8067f4e828290bfb860e84b3c"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                  "724247794951c93f3e41711617e95ce143263e3196c345a1da78f6639749ec03",
+                  "fbb7926a451badf516be518614a77e6e325e29819908796d807f59320f918ee2"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "724247794951c93f3e41711617e95ce143263e3196c345a1da78f6639749ec03",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "fbb7926a451badf516be518614a77e6e325e29819908796d807f59320f918ee2",
+                      "c741f70f4b2a8d88bf2e71c14122ef53ef10eba0cfa5e64cfa20f418853073e0"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                  "724247794951c93f3e41711617e95ce143263e3196c345a1da78f6639749ec03",
+                  "fbb7926a451badf516be518614a77e6e325e29819908796d807f59320f918ee2"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "724247794951c93f3e41711617e95ce143263e3196c345a1da78f6639749ec03",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "fbb7926a451badf516be518614a77e6e325e29819908796d807f59320f918ee2",
+                      "c741f70f4b2a8d88bf2e71c14122ef53ef10eba0cfa5e64cfa20f418853073e0"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                  "724247794951c93f3e41711617e95ce143263e3196c345a1da78f6639749ec03",
+                  "fbb7926a451badf516be518614a77e6e325e29819908796d807f59320f918ee2"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 2302593168,
+                  "added_to_ct_at": "2026-01-30T20:46:54Z",
+                  "ct_to_censys_at": "2026-01-30T21:17:44Z"
+                },
+                "google_argon_2026_h2": {
+                  "index": 227466335,
+                  "added_to_ct_at": "2026-01-10T04:17:01Z",
+                  "ct_to_censys_at": "2026-01-10T04:18:27Z"
+                },
+                "google_xenon_2026_h2": {
+                  "index": 175495626,
+                  "added_to_ct_at": "2026-01-10T04:17:01Z",
+                  "ct_to_censys_at": "2026-01-10T04:18:28Z"
+                },
+                "letsencrypt_ct_sycamore_2026_h2": {
+                  "index": 34628563,
+                  "added_to_ct_at": "2026-01-10T04:17:01Z",
+                  "ct_to_censys_at": "2026-01-10T04:18:25Z"
+                },
+                "letsencrypt_ct_willow_2026_h2": {
+                  "index": 34493199,
+                  "added_to_ct_at": "2026-01-10T04:17:02Z",
+                  "ct_to_censys_at": "2026-01-10T04:18:26Z"
+                },
+                "sectigo_elephant_2026_h2": {
+                  "index": 106069516,
+                  "added_to_ct_at": "2026-01-10T04:17:01Z",
+                  "ct_to_censys_at": "2026-01-10T04:18:27Z"
+                },
+                "sectigo_tiger_2026_h2": {
+                  "index": 104383921,
+                  "added_to_ct_at": "2026-01-10T04:17:01Z",
+                  "ct_to_censys_at": "2026-01-10T04:18:50Z"
+                },
+                "trustasia_log_2026_a": {
+                  "index": 498361000,
+                  "added_to_ct_at": "2026-01-11T08:41:25Z",
+                  "ct_to_censys_at": "2026-01-11T08:50:21Z"
+                },
+                "trustasia_log_2026_b": {
+                  "index": 516773036,
+                  "added_to_ct_at": "2026-01-11T08:53:44Z",
+                  "ct_to_censys_at": "2026-01-11T09:06:02Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2026-01-08T18:57:07Z",
+            "modified_at": "2026-01-30T21:17:44Z",
+            "validated_at": "2026-02-13T02:28:15Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "f2e907c0196bd22910a7588b50f6186198c32dd1ce45d76606a733c3753f2f1a",
+            "parent_spki_subject_fingerprint_sha256": "7ae75d5db90e34d95e3f79914aedc555dfd2d5aaaf15eae089bebd47390c89b9"
+          },
+          "ip": "150.171.28.10",
+          "scan_time": "2026-02-12T16:54:49Z",
+          "tls": {
+            "fingerprint_sha256": "a306b4c5b94a415fc5806f168ac343a780de1555840064dc7b308948608d8340",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "724247794951c93f3e41711617e95ce143263e3196c345a1da78f6639749ec03",
+                "subject_dn": "C=US, O=Microsoft Corporation, CN=Microsoft Azure RSA TLS Issuing CA 07",
+                "issuer_dn": "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root G2"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "150.171.28.10",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-12T16:54:49Z",
+              "http": {
+                "uri": "https://150.171.28.10/",
+                "protocol": "HTTP/1.1",
+                "status_code": 400,
+                "status_reason": "Bad Request",
+                "headers": {
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Transfer-Encoding": {
+                    "headers": [
+                      "chunked"
+                    ]
+                  },
+                  "X-MSEdge-Ref": {
+                    "headers": [
+                      "02AWOaQAAAADO5lB7qqTlQ5V1tdXco8cWQ0hHRURHRTE5MjAARWRnZQ=="
+                    ]
+                  }
+                },
+                "body_size": 194,
+                "body": "<h2>Our services aren't available right now</h2><p>We're working to restore all services as soon as possible. Please check back soon.</p>02AWOaQAAAADO5lB7qqTlQ5V1tdXco8cWQ0hHRURHRTE5MjAARWRnZQ==",
+                "body_hash_sha256": "46b459d5cd583326aa7f165089534a2537b02de98cfe8d963efa761adc55df29",
+                "body_hash_sha1": "17e8757d4a22537820b4a31e9c4227fb3e863ca9",
+                "supported_versions": [
+                  "HTTP/1.1",
+                  "HTTP/2"
+                ]
+              },
+              "ip": "150.171.28.10"
+            }
+          ]
+        }
+      ],
+      "service_count": 2,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-02-10T08:58:50Z"
+        },
+        "names": [
+          "bing.com.es",
+          "azureid.microsoft.com",
+          "mxk.mm.bing.net",
+          "flq.mm.bing.net",
+          "rnh.mm.bing.net",
+          "vkm.mm.bing.net",
+          "download.twitterdown.dpdns.org",
+          "bing.com.my",
+          "www.sho-biz.com",
+          "bing.ru",
+          "bing.com.br",
+          "webscreeninterface.bing.it",
+          "bing.cl",
+          "www.bing.sk",
+          "region.fwww.bing.com",
+          "referralcode.fwww.bing.com",
+          "m-mode.fwww.bing.com",
+          "classiffwwwds.bing.com",
+          "cn.vb.bing.com",
+          "mapssupport.bing.com",
+          "h9w8.bing.com",
+          "lockupprice.fwww.bing.com",
+          "akam.hfccourse.users.bing.com",
+          "loaderver.fwww.bing.com",
+          "benefit.bing.com",
+          "949344.r.bat.bing.com",
+          "softwrcfe.bing.com",
+          "wwwpp.bing.com",
+          "wwwarch.bing.com",
+          "www.samtestfamilysafetya.bing.com",
+          "unregistered.zglobal.bing.com",
+          "pix.bing.com",
+          "nfstestfamilysafety.jc.bing.com",
+          "xrcfads.bing.com",
+          "iwg.bing.com",
+          "myacglobalunt.bing.com",
+          "www5f.bing.com",
+          "vlz.bing.com",
+          "schema.bing.com",
+          "webdisk.vfwwweos.bing.com",
+          "vfwww.bing.com",
+          "autocfwwwfig.secure.bing.com",
+          "fwwww.themes.bing.com",
+          "raka.sb.bing.com",
+          "www4ogle.bing.com",
+          "itclub.bing.com",
+          "queryfilterreducer.m.bing.com",
+          "akam.update.bing.com",
+          "smapsbox.bing.com",
+          "assraka.bing.com",
+          "testfamilysafetyklama.bing.com",
+          "zengsk1.bing.com",
+          "rko.bing.com",
+          "sutestfamilysafetycribe.bing.com",
+          "www.sarmapsov.bing.com",
+          "ng.bing.com",
+          "tm-device-model.bing.com",
+          "testfamilysafety29.bing.com",
+          "rhh.bing.com",
+          "smaps.bing.com",
+          "wwrw.bing.com",
+          "resuplatform.bing.com",
+          "on.m.bing.com",
+          "www.testfamilysafetyjects.bing.com",
+          "tfwwwd.bing.com",
+          "testfamilysafety23.bing.com",
+          "solutiofwww.bing.com",
+          "l-country.bing.com",
+          "testfamilysafety135.bing.com",
+          "autodiscover.searfwww.bing.com",
+          "rwww4ort.bing.com",
+          "weamapsr.bing.com",
+          "acceptancecorp.bing.com",
+          "testfamilysafetypress.bing.com",
+          "opakamvpn.bing.com",
+          "webcnil.cp.bing.com",
+          "mapsw.stat.bing.com",
+          "hyrcfa.bing.com",
+          "sierracharlie.rers.bing.com",
+          "metrics.bing.com",
+          "hjf.bing.com",
+          "mail.ss21.bing.com",
+          "akamdget.bing.com",
+          "smtp-out-01.bing.com",
+          "noww.bing.com",
+          "gw.fwww.bing.com",
+          "hhv.bing.com",
+          "trrcfk.bing.com",
+          "builder.fwww.bing.com",
+          "adminpasswordpolicy.bing.com",
+          "mail.info.bing.com",
+          "wsraka.bing.com",
+          "autodiscover.webmatestfamilysafety.bing.com",
+          "www.pluslatex.usercf.bing.com",
+          "testfamilysafety.advertising.bing.com",
+          "hsp.fwww.bing.com",
+          "analygcs.bing.com",
+          "rcfbot.bing.com",
+          "milg.bing.com",
+          "vrcfw.bing.com"
+        ],
+        "forward_dns": {
+          "949344.r.bat.bing.com": {
+            "resolve_time": "2026-02-11T15:56:54Z",
+            "name": "949344.r.bat.bing.com",
+            "record_type": "a"
+          },
+          "acceptancecorp.bing.com": {
+            "resolve_time": "2026-02-11T15:56:48Z",
+            "name": "acceptancecorp.bing.com",
+            "record_type": "a"
+          },
+          "adminpasswordpolicy.bing.com": {
+            "resolve_time": "2026-02-11T15:56:47Z",
+            "name": "adminpasswordpolicy.bing.com",
+            "record_type": "a"
+          },
+          "akam.hfccourse.users.bing.com": {
+            "resolve_time": "2026-02-11T15:56:54Z",
+            "name": "akam.hfccourse.users.bing.com",
+            "record_type": "a"
+          },
+          "akam.update.bing.com": {
+            "resolve_time": "2026-02-11T15:56:49Z",
+            "name": "akam.update.bing.com",
+            "record_type": "a"
+          },
+          "akamdget.bing.com": {
+            "resolve_time": "2026-02-11T15:56:47Z",
+            "name": "akamdget.bing.com",
+            "record_type": "a"
+          },
+          "analygcs.bing.com": {
+            "resolve_time": "2026-02-11T15:56:47Z",
+            "name": "analygcs.bing.com",
+            "record_type": "a"
+          },
+          "assraka.bing.com": {
+            "resolve_time": "2026-02-11T15:56:49Z",
+            "name": "assraka.bing.com",
+            "record_type": "a"
+          },
+          "autocfwwwfig.secure.bing.com": {
+            "resolve_time": "2026-02-11T15:56:50Z",
+            "name": "autocfwwwfig.secure.bing.com",
+            "record_type": "a"
+          },
+          "autodiscover.searfwww.bing.com": {
+            "resolve_time": "2026-02-11T15:56:48Z",
+            "name": "autodiscover.searfwww.bing.com",
+            "record_type": "a"
+          },
+          "autodiscover.webmatestfamilysafety.bing.com": {
+            "resolve_time": "2026-02-11T15:56:47Z",
+            "name": "autodiscover.webmatestfamilysafety.bing.com",
+            "record_type": "a"
+          },
+          "azureid.microsoft.com": {
+            "resolve_time": "2026-02-12T12:42:57Z",
+            "name": "azureid.microsoft.com",
+            "record_type": "a"
+          },
+          "benefit.bing.com": {
+            "resolve_time": "2026-02-11T15:56:54Z",
+            "name": "benefit.bing.com",
+            "record_type": "a"
+          },
+          "bing.cl": {
+            "resolve_time": "2026-02-11T16:37:58Z",
+            "name": "bing.cl",
+            "record_type": "a"
+          },
+          "bing.com.br": {
+            "resolve_time": "2026-02-11T17:36:27Z",
+            "name": "bing.com.br",
+            "record_type": "a"
+          },
+          "bing.com.es": {
+            "resolve_time": "2026-02-13T12:51:10Z",
+            "name": "bing.com.es",
+            "record_type": "a"
+          },
+          "bing.com.my": {
+            "resolve_time": "2026-02-11T21:17:51Z",
+            "name": "bing.com.my",
+            "record_type": "a"
+          },
+          "bing.ru": {
+            "resolve_time": "2026-02-11T19:08:23Z",
+            "name": "bing.ru",
+            "record_type": "a"
+          },
+          "builder.fwww.bing.com": {
+            "resolve_time": "2026-02-11T15:56:47Z",
+            "name": "builder.fwww.bing.com",
+            "record_type": "a"
+          },
+          "classiffwwwds.bing.com": {
+            "resolve_time": "2026-02-11T15:56:55Z",
+            "name": "classiffwwwds.bing.com",
+            "record_type": "a"
+          },
+          "cn.vb.bing.com": {
+            "resolve_time": "2026-02-11T15:56:55Z",
+            "name": "cn.vb.bing.com",
+            "record_type": "a"
+          },
+          "download.twitterdown.dpdns.org": {
+            "resolve_time": "2026-02-11T21:21:17Z",
+            "name": "download.twitterdown.dpdns.org",
+            "record_type": "a"
+          },
+          "flq.mm.bing.net": {
+            "resolve_time": "2026-02-11T21:51:51Z",
+            "name": "flq.mm.bing.net",
+            "record_type": "a"
+          },
+          "fwwww.themes.bing.com": {
+            "resolve_time": "2026-02-11T15:56:50Z",
+            "name": "fwwww.themes.bing.com",
+            "record_type": "a"
+          },
+          "gw.fwww.bing.com": {
+            "resolve_time": "2026-02-11T15:56:47Z",
+            "name": "gw.fwww.bing.com",
+            "record_type": "a"
+          },
+          "h9w8.bing.com": {
+            "resolve_time": "2026-02-11T15:56:54Z",
+            "name": "h9w8.bing.com",
+            "record_type": "a"
+          },
+          "hhv.bing.com": {
+            "resolve_time": "2026-02-11T15:56:47Z",
+            "name": "hhv.bing.com",
+            "record_type": "a"
+          },
+          "hjf.bing.com": {
+            "resolve_time": "2026-02-11T15:56:47Z",
+            "name": "hjf.bing.com",
+            "record_type": "a"
+          },
+          "hsp.fwww.bing.com": {
+            "resolve_time": "2026-02-11T15:56:47Z",
+            "name": "hsp.fwww.bing.com",
+            "record_type": "a"
+          },
+          "hyrcfa.bing.com": {
+            "resolve_time": "2026-02-11T15:56:47Z",
+            "name": "hyrcfa.bing.com",
+            "record_type": "a"
+          },
+          "itclub.bing.com": {
+            "resolve_time": "2026-02-11T15:56:50Z",
+            "name": "itclub.bing.com",
+            "record_type": "a"
+          },
+          "iwg.bing.com": {
+            "resolve_time": "2026-02-11T15:56:51Z",
+            "name": "iwg.bing.com",
+            "record_type": "a"
+          },
+          "l-country.bing.com": {
+            "resolve_time": "2026-02-11T15:56:48Z",
+            "name": "l-country.bing.com",
+            "record_type": "a"
+          },
+          "loaderver.fwww.bing.com": {
+            "resolve_time": "2026-02-11T15:56:54Z",
+            "name": "loaderver.fwww.bing.com",
+            "record_type": "a"
+          },
+          "lockupprice.fwww.bing.com": {
+            "resolve_time": "2026-02-11T15:56:54Z",
+            "name": "lockupprice.fwww.bing.com",
+            "record_type": "a"
+          },
+          "m-mode.fwww.bing.com": {
+            "resolve_time": "2026-02-11T15:56:56Z",
+            "name": "m-mode.fwww.bing.com",
+            "record_type": "a"
+          },
+          "mail.info.bing.com": {
+            "resolve_time": "2026-02-11T15:56:47Z",
+            "name": "mail.info.bing.com",
+            "record_type": "a"
+          },
+          "mail.ss21.bing.com": {
+            "resolve_time": "2026-02-11T15:56:47Z",
+            "name": "mail.ss21.bing.com",
+            "record_type": "a"
+          },
+          "mapssupport.bing.com": {
+            "resolve_time": "2026-02-11T15:56:54Z",
+            "name": "mapssupport.bing.com",
+            "record_type": "a"
+          },
+          "mapsw.stat.bing.com": {
+            "resolve_time": "2026-02-11T15:56:47Z",
+            "name": "mapsw.stat.bing.com",
+            "record_type": "a"
+          },
+          "metrics.bing.com": {
+            "resolve_time": "2026-02-11T15:56:47Z",
+            "name": "metrics.bing.com",
+            "record_type": "a"
+          },
+          "milg.bing.com": {
+            "resolve_time": "2026-02-11T15:56:47Z",
+            "name": "milg.bing.com",
+            "record_type": "a"
+          },
+          "mxk.mm.bing.net": {
+            "resolve_time": "2026-02-11T21:51:51Z",
+            "name": "mxk.mm.bing.net",
+            "record_type": "a"
+          },
+          "myacglobalunt.bing.com": {
+            "resolve_time": "2026-02-11T15:56:51Z",
+            "name": "myacglobalunt.bing.com",
+            "record_type": "a"
+          },
+          "nfstestfamilysafety.jc.bing.com": {
+            "resolve_time": "2026-02-11T15:56:52Z",
+            "name": "nfstestfamilysafety.jc.bing.com",
+            "record_type": "a"
+          },
+          "ng.bing.com": {
+            "resolve_time": "2026-02-11T15:56:49Z",
+            "name": "ng.bing.com",
+            "record_type": "a"
+          },
+          "noww.bing.com": {
+            "resolve_time": "2026-02-11T15:56:47Z",
+            "name": "noww.bing.com",
+            "record_type": "a"
+          },
+          "on.m.bing.com": {
+            "resolve_time": "2026-02-11T15:56:48Z",
+            "name": "on.m.bing.com",
+            "record_type": "a"
+          },
+          "opakamvpn.bing.com": {
+            "resolve_time": "2026-02-11T15:56:48Z",
+            "name": "opakamvpn.bing.com",
+            "record_type": "a"
+          },
+          "pix.bing.com": {
+            "resolve_time": "2026-02-11T15:56:52Z",
+            "name": "pix.bing.com",
+            "record_type": "a"
+          },
+          "queryfilterreducer.m.bing.com": {
+            "resolve_time": "2026-02-11T15:56:49Z",
+            "name": "queryfilterreducer.m.bing.com",
+            "record_type": "a"
+          },
+          "raka.sb.bing.com": {
+            "resolve_time": "2026-02-11T15:56:50Z",
+            "name": "raka.sb.bing.com",
+            "record_type": "a"
+          },
+          "rcfbot.bing.com": {
+            "resolve_time": "2026-02-11T15:56:47Z",
+            "name": "rcfbot.bing.com",
+            "record_type": "a"
+          },
+          "referralcode.fwww.bing.com": {
+            "resolve_time": "2026-02-11T15:56:58Z",
+            "name": "referralcode.fwww.bing.com",
+            "record_type": "a"
+          },
+          "region.fwww.bing.com": {
+            "resolve_time": "2026-02-11T15:56:58Z",
+            "name": "region.fwww.bing.com",
+            "record_type": "a"
+          },
+          "resuplatform.bing.com": {
+            "resolve_time": "2026-02-11T15:56:48Z",
+            "name": "resuplatform.bing.com",
+            "record_type": "a"
+          },
+          "rhh.bing.com": {
+            "resolve_time": "2026-02-11T15:56:49Z",
+            "name": "rhh.bing.com",
+            "record_type": "a"
+          },
+          "rko.bing.com": {
+            "resolve_time": "2026-02-11T15:56:49Z",
+            "name": "rko.bing.com",
+            "record_type": "a"
+          },
+          "rnh.mm.bing.net": {
+            "resolve_time": "2026-02-11T21:51:51Z",
+            "name": "rnh.mm.bing.net",
+            "record_type": "a"
+          },
+          "rwww4ort.bing.com": {
+            "resolve_time": "2026-02-11T15:56:48Z",
+            "name": "rwww4ort.bing.com",
+            "record_type": "a"
+          },
+          "schema.bing.com": {
+            "resolve_time": "2026-02-11T15:56:51Z",
+            "name": "schema.bing.com",
+            "record_type": "a"
+          },
+          "sierracharlie.rers.bing.com": {
+            "resolve_time": "2026-02-11T15:56:47Z",
+            "name": "sierracharlie.rers.bing.com",
+            "record_type": "a"
+          },
+          "smaps.bing.com": {
+            "resolve_time": "2026-02-11T15:56:49Z",
+            "name": "smaps.bing.com",
+            "record_type": "a"
+          },
+          "smapsbox.bing.com": {
+            "resolve_time": "2026-02-11T15:56:49Z",
+            "name": "smapsbox.bing.com",
+            "record_type": "a"
+          },
+          "smtp-out-01.bing.com": {
+            "resolve_time": "2026-02-11T15:56:47Z",
+            "name": "smtp-out-01.bing.com",
+            "record_type": "a"
+          },
+          "softwrcfe.bing.com": {
+            "resolve_time": "2026-02-11T15:56:53Z",
+            "name": "softwrcfe.bing.com",
+            "record_type": "a"
+          },
+          "solutiofwww.bing.com": {
+            "resolve_time": "2026-02-11T15:56:48Z",
+            "name": "solutiofwww.bing.com",
+            "record_type": "a"
+          },
+          "sutestfamilysafetycribe.bing.com": {
+            "resolve_time": "2026-02-11T15:56:49Z",
+            "name": "sutestfamilysafetycribe.bing.com",
+            "record_type": "a"
+          },
+          "testfamilysafety.advertising.bing.com": {
+            "resolve_time": "2026-02-11T15:56:47Z",
+            "name": "testfamilysafety.advertising.bing.com",
+            "record_type": "a"
+          },
+          "testfamilysafety135.bing.com": {
+            "resolve_time": "2026-02-11T15:56:48Z",
+            "name": "testfamilysafety135.bing.com",
+            "record_type": "a"
+          },
+          "testfamilysafety23.bing.com": {
+            "resolve_time": "2026-02-11T15:56:48Z",
+            "name": "testfamilysafety23.bing.com",
+            "record_type": "a"
+          },
+          "testfamilysafety29.bing.com": {
+            "resolve_time": "2026-02-11T15:56:49Z",
+            "name": "testfamilysafety29.bing.com",
+            "record_type": "a"
+          },
+          "testfamilysafetyklama.bing.com": {
+            "resolve_time": "2026-02-11T15:56:49Z",
+            "name": "testfamilysafetyklama.bing.com",
+            "record_type": "a"
+          },
+          "testfamilysafetypress.bing.com": {
+            "resolve_time": "2026-02-11T15:56:48Z",
+            "name": "testfamilysafetypress.bing.com",
+            "record_type": "a"
+          },
+          "tfwwwd.bing.com": {
+            "resolve_time": "2026-02-11T15:56:48Z",
+            "name": "tfwwwd.bing.com",
+            "record_type": "a"
+          },
+          "tm-device-model.bing.com": {
+            "resolve_time": "2026-02-11T15:56:49Z",
+            "name": "tm-device-model.bing.com",
+            "record_type": "a"
+          },
+          "trrcfk.bing.com": {
+            "resolve_time": "2026-02-11T15:56:47Z",
+            "name": "trrcfk.bing.com",
+            "record_type": "a"
+          },
+          "unregistered.zglobal.bing.com": {
+            "resolve_time": "2026-02-11T15:56:52Z",
+            "name": "unregistered.zglobal.bing.com",
+            "record_type": "a"
+          },
+          "vfwww.bing.com": {
+            "resolve_time": "2026-02-11T15:56:50Z",
+            "name": "vfwww.bing.com",
+            "record_type": "a"
+          },
+          "vkm.mm.bing.net": {
+            "resolve_time": "2026-02-11T21:51:51Z",
+            "name": "vkm.mm.bing.net",
+            "record_type": "a"
+          },
+          "vlz.bing.com": {
+            "resolve_time": "2026-02-11T15:56:51Z",
+            "name": "vlz.bing.com",
+            "record_type": "a"
+          },
+          "vrcfw.bing.com": {
+            "resolve_time": "2026-02-11T15:56:47Z",
+            "name": "vrcfw.bing.com",
+            "record_type": "a"
+          },
+          "weamapsr.bing.com": {
+            "resolve_time": "2026-02-11T15:56:48Z",
+            "name": "weamapsr.bing.com",
+            "record_type": "a"
+          },
+          "webcnil.cp.bing.com": {
+            "resolve_time": "2026-02-11T15:56:48Z",
+            "name": "webcnil.cp.bing.com",
+            "record_type": "a"
+          },
+          "webdisk.vfwwweos.bing.com": {
+            "resolve_time": "2026-02-11T15:56:50Z",
+            "name": "webdisk.vfwwweos.bing.com",
+            "record_type": "a"
+          },
+          "webscreeninterface.bing.it": {
+            "resolve_time": "2026-02-11T16:47:25Z",
+            "name": "webscreeninterface.bing.it",
+            "record_type": "a"
+          },
+          "wsraka.bing.com": {
+            "resolve_time": "2026-02-11T15:56:47Z",
+            "name": "wsraka.bing.com",
+            "record_type": "a"
+          },
+          "wwrw.bing.com": {
+            "resolve_time": "2026-02-11T15:56:48Z",
+            "name": "wwrw.bing.com",
+            "record_type": "a"
+          },
+          "www.bing.sk": {
+            "resolve_time": "2026-02-11T16:02:13Z",
+            "name": "www.bing.sk",
+            "record_type": "a"
+          },
+          "www.pluslatex.usercf.bing.com": {
+            "resolve_time": "2026-02-11T15:56:47Z",
+            "name": "www.pluslatex.usercf.bing.com",
+            "record_type": "a"
+          },
+          "www.samtestfamilysafetya.bing.com": {
+            "resolve_time": "2026-02-11T15:56:52Z",
+            "name": "www.samtestfamilysafetya.bing.com",
+            "record_type": "a"
+          },
+          "www.sarmapsov.bing.com": {
+            "resolve_time": "2026-02-11T15:56:49Z",
+            "name": "www.sarmapsov.bing.com",
+            "record_type": "a"
+          },
+          "www.sho-biz.com": {
+            "resolve_time": "2026-02-11T19:20:43Z",
+            "name": "www.sho-biz.com",
+            "record_type": "a"
+          },
+          "www.testfamilysafetyjects.bing.com": {
+            "resolve_time": "2026-02-11T15:56:48Z",
+            "name": "www.testfamilysafetyjects.bing.com",
+            "record_type": "a"
+          },
+          "www4ogle.bing.com": {
+            "resolve_time": "2026-02-11T15:56:50Z",
+            "name": "www4ogle.bing.com",
+            "record_type": "a"
+          },
+          "www5f.bing.com": {
+            "resolve_time": "2026-02-11T15:56:51Z",
+            "name": "www5f.bing.com",
+            "record_type": "a"
+          },
+          "wwwarch.bing.com": {
+            "resolve_time": "2026-02-11T15:56:52Z",
+            "name": "wwwarch.bing.com",
+            "record_type": "a"
+          },
+          "wwwpp.bing.com": {
+            "resolve_time": "2026-02-11T15:56:52Z",
+            "name": "wwwpp.bing.com",
+            "record_type": "a"
+          },
+          "xrcfads.bing.com": {
+            "resolve_time": "2026-02-11T15:56:51Z",
+            "name": "xrcfads.bing.com",
+            "record_type": "a"
+          },
+          "zengsk1.bing.com": {
+            "resolve_time": "2026-02-11T15:56:49Z",
+            "name": "zengsk1.bing.com",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

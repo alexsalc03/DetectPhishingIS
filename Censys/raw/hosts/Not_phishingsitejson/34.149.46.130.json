@@ -1,0 +1,693 @@
+{
+  "result": {
+    "resource": {
+      "ip": "34.149.46.130",
+      "location": {
+        "continent": "North America",
+        "country": "United States",
+        "country_code": "US",
+        "city": "Kansas City",
+        "postal_code": "64106",
+        "timezone": "America/Chicago",
+        "province": "Missouri",
+        "coordinates": {
+          "latitude": 39.09973,
+          "longitude": -94.57857
+        }
+      },
+      "autonomous_system": {
+        "asn": 396982,
+        "description": "GOOGLE-CLOUD-PLATFORM - Google LLC",
+        "bgp_prefix": "34.148.0.0/14",
+        "name": "GOOGLE-CLOUD-PLATFORM - Google LLC",
+        "country_code": "US"
+      },
+      "whois": {
+        "network": {
+          "handle": "GOOGL-2",
+          "name": "Google LLC",
+          "cidrs": [
+            "34.128.0.0/10"
+          ],
+          "created": "2021-01-08T00:00:00Z",
+          "updated": "2021-01-08T00:00:00Z",
+          "allocation_type": "ALLOCATION"
+        },
+        "organization": {
+          "handle": "GOOGL-2",
+          "name": "Google LLC",
+          "street": "1600 Amphitheatre Parkway",
+          "city": "Mountain View",
+          "state": "CA",
+          "postal_code": "94043",
+          "country": "US",
+          "abuse_contacts": [
+            {
+              "handle": "GCABU-ARIN",
+              "name": "GC Abuse",
+              "email": "google-cloud-compliance@google.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "ZG39-ARIN",
+              "name": "Google LLC",
+              "email": "arin-contact@google.com"
+            }
+          ],
+          "tech_contacts": [
+            {
+              "handle": "ZG39-ARIN",
+              "name": "Google LLC",
+              "email": "arin-contact@google.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "ip": "34.149.46.130",
+          "scan_time": "2026-02-13T06:32:50Z",
+          "endpoints": [
+            {
+              "hostname": "34.149.46.130",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T06:32:50Z",
+              "http": {
+                "uri": "http://34.149.46.130/",
+                "protocol": "HTTP/1.1",
+                "status_code": 301,
+                "status_reason": "Moved Permanently",
+                "headers": {
+                  "Cache-Control": {
+                    "headers": [
+                      "private"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "0"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html; charset=UTF-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Location": {
+                    "headers": [
+                      "https://34.149.46.130:443/"
+                    ]
+                  }
+                },
+                "supported_versions": [
+                  "HTTP/1.1"
+                ],
+                "redirect_chain": [
+                  {
+                    "hostname": "34.149.46.130",
+                    "port": 443,
+                    "transport_protocol": "tcp",
+                    "path": "/",
+                    "reason": "HTTP_3XX"
+                  }
+                ]
+              },
+              "ip": "34.149.46.130"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "2d233781713b49ea76661804ab886d954b66f68686132d1916efd756a5ca847f",
+            "fingerprint_sha1": "60950a696805c2df2d1cb677c0a0f11d9fa06984",
+            "fingerprint_md5": "171594532bccb91d809a6f308bef1b54",
+            "tbs_fingerprint_sha256": "c5082b7c4e4c88ec2ed6e2946619325287926bcdb682a58f48c316886c6f656e",
+            "tbs_no_ct_fingerprint_sha256": "9a8f4cd472b34b18082c42fcda572f44c16d0663ec8f16bf909133ef6c49afaf",
+            "spki_fingerprint_sha256": "69025ce6d616c1fd37d35598b825a4b4c20d2da62d077fd8f467ef992a0c45bf",
+            "parent_spki_fingerprint_sha256": "f737aa26549dce01eb1dc2e8ce19ecb6692f4f439c946f3b7fae0b7abb3d87d7",
+            "parsed": {
+              "version": 3,
+              "serial_number": "8001883218804391603362572070096628324",
+              "issuer_dn": "C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+              "issuer": {
+                "common_name": [
+                  "DigiCert Global G2 TLS RSA SHA256 2020 CA1"
+                ],
+                "country": [
+                  "US"
+                ],
+                "organization": [
+                  "DigiCert Inc"
+                ]
+              },
+              "subject_dn": "C=US, ST=California, L=Santa Monica, O=Snap Inc., CN=*.snap.com",
+              "subject": {
+                "common_name": [
+                  "*.snap.com"
+                ],
+                "country": [
+                  "US"
+                ],
+                "locality": [
+                  "Santa Monica"
+                ],
+                "province": [
+                  "California"
+                ],
+                "organization": [
+                  "Snap Inc."
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "RSA",
+                  "oid": "1.2.840.113549.1.1.1"
+                },
+                "rsa": {
+                  "exponent": 65537,
+                  "modulus": "f89c11a6d9d4c406de1e8b8e1b7ce5f806721157cbefc0ecdb124f3817ba6e4e94641de2231c078f2bf3ddbbef4786cf1d39f58ec8161847d53e20de7e377cd285535ed92fef7fab639df7e7a74a8fc1158c58a320642a65e3490a85032412f822e05f1b8b306a4c533704c880f42e01b5b8ff9ca06025576ce3991ba945338e5dcad71d569333be46ef58cb351878d2a76f44551bb7f000a3a6b3c895f55a1c835e26555859cd9ab17cc44d46adaa50a194c40f013be1f71b5807488fb2a350bd24f8bb8e2dc04622c05506085efe54acde346971367982a15593fe57a7ecca40b0e684355fee4a799d90b630c516d936a4facabcb338fa50106f93c996ba4d",
+                  "length": 2048
+                },
+                "fingerprint_sha256": "84f53c8c566f58ee6d93dede8e75b541769a0bef121a58f077088de1ab55b85d"
+              },
+              "validity_period": {
+                "not_before": "2025-07-17T00:00:00Z",
+                "not_after": "2026-07-16T23:59:59Z",
+                "length_seconds": 31536000
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "SHA256-RSA",
+                  "oid": "1.2.840.113549.1.1.11"
+                },
+                "value": "57c6f2bcca4d8b9d062a5b75d496be40dc08ab2c8f53fc08165b856b4c8ef04140c3a1e92605fe0f2fdff1ab358fe4d9c94fe7313248f40f03d500ade3c8634ee7a42b872eb6bcc66e4b549969828ae0792fa9dc020fb74e9086c38fb062a61e38a400aebf09c1e4ddc19cca2a9703eea15e66ae69585de4edf5e2fd8a142bef82bfeba17304906b73e121ee10673e6e854a8026c983688caa920131ee4652c2c561562a91acd8a4e7f2c988cf49e5d7a523d3ca3676ab631371d018a90f14cfdbbc652e14a2b77f250909928b5ae008f7112e5458ffc20c0e4e8e556031f018dccb7417ea21af095e60e7ffafce60825d17a7d86bdcca630b9c14be5c5cee52",
+                "valid": true
+              },
+              "serial_number_hex": "06051b4d6e6c68d021d6a072b6826a64"
+            },
+            "names": [
+              "*.api.snapchat.com",
+              "*.arcadiacreativestudio.com",
+              "*.ats.snapchat.com",
+              "*.bitmoji.com",
+              "*.lensstudio.com",
+              "*.pixy.com",
+              "*.saturn.live",
+              "*.sc-gw-dev.snapchat.com",
+              "*.snap-dev.net",
+              "*.snap.com",
+              "*.snapads.com",
+              "*.snapar.com",
+              "*.snapchat.com",
+              "*.snapkit.com",
+              "*.snappcm-dev.com",
+              "*.snappcm.com",
+              "*.spectacles.com",
+              "api.snapchat.com",
+              "arcadiacreativestudio.com",
+              "ats.snapchat.com",
+              "bitmoji.com",
+              "lensstudio.com",
+              "pixy.com",
+              "saturn.live",
+              "sc-gw-dev.snapchat.com",
+              "snap-dev.net",
+              "snap.com",
+              "snapads.com",
+              "snapar.com",
+              "snapchat.com",
+              "snapkit.com",
+              "snappcm-dev.com",
+              "snappcm.com",
+              "spectacles.com"
+            ],
+            "validation_level": "ov",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "a0d609a7e3c434e878a9a1c1bd065b8dcf33aa7efee1b11bc75cce5e5a042080",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                  "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "0ba8c0d459b76abc0825294f565e24f4f169d4a4819d0692d371522d297724b8",
+                      "2399561127a57125de8cefea610ddf2fa078b5c8067f4e828290bfb860e84b3c"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                  "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "a0d609a7e3c434e878a9a1c1bd065b8dcf33aa7efee1b11bc75cce5e5a042080",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                  "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "a0d609a7e3c434e878a9a1c1bd065b8dcf33aa7efee1b11bc75cce5e5a042080",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                  "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 423173055,
+                  "added_to_ct_at": "2025-07-24T00:04:39Z",
+                  "ct_to_censys_at": "2025-07-24T01:11:24Z"
+                },
+                "comodo_mammoth_2026_h2": {
+                  "index": 18233302,
+                  "added_to_ct_at": "2025-07-24T00:04:14Z",
+                  "ct_to_censys_at": "2025-07-24T00:10:34Z"
+                },
+                "comodo_sabre_2026_h2": {
+                  "index": 23097733,
+                  "added_to_ct_at": "2025-07-24T00:04:15Z",
+                  "ct_to_censys_at": "2025-07-24T00:10:34Z"
+                },
+                "google_argon_2026_h2": {
+                  "index": 46993213,
+                  "added_to_ct_at": "2025-07-24T00:04:13Z",
+                  "ct_to_censys_at": "2025-07-24T00:10:41Z"
+                },
+                "google_xenon_2026_h2": {
+                  "index": 40447664,
+                  "added_to_ct_at": "2025-07-24T00:04:14Z",
+                  "ct_to_censys_at": "2025-07-24T00:06:03Z"
+                },
+                "letsencrypt_ct_oak_2026_h1": {
+                  "index": 104549684,
+                  "added_to_ct_at": "2025-07-24T00:04:16Z",
+                  "ct_to_censys_at": "2025-07-24T00:10:33Z"
+                },
+                "letsencrypt_ct_oak_2026_h2": {
+                  "index": 32023672,
+                  "added_to_ct_at": "2025-07-24T00:04:29Z",
+                  "ct_to_censys_at": "2025-07-24T00:10:34Z"
+                },
+                "letsencrypt_ct_sycamore_2026_h2": {
+                  "index": 8644187,
+                  "added_to_ct_at": "2025-09-26T19:49:25Z",
+                  "ct_to_censys_at": "2025-12-12T16:10:11Z"
+                },
+                "letsencrypt_ct_willow_2026_h2": {
+                  "index": 8646786,
+                  "added_to_ct_at": "2025-09-26T19:49:26Z",
+                  "ct_to_censys_at": "2025-12-12T16:56:53Z"
+                },
+                "sectigo_elephant_2026_h2": {
+                  "index": 17175190,
+                  "added_to_ct_at": "2025-07-24T00:04:15Z",
+                  "ct_to_censys_at": "2025-07-24T00:10:34Z"
+                },
+                "sectigo_tiger_2026_h2": {
+                  "index": 17320438,
+                  "added_to_ct_at": "2025-07-24T00:04:39Z",
+                  "ct_to_censys_at": "2025-07-24T00:10:34Z"
+                },
+                "trustasia_log_2026_a": {
+                  "index": 21268708,
+                  "added_to_ct_at": "2025-07-24T00:04:29Z",
+                  "ct_to_censys_at": "2025-07-24T00:10:43Z"
+                },
+                "trustasia_log_2026_b": {
+                  "index": 28569727,
+                  "added_to_ct_at": "2025-07-28T15:50:43Z",
+                  "ct_to_censys_at": "2025-07-28T15:56:11Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2025-07-23T18:54:11Z",
+            "modified_at": "2025-12-12T17:05:21Z",
+            "validated_at": "2026-02-13T01:19:33Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "69025ce6d616c1fd37d35598b825a4b4c20d2da62d077fd8f467ef992a0c45bf",
+            "parent_spki_subject_fingerprint_sha256": "f737aa26549dce01eb1dc2e8ce19ecb6692f4f439c946f3b7fae0b7abb3d87d7"
+          },
+          "ip": "34.149.46.130",
+          "scan_time": "2026-02-13T06:32:53Z",
+          "tls": {
+            "fingerprint_sha256": "2d233781713b49ea76661804ab886d954b66f68686132d1916efd756a5ca847f",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9",
+                "subject_dn": "C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+                "issuer_dn": "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root G2"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "34.149.46.130",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T06:32:53Z",
+              "http": {
+                "uri": "https://34.149.46.130/",
+                "protocol": "HTTP/1.1",
+                "status_code": 404,
+                "status_reason": "Not Found",
+                "headers": {
+                  "Alt-Svc": {
+                    "headers": [
+                      "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "0"
+                    ]
+                  },
+                  "date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "server": {
+                    "headers": [
+                      "API Gateway"
+                    ]
+                  },
+                  "vary": {
+                    "headers": [
+                      "Accept-Encoding"
+                    ]
+                  },
+                  "via": {
+                    "headers": [
+                      "1.1 google"
+                    ]
+                  }
+                },
+                "supported_versions": [
+                  "HTTP/1.1",
+                  "HTTP/2"
+                ]
+              },
+              "ip": "34.149.46.130"
+            }
+          ]
+        }
+      ],
+      "service_count": 2,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-02-13T11:54:53Z"
+        },
+        "names": [
+          "www.snapmap.org",
+          "web.snapchat.com",
+          "web-gcp.api.snapchat.com",
+          "www.snapchat.com",
+          "snapchat.com",
+          "www.snapmaps.com",
+          "boba26.dns-dynamic.net",
+          "experience.snapchat.com",
+          "ads.snapchat.com",
+          "map.snapchat.com",
+          "lensstudio.snapchat.com",
+          "businesssupport.snap.com",
+          "accounts.snapchat.com",
+          "login.snapchat.com",
+          "www.snapmap.com",
+          "business.snapchat.com",
+          "maps.snapchat.com"
+        ],
+        "forward_dns": {
+          "accounts.snapchat.com": {
+            "resolve_time": "2026-01-14T14:20:46Z",
+            "name": "accounts.snapchat.com",
+            "record_type": "a"
+          },
+          "ads.snapchat.com": {
+            "resolve_time": "2026-01-28T12:34:30Z",
+            "name": "ads.snapchat.com",
+            "record_type": "a"
+          },
+          "boba26.dns-dynamic.net": {
+            "resolve_time": "2026-02-06T12:36:27Z",
+            "name": "boba26.dns-dynamic.net",
+            "record_type": "a"
+          },
+          "business.snapchat.com": {
+            "resolve_time": "2026-01-03T13:42:24Z",
+            "name": "business.snapchat.com",
+            "record_type": "a"
+          },
+          "businesssupport.snap.com": {
+            "resolve_time": "2026-01-23T12:37:44Z",
+            "name": "businesssupport.snap.com",
+            "record_type": "a"
+          },
+          "experience.snapchat.com": {
+            "resolve_time": "2026-01-29T13:34:31Z",
+            "name": "experience.snapchat.com",
+            "record_type": "a"
+          },
+          "lensstudio.snapchat.com": {
+            "resolve_time": "2026-01-23T12:37:47Z",
+            "name": "lensstudio.snapchat.com",
+            "record_type": "a"
+          },
+          "login.snapchat.com": {
+            "resolve_time": "2026-01-13T16:37:56Z",
+            "name": "login.snapchat.com",
+            "record_type": "a"
+          },
+          "map.snapchat.com": {
+            "resolve_time": "2026-01-28T12:34:28Z",
+            "name": "map.snapchat.com",
+            "record_type": "a"
+          },
+          "maps.snapchat.com": {
+            "resolve_time": "2026-01-01T19:44:36Z",
+            "name": "maps.snapchat.com",
+            "record_type": "a"
+          },
+          "snapchat.com": {
+            "resolve_time": "2026-02-08T16:47:42Z",
+            "name": "snapchat.com",
+            "record_type": "a"
+          },
+          "web-gcp.api.snapchat.com": {
+            "resolve_time": "2026-02-10T15:42:14Z",
+            "name": "web-gcp.api.snapchat.com",
+            "record_type": "a"
+          },
+          "web.snapchat.com": {
+            "resolve_time": "2026-02-11T15:53:02Z",
+            "name": "web.snapchat.com",
+            "record_type": "a"
+          },
+          "www.snapchat.com": {
+            "resolve_time": "2026-02-08T16:47:44Z",
+            "name": "www.snapchat.com",
+            "record_type": "a"
+          },
+          "www.snapmap.com": {
+            "resolve_time": "2026-01-08T14:46:56Z",
+            "name": "www.snapmap.com",
+            "record_type": "a"
+          },
+          "www.snapmap.org": {
+            "resolve_time": "2026-02-11T18:37:22Z",
+            "name": "www.snapmap.org",
+            "record_type": "a"
+          },
+          "www.snapmaps.com": {
+            "resolve_time": "2026-02-07T15:55:20Z",
+            "name": "www.snapmaps.com",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

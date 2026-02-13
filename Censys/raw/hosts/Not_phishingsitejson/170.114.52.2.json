@@ -1,0 +1,1262 @@
+{
+  "result": {
+    "resource": {
+      "ip": "170.114.52.2",
+      "location": {
+        "continent": "North America",
+        "country": "United States",
+        "country_code": "US",
+        "city": "San Jose",
+        "postal_code": "95113",
+        "timezone": "America/Los_Angeles",
+        "province": "California",
+        "coordinates": {
+          "latitude": 37.3329,
+          "longitude": -121.8916
+        }
+      },
+      "autonomous_system": {
+        "asn": 209242,
+        "description": "CLOUDFLARESPECTRUM Cloudflare, Inc.",
+        "bgp_prefix": "170.114.52.0/24",
+        "name": "CLOUDFLARESPECTRUM Cloudflare, Inc.",
+        "country_code": "US"
+      },
+      "whois": {
+        "network": {
+          "handle": "ZVC",
+          "name": "Zoom Video Communications, Inc",
+          "cidrs": [
+            "170.114.0.0/16"
+          ],
+          "created": "2020-10-30T00:00:00Z",
+          "updated": "2025-06-26T00:00:00Z",
+          "allocation_type": "ALLOCATION"
+        },
+        "organization": {
+          "handle": "ZVC",
+          "name": "Zoom Video Communications, Inc",
+          "street": "55 Almaden Boulevard, 6th Floor",
+          "city": "San Jose",
+          "state": "CA",
+          "postal_code": "95113",
+          "country": "US",
+          "abuse_contacts": [
+            {
+              "handle": "CHUWI7-ARIN",
+              "name": "Wilson Chu",
+              "email": "wilson.chu@zoom.com"
+            },
+            {
+              "handle": "ULRIC33-ARIN",
+              "name": "Mike Ulrich",
+              "email": "mike.ulrich@zoom.us"
+            },
+            {
+              "handle": "YANGX9-ARIN",
+              "name": "Xi Yang",
+              "email": "xi.yang@zoom.us"
+            },
+            {
+              "handle": "YUANE-ARIN",
+              "name": "Eric Yuan",
+              "email": "yasin.mohammed@zoom.us"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "ESLIC5-ARIN",
+              "name": "Jason Eslick",
+              "email": "jason.eslick@zoom.com"
+            }
+          ],
+          "tech_contacts": [
+            {
+              "handle": "CHUWI7-ARIN",
+              "name": "Wilson Chu",
+              "email": "wilson.chu@zoom.com"
+            },
+            {
+              "handle": "DIAMO71-ARIN",
+              "name": "Ryan Diamond",
+              "email": "ryan.diamond@zoom.com"
+            },
+            {
+              "handle": "JIANG133-ARIN",
+              "name": "Luhan Jiang",
+              "email": "luhan.jiang@zoom.com"
+            },
+            {
+              "handle": "NEUME13-ARIN",
+              "name": "Eric Neumeier",
+              "email": "eric.neumeier@zoom.us"
+            },
+            {
+              "handle": "RDM103-ARIN",
+              "name": "Robert Murray",
+              "email": "dave.murray@zoom.us"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "cloudflare",
+              "product": "cloudflare_load_balancer"
+            },
+            {
+              "type": [
+                "WAF"
+              ],
+              "vendor": "cloudflare",
+              "product": "waf"
+            }
+          ],
+          "labels": [
+            {
+              "value": "WAF"
+            }
+          ],
+          "ip": "170.114.52.2",
+          "scan_time": "2026-02-13T09:36:28Z",
+          "endpoints": [
+            {
+              "hostname": "170.114.52.2",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T09:36:28Z",
+              "http": {
+                "uri": "http://170.114.52.2/",
+                "protocol": "HTTP/1.1",
+                "status_code": 403,
+                "status_reason": "Forbidden",
+                "headers": {
+                  "CF-RAY": {
+                    "headers": [
+                      "9cd35774290360a6-ORD"
+                    ]
+                  },
+                  "Cache-Control": {
+                    "headers": [
+                      "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Encoding": {
+                    "headers": [
+                      "gzip"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html; charset=UTF-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Expires": {
+                    "headers": [
+                      "Thu, 01 Jan 1970 00:00:01 GMT"
+                    ]
+                  },
+                  "Referrer-Policy": {
+                    "headers": [
+                      "same-origin"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "cloudflare"
+                    ]
+                  },
+                  "Transfer-Encoding": {
+                    "headers": [
+                      "chunked"
+                    ]
+                  },
+                  "Vary": {
+                    "headers": [
+                      "Accept-Encoding"
+                    ]
+                  },
+                  "X-Frame-Options": {
+                    "headers": [
+                      "SAMEORIGIN"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>Direct IP access not allowed | Cloudflare</title>",
+                  "<meta charset=\"UTF-8\" />",
+                  "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />",
+                  "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />",
+                  "<meta name=\"robots\" content=\"noindex, nofollow\" />",
+                  "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />"
+                ],
+                "body_size": 6237,
+                "body": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Direct IP access not allowed | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />\n<meta name=\"robots\" content=\"noindex, nofollow\" />\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n<link rel=\"stylesheet\" id=\"cf_styles-css\" href=\"/cdn-cgi/styles/main.css\" />\n\n\n<script>\n(function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById(\"error-feedback-survey\"),d=document.getElementById(\"error-feedback-success\"),b=new XMLHttpRequest;a={event:\"feedback clicked\",properties:{errorCode:1003,helpful:a,version:1}};b.open(\"POST\",\"https://sparrow.cloudflare.com/api/v1/event\");b.setRequestHeader(\"Content-Type\",\"application/json\");b.setRequestHeader(\"Sparrow-Source-Key\",\"c771f0e4b54944bebf4261d44bd79a1e\");\nb.send(JSON.stringify(a));c.classList.add(\"feedback-hidden\");d.classList.remove(\"feedback-hidden\")};document.addEventListener(\"DOMContentLoaded\",function(){var a=document.getElementById(\"error-feedback\"),c=document.getElementById(\"feedback-button-yes\"),d=document.getElementById(\"feedback-button-no\");\"classList\"in a&&(a.classList.remove(\"feedback-hidden\"),c.addEventListener(\"click\",function(){e(!0)}),d.addEventListener(\"click\",function(){e(!1)}))})}})();\n</script>\n\n<script defer src=\"https://performance.radar.cloudflare.com/beacon.js\"></script>\n</head>\n<body>\n  <div id=\"cf-wrapper\">\n    <div class=\"cf-alert cf-alert-error cf-cookie-error hidden\" id=\"cookie-alert\" data-translate=\"enable_cookies\">Please enable cookies.</div>\n    <div id=\"cf-error-details\" class=\"p-0\">\n      <header class=\"mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased\">\n         <h1 class=\"inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight\">\n           <span data-translate=\"error\">Error</span>\n           <span>1003</span>\n         </h1>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">Ray ID: 9cd35774290360a6 &bull;</span>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">2026-02-13 09:36:28 UTC</span>\n        <h2 class=\"text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light\">Direct IP access not allowed</h2>\n      </header>\n\n      <section class=\"w-240 lg:w-full mx-auto mb-8 lg:px-8\">\n          <div id=\"what-happened-section\" class=\"w-1/2 md:w-full\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_happened\">What happened?</h2>\n            <p>You've requested an IP address that is part of the <a href=\"https://www.cloudflare.com/5xx-error-landing/\" target=\"_blank\">Cloudflare</a> network. A valid Host header must be supplied to reach the desired website.</p>\n            \n              <p>Please see <a rel=\"noopener noreferrer\" href=\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1003/\" target=\"_blank\">https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1003/</a> for more details.</p>\n            \n          </div>\n\n          \n          <div id=\"resolution-copy-section\" class=\"w-1/2 mt-6 text-15 leading-normal\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_can_i_do\">What can I do?</h2>\n            <p>If you are interested in learning more about Cloudflare, please <a href=\"https://www.cloudflare.com/5xx-error-landing/\" target=\"_blank\">visit our website</a>.</p>\n          </div>\n          \n      </section>\n\n      <div class=\"feedback-hidden py-8 text-center\" id=\"error-feedback\">\n    <div id=\"error-feedback-survey\" class=\"footer-line-wrapper\">\n        Was this page helpful?\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-yes\" type=\"button\">Yes</button>\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-no\" type=\"button\">No</button>\n    </div>\n    <div class=\"feedback-success feedback-hidden\" id=\"error-feedback-success\">\n        Thank you for your feedback!\n    </div>\n</div>\n\n\n      <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n  <p class=\"text-13\">\n    <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">9cd35774290360a6</strong></span>\n    <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    <span id=\"cf-footer-item-ip\" class=\"cf-footer-item hidden sm:block sm:mb-1\">\n      Your IP:\n      <button type=\"button\" id=\"cf-footer-ip-reveal\" class=\"cf-footer-ip-reveal-btn\">Click to reveal</button>\n      <span class=\"hidden\" id=\"cf-footer-ip\">162.142.125.213</span>\n      <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    </span>\n    <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance &amp; security by</span> <a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/5xx-error-landing\" id=\"brand_link\" target=\"_blank\">Cloudflare</a></span>\n    \n  </p>\n  <script>(function(){function d(){var b=a.getElementById(\"cf-footer-item-ip\"),c=a.getElementById(\"cf-footer-ip-reveal\");b&&\"classList\"in b&&(b.classList.remove(\"hidden\"),c.addEventListener(\"click\",function(){c.classList.add(\"hidden\");a.getElementById(\"cf-footer-ip\").classList.remove(\"hidden\")}))}var a=document;document.addEventListener&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n</div><!-- /.error-footer -->\n\n\n    </div><!-- /#cf-error-details -->\n  </div><!-- /#cf-wrapper -->\n\n  <script>\n  window._cf_translation = {};\n  \n  \n</script>\n\n</body>\n</html>\n",
+                "html_title": "Direct IP access not allowed | Cloudflare",
+                "body_hash_sha256": "710cc985ddec33803cd6a726824a4891e296da52319db52f771baf987b5b2371",
+                "body_hash_sha1": "64ddb9962ac7c7d613a157d4ece1ef375b05e5ea",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "170.114.52.2"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "094e8c85300ca15237d67ca50ab0447db9ab377bb3e5e5a3182c209edc2b0fd1",
+            "fingerprint_sha1": "43413bd950c4c81eb1c4da67b5eb96bf4aec7baf",
+            "fingerprint_md5": "17ebb3236ac9649a842d34a45aaeb1d4",
+            "tbs_fingerprint_sha256": "23f0be39f4aadc21fa7d37f1f67b2baedf139fbb510a2333e49ccf92a31ad6d1",
+            "tbs_no_ct_fingerprint_sha256": "414961c643c758f7ebe71f9d6bf2896277501cc66699eda1d8d4cb7f703f8913",
+            "spki_fingerprint_sha256": "1794de9e4748fa9002494df0251b899c593d0450acce03dadc1e8e8b25444e0f",
+            "parent_spki_fingerprint_sha256": "f737aa26549dce01eb1dc2e8ce19ecb6692f4f439c946f3b7fae0b7abb3d87d7",
+            "parsed": {
+              "version": 3,
+              "serial_number": "15792332819455926597087411711478788813",
+              "issuer_dn": "C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+              "issuer": {
+                "common_name": [
+                  "DigiCert Global G2 TLS RSA SHA256 2020 CA1"
+                ],
+                "country": [
+                  "US"
+                ],
+                "organization": [
+                  "DigiCert Inc"
+                ]
+              },
+              "subject_dn": "C=US, ST=California, L=San Jose, O=Zoom Communications\\, Inc., CN=*.zoom.us",
+              "subject": {
+                "common_name": [
+                  "*.zoom.us"
+                ],
+                "country": [
+                  "US"
+                ],
+                "locality": [
+                  "San Jose"
+                ],
+                "province": [
+                  "California"
+                ],
+                "organization": [
+                  "Zoom Communications, Inc."
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "RSA",
+                  "oid": "1.2.840.113549.1.1.1"
+                },
+                "rsa": {
+                  "exponent": 65537,
+                  "modulus": "bd1b4f7f5bbe85c04b56792b2b20f4ba5e813d411923949d5902658b9f7e56180adfbf80c2c3a943dfa50a8eace5f5b168e40bc99cb1cae29b82c8b005cd9a5ee6cc7206600e477d21784aee24331f086c0b322f13dd3e6761de165db340395e98128b9f2c29e264b6c8a695e6a14b80d91c40e7abfc06f010a3778e7f7c93ebc37d943efffbe1ff81fd92dc25300a66a8cc51e0f4b9e236a9e83accf537176a9210400f917c95503439244d693aff6057fe0891e08a01450527b3d520c7a64754690041203b5ca754df42066c6d7e9d8af5075f742ebf5ada09e548c3f9f2192549a5e495b3dff31e47141c2ea37fb9335afc42a0cf1fefed6788ffa90bf3a3",
+                  "length": 2048
+                },
+                "fingerprint_sha256": "d635e70d048008ce24c9b42ea3c7c1a4fda0c3645161840ef2ac0dfb9f471cfb"
+              },
+              "validity_period": {
+                "not_before": "2025-12-29T00:00:00Z",
+                "not_after": "2026-12-29T23:59:59Z",
+                "length_seconds": 31622400
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "SHA256-RSA",
+                  "oid": "1.2.840.113549.1.1.11"
+                },
+                "value": "0db6d7353775ef366dd70cc637d2277079a8e39713bc1e88dc1a2a53f7d67b777585026fb819ce56927afe1b14c1d9649074b071fac323ca5ca95ecbbbd13b697625db5de4eebd03dc1f85b818f2751686793b26a056efc3e6c10144bee497c98c399904acaa923731bd9630ce98a1af2f29b4537f4ed5d3034f87df71e7ec670930008a8a7f07342ef4859d0bc42297ad4281770646e25bba21f2c24906ac98a71feea83084ba0207fbbfa1657b91c2dd401e849d508368f9dd5d1b5b72af913e7cbf3a360ab27bece7fd7400781a3a3178af728ade0701acc803b95cd2b0e5a7272c1cc3285b505670d46ff5be18e3bcad5bda4a1bb723aae1a0911fd1b5b3",
+                "valid": true
+              },
+              "serial_number_hex": "0be17e1f6a86d60219a0310c0ddaf2cd"
+            },
+            "names": [
+              "*.zoom.us",
+              "zoom.us"
+            ],
+            "validation_level": "ov",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "a0d609a7e3c434e878a9a1c1bd065b8dcf33aa7efee1b11bc75cce5e5a042080",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                  "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "0ba8c0d459b76abc0825294f565e24f4f169d4a4819d0692d371522d297724b8",
+                      "2399561127a57125de8cefea610ddf2fa078b5c8067f4e828290bfb860e84b3c"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                  "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "a0d609a7e3c434e878a9a1c1bd065b8dcf33aa7efee1b11bc75cce5e5a042080",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                  "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "a0d609a7e3c434e878a9a1c1bd065b8dcf33aa7efee1b11bc75cce5e5a042080",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                  "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 2147297753,
+                  "added_to_ct_at": "2026-01-19T00:02:09Z",
+                  "ct_to_censys_at": "2026-01-19T00:41:25Z"
+                },
+                "google_argon_2026_h2": {
+                  "index": 224816186,
+                  "added_to_ct_at": "2026-01-06T23:36:05Z",
+                  "ct_to_censys_at": "2026-01-06T23:46:03Z"
+                },
+                "google_xenon_2026_h2": {
+                  "index": 173482706,
+                  "added_to_ct_at": "2026-01-06T23:36:05Z",
+                  "ct_to_censys_at": "2026-01-06T23:42:32Z"
+                },
+                "letsencrypt_ct_sycamore_2027_h1": {
+                  "index": 21172949,
+                  "added_to_ct_at": "2026-01-10T06:29:03Z",
+                  "ct_to_censys_at": "2026-01-10T06:35:18Z"
+                },
+                "letsencrypt_ct_willow_2027_h1": {
+                  "index": 20263821,
+                  "added_to_ct_at": "2026-01-10T06:29:03Z",
+                  "ct_to_censys_at": "2026-01-10T06:34:34Z"
+                },
+                "sectigo_elephant_2026_h2": {
+                  "index": 104754654,
+                  "added_to_ct_at": "2026-01-06T23:36:05Z",
+                  "ct_to_censys_at": "2026-01-06T23:39:08Z"
+                },
+                "sectigo_tiger_2026_h2": {
+                  "index": 102372684,
+                  "added_to_ct_at": "2026-01-06T23:36:05Z",
+                  "ct_to_censys_at": "2026-01-06T23:39:20Z"
+                },
+                "trustasia_log_2026_a": {
+                  "index": 464078048,
+                  "added_to_ct_at": "2026-01-06T23:36:08Z",
+                  "ct_to_censys_at": "2026-01-06T23:46:42Z"
+                },
+                "trustasia_log_2026_b": {
+                  "index": 480422980,
+                  "added_to_ct_at": "2026-01-06T23:36:07Z",
+                  "ct_to_censys_at": "2026-01-06T23:46:09Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2026-01-05T05:08:43Z",
+            "modified_at": "2026-01-19T00:41:25Z",
+            "validated_at": "2026-02-13T00:06:56Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "1794de9e4748fa9002494df0251b899c593d0450acce03dadc1e8e8b25444e0f",
+            "parent_spki_subject_fingerprint_sha256": "f737aa26549dce01eb1dc2e8ce19ecb6692f4f439c946f3b7fae0b7abb3d87d7"
+          },
+          "software": [
+            {
+              "vendor": "cloudflare",
+              "product": "cloudflare_load_balancer"
+            },
+            {
+              "type": [
+                "WAF"
+              ],
+              "vendor": "cloudflare",
+              "product": "waf"
+            }
+          ],
+          "labels": [
+            {
+              "value": "WAF"
+            }
+          ],
+          "ip": "170.114.52.2",
+          "scan_time": "2026-02-13T04:24:24Z",
+          "tls": {
+            "fingerprint_sha256": "094e8c85300ca15237d67ca50ab0447db9ab377bb3e5e5a3182c209edc2b0fd1",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                "subject_dn": "C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+                "issuer_dn": "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root G2"
+              },
+              {
+                "fingerprint_sha256": "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                "subject_dn": "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root G2",
+                "issuer_dn": "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root CA"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "170.114.52.2",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T04:24:24Z",
+              "http": {
+                "uri": "https://170.114.52.2/",
+                "protocol": "HTTP/1.1",
+                "status_code": 403,
+                "status_reason": "Forbidden",
+                "headers": {
+                  "CF-RAY": {
+                    "headers": [
+                      "9cd18e4fa80f8708-ORD"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "151"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "cloudflare"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>403 Forbidden</title>"
+                ],
+                "body_size": 151,
+                "body": "<html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n<hr><center>cloudflare</center>\r\n</body>\r\n</html>\r\n",
+                "html_title": "403 Forbidden",
+                "body_hash_sha256": "eed0b81a2fbdd1c5a9f80705885fc5bbf346ba428a79ff7a13ec8491c6a8e96c",
+                "body_hash_sha1": "441671eacb9398792d435443beaddd3fc5fa1910",
+                "supported_versions": [
+                  "HTTP/1.1",
+                  "HTTP/2"
+                ]
+              },
+              "ip": "170.114.52.2"
+            }
+          ]
+        }
+      ],
+      "service_count": 2,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-02-03T15:25:54Z"
+        },
+        "names": [
+          "kore.zoom.us",
+          "dhgllp.zoom.us",
+          "kafcobd.zoom.us",
+          "chifranciscan.zoom.us",
+          "tricountycare-org.zoom.us",
+          "moneytree.zoom.us",
+          "verainstitute.zoom.us",
+          "shawmutcorporation.zoom.us",
+          "pmc.zoom.us",
+          "kunchi.zoom.us",
+          "greaternw.zoom.us",
+          "allegion.zoom.us",
+          "dccmeetings.zoom.us",
+          "flexport.zoom.us",
+          "eacpds.zoom.us",
+          "grameenamerica.zoom.us",
+          "wbd.zoom.us",
+          "singtel.zoom.us",
+          "www.zoom.us",
+          "sproutsocial.zoom.us",
+          "sanata.zoom.us",
+          "ropesgray.zoom.us",
+          "hci.zoom.us",
+          "cobhamhall.zoom.us",
+          "dom.zoom.us",
+          "avispl.zoom.us",
+          "atitesting.zoom.us",
+          "sc.zoom.us",
+          "phumelela.zoom.us",
+          "takara-co-jp.zoom.us",
+          "ifrahlaw.zoom.us",
+          "cr-hk.zoom.us",
+          "harvardalumni.zoom.us",
+          "chpenorth-westuniversity.zoom.us",
+          "dreal-ara.zoom.us",
+          "bps-go-id.zoom.us",
+          "filvc.zoom.us",
+          "netcorecloud.zoom.us",
+          "crexi.zoom.us",
+          "meikenkogyo.zoom.us",
+          "procore.zoom.us",
+          "uniteddemocracyproject-org.zoom.us",
+          "qube-rt.zoom.us",
+          "svarchitects.zoom.us",
+          "bialikcollege.zoom.us",
+          "zoom.goupaz.com",
+          "tnial-mil-id.zoom.us",
+          "expeditors.zoom.us",
+          "syngentagroup-cn.zoom.us",
+          "pickles-au.zoom.us",
+          "reflexmedia.zoom.us",
+          "groombridgewu.zoom.us",
+          "clientele-co-za.zoom.us",
+          "bergstromfoundation-org.zoom.us",
+          "zoomtam83.zoom.us",
+          "griddynamics.zoom.us",
+          "catonetworks.zoom.us",
+          "shibumi.zoom.us",
+          "ses-ins.zoom.us",
+          "heirsinsurance.zoom.us",
+          "colegioamericano-edu-ec.zoom.us",
+          "spe-dct.zoom.us",
+          "teg-london.zoom.us",
+          "fundacaorhf-br.zoom.us",
+          "harborandunion.zoom.us",
+          "racp.zoom.us",
+          "dakzn-org-za.zoom.us",
+          "autoritedelaconcurrence.zoom.us",
+          "joinforum.zoom.us",
+          "cloud.zoom.us",
+          "sbu.zoom.us",
+          "lyra-sandbox.zoom.us",
+          "nissuicon-co-jp.zoom.us",
+          "nren.zoom.us",
+          "lansweeper.zoom.us",
+          "fawry.zoom.us",
+          "fao.zoom.us",
+          "edxmarkets.zoom.us",
+          "btpartners.zoom.us",
+          "binus.zoom.us",
+          "bff.zoom.us",
+          "analogdev.zoom.us",
+          "iastate.zoom.us",
+          "successgyan.zoom.us",
+          "kostal.zoom.us",
+          "obgynboardprep.zoom.us",
+          "sower.zoom.us",
+          "creditsaison.zoom.us",
+          "ecsdm-org.zoom.us",
+          "videoconf-colibri.zoom.us",
+          "wukongsch.zoom.us",
+          "tri-global.zoom.us",
+          "python.zoom.us",
+          "netagen.zoom.us",
+          "medeniyet-edu-tr.zoom.us",
+          "kiwi.zoom.us",
+          "identitygroup-uk.zoom.us",
+          "aaronsinc.zoom.us",
+          "showingtime.zoom.us",
+          "knoxcounty.zoom.us"
+        ],
+        "forward_dns": {
+          "aaronsinc.zoom.us": {
+            "resolve_time": "2026-01-27T13:19:27Z",
+            "name": "aaronsinc.zoom.us",
+            "record_type": "a"
+          },
+          "allegion.zoom.us": {
+            "resolve_time": "2026-02-11T19:37:39Z",
+            "name": "allegion.zoom.us",
+            "record_type": "a"
+          },
+          "analogdev.zoom.us": {
+            "resolve_time": "2026-01-29T18:15:22Z",
+            "name": "analogdev.zoom.us",
+            "record_type": "a"
+          },
+          "atitesting.zoom.us": {
+            "resolve_time": "2026-02-10T16:45:17Z",
+            "name": "atitesting.zoom.us",
+            "record_type": "a"
+          },
+          "autoritedelaconcurrence.zoom.us": {
+            "resolve_time": "2026-02-06T16:58:41Z",
+            "name": "autoritedelaconcurrence.zoom.us",
+            "record_type": "a"
+          },
+          "avispl.zoom.us": {
+            "resolve_time": "2026-02-10T16:45:17Z",
+            "name": "avispl.zoom.us",
+            "record_type": "a"
+          },
+          "bergstromfoundation-org.zoom.us": {
+            "resolve_time": "2026-02-07T16:30:53Z",
+            "name": "bergstromfoundation-org.zoom.us",
+            "record_type": "a"
+          },
+          "bff.zoom.us": {
+            "resolve_time": "2026-01-29T18:15:22Z",
+            "name": "bff.zoom.us",
+            "record_type": "a"
+          },
+          "bialikcollege.zoom.us": {
+            "resolve_time": "2026-02-08T16:09:58Z",
+            "name": "bialikcollege.zoom.us",
+            "record_type": "a"
+          },
+          "binus.zoom.us": {
+            "resolve_time": "2026-01-29T18:15:22Z",
+            "name": "binus.zoom.us",
+            "record_type": "a"
+          },
+          "bps-go-id.zoom.us": {
+            "resolve_time": "2026-02-09T21:42:03Z",
+            "name": "bps-go-id.zoom.us",
+            "record_type": "a"
+          },
+          "btpartners.zoom.us": {
+            "resolve_time": "2026-01-29T18:15:22Z",
+            "name": "btpartners.zoom.us",
+            "record_type": "a"
+          },
+          "catonetworks.zoom.us": {
+            "resolve_time": "2026-02-06T16:58:43Z",
+            "name": "catonetworks.zoom.us",
+            "record_type": "a"
+          },
+          "chifranciscan.zoom.us": {
+            "resolve_time": "2026-02-11T19:37:41Z",
+            "name": "chifranciscan.zoom.us",
+            "record_type": "a"
+          },
+          "chpenorth-westuniversity.zoom.us": {
+            "resolve_time": "2026-02-09T21:42:04Z",
+            "name": "chpenorth-westuniversity.zoom.us",
+            "record_type": "a"
+          },
+          "clientele-co-za.zoom.us": {
+            "resolve_time": "2026-02-07T16:30:54Z",
+            "name": "clientele-co-za.zoom.us",
+            "record_type": "a"
+          },
+          "cloud.zoom.us": {
+            "resolve_time": "2026-02-06T00:16:58Z",
+            "name": "cloud.zoom.us",
+            "record_type": "a"
+          },
+          "cobhamhall.zoom.us": {
+            "resolve_time": "2026-02-10T16:45:18Z",
+            "name": "cobhamhall.zoom.us",
+            "record_type": "a"
+          },
+          "colegioamericano-edu-ec.zoom.us": {
+            "resolve_time": "2026-02-06T16:58:42Z",
+            "name": "colegioamericano-edu-ec.zoom.us",
+            "record_type": "a"
+          },
+          "cr-hk.zoom.us": {
+            "resolve_time": "2026-02-09T21:42:04Z",
+            "name": "cr-hk.zoom.us",
+            "record_type": "a"
+          },
+          "creditsaison.zoom.us": {
+            "resolve_time": "2026-01-28T12:32:26Z",
+            "name": "creditsaison.zoom.us",
+            "record_type": "a"
+          },
+          "crexi.zoom.us": {
+            "resolve_time": "2026-02-08T16:10:14Z",
+            "name": "crexi.zoom.us",
+            "record_type": "a"
+          },
+          "dakzn-org-za.zoom.us": {
+            "resolve_time": "2026-02-06T16:58:41Z",
+            "name": "dakzn-org-za.zoom.us",
+            "record_type": "a"
+          },
+          "dccmeetings.zoom.us": {
+            "resolve_time": "2026-02-11T19:37:39Z",
+            "name": "dccmeetings.zoom.us",
+            "record_type": "a"
+          },
+          "dhgllp.zoom.us": {
+            "resolve_time": "2026-02-11T19:37:42Z",
+            "name": "dhgllp.zoom.us",
+            "record_type": "a"
+          },
+          "dom.zoom.us": {
+            "resolve_time": "2026-02-10T16:45:17Z",
+            "name": "dom.zoom.us",
+            "record_type": "a"
+          },
+          "dreal-ara.zoom.us": {
+            "resolve_time": "2026-02-09T21:42:04Z",
+            "name": "dreal-ara.zoom.us",
+            "record_type": "a"
+          },
+          "eacpds.zoom.us": {
+            "resolve_time": "2026-02-10T16:45:20Z",
+            "name": "eacpds.zoom.us",
+            "record_type": "a"
+          },
+          "ecsdm-org.zoom.us": {
+            "resolve_time": "2026-01-27T13:19:35Z",
+            "name": "ecsdm-org.zoom.us",
+            "record_type": "a"
+          },
+          "edxmarkets.zoom.us": {
+            "resolve_time": "2026-01-29T18:15:22Z",
+            "name": "edxmarkets.zoom.us",
+            "record_type": "a"
+          },
+          "expeditors.zoom.us": {
+            "resolve_time": "2026-02-07T16:30:58Z",
+            "name": "expeditors.zoom.us",
+            "record_type": "a"
+          },
+          "fao.zoom.us": {
+            "resolve_time": "2026-01-29T18:15:22Z",
+            "name": "fao.zoom.us",
+            "record_type": "a"
+          },
+          "fawry.zoom.us": {
+            "resolve_time": "2026-01-29T18:15:22Z",
+            "name": "fawry.zoom.us",
+            "record_type": "a"
+          },
+          "filvc.zoom.us": {
+            "resolve_time": "2026-02-08T16:10:35Z",
+            "name": "filvc.zoom.us",
+            "record_type": "a"
+          },
+          "flexport.zoom.us": {
+            "resolve_time": "2026-02-11T19:37:39Z",
+            "name": "flexport.zoom.us",
+            "record_type": "a"
+          },
+          "fundacaorhf-br.zoom.us": {
+            "resolve_time": "2026-02-06T16:58:41Z",
+            "name": "fundacaorhf-br.zoom.us",
+            "record_type": "a"
+          },
+          "grameenamerica.zoom.us": {
+            "resolve_time": "2026-02-10T16:45:19Z",
+            "name": "grameenamerica.zoom.us",
+            "record_type": "a"
+          },
+          "greaternw.zoom.us": {
+            "resolve_time": "2026-02-11T19:37:39Z",
+            "name": "greaternw.zoom.us",
+            "record_type": "a"
+          },
+          "griddynamics.zoom.us": {
+            "resolve_time": "2026-02-06T16:58:43Z",
+            "name": "griddynamics.zoom.us",
+            "record_type": "a"
+          },
+          "groombridgewu.zoom.us": {
+            "resolve_time": "2026-02-07T16:30:54Z",
+            "name": "groombridgewu.zoom.us",
+            "record_type": "a"
+          },
+          "harborandunion.zoom.us": {
+            "resolve_time": "2026-02-06T16:58:41Z",
+            "name": "harborandunion.zoom.us",
+            "record_type": "a"
+          },
+          "harvardalumni.zoom.us": {
+            "resolve_time": "2026-02-09T21:42:04Z",
+            "name": "harvardalumni.zoom.us",
+            "record_type": "a"
+          },
+          "hci.zoom.us": {
+            "resolve_time": "2026-02-10T16:45:18Z",
+            "name": "hci.zoom.us",
+            "record_type": "a"
+          },
+          "heirsinsurance.zoom.us": {
+            "resolve_time": "2026-02-06T16:58:42Z",
+            "name": "heirsinsurance.zoom.us",
+            "record_type": "a"
+          },
+          "iastate.zoom.us": {
+            "resolve_time": "2026-01-28T12:32:28Z",
+            "name": "iastate.zoom.us",
+            "record_type": "a"
+          },
+          "identitygroup-uk.zoom.us": {
+            "resolve_time": "2026-01-27T13:19:28Z",
+            "name": "identitygroup-uk.zoom.us",
+            "record_type": "a"
+          },
+          "ifrahlaw.zoom.us": {
+            "resolve_time": "2026-02-09T21:42:04Z",
+            "name": "ifrahlaw.zoom.us",
+            "record_type": "a"
+          },
+          "joinforum.zoom.us": {
+            "resolve_time": "2026-02-06T16:58:41Z",
+            "name": "joinforum.zoom.us",
+            "record_type": "a"
+          },
+          "kafcobd.zoom.us": {
+            "resolve_time": "2026-02-11T19:37:42Z",
+            "name": "kafcobd.zoom.us",
+            "record_type": "a"
+          },
+          "kiwi.zoom.us": {
+            "resolve_time": "2026-01-27T13:19:28Z",
+            "name": "kiwi.zoom.us",
+            "record_type": "a"
+          },
+          "knoxcounty.zoom.us": {
+            "resolve_time": "2026-01-26T12:12:54Z",
+            "name": "knoxcounty.zoom.us",
+            "record_type": "a"
+          },
+          "kore.zoom.us": {
+            "resolve_time": "2026-02-11T19:37:45Z",
+            "name": "kore.zoom.us",
+            "record_type": "a"
+          },
+          "kostal.zoom.us": {
+            "resolve_time": "2026-01-28T12:32:27Z",
+            "name": "kostal.zoom.us",
+            "record_type": "a"
+          },
+          "kunchi.zoom.us": {
+            "resolve_time": "2026-02-11T19:37:39Z",
+            "name": "kunchi.zoom.us",
+            "record_type": "a"
+          },
+          "lansweeper.zoom.us": {
+            "resolve_time": "2026-01-29T18:15:22Z",
+            "name": "lansweeper.zoom.us",
+            "record_type": "a"
+          },
+          "lyra-sandbox.zoom.us": {
+            "resolve_time": "2026-01-29T18:15:23Z",
+            "name": "lyra-sandbox.zoom.us",
+            "record_type": "a"
+          },
+          "medeniyet-edu-tr.zoom.us": {
+            "resolve_time": "2026-01-27T13:19:28Z",
+            "name": "medeniyet-edu-tr.zoom.us",
+            "record_type": "a"
+          },
+          "meikenkogyo.zoom.us": {
+            "resolve_time": "2026-02-08T16:10:12Z",
+            "name": "meikenkogyo.zoom.us",
+            "record_type": "a"
+          },
+          "moneytree.zoom.us": {
+            "resolve_time": "2026-02-11T19:37:40Z",
+            "name": "moneytree.zoom.us",
+            "record_type": "a"
+          },
+          "netagen.zoom.us": {
+            "resolve_time": "2026-01-27T13:19:28Z",
+            "name": "netagen.zoom.us",
+            "record_type": "a"
+          },
+          "netcorecloud.zoom.us": {
+            "resolve_time": "2026-02-08T16:10:23Z",
+            "name": "netcorecloud.zoom.us",
+            "record_type": "a"
+          },
+          "nissuicon-co-jp.zoom.us": {
+            "resolve_time": "2026-01-29T18:15:23Z",
+            "name": "nissuicon-co-jp.zoom.us",
+            "record_type": "a"
+          },
+          "nren.zoom.us": {
+            "resolve_time": "2026-01-29T18:15:23Z",
+            "name": "nren.zoom.us",
+            "record_type": "a"
+          },
+          "obgynboardprep.zoom.us": {
+            "resolve_time": "2026-01-28T12:32:27Z",
+            "name": "obgynboardprep.zoom.us",
+            "record_type": "a"
+          },
+          "phumelela.zoom.us": {
+            "resolve_time": "2026-02-09T21:42:05Z",
+            "name": "phumelela.zoom.us",
+            "record_type": "a"
+          },
+          "pickles-au.zoom.us": {
+            "resolve_time": "2026-02-07T16:30:55Z",
+            "name": "pickles-au.zoom.us",
+            "record_type": "a"
+          },
+          "pmc.zoom.us": {
+            "resolve_time": "2026-02-11T19:37:39Z",
+            "name": "pmc.zoom.us",
+            "record_type": "a"
+          },
+          "procore.zoom.us": {
+            "resolve_time": "2026-02-08T16:10:11Z",
+            "name": "procore.zoom.us",
+            "record_type": "a"
+          },
+          "python.zoom.us": {
+            "resolve_time": "2026-01-27T13:19:28Z",
+            "name": "python.zoom.us",
+            "record_type": "a"
+          },
+          "qube-rt.zoom.us": {
+            "resolve_time": "2026-02-08T16:10:00Z",
+            "name": "qube-rt.zoom.us",
+            "record_type": "a"
+          },
+          "racp.zoom.us": {
+            "resolve_time": "2026-02-06T16:58:41Z",
+            "name": "racp.zoom.us",
+            "record_type": "a"
+          },
+          "reflexmedia.zoom.us": {
+            "resolve_time": "2026-02-07T16:30:54Z",
+            "name": "reflexmedia.zoom.us",
+            "record_type": "a"
+          },
+          "ropesgray.zoom.us": {
+            "resolve_time": "2026-02-10T16:45:18Z",
+            "name": "ropesgray.zoom.us",
+            "record_type": "a"
+          },
+          "sanata.zoom.us": {
+            "resolve_time": "2026-02-10T16:45:18Z",
+            "name": "sanata.zoom.us",
+            "record_type": "a"
+          },
+          "sbu.zoom.us": {
+            "resolve_time": "2026-01-29T18:15:23Z",
+            "name": "sbu.zoom.us",
+            "record_type": "a"
+          },
+          "sc.zoom.us": {
+            "resolve_time": "2026-02-09T21:42:05Z",
+            "name": "sc.zoom.us",
+            "record_type": "a"
+          },
+          "ses-ins.zoom.us": {
+            "resolve_time": "2026-02-06T16:58:42Z",
+            "name": "ses-ins.zoom.us",
+            "record_type": "a"
+          },
+          "shawmutcorporation.zoom.us": {
+            "resolve_time": "2026-02-11T19:37:40Z",
+            "name": "shawmutcorporation.zoom.us",
+            "record_type": "a"
+          },
+          "shibumi.zoom.us": {
+            "resolve_time": "2026-02-06T16:58:43Z",
+            "name": "shibumi.zoom.us",
+            "record_type": "a"
+          },
+          "showingtime.zoom.us": {
+            "resolve_time": "2026-01-26T12:13:05Z",
+            "name": "showingtime.zoom.us",
+            "record_type": "a"
+          },
+          "singtel.zoom.us": {
+            "resolve_time": "2026-02-10T16:45:19Z",
+            "name": "singtel.zoom.us",
+            "record_type": "a"
+          },
+          "sower.zoom.us": {
+            "resolve_time": "2026-01-28T12:32:27Z",
+            "name": "sower.zoom.us",
+            "record_type": "a"
+          },
+          "spe-dct.zoom.us": {
+            "resolve_time": "2026-02-06T16:58:41Z",
+            "name": "spe-dct.zoom.us",
+            "record_type": "a"
+          },
+          "sproutsocial.zoom.us": {
+            "resolve_time": "2026-02-10T16:45:19Z",
+            "name": "sproutsocial.zoom.us",
+            "record_type": "a"
+          },
+          "successgyan.zoom.us": {
+            "resolve_time": "2026-01-28T12:32:28Z",
+            "name": "successgyan.zoom.us",
+            "record_type": "a"
+          },
+          "svarchitects.zoom.us": {
+            "resolve_time": "2026-02-08T16:09:59Z",
+            "name": "svarchitects.zoom.us",
+            "record_type": "a"
+          },
+          "syngentagroup-cn.zoom.us": {
+            "resolve_time": "2026-02-07T16:30:55Z",
+            "name": "syngentagroup-cn.zoom.us",
+            "record_type": "a"
+          },
+          "takara-co-jp.zoom.us": {
+            "resolve_time": "2026-02-09T21:42:05Z",
+            "name": "takara-co-jp.zoom.us",
+            "record_type": "a"
+          },
+          "teg-london.zoom.us": {
+            "resolve_time": "2026-02-06T16:58:41Z",
+            "name": "teg-london.zoom.us",
+            "record_type": "a"
+          },
+          "tnial-mil-id.zoom.us": {
+            "resolve_time": "2026-02-07T16:30:59Z",
+            "name": "tnial-mil-id.zoom.us",
+            "record_type": "a"
+          },
+          "tri-global.zoom.us": {
+            "resolve_time": "2026-01-27T13:19:28Z",
+            "name": "tri-global.zoom.us",
+            "record_type": "a"
+          },
+          "tricountycare-org.zoom.us": {
+            "resolve_time": "2026-02-11T19:37:40Z",
+            "name": "tricountycare-org.zoom.us",
+            "record_type": "a"
+          },
+          "uniteddemocracyproject-org.zoom.us": {
+            "resolve_time": "2026-02-08T16:10:10Z",
+            "name": "uniteddemocracyproject-org.zoom.us",
+            "record_type": "a"
+          },
+          "verainstitute.zoom.us": {
+            "resolve_time": "2026-02-11T19:37:40Z",
+            "name": "verainstitute.zoom.us",
+            "record_type": "a"
+          },
+          "videoconf-colibri.zoom.us": {
+            "resolve_time": "2026-01-27T13:19:34Z",
+            "name": "videoconf-colibri.zoom.us",
+            "record_type": "a"
+          },
+          "wbd.zoom.us": {
+            "resolve_time": "2026-02-10T16:45:19Z",
+            "name": "wbd.zoom.us",
+            "record_type": "a"
+          },
+          "wukongsch.zoom.us": {
+            "resolve_time": "2026-01-27T13:19:28Z",
+            "name": "wukongsch.zoom.us",
+            "record_type": "a"
+          },
+          "www.zoom.us": {
+            "resolve_time": "2026-02-10T16:45:19Z",
+            "name": "www.zoom.us",
+            "record_type": "a"
+          },
+          "zoom.goupaz.com": {
+            "resolve_time": "2026-02-08T16:08:30Z",
+            "name": "zoom.goupaz.com",
+            "record_type": "a"
+          },
+          "zoomtam83.zoom.us": {
+            "resolve_time": "2026-02-06T16:58:43Z",
+            "name": "zoomtam83.zoom.us",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

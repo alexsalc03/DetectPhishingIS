@@ -1,0 +1,1145 @@
+{
+  "result": {
+    "resource": {
+      "ip": "149.154.167.99",
+      "location": {
+        "continent": "Europe",
+        "country": "Netherlands",
+        "country_code": "NL",
+        "city": "Amsterdam",
+        "postal_code": "1012",
+        "timezone": "Europe/Amsterdam",
+        "province": "North Holland",
+        "coordinates": {
+          "latitude": 52.37403,
+          "longitude": 4.88969
+        }
+      },
+      "autonomous_system": {
+        "asn": 62041,
+        "description": "TELEGRAM",
+        "bgp_prefix": "149.154.166.0/23",
+        "name": "TELEGRAM",
+        "country_code": "VG"
+      },
+      "whois": {
+        "network": {
+          "handle": "TELEGRAM_MESSENGER_NETWORK",
+          "name": "Telegram Messenger Network",
+          "cidrs": [
+            "149.154.164.0/22"
+          ],
+          "created": "2014-09-19T00:00:00Z",
+          "updated": "2018-06-12T00:00:00Z"
+        },
+        "organization": {
+          "handle": "ORG-GNMI1-RIPE",
+          "name": "Global Network Management Inc",
+          "address": "11 Old Parham Road\\nAG02\\nSt.Johns\\nANTIGUA AND BARBUDA",
+          "abuse_contacts": [
+            {
+              "handle": "AR60338-RIPE",
+              "name": "Abuse-C Role",
+              "email": "vvv@gnm.net"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "CA9667-RIPE",
+              "name": "CEO",
+              "email": "vvv@gblnet.net"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "f5",
+              "product": "nginx"
+            }
+          ],
+          "ip": "149.154.167.99",
+          "scan_time": "2026-02-13T02:50:22Z",
+          "endpoints": [
+            {
+              "hostname": "149.154.167.99",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T02:50:22Z",
+              "http": {
+                "uri": "http://149.154.167.99/",
+                "protocol": "HTTP/1.1",
+                "status_code": 302,
+                "status_reason": "Found",
+                "headers": {
+                  "Cache-control": {
+                    "headers": [
+                      "no-store"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Encoding": {
+                    "headers": [
+                      "gzip"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "20"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html; charset=UTF-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Location": {
+                    "headers": [
+                      "https://core.telegram.org"
+                    ]
+                  },
+                  "Pragma": {
+                    "headers": [
+                      "no-cache"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "nginx/1.18.0"
+                    ]
+                  },
+                  "X-Redirect-Host": {
+                    "headers": [
+                      "149.154.167.99"
+                    ]
+                  }
+                },
+                "supported_versions": [
+                  "HTTP/1.1"
+                ],
+                "redirect_chain": [
+                  {
+                    "hostname": "core.telegram.org",
+                    "port": 443,
+                    "transport_protocol": "tcp",
+                    "path": "/",
+                    "reason": "HTTP_3XX"
+                  }
+                ]
+              },
+              "ip": "149.154.167.99"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "4935ffbc17d1e9b31537e467c23aa0696c37dc523f7c02d630c46e457ccaf0d2",
+            "fingerprint_sha1": "8508982fa3609021e87821c8a496e1a2e69d2c64",
+            "fingerprint_md5": "bd167351e221ec75588df45c418b49a5",
+            "tbs_fingerprint_sha256": "774a24096d2f832e74bf780459cadc0c819e309fd99755106b48d63bb99ac516",
+            "tbs_no_ct_fingerprint_sha256": "97bd76929daf03c91d11bfcb1016e123a3ca02e95a46a5cdd6f22e6391bd7bed",
+            "spki_fingerprint_sha256": "75fbe53f15c7b673855d1d6eb3bb0a4089771dab09198fb51d3810da1c6bba5f",
+            "parent_spki_fingerprint_sha256": "340ffdeae9152c43ef716c6e790f869029dbb48a0f36a5b0756dd74e2b1e242d",
+            "parsed": {
+              "version": 3,
+              "serial_number": "8740875481809283271",
+              "issuer_dn": "C=US, ST=Arizona, L=Scottsdale, O=GoDaddy.com\\, Inc., OU=http://certs.godaddy.com/repository/, CN=Go Daddy Secure Certificate Authority - G2",
+              "issuer": {
+                "common_name": [
+                  "Go Daddy Secure Certificate Authority - G2"
+                ],
+                "country": [
+                  "US"
+                ],
+                "locality": [
+                  "Scottsdale"
+                ],
+                "province": [
+                  "Arizona"
+                ],
+                "organization": [
+                  "GoDaddy.com, Inc."
+                ],
+                "organizational_unit": [
+                  "http://certs.godaddy.com/repository/"
+                ]
+              },
+              "subject_dn": "CN=*.telegram.org",
+              "subject": {
+                "common_name": [
+                  "*.telegram.org"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "RSA",
+                  "oid": "1.2.840.113549.1.1.1"
+                },
+                "rsa": {
+                  "exponent": 65537,
+                  "modulus": "aa481ffe4f553d11a85e62b9a2c974f4923d0fd9bf86dbdef46500037df6bb51f7f762c38255d90b2756645e1d8d75d57a048d478a863b81f844e587f5463bf35734f70f9ff2762c2b7232f38cd520e4c00276446ccde938f5527f501ddb59e7242a4e4df8a7f769e139e391b70519d67136dd9f5d2ebc1661348f92aa98ee32801730ca6c3326bd74ef9d07f68f44fddd90e6ae3ff5f1c4612c932c911b8ae49bff7408dd6abcae30019bf39f20d762937528d6d70a3b744e12034459d3f9f35a411efa838028cb7e3b7a3850c3cabb6d5075612004e6d44b07221a86e5551b49b2c996c3f73d00279e0a9b20b330e83caf7cb9b6b1cf6fc905c3c997d805ed",
+                  "length": 2048
+                },
+                "fingerprint_sha256": "7d4c48ae2822c14a9174e70bd128447ebbc843909f1f0efe361f795da4c4e9c1"
+              },
+              "validity_period": {
+                "not_before": "2025-08-11T13:36:48Z",
+                "not_after": "2026-09-12T13:36:48Z",
+                "length_seconds": 34300801
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "SHA256-RSA",
+                  "oid": "1.2.840.113549.1.1.11"
+                },
+                "value": "0931a2879276eb454b4fbedf98e507b3bc48bd2353c6cb4b6ac4281790404a6fd4105ae3c9b8ed7c54b666709a0b34773836ed6e8ddc11e9386f472dd0b7a32e957f72109acb0e9c301b246ab9853427c0c501186876df28fa938f6927064670681f250a5d1e45580b6413339a8ff4d4378a27b48536c1a9ce6ef773e9f7ad9ce65c6b98b328935f85ecb8ca0d20c7d2c1c8b6235a751e144005e2e7003866ff8b48f6f660c4a8e4abb4368c1359d01c92523206b84d253ae67807b5b0477a1cbd3ac30266b07314c67218320904c888e5c0e849c52d52d8a29ce0e970dfd1de48e78cbe3411b070beccee7ce38e13ea7d7fae21add53e34d80f9d922b90ea9e",
+                "valid": true
+              },
+              "serial_number_hex": "794dd3f08729e8c7"
+            },
+            "names": [
+              "*.telegram.org",
+              "telegram.org"
+            ],
+            "validation_level": "dv",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "973a41276ffd01e027a2aad49e34c37846d3e976ff6a620b6712e33832041aa6",
+                      "45140b3247eb9cc8c5b4f0d7b53091f73292089e6e5a63e2749dd3aca9198eda"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "973a41276ffd01e027a2aad49e34c37846d3e976ff6a620b6712e33832041aa6",
+                      "3a2fbe92891e57fe05d57087f48e730f17e5a5f53ef403d618e5b74d7a7e6ecb",
+                      "c3846bf24b9e93ca64274c0ec67c1ecc5e024ffcacd2d74019350e81fe546ae4"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "973a41276ffd01e027a2aad49e34c37846d3e976ff6a620b6712e33832041aa6",
+                      "ff044dacb6164420c1b0e130991b4cab5e194d9063c176b83edefdef096d915c",
+                      "c3846bf24b9e93ca64274c0ec67c1ecc5e024ffcacd2d74019350e81fe546ae4"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "973a41276ffd01e027a2aad49e34c37846d3e976ff6a620b6712e33832041aa6"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "973a41276ffd01e027a2aad49e34c37846d3e976ff6a620b6712e33832041aa6",
+                      "45140b3247eb9cc8c5b4f0d7b53091f73292089e6e5a63e2749dd3aca9198eda"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "973a41276ffd01e027a2aad49e34c37846d3e976ff6a620b6712e33832041aa6",
+                      "3a2fbe92891e57fe05d57087f48e730f17e5a5f53ef403d618e5b74d7a7e6ecb",
+                      "c3846bf24b9e93ca64274c0ec67c1ecc5e024ffcacd2d74019350e81fe546ae4"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "973a41276ffd01e027a2aad49e34c37846d3e976ff6a620b6712e33832041aa6",
+                      "ff044dacb6164420c1b0e130991b4cab5e194d9063c176b83edefdef096d915c",
+                      "c3846bf24b9e93ca64274c0ec67c1ecc5e024ffcacd2d74019350e81fe546ae4"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "973a41276ffd01e027a2aad49e34c37846d3e976ff6a620b6712e33832041aa6"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "973a41276ffd01e027a2aad49e34c37846d3e976ff6a620b6712e33832041aa6",
+                      "45140b3247eb9cc8c5b4f0d7b53091f73292089e6e5a63e2749dd3aca9198eda"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "973a41276ffd01e027a2aad49e34c37846d3e976ff6a620b6712e33832041aa6",
+                      "3a2fbe92891e57fe05d57087f48e730f17e5a5f53ef403d618e5b74d7a7e6ecb",
+                      "c3846bf24b9e93ca64274c0ec67c1ecc5e024ffcacd2d74019350e81fe546ae4"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "973a41276ffd01e027a2aad49e34c37846d3e976ff6a620b6712e33832041aa6",
+                      "ff044dacb6164420c1b0e130991b4cab5e194d9063c176b83edefdef096d915c",
+                      "c3846bf24b9e93ca64274c0ec67c1ecc5e024ffcacd2d74019350e81fe546ae4"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "973a41276ffd01e027a2aad49e34c37846d3e976ff6a620b6712e33832041aa6"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "973a41276ffd01e027a2aad49e34c37846d3e976ff6a620b6712e33832041aa6",
+                      "45140b3247eb9cc8c5b4f0d7b53091f73292089e6e5a63e2749dd3aca9198eda"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "973a41276ffd01e027a2aad49e34c37846d3e976ff6a620b6712e33832041aa6"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 1549780572,
+                  "added_to_ct_at": "2025-12-16T21:17:02Z",
+                  "ct_to_censys_at": "2025-12-16T21:56:22Z"
+                },
+                "comodo_mammoth_2026_h2": {
+                  "index": 34804869,
+                  "added_to_ct_at": "2025-08-17T09:38:04Z",
+                  "ct_to_censys_at": "2025-08-17T09:41:13Z"
+                },
+                "comodo_sabre_2026_h2": {
+                  "index": 43454266,
+                  "added_to_ct_at": "2025-08-17T09:38:05Z",
+                  "ct_to_censys_at": "2025-08-17T09:46:34Z"
+                },
+                "google_argon_2026_h2": {
+                  "index": 89590913,
+                  "added_to_ct_at": "2025-08-17T09:34:00Z",
+                  "ct_to_censys_at": "2025-08-17T09:37:39Z"
+                },
+                "google_xenon_2026_h2": {
+                  "index": 69609627,
+                  "added_to_ct_at": "2025-08-17T09:34:01Z",
+                  "ct_to_censys_at": "2025-08-17T09:38:52Z"
+                },
+                "letsencrypt_ct_oak_2026_h2": {
+                  "index": 56828022,
+                  "added_to_ct_at": "2025-08-18T02:38:50Z",
+                  "ct_to_censys_at": "2025-08-18T02:46:32Z"
+                },
+                "letsencrypt_ct_sycamore_2026_h2": {
+                  "index": 666412,
+                  "added_to_ct_at": "2025-09-10T15:41:11Z",
+                  "ct_to_censys_at": "2025-12-12T14:55:41Z"
+                },
+                "letsencrypt_ct_willow_2026_h2": {
+                  "index": 666493,
+                  "added_to_ct_at": "2025-09-10T15:41:11Z",
+                  "ct_to_censys_at": "2025-12-12T14:59:18Z"
+                },
+                "sectigo_elephant_2026_h2": {
+                  "index": 33134817,
+                  "added_to_ct_at": "2025-08-17T09:38:06Z",
+                  "ct_to_censys_at": "2025-08-17T09:49:24Z"
+                },
+                "sectigo_tiger_2026_h2": {
+                  "index": 33279129,
+                  "added_to_ct_at": "2025-08-17T09:38:06Z",
+                  "ct_to_censys_at": "2025-08-17T09:40:49Z"
+                },
+                "trustasia_log_2026_a": {
+                  "index": 33426874,
+                  "added_to_ct_at": "2025-08-18T02:38:50Z",
+                  "ct_to_censys_at": "2025-08-18T02:46:03Z"
+                },
+                "trustasia_log_2026_b": {
+                  "index": 39605262,
+                  "added_to_ct_at": "2025-08-18T02:38:51Z",
+                  "ct_to_censys_at": "2025-08-18T02:47:05Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2025-08-16T13:44:06Z",
+            "modified_at": "2025-12-16T21:56:29Z",
+            "validated_at": "2026-02-13T04:08:59Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "75fbe53f15c7b673855d1d6eb3bb0a4089771dab09198fb51d3810da1c6bba5f",
+            "parent_spki_subject_fingerprint_sha256": "340ffdeae9152c43ef716c6e790f869029dbb48a0f36a5b0756dd74e2b1e242d"
+          },
+          "software": [
+            {
+              "vendor": "f5",
+              "product": "nginx"
+            }
+          ],
+          "ip": "149.154.167.99",
+          "scan_time": "2026-02-13T04:59:54Z",
+          "tls": {
+            "fingerprint_sha256": "4935ffbc17d1e9b31537e467c23aa0696c37dc523f7c02d630c46e457ccaf0d2",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "973a41276ffd01e027a2aad49e34c37846d3e976ff6a620b6712e33832041aa6",
+                "subject_dn": "C=US, ST=Arizona, L=Scottsdale, O=GoDaddy.com\\, Inc., OU=http://certs.godaddy.com/repository/, CN=Go Daddy Secure Certificate Authority - G2",
+                "issuer_dn": "C=US, ST=Arizona, L=Scottsdale, O=GoDaddy.com\\, Inc., CN=Go Daddy Root Certificate Authority - G2"
+              },
+              {
+                "fingerprint_sha256": "45140b3247eb9cc8c5b4f0d7b53091f73292089e6e5a63e2749dd3aca9198eda",
+                "subject_dn": "C=US, ST=Arizona, L=Scottsdale, O=GoDaddy.com\\, Inc., CN=Go Daddy Root Certificate Authority - G2",
+                "issuer_dn": "C=US, ST=Arizona, L=Scottsdale, O=GoDaddy.com\\, Inc., CN=Go Daddy Root Certificate Authority - G2"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "149.154.167.99",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T04:59:54Z",
+              "http": {
+                "uri": "https://149.154.167.99/",
+                "protocol": "HTTP/1.1",
+                "status_code": 302,
+                "status_reason": "Found",
+                "headers": {
+                  "Cache-control": {
+                    "headers": [
+                      "no-store"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Encoding": {
+                    "headers": [
+                      "gzip"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "20"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html; charset=UTF-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Location": {
+                    "headers": [
+                      "https://core.telegram.org"
+                    ]
+                  },
+                  "Pragma": {
+                    "headers": [
+                      "no-cache"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "nginx/1.18.0"
+                    ]
+                  },
+                  "Strict-Transport-Security": {
+                    "headers": [
+                      "max-age=35768000"
+                    ]
+                  },
+                  "X-Redirect-Host": {
+                    "headers": [
+                      "149.154.167.99"
+                    ]
+                  }
+                },
+                "supported_versions": [
+                  "HTTP/1.1",
+                  "HTTP/2"
+                ],
+                "redirect_chain": [
+                  {
+                    "hostname": "core.telegram.org",
+                    "port": 443,
+                    "transport_protocol": "tcp",
+                    "path": "/",
+                    "reason": "HTTP_3XX"
+                  }
+                ]
+              },
+              "ip": "149.154.167.99"
+            }
+          ]
+        }
+      ],
+      "service_count": 2,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-02-10T02:15:24Z"
+        },
+        "names": [
+          "edge.olegborzov.ru",
+          "kk.mephi.su",
+          "hv38515yzk7vbgol.telegram.me",
+          "beepcomtech.t.me",
+          "taxup_channel.t.me",
+          "orangedx_official_chat.t.me",
+          "suchkorruptefrau.t.me",
+          "steve_calls.t.me",
+          "genesis_cryp.t.me",
+          "sacabammeme.t.me",
+          "newsssr163.t.me",
+          "gsmparseh.t.me",
+          "logowoshamanow.t.me",
+          "imgayonsol.t.me",
+          "dc3-support.t.me",
+          "rafiqtahir1.t.me",
+          "ap1w1-parser.t.me",
+          "antizetpub.t.me",
+          "swapforless_official.t.me",
+          "antifaaufklaerung.t.me",
+          "inhulets.t.me",
+          "cryptoairdropsgem.t.me",
+          "vetbox.t.me",
+          "mojebartarir.t.me",
+          "penzadizelmash.t.me",
+          "fantasy_king_free_team.t.me",
+          "mundoosrs.t.me",
+          "pussy_solana.t.me",
+          "yumdii15.t.me",
+          "airdropandfrens.t.me",
+          "airdrop_land88.t.me",
+          "gilanestate.t.me",
+          "pnqtghk9prp44n8p.t.me",
+          "modellidisuccesso.t.me",
+          "mmc_ruza.t.me",
+          "krascasingru.t.me",
+          "towmatoos.t.me",
+          "movieszon100.t.me",
+          "norokk2.t.me",
+          "msd-animal-health.t.me",
+          "openvpn\\ web\\ ca\\ 2024.11.26\\ 01:25:05\\ +0330\\ virtualify.t.me",
+          "kmpin_no_afghani0.t.me",
+          "keluargamag.t.me",
+          "psychologistnournouman.t.me",
+          "tourservicespb.t.me",
+          "champion_partners.t.me",
+          "yszx7.t.me",
+          "kingroidapp.t.me",
+          "hiproxytel.t.me",
+          "novysvet_winery.t.me",
+          "verifiedcryptoadrops.t.me",
+          "excellencyawards1.t.me",
+          "irandotca.t.me",
+          "alphbanx.t.me",
+          "jbissisy.t.me",
+          "darzeinolabedin.t.me",
+          "palmbeachpatriots.t.me",
+          "riskshield.t.me",
+          "gaynaldosolana.t.me",
+          "lemondejuif.t.me",
+          "siddharthzaveri2.t.me",
+          "kafedragis.t.me",
+          "frogman6979.t.me",
+          "rased2al3adow.t.me",
+          "mr_kimon.t.me",
+          "prepupwithus.t.me",
+          "www.t.me",
+          "p_intellect.t.me",
+          "cariatmaaref.t.me",
+          "severnaya_skazka.t.me",
+          "opcorners.t.me",
+          "stopfakepl.t.me",
+          "mollycontentmegaavail.t.me",
+          "incomedotcom25441.t.me",
+          "leftesu.t.me",
+          "soralegal.t.me",
+          "sicodepromo.t.me",
+          "theinucrew.t.me",
+          "awareyouth1924.t.me",
+          "goatsolofficial.t.me",
+          "osfglobal09.t.me",
+          "apollox_finance.t.me",
+          "bqzmqsxa5mbb.t.me",
+          "azatyutun.t.me",
+          "appiclean.com",
+          "gatewayapi.telegram.org",
+          "titan4.telegram.org",
+          "vpntekabot.t.me",
+          "web.telegram.org",
+          "znpcs.t.me",
+          "flower.inseo.olegborzov.ru",
+          "githook.olegborzov.ru",
+          "cryptoisnothing.t.me",
+          "cryptoemmagroup.t.me",
+          "httpspotos2022.t.me",
+          "ascenave.t.me",
+          "htcm_fd.t.me",
+          "aliyyii_abrahim3.t.me",
+          "hammamissa.t.me",
+          "001.t.me"
+        ],
+        "forward_dns": {
+          "001.t.me": {
+            "resolve_time": "2026-02-10T17:31:19Z",
+            "name": "001.t.me",
+            "record_type": "a"
+          },
+          "airdrop_land88.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "airdrop_land88.t.me",
+            "record_type": "a"
+          },
+          "airdropandfrens.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "airdropandfrens.t.me",
+            "record_type": "a"
+          },
+          "aliyyii_abrahim3.t.me": {
+            "resolve_time": "2026-02-10T17:31:20Z",
+            "name": "aliyyii_abrahim3.t.me",
+            "record_type": "a"
+          },
+          "alphbanx.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "alphbanx.t.me",
+            "record_type": "a"
+          },
+          "antifaaufklaerung.t.me": {
+            "resolve_time": "2026-02-11T16:36:51Z",
+            "name": "antifaaufklaerung.t.me",
+            "record_type": "a"
+          },
+          "antizetpub.t.me": {
+            "resolve_time": "2026-02-11T16:36:51Z",
+            "name": "antizetpub.t.me",
+            "record_type": "a"
+          },
+          "ap1w1-parser.t.me": {
+            "resolve_time": "2026-02-11T16:36:51Z",
+            "name": "ap1w1-parser.t.me",
+            "record_type": "a"
+          },
+          "apollox_finance.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "apollox_finance.t.me",
+            "record_type": "a"
+          },
+          "appiclean.com": {
+            "resolve_time": "2026-02-11T15:19:00Z",
+            "name": "appiclean.com",
+            "record_type": "a"
+          },
+          "ascenave.t.me": {
+            "resolve_time": "2026-02-10T17:31:20Z",
+            "name": "ascenave.t.me",
+            "record_type": "a"
+          },
+          "awareyouth1924.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "awareyouth1924.t.me",
+            "record_type": "a"
+          },
+          "azatyutun.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "azatyutun.t.me",
+            "record_type": "a"
+          },
+          "beepcomtech.t.me": {
+            "resolve_time": "2026-02-11T16:36:55Z",
+            "name": "beepcomtech.t.me",
+            "record_type": "a"
+          },
+          "bqzmqsxa5mbb.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "bqzmqsxa5mbb.t.me",
+            "record_type": "a"
+          },
+          "cariatmaaref.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "cariatmaaref.t.me",
+            "record_type": "a"
+          },
+          "champion_partners.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "champion_partners.t.me",
+            "record_type": "a"
+          },
+          "cryptoairdropsgem.t.me": {
+            "resolve_time": "2026-02-11T16:36:51Z",
+            "name": "cryptoairdropsgem.t.me",
+            "record_type": "a"
+          },
+          "cryptoemmagroup.t.me": {
+            "resolve_time": "2026-02-10T17:31:26Z",
+            "name": "cryptoemmagroup.t.me",
+            "record_type": "a"
+          },
+          "cryptoisnothing.t.me": {
+            "resolve_time": "2026-02-10T17:31:27Z",
+            "name": "cryptoisnothing.t.me",
+            "record_type": "a"
+          },
+          "darzeinolabedin.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "darzeinolabedin.t.me",
+            "record_type": "a"
+          },
+          "dc3-support.t.me": {
+            "resolve_time": "2026-02-11T16:36:51Z",
+            "name": "dc3-support.t.me",
+            "record_type": "a"
+          },
+          "edge.olegborzov.ru": {
+            "resolve_time": "2026-02-11T22:24:28Z",
+            "name": "edge.olegborzov.ru",
+            "record_type": "a"
+          },
+          "excellencyawards1.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "excellencyawards1.t.me",
+            "record_type": "a"
+          },
+          "fantasy_king_free_team.t.me": {
+            "resolve_time": "2026-02-11T16:36:51Z",
+            "name": "fantasy_king_free_team.t.me",
+            "record_type": "a"
+          },
+          "flower.inseo.olegborzov.ru": {
+            "resolve_time": "2026-02-10T21:55:51Z",
+            "name": "flower.inseo.olegborzov.ru",
+            "record_type": "a"
+          },
+          "frogman6979.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "frogman6979.t.me",
+            "record_type": "a"
+          },
+          "gatewayapi.telegram.org": {
+            "resolve_time": "2026-02-11T14:42:16Z",
+            "name": "gatewayapi.telegram.org",
+            "record_type": "a"
+          },
+          "gaynaldosolana.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "gaynaldosolana.t.me",
+            "record_type": "a"
+          },
+          "genesis_cryp.t.me": {
+            "resolve_time": "2026-02-11T16:36:52Z",
+            "name": "genesis_cryp.t.me",
+            "record_type": "a"
+          },
+          "gilanestate.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "gilanestate.t.me",
+            "record_type": "a"
+          },
+          "githook.olegborzov.ru": {
+            "resolve_time": "2026-02-10T21:55:51Z",
+            "name": "githook.olegborzov.ru",
+            "record_type": "a"
+          },
+          "goatsolofficial.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "goatsolofficial.t.me",
+            "record_type": "a"
+          },
+          "gsmparseh.t.me": {
+            "resolve_time": "2026-02-11T16:36:51Z",
+            "name": "gsmparseh.t.me",
+            "record_type": "a"
+          },
+          "hammamissa.t.me": {
+            "resolve_time": "2026-02-10T17:31:19Z",
+            "name": "hammamissa.t.me",
+            "record_type": "a"
+          },
+          "hiproxytel.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "hiproxytel.t.me",
+            "record_type": "a"
+          },
+          "htcm_fd.t.me": {
+            "resolve_time": "2026-02-10T17:31:20Z",
+            "name": "htcm_fd.t.me",
+            "record_type": "a"
+          },
+          "httpspotos2022.t.me": {
+            "resolve_time": "2026-02-10T17:31:20Z",
+            "name": "httpspotos2022.t.me",
+            "record_type": "a"
+          },
+          "hv38515yzk7vbgol.telegram.me": {
+            "resolve_time": "2026-02-11T16:36:59Z",
+            "name": "hv38515yzk7vbgol.telegram.me",
+            "record_type": "a"
+          },
+          "imgayonsol.t.me": {
+            "resolve_time": "2026-02-11T16:36:51Z",
+            "name": "imgayonsol.t.me",
+            "record_type": "a"
+          },
+          "incomedotcom25441.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "incomedotcom25441.t.me",
+            "record_type": "a"
+          },
+          "inhulets.t.me": {
+            "resolve_time": "2026-02-11T16:36:51Z",
+            "name": "inhulets.t.me",
+            "record_type": "a"
+          },
+          "irandotca.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "irandotca.t.me",
+            "record_type": "a"
+          },
+          "jbissisy.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "jbissisy.t.me",
+            "record_type": "a"
+          },
+          "kafedragis.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "kafedragis.t.me",
+            "record_type": "a"
+          },
+          "keluargamag.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "keluargamag.t.me",
+            "record_type": "a"
+          },
+          "kingroidapp.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "kingroidapp.t.me",
+            "record_type": "a"
+          },
+          "kk.mephi.su": {
+            "resolve_time": "2026-02-11T20:03:32Z",
+            "name": "kk.mephi.su",
+            "record_type": "a"
+          },
+          "kmpin_no_afghani0.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "kmpin_no_afghani0.t.me",
+            "record_type": "a"
+          },
+          "krascasingru.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "krascasingru.t.me",
+            "record_type": "a"
+          },
+          "leftesu.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "leftesu.t.me",
+            "record_type": "a"
+          },
+          "lemondejuif.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "lemondejuif.t.me",
+            "record_type": "a"
+          },
+          "logowoshamanow.t.me": {
+            "resolve_time": "2026-02-11T16:36:51Z",
+            "name": "logowoshamanow.t.me",
+            "record_type": "a"
+          },
+          "mmc_ruza.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "mmc_ruza.t.me",
+            "record_type": "a"
+          },
+          "modellidisuccesso.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "modellidisuccesso.t.me",
+            "record_type": "a"
+          },
+          "mojebartarir.t.me": {
+            "resolve_time": "2026-02-11T16:36:51Z",
+            "name": "mojebartarir.t.me",
+            "record_type": "a"
+          },
+          "mollycontentmegaavail.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "mollycontentmegaavail.t.me",
+            "record_type": "a"
+          },
+          "movieszon100.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "movieszon100.t.me",
+            "record_type": "a"
+          },
+          "mr_kimon.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "mr_kimon.t.me",
+            "record_type": "a"
+          },
+          "msd-animal-health.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "msd-animal-health.t.me",
+            "record_type": "a"
+          },
+          "mundoosrs.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "mundoosrs.t.me",
+            "record_type": "a"
+          },
+          "newsssr163.t.me": {
+            "resolve_time": "2026-02-11T16:36:52Z",
+            "name": "newsssr163.t.me",
+            "record_type": "a"
+          },
+          "norokk2.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "norokk2.t.me",
+            "record_type": "a"
+          },
+          "novysvet_winery.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "novysvet_winery.t.me",
+            "record_type": "a"
+          },
+          "opcorners.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "opcorners.t.me",
+            "record_type": "a"
+          },
+          "openvpn\\ web\\ ca\\ 2024.11.26\\ 01:25:05\\ +0330\\ virtualify.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "openvpn\\ web\\ ca\\ 2024.11.26\\ 01:25:05\\ +0330\\ virtualify.t.me",
+            "record_type": "a"
+          },
+          "orangedx_official_chat.t.me": {
+            "resolve_time": "2026-02-11T16:36:53Z",
+            "name": "orangedx_official_chat.t.me",
+            "record_type": "a"
+          },
+          "osfglobal09.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "osfglobal09.t.me",
+            "record_type": "a"
+          },
+          "p_intellect.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "p_intellect.t.me",
+            "record_type": "a"
+          },
+          "palmbeachpatriots.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "palmbeachpatriots.t.me",
+            "record_type": "a"
+          },
+          "penzadizelmash.t.me": {
+            "resolve_time": "2026-02-11T16:36:51Z",
+            "name": "penzadizelmash.t.me",
+            "record_type": "a"
+          },
+          "pnqtghk9prp44n8p.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "pnqtghk9prp44n8p.t.me",
+            "record_type": "a"
+          },
+          "prepupwithus.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "prepupwithus.t.me",
+            "record_type": "a"
+          },
+          "psychologistnournouman.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "psychologistnournouman.t.me",
+            "record_type": "a"
+          },
+          "pussy_solana.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "pussy_solana.t.me",
+            "record_type": "a"
+          },
+          "rafiqtahir1.t.me": {
+            "resolve_time": "2026-02-11T16:36:51Z",
+            "name": "rafiqtahir1.t.me",
+            "record_type": "a"
+          },
+          "rased2al3adow.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "rased2al3adow.t.me",
+            "record_type": "a"
+          },
+          "riskshield.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "riskshield.t.me",
+            "record_type": "a"
+          },
+          "sacabammeme.t.me": {
+            "resolve_time": "2026-02-11T16:36:52Z",
+            "name": "sacabammeme.t.me",
+            "record_type": "a"
+          },
+          "severnaya_skazka.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "severnaya_skazka.t.me",
+            "record_type": "a"
+          },
+          "sicodepromo.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "sicodepromo.t.me",
+            "record_type": "a"
+          },
+          "siddharthzaveri2.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "siddharthzaveri2.t.me",
+            "record_type": "a"
+          },
+          "soralegal.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "soralegal.t.me",
+            "record_type": "a"
+          },
+          "steve_calls.t.me": {
+            "resolve_time": "2026-02-11T16:36:52Z",
+            "name": "steve_calls.t.me",
+            "record_type": "a"
+          },
+          "stopfakepl.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "stopfakepl.t.me",
+            "record_type": "a"
+          },
+          "suchkorruptefrau.t.me": {
+            "resolve_time": "2026-02-11T16:36:52Z",
+            "name": "suchkorruptefrau.t.me",
+            "record_type": "a"
+          },
+          "swapforless_official.t.me": {
+            "resolve_time": "2026-02-11T16:36:51Z",
+            "name": "swapforless_official.t.me",
+            "record_type": "a"
+          },
+          "taxup_channel.t.me": {
+            "resolve_time": "2026-02-11T16:36:53Z",
+            "name": "taxup_channel.t.me",
+            "record_type": "a"
+          },
+          "theinucrew.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "theinucrew.t.me",
+            "record_type": "a"
+          },
+          "titan4.telegram.org": {
+            "resolve_time": "2026-02-11T14:42:15Z",
+            "name": "titan4.telegram.org",
+            "record_type": "a"
+          },
+          "tourservicespb.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "tourservicespb.t.me",
+            "record_type": "a"
+          },
+          "towmatoos.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "towmatoos.t.me",
+            "record_type": "a"
+          },
+          "verifiedcryptoadrops.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "verifiedcryptoadrops.t.me",
+            "record_type": "a"
+          },
+          "vetbox.t.me": {
+            "resolve_time": "2026-02-11T16:36:51Z",
+            "name": "vetbox.t.me",
+            "record_type": "a"
+          },
+          "vpntekabot.t.me": {
+            "resolve_time": "2026-02-11T09:15:55Z",
+            "name": "vpntekabot.t.me",
+            "record_type": "a"
+          },
+          "web.telegram.org": {
+            "resolve_time": "2026-02-11T09:07:06Z",
+            "name": "web.telegram.org",
+            "record_type": "a"
+          },
+          "www.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "www.t.me",
+            "record_type": "a"
+          },
+          "yszx7.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "yszx7.t.me",
+            "record_type": "a"
+          },
+          "yumdii15.t.me": {
+            "resolve_time": "2026-02-11T16:36:50Z",
+            "name": "yumdii15.t.me",
+            "record_type": "a"
+          },
+          "znpcs.t.me": {
+            "resolve_time": "2026-02-11T00:04:30Z",
+            "name": "znpcs.t.me",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

@@ -1,0 +1,449 @@
+{
+  "result": {
+    "resource": {
+      "ip": "128.116.13.3",
+      "location": {
+        "continent": "Europe",
+        "country": "France",
+        "country_code": "FR",
+        "city": "Paris",
+        "postal_code": "75000",
+        "timezone": "Europe/Paris",
+        "province": "\u00cele-de-France",
+        "coordinates": {
+          "latitude": 48.85341,
+          "longitude": 2.3488
+        }
+      },
+      "autonomous_system": {
+        "asn": 22697,
+        "description": "ROBLOX-PRODUCTION - Roblox",
+        "bgp_prefix": "128.116.13.0/24",
+        "name": "ROBLOX-PRODUCTION - Roblox",
+        "country_code": "US"
+      },
+      "whois": {
+        "network": {
+          "handle": "RC-376",
+          "name": "Roblox",
+          "cidrs": [
+            "128.116.0.0/17"
+          ],
+          "created": "2018-03-12T00:00:00Z",
+          "updated": "2021-12-14T00:00:00Z",
+          "allocation_type": "ALLOCATION"
+        },
+        "organization": {
+          "handle": "RC-376",
+          "name": "Roblox",
+          "street": "One Franklin Parkway, Building 910",
+          "city": "San Mateo",
+          "state": "CA",
+          "postal_code": "94403",
+          "country": "US",
+          "abuse_contacts": [
+            {
+              "handle": "ABUSE9307-ARIN",
+              "name": "Abuse",
+              "email": "network-abuse@roblox.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "OPERA503-ARIN",
+              "name": "OPERATIONS",
+              "email": "noc@roblox.com"
+            }
+          ],
+          "tech_contacts": [
+            {
+              "handle": "OPERA503-ARIN",
+              "name": "OPERATIONS",
+              "email": "noc@roblox.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "ip": "128.116.13.3",
+          "scan_time": "2026-02-13T13:44:10Z",
+          "endpoints": [
+            {
+              "hostname": "128.116.13.3",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T13:44:10Z",
+              "http": {
+                "uri": "http://128.116.13.3/",
+                "protocol": "HTTP/1.1",
+                "status_code": 307,
+                "status_reason": "Temporary Redirect",
+                "headers": {
+                  "cache-control": {
+                    "headers": [
+                      "no-cache"
+                    ]
+                  },
+                  "content-length": {
+                    "headers": [
+                      "0"
+                    ]
+                  },
+                  "location": {
+                    "headers": [
+                      "https://128.116.13.3/"
+                    ]
+                  }
+                },
+                "supported_versions": [
+                  "HTTP/1.1",
+                  "HTTP/2"
+                ]
+              },
+              "ip": "128.116.13.3"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "0e018d3dbd3a22ff16aae5ac4e086b13f4e4b744db3de74c27aebdd3dbcdb5da",
+            "fingerprint_sha1": "9da882bd458e0c38a2955f6578011835825c7b9a",
+            "fingerprint_md5": "2b7f74dc62e0bf48539a0f2042f90bd5",
+            "tbs_fingerprint_sha256": "7b82569246d506b6864c83fdc2ecb6df345316027210625a1e9819dbe3b5b5d1",
+            "tbs_no_ct_fingerprint_sha256": "06dfb4c9b96ac5d765a7b3ee092ddf861ff74aff2afb6ae940bc0091e67d4c9b",
+            "spki_fingerprint_sha256": "201fca5b3f85c8cc4fdeced515c6c20632b2559bab3d21483877f257403ff5d8",
+            "parent_spki_fingerprint_sha256": "f4ccce82ef5e201579bb981505f40fc43ea0b6c3f1875850e985c30b03603bee",
+            "parsed": {
+              "version": 3,
+              "serial_number": "329302625640893471445007730577461005677",
+              "issuer_dn": "C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",
+              "issuer": {
+                "common_name": [
+                  "Sectigo Public Server Authentication CA OV R36"
+                ],
+                "country": [
+                  "GB"
+                ],
+                "organization": [
+                  "Sectigo Limited"
+                ]
+              },
+              "subject_dn": "C=US, ST=California, O=Roblox Corporation, CN=api.roblox.com",
+              "subject": {
+                "common_name": [
+                  "api.roblox.com"
+                ],
+                "country": [
+                  "US"
+                ],
+                "province": [
+                  "California"
+                ],
+                "organization": [
+                  "Roblox Corporation"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "RSA",
+                  "oid": "1.2.840.113549.1.1.1"
+                },
+                "rsa": {
+                  "exponent": 65537,
+                  "modulus": "abe6fc1420342404c8c4bcb778236364d8ece0fc7a6af0166b40c15df5b94143fadc89a328c4e9e147cc23d416f9199759da3c056c32c60e71b0faed587f38b68259590a0c3bad1e62a0df1f0cf143c429b787f9cb83a31f8fb8e2a40c222fd9ef3b513f8284873ba27a8b485d965eac07cb1eb9d59881eb18dccb7e55543437d40426de6b7403234f0e51b65f1248d13684ae15116c763b03132e1ff28d39c173747a9a9eb0bf72170269d6b09397d7a9b8c9ffd5feac9a163c7480f364c52ec5a2cd7a8fc297fdddb9d642d3938cbe950905728128a49d4ff2060d5a110cde9f2d57af9607c38f35e51616a840f288298c4843b3ec255b2508082a522038ff",
+                  "length": 2048
+                },
+                "fingerprint_sha256": "4b107096f19d243202176c2611f577dbd03a1918117bd47e951e5ae59bc8b8da"
+              },
+              "validity_period": {
+                "not_before": "2025-09-15T00:00:00Z",
+                "not_after": "2026-09-15T23:59:59Z",
+                "length_seconds": 31622400
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "SHA256-RSA",
+                  "oid": "1.2.840.113549.1.1.11"
+                },
+                "value": "6392b4ba4f9a40b37d5f10c667e5981f3a647f3d607bbf1ca44243aba1d20a27d993dc00a28ce61e0fc670af32adf2b61996ab7a4c00cd6a8ad7031c6965257f7c557e6b533ab8304ff93f1e01573a001d04fc554a153c02dc929cb4aa8ca5f11f60ead07e9a87da2743a2aa68e41c25ebc15932ad9fb58996195600eac389e5d33269dc3d8697e161ffe3f7d7fe3644584bed7280cac19dba95368bb268cf37871dd2ac6b02a0882026aa98fa05ca1330535678234fb70979b3f227ceabef51f24f8f563ec14ca2f51c4ee94ff11f38914a778bdd84ebcbc1389a13bfa1b15b1cc24f6c6eed678b79db6079015d0e2fe5962e610a316991c433eb78ad105aeb464bf71356d497c7411f19c98c07d8c3929ae6dc18b934db37e92f51db3e1a5dfab9bde75e6bdeab3de335bf5d030af20d52b5c21bac25ca8837e2a4b7f28e132084fbb086f2a2334fc3ec3d114cdb96fd762ddccb99c31388357a27a3630c8a18a51122296511b07d72ab111e177e437e144ddd49a867b6c37ca503b6c572e1",
+                "valid": true
+              },
+              "serial_number_hex": "f7bd60f5acfa9e8c032adfb2c1accd6d"
+            },
+            "names": [
+              "*.api.roblox.com",
+              "api.roblox.com"
+            ],
+            "validation_level": "ov",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "6542d176bed50f193c0ce297ae44ecd8a0a86bec2ede682769344059b4e78530",
+                      "7bb647a62aeeac88bf257aa522d01ffea395e0ab45c73f93f65654ec38f25a06"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "6542d176bed50f193c0ce297ae44ecd8a0a86bec2ede682769344059b4e78530",
+                      "92f351bf3d54164dfa8dd8f9e1139d3150349786485d2b9eecd00e2971c1e6c5",
+                      "e793c9b02fd8aa13e21c31228accb08119643b749c898964b1746d46c3d4cbd2"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "6542d176bed50f193c0ce297ae44ecd8a0a86bec2ede682769344059b4e78530",
+                      "ce75580bc6796d3b3ea2c3e74259d0d403072408e960c77139c2fb5a3d9419e4",
+                      "d7a7a0fb5d7e2731d771e9484ebcdef71d5f0c3e0a2948782bc83ee0ea699ef4"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "6542d176bed50f193c0ce297ae44ecd8a0a86bec2ede682769344059b4e78530",
+                      "92f351bf3d54164dfa8dd8f9e1139d3150349786485d2b9eecd00e2971c1e6c5",
+                      "68b9c761219a5b1f0131784474665db61bbdb109e00f05ca9f74244ee5f5f52b",
+                      "d7a7a0fb5d7e2731d771e9484ebcdef71d5f0c3e0a2948782bc83ee0ea699ef4"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "6542d176bed50f193c0ce297ae44ecd8a0a86bec2ede682769344059b4e78530"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "6542d176bed50f193c0ce297ae44ecd8a0a86bec2ede682769344059b4e78530",
+                      "7bb647a62aeeac88bf257aa522d01ffea395e0ab45c73f93f65654ec38f25a06"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "6542d176bed50f193c0ce297ae44ecd8a0a86bec2ede682769344059b4e78530",
+                      "92f351bf3d54164dfa8dd8f9e1139d3150349786485d2b9eecd00e2971c1e6c5",
+                      "e793c9b02fd8aa13e21c31228accb08119643b749c898964b1746d46c3d4cbd2"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "6542d176bed50f193c0ce297ae44ecd8a0a86bec2ede682769344059b4e78530",
+                      "ce75580bc6796d3b3ea2c3e74259d0d403072408e960c77139c2fb5a3d9419e4",
+                      "d7a7a0fb5d7e2731d771e9484ebcdef71d5f0c3e0a2948782bc83ee0ea699ef4"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "6542d176bed50f193c0ce297ae44ecd8a0a86bec2ede682769344059b4e78530",
+                      "92f351bf3d54164dfa8dd8f9e1139d3150349786485d2b9eecd00e2971c1e6c5",
+                      "68b9c761219a5b1f0131784474665db61bbdb109e00f05ca9f74244ee5f5f52b",
+                      "d7a7a0fb5d7e2731d771e9484ebcdef71d5f0c3e0a2948782bc83ee0ea699ef4"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "6542d176bed50f193c0ce297ae44ecd8a0a86bec2ede682769344059b4e78530"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "6542d176bed50f193c0ce297ae44ecd8a0a86bec2ede682769344059b4e78530",
+                      "7bb647a62aeeac88bf257aa522d01ffea395e0ab45c73f93f65654ec38f25a06"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "6542d176bed50f193c0ce297ae44ecd8a0a86bec2ede682769344059b4e78530",
+                      "92f351bf3d54164dfa8dd8f9e1139d3150349786485d2b9eecd00e2971c1e6c5",
+                      "e793c9b02fd8aa13e21c31228accb08119643b749c898964b1746d46c3d4cbd2"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "6542d176bed50f193c0ce297ae44ecd8a0a86bec2ede682769344059b4e78530",
+                      "ce75580bc6796d3b3ea2c3e74259d0d403072408e960c77139c2fb5a3d9419e4",
+                      "d7a7a0fb5d7e2731d771e9484ebcdef71d5f0c3e0a2948782bc83ee0ea699ef4"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "6542d176bed50f193c0ce297ae44ecd8a0a86bec2ede682769344059b4e78530",
+                      "92f351bf3d54164dfa8dd8f9e1139d3150349786485d2b9eecd00e2971c1e6c5",
+                      "68b9c761219a5b1f0131784474665db61bbdb109e00f05ca9f74244ee5f5f52b",
+                      "d7a7a0fb5d7e2731d771e9484ebcdef71d5f0c3e0a2948782bc83ee0ea699ef4"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "6542d176bed50f193c0ce297ae44ecd8a0a86bec2ede682769344059b4e78530"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "6542d176bed50f193c0ce297ae44ecd8a0a86bec2ede682769344059b4e78530",
+                      "7bb647a62aeeac88bf257aa522d01ffea395e0ab45c73f93f65654ec38f25a06"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "6542d176bed50f193c0ce297ae44ecd8a0a86bec2ede682769344059b4e78530",
+                      "92f351bf3d54164dfa8dd8f9e1139d3150349786485d2b9eecd00e2971c1e6c5",
+                      "e793c9b02fd8aa13e21c31228accb08119643b749c898964b1746d46c3d4cbd2"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "6542d176bed50f193c0ce297ae44ecd8a0a86bec2ede682769344059b4e78530"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "google_xenon_2026_h2": {
+                  "index": 103568335,
+                  "added_to_ct_at": "2025-09-15T16:30:19Z",
+                  "ct_to_censys_at": "2025-09-15T16:36:48Z"
+                },
+                "sectigo_elephant_2026_h2": {
+                  "index": 53693571,
+                  "added_to_ct_at": "2025-09-15T16:30:19Z",
+                  "ct_to_censys_at": "2025-09-15T16:40:55Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2025-09-15T16:36:48Z",
+            "modified_at": "2025-09-18T12:48:56Z",
+            "validated_at": "2026-02-12T19:50:58Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "201fca5b3f85c8cc4fdeced515c6c20632b2559bab3d21483877f257403ff5d8",
+            "parent_spki_subject_fingerprint_sha256": "f4ccce82ef5e201579bb981505f40fc43ea0b6c3f1875850e985c30b03603bee"
+          },
+          "ip": "128.116.13.3",
+          "scan_time": "2026-02-13T14:53:27Z",
+          "tls": {
+            "fingerprint_sha256": "0e018d3dbd3a22ff16aae5ac4e086b13f4e4b744db3de74c27aebdd3dbcdb5da",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "6542d176bed50f193c0ce297ae44ecd8a0a86bec2ede682769344059b4e78530",
+                "subject_dn": "C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",
+                "issuer_dn": "C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication Root R46"
+              },
+              {
+                "fingerprint_sha256": "92f351bf3d54164dfa8dd8f9e1139d3150349786485d2b9eecd00e2971c1e6c5",
+                "subject_dn": "C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication Root R46",
+                "issuer_dn": "C=US, ST=New Jersey, L=Jersey City, O=The USERTRUST Network, CN=USERTrust RSA Certification Authority"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "128.116.13.3",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T14:53:27Z",
+              "http": {
+                "uri": "https://128.116.13.3/",
+                "protocol": "HTTP/1.1",
+                "status_code": 404,
+                "status_reason": "Not Found",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "cache-control": {
+                    "headers": [
+                      "no-cache, no-store"
+                    ]
+                  },
+                  "connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "content-length": {
+                    "headers": [
+                      "76"
+                    ]
+                  },
+                  "content-type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "x-rblx-origin": {
+                    "headers": [
+                      "lb"
+                    ]
+                  }
+                },
+                "body_size": 76,
+                "body": "<html><body><h1>404 File Not Found</h1>\nFile Not Found <^)))<\n</body></html>",
+                "body_hash_sha256": "007c66c4f6d2b357ec827c2000c9111bc538c47c8fd5b8816d6e5e321d1c8209",
+                "body_hash_sha1": "b49fd111d874790e88660577012dbac5f40a1e02",
+                "supported_versions": [
+                  "HTTP/1.1",
+                  "HTTP/2"
+                ]
+              },
+              "ip": "128.116.13.3"
+            }
+          ]
+        }
+      ],
+      "service_count": 2,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-02-12T10:16:16Z"
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

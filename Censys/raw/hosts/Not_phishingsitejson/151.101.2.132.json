@@ -1,0 +1,1095 @@
+{
+  "result": {
+    "resource": {
+      "ip": "151.101.2.132",
+      "location": {
+        "continent": "North America",
+        "country": "United States",
+        "country_code": "US",
+        "city": "San Francisco",
+        "postal_code": "94107",
+        "timezone": "America/Los_Angeles",
+        "province": "California",
+        "coordinates": {
+          "latitude": 37.7621,
+          "longitude": -122.3971
+        }
+      },
+      "autonomous_system": {
+        "asn": 54113,
+        "description": "FASTLY - Fastly, Inc.",
+        "bgp_prefix": "151.101.0.0/22",
+        "name": "FASTLY - Fastly, Inc.",
+        "country_code": "US"
+      },
+      "whois": {
+        "network": {
+          "handle": "SKYCA-3",
+          "name": "Fastly, Inc.",
+          "cidrs": [
+            "151.101.0.0/16"
+          ],
+          "created": "2016-02-01T00:00:00Z",
+          "updated": "2021-12-14T00:00:00Z",
+          "allocation_type": "ALLOCATION"
+        },
+        "organization": {
+          "handle": "SKYCA-3",
+          "name": "Fastly, Inc.",
+          "street": "PO Box 78266",
+          "city": "San Francisco",
+          "state": "CA",
+          "postal_code": "94107",
+          "country": "US",
+          "abuse_contacts": [
+            {
+              "handle": "ABUSE4771-ARIN",
+              "name": "Abuse Account",
+              "email": "abuse@fastly.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "FRA19-ARIN",
+              "name": "Fastly RIR Administrator",
+              "email": "rir-admin@fastly.com"
+            }
+          ],
+          "tech_contacts": [
+            {
+              "handle": "FRA19-ARIN",
+              "name": "Fastly RIR Administrator",
+              "email": "rir-admin@fastly.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "varnish_cache_project",
+              "product": "varnish_cache"
+            }
+          ],
+          "ip": "151.101.2.132",
+          "scan_time": "2026-02-13T08:48:37Z",
+          "endpoints": [
+            {
+              "hostname": "151.101.2.132",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T08:48:37Z",
+              "http": {
+                "uri": "http://151.101.2.132/",
+                "protocol": "HTTP/1.1",
+                "status_code": 500,
+                "status_reason": "Domain Not Found",
+                "headers": {
+                  "Accept-Ranges": {
+                    "headers": [
+                      "bytes"
+                    ]
+                  },
+                  "Cache-Control": {
+                    "headers": [
+                      "private, no-cache"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "270"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Retry-After": {
+                    "headers": [
+                      "0"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "Varnish"
+                    ]
+                  },
+                  "Via": {
+                    "headers": [
+                      "1.1 varnish"
+                    ]
+                  },
+                  "X-Served-By": {
+                    "headers": [
+                      "cache-chi-klot8100041-CHI"
+                    ]
+                  },
+                  "content-type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>Fastly error: unknown domain 151.101.2.132</title>"
+                ],
+                "body_size": 270,
+                "body": "\n<html>\n<head>\n<title>Fastly error: unknown domain 151.101.2.132</title>\n</head>\n<body>\n<p>Fastly error: unknown domain: 151.101.2.132. Please check that this domain has been added to a service.</p>\n<p>Details: cache-chi-klot8100041-CHI (151.101.2.132)</p></body></html>",
+                "html_title": "Fastly error: unknown domain 151.101.2.132",
+                "body_hash_sha256": "acad09eacc61c061d4c082f9d2de72fb5ce9eff3d3b048bae6d809b0c7780208",
+                "body_hash_sha1": "313000229330a9074d4107ac8f5e280e7d4ae8c3",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "151.101.2.132"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "c1aa942b4d80715377690c5747fb42633d2ca0baa876d05793325d2a2ebbb1c4",
+            "fingerprint_sha1": "f6cfbfe0a8bfb82adf2e2a18594c9dac6928dfc5",
+            "fingerprint_md5": "539a8e92e47bca8b9ba9dee23b9c6584",
+            "tbs_fingerprint_sha256": "41f339a9ebbd68e53042c57e0dd98122fce774cb2aabccb56adcf7429470986d",
+            "tbs_no_ct_fingerprint_sha256": "78665272cf77ecd4a7dab9792b4b86fc141f6d1404c52e6c94d6dd5d1555e98f",
+            "spki_fingerprint_sha256": "8fc21ffc5e926070d9492547f3f8bb09f8381fca310d38e4ae12351bbadc0e06",
+            "parent_spki_fingerprint_sha256": "ee6928f5f683f83f6f6a6d32286d7d85f9bd32b8c3cd8d5cc418a4cd3e0e3dc8",
+            "parsed": {
+              "version": 3,
+              "serial_number": "1645012815783200321490208952153758440",
+              "issuer_dn": "C=BE, O=GlobalSign nv-sa, CN=GlobalSign Atlas R3 DV TLS CA 2025 Q3",
+              "issuer": {
+                "common_name": [
+                  "GlobalSign Atlas R3 DV TLS CA 2025 Q3"
+                ],
+                "country": [
+                  "BE"
+                ],
+                "organization": [
+                  "GlobalSign nv-sa"
+                ]
+              },
+              "subject_dn": "CN=j.sni-644-default.ssl.fastly.net",
+              "subject": {
+                "common_name": [
+                  "j.sni-644-default.ssl.fastly.net"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "RSA",
+                  "oid": "1.2.840.113549.1.1.1"
+                },
+                "rsa": {
+                  "exponent": 65537,
+                  "modulus": "b560cd43a7a1295ae19d58c586000994e085e179a441138fab704c059983c75f09dad471d3835b416e926bef4695cde3cae7f74cf0afd9eb25db43951b814cefc1a128374cae59dbd1d693a60dd42652de13675448024618fbf2fd34ef03bb72d863f0f033e028d50623105c27a1e8b48df43b5cb390b05c0b80fcb73a0295859aa5f9c33106247444b5ebdf6c3c515aa2f4c4d4b23890ea7d5ed09656e29400e0a031f92556cc669ea02d563af832f5d7c0c30cbd6730f0215a5d3ada615c3324e235f284036a9ff09167bb6874cd2448695d8dd813312887580210281ca09ff65f2d530a9b3c4f3b8dd184bd58f159b158267fae4b546bc4a60171bff2a4cb",
+                  "length": 2048
+                },
+                "fingerprint_sha256": "b439c37ab75e5c8f5a3872e87d5041070aeef4dcaf87df3aa7d7885ca811c65f"
+              },
+              "validity_period": {
+                "not_before": "2025-09-17T05:11:27Z",
+                "not_after": "2026-10-19T05:11:26Z",
+                "length_seconds": 34300800
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "SHA256-RSA",
+                  "oid": "1.2.840.113549.1.1.11"
+                },
+                "value": "2ffcd5f1b54698d40bbe7fb6289eda2d44f36d393183eea0839c93d3bf3de1e7ac55b4d7a57305892088d0f640ab65442ffc158ea10e8c9622a5c13ee4458aa96fab45c3668e34582a6c42288115374da08ae05a63b00ebdd01a204760024f0a5e7d8e898c631c3595377925bdbe730571c3deb46fb3cdc15672ae292094508f28a3a73a302d259fc28dec94bd562f7e2f0d8802e02804db24f51d03eef1f789eeff5af516a115fb93e68167fd3dd46386de46e38a08615fcfd2e521813acbaada41c27de5b5076d7e641038f7845c15e9027e40958c0ae20995f4c24cbf42495df055709579b8dd581b4c6c8dafec834869725391ab2ba4b9574d3eee5bb41e",
+                "valid": true
+              },
+              "serial_number_hex": "013cd164c88920e649609f3fb33b5ae8"
+            },
+            "names": [
+              "j.sni-644-default.ssl.fastly.net"
+            ],
+            "validation_level": "dv",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "5539f8c9010518345fc21a85f25b39dd6ad8d591c7971cbb900c2cb7081bbf90",
+                      "cbb522d7b7f127ad6a0113865bdf1cd4102e7d0759af635a7cf4720dc963c53b"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "5539f8c9010518345fc21a85f25b39dd6ad8d591c7971cbb900c2cb7081bbf90",
+                      "445eec78bc61215044a0379656aa2d5db5e42f76cb70b8d14c2077aa943d4ebb",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "5539f8c9010518345fc21a85f25b39dd6ad8d591c7971cbb900c2cb7081bbf90",
+                      "c94fedda4e8608908580bc7f87b434e03bb262e42f64c63820a8f50fb17c1cec",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "5539f8c9010518345fc21a85f25b39dd6ad8d591c7971cbb900c2cb7081bbf90"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "5539f8c9010518345fc21a85f25b39dd6ad8d591c7971cbb900c2cb7081bbf90",
+                      "cbb522d7b7f127ad6a0113865bdf1cd4102e7d0759af635a7cf4720dc963c53b"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "5539f8c9010518345fc21a85f25b39dd6ad8d591c7971cbb900c2cb7081bbf90",
+                      "445eec78bc61215044a0379656aa2d5db5e42f76cb70b8d14c2077aa943d4ebb",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "5539f8c9010518345fc21a85f25b39dd6ad8d591c7971cbb900c2cb7081bbf90",
+                      "c94fedda4e8608908580bc7f87b434e03bb262e42f64c63820a8f50fb17c1cec",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "5539f8c9010518345fc21a85f25b39dd6ad8d591c7971cbb900c2cb7081bbf90"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "5539f8c9010518345fc21a85f25b39dd6ad8d591c7971cbb900c2cb7081bbf90",
+                      "cbb522d7b7f127ad6a0113865bdf1cd4102e7d0759af635a7cf4720dc963c53b"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "5539f8c9010518345fc21a85f25b39dd6ad8d591c7971cbb900c2cb7081bbf90",
+                      "445eec78bc61215044a0379656aa2d5db5e42f76cb70b8d14c2077aa943d4ebb",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "5539f8c9010518345fc21a85f25b39dd6ad8d591c7971cbb900c2cb7081bbf90",
+                      "c94fedda4e8608908580bc7f87b434e03bb262e42f64c63820a8f50fb17c1cec",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "5539f8c9010518345fc21a85f25b39dd6ad8d591c7971cbb900c2cb7081bbf90"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "5539f8c9010518345fc21a85f25b39dd6ad8d591c7971cbb900c2cb7081bbf90",
+                      "cbb522d7b7f127ad6a0113865bdf1cd4102e7d0759af635a7cf4720dc963c53b"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "5539f8c9010518345fc21a85f25b39dd6ad8d591c7971cbb900c2cb7081bbf90"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 1209514767,
+                  "added_to_ct_at": "2025-11-27T18:58:50Z",
+                  "ct_to_censys_at": "2025-11-27T20:20:08Z"
+                },
+                "comodo_mammoth_2026_h2": {
+                  "index": 56690185,
+                  "added_to_ct_at": "2025-09-17T05:13:02Z",
+                  "ct_to_censys_at": "2025-09-17T05:24:14Z"
+                },
+                "comodo_sabre_2026_h2": {
+                  "index": 67726056,
+                  "added_to_ct_at": "2025-09-17T05:13:05Z",
+                  "ct_to_censys_at": "2025-09-17T05:20:40Z"
+                },
+                "google_argon_2026_h2": {
+                  "index": 138094934,
+                  "added_to_ct_at": "2025-09-17T05:12:57Z",
+                  "ct_to_censys_at": "2025-09-17T05:16:38Z"
+                },
+                "google_xenon_2026_h2": {
+                  "index": 104899520,
+                  "added_to_ct_at": "2025-09-17T05:12:57Z",
+                  "ct_to_censys_at": "2025-09-17T05:20:07Z"
+                },
+                "letsencrypt_ct_oak_2026_h2": {
+                  "index": 85457065,
+                  "added_to_ct_at": "2025-09-17T05:13:10Z",
+                  "ct_to_censys_at": "2025-09-17T05:22:15Z"
+                },
+                "letsencrypt_ct_sycamore_2026_h2": {
+                  "index": 3205653,
+                  "added_to_ct_at": "2025-09-17T06:58:48Z",
+                  "ct_to_censys_at": "2025-12-12T15:18:18Z"
+                },
+                "letsencrypt_ct_willow_2026_h2": {
+                  "index": 3206927,
+                  "added_to_ct_at": "2025-09-17T06:58:47Z",
+                  "ct_to_censys_at": "2025-12-12T15:35:50Z"
+                },
+                "sectigo_elephant_2026_h2": {
+                  "index": 54510639,
+                  "added_to_ct_at": "2025-09-17T05:13:06Z",
+                  "ct_to_censys_at": "2025-09-17T05:15:49Z"
+                },
+                "sectigo_tiger_2026_h2": {
+                  "index": 54478834,
+                  "added_to_ct_at": "2025-09-17T05:13:07Z",
+                  "ct_to_censys_at": "2025-09-17T05:20:16Z"
+                },
+                "trustasia_log_2026_a": {
+                  "index": 49170474,
+                  "added_to_ct_at": "2025-09-17T06:58:52Z",
+                  "ct_to_censys_at": "2025-09-17T07:03:02Z"
+                },
+                "trustasia_log_2026_b": {
+                  "index": 55317607,
+                  "added_to_ct_at": "2025-09-17T06:58:52Z",
+                  "ct_to_censys_at": "2025-09-17T07:04:49Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2025-09-17T05:12:07Z",
+            "modified_at": "2025-12-12T15:40:05Z",
+            "validated_at": "2026-02-13T03:41:16Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "8fc21ffc5e926070d9492547f3f8bb09f8381fca310d38e4ae12351bbadc0e06",
+            "parent_spki_subject_fingerprint_sha256": "ee6928f5f683f83f6f6a6d32286d7d85f9bd32b8c3cd8d5cc418a4cd3e0e3dc8"
+          },
+          "ip": "151.101.2.132",
+          "scan_time": "2026-02-12T23:45:55Z",
+          "tls": {
+            "fingerprint_sha256": "c1aa942b4d80715377690c5747fb42633d2ca0baa876d05793325d2a2ebbb1c4",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "5539f8c9010518345fc21a85f25b39dd6ad8d591c7971cbb900c2cb7081bbf90",
+                "subject_dn": "C=BE, O=GlobalSign nv-sa, CN=GlobalSign Atlas R3 DV TLS CA 2025 Q3",
+                "issuer_dn": "OU=GlobalSign Root CA - R3, O=GlobalSign, CN=GlobalSign"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "151.101.2.132",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-12T23:45:55Z",
+              "http": {
+                "uri": "https://151.101.2.132/",
+                "protocol": "HTTP/1.1",
+                "status_code": 421,
+                "status_reason": "Misdirected Request",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "291"
+                    ]
+                  },
+                  "content-type": {
+                    "headers": [
+                      "text/plain; charset=utf-8"
+                    ]
+                  },
+                  "x-served-by": {
+                    "headers": [
+                      "cache-tyo11966"
+                    ]
+                  }
+                },
+                "body_size": 291,
+                "body": "Requested host does not match any Subject Alternative Names (SANs) on TLS certificate [5a692009f776bebebbe10e9717f05f92f635ab0ad805ec493462fd69658f1765] in use with this connection.\r\n\r\nVisit https://www.fastly.com/documentation/guides/concepts/errors/#routing-errors for more information.\r\n\r",
+                "body_hash_sha256": "2214b96b34daadc8b7f4f835e5bb972be01ee49c16b38a40bd737ed307e79782",
+                "body_hash_sha1": "7f08c91dea62037594cfa163d56e1bba44e41c78",
+                "supported_versions": [
+                  "HTTP/1.1",
+                  "HTTP/2"
+                ]
+              },
+              "ip": "151.101.2.132"
+            }
+          ]
+        }
+      ],
+      "service_count": 2,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-02-08T10:46:47Z"
+        },
+        "names": [
+          "www.uppsalalager.com",
+          "performing-arts.org",
+          "edge.api.sidelineswap.com",
+          "tuscaloosa.com",
+          "www.cc.cs.1worldsync.com",
+          "missmary.es",
+          "prep-opus.leroymerlin.es",
+          "www.kaiku.es",
+          "www.juneandivory.com",
+          "spectrumcentercharlotte.showtime-preview.com",
+          "spin.showerenvy.com",
+          "aimjoyboutique.com",
+          "www.julietmarieshop.com",
+          "shopthepurplegoose.com",
+          "julayyy.com",
+          "www.shoppingfab.com",
+          "shopunderthecarolinamoon.com",
+          "shopstboutique.com",
+          "shopstellaivy.com",
+          "shoppowersmill.com",
+          "shopouttery.com",
+          "shopkeiaskollections.com",
+          "shopkatiebean.com",
+          "shopjamesandleigh.com",
+          "www.shopfaithandfringe.com",
+          "shopdrivse.com",
+          "www.shopeddies.com",
+          "shopdaisyjeanboutique.com",
+          "www.shopbuttonwood.com",
+          "shopbluelily.com",
+          "www.shopbluhalo.com",
+          "www.shopatfullcircle.com",
+          "www.jreastmall.com",
+          "shopbarefootbeauties.com",
+          "shopardenreign.com",
+          "www.shopamericanvelvet.com",
+          "get.peak-footwear.de",
+          "www.entregascolombia-online.com",
+          "lavinia.stg.ebodev.es",
+          "shepandremi.com",
+          "engellane.com",
+          "olavita.de",
+          "www.shellysblingthing.com",
+          "www.casitajardin.es",
+          "shop.aeroflowinc.com",
+          "www.aernovir.com",
+          "video.kimit.us",
+          "empoweredchurch.com",
+          "www.emmi-protein-water.com",
+          "www.emminutritionals.com",
+          "it.emmi.com",
+          "at.emmi.com",
+          "www.adorableanddressy.com",
+          "helloweb.adobestock.com",
+          "contentauthenticity.adobe.com",
+          "greatgreek.com.eg",
+          "adhesivetemplates.com",
+          "cybercockpit.adeo.com",
+          "passwordless-rec.adeo.com",
+          "gestao-colecoes.adeo.com",
+          "www.product-regulatory.adeoservices.com",
+          "trino.adeo.com",
+          "qsf.supplier.adeo.com",
+          "trend-me-now.adeo.com",
+          "orders-tracking.supplier.adeo.com",
+          "actethics.adeo.com",
+          "partners.adeo.com",
+          "offerchoice.adeo.com",
+          "prep.iso.scdp.adeo.com",
+          "adelineandco.com",
+          "surveys.actblue.com",
+          "www.ackurat.com",
+          "b2b.sigma-imaging.ee",
+          "learning.goodthingsfoundation.org",
+          "www.foodallergy.org",
+          "secure.flcbranson.org",
+          "m.flcbranson.org",
+          "flcbranson.org",
+          "www.fivehorizons.org",
+          "www.find-solar.org",
+          "alpes.fedecardio.org",
+          "aquitaine.fedecardio.org",
+          "val-de-rhone.fedecardio.org",
+          "www.faithschool.org",
+          "towel.io-ny.eu",
+          "www.gudrunsjoden.eu",
+          "signarama.ph",
+          "footlocker.eu",
+          "offer.incendiomagicwand.com",
+          "www.inaminutestyles.com",
+          "pp.iaddeutschland.de",
+          "lockbox.service.secretcdn-stg.net",
+          "inspect.cr",
+          "www.voipstudio.es",
+          "ilcsipoland.com",
+          "tokyo.gudrunsjoeden.de",
+          "systems.gudrunsjoeden.de",
+          "keys.gudrunsjoeden.de",
+          "esd.gudrunsjoeden.de",
+          "aix.gudrunsjoeden.de"
+        ],
+        "forward_dns": {
+          "actethics.adeo.com": {
+            "resolve_time": "2026-02-13T12:45:53Z",
+            "name": "actethics.adeo.com",
+            "record_type": "a"
+          },
+          "adelineandco.com": {
+            "resolve_time": "2026-02-13T12:45:49Z",
+            "name": "adelineandco.com",
+            "record_type": "a"
+          },
+          "adhesivetemplates.com": {
+            "resolve_time": "2026-02-13T12:46:16Z",
+            "name": "adhesivetemplates.com",
+            "record_type": "a"
+          },
+          "aimjoyboutique.com": {
+            "resolve_time": "2026-02-13T12:57:56Z",
+            "name": "aimjoyboutique.com",
+            "record_type": "a"
+          },
+          "aix.gudrunsjoeden.de": {
+            "resolve_time": "2026-02-13T12:16:32Z",
+            "name": "aix.gudrunsjoeden.de",
+            "record_type": "a"
+          },
+          "alpes.fedecardio.org": {
+            "resolve_time": "2026-02-13T12:32:48Z",
+            "name": "alpes.fedecardio.org",
+            "record_type": "a"
+          },
+          "aquitaine.fedecardio.org": {
+            "resolve_time": "2026-02-13T12:32:48Z",
+            "name": "aquitaine.fedecardio.org",
+            "record_type": "a"
+          },
+          "at.emmi.com": {
+            "resolve_time": "2026-02-13T12:48:46Z",
+            "name": "at.emmi.com",
+            "record_type": "a"
+          },
+          "b2b.sigma-imaging.ee": {
+            "resolve_time": "2026-02-13T12:40:12Z",
+            "name": "b2b.sigma-imaging.ee",
+            "record_type": "a"
+          },
+          "contentauthenticity.adobe.com": {
+            "resolve_time": "2026-02-13T12:47:20Z",
+            "name": "contentauthenticity.adobe.com",
+            "record_type": "a"
+          },
+          "cybercockpit.adeo.com": {
+            "resolve_time": "2026-02-13T12:45:59Z",
+            "name": "cybercockpit.adeo.com",
+            "record_type": "a"
+          },
+          "edge.api.sidelineswap.com": {
+            "resolve_time": "2026-02-13T13:01:28Z",
+            "name": "edge.api.sidelineswap.com",
+            "record_type": "a"
+          },
+          "empoweredchurch.com": {
+            "resolve_time": "2026-02-13T12:49:40Z",
+            "name": "empoweredchurch.com",
+            "record_type": "a"
+          },
+          "engellane.com": {
+            "resolve_time": "2026-02-13T12:51:40Z",
+            "name": "engellane.com",
+            "record_type": "a"
+          },
+          "esd.gudrunsjoeden.de": {
+            "resolve_time": "2026-02-13T12:16:32Z",
+            "name": "esd.gudrunsjoeden.de",
+            "record_type": "a"
+          },
+          "flcbranson.org": {
+            "resolve_time": "2026-02-13T12:33:54Z",
+            "name": "flcbranson.org",
+            "record_type": "a"
+          },
+          "footlocker.eu": {
+            "resolve_time": "2026-02-13T12:27:13Z",
+            "name": "footlocker.eu",
+            "record_type": "a"
+          },
+          "gestao-colecoes.adeo.com": {
+            "resolve_time": "2026-02-13T12:45:54Z",
+            "name": "gestao-colecoes.adeo.com",
+            "record_type": "a"
+          },
+          "get.peak-footwear.de": {
+            "resolve_time": "2026-02-13T12:53:57Z",
+            "name": "get.peak-footwear.de",
+            "record_type": "a"
+          },
+          "greatgreek.com.eg": {
+            "resolve_time": "2026-02-13T12:46:48Z",
+            "name": "greatgreek.com.eg",
+            "record_type": "a"
+          },
+          "helloweb.adobestock.com": {
+            "resolve_time": "2026-02-13T12:47:20Z",
+            "name": "helloweb.adobestock.com",
+            "record_type": "a"
+          },
+          "ilcsipoland.com": {
+            "resolve_time": "2026-02-13T12:18:14Z",
+            "name": "ilcsipoland.com",
+            "record_type": "a"
+          },
+          "inspect.cr": {
+            "resolve_time": "2026-02-13T12:19:42Z",
+            "name": "inspect.cr",
+            "record_type": "a"
+          },
+          "it.emmi.com": {
+            "resolve_time": "2026-02-13T12:48:47Z",
+            "name": "it.emmi.com",
+            "record_type": "a"
+          },
+          "julayyy.com": {
+            "resolve_time": "2026-02-13T12:57:21Z",
+            "name": "julayyy.com",
+            "record_type": "a"
+          },
+          "keys.gudrunsjoeden.de": {
+            "resolve_time": "2026-02-13T12:16:32Z",
+            "name": "keys.gudrunsjoeden.de",
+            "record_type": "a"
+          },
+          "lavinia.stg.ebodev.es": {
+            "resolve_time": "2026-02-13T12:52:55Z",
+            "name": "lavinia.stg.ebodev.es",
+            "record_type": "a"
+          },
+          "learning.goodthingsfoundation.org": {
+            "resolve_time": "2026-02-13T12:39:07Z",
+            "name": "learning.goodthingsfoundation.org",
+            "record_type": "a"
+          },
+          "lockbox.service.secretcdn-stg.net": {
+            "resolve_time": "2026-02-13T12:22:44Z",
+            "name": "lockbox.service.secretcdn-stg.net",
+            "record_type": "a"
+          },
+          "m.flcbranson.org": {
+            "resolve_time": "2026-02-13T12:33:54Z",
+            "name": "m.flcbranson.org",
+            "record_type": "a"
+          },
+          "missmary.es": {
+            "resolve_time": "2026-02-13T13:00:15Z",
+            "name": "missmary.es",
+            "record_type": "a"
+          },
+          "offer.incendiomagicwand.com": {
+            "resolve_time": "2026-02-13T12:23:40Z",
+            "name": "offer.incendiomagicwand.com",
+            "record_type": "a"
+          },
+          "offerchoice.adeo.com": {
+            "resolve_time": "2026-02-13T12:45:53Z",
+            "name": "offerchoice.adeo.com",
+            "record_type": "a"
+          },
+          "olavita.de": {
+            "resolve_time": "2026-02-13T12:51:31Z",
+            "name": "olavita.de",
+            "record_type": "a"
+          },
+          "orders-tracking.supplier.adeo.com": {
+            "resolve_time": "2026-02-13T12:45:53Z",
+            "name": "orders-tracking.supplier.adeo.com",
+            "record_type": "a"
+          },
+          "partners.adeo.com": {
+            "resolve_time": "2026-02-13T12:45:53Z",
+            "name": "partners.adeo.com",
+            "record_type": "a"
+          },
+          "passwordless-rec.adeo.com": {
+            "resolve_time": "2026-02-13T12:45:55Z",
+            "name": "passwordless-rec.adeo.com",
+            "record_type": "a"
+          },
+          "performing-arts.org": {
+            "resolve_time": "2026-02-13T15:49:11Z",
+            "name": "performing-arts.org",
+            "record_type": "a"
+          },
+          "pp.iaddeutschland.de": {
+            "resolve_time": "2026-02-13T12:22:49Z",
+            "name": "pp.iaddeutschland.de",
+            "record_type": "a"
+          },
+          "prep-opus.leroymerlin.es": {
+            "resolve_time": "2026-02-13T12:59:29Z",
+            "name": "prep-opus.leroymerlin.es",
+            "record_type": "a"
+          },
+          "prep.iso.scdp.adeo.com": {
+            "resolve_time": "2026-02-13T12:45:53Z",
+            "name": "prep.iso.scdp.adeo.com",
+            "record_type": "a"
+          },
+          "qsf.supplier.adeo.com": {
+            "resolve_time": "2026-02-13T12:45:54Z",
+            "name": "qsf.supplier.adeo.com",
+            "record_type": "a"
+          },
+          "secure.flcbranson.org": {
+            "resolve_time": "2026-02-13T12:33:54Z",
+            "name": "secure.flcbranson.org",
+            "record_type": "a"
+          },
+          "shepandremi.com": {
+            "resolve_time": "2026-02-13T12:51:42Z",
+            "name": "shepandremi.com",
+            "record_type": "a"
+          },
+          "shop.aeroflowinc.com": {
+            "resolve_time": "2026-02-13T12:50:39Z",
+            "name": "shop.aeroflowinc.com",
+            "record_type": "a"
+          },
+          "shopardenreign.com": {
+            "resolve_time": "2026-02-13T12:55:21Z",
+            "name": "shopardenreign.com",
+            "record_type": "a"
+          },
+          "shopbarefootbeauties.com": {
+            "resolve_time": "2026-02-13T12:55:21Z",
+            "name": "shopbarefootbeauties.com",
+            "record_type": "a"
+          },
+          "shopbluelily.com": {
+            "resolve_time": "2026-02-13T12:55:26Z",
+            "name": "shopbluelily.com",
+            "record_type": "a"
+          },
+          "shopdaisyjeanboutique.com": {
+            "resolve_time": "2026-02-13T12:55:37Z",
+            "name": "shopdaisyjeanboutique.com",
+            "record_type": "a"
+          },
+          "shopdrivse.com": {
+            "resolve_time": "2026-02-13T12:55:39Z",
+            "name": "shopdrivse.com",
+            "record_type": "a"
+          },
+          "shopjamesandleigh.com": {
+            "resolve_time": "2026-02-13T12:56:17Z",
+            "name": "shopjamesandleigh.com",
+            "record_type": "a"
+          },
+          "shopkatiebean.com": {
+            "resolve_time": "2026-02-13T12:56:17Z",
+            "name": "shopkatiebean.com",
+            "record_type": "a"
+          },
+          "shopkeiaskollections.com": {
+            "resolve_time": "2026-02-13T12:56:32Z",
+            "name": "shopkeiaskollections.com",
+            "record_type": "a"
+          },
+          "shopouttery.com": {
+            "resolve_time": "2026-02-13T12:56:49Z",
+            "name": "shopouttery.com",
+            "record_type": "a"
+          },
+          "shoppowersmill.com": {
+            "resolve_time": "2026-02-13T12:56:57Z",
+            "name": "shoppowersmill.com",
+            "record_type": "a"
+          },
+          "shopstboutique.com": {
+            "resolve_time": "2026-02-13T12:57:09Z",
+            "name": "shopstboutique.com",
+            "record_type": "a"
+          },
+          "shopstellaivy.com": {
+            "resolve_time": "2026-02-13T12:57:09Z",
+            "name": "shopstellaivy.com",
+            "record_type": "a"
+          },
+          "shopthepurplegoose.com": {
+            "resolve_time": "2026-02-13T12:57:23Z",
+            "name": "shopthepurplegoose.com",
+            "record_type": "a"
+          },
+          "shopunderthecarolinamoon.com": {
+            "resolve_time": "2026-02-13T12:57:18Z",
+            "name": "shopunderthecarolinamoon.com",
+            "record_type": "a"
+          },
+          "signarama.ph": {
+            "resolve_time": "2026-02-13T12:27:53Z",
+            "name": "signarama.ph",
+            "record_type": "a"
+          },
+          "spectrumcentercharlotte.showtime-preview.com": {
+            "resolve_time": "2026-02-13T12:58:08Z",
+            "name": "spectrumcentercharlotte.showtime-preview.com",
+            "record_type": "a"
+          },
+          "spin.showerenvy.com": {
+            "resolve_time": "2026-02-13T12:58:00Z",
+            "name": "spin.showerenvy.com",
+            "record_type": "a"
+          },
+          "surveys.actblue.com": {
+            "resolve_time": "2026-02-13T12:42:55Z",
+            "name": "surveys.actblue.com",
+            "record_type": "a"
+          },
+          "systems.gudrunsjoeden.de": {
+            "resolve_time": "2026-02-13T12:16:32Z",
+            "name": "systems.gudrunsjoeden.de",
+            "record_type": "a"
+          },
+          "tokyo.gudrunsjoeden.de": {
+            "resolve_time": "2026-02-13T12:16:32Z",
+            "name": "tokyo.gudrunsjoeden.de",
+            "record_type": "a"
+          },
+          "towel.io-ny.eu": {
+            "resolve_time": "2026-02-13T12:30:30Z",
+            "name": "towel.io-ny.eu",
+            "record_type": "a"
+          },
+          "trend-me-now.adeo.com": {
+            "resolve_time": "2026-02-13T12:45:54Z",
+            "name": "trend-me-now.adeo.com",
+            "record_type": "a"
+          },
+          "trino.adeo.com": {
+            "resolve_time": "2026-02-13T12:45:54Z",
+            "name": "trino.adeo.com",
+            "record_type": "a"
+          },
+          "tuscaloosa.com": {
+            "resolve_time": "2026-02-13T13:01:00Z",
+            "name": "tuscaloosa.com",
+            "record_type": "a"
+          },
+          "val-de-rhone.fedecardio.org": {
+            "resolve_time": "2026-02-13T12:32:48Z",
+            "name": "val-de-rhone.fedecardio.org",
+            "record_type": "a"
+          },
+          "video.kimit.us": {
+            "resolve_time": "2026-02-13T12:50:20Z",
+            "name": "video.kimit.us",
+            "record_type": "a"
+          },
+          "www.ackurat.com": {
+            "resolve_time": "2026-02-13T12:41:47Z",
+            "name": "www.ackurat.com",
+            "record_type": "a"
+          },
+          "www.adorableanddressy.com": {
+            "resolve_time": "2026-02-13T12:47:34Z",
+            "name": "www.adorableanddressy.com",
+            "record_type": "a"
+          },
+          "www.aernovir.com": {
+            "resolve_time": "2026-02-13T12:50:30Z",
+            "name": "www.aernovir.com",
+            "record_type": "a"
+          },
+          "www.casitajardin.es": {
+            "resolve_time": "2026-02-13T12:50:46Z",
+            "name": "www.casitajardin.es",
+            "record_type": "a"
+          },
+          "www.cc.cs.1worldsync.com": {
+            "resolve_time": "2026-02-13T13:00:18Z",
+            "name": "www.cc.cs.1worldsync.com",
+            "record_type": "a"
+          },
+          "www.emmi-protein-water.com": {
+            "resolve_time": "2026-02-13T12:48:51Z",
+            "name": "www.emmi-protein-water.com",
+            "record_type": "a"
+          },
+          "www.emminutritionals.com": {
+            "resolve_time": "2026-02-13T12:48:49Z",
+            "name": "www.emminutritionals.com",
+            "record_type": "a"
+          },
+          "www.entregascolombia-online.com": {
+            "resolve_time": "2026-02-13T12:53:31Z",
+            "name": "www.entregascolombia-online.com",
+            "record_type": "a"
+          },
+          "www.faithschool.org": {
+            "resolve_time": "2026-02-13T12:31:59Z",
+            "name": "www.faithschool.org",
+            "record_type": "a"
+          },
+          "www.find-solar.org": {
+            "resolve_time": "2026-02-13T12:33:23Z",
+            "name": "www.find-solar.org",
+            "record_type": "a"
+          },
+          "www.fivehorizons.org": {
+            "resolve_time": "2026-02-13T12:33:48Z",
+            "name": "www.fivehorizons.org",
+            "record_type": "a"
+          },
+          "www.foodallergy.org": {
+            "resolve_time": "2026-02-13T12:34:19Z",
+            "name": "www.foodallergy.org",
+            "record_type": "a"
+          },
+          "www.gudrunsjoden.eu": {
+            "resolve_time": "2026-02-13T12:28:26Z",
+            "name": "www.gudrunsjoden.eu",
+            "record_type": "a"
+          },
+          "www.inaminutestyles.com": {
+            "resolve_time": "2026-02-13T12:23:24Z",
+            "name": "www.inaminutestyles.com",
+            "record_type": "a"
+          },
+          "www.jreastmall.com": {
+            "resolve_time": "2026-02-13T12:55:22Z",
+            "name": "www.jreastmall.com",
+            "record_type": "a"
+          },
+          "www.julietmarieshop.com": {
+            "resolve_time": "2026-02-13T12:57:44Z",
+            "name": "www.julietmarieshop.com",
+            "record_type": "a"
+          },
+          "www.juneandivory.com": {
+            "resolve_time": "2026-02-13T12:58:09Z",
+            "name": "www.juneandivory.com",
+            "record_type": "a"
+          },
+          "www.kaiku.es": {
+            "resolve_time": "2026-02-13T12:58:55Z",
+            "name": "www.kaiku.es",
+            "record_type": "a"
+          },
+          "www.product-regulatory.adeoservices.com": {
+            "resolve_time": "2026-02-13T12:45:54Z",
+            "name": "www.product-regulatory.adeoservices.com",
+            "record_type": "a"
+          },
+          "www.shellysblingthing.com": {
+            "resolve_time": "2026-02-13T12:51:25Z",
+            "name": "www.shellysblingthing.com",
+            "record_type": "a"
+          },
+          "www.shopamericanvelvet.com": {
+            "resolve_time": "2026-02-13T12:55:17Z",
+            "name": "www.shopamericanvelvet.com",
+            "record_type": "a"
+          },
+          "www.shopatfullcircle.com": {
+            "resolve_time": "2026-02-13T12:55:23Z",
+            "name": "www.shopatfullcircle.com",
+            "record_type": "a"
+          },
+          "www.shopbluhalo.com": {
+            "resolve_time": "2026-02-13T12:55:26Z",
+            "name": "www.shopbluhalo.com",
+            "record_type": "a"
+          },
+          "www.shopbuttonwood.com": {
+            "resolve_time": "2026-02-13T12:55:28Z",
+            "name": "www.shopbuttonwood.com",
+            "record_type": "a"
+          },
+          "www.shopeddies.com": {
+            "resolve_time": "2026-02-13T12:55:39Z",
+            "name": "www.shopeddies.com",
+            "record_type": "a"
+          },
+          "www.shopfaithandfringe.com": {
+            "resolve_time": "2026-02-13T12:55:47Z",
+            "name": "www.shopfaithandfringe.com",
+            "record_type": "a"
+          },
+          "www.shoppingfab.com": {
+            "resolve_time": "2026-02-13T12:57:21Z",
+            "name": "www.shoppingfab.com",
+            "record_type": "a"
+          },
+          "www.uppsalalager.com": {
+            "resolve_time": "2026-02-13T15:51:07Z",
+            "name": "www.uppsalalager.com",
+            "record_type": "a"
+          },
+          "www.voipstudio.es": {
+            "resolve_time": "2026-02-13T12:19:04Z",
+            "name": "www.voipstudio.es",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

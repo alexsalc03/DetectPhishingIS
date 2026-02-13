@@ -1,0 +1,1129 @@
+{
+  "result": {
+    "resource": {
+      "ip": "13.107.138.10",
+      "location": {
+        "continent": "North America",
+        "country": "United States",
+        "country_code": "US",
+        "city": "Redmond",
+        "postal_code": "98052",
+        "timezone": "America/Los_Angeles",
+        "province": "Washington",
+        "coordinates": {
+          "latitude": 47.67399,
+          "longitude": -122.12151
+        }
+      },
+      "autonomous_system": {
+        "asn": 8075,
+        "description": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "bgp_prefix": "13.104.0.0/14",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "country_code": "US"
+      },
+      "whois": {
+        "network": {
+          "handle": "MSFT",
+          "name": "Microsoft Corporation",
+          "cidrs": [
+            "13.64.0.0/11",
+            "13.96.0.0/13",
+            "13.104.0.0/14"
+          ],
+          "created": "2015-03-26T00:00:00Z",
+          "updated": "2021-12-14T00:00:00Z",
+          "allocation_type": "ALLOCATION"
+        },
+        "organization": {
+          "handle": "MSFT",
+          "name": "Microsoft Corporation",
+          "street": "One Microsoft Way",
+          "city": "Redmond",
+          "state": "WA",
+          "postal_code": "98052",
+          "country": "US",
+          "abuse_contacts": [
+            {
+              "handle": "MAC74-ARIN",
+              "name": "Microsoft Abuse Contact",
+              "email": "abuse@microsoft.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "IPHOS5-ARIN",
+              "name": "IPHostmaster IPHostmaster",
+              "email": "iphostmaster@microsoft.com"
+            }
+          ],
+          "tech_contacts": [
+            {
+              "handle": "BEDAR6-ARIN",
+              "name": "Dawn Bedard",
+              "email": "dabedard@microsoft.com"
+            },
+            {
+              "handle": "IPHOS5-ARIN",
+              "name": "IPHostmaster IPHostmaster",
+              "email": "iphostmaster@microsoft.com"
+            },
+            {
+              "handle": "MRPD-ARIN",
+              "name": "Microsoft Routing, Peering, and DNS",
+              "email": "IOC@microsoft.com"
+            },
+            {
+              "handle": "SINGH683-ARIN",
+              "name": "Prachi Singh",
+              "email": "pracsin@microsoft.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "ip": "13.107.138.10",
+          "scan_time": "2026-02-13T12:50:40Z",
+          "endpoints": [
+            {
+              "hostname": "13.107.138.10",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T12:50:40Z",
+              "http": {
+                "uri": "http://13.107.138.10/",
+                "protocol": "HTTP/1.1",
+                "status_code": 400,
+                "status_reason": "Bad Request",
+                "headers": {
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Transfer-Encoding": {
+                    "headers": [
+                      "chunked"
+                    ]
+                  },
+                  "X-MSEdge-Ref": {
+                    "headers": [
+                      "0HR6PaQAAAADpD0DLpwMLTaNsJxfNvlVFREZXMzExMDAwMTA3MDI3AEVkZ2U="
+                    ]
+                  }
+                },
+                "body_size": 198,
+                "body": "<h2>Our services aren't available right now</h2><p>We're working to restore all services as soon as possible. Please check back soon.</p>0HR6PaQAAAADpD0DLpwMLTaNsJxfNvlVFREZXMzExMDAwMTA3MDI3AEVkZ2U=",
+                "body_hash_sha256": "5d0194f2a0dc713226e34f3e79203dcf63ea5a247530aaca7f1c73e60d6d445c",
+                "body_hash_sha1": "d71bc5cdfbc55f5c2ef273f882b3f0139ce305d1",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "13.107.138.10"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "a306b4c5b94a415fc5806f168ac343a780de1555840064dc7b308948608d8340",
+            "fingerprint_sha1": "64e81338581150d46fbffaca5d8e1cf21e9bd252",
+            "fingerprint_md5": "ec639764edfc3ccbf7dd35b7ba340d54",
+            "tbs_fingerprint_sha256": "c5c80c77427fb1ad0cf381fe4c3f75a8ace00d978d721975ff3c450910f263d3",
+            "tbs_no_ct_fingerprint_sha256": "a0974ef0bed8d1ee8026475d7d3f58ef08ba817eba945567c5e8797f5e1513dd",
+            "spki_fingerprint_sha256": "f2e907c0196bd22910a7588b50f6186198c32dd1ce45d76606a733c3753f2f1a",
+            "parent_spki_fingerprint_sha256": "7ae75d5db90e34d95e3f79914aedc555dfd2d5aaaf15eae089bebd47390c89b9",
+            "parsed": {
+              "version": 3,
+              "serial_number": "1137598751300224047360458597090672400463184798",
+              "issuer_dn": "C=US, O=Microsoft Corporation, CN=Microsoft Azure RSA TLS Issuing CA 07",
+              "issuer": {
+                "common_name": [
+                  "Microsoft Azure RSA TLS Issuing CA 07"
+                ],
+                "country": [
+                  "US"
+                ],
+                "organization": [
+                  "Microsoft Corporation"
+                ]
+              },
+              "subject_dn": "C=US, ST=WA, L=Redmond, O=Microsoft Corporation, CN=*.azureedge.net",
+              "subject": {
+                "common_name": [
+                  "*.azureedge.net"
+                ],
+                "country": [
+                  "US"
+                ],
+                "locality": [
+                  "Redmond"
+                ],
+                "province": [
+                  "WA"
+                ],
+                "organization": [
+                  "Microsoft Corporation"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "RSA",
+                  "oid": "1.2.840.113549.1.1.1"
+                },
+                "rsa": {
+                  "exponent": 65537,
+                  "modulus": "d00db5cc1b45c559ba3a8535a44ed18687b64bd6dab36ad2df3ffde0fa631ab83729a8123f264fb592221cd6c5cb4231177bd084e3f1fb7037116fbf589b971440dd1f73c65995d6c02a3f9df5da126c2f2076d6262fbbacd9221654b55007e59b784a801711f714e240b80969c64ec71223b41947d80d2bb83ade1073d6fc9880d6e14d7b6f5d0f1cd3dbb9f2af873a641a0fa2df28f888cdc42566073621ff8898769e137457b3720d56ac50da19ecb7c7bfdb18698f536a83a4e86f1c385fe10ab491aa28876aa70cbe59c628212ab4bb0f8dbab347ef7f5ed9c6b4ed681e2553b66dd83a194de782c1542c625afb928eba55864567e65f06778338c77b1d",
+                  "length": 2048
+                },
+                "fingerprint_sha256": "7b0d9b1d2916adeba723f5acf20741fe9de17b372c9bdf565c02aec9a077fb1b"
+              },
+              "validity_period": {
+                "not_before": "2026-01-08T17:41:17Z",
+                "not_after": "2026-07-07T17:41:17Z",
+                "length_seconds": 15552001
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "SHA384-RSA",
+                  "oid": "1.2.840.113549.1.1.12"
+                },
+                "value": "5b77a5e675c6c6bff08c26578d7b86987f52bce04343e3c9983b0e0444d7459361f18c31859ba90133f72d52ee085e3f44328d075091b208e7572268cd658429be6db9e9300ad1d06fd62447344322a82c10f21c6c62aae8e7b3c1bc737deb85297ce83dfaaa78c1cec8d9b774a48e831c60ab4447f848d67bc75302b50bea8637a6986f3a7f4e9752471aed65c6e729f8740841fb0af98b64a964a5894f2080c7dad034ec8caf266a27521b6525b34a4747c391fbf30473f457217ac5cba7b0d76aa4fd0e4c447ddd39220083dfa4cb2158213b612671a471897e6c5521e7a82c4d95ab900ca84b3c4e30016a12d3a614942cf01253c6cab2a11c35742428d5ecdabf74b5f9123cec15c1c73cd8f167cc0fbf5c37d4a2f3089fdb376a9705ecb1824a5ea45ea7b01c30140b2c61923dfd563f48b16423f9bf5c9bdc11871968f233292e6eac92b8d697512fe175c4cd305623693a94eff48da3fbcb4711703320e1e5d96769c5795982fd6dcd6d261245c498016c526301ddaf7ce8b64f25638a7144f71aa2c23f9e8cbbcf7bbafc3157dd2acff02012c27d591cb3823de07d82b07c902dec69c1e96771fe11def814c3662a8aade0144acdd183ca7987f827f2d160e11cb4b9eb7394deaaeb9d0176a9cfb7eee93c1f97f01e3986f576eebb4fb59c42a99770f6210d0839ff628674da862f2bb0f9dffd8936849fe4be4aac",
+                "valid": true
+              },
+              "serial_number_hex": "3302fe439ea9b6c2d0ec04c069000002fe439e"
+            },
+            "names": [
+              "*.azureedge.net"
+            ],
+            "validation_level": "ov",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "724247794951c93f3e41711617e95ce143263e3196c345a1da78f6639749ec03",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "fbb7926a451badf516be518614a77e6e325e29819908796d807f59320f918ee2",
+                      "c741f70f4b2a8d88bf2e71c14122ef53ef10eba0cfa5e64cfa20f418853073e0"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                  "724247794951c93f3e41711617e95ce143263e3196c345a1da78f6639749ec03",
+                  "fbb7926a451badf516be518614a77e6e325e29819908796d807f59320f918ee2"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "724247794951c93f3e41711617e95ce143263e3196c345a1da78f6639749ec03",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "fbb7926a451badf516be518614a77e6e325e29819908796d807f59320f918ee2",
+                      "c741f70f4b2a8d88bf2e71c14122ef53ef10eba0cfa5e64cfa20f418853073e0"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                      "0ba8c0d459b76abc0825294f565e24f4f169d4a4819d0692d371522d297724b8",
+                      "2399561127a57125de8cefea610ddf2fa078b5c8067f4e828290bfb860e84b3c"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                  "724247794951c93f3e41711617e95ce143263e3196c345a1da78f6639749ec03",
+                  "fbb7926a451badf516be518614a77e6e325e29819908796d807f59320f918ee2"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "724247794951c93f3e41711617e95ce143263e3196c345a1da78f6639749ec03",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "fbb7926a451badf516be518614a77e6e325e29819908796d807f59320f918ee2",
+                      "c741f70f4b2a8d88bf2e71c14122ef53ef10eba0cfa5e64cfa20f418853073e0"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                  "724247794951c93f3e41711617e95ce143263e3196c345a1da78f6639749ec03",
+                  "fbb7926a451badf516be518614a77e6e325e29819908796d807f59320f918ee2"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "724247794951c93f3e41711617e95ce143263e3196c345a1da78f6639749ec03",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "fbb7926a451badf516be518614a77e6e325e29819908796d807f59320f918ee2",
+                      "c741f70f4b2a8d88bf2e71c14122ef53ef10eba0cfa5e64cfa20f418853073e0"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "54f020151a90182095d4f844448df4911ea683e7f4283e3eb1ff50ff1d78fd2e",
+                  "724247794951c93f3e41711617e95ce143263e3196c345a1da78f6639749ec03",
+                  "fbb7926a451badf516be518614a77e6e325e29819908796d807f59320f918ee2"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 2302593168,
+                  "added_to_ct_at": "2026-01-30T20:46:54Z",
+                  "ct_to_censys_at": "2026-01-30T21:17:44Z"
+                },
+                "google_argon_2026_h2": {
+                  "index": 227466335,
+                  "added_to_ct_at": "2026-01-10T04:17:01Z",
+                  "ct_to_censys_at": "2026-01-10T04:18:27Z"
+                },
+                "google_xenon_2026_h2": {
+                  "index": 175495626,
+                  "added_to_ct_at": "2026-01-10T04:17:01Z",
+                  "ct_to_censys_at": "2026-01-10T04:18:28Z"
+                },
+                "letsencrypt_ct_sycamore_2026_h2": {
+                  "index": 34628563,
+                  "added_to_ct_at": "2026-01-10T04:17:01Z",
+                  "ct_to_censys_at": "2026-01-10T04:18:25Z"
+                },
+                "letsencrypt_ct_willow_2026_h2": {
+                  "index": 34493199,
+                  "added_to_ct_at": "2026-01-10T04:17:02Z",
+                  "ct_to_censys_at": "2026-01-10T04:18:26Z"
+                },
+                "sectigo_elephant_2026_h2": {
+                  "index": 106069516,
+                  "added_to_ct_at": "2026-01-10T04:17:01Z",
+                  "ct_to_censys_at": "2026-01-10T04:18:27Z"
+                },
+                "sectigo_tiger_2026_h2": {
+                  "index": 104383921,
+                  "added_to_ct_at": "2026-01-10T04:17:01Z",
+                  "ct_to_censys_at": "2026-01-10T04:18:50Z"
+                },
+                "trustasia_log_2026_a": {
+                  "index": 498361000,
+                  "added_to_ct_at": "2026-01-11T08:41:25Z",
+                  "ct_to_censys_at": "2026-01-11T08:50:21Z"
+                },
+                "trustasia_log_2026_b": {
+                  "index": 516773036,
+                  "added_to_ct_at": "2026-01-11T08:53:44Z",
+                  "ct_to_censys_at": "2026-01-11T09:06:02Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2026-01-08T18:57:07Z",
+            "modified_at": "2026-01-30T21:17:44Z",
+            "validated_at": "2026-02-13T02:28:15Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "f2e907c0196bd22910a7588b50f6186198c32dd1ce45d76606a733c3753f2f1a",
+            "parent_spki_subject_fingerprint_sha256": "7ae75d5db90e34d95e3f79914aedc555dfd2d5aaaf15eae089bebd47390c89b9"
+          },
+          "ip": "13.107.138.10",
+          "scan_time": "2026-02-13T13:11:57Z",
+          "tls": {
+            "fingerprint_sha256": "a306b4c5b94a415fc5806f168ac343a780de1555840064dc7b308948608d8340",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "724247794951c93f3e41711617e95ce143263e3196c345a1da78f6639749ec03",
+                "subject_dn": "C=US, O=Microsoft Corporation, CN=Microsoft Azure RSA TLS Issuing CA 07",
+                "issuer_dn": "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root G2"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "13.107.138.10",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T13:11:57Z",
+              "http": {
+                "uri": "https://13.107.138.10/",
+                "protocol": "HTTP/1.1",
+                "status_code": 400,
+                "status_reason": "Bad Request",
+                "headers": {
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Transfer-Encoding": {
+                    "headers": [
+                      "chunked"
+                    ]
+                  },
+                  "X-MSEdge-Ref": {
+                    "headers": [
+                      "0HSOPaQAAAABaUHdLwLqEQ5+/sEKz5wJHQ0hJMjYxMTQwNTAyMDM0AEVkZ2U="
+                    ]
+                  }
+                },
+                "body_size": 198,
+                "body": "<h2>Our services aren't available right now</h2><p>We're working to restore all services as soon as possible. Please check back soon.</p>0HSOPaQAAAABaUHdLwLqEQ5+/sEKz5wJHQ0hJMjYxMTQwNTAyMDM0AEVkZ2U=",
+                "body_hash_sha256": "d5a71b8e4051e83453066168ebdd539a21cdf3f0a40ba5f612fdfad4c094d104",
+                "body_hash_sha1": "aad7e8aa52b0fcaffa9f2023b1d60b79da43171b",
+                "supported_versions": [
+                  "HTTP/1.1",
+                  "HTTP/2"
+                ]
+              },
+              "ip": "13.107.138.10"
+            }
+          ]
+        }
+      ],
+      "service_count": 2,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-02-10T05:38:32Z"
+        },
+        "names": [
+          "northeurope1-0-pushnp.svc.ms",
+          "northcentralus1-mediapstation.svc.ms",
+          "api.badgerpokmarks.svc.ms",
+          "aws-southcentralus1-mediap.svc.ms",
+          "autodiscover.asouthcentralus1-mediap.svc.ms",
+          "api.badgerpmic.svc.ms",
+          "apushsen.svc.ms",
+          "grousouthcentralus1-mediap.svc.ms",
+          "southcentralus1-mediapena.svc.ms",
+          "ateam.pushd.svc.ms",
+          "usgoviowa2-mediag.svc.ms",
+          "lnorthcentralus1-mediapx.svc.ms",
+          "www.gmsouthcentralus1-mediapl.svc.ms",
+          "usgovtexas1-sphomeg.svc.ms",
+          "southcentralus1-mediaps.api.svc.ms",
+          "usgovvirginia1-mediap.svc.ms",
+          "mrapi.badgerp.letter.svc.ms",
+          "southcentralus1-mediapw.s1.svc.ms",
+          "gcc-app-sphomep.svc.ms",
+          "webdisk.webmasouthcentralus1-mediap.svc.ms",
+          "southcentralus1-mediapeb.svc.ms",
+          "southcentralus1-mediapearch.svc.ms",
+          "saber.pushd.svc.ms",
+          "predictivesearchtype.pushp.svc.ms",
+          "rita.pushd.svc.ms",
+          "dc.pushs.svc.ms",
+          "diendan.pushd.svc.ms",
+          "currentpath.pushd.svc.ms",
+          "gaapi.badgerpway.svc.ms",
+          "api.badgerp-rest.svc.ms",
+          "kunorthcentralus1-mediap20.svc.ms",
+          "www.ksouthcentralus1-mediapkurs.svc.ms",
+          "painel.pushp.svc.ms",
+          "gcc-yggdrasil-sphomep.svc.ms",
+          "northcentralus1-mediapac.svc.ms",
+          "ssnorthcentralus1-mediap.svc.ms",
+          "bopushpds.svc.ms",
+          "bnorthcentralus1-mediapic.svc.ms",
+          "getadditionalinputsresponse.svc.ms",
+          "mapnorthcentralus1-mediap.svc.ms",
+          "extrnorthcentralus1-mediapet.svc.ms",
+          "opnorthcentralus1-mediap.svc.ms",
+          "cmediages.svc.ms",
+          "usgovtexas4-mediag.svc.ms",
+          "usdodeast1-sphomeg.svc.ms",
+          "northcentralus1-mediapney.svc.ms",
+          "bunorthcentralus1-mediapder.cp.svc.ms",
+          "pushslivery.a.svc.ms",
+          "snorthcentralus1-mediapps.svc.ms",
+          "autodiscover.stsouthcentralus1-mediapic.svc.ms",
+          "api.badgerpw.noc.svc.ms",
+          "plunorthcentralus1-mediap.svc.ms",
+          "usdodeast0-sphomeg.svc.ms",
+          "autocapi.badgerpfig.cdn.svc.ms",
+          "usgovtexas3-mediap.svc.ms",
+          "southcentralus1-mediapro.svc.ms",
+          "www.catanorthcentralus1-mediap.svc.ms",
+          "armstrong.pushs.svc.ms",
+          "androsouthcentralus1-mediap.svc.ms",
+          "germanynortheastr-mediap.svc.ms",
+          "anasouthcentralus1-mediap.svc.ms",
+          "germanynortheast4-notifyp.svc.ms",
+          "magpushd.svc.ms",
+          "vidsouthcentralus1-mediaps.svc.ms",
+          "ch-tw.pushd.svc.ms",
+          "usgovtexas2-sphomeg.svc.ms",
+          "usgovvirginia0-0-pushfp.svc.ms",
+          "southcentralus1-mediapfl.svc.ms",
+          "mediag.agent.svc.ms",
+          "southcentralus1-mediap.ag.svc.ms",
+          "www.doapi.badgerps.svc.ms",
+          "kevlar.pushs.svc.ms",
+          "southcentralus1-mediapupal.svc.ms",
+          "api.badgerprma.svc.ms",
+          "spn-v1azmgmt.svc.ms",
+          "opushdgin.svc.ms",
+          "portal.enfrasys.com",
+          "www.stavares.com.br",
+          "spo.usth.edu.vn",
+          "sites.iic.com",
+          "www.dillocorp.com",
+          "dgiag-my.sharepoint.de",
+          "dyczkacliptechnik-my.sharepoint.de",
+          "ffreitag-my.sharepoint.de",
+          "wahlkreisbuerokamenz.sharepoint.de",
+          "neumannlegalinfo.sharepoint.de",
+          "taylorturjanicastore.com",
+          "myti.talentinternational.com",
+          "www.davidge.dk",
+          "nagano.dtglobalstaffing.com",
+          "login2.dtglobalstaffing.com",
+          "inbound.dtglobalstaffing.com",
+          "stream.dtglobalstaffing.com",
+          "www.walschots.com",
+          "www.cecs-elp.com",
+          "sharepoint.carrefoursa.com",
+          "sharepoint.yonder.nl",
+          "intranet.thuiszorggrootlimburg.nl",
+          "stvgrp-my.sharepoint.com",
+          "sunnkinginc.sharepoint.com"
+        ],
+        "forward_dns": {
+          "anasouthcentralus1-mediap.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:51Z",
+            "name": "anasouthcentralus1-mediap.svc.ms",
+            "record_type": "a"
+          },
+          "androsouthcentralus1-mediap.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:51Z",
+            "name": "androsouthcentralus1-mediap.svc.ms",
+            "record_type": "a"
+          },
+          "api.badgerp-rest.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:52Z",
+            "name": "api.badgerp-rest.svc.ms",
+            "record_type": "a"
+          },
+          "api.badgerpmic.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:57Z",
+            "name": "api.badgerpmic.svc.ms",
+            "record_type": "a"
+          },
+          "api.badgerpokmarks.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:58Z",
+            "name": "api.badgerpokmarks.svc.ms",
+            "record_type": "a"
+          },
+          "api.badgerprma.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:50Z",
+            "name": "api.badgerprma.svc.ms",
+            "record_type": "a"
+          },
+          "api.badgerpw.noc.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:51Z",
+            "name": "api.badgerpw.noc.svc.ms",
+            "record_type": "a"
+          },
+          "apushsen.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:57Z",
+            "name": "apushsen.svc.ms",
+            "record_type": "a"
+          },
+          "armstrong.pushs.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:51Z",
+            "name": "armstrong.pushs.svc.ms",
+            "record_type": "a"
+          },
+          "ateam.pushd.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:54Z",
+            "name": "ateam.pushd.svc.ms",
+            "record_type": "a"
+          },
+          "autocapi.badgerpfig.cdn.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:51Z",
+            "name": "autocapi.badgerpfig.cdn.svc.ms",
+            "record_type": "a"
+          },
+          "autodiscover.asouthcentralus1-mediap.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:58Z",
+            "name": "autodiscover.asouthcentralus1-mediap.svc.ms",
+            "record_type": "a"
+          },
+          "autodiscover.stsouthcentralus1-mediapic.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:51Z",
+            "name": "autodiscover.stsouthcentralus1-mediapic.svc.ms",
+            "record_type": "a"
+          },
+          "aws-southcentralus1-mediap.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:58Z",
+            "name": "aws-southcentralus1-mediap.svc.ms",
+            "record_type": "a"
+          },
+          "bnorthcentralus1-mediapic.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:52Z",
+            "name": "bnorthcentralus1-mediapic.svc.ms",
+            "record_type": "a"
+          },
+          "bopushpds.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:52Z",
+            "name": "bopushpds.svc.ms",
+            "record_type": "a"
+          },
+          "bunorthcentralus1-mediapder.cp.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:51Z",
+            "name": "bunorthcentralus1-mediapder.cp.svc.ms",
+            "record_type": "a"
+          },
+          "ch-tw.pushd.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:51Z",
+            "name": "ch-tw.pushd.svc.ms",
+            "record_type": "a"
+          },
+          "cmediages.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:52Z",
+            "name": "cmediages.svc.ms",
+            "record_type": "a"
+          },
+          "currentpath.pushd.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:52Z",
+            "name": "currentpath.pushd.svc.ms",
+            "record_type": "a"
+          },
+          "dc.pushs.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:53Z",
+            "name": "dc.pushs.svc.ms",
+            "record_type": "a"
+          },
+          "dgiag-my.sharepoint.de": {
+            "resolve_time": "2026-02-12T12:59:56Z",
+            "name": "dgiag-my.sharepoint.de",
+            "record_type": "a"
+          },
+          "diendan.pushd.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:53Z",
+            "name": "diendan.pushd.svc.ms",
+            "record_type": "a"
+          },
+          "dyczkacliptechnik-my.sharepoint.de": {
+            "resolve_time": "2026-02-12T12:59:53Z",
+            "name": "dyczkacliptechnik-my.sharepoint.de",
+            "record_type": "a"
+          },
+          "extrnorthcentralus1-mediapet.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:52Z",
+            "name": "extrnorthcentralus1-mediapet.svc.ms",
+            "record_type": "a"
+          },
+          "ffreitag-my.sharepoint.de": {
+            "resolve_time": "2026-02-12T12:59:52Z",
+            "name": "ffreitag-my.sharepoint.de",
+            "record_type": "a"
+          },
+          "gaapi.badgerpway.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:52Z",
+            "name": "gaapi.badgerpway.svc.ms",
+            "record_type": "a"
+          },
+          "gcc-app-sphomep.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:53Z",
+            "name": "gcc-app-sphomep.svc.ms",
+            "record_type": "a"
+          },
+          "gcc-yggdrasil-sphomep.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:52Z",
+            "name": "gcc-yggdrasil-sphomep.svc.ms",
+            "record_type": "a"
+          },
+          "germanynortheast4-notifyp.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:51Z",
+            "name": "germanynortheast4-notifyp.svc.ms",
+            "record_type": "a"
+          },
+          "germanynortheastr-mediap.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:51Z",
+            "name": "germanynortheastr-mediap.svc.ms",
+            "record_type": "a"
+          },
+          "getadditionalinputsresponse.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:52Z",
+            "name": "getadditionalinputsresponse.svc.ms",
+            "record_type": "a"
+          },
+          "grousouthcentralus1-mediap.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:56Z",
+            "name": "grousouthcentralus1-mediap.svc.ms",
+            "record_type": "a"
+          },
+          "inbound.dtglobalstaffing.com": {
+            "resolve_time": "2026-02-12T12:28:59Z",
+            "name": "inbound.dtglobalstaffing.com",
+            "record_type": "a"
+          },
+          "intranet.thuiszorggrootlimburg.nl": {
+            "resolve_time": "2026-02-11T22:22:52Z",
+            "name": "intranet.thuiszorggrootlimburg.nl",
+            "record_type": "a"
+          },
+          "kevlar.pushs.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:50Z",
+            "name": "kevlar.pushs.svc.ms",
+            "record_type": "a"
+          },
+          "kunorthcentralus1-mediap20.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:52Z",
+            "name": "kunorthcentralus1-mediap20.svc.ms",
+            "record_type": "a"
+          },
+          "lnorthcentralus1-mediapx.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:54Z",
+            "name": "lnorthcentralus1-mediapx.svc.ms",
+            "record_type": "a"
+          },
+          "login2.dtglobalstaffing.com": {
+            "resolve_time": "2026-02-12T12:28:59Z",
+            "name": "login2.dtglobalstaffing.com",
+            "record_type": "a"
+          },
+          "magpushd.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:51Z",
+            "name": "magpushd.svc.ms",
+            "record_type": "a"
+          },
+          "mapnorthcentralus1-mediap.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:52Z",
+            "name": "mapnorthcentralus1-mediap.svc.ms",
+            "record_type": "a"
+          },
+          "mediag.agent.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:50Z",
+            "name": "mediag.agent.svc.ms",
+            "record_type": "a"
+          },
+          "mrapi.badgerp.letter.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:54Z",
+            "name": "mrapi.badgerp.letter.svc.ms",
+            "record_type": "a"
+          },
+          "myti.talentinternational.com": {
+            "resolve_time": "2026-02-12T12:33:43Z",
+            "name": "myti.talentinternational.com",
+            "record_type": "a"
+          },
+          "nagano.dtglobalstaffing.com": {
+            "resolve_time": "2026-02-12T12:29:00Z",
+            "name": "nagano.dtglobalstaffing.com",
+            "record_type": "a"
+          },
+          "neumannlegalinfo.sharepoint.de": {
+            "resolve_time": "2026-02-12T12:59:52Z",
+            "name": "neumannlegalinfo.sharepoint.de",
+            "record_type": "a"
+          },
+          "northcentralus1-mediapac.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:52Z",
+            "name": "northcentralus1-mediapac.svc.ms",
+            "record_type": "a"
+          },
+          "northcentralus1-mediapney.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:52Z",
+            "name": "northcentralus1-mediapney.svc.ms",
+            "record_type": "a"
+          },
+          "northcentralus1-mediapstation.svc.ms": {
+            "resolve_time": "2026-02-13T12:57:01Z",
+            "name": "northcentralus1-mediapstation.svc.ms",
+            "record_type": "a"
+          },
+          "northeurope1-0-pushnp.svc.ms": {
+            "resolve_time": "2026-02-13T12:57:03Z",
+            "name": "northeurope1-0-pushnp.svc.ms",
+            "record_type": "a"
+          },
+          "opnorthcentralus1-mediap.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:52Z",
+            "name": "opnorthcentralus1-mediap.svc.ms",
+            "record_type": "a"
+          },
+          "opushdgin.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:50Z",
+            "name": "opushdgin.svc.ms",
+            "record_type": "a"
+          },
+          "painel.pushp.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:52Z",
+            "name": "painel.pushp.svc.ms",
+            "record_type": "a"
+          },
+          "plunorthcentralus1-mediap.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:51Z",
+            "name": "plunorthcentralus1-mediap.svc.ms",
+            "record_type": "a"
+          },
+          "portal.enfrasys.com": {
+            "resolve_time": "2026-02-13T12:51:35Z",
+            "name": "portal.enfrasys.com",
+            "record_type": "a"
+          },
+          "predictivesearchtype.pushp.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:53Z",
+            "name": "predictivesearchtype.pushp.svc.ms",
+            "record_type": "a"
+          },
+          "pushslivery.a.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:51Z",
+            "name": "pushslivery.a.svc.ms",
+            "record_type": "a"
+          },
+          "rita.pushd.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:53Z",
+            "name": "rita.pushd.svc.ms",
+            "record_type": "a"
+          },
+          "saber.pushd.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:53Z",
+            "name": "saber.pushd.svc.ms",
+            "record_type": "a"
+          },
+          "sharepoint.carrefoursa.com": {
+            "resolve_time": "2026-02-11T22:28:37Z",
+            "name": "sharepoint.carrefoursa.com",
+            "record_type": "a"
+          },
+          "sharepoint.yonder.nl": {
+            "resolve_time": "2026-02-11T22:26:31Z",
+            "name": "sharepoint.yonder.nl",
+            "record_type": "a"
+          },
+          "sites.iic.com": {
+            "resolve_time": "2026-02-13T12:17:03Z",
+            "name": "sites.iic.com",
+            "record_type": "a"
+          },
+          "snorthcentralus1-mediapps.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:51Z",
+            "name": "snorthcentralus1-mediapps.svc.ms",
+            "record_type": "a"
+          },
+          "southcentralus1-mediap.ag.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:50Z",
+            "name": "southcentralus1-mediap.ag.svc.ms",
+            "record_type": "a"
+          },
+          "southcentralus1-mediapearch.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:53Z",
+            "name": "southcentralus1-mediapearch.svc.ms",
+            "record_type": "a"
+          },
+          "southcentralus1-mediapeb.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:53Z",
+            "name": "southcentralus1-mediapeb.svc.ms",
+            "record_type": "a"
+          },
+          "southcentralus1-mediapena.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:55Z",
+            "name": "southcentralus1-mediapena.svc.ms",
+            "record_type": "a"
+          },
+          "southcentralus1-mediapfl.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:50Z",
+            "name": "southcentralus1-mediapfl.svc.ms",
+            "record_type": "a"
+          },
+          "southcentralus1-mediapro.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:51Z",
+            "name": "southcentralus1-mediapro.svc.ms",
+            "record_type": "a"
+          },
+          "southcentralus1-mediaps.api.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:54Z",
+            "name": "southcentralus1-mediaps.api.svc.ms",
+            "record_type": "a"
+          },
+          "southcentralus1-mediapupal.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:50Z",
+            "name": "southcentralus1-mediapupal.svc.ms",
+            "record_type": "a"
+          },
+          "southcentralus1-mediapw.s1.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:54Z",
+            "name": "southcentralus1-mediapw.s1.svc.ms",
+            "record_type": "a"
+          },
+          "spn-v1azmgmt.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:50Z",
+            "name": "spn-v1azmgmt.svc.ms",
+            "record_type": "a"
+          },
+          "spo.usth.edu.vn": {
+            "resolve_time": "2026-02-13T12:21:09Z",
+            "name": "spo.usth.edu.vn",
+            "record_type": "a"
+          },
+          "ssnorthcentralus1-mediap.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:52Z",
+            "name": "ssnorthcentralus1-mediap.svc.ms",
+            "record_type": "a"
+          },
+          "stream.dtglobalstaffing.com": {
+            "resolve_time": "2026-02-12T12:28:58Z",
+            "name": "stream.dtglobalstaffing.com",
+            "record_type": "a"
+          },
+          "stvgrp-my.sharepoint.com": {
+            "resolve_time": "2026-02-11T22:21:49Z",
+            "name": "stvgrp-my.sharepoint.com",
+            "record_type": "a"
+          },
+          "sunnkinginc.sharepoint.com": {
+            "resolve_time": "2026-02-11T22:21:48Z",
+            "name": "sunnkinginc.sharepoint.com",
+            "record_type": "a"
+          },
+          "taylorturjanicastore.com": {
+            "resolve_time": "2026-02-12T12:38:38Z",
+            "name": "taylorturjanicastore.com",
+            "record_type": "a"
+          },
+          "usdodeast0-sphomeg.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:51Z",
+            "name": "usdodeast0-sphomeg.svc.ms",
+            "record_type": "a"
+          },
+          "usdodeast1-sphomeg.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:52Z",
+            "name": "usdodeast1-sphomeg.svc.ms",
+            "record_type": "a"
+          },
+          "usgoviowa2-mediag.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:54Z",
+            "name": "usgoviowa2-mediag.svc.ms",
+            "record_type": "a"
+          },
+          "usgovtexas1-sphomeg.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:54Z",
+            "name": "usgovtexas1-sphomeg.svc.ms",
+            "record_type": "a"
+          },
+          "usgovtexas2-sphomeg.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:50Z",
+            "name": "usgovtexas2-sphomeg.svc.ms",
+            "record_type": "a"
+          },
+          "usgovtexas3-mediap.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:51Z",
+            "name": "usgovtexas3-mediap.svc.ms",
+            "record_type": "a"
+          },
+          "usgovtexas4-mediag.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:52Z",
+            "name": "usgovtexas4-mediag.svc.ms",
+            "record_type": "a"
+          },
+          "usgovvirginia0-0-pushfp.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:50Z",
+            "name": "usgovvirginia0-0-pushfp.svc.ms",
+            "record_type": "a"
+          },
+          "usgovvirginia1-mediap.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:54Z",
+            "name": "usgovvirginia1-mediap.svc.ms",
+            "record_type": "a"
+          },
+          "vidsouthcentralus1-mediaps.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:51Z",
+            "name": "vidsouthcentralus1-mediaps.svc.ms",
+            "record_type": "a"
+          },
+          "wahlkreisbuerokamenz.sharepoint.de": {
+            "resolve_time": "2026-02-12T12:59:52Z",
+            "name": "wahlkreisbuerokamenz.sharepoint.de",
+            "record_type": "a"
+          },
+          "webdisk.webmasouthcentralus1-mediap.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:53Z",
+            "name": "webdisk.webmasouthcentralus1-mediap.svc.ms",
+            "record_type": "a"
+          },
+          "www.catanorthcentralus1-mediap.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:51Z",
+            "name": "www.catanorthcentralus1-mediap.svc.ms",
+            "record_type": "a"
+          },
+          "www.cecs-elp.com": {
+            "resolve_time": "2026-02-11T22:35:23Z",
+            "name": "www.cecs-elp.com",
+            "record_type": "a"
+          },
+          "www.davidge.dk": {
+            "resolve_time": "2026-02-12T12:31:30Z",
+            "name": "www.davidge.dk",
+            "record_type": "a"
+          },
+          "www.dillocorp.com": {
+            "resolve_time": "2026-02-13T00:17:31Z",
+            "name": "www.dillocorp.com",
+            "record_type": "a"
+          },
+          "www.doapi.badgerps.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:50Z",
+            "name": "www.doapi.badgerps.svc.ms",
+            "record_type": "a"
+          },
+          "www.gmsouthcentralus1-mediapl.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:54Z",
+            "name": "www.gmsouthcentralus1-mediapl.svc.ms",
+            "record_type": "a"
+          },
+          "www.ksouthcentralus1-mediapkurs.svc.ms": {
+            "resolve_time": "2026-02-13T12:56:52Z",
+            "name": "www.ksouthcentralus1-mediapkurs.svc.ms",
+            "record_type": "a"
+          },
+          "www.stavares.com.br": {
+            "resolve_time": "2026-02-13T12:25:08Z",
+            "name": "www.stavares.com.br",
+            "record_type": "a"
+          },
+          "www.walschots.com": {
+            "resolve_time": "2026-02-12T12:16:28Z",
+            "name": "www.walschots.com",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

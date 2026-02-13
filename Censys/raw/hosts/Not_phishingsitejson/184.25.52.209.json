@@ -1,0 +1,702 @@
+{
+  "result": {
+    "resource": {
+      "ip": "184.25.52.209",
+      "location": {
+        "continent": "Europe",
+        "country": "Italy",
+        "country_code": "IT",
+        "city": "Milan",
+        "postal_code": "20121",
+        "timezone": "Europe/Rome",
+        "province": "Lombardy",
+        "coordinates": {
+          "latitude": 45.46427,
+          "longitude": 9.18951
+        }
+      },
+      "autonomous_system": {
+        "asn": 16625,
+        "description": "AKAMAI-AS - Akamai Technologies, Inc.",
+        "bgp_prefix": "184.25.52.0/22",
+        "name": "AKAMAI-AS - Akamai Technologies, Inc.",
+        "country_code": "US"
+      },
+      "whois": {
+        "network": {
+          "handle": "AKAMAI",
+          "name": "Akamai Technologies, Inc.",
+          "cidrs": [
+            "184.24.0.0/13"
+          ],
+          "created": "2010-10-11T00:00:00Z",
+          "updated": "2012-03-02T00:00:00Z",
+          "allocation_type": "ALLOCATION"
+        },
+        "organization": {
+          "handle": "AKAMAI",
+          "name": "Akamai Technologies, Inc.",
+          "street": "145 Broadway",
+          "city": "Cambridge",
+          "state": "MA",
+          "postal_code": "02142",
+          "country": "US",
+          "abuse_contacts": [
+            {
+              "handle": "NUS-ARIN",
+              "name": "NOC United States",
+              "email": "abuse@akamai.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "IPADM11-ARIN",
+              "name": "ipadmin",
+              "email": "ip-admin@akamai.com"
+            }
+          ],
+          "tech_contacts": [
+            {
+              "handle": "IPADM11-ARIN",
+              "name": "ipadmin",
+              "email": "ip-admin@akamai.com"
+            },
+            {
+              "handle": "SJS98-ARIN",
+              "name": "Steven Schecter",
+              "email": "ip-admin@akamai.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "type": [
+                "WAF"
+              ],
+              "vendor": "akamai",
+              "product": "app_and_api_protector"
+            },
+            {
+              "vendor": "akamai",
+              "product": "ghost"
+            }
+          ],
+          "labels": [
+            {
+              "value": "WAF"
+            }
+          ],
+          "ip": "184.25.52.209",
+          "scan_time": "2026-02-13T08:49:00Z",
+          "endpoints": [
+            {
+              "hostname": "184.25.52.209",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T08:49:00Z",
+              "http": {
+                "uri": "http://184.25.52.209/",
+                "protocol": "HTTP/1.0",
+                "status_code": 400,
+                "status_reason": "Bad Request",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "310"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Expires": {
+                    "headers": [
+                      "Fri, 13 Feb 2026 08:49:00 GMT"
+                    ]
+                  },
+                  "Mime-Version": {
+                    "headers": [
+                      "1.0"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "AkamaiGHost"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<TITLE>Invalid URL</TITLE>"
+                ],
+                "body_size": 310,
+                "body": "<HTML><HEAD>\n<TITLE>Invalid URL</TITLE>\n</HEAD><BODY>\n<H1>Invalid URL</H1>\nThe requested URL \"&#91;no&#32;URL&#93;\", is invalid.<p>\nReference&#32;&#35;9&#46;8c1645f&#46;1770972540&#46;4eccd41c\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;9&#46;8c1645f&#46;1770972540&#46;4eccd41c</P>\n</BODY></HTML>\n",
+                "html_title": "Invalid URL",
+                "body_hash_sha256": "7306b7423716eaadb6c0803d4767e953716223faa69dfe93e9888dfa522c2f80",
+                "body_hash_sha1": "0758d5105ccd078ef3f665990788dbdf7f1091f4",
+                "supported_versions": [
+                  "HTTP/1.0"
+                ]
+              },
+              "ip": "184.25.52.209"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "d40940b8ba61bb9ed9fd2a13e7e1872d5d675ccc0fb226b962b189c3a877b824",
+            "fingerprint_sha1": "b4b5288aef0aeb2eec432eb6e0b6652ca0a8b9b9",
+            "fingerprint_md5": "ff68930cb00b663812fe8b96ee3934f8",
+            "tbs_fingerprint_sha256": "afd67d788cfcf22bdb2810c68439b00bf16e0d0f842a53102eac21a2e97013ad",
+            "tbs_no_ct_fingerprint_sha256": "1e0a57362728c44b8acf6008153340597ed0457ae83d420a420ea2fd2a7f3260",
+            "spki_fingerprint_sha256": "dc0a3ca9784bbf20df05e06c5f98a776ed915341f8894dcd40502bf8872f709d",
+            "parent_spki_fingerprint_sha256": "f737aa26549dce01eb1dc2e8ce19ecb6692f4f439c946f3b7fae0b7abb3d87d7",
+            "parsed": {
+              "version": 3,
+              "serial_number": "13595862157268020633805088550061790182",
+              "issuer_dn": "C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+              "issuer": {
+                "common_name": [
+                  "DigiCert Global G2 TLS RSA SHA256 2020 CA1"
+                ],
+                "country": [
+                  "US"
+                ],
+                "organization": [
+                  "DigiCert Inc"
+                ]
+              },
+              "subject_dn": "C=US, ST=California, L=San Diego, O=Intuit Inc., CN=mktg.intuit.com",
+              "subject": {
+                "common_name": [
+                  "mktg.intuit.com"
+                ],
+                "country": [
+                  "US"
+                ],
+                "locality": [
+                  "San Diego"
+                ],
+                "province": [
+                  "California"
+                ],
+                "organization": [
+                  "Intuit Inc."
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "RSA",
+                  "oid": "1.2.840.113549.1.1.1"
+                },
+                "rsa": {
+                  "exponent": 65537,
+                  "modulus": "8f72ce013db578320f47a02ef28debccdd8ff32709d17ca855dedd22cf8783993e57fe4ef2bc59c149ecab75f468a5906724f8066a3b8aa2b18cf50b3f60451ab7a28cc3030a5f30efb4a00fb64253cc08519ec6e8d53b8bb806297da14ec81ba5c0bab7bf4bfe3d82b602c12940f1711da369f4b4f7a0bee2a0e4d57c57af9326d71596b027b47e8dc4ba082c0ce04a3477f9bb56556a909a5650715afe4e0a8a367607b22005c9d691fcb9e84ee5df48a6f29d6a82dc9077f488ef1eff2a9ace567d055d0edd3133786c9e4d7855b6956435f968e3c576ebf9539b6841db9dbc986c17dbf8bcf3046c55822b7796518dfd590f17275e9731f55043b1f9b77f",
+                  "length": 2048
+                },
+                "fingerprint_sha256": "b1f59b48267124b1d82f4df968362254d6d6a9666d2294c1089c42fbf3f7c99f"
+              },
+              "validity_period": {
+                "not_before": "2025-11-04T00:00:00Z",
+                "not_after": "2026-11-06T23:59:59Z",
+                "length_seconds": 31795200
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "SHA256-RSA",
+                  "oid": "1.2.840.113549.1.1.11"
+                },
+                "value": "0b29fc868457092ecc7ede35fd7c8f09ad3237423967c1babf768a41be0e48a9c5699daa7bc2345aca76cf879059477262ee7e4fb0ffc23d47ef740bc02db896b3365fb9171107e72531f8949f9e2a6d1e77bea32fd7484351f16ae2ca9a2180287970d192fff7bdd1b210e6d84b5a584c63ecf0607db6397747c4fc5336c074d72dbf17034b0fadaadc7207bc21febed0a057a404158e43208c12b37b71ca156047b76e2eb4be1e52f72fb8383122573dfe36c4373626175a357f98f165147e881804e9b36c0d75d97e13feff29cf2065a14b93c8b595dd757233989c247fc0aa6dcd69e2d8fa2d544dfceb1aa0536e3e3c108ee442c6a5de7af760485b5f31",
+                "valid": true
+              },
+              "serial_number_hex": "0a3a77c20eeb7d55f0e58a63edeed3e6"
+            },
+            "names": [
+              "accountants.intuit.com",
+              "accountantscanary.intuit.com",
+              "blog.taxpro.intuit.com",
+              "compliance.intuitlabs.com",
+              "contactus.intuit.com",
+              "edm.www.intuit.com.au",
+              "education.intuit.ca",
+              "gopayment.com",
+              "gopayments.com",
+              "help.quickbooks.intuit.com",
+              "index.intuit.com",
+              "intuit.co.uk",
+              "intuit.com",
+              "intuit.com.au",
+              "intuit.fr",
+              "intuitbenefits.com",
+              "intuitcanary.intuit.com",
+              "intuitfullservicepayroll.com",
+              "intuitinnovationday.com",
+              "intuitpayments.com",
+              "km-ext.ebs-dam.intuit.com",
+              "km-int.ebs-dam.intuit.com",
+              "mktg.intuit.com",
+              "myproseries.com",
+              "online.payroll.intuit.com",
+              "payments.intuit.com",
+              "payroll.intuit.com",
+              "proconnect.intuit.com",
+              "proconnectcanary.intuit.com",
+              "profile.intuit.ca",
+              "profilecanary.intuit.ca",
+              "profilefrancais.intuit.ca",
+              "profilefrancaiscanary.intuit.ca",
+              "proseries.com",
+              "qbinproduct.intuit.com",
+              "qboipd.intuit.com",
+              "quickbook.com.br",
+              "quickbooks.co.uk",
+              "quickbooks.co.za",
+              "quickbooks.com",
+              "quickbooks.com.au",
+              "quickbooks.com.br",
+              "quickbooks.fr",
+              "quickbooks.in",
+              "quickbooks.intuit.ca",
+              "quickbooks.intuit.com",
+              "quickbooks.intuit.com.au",
+              "quickbooks.intuit.fr",
+              "quickbooks2000.com",
+              "quickbookscanary.intuit.com",
+              "quickbooksenligne.ca",
+              "quickbooksenligne.intuit.ca",
+              "quickbooksgetconnected.co.za",
+              "quickbooksonline.com",
+              "quickbooksonline.intuit.com",
+              "sbconnect.intuit.com",
+              "scr.www.intuit.com.au",
+              "search.payroll.com",
+              "search.quickbooks.com",
+              "search.quickbooksonline.com",
+              "search2.payroll.com",
+              "search2.quickbooks.com",
+              "search2.quickbooksonline.com",
+              "signup.quickbooks.intuit.com",
+              "static.quickbooks.com",
+              "support.intuit.ca",
+              "taxpro.intuit.com",
+              "widgets.intuit.com",
+              "www.gopayment.com",
+              "www.gopayments.com",
+              "www.intuit-gopayment.com",
+              "www.intuit.co.uk",
+              "www.intuit.com",
+              "www.intuit.com.au",
+              "www.intuit.fr",
+              "www.intuitaffiliate.com",
+              "www.intuitbenefits.com",
+              "www.intuitfullservicepayroll.com",
+              "www.intuitinnovationday.com",
+              "www.intuitlabs.com",
+              "www.intuitpayments.com",
+              "www.myproseries.com",
+              "www.payments.intuit.com",
+              "www.payroll.intuit.com",
+              "www.proseries.com",
+              "www.quickbook.com.br",
+              "www.quickbooks.co.uk",
+              "www.quickbooks.co.za",
+              "www.quickbooks.com",
+              "www.quickbooks.com.au",
+              "www.quickbooks.com.br",
+              "www.quickbooks.fr",
+              "www.quickbooks.in",
+              "www.quickbooks.intuit.ca",
+              "www.quickbooks.intuit.com",
+              "www.quickbooks.intuit.fr",
+              "www.quickbooksgetconnected.co.za",
+              "www.quickbooksonline.com",
+              "www.quickbooksonline.intuit.com"
+            ],
+            "validation_level": "ov",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "a0d609a7e3c434e878a9a1c1bd065b8dcf33aa7efee1b11bc75cce5e5a042080",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                  "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "0ba8c0d459b76abc0825294f565e24f4f169d4a4819d0692d371522d297724b8",
+                      "2399561127a57125de8cefea610ddf2fa078b5c8067f4e828290bfb860e84b3c"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                  "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "a0d609a7e3c434e878a9a1c1bd065b8dcf33aa7efee1b11bc75cce5e5a042080",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                  "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "a0d609a7e3c434e878a9a1c1bd065b8dcf33aa7efee1b11bc75cce5e5a042080",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                  "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 1024925052,
+                  "added_to_ct_at": "2025-11-20T01:09:59Z",
+                  "ct_to_censys_at": "2025-11-20T03:11:44Z"
+                },
+                "google_argon_2026_h2": {
+                  "index": 191683804,
+                  "added_to_ct_at": "2025-11-10T17:43:26Z",
+                  "ct_to_censys_at": "2025-11-10T17:48:50Z"
+                },
+                "google_xenon_2026_h2": {
+                  "index": 145895802,
+                  "added_to_ct_at": "2025-11-10T17:43:26Z",
+                  "ct_to_censys_at": "2025-11-10T17:52:29Z"
+                },
+                "letsencrypt_ct_oak_2026_h2": {
+                  "index": 118841595,
+                  "added_to_ct_at": "2025-11-10T18:49:25Z",
+                  "ct_to_censys_at": "2025-11-10T18:59:11Z"
+                },
+                "letsencrypt_ct_sycamore_2026_h2": {
+                  "index": 23058590,
+                  "added_to_ct_at": "2025-11-10T18:49:25Z",
+                  "ct_to_censys_at": "2025-12-12T18:27:22Z"
+                },
+                "letsencrypt_ct_willow_2026_h2": {
+                  "index": 23055421,
+                  "added_to_ct_at": "2025-11-10T18:49:25Z",
+                  "ct_to_censys_at": "2025-12-12T20:09:50Z"
+                },
+                "sectigo_elephant_2026_h2": {
+                  "index": 84095127,
+                  "added_to_ct_at": "2025-11-10T17:43:27Z",
+                  "ct_to_censys_at": "2025-11-10T17:56:16Z"
+                },
+                "sectigo_tiger_2026_h2": {
+                  "index": 81345076,
+                  "added_to_ct_at": "2025-11-10T17:43:27Z",
+                  "ct_to_censys_at": "2025-11-10T17:56:41Z"
+                },
+                "trustasia_log_2026_a": {
+                  "index": 96005685,
+                  "added_to_ct_at": "2025-11-18T13:00:21Z",
+                  "ct_to_censys_at": "2025-11-20T20:40:57Z"
+                },
+                "trustasia_log_2026_b": {
+                  "index": 99828461,
+                  "added_to_ct_at": "2025-11-18T13:00:19Z",
+                  "ct_to_censys_at": "2025-11-20T18:10:08Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2025-11-04T16:03:41Z",
+            "modified_at": "2025-12-12T20:09:50Z",
+            "validated_at": "2026-02-13T00:54:36Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "dc0a3ca9784bbf20df05e06c5f98a776ed915341f8894dcd40502bf8872f709d",
+            "parent_spki_subject_fingerprint_sha256": "f737aa26549dce01eb1dc2e8ce19ecb6692f4f439c946f3b7fae0b7abb3d87d7"
+          },
+          "software": [
+            {
+              "type": [
+                "WAF"
+              ],
+              "vendor": "akamai",
+              "product": "app_and_api_protector"
+            },
+            {
+              "vendor": "akamai",
+              "product": "ghost"
+            }
+          ],
+          "labels": [
+            {
+              "value": "WAF"
+            }
+          ],
+          "ip": "184.25.52.209",
+          "scan_time": "2026-02-13T11:52:38Z",
+          "tls": {
+            "fingerprint_sha256": "d40940b8ba61bb9ed9fd2a13e7e1872d5d675ccc0fb226b962b189c3a877b824",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9",
+                "subject_dn": "C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+                "issuer_dn": "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root G2"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "184.25.52.209",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T11:52:38Z",
+              "http": {
+                "uri": "https://184.25.52.209/",
+                "protocol": "HTTP/1.0",
+                "status_code": 400,
+                "status_reason": "Bad Request",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "310"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Expires": {
+                    "headers": [
+                      "Fri, 13 Feb 2026 11:52:36 GMT"
+                    ]
+                  },
+                  "Mime-Version": {
+                    "headers": [
+                      "1.0"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "AkamaiGHost"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<TITLE>Invalid URL</TITLE>"
+                ],
+                "body_size": 310,
+                "body": "<HTML><HEAD>\n<TITLE>Invalid URL</TITLE>\n</HEAD><BODY>\n<H1>Invalid URL</H1>\nThe requested URL \"&#91;no&#32;URL&#93;\", is invalid.<p>\nReference&#32;&#35;9&#46;ac1645f&#46;1770983556&#46;357f7159\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;9&#46;ac1645f&#46;1770983556&#46;357f7159</P>\n</BODY></HTML>\n",
+                "html_title": "Invalid URL",
+                "body_hash_sha256": "cc6ed3229ab624338ad1d82c5d3b0dd19ec769f29c453776856f6bed96f30a7d",
+                "body_hash_sha1": "c8335a73613664072950624057f683dfad44bdca",
+                "supported_versions": [
+                  "HTTP/1.0"
+                ]
+              },
+              "ip": "184.25.52.209"
+            }
+          ]
+        }
+      ],
+      "service_count": 2,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-02-11T13:07:19Z",
+          "names": [
+            "a184-25-52-209.deploy.static.akamaitechnologies.com"
+          ]
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

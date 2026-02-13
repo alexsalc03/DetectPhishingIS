@@ -1,0 +1,686 @@
+{
+  "result": {
+    "resource": {
+      "ip": "151.101.193.6",
+      "location": {
+        "continent": "North America",
+        "country": "United States",
+        "country_code": "US",
+        "city": "San Francisco",
+        "postal_code": "94107",
+        "timezone": "America/Los_Angeles",
+        "province": "California",
+        "coordinates": {
+          "latitude": 37.7621,
+          "longitude": -122.3971
+        }
+      },
+      "autonomous_system": {
+        "asn": 54113,
+        "description": "FASTLY - Fastly, Inc.",
+        "bgp_prefix": "151.101.192.0/22",
+        "name": "FASTLY - Fastly, Inc.",
+        "country_code": "US"
+      },
+      "whois": {
+        "network": {
+          "handle": "SKYCA-3",
+          "name": "Fastly, Inc.",
+          "cidrs": [
+            "151.101.0.0/16"
+          ],
+          "created": "2016-02-01T00:00:00Z",
+          "updated": "2021-12-14T00:00:00Z",
+          "allocation_type": "ALLOCATION"
+        },
+        "organization": {
+          "handle": "SKYCA-3",
+          "name": "Fastly, Inc.",
+          "street": "PO Box 78266",
+          "city": "San Francisco",
+          "state": "CA",
+          "postal_code": "94107",
+          "country": "US",
+          "abuse_contacts": [
+            {
+              "handle": "ABUSE4771-ARIN",
+              "name": "Abuse Account",
+              "email": "abuse@fastly.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "FRA19-ARIN",
+              "name": "Fastly RIR Administrator",
+              "email": "rir-admin@fastly.com"
+            }
+          ],
+          "tech_contacts": [
+            {
+              "handle": "FRA19-ARIN",
+              "name": "Fastly RIR Administrator",
+              "email": "rir-admin@fastly.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "varnish_cache_project",
+              "product": "varnish_cache"
+            }
+          ],
+          "ip": "151.101.193.6",
+          "scan_time": "2026-02-12T21:57:38Z",
+          "endpoints": [
+            {
+              "hostname": "151.101.193.6",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-12T21:57:38Z",
+              "http": {
+                "uri": "http://151.101.193.6/",
+                "protocol": "HTTP/1.1",
+                "status_code": 500,
+                "status_reason": "Domain Not Found",
+                "headers": {
+                  "Accept-Ranges": {
+                    "headers": [
+                      "bytes"
+                    ]
+                  },
+                  "Cache-Control": {
+                    "headers": [
+                      "private, no-cache"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "270"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Retry-After": {
+                    "headers": [
+                      "0"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "Varnish"
+                    ]
+                  },
+                  "Via": {
+                    "headers": [
+                      "1.1 varnish"
+                    ]
+                  },
+                  "X-Served-By": {
+                    "headers": [
+                      "cache-chi-klot8100027-CHI"
+                    ]
+                  },
+                  "content-type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>Fastly error: unknown domain 151.101.193.6</title>"
+                ],
+                "body_size": 270,
+                "body": "\n<html>\n<head>\n<title>Fastly error: unknown domain 151.101.193.6</title>\n</head>\n<body>\n<p>Fastly error: unknown domain: 151.101.193.6. Please check that this domain has been added to a service.</p>\n<p>Details: cache-chi-klot8100027-CHI (151.101.193.6)</p></body></html>",
+                "html_title": "Fastly error: unknown domain 151.101.193.6",
+                "body_hash_sha256": "7cb19c3ccae224d6954dbf723661a41bc6f5a4321ca303cc78c38d9802bca203",
+                "body_hash_sha1": "0f92f7ab7bc470b823c1e45266f9c96cc42343ab",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "151.101.193.6"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "86fe90af9dbbe4211246a33390e1f885111367132a2a89689390379c1e1c1861",
+            "fingerprint_sha1": "3fab53b0650e3596ab197d40bb9f21470682da6d",
+            "fingerprint_md5": "38a7a334ff5d445be999e2a17bb18d1f",
+            "tbs_fingerprint_sha256": "b6fabce6f1f35d3a6f8e4e022296a80d24c404a7de1c25fd85937d1e0bbd1386",
+            "tbs_no_ct_fingerprint_sha256": "033fc831b21308602c3109ac9d71a88de222da055a40b510902aceb950414be7",
+            "spki_fingerprint_sha256": "52d88f9d437c224bfd669adcf7d81f56241381e50f1cdb841f503c80e8f576fd",
+            "parent_spki_fingerprint_sha256": "ee6928f5f683f83f6f6a6d32286d7d85f9bd32b8c3cd8d5cc418a4cd3e0e3dc8",
+            "parsed": {
+              "version": 3,
+              "serial_number": "2024573938384549043751897574020571300",
+              "issuer_dn": "C=BE, O=GlobalSign nv-sa, CN=GlobalSign Atlas R3 DV TLS CA 2025 Q3",
+              "issuer": {
+                "common_name": [
+                  "GlobalSign Atlas R3 DV TLS CA 2025 Q3"
+                ],
+                "country": [
+                  "BE"
+                ],
+                "organization": [
+                  "GlobalSign nv-sa"
+                ]
+              },
+              "subject_dn": "CN=o.ssl-262-default.ssl.fastly.net",
+              "subject": {
+                "common_name": [
+                  "o.ssl-262-default.ssl.fastly.net"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "RSA",
+                  "oid": "1.2.840.113549.1.1.1"
+                },
+                "rsa": {
+                  "exponent": 65537,
+                  "modulus": "b560cd43a7a1295ae19d58c586000994e085e179a441138fab704c059983c75f09dad471d3835b416e926bef4695cde3cae7f74cf0afd9eb25db43951b814cefc1a128374cae59dbd1d693a60dd42652de13675448024618fbf2fd34ef03bb72d863f0f033e028d50623105c27a1e8b48df43b5cb390b05c0b80fcb73a0295859aa5f9c33106247444b5ebdf6c3c515aa2f4c4d4b23890ea7d5ed09656e29400e0a031f92556cc669ea02d563af832f5d7c0c30cbd6730f0215a5d3ada615c3324e235f284036a9ff09167bb6874cd2448695d8dd813312887580210281ca09ff65f2d530a9b3c4f3b8dd184bd58f159b158267fae4b546bc4a60171bff2a4cb",
+                  "length": 2048
+                },
+                "fingerprint_sha256": "b439c37ab75e5c8f5a3872e87d5041070aeef4dcaf87df3aa7d7885ca811c65f"
+              },
+              "validity_period": {
+                "not_before": "2025-09-17T05:11:35Z",
+                "not_after": "2026-10-19T05:11:34Z",
+                "length_seconds": 34300800
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "SHA256-RSA",
+                  "oid": "1.2.840.113549.1.1.11"
+                },
+                "value": "20d807dedd97c0d6caa191ae0dca26b7f7fa9fac20a62147ca677ef0addef38813696cf41de4382ee6894304a35b24bb26c69eca8098acd627237d0a6f698c05ecf571f1340b823ade9757c837374c358d66b470c5139d257f2ff5039997bd093578676ad27d8d0d16cfdd0f88a8c9e12ef4642016b08b5426a2e8d47219b2e9335189f7ca4b97b7ddaac56736e1d73146f6538cdf02181b4ceb13811fb7cf070bdc52010501061dab73cf472bd4ffa683813c7ec17b9b8ccc08483ac0fc098d5af85c34ca194b1192015d0ea213d08fe9b32a207be8563d37855ab44baec7b75734b5b96817f1dec9629710915061fb2786beb564ddde8ba24a3c128bc38ce7",
+                "valid": true
+              },
+              "serial_number_hex": "0185eb33acefd3b56d49305c79e560a4"
+            },
+            "names": [
+              "o.ssl-262-default.ssl.fastly.net"
+            ],
+            "validation_level": "dv",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "5539f8c9010518345fc21a85f25b39dd6ad8d591c7971cbb900c2cb7081bbf90",
+                      "cbb522d7b7f127ad6a0113865bdf1cd4102e7d0759af635a7cf4720dc963c53b"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "5539f8c9010518345fc21a85f25b39dd6ad8d591c7971cbb900c2cb7081bbf90",
+                      "445eec78bc61215044a0379656aa2d5db5e42f76cb70b8d14c2077aa943d4ebb",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "5539f8c9010518345fc21a85f25b39dd6ad8d591c7971cbb900c2cb7081bbf90",
+                      "c94fedda4e8608908580bc7f87b434e03bb262e42f64c63820a8f50fb17c1cec",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "5539f8c9010518345fc21a85f25b39dd6ad8d591c7971cbb900c2cb7081bbf90"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "5539f8c9010518345fc21a85f25b39dd6ad8d591c7971cbb900c2cb7081bbf90",
+                      "cbb522d7b7f127ad6a0113865bdf1cd4102e7d0759af635a7cf4720dc963c53b"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "5539f8c9010518345fc21a85f25b39dd6ad8d591c7971cbb900c2cb7081bbf90",
+                      "445eec78bc61215044a0379656aa2d5db5e42f76cb70b8d14c2077aa943d4ebb",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "5539f8c9010518345fc21a85f25b39dd6ad8d591c7971cbb900c2cb7081bbf90",
+                      "c94fedda4e8608908580bc7f87b434e03bb262e42f64c63820a8f50fb17c1cec",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "5539f8c9010518345fc21a85f25b39dd6ad8d591c7971cbb900c2cb7081bbf90"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "5539f8c9010518345fc21a85f25b39dd6ad8d591c7971cbb900c2cb7081bbf90",
+                      "cbb522d7b7f127ad6a0113865bdf1cd4102e7d0759af635a7cf4720dc963c53b"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "5539f8c9010518345fc21a85f25b39dd6ad8d591c7971cbb900c2cb7081bbf90",
+                      "445eec78bc61215044a0379656aa2d5db5e42f76cb70b8d14c2077aa943d4ebb",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "5539f8c9010518345fc21a85f25b39dd6ad8d591c7971cbb900c2cb7081bbf90",
+                      "c94fedda4e8608908580bc7f87b434e03bb262e42f64c63820a8f50fb17c1cec",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "5539f8c9010518345fc21a85f25b39dd6ad8d591c7971cbb900c2cb7081bbf90"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "5539f8c9010518345fc21a85f25b39dd6ad8d591c7971cbb900c2cb7081bbf90",
+                      "cbb522d7b7f127ad6a0113865bdf1cd4102e7d0759af635a7cf4720dc963c53b"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "5539f8c9010518345fc21a85f25b39dd6ad8d591c7971cbb900c2cb7081bbf90"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 529787484,
+                  "added_to_ct_at": "2025-09-17T05:13:36Z",
+                  "ct_to_censys_at": "2025-09-17T06:07:38Z"
+                },
+                "comodo_mammoth_2026_h2": {
+                  "index": 56690451,
+                  "added_to_ct_at": "2025-09-17T05:13:37Z",
+                  "ct_to_censys_at": "2025-09-17T05:24:14Z"
+                },
+                "comodo_sabre_2026_h2": {
+                  "index": 67726372,
+                  "added_to_ct_at": "2025-09-17T05:13:37Z",
+                  "ct_to_censys_at": "2025-09-17T05:20:40Z"
+                },
+                "google_argon_2026_h2": {
+                  "index": 138095489,
+                  "added_to_ct_at": "2025-09-17T05:13:34Z",
+                  "ct_to_censys_at": "2025-09-17T05:16:40Z"
+                },
+                "google_xenon_2026_h2": {
+                  "index": 104900066,
+                  "added_to_ct_at": "2025-09-17T05:13:34Z",
+                  "ct_to_censys_at": "2025-09-17T05:20:07Z"
+                },
+                "letsencrypt_ct_oak_2026_h2": {
+                  "index": 85457358,
+                  "added_to_ct_at": "2025-09-17T05:13:38Z",
+                  "ct_to_censys_at": "2025-09-17T05:22:15Z"
+                },
+                "letsencrypt_ct_sycamore_2026_h2": {
+                  "index": 3206094,
+                  "added_to_ct_at": "2025-09-17T07:00:19Z",
+                  "ct_to_censys_at": "2025-12-12T15:18:18Z"
+                },
+                "letsencrypt_ct_willow_2026_h2": {
+                  "index": 3207363,
+                  "added_to_ct_at": "2025-09-17T07:00:19Z",
+                  "ct_to_censys_at": "2025-12-12T15:35:50Z"
+                },
+                "sectigo_elephant_2026_h2": {
+                  "index": 54510876,
+                  "added_to_ct_at": "2025-09-17T05:13:37Z",
+                  "ct_to_censys_at": "2025-09-17T05:27:49Z"
+                },
+                "sectigo_tiger_2026_h2": {
+                  "index": 54479066,
+                  "added_to_ct_at": "2025-09-17T05:13:37Z",
+                  "ct_to_censys_at": "2025-09-17T05:20:16Z"
+                },
+                "trustasia_log_2026_a": {
+                  "index": 49171026,
+                  "added_to_ct_at": "2025-09-17T07:00:24Z",
+                  "ct_to_censys_at": "2025-09-17T07:13:11Z"
+                },
+                "trustasia_log_2026_b": {
+                  "index": 55318121,
+                  "added_to_ct_at": "2025-09-17T07:00:23Z",
+                  "ct_to_censys_at": "2025-09-17T07:04:36Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2025-09-17T05:16:33Z",
+            "modified_at": "2025-12-12T15:39:59Z",
+            "validated_at": "2026-02-13T03:18:21Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "52d88f9d437c224bfd669adcf7d81f56241381e50f1cdb841f503c80e8f576fd",
+            "parent_spki_subject_fingerprint_sha256": "ee6928f5f683f83f6f6a6d32286d7d85f9bd32b8c3cd8d5cc418a4cd3e0e3dc8"
+          },
+          "ip": "151.101.193.6",
+          "scan_time": "2026-02-12T18:56:21Z",
+          "tls": {
+            "fingerprint_sha256": "86fe90af9dbbe4211246a33390e1f885111367132a2a89689390379c1e1c1861",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "5539f8c9010518345fc21a85f25b39dd6ad8d591c7971cbb900c2cb7081bbf90",
+                "subject_dn": "C=BE, O=GlobalSign nv-sa, CN=GlobalSign Atlas R3 DV TLS CA 2025 Q3",
+                "issuer_dn": "OU=GlobalSign Root CA - R3, O=GlobalSign, CN=GlobalSign"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "151.101.193.6",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-12T18:56:21Z",
+              "http": {
+                "uri": "https://151.101.193.6/",
+                "protocol": "HTTP/1.1",
+                "status_code": 421,
+                "status_reason": "Misdirected Request",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "291"
+                    ]
+                  },
+                  "content-type": {
+                    "headers": [
+                      "text/plain; charset=utf-8"
+                    ]
+                  },
+                  "x-served-by": {
+                    "headers": [
+                      "cache-chi-klot8100075"
+                    ]
+                  }
+                },
+                "body_size": 291,
+                "body": "Requested host does not match any Subject Alternative Names (SANs) on TLS certificate [52a047c0286cccb553c60e542171b14afdbf93280bfa220182a94cf4e88f5942] in use with this connection.\r\n\r\nVisit https://www.fastly.com/documentation/guides/concepts/errors/#routing-errors for more information.\r\n\r",
+                "body_hash_sha256": "ee25fe4e838153c09d5a413d3965495195dcfff2e714f7c1f7c3b48ce00af0b1",
+                "body_hash_sha1": "1a5b6ec5f3e987cb36adb36933dc233dbaed99bd",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "151.101.193.6"
+            }
+          ]
+        }
+      ],
+      "service_count": 2,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-02-07T15:04:15Z"
+        },
+        "names": [
+          "clairol-professional.com",
+          "armbsd.org",
+          "govx.io",
+          "b1.awin1.com",
+          "site.pfm.ebisubook.com",
+          "o.ssl.global.fastly.net",
+          "image.maxpreps.io",
+          "branch-g.fe.maxpreps.com",
+          "sensors-data.charitywater.org",
+          "mail.lamborghinifragranza.com",
+          "site.pfm.moneyforward.com",
+          "branch-d.fe.maxpreps.com",
+          "man.netbsd.org",
+          "www.netbsd.org",
+          "wellaprofessional.lu",
+          "o.global-ssl.fastly.net",
+          "branch-f.fe.maxpreps.com",
+          "www.maxpreps.com",
+          "www.fastly.net",
+          "stag.api.maxpreps.com",
+          "sebastianprofessional.co.za",
+          "branch-b.fe.maxpreps.com",
+          "bobainfo7.dns-dynamic.net",
+          "nfhsnetwork-image.maxpreps.io",
+          "www.xtractresearch.com",
+          "mardokh.site",
+          "asset.maxpreps.io",
+          "branch-c.fe.maxpreps.com",
+          "branch-a.fe.maxpreps.com",
+          "branch-e.fe.maxpreps.com",
+          "www.netbsd.foundation",
+          "tag.brainient.com"
+        ],
+        "forward_dns": {
+          "armbsd.org": {
+            "resolve_time": "2026-02-11T17:12:38Z",
+            "name": "armbsd.org",
+            "record_type": "a"
+          },
+          "asset.maxpreps.io": {
+            "resolve_time": "2026-01-14T14:46:28Z",
+            "name": "asset.maxpreps.io",
+            "record_type": "a"
+          },
+          "b1.awin1.com": {
+            "resolve_time": "2026-02-10T20:55:25Z",
+            "name": "b1.awin1.com",
+            "record_type": "a"
+          },
+          "bobainfo7.dns-dynamic.net": {
+            "resolve_time": "2026-01-27T13:31:58Z",
+            "name": "bobainfo7.dns-dynamic.net",
+            "record_type": "a"
+          },
+          "branch-a.fe.maxpreps.com": {
+            "resolve_time": "2026-01-11T19:43:32Z",
+            "name": "branch-a.fe.maxpreps.com",
+            "record_type": "a"
+          },
+          "branch-b.fe.maxpreps.com": {
+            "resolve_time": "2026-01-27T19:53:48Z",
+            "name": "branch-b.fe.maxpreps.com",
+            "record_type": "a"
+          },
+          "branch-c.fe.maxpreps.com": {
+            "resolve_time": "2026-01-12T19:32:26Z",
+            "name": "branch-c.fe.maxpreps.com",
+            "record_type": "a"
+          },
+          "branch-d.fe.maxpreps.com": {
+            "resolve_time": "2026-02-06T16:47:26Z",
+            "name": "branch-d.fe.maxpreps.com",
+            "record_type": "a"
+          },
+          "branch-e.fe.maxpreps.com": {
+            "resolve_time": "2026-01-07T21:26:43Z",
+            "name": "branch-e.fe.maxpreps.com",
+            "record_type": "a"
+          },
+          "branch-f.fe.maxpreps.com": {
+            "resolve_time": "2026-01-29T13:44:04Z",
+            "name": "branch-f.fe.maxpreps.com",
+            "record_type": "a"
+          },
+          "branch-g.fe.maxpreps.com": {
+            "resolve_time": "2026-02-08T20:20:46Z",
+            "name": "branch-g.fe.maxpreps.com",
+            "record_type": "a"
+          },
+          "clairol-professional.com": {
+            "resolve_time": "2026-02-11T18:07:47Z",
+            "name": "clairol-professional.com",
+            "record_type": "a"
+          },
+          "govx.io": {
+            "resolve_time": "2026-02-11T12:50:39Z",
+            "name": "govx.io",
+            "record_type": "a"
+          },
+          "image.maxpreps.io": {
+            "resolve_time": "2026-02-08T20:43:11Z",
+            "name": "image.maxpreps.io",
+            "record_type": "a"
+          },
+          "mail.lamborghinifragranza.com": {
+            "resolve_time": "2026-02-08T17:23:13Z",
+            "name": "mail.lamborghinifragranza.com",
+            "record_type": "a"
+          },
+          "man.netbsd.org": {
+            "resolve_time": "2026-02-06T12:13:44Z",
+            "name": "man.netbsd.org",
+            "record_type": "a"
+          },
+          "mardokh.site": {
+            "resolve_time": "2026-01-14T20:36:36Z",
+            "name": "mardokh.site",
+            "record_type": "a"
+          },
+          "nfhsnetwork-image.maxpreps.io": {
+            "resolve_time": "2026-01-24T16:59:54Z",
+            "name": "nfhsnetwork-image.maxpreps.io",
+            "record_type": "a"
+          },
+          "o.global-ssl.fastly.net": {
+            "resolve_time": "2026-01-29T15:45:07Z",
+            "name": "o.global-ssl.fastly.net",
+            "record_type": "a"
+          },
+          "o.ssl.global.fastly.net": {
+            "resolve_time": "2026-02-10T18:25:32Z",
+            "name": "o.ssl.global.fastly.net",
+            "record_type": "a"
+          },
+          "sebastianprofessional.co.za": {
+            "resolve_time": "2026-01-27T20:08:27Z",
+            "name": "sebastianprofessional.co.za",
+            "record_type": "a"
+          },
+          "sensors-data.charitywater.org": {
+            "resolve_time": "2026-02-08T18:34:59Z",
+            "name": "sensors-data.charitywater.org",
+            "record_type": "a"
+          },
+          "site.pfm.ebisubook.com": {
+            "resolve_time": "2026-02-10T18:43:55Z",
+            "name": "site.pfm.ebisubook.com",
+            "record_type": "a"
+          },
+          "site.pfm.moneyforward.com": {
+            "resolve_time": "2026-02-08T14:55:39Z",
+            "name": "site.pfm.moneyforward.com",
+            "record_type": "a"
+          },
+          "stag.api.maxpreps.com": {
+            "resolve_time": "2026-01-28T13:22:40Z",
+            "name": "stag.api.maxpreps.com",
+            "record_type": "a"
+          },
+          "tag.brainient.com": {
+            "resolve_time": "2026-01-05T13:20:31Z",
+            "name": "tag.brainient.com",
+            "record_type": "a"
+          },
+          "wellaprofessional.lu": {
+            "resolve_time": "2026-01-31T12:09:11Z",
+            "name": "wellaprofessional.lu",
+            "record_type": "a"
+          },
+          "www.fastly.net": {
+            "resolve_time": "2026-01-28T16:31:00Z",
+            "name": "www.fastly.net",
+            "record_type": "a"
+          },
+          "www.maxpreps.com": {
+            "resolve_time": "2026-01-29T13:44:04Z",
+            "name": "www.maxpreps.com",
+            "record_type": "a"
+          },
+          "www.netbsd.foundation": {
+            "resolve_time": "2026-01-05T15:21:23Z",
+            "name": "www.netbsd.foundation",
+            "record_type": "a"
+          },
+          "www.netbsd.org": {
+            "resolve_time": "2026-02-02T12:50:43Z",
+            "name": "www.netbsd.org",
+            "record_type": "a"
+          },
+          "www.xtractresearch.com": {
+            "resolve_time": "2026-01-15T20:50:22Z",
+            "name": "www.xtractresearch.com",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

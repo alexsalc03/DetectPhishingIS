@@ -1,0 +1,814 @@
+{
+  "result": {
+    "resource": {
+      "ip": "204.93.207.22",
+      "location": {
+        "continent": "North America",
+        "country": "United States",
+        "country_code": "US",
+        "city": "Chicago",
+        "postal_code": "60602",
+        "timezone": "America/Chicago",
+        "province": "Illinois",
+        "coordinates": {
+          "latitude": 41.85003,
+          "longitude": -87.65005
+        }
+      },
+      "autonomous_system": {
+        "asn": 23352,
+        "description": "SERVERCENTRAL - DEFT.COM",
+        "bgp_prefix": "204.93.192.0/19",
+        "name": "SERVERCENTRAL - DEFT.COM",
+        "country_code": "US"
+      },
+      "whois": {
+        "network": {
+          "handle": "SCN-6",
+          "name": "DEFT.COM",
+          "cidrs": [
+            "204.93.128.0/17"
+          ],
+          "created": "2009-06-12T00:00:00Z",
+          "updated": "2024-11-15T00:00:00Z",
+          "allocation_type": "ALLOCATION"
+        },
+        "organization": {
+          "handle": "SL-2063",
+          "name": "DEFT.COM",
+          "street": "2200 Busse RD",
+          "city": "Elk Grove Village",
+          "state": "IL",
+          "postal_code": "60007",
+          "country": "US",
+          "abuse_contacts": [
+            {
+              "handle": "ABUSE1669-ARIN",
+              "name": "Abuse Department",
+              "email": "abuse@deft.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "NETWO1779-ARIN",
+              "name": "Network Operations",
+              "email": "support@deft.com"
+            }
+          ],
+          "tech_contacts": [
+            {
+              "handle": "NETWO1779-ARIN",
+              "name": "Network Operations",
+              "email": "support@deft.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 21,
+          "protocol": "FTP",
+          "transport_protocol": "tcp",
+          "ip": "204.93.207.22",
+          "scan_time": "2026-02-12T20:54:45Z",
+          "ftp": {
+            "auth_tls_response": "530 Please login with USER and PASS.\r\n",
+            "auth_ssl_response": "530 Please login with USER and PASS.\r\n",
+            "status_code": 220,
+            "status_meaning": "Service ready for new user."
+          }
+        },
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "ip": "204.93.207.22",
+          "scan_time": "2026-02-13T14:52:52Z",
+          "endpoints": [
+            {
+              "hostname": "204.93.207.22",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T14:52:52Z",
+              "http": {
+                "uri": "http://204.93.207.22/",
+                "protocol": "HTTP/1.0",
+                "status_code": 503,
+                "status_reason": "Service Unavailable",
+                "headers": {
+                  "Cache-Control": {
+                    "headers": [
+                      "no-cache"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  }
+                },
+                "body_size": 107,
+                "body": "<html><body><h1>503 Service Unavailable</h1>\nNo server is available to handle this request.\n</body></html>\n",
+                "body_hash_sha256": "839488ebc08446a096a893996ed23eac321ac166724cd8c5d9092057834d2d79",
+                "body_hash_sha1": "6fbe9df856956467c1691558796c86fc392ed5b6",
+                "supported_versions": [
+                  "HTTP/1.0"
+                ]
+              },
+              "ip": "204.93.207.22"
+            }
+          ]
+        },
+        {
+          "port": 113,
+          "protocol": "UNKNOWN",
+          "transport_protocol": "tcp",
+          "ip": "204.93.207.22",
+          "scan_time": "2026-02-13T00:54:18Z"
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "54574491da4a8deece39c3316ee1ce73d33f333911a30fa9835d8da779e1d4d8",
+            "fingerprint_sha1": "4ae1e37be2a063996dea2b857ace0e794f5cd5e9",
+            "fingerprint_md5": "17c5be64b54bdc006a6b18cdd5302dca",
+            "tbs_fingerprint_sha256": "819ab0cf1a13e86a7930a3cd3c774b6a68511818307c21bd8349e421b5b893b3",
+            "tbs_no_ct_fingerprint_sha256": "a77ad56dcea3a66838fb88ed6189cfa4bcc8c58f8686b0503708b63884a2d865",
+            "spki_fingerprint_sha256": "5d14fb41467612ba9d4a3833058827487246910618a60188a566381ff8ad063a",
+            "parent_spki_fingerprint_sha256": "c371ff3999e48d7f12047d728aa0d949d8057e1c43eceff673426a8b9b7ff278",
+            "parsed": {
+              "version": 3,
+              "serial_number": "609333685762093170489502144676977619890702",
+              "issuer_dn": "C=US, O=Let's Encrypt, CN=R13",
+              "issuer": {
+                "common_name": [
+                  "R13"
+                ],
+                "country": [
+                  "US"
+                ],
+                "organization": [
+                  "Let's Encrypt"
+                ]
+              },
+              "subject_dn": "CN=archive.ntp.org",
+              "subject": {
+                "common_name": [
+                  "archive.ntp.org"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "RSA",
+                  "oid": "1.2.840.113549.1.1.1"
+                },
+                "rsa": {
+                  "exponent": 65537,
+                  "modulus": "d7227788abbc705f317c3455ef9ffa7c1ea79472561abe838f3ddf29b8fa18baf84e60f8e4fd2b4ec2a0cc1e4ea587d2e353e2fedc55506eec902eec246d9b953235f30755e077ad39e56d9ef934075abb8b059567f2ff722c5c6d80bc1386d898ecc06dee3d83e13c3eb6820b023833d2aa4676e07a9f441278885d0dac2b513d88842e5bc6e6fc9dea071a07332e5100df7f7f7453a6414001a142fa6912c597f138a1484d8b9d672e0008a11ff6745c59e548d8199047dd7fe01e90cac183b4443112422513c9f347b294e071b5d4d4649c7c8f06644abe552bfcc5061e9b59cc86cfe9fd5ac205127c55ffd2d997a23001bdbcf8512f3188cd9aa5b1d9ab",
+                  "length": 2048
+                },
+                "fingerprint_sha256": "becddfad938a16405bb0cac0ea885c66e1fcf28805052f9db6194f9edbb2c182"
+              },
+              "validity_period": {
+                "not_before": "2025-12-18T05:02:49Z",
+                "not_after": "2026-03-18T05:02:48Z",
+                "length_seconds": 7776000
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "SHA256-RSA",
+                  "oid": "1.2.840.113549.1.1.11"
+                },
+                "value": "01be09e9bc45465cbf40d3aef121fa56db5152a7e5ec8211e9df5d87f681fc66fd6b1b7ce09bb44a05b6dae5d49faac08f9f86c23d8ae250bfb5207de41074acc9fd1db384396ac055e5e84cbae47e6fba0dfbecbbf3b00a953e47e6090d6bc6279d8f2ee713314f776d8a63d146c6e7d1c9880c5a03ac1d4c62463eb5490d0d8d0e188cdf8748c36a4756919287acd35bda71274b6b1c9a7fcbf4254fc885fd726122e410d25b0f145e13311da658d80a30c89176f3a0f1fed3901efbf989df9a0400ed08201f787b15bcd1b31436618c8e9a1734d2ad2ee8ca7daf432b5ce6acfaa5330c24868d847cdfec6ce9387f407aaf1f4943084d5b02e761c0101502",
+                "valid": true
+              },
+              "serial_number_hex": "06feabb7273f0bc29fd63bd5517401edf20e"
+            },
+            "names": [
+              "archive.ntp.org"
+            ],
+            "validation_level": "dv",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "d3b128216a843f8ef1321501f5df52a5df52939ee2c19297712cd3de4d419354",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "d3b128216a843f8ef1321501f5df52a5df52939ee2c19297712cd3de4d419354"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "d3b128216a843f8ef1321501f5df52a5df52939ee2c19297712cd3de4d419354",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "d3b128216a843f8ef1321501f5df52a5df52939ee2c19297712cd3de4d419354"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "d3b128216a843f8ef1321501f5df52a5df52939ee2c19297712cd3de4d419354",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "d3b128216a843f8ef1321501f5df52a5df52939ee2c19297712cd3de4d419354"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "d3b128216a843f8ef1321501f5df52a5df52939ee2c19297712cd3de4d419354",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "d3b128216a843f8ef1321501f5df52a5df52939ee2c19297712cd3de4d419354"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {},
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "google_argon_2026_h1": {
+                  "index": 1371407368,
+                  "added_to_ct_at": "2025-12-18T06:01:21Z",
+                  "ct_to_censys_at": "2025-12-18T06:07:07Z"
+                },
+                "google_xenon_2026_h1": {
+                  "index": 1307954114,
+                  "added_to_ct_at": "2025-12-18T06:01:21Z",
+                  "ct_to_censys_at": "2025-12-18T06:08:11Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2025-12-18T06:07:07Z",
+            "modified_at": "2025-12-18T11:14:09Z",
+            "validated_at": "2026-02-12T23:01:38Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "5d14fb41467612ba9d4a3833058827487246910618a60188a566381ff8ad063a",
+            "parent_spki_subject_fingerprint_sha256": "c371ff3999e48d7f12047d728aa0d949d8057e1c43eceff673426a8b9b7ff278"
+          },
+          "ip": "204.93.207.22",
+          "scan_time": "2026-02-12T17:45:07Z",
+          "tls": {
+            "fingerprint_sha256": "54574491da4a8deece39c3316ee1ce73d33f333911a30fa9835d8da779e1d4d8",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "d3b128216a843f8ef1321501f5df52a5df52939ee2c19297712cd3de4d419354",
+                "subject_dn": "C=US, O=Let's Encrypt, CN=R13",
+                "issuer_dn": "C=US, O=Internet Security Research Group, CN=ISRG Root X1"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "204.93.207.22",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-12T17:45:07Z",
+              "http": {
+                "uri": "https://204.93.207.22/",
+                "protocol": "HTTP/1.0",
+                "status_code": 503,
+                "status_reason": "Service Unavailable",
+                "headers": {
+                  "Cache-Control": {
+                    "headers": [
+                      "no-cache"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  }
+                },
+                "body_size": 107,
+                "body": "<html><body><h1>503 Service Unavailable</h1>\nNo server is available to handle this request.\n</body></html>\n",
+                "body_hash_sha256": "839488ebc08446a096a893996ed23eac321ac166724cd8c5d9092057834d2d79",
+                "body_hash_sha1": "6fbe9df856956467c1691558796c86fc392ed5b6",
+                "supported_versions": [
+                  "HTTP/1.0"
+                ]
+              },
+              "ip": "204.93.207.22"
+            }
+          ]
+        },
+        {
+          "port": 14690,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "ip": "204.93.207.22",
+          "scan_time": "2026-02-13T01:05:49Z",
+          "endpoints": [
+            {
+              "hostname": "204.93.207.22",
+              "port": 14690,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T01:05:32Z",
+              "http": {
+                "uri": "http://204.93.207.22:14690/",
+                "protocol": "HTTP/1.0",
+                "status_code": 200,
+                "status_reason": "OK",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Expires": {
+                    "headers": [
+                      "Fri, 13 Feb 2026 01:06:32 UTC"
+                    ]
+                  },
+                  "Last-Modified": {
+                    "headers": [
+                      "Fri, 13 Feb 2026 01:05:32 UTC"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "bkhttp/0.6"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>Repos</title>",
+                  "<meta name='viewport' content='width=device-width'>",
+                  "<meta name='viewport' content='initial-scale=1.0'>"
+                ],
+                "body_size": 1581,
+                "body": "<html><head>\n<title>Repos</title>\n<script type=\"text/javascript\" src=/BitKeeper/www/sorttable.js></script>\n<script type=\"text/javascript\" src=/BitKeeper/www/markdown.min.js></script>\n<meta name='viewport' content='width=device-width'>\n<meta name='viewport' content='initial-scale=1.0'>\n<link rel='stylesheet' href='/BitKeeper/www/css/bootstrap.min.css' />\n<link rel='stylesheet' href='/BitKeeper/www/css/bk.css' />\n</head>\n<body class='container-fluid'>\n<ol class='breadcrumb'>\n<li class='crumb'><a href='/'>TOP</a></li><li class='crumb'>Repos</li></ol>\n<div class='row page-title'>\n<div class='col-xs-12'>\n/repobk/data/repos\n</div>\n</div>\n<div id='repos-view' class='view'>\n<table class='table table-bordered table-condensed table-striped sortable'><tr>\n  <th class='icon'></th>\n  <th>Repository or Folder</th>\n  <th data-sort='date'>Age</th>\n</tr>\n<tr class='repo'>\n<td class='icon'><a href='ntp-dev/'><img src='/BitKeeper/www/folder_delta.png'></a></td><td><a href='ntp-dev/'>ntp-dev</a></td>\n<td>14&nbsp;months</td></tr><tr class='repo'>\n<td class='icon'><a href='ntp-dev-bk4/'><img src='/BitKeeper/www/folder_delta.png'></a></td><td><a href='ntp-dev-bk4/'>ntp-dev-bk4</a></td>\n<td>33&nbsp;months</td></tr><tr class='repo'>\n<td class='icon'><a href='ntp-stable/'><img src='/BitKeeper/www/folder_delta.png'></a></td><td><a href='ntp-stable/'>ntp-stable</a></td>\n<td>14&nbsp;months</td></tr></table>\n\n</div>\n<div class='row footer'>\n<div class='col-xs-12 text-center'>\n<hr/>\n<a href='http://www.bitkeeper.com'>\n<img src='/BitKeeper/www/trailer.gif'>\n</div>\n</div>\n</body></html>\n",
+                "html_title": "Repos",
+                "body_hash_sha256": "2ffd3db14cb55b2978b1bf5909db03b9e165d75f0fe0d47b7045cda4648f1e67",
+                "body_hash_sha1": "2f8875b11accaf6482182f183987b852c79a6fdb",
+                "supported_versions": [
+                  "HTTP/1.0"
+                ]
+              },
+              "ip": "204.93.207.22"
+            },
+            {
+              "hostname": "204.93.207.22",
+              "port": 14690,
+              "path": "/robots.txt",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T01:05:49Z",
+              "http": {
+                "uri": "http://204.93.207.22:14690/robots.txt",
+                "protocol": "HTTP/1.0",
+                "status_code": 200,
+                "status_reason": "OK",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/plain"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Expires": {
+                    "headers": [
+                      "Fri, 13 Feb 2026 01:07:05 UTC"
+                    ]
+                  },
+                  "Last-Modified": {
+                    "headers": [
+                      "Fri, 13 Feb 2026 01:06:05 UTC"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "bkhttp/0.6"
+                    ]
+                  }
+                },
+                "body_size": 26,
+                "body": "User-agent: *\nDisallow: /\n",
+                "body_hash_sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
+                "body_hash_sha1": "63657cbb7d7086c56b0cd4e5c6999bb683664868",
+                "supported_versions": [
+                  "HTTP/1.0"
+                ]
+              },
+              "ip": "204.93.207.22"
+            }
+          ]
+        }
+      ],
+      "service_count": 5,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-02-11T23:14:57Z",
+          "names": [
+            "slb0.chi1.ntfo.org"
+          ]
+        },
+        "names": [
+          "qqq.linuxptp.org",
+          "linuxptp.org",
+          "git.nwtime.org",
+          "archives.nwtime.org",
+          "rt.ntfo.org",
+          "rt.nwtime.org",
+          "lists.nwtime.org",
+          "ic.ptp1588.org",
+          "linuxptp.nwtime.org",
+          "downloads.nwtime.org",
+          "jira-sandbox.ntfo.org",
+          "www.ntp.org",
+          "archive.ntp.org",
+          "www.ntfo.org",
+          "networktimefoundation.org",
+          "wiki.ptp1588.org",
+          "libptpmgmt.nwtime.org",
+          "jira-sandbox.nwtime.org",
+          "bugs0.ntp.org",
+          "bk2.ntp.org",
+          "bk.ntp.org",
+          "archive.nwtime.org",
+          "qqq.bitbucket.nwtime.org",
+          "people.chi1.ntfo.org",
+          "www.networktimefoundation.org",
+          "www.linuxptp.org",
+          "khronos.nwtime.org",
+          "nwtime.org",
+          "lists.ntfo.org",
+          "people.nwtime.org",
+          "c3.nwtime.org",
+          "ic.nwtime.org",
+          "sync-e.nwtime.org",
+          "doc.ntp.org",
+          "wiki.nwtime.org",
+          "ntfo.org",
+          "support.ntp.org",
+          "c2.nwtime.org",
+          "bitbucket.nwtime.org",
+          "ftp.nwtime.org",
+          "slb0.chi1.ntfo.org",
+          "wiki.networktimefoundation.org",
+          "ntp.org",
+          "new.ic.nwtime.org",
+          "www.ptp1588.org",
+          "download.nwtime.org",
+          "old.bugs.ntp.org",
+          "ic.networktimefoundation.org",
+          "c1.nwtime.org",
+          "jira.ntfo.org",
+          "bugs.ntp.org",
+          "bitbucket.networktimefoundation.org",
+          "people.ntp.org"
+        ],
+        "forward_dns": {
+          "archive.ntp.org": {
+            "resolve_time": "2026-02-08T20:20:49Z",
+            "name": "archive.ntp.org",
+            "record_type": "a"
+          },
+          "archive.nwtime.org": {
+            "resolve_time": "2026-02-06T13:37:43Z",
+            "name": "archive.nwtime.org",
+            "record_type": "a"
+          },
+          "archives.nwtime.org": {
+            "resolve_time": "2026-02-11T15:26:34Z",
+            "name": "archives.nwtime.org",
+            "record_type": "a"
+          },
+          "bitbucket.networktimefoundation.org": {
+            "resolve_time": "2026-01-07T14:11:29Z",
+            "name": "bitbucket.networktimefoundation.org",
+            "record_type": "a"
+          },
+          "bitbucket.nwtime.org": {
+            "resolve_time": "2026-01-27T16:13:47Z",
+            "name": "bitbucket.nwtime.org",
+            "record_type": "a"
+          },
+          "bk.ntp.org": {
+            "resolve_time": "2026-02-07T18:10:25Z",
+            "name": "bk.ntp.org",
+            "record_type": "a"
+          },
+          "bk2.ntp.org": {
+            "resolve_time": "2026-02-07T18:10:25Z",
+            "name": "bk2.ntp.org",
+            "record_type": "a"
+          },
+          "bugs.ntp.org": {
+            "resolve_time": "2026-01-08T14:33:53Z",
+            "name": "bugs.ntp.org",
+            "record_type": "a"
+          },
+          "bugs0.ntp.org": {
+            "resolve_time": "2026-02-07T18:10:25Z",
+            "name": "bugs0.ntp.org",
+            "record_type": "a"
+          },
+          "c1.nwtime.org": {
+            "resolve_time": "2026-01-10T14:09:59Z",
+            "name": "c1.nwtime.org",
+            "record_type": "a"
+          },
+          "c2.nwtime.org": {
+            "resolve_time": "2026-01-27T16:13:48Z",
+            "name": "c2.nwtime.org",
+            "record_type": "a"
+          },
+          "c3.nwtime.org": {
+            "resolve_time": "2026-01-29T17:56:52Z",
+            "name": "c3.nwtime.org",
+            "record_type": "a"
+          },
+          "doc.ntp.org": {
+            "resolve_time": "2026-01-29T17:56:44Z",
+            "name": "doc.ntp.org",
+            "record_type": "a"
+          },
+          "download.nwtime.org": {
+            "resolve_time": "2026-01-12T17:39:00Z",
+            "name": "download.nwtime.org",
+            "record_type": "a"
+          },
+          "downloads.nwtime.org": {
+            "resolve_time": "2026-02-08T20:21:00Z",
+            "name": "downloads.nwtime.org",
+            "record_type": "a"
+          },
+          "ftp.nwtime.org": {
+            "resolve_time": "2026-01-26T12:54:27Z",
+            "name": "ftp.nwtime.org",
+            "record_type": "a"
+          },
+          "git.nwtime.org": {
+            "resolve_time": "2026-02-11T15:26:36Z",
+            "name": "git.nwtime.org",
+            "record_type": "a"
+          },
+          "ic.networktimefoundation.org": {
+            "resolve_time": "2026-01-12T17:36:31Z",
+            "name": "ic.networktimefoundation.org",
+            "record_type": "a"
+          },
+          "ic.nwtime.org": {
+            "resolve_time": "2026-01-29T17:56:52Z",
+            "name": "ic.nwtime.org",
+            "record_type": "a"
+          },
+          "ic.ptp1588.org": {
+            "resolve_time": "2026-02-08T20:27:34Z",
+            "name": "ic.ptp1588.org",
+            "record_type": "a"
+          },
+          "jira-sandbox.ntfo.org": {
+            "resolve_time": "2026-02-08T20:20:53Z",
+            "name": "jira-sandbox.ntfo.org",
+            "record_type": "a"
+          },
+          "jira-sandbox.nwtime.org": {
+            "resolve_time": "2026-02-07T18:10:33Z",
+            "name": "jira-sandbox.nwtime.org",
+            "record_type": "a"
+          },
+          "jira.ntfo.org": {
+            "resolve_time": "2026-01-10T14:09:52Z",
+            "name": "jira.ntfo.org",
+            "record_type": "a"
+          },
+          "khronos.nwtime.org": {
+            "resolve_time": "2026-02-06T08:39:02Z",
+            "name": "khronos.nwtime.org",
+            "record_type": "a"
+          },
+          "libptpmgmt.nwtime.org": {
+            "resolve_time": "2026-02-07T18:10:34Z",
+            "name": "libptpmgmt.nwtime.org",
+            "record_type": "a"
+          },
+          "linuxptp.nwtime.org": {
+            "resolve_time": "2026-02-08T20:21:00Z",
+            "name": "linuxptp.nwtime.org",
+            "record_type": "a"
+          },
+          "linuxptp.org": {
+            "resolve_time": "2026-02-11T15:49:49Z",
+            "name": "linuxptp.org",
+            "record_type": "a"
+          },
+          "lists.ntfo.org": {
+            "resolve_time": "2026-02-03T12:02:57Z",
+            "name": "lists.ntfo.org",
+            "record_type": "a"
+          },
+          "lists.nwtime.org": {
+            "resolve_time": "2026-02-09T18:36:08Z",
+            "name": "lists.nwtime.org",
+            "record_type": "a"
+          },
+          "networktimefoundation.org": {
+            "resolve_time": "2026-02-07T20:02:46Z",
+            "name": "networktimefoundation.org",
+            "record_type": "a"
+          },
+          "new.ic.nwtime.org": {
+            "resolve_time": "2026-01-14T22:18:29Z",
+            "name": "new.ic.nwtime.org",
+            "record_type": "a"
+          },
+          "ntfo.org": {
+            "resolve_time": "2026-01-28T15:13:12Z",
+            "name": "ntfo.org",
+            "record_type": "a"
+          },
+          "ntp.org": {
+            "resolve_time": "2026-01-14T22:18:36Z",
+            "name": "ntp.org",
+            "record_type": "a"
+          },
+          "nwtime.org": {
+            "resolve_time": "2026-02-06T06:02:20Z",
+            "name": "nwtime.org",
+            "record_type": "a"
+          },
+          "old.bugs.ntp.org": {
+            "resolve_time": "2026-01-12T17:38:49Z",
+            "name": "old.bugs.ntp.org",
+            "record_type": "a"
+          },
+          "people.chi1.ntfo.org": {
+            "resolve_time": "2026-02-06T13:37:32Z",
+            "name": "people.chi1.ntfo.org",
+            "record_type": "a"
+          },
+          "people.ntp.org": {
+            "resolve_time": "2025-12-31T20:39:09Z",
+            "name": "people.ntp.org",
+            "record_type": "a"
+          },
+          "people.nwtime.org": {
+            "resolve_time": "2026-01-29T17:56:54Z",
+            "name": "people.nwtime.org",
+            "record_type": "a"
+          },
+          "qqq.bitbucket.nwtime.org": {
+            "resolve_time": "2026-02-06T13:37:43Z",
+            "name": "qqq.bitbucket.nwtime.org",
+            "record_type": "a"
+          },
+          "qqq.linuxptp.org": {
+            "resolve_time": "2026-02-11T15:49:51Z",
+            "name": "qqq.linuxptp.org",
+            "record_type": "a"
+          },
+          "rt.ntfo.org": {
+            "resolve_time": "2026-02-11T15:26:24Z",
+            "name": "rt.ntfo.org",
+            "record_type": "a"
+          },
+          "rt.nwtime.org": {
+            "resolve_time": "2026-02-10T16:51:58Z",
+            "name": "rt.nwtime.org",
+            "record_type": "a"
+          },
+          "slb0.chi1.ntfo.org": {
+            "resolve_time": "2026-01-15T17:00:58Z",
+            "name": "slb0.chi1.ntfo.org",
+            "record_type": "a"
+          },
+          "support.ntp.org": {
+            "resolve_time": "2026-01-28T15:13:10Z",
+            "name": "support.ntp.org",
+            "record_type": "a"
+          },
+          "sync-e.nwtime.org": {
+            "resolve_time": "2026-01-29T17:56:51Z",
+            "name": "sync-e.nwtime.org",
+            "record_type": "a"
+          },
+          "wiki.networktimefoundation.org": {
+            "resolve_time": "2026-01-15T16:58:38Z",
+            "name": "wiki.networktimefoundation.org",
+            "record_type": "a"
+          },
+          "wiki.nwtime.org": {
+            "resolve_time": "2026-01-28T15:13:18Z",
+            "name": "wiki.nwtime.org",
+            "record_type": "a"
+          },
+          "wiki.ptp1588.org": {
+            "resolve_time": "2026-02-07T18:17:40Z",
+            "name": "wiki.ptp1588.org",
+            "record_type": "a"
+          },
+          "www.linuxptp.org": {
+            "resolve_time": "2026-02-06T12:03:21Z",
+            "name": "www.linuxptp.org",
+            "record_type": "a"
+          },
+          "www.networktimefoundation.org": {
+            "resolve_time": "2026-02-06T12:14:08Z",
+            "name": "www.networktimefoundation.org",
+            "record_type": "a"
+          },
+          "www.ntfo.org": {
+            "resolve_time": "2026-02-08T20:20:49Z",
+            "name": "www.ntfo.org",
+            "record_type": "a"
+          },
+          "www.ntp.org": {
+            "resolve_time": "2026-02-08T20:20:53Z",
+            "name": "www.ntp.org",
+            "record_type": "a"
+          },
+          "www.ptp1588.org": {
+            "resolve_time": "2026-01-12T19:56:28Z",
+            "name": "www.ptp1588.org",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

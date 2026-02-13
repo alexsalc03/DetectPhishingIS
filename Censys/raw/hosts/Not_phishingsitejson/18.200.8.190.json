@@ -1,0 +1,298 @@
+{
+  "result": {
+    "resource": {
+      "ip": "18.200.8.190",
+      "location": {
+        "continent": "Europe",
+        "country": "Ireland",
+        "country_code": "IE",
+        "city": "Dublin",
+        "postal_code": "D02",
+        "timezone": "Europe/Dublin",
+        "province": "Leinster",
+        "coordinates": {
+          "latitude": 53.33306,
+          "longitude": -6.24889
+        }
+      },
+      "autonomous_system": {
+        "asn": 16509,
+        "description": "AMAZON-02 - Amazon.com, Inc.",
+        "bgp_prefix": "18.200.0.0/16",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "country_code": "US"
+      },
+      "whois": {
+        "network": {
+          "handle": "AMAZON-DUB",
+          "name": "Amazon Data Services Ireland Limited",
+          "cidrs": [
+            "18.200.0.0/16"
+          ],
+          "created": "2017-09-08T00:00:00Z",
+          "updated": "2021-02-10T00:00:00Z",
+          "allocation_type": "REALLOCATION"
+        },
+        "organization": {
+          "handle": "ADSIL-1",
+          "name": "Amazon Data Services Ireland Limited",
+          "street": "Unit 4033, Citywest Avenue Citywest Business Park",
+          "city": "Dublin",
+          "state": "D24",
+          "country": "IE",
+          "abuse_contacts": [
+            {
+              "handle": "AEA8-ARIN",
+              "name": "Amazon EC2 Abuse",
+              "email": "trustandsafety@support.aws.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "IPMAN40-ARIN",
+              "name": "IP Management",
+              "email": "ipmanagement@amazon.com"
+            }
+          ],
+          "tech_contacts": [
+            {
+              "handle": "ANO24-ARIN",
+              "name": "Amazon EC2 Network Operations",
+              "email": "amzn-noc-contact@amazon.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "ip": "18.200.8.190",
+          "scan_time": "2026-02-13T02:49:46Z",
+          "endpoints": [
+            {
+              "hostname": "18.200.8.190",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T02:49:46Z",
+              "http": {
+                "uri": "http://18.200.8.190/",
+                "protocol": "HTTP/1.1",
+                "status_code": 403,
+                "status_reason": "Forbidden",
+                "headers": {
+                  "Content-Length": {
+                    "headers": [
+                      "7"
+                    ]
+                  }
+                },
+                "body_size": 7,
+                "body": "BLOCKED",
+                "body_hash_sha256": "a1f4014f85aac4c098906327b4ec4b6e3fb1308984bbe3531130643dc22feb02",
+                "body_hash_sha1": "fcc4cce12177701ec0c8ab248fb9e86dff8f83f4",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "18.200.8.190"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "fa34f99c64e74e2722dde200062cfda796f66fc09a732cf461674051b45a4b6e",
+            "fingerprint_sha1": "210d4ca5ce8db41c67c2b12e6bd27413ec27e2fc",
+            "fingerprint_md5": "8d582371ade9e05e5f4dc169a0d9cecc",
+            "tbs_fingerprint_sha256": "1a717a441e85edc6aefa7c286e185cff3307dbb9808f0708ed4bb59e709fdc77",
+            "tbs_no_ct_fingerprint_sha256": "1a717a441e85edc6aefa7c286e185cff3307dbb9808f0708ed4bb59e709fdc77",
+            "spki_fingerprint_sha256": "f7a9932308deeddd1fc018f95350288ef8744680abd2f3f8cd72b4fbbcd2db01",
+            "parsed": {
+              "version": 3,
+              "serial_number": "139140634575316772776494170907224157618732",
+              "issuer_dn": "C=US, ST=California, L=Los Gatos, CN=Netflix Internal Services Intermediate Prod CA V10, O=Netflix Inc, OU=Platform Security, emailAddress=platformsecurity@netflix.com",
+              "issuer": {
+                "common_name": [
+                  "Netflix Internal Services Intermediate Prod CA V10"
+                ],
+                "country": [
+                  "US"
+                ],
+                "locality": [
+                  "Los Gatos"
+                ],
+                "province": [
+                  "California"
+                ],
+                "organization": [
+                  "Netflix Inc"
+                ],
+                "organizational_unit": [
+                  "Platform Security"
+                ],
+                "email_address": [
+                  "platformsecurity@netflix.com"
+                ]
+              },
+              "subject_dn": "C=US, ST=California, L=Los Gatos, O=Netflix Inc, OU=Platform Security, serialNumber=i-0d3993d8b91f4d8e2",
+              "subject": {
+                "serial_number": [
+                  "i-0d3993d8b91f4d8e2"
+                ],
+                "country": [
+                  "US"
+                ],
+                "locality": [
+                  "Los Gatos"
+                ],
+                "province": [
+                  "California"
+                ],
+                "organization": [
+                  "Netflix Inc"
+                ],
+                "organizational_unit": [
+                  "Platform Security"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "ECDSA",
+                  "oid": "1.2.840.10045.2.1"
+                },
+                "ecdsa": {
+                  "b": "5ac635d8aa3a93e7b3ebbd55769886bc651d06b0cc53b0f63bce3c3e27d2604b",
+                  "curve": "P-256",
+                  "gx": "6b17d1f2e12c4247f8bce6e563a440f277037d812deb33a0f4a13945d898c296",
+                  "gy": "4fe342e2fe1a7f9b8ee7eb4a7c0f9e162bce33576b315ececbb6406837bf51f5",
+                  "length": 256,
+                  "n": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+                  "p": "ffffffff00000001000000000000000000000000ffffffffffffffffffffffff",
+                  "pub": "0461591cd02db49c3e3e385d93d1b36fc7b6c21e75cee111bb2a414cd80408f086e074e6393227255fb60645a9b991524b8bacfd403f5a2a0c6a69c285e9715ea1",
+                  "x": "61591cd02db49c3e3e385d93d1b36fc7b6c21e75cee111bb2a414cd80408f086",
+                  "y": "e074e6393227255fb60645a9b991524b8bacfd403f5a2a0c6a69c285e9715ea1"
+                },
+                "fingerprint_sha256": "72d9c57013aa48fc12de97caf06872e540b9b96481426f2a75c9b03ba25de4ce"
+              },
+              "validity_period": {
+                "not_before": "2026-02-13T05:31:44Z",
+                "not_after": "2026-02-27T06:31:44Z",
+                "length_seconds": 1213201
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "ECDSA-SHA256",
+                  "oid": "1.2.840.10045.4.3.2"
+                },
+                "value": "30440220678e318ab657fe0af2742b696514897d8cd3fe3e92305543aa9d6e5193803bc80220565d8562d170f9dae48ce10fdfdae702346801a95b6e0c904816ca0bb63005aa"
+              },
+              "serial_number_hex": "0198e5c77601c435d1859f3591a07d6e822c"
+            },
+            "names": [
+              "100.86.133.172",
+              "apiproxy-website.cluster.eu-west-1.prod.cloud.netflix.net",
+              "apiproxy-website.dynprod.netflix.net",
+              "apiproxy-website.eu-west-1.dynprod.netflix.net",
+              "apiproxy-website.eu-west-1.prod.netflix.net",
+              "apiproxy-website.netflix.net",
+              "apiproxy-website.prod.netflix.net",
+              "apiproxy.app.eu-west-1.prod.cloud.netflix.net",
+              "apiproxy.dynprod.netflix.net",
+              "apiproxy.eu-west-1.dynprod.netflix.net",
+              "apiproxy.eu-west-1.prod.netflix.net",
+              "apiproxy.netflix.net",
+              "apiproxy.prod.netflix.net",
+              "ip-100-86-133-172.node.netflix.net",
+              "ip-2a05-d018-076c-b608-0000-0000-0000-944b.node.netflix.net",
+              "website.apiproxy.dynprod.netflix.net",
+              "website.apiproxy.eu-west-1.dynprod.netflix.net",
+              "website.apiproxy.eu-west-1.prod.netflix.net",
+              "website.apiproxy.netflix.net",
+              "website.apiproxy.prod.netflix.net"
+            ],
+            "validation": {
+              "nss": {},
+              "microsoft": {},
+              "apple": {},
+              "chrome": {}
+            },
+            "revocation": {
+              "ocsp": {},
+              "crl": {}
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2026-02-13T06:43:00Z",
+            "modified_at": "2026-02-13T06:43:00Z",
+            "validated_at": "2026-02-13T06:43:00Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "f7a9932308deeddd1fc018f95350288ef8744680abd2f3f8cd72b4fbbcd2db01"
+          },
+          "ip": "18.200.8.190",
+          "scan_time": "2026-02-13T06:54:53Z",
+          "tls": {
+            "fingerprint_sha256": "fa34f99c64e74e2722dde200062cfda796f66fc09a732cf461674051b45a4b6e",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "115c15b4cd6b71390fad3035f375c1f007a28d5ff1b845ca66d1440bfc6d9747",
+                "subject_dn": "C=US, ST=California, L=Los Gatos, CN=Netflix Internal Services Intermediate Prod CA V10, O=Netflix Inc, OU=Platform Security, emailAddress=platformsecurity@netflix.com",
+                "issuer_dn": "C=US, ST=California, L=Los Gatos, CN=Netflix Internal Services Root CA V1, O=Netflix Inc, OU=Platform Security, emailAddress=platformsecurity@netflix.com"
+              },
+              {
+                "fingerprint_sha256": "b74794fc4b66ddc21697760d507b3d6350455809ae2872c285742cb613cd242f",
+                "subject_dn": "C=US, ST=California, L=Los Gatos, CN=Netflix Internal Services Root CA V1, O=Netflix Inc, OU=Platform Security, emailAddress=platformsecurity@netflix.com",
+                "issuer_dn": "C=US, ST=California, L=Los Gatos, CN=Netflix Internal Services Root CA V1, O=Netflix Inc, OU=Platform Security, emailAddress=platformsecurity@netflix.com"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "18.200.8.190",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T06:54:53Z",
+              "http": {
+                "uri": "https://18.200.8.190/",
+                "protocol": "HTTP/1.1",
+                "status_code": 403,
+                "status_reason": "Forbidden",
+                "headers": {
+                  "Content-Length": {
+                    "headers": [
+                      "7"
+                    ]
+                  }
+                },
+                "body_size": 7,
+                "body": "BLOCKED",
+                "body_hash_sha256": "a1f4014f85aac4c098906327b4ec4b6e3fb1308984bbe3531130643dc22feb02",
+                "body_hash_sha1": "fcc4cce12177701ec0c8ab248fb9e86dff8f83f4",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "18.200.8.190"
+            }
+          ]
+        }
+      ],
+      "service_count": 2,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-02-04T07:25:19Z",
+          "names": [
+            "ec2-18-200-8-190.eu-west-1.compute.amazonaws.com"
+          ]
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

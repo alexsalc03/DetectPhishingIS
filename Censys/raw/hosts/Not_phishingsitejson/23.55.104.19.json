@@ -1,0 +1,184 @@
+{
+  "result": {
+    "resource": {
+      "ip": "23.55.104.19",
+      "location": {
+        "continent": "Europe",
+        "country": "Italy",
+        "country_code": "IT",
+        "city": "Milan",
+        "postal_code": "20121",
+        "timezone": "Europe/Rome",
+        "province": "Lombardy",
+        "coordinates": {
+          "latitude": 45.46427,
+          "longitude": 9.18951
+        }
+      },
+      "autonomous_system": {
+        "asn": 20940,
+        "description": "AKAMAI-ASN1",
+        "bgp_prefix": "23.55.104.0/24",
+        "name": "AKAMAI-ASN1",
+        "country_code": "NL"
+      },
+      "whois": {
+        "network": {
+          "handle": "AKAMAI",
+          "name": "Akamai Technologies, Inc.",
+          "cidrs": [
+            "23.32.0.0/11",
+            "23.64.0.0/14"
+          ],
+          "created": "2011-05-16T00:00:00Z",
+          "updated": "2012-03-02T00:00:00Z",
+          "allocation_type": "ALLOCATION"
+        },
+        "organization": {
+          "handle": "AKAMAI",
+          "name": "Akamai Technologies, Inc.",
+          "street": "145 Broadway",
+          "city": "Cambridge",
+          "state": "MA",
+          "postal_code": "02142",
+          "country": "US",
+          "abuse_contacts": [
+            {
+              "handle": "NUS-ARIN",
+              "name": "NOC United States",
+              "email": "abuse@akamai.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "IPADM11-ARIN",
+              "name": "ipadmin",
+              "email": "ip-admin@akamai.com"
+            }
+          ],
+          "tech_contacts": [
+            {
+              "handle": "IPADM11-ARIN",
+              "name": "ipadmin",
+              "email": "ip-admin@akamai.com"
+            },
+            {
+              "handle": "SJS98-ARIN",
+              "name": "Steven Schecter",
+              "email": "ip-admin@akamai.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "type": [
+                "WAF"
+              ],
+              "vendor": "akamai",
+              "product": "app_and_api_protector"
+            },
+            {
+              "vendor": "akamai",
+              "product": "ghost"
+            }
+          ],
+          "labels": [
+            {
+              "value": "WAF"
+            }
+          ],
+          "ip": "23.55.104.19",
+          "scan_time": "2026-02-13T09:52:06Z",
+          "endpoints": [
+            {
+              "hostname": "23.55.104.19",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T09:52:06Z",
+              "http": {
+                "uri": "http://23.55.104.19/",
+                "protocol": "HTTP/1.0",
+                "status_code": 400,
+                "status_reason": "Bad Request",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "312"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Expires": {
+                    "headers": [
+                      "Fri, 13 Feb 2026 09:52:06 GMT"
+                    ]
+                  },
+                  "Mime-Version": {
+                    "headers": [
+                      "1.0"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "AkamaiGHost"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<TITLE>Invalid URL</TITLE>"
+                ],
+                "body_size": 312,
+                "body": "<HTML><HEAD>\n<TITLE>Invalid URL</TITLE>\n</HEAD><BODY>\n<H1>Invalid URL</H1>\nThe requested URL \"&#91;no&#32;URL&#93;\", is invalid.<p>\nReference&#32;&#35;9&#46;93d6ce17&#46;1770976326&#46;1b3f248e\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;9&#46;93d6ce17&#46;1770976326&#46;1b3f248e</P>\n</BODY></HTML>\n",
+                "html_title": "Invalid URL",
+                "body_hash_sha256": "89e4b647fc542b1101bf478180c281ad99ee1cd38dc2c4e0ab56220f5b7abd80",
+                "body_hash_sha1": "7d65616b302f93153bea336b265063d812c0310d",
+                "supported_versions": [
+                  "HTTP/1.0"
+                ]
+              },
+              "ip": "23.55.104.19"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "UNKNOWN",
+          "transport_protocol": "tcp",
+          "ip": "23.55.104.19",
+          "scan_time": "2026-02-13T04:32:48Z"
+        }
+      ],
+      "service_count": 2,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-02-12T08:19:35Z",
+          "names": [
+            "a23-55-104-19.deploy.static.akamaitechnologies.com"
+          ]
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

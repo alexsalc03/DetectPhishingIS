@@ -1,0 +1,587 @@
+{
+  "result": {
+    "resource": {
+      "ip": "98.82.161.185",
+      "location": {
+        "continent": "North America",
+        "country": "United States",
+        "country_code": "US",
+        "city": "Ashburn",
+        "postal_code": "20147",
+        "timezone": "America/New_York",
+        "province": "Virginia",
+        "coordinates": {
+          "latitude": 39.04372,
+          "longitude": -77.48749
+        }
+      },
+      "autonomous_system": {
+        "asn": 14618,
+        "description": "AMAZON-AES - Amazon.com, Inc.",
+        "bgp_prefix": "98.80.0.0/13",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "country_code": "US"
+      },
+      "whois": {
+        "network": {
+          "handle": "AMAZON-IAD",
+          "name": "Amazon Data Services Northern Virginia",
+          "cidrs": [
+            "98.80.0.0/13"
+          ],
+          "created": "2024-02-21T00:00:00Z",
+          "updated": "2024-02-21T00:00:00Z",
+          "allocation_type": "REALLOCATION"
+        },
+        "organization": {
+          "handle": "ADSN-1",
+          "name": "Amazon Data Services Northern Virginia",
+          "street": "13200 Woodland Park Road",
+          "city": "Herndon",
+          "state": "VA",
+          "postal_code": "20171",
+          "country": "US",
+          "abuse_contacts": [
+            {
+              "handle": "AEA8-ARIN",
+              "name": "Amazon EC2 Abuse",
+              "email": "trustandsafety@support.aws.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "IPMAN40-ARIN",
+              "name": "IP Management",
+              "email": "ipmanagement@amazon.com"
+            }
+          ],
+          "tech_contacts": [
+            {
+              "handle": "ANO24-ARIN",
+              "name": "Amazon EC2 Network Operations",
+              "email": "amzn-noc-contact@amazon.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "ip": "98.82.161.185",
+          "scan_time": "2026-02-12T22:14:37Z",
+          "endpoints": [
+            {
+              "hostname": "98.82.161.185",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-12T22:14:37Z",
+              "http": {
+                "uri": "http://98.82.161.185/",
+                "protocol": "HTTP/1.1",
+                "status_code": 301,
+                "status_reason": "Moved Permanently",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "163"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Location": {
+                    "headers": [
+                      "https://98.82.161.185/"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "Server"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>301 Moved Permanently</title>"
+                ],
+                "body_size": 163,
+                "body": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently</h1></center>\r\n<hr><center>Server</center>\r\n</body>\r\n</html>\r\n",
+                "html_title": "301 Moved Permanently",
+                "body_hash_sha256": "b691e78554674f4bb12223fcd4d40aa99c80a83f96d7c251eb116afb33c5fe8a",
+                "body_hash_sha1": "f11f69eaee4f3cd0c75d0f41f1f1d213a359d5b7",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "98.82.161.185"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "50f6e40f406a9583a3f82b5b7036b7766451175955171d1e4a44517d2f7dbf79",
+            "fingerprint_sha1": "b91850e78fbc2e049a500342e4953abb84a5576d",
+            "fingerprint_md5": "5258e146ff6a04972bb522ec7d8be69a",
+            "tbs_fingerprint_sha256": "e2ae7cf998832d5e7186e2061c5b3aebb05140c5281ee7c4040001587104f8c9",
+            "tbs_no_ct_fingerprint_sha256": "e77db0b4f4bf1e933a6629ec317b590f323862411b7ebab3f73669e2d66b98e9",
+            "spki_fingerprint_sha256": "02c2053ba11c29aca1891dc952b70e9b2a5e6e060015da5793800cb5e84fc315",
+            "parent_spki_fingerprint_sha256": "a0f06408dfb8d5e0095d4a968536efd3ecdc75025691b142170e7eb66c85b39a",
+            "parsed": {
+              "version": 3,
+              "serial_number": "17254315543325975286547466867573710433",
+              "issuer_dn": "C=US, O=DigiCert Inc, CN=DigiCert Global CA G2",
+              "issuer": {
+                "common_name": [
+                  "DigiCert Global CA G2"
+                ],
+                "country": [
+                  "US"
+                ],
+                "organization": [
+                  "DigiCert Inc"
+                ]
+              },
+              "subject_dn": "CN=*.peg.a2z.com",
+              "subject": {
+                "common_name": [
+                  "*.peg.a2z.com"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "RSA",
+                  "oid": "1.2.840.113549.1.1.1"
+                },
+                "rsa": {
+                  "exponent": 65537,
+                  "modulus": "b9aad673f2de439c05c87ee4d55fe4a96cfb33d47a6902865efffea8d73c55a38e450977e1f84ad43af196dda643d34221e93039a6c7a51ac6fa22b6726404f95139302833a86e61ed0f1447460d02f1cea069c2664b05888615b3e161b673eb6ec1a4f2fc67ffdbb463792cbd672fe18a1d5f7284efeb2289a9227779909cd78ae4690cd14c5f3a32b73c020734f800d88adb6c9c1270a8f96a47169451aae3d4eefa73260360e2d045627022681f9a052c0f9c368c92762e9c833592cfce0d81006be007539273a7ac12041aa87479fa728806a853b3f031dcdda8343079829ebfc3d60d048c44b9a2f52e5182b39bb88888464e02e6d24cf8bcaba09cf33b",
+                  "length": 2048
+                },
+                "fingerprint_sha256": "14a9eac94a0e9bf0cecc1d903b7c6ee93f93f4a9d8178e5ae395f43e00c3f54b"
+              },
+              "validity_period": {
+                "not_before": "2026-02-02T00:00:00Z",
+                "not_after": "2027-01-23T23:59:59Z",
+                "length_seconds": 30758400
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "SHA256-RSA",
+                  "oid": "1.2.840.113549.1.1.11"
+                },
+                "value": "2724c5933cfa40b70c357285743dfb9da39d23eff7cb9dfad5b684d61e80f87086489639f53d07ba375fe22342b9bba82defbf69551b29237391bd21eca394414ce16429973c3076fcc7d3d21b3e8ef8ad3780b220639e3f3558c6c59fa8397950445aaea51269859387eabebc4704ae3e56c2d5f4a52d9d2b9abb10fd97551e57b462af31dc3ad3ea3b2985a50bdcc94a007474540fcd376f03d85d7d63c446989d91a05974ce800b4dfb941679131b8d1c6fd1fc6fc705504570e7f318bb614e86f6a32861dc87b669295ce85200b8219e3e6f4d5c7c76e1a64ba1dd5e13a74f9283a7a38448eec7e66be82c4117a9319deafbb318608ecf8f692785af7ca6",
+                "valid": true
+              },
+              "serial_number_hex": "0cfb0f6fa7d79b54964abd9d4a1ede61"
+            },
+            "names": [
+              "*.aa.peg.a2z.com",
+              "*.ab.peg.a2z.com",
+              "*.ac.peg.a2z.com",
+              "*.bz.peg.a2z.com",
+              "*.peg.a2z.com",
+              "amazon.co.jp",
+              "amazon.co.uk",
+              "amazon.com",
+              "amazon.com.au",
+              "amazon.de",
+              "amazon.jp",
+              "amzn.com",
+              "buckeye-retail-website.amazon.com",
+              "buybox.amazon.com",
+              "corporate.amazon.com",
+              "edgeflow-dp.aero.04f01a85e-frontier.amazon.com.au",
+              "edgeflow-dp.aero.47cf2c8c9-frontier.amazon.com",
+              "edgeflow-dp.aero.4d5ad1d2b-frontier.amazon.co.jp",
+              "edgeflow-dp.aero.abe2c2f23-frontier.amazon.de",
+              "edgeflow-dp.aero.bfbdc3ca1-frontier.amazon.co.uk",
+              "edgeflow.aero.04f01a85e-frontier.amazon.com.au",
+              "edgeflow.aero.47cf2c8c9-frontier.amazon.com",
+              "edgeflow.aero.4d5ad1d2b-frontier.amazon.co.jp",
+              "edgeflow.aero.abe2c2f23-frontier.amazon.de",
+              "edgeflow.aero.bfbdc3ca1-frontier.amazon.co.uk",
+              "home.amazon.com",
+              "huddles.amazon.com",
+              "iphone.amazon.com",
+              "origin-www.amazon.co.jp",
+              "origin-www.amazon.co.uk",
+              "origin-www.amazon.com",
+              "origin-www.amazon.com.au",
+              "origin-www.amazon.de",
+              "origin2-www.amazon.co.jp",
+              "origin2-www.amazon.com",
+              "shop.business.amazon.com",
+              "uedata.amazon.co.uk",
+              "uedata.amazon.com",
+              "us.amazon.com",
+              "www.amazon.co.jp",
+              "www.amazon.co.uk",
+              "www.amazon.com",
+              "www.amazon.com.au",
+              "www.amazon.de",
+              "www.amazon.jp",
+              "www.amzn.com",
+              "yp.amazon.com"
+            ],
+            "validation_level": "dv",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "8fac576439c9fd3ef153b51f9edd0d381b5df7b87559cebeca04297dd44a639b",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "8fac576439c9fd3ef153b51f9edd0d381b5df7b87559cebeca04297dd44a639b",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "8fac576439c9fd3ef153b51f9edd0d381b5df7b87559cebeca04297dd44a639b",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "8fac576439c9fd3ef153b51f9edd0d381b5df7b87559cebeca04297dd44a639b",
+                      "a0d609a7e3c434e878a9a1c1bd065b8dcf33aa7efee1b11bc75cce5e5a042080",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "8fac576439c9fd3ef153b51f9edd0d381b5df7b87559cebeca04297dd44a639b",
+                      "caf8ad697f7bda712ab127a8ad8b83f74a91a0de1784a1b483fef9ac79b67513",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "8fac576439c9fd3ef153b51f9edd0d381b5df7b87559cebeca04297dd44a639b"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "8fac576439c9fd3ef153b51f9edd0d381b5df7b87559cebeca04297dd44a639b",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "8fac576439c9fd3ef153b51f9edd0d381b5df7b87559cebeca04297dd44a639b",
+                      "0ba8c0d459b76abc0825294f565e24f4f169d4a4819d0692d371522d297724b8",
+                      "2399561127a57125de8cefea610ddf2fa078b5c8067f4e828290bfb860e84b3c"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "8fac576439c9fd3ef153b51f9edd0d381b5df7b87559cebeca04297dd44a639b",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "8fac576439c9fd3ef153b51f9edd0d381b5df7b87559cebeca04297dd44a639b",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "8fac576439c9fd3ef153b51f9edd0d381b5df7b87559cebeca04297dd44a639b",
+                      "a0d609a7e3c434e878a9a1c1bd065b8dcf33aa7efee1b11bc75cce5e5a042080",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "8fac576439c9fd3ef153b51f9edd0d381b5df7b87559cebeca04297dd44a639b"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "8fac576439c9fd3ef153b51f9edd0d381b5df7b87559cebeca04297dd44a639b",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "8fac576439c9fd3ef153b51f9edd0d381b5df7b87559cebeca04297dd44a639b",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "8fac576439c9fd3ef153b51f9edd0d381b5df7b87559cebeca04297dd44a639b",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "8fac576439c9fd3ef153b51f9edd0d381b5df7b87559cebeca04297dd44a639b",
+                      "a0d609a7e3c434e878a9a1c1bd065b8dcf33aa7efee1b11bc75cce5e5a042080",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "8fac576439c9fd3ef153b51f9edd0d381b5df7b87559cebeca04297dd44a639b",
+                      "caf8ad697f7bda712ab127a8ad8b83f74a91a0de1784a1b483fef9ac79b67513",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "8fac576439c9fd3ef153b51f9edd0d381b5df7b87559cebeca04297dd44a639b"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "8fac576439c9fd3ef153b51f9edd0d381b5df7b87559cebeca04297dd44a639b",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "8fac576439c9fd3ef153b51f9edd0d381b5df7b87559cebeca04297dd44a639b",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "8fac576439c9fd3ef153b51f9edd0d381b5df7b87559cebeca04297dd44a639b",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "8fac576439c9fd3ef153b51f9edd0d381b5df7b87559cebeca04297dd44a639b",
+                      "a0d609a7e3c434e878a9a1c1bd065b8dcf33aa7efee1b11bc75cce5e5a042080",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "8fac576439c9fd3ef153b51f9edd0d381b5df7b87559cebeca04297dd44a639b",
+                      "caf8ad697f7bda712ab127a8ad8b83f74a91a0de1784a1b483fef9ac79b67513",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "8fac576439c9fd3ef153b51f9edd0d381b5df7b87559cebeca04297dd44a639b"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "letsencrypt_ct_sycamore_2027_h1": {
+                  "index": 42864773,
+                  "added_to_ct_at": "2026-02-10T08:03:05Z",
+                  "ct_to_censys_at": "2026-02-10T08:13:40Z"
+                },
+                "letsencrypt_ct_willow_2027_h1": {
+                  "index": 39353417,
+                  "added_to_ct_at": "2026-02-10T08:03:05Z",
+                  "ct_to_censys_at": "2026-02-10T08:14:57Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2026-02-02T10:49:54Z",
+            "modified_at": "2026-02-10T08:14:57Z",
+            "validated_at": "2026-02-13T05:08:05Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "02c2053ba11c29aca1891dc952b70e9b2a5e6e060015da5793800cb5e84fc315",
+            "parent_spki_subject_fingerprint_sha256": "a0f06408dfb8d5e0095d4a968536efd3ecdc75025691b142170e7eb66c85b39a"
+          },
+          "ip": "98.82.161.185",
+          "scan_time": "2026-02-13T05:57:22Z",
+          "tls": {
+            "fingerprint_sha256": "50f6e40f406a9583a3f82b5b7036b7766451175955171d1e4a44517d2f7dbf79",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "8fac576439c9fd3ef153b51f9edd0d381b5df7b87559cebeca04297dd44a639b",
+                "subject_dn": "C=US, O=DigiCert Inc, CN=DigiCert Global CA G2",
+                "issuer_dn": "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root G2"
+              },
+              {
+                "fingerprint_sha256": "aadadd5a879d2eb8c41a89597291292709d42052f5b6399541c694c3b7353cd1",
+                "subject_dn": "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root G2",
+                "issuer_dn": "C=US, O=VeriSign\\, Inc., OU=VeriSign Trust Network, OU=(c) 2006 VeriSign\\, Inc. - For authorized use only, CN=VeriSign Class 3 Public Primary Certification Authority - G5"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "98.82.161.185",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T05:57:22Z",
+              "http": {
+                "uri": "https://98.82.161.185/",
+                "protocol": "HTTP/1.1",
+                "status_code": 400,
+                "status_reason": "Bad Request",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "Server"
+                    ]
+                  },
+                  "Transfer-Encoding": {
+                    "headers": [
+                      "chunked"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>x</title>"
+                ],
+                "body_size": 71,
+                "body": "<!DOCTYPE html><html><head><title>x</title></head><body></body></html>\n",
+                "html_title": "x",
+                "body_hash_sha256": "73f8ae8c11daa6ad905107970e55c3c64cd7133561e9e91e650aab092ba7245e",
+                "body_hash_sha1": "e441bba8b691ad0fff0bccb75974880018ab41d6",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "98.82.161.185"
+            }
+          ]
+        }
+      ],
+      "service_count": 2,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-02-09T23:59:02Z",
+          "names": [
+            "ec2-98-82-161-185.compute-1.amazonaws.com"
+          ]
+        },
+        "names": [
+          "amazon.com",
+          "www.blinkertag.com",
+          "www.communistbastardsfromchina.com",
+          "game.codmwest.top",
+          "communistbastardsfromchina.com",
+          "concierge.chartwellms.org.uk"
+        ],
+        "forward_dns": {
+          "amazon.com": {
+            "resolve_time": "2026-02-11T19:51:16Z",
+            "name": "amazon.com",
+            "record_type": "a"
+          },
+          "communistbastardsfromchina.com": {
+            "resolve_time": "2026-01-26T19:26:47Z",
+            "name": "communistbastardsfromchina.com",
+            "record_type": "a"
+          },
+          "concierge.chartwellms.org.uk": {
+            "resolve_time": "2026-01-08T15:51:57Z",
+            "name": "concierge.chartwellms.org.uk",
+            "record_type": "a"
+          },
+          "game.codmwest.top": {
+            "resolve_time": "2026-02-03T09:02:47Z",
+            "name": "game.codmwest.top",
+            "record_type": "a"
+          },
+          "www.blinkertag.com": {
+            "resolve_time": "2026-02-11T17:08:25Z",
+            "name": "www.blinkertag.com",
+            "record_type": "a"
+          },
+          "www.communistbastardsfromchina.com": {
+            "resolve_time": "2026-02-06T22:21:23Z",
+            "name": "www.communistbastardsfromchina.com",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

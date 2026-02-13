@@ -1,0 +1,523 @@
+{
+  "result": {
+    "resource": {
+      "ip": "162.125.248.18",
+      "location": {
+        "continent": "North America",
+        "country": "United States",
+        "country_code": "US",
+        "city": "San Francisco",
+        "postal_code": "94107",
+        "timezone": "America/Los_Angeles",
+        "province": "California",
+        "coordinates": {
+          "latitude": 37.7621,
+          "longitude": -122.3971
+        }
+      },
+      "autonomous_system": {
+        "asn": 19679,
+        "description": "DROPBOX - Dropbox, Inc.",
+        "bgp_prefix": "162.125.248.0/24",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "country_code": "US"
+      },
+      "whois": {
+        "network": {
+          "handle": "DROPB",
+          "name": "Dropbox, Inc.",
+          "cidrs": [
+            "162.125.0.0/16"
+          ],
+          "created": "2015-11-20T00:00:00Z",
+          "updated": "2021-12-14T00:00:00Z",
+          "allocation_type": "ALLOCATION"
+        },
+        "organization": {
+          "handle": "DROPB",
+          "name": "Dropbox, Inc.",
+          "street": "333 Brannan Street",
+          "city": "San Francisco",
+          "state": "CA",
+          "postal_code": "94107",
+          "country": "US",
+          "abuse_contacts": [
+            {
+              "handle": "DROPB2-ARIN",
+              "name": "DROPB-ABUSE",
+              "email": "abuse@dropbox.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "DROPB1-ARIN",
+              "name": "DROPBOX-ADMIN",
+              "email": "noc@dropbox.com"
+            }
+          ],
+          "tech_contacts": [
+            {
+              "handle": "DROPB-ARIN",
+              "name": "Dropbox NOC",
+              "email": "corp-isp-maint@dropbox.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "envoy_proxy",
+              "product": "envoy"
+            }
+          ],
+          "ip": "162.125.248.18",
+          "scan_time": "2026-02-13T08:50:47Z",
+          "endpoints": [
+            {
+              "hostname": "162.125.248.18",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T08:50:47Z",
+              "http": {
+                "uri": "http://162.125.248.18/",
+                "protocol": "HTTP/1.1",
+                "status_code": 301,
+                "status_reason": "Moved Permanently",
+                "headers": {
+                  "content-length": {
+                    "headers": [
+                      "0"
+                    ]
+                  },
+                  "date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "location": {
+                    "headers": [
+                      "https://162.125.248.18/"
+                    ]
+                  },
+                  "server": {
+                    "headers": [
+                      "envoy"
+                    ]
+                  },
+                  "x-dropbox-request-id": {
+                    "headers": [
+                      "e3940c7d0e04451794d326d3698ee5e6"
+                    ]
+                  }
+                },
+                "supported_versions": [
+                  "HTTP/1.1",
+                  "HTTP/2"
+                ]
+              },
+              "ip": "162.125.248.18"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "926c3482e33a6f7d72b2079d2410f7396cef638cb086b193ac6c06071392eac3",
+            "fingerprint_sha1": "4c9daf03200f848c6ab8a0d077b1c27b836d3185",
+            "fingerprint_md5": "a3e2a215730edad08c31020fc8d92f64",
+            "tbs_fingerprint_sha256": "a4eef217c8eced2d3e47e80dbc586b7de0094a23ad54bd1500300c1c74e7aaaf",
+            "tbs_no_ct_fingerprint_sha256": "2c79d9552d64590d1fef11b45d7a8b3fd4e8ac3cea5f1cc5f2d35f5b1c7a71e9",
+            "spki_fingerprint_sha256": "45702069f5eda99c0cfc1c7f04394b2b8e6f5f4155a45947267eabdbd79e39f6",
+            "parent_spki_fingerprint_sha256": "a7cb399df47e982018276c3397790bdef648e6d87b2f7b90d551f719ac6098c4",
+            "parsed": {
+              "version": 3,
+              "serial_number": "6426448527731143343713090528945135885",
+              "issuer_dn": "C=US, O=DigiCert Inc, CN=DigiCert Global G3 TLS ECC SHA384 2020 CA1",
+              "issuer": {
+                "common_name": [
+                  "DigiCert Global G3 TLS ECC SHA384 2020 CA1"
+                ],
+                "country": [
+                  "US"
+                ],
+                "organization": [
+                  "DigiCert Inc"
+                ]
+              },
+              "subject_dn": "C=US, ST=California, L=San Francisco, O=Dropbox\\, Inc, CN=*.dropbox.com",
+              "subject": {
+                "common_name": [
+                  "*.dropbox.com"
+                ],
+                "country": [
+                  "US"
+                ],
+                "locality": [
+                  "San Francisco"
+                ],
+                "province": [
+                  "California"
+                ],
+                "organization": [
+                  "Dropbox, Inc"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "RSA",
+                  "oid": "1.2.840.113549.1.1.1"
+                },
+                "rsa": {
+                  "exponent": 65537,
+                  "modulus": "ab48a34b905de5a09903ed87b63c01432c2f76aaf0cdf5a6d662dba1ed74f7cfd2f6a739a10818958adbfe2ad96f89bacb23a9319e4093049354ba2ebce0dd5c63f9ac4da786bc689619ce99da446014c517c30e0de3c0d98e827474c5aa2b64efb889eee64b90ded5598fc4fa12fd974d60195a1a9837e7093062b9fc25e324ba127206883503b262389662fcaeea7b66edce6e666988f7eb7189aab8627f5ba0b779e3743d8a3d274985caa960315bb3bfc84d7b1ad52b3bd27d29456694cc19102ce56861b4fafd3f3275f346e2d0cf248557caf4ad66c4552835c7240f9def14fda4d484a7599029e62b0ea376b25fca782bf307e81041b08c706ef4db6d",
+                  "length": 2048
+                },
+                "fingerprint_sha256": "97f920013eb4e9da063599e609298e3227e51bbc56fb56229e8997735e89aa98"
+              },
+              "validity_period": {
+                "not_before": "2026-01-12T00:00:00Z",
+                "not_after": "2026-04-14T23:59:59Z",
+                "length_seconds": 8035200
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "ECDSA-SHA384",
+                  "oid": "1.2.840.10045.4.3.3"
+                },
+                "value": "306502310086f13c4dc650513aa93f6673bdd0444e2de396813426eee1bf80f365af5aadfef91a3dc04e97146bbf465c3e43d0a51c02306937e8bab99fe3f0caefcd2b291e7e2c9b067d63325bf4499c75c7b10a6b37a16e84a445b2baec85db66dc6c11cee43a",
+                "valid": true
+              },
+              "serial_number_hex": "04d5b0600c0d26670584ff2bcbd4610d"
+            },
+            "names": [
+              "*.dropbox.com",
+              "dropbox.com"
+            ],
+            "validation_level": "ov",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "0587d6bd2819587ab90fb596480a5793bd9f7506a3eace73f5eab366017fe259",
+                      "31ad6648f8104138c738f39ea4320133393e3a18cc02296ef97c2ac9ef6731d0"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "338edb04fb8beaf07a10749e7f4e538de0715dafb6478d58063fb7c8bdb0c30d",
+                      "31ad6648f8104138c738f39ea4320133393e3a18cc02296ef97c2ac9ef6731d0"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "699ed65bdd3d5e790776d165ea7a325b7aeaf419647921a92ff28bb0680d72ba",
+                      "31ad6648f8104138c738f39ea4320133393e3a18cc02296ef97c2ac9ef6731d0"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "0587d6bd2819587ab90fb596480a5793bd9f7506a3eace73f5eab366017fe259",
+                  "338edb04fb8beaf07a10749e7f4e538de0715dafb6478d58063fb7c8bdb0c30d",
+                  "699ed65bdd3d5e790776d165ea7a325b7aeaf419647921a92ff28bb0680d72ba"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "0587d6bd2819587ab90fb596480a5793bd9f7506a3eace73f5eab366017fe259",
+                      "31ad6648f8104138c738f39ea4320133393e3a18cc02296ef97c2ac9ef6731d0"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "338edb04fb8beaf07a10749e7f4e538de0715dafb6478d58063fb7c8bdb0c30d",
+                      "31ad6648f8104138c738f39ea4320133393e3a18cc02296ef97c2ac9ef6731d0"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "699ed65bdd3d5e790776d165ea7a325b7aeaf419647921a92ff28bb0680d72ba",
+                      "31ad6648f8104138c738f39ea4320133393e3a18cc02296ef97c2ac9ef6731d0"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "0587d6bd2819587ab90fb596480a5793bd9f7506a3eace73f5eab366017fe259",
+                  "338edb04fb8beaf07a10749e7f4e538de0715dafb6478d58063fb7c8bdb0c30d",
+                  "699ed65bdd3d5e790776d165ea7a325b7aeaf419647921a92ff28bb0680d72ba"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "0587d6bd2819587ab90fb596480a5793bd9f7506a3eace73f5eab366017fe259",
+                      "31ad6648f8104138c738f39ea4320133393e3a18cc02296ef97c2ac9ef6731d0"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "338edb04fb8beaf07a10749e7f4e538de0715dafb6478d58063fb7c8bdb0c30d",
+                      "31ad6648f8104138c738f39ea4320133393e3a18cc02296ef97c2ac9ef6731d0"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "699ed65bdd3d5e790776d165ea7a325b7aeaf419647921a92ff28bb0680d72ba",
+                      "31ad6648f8104138c738f39ea4320133393e3a18cc02296ef97c2ac9ef6731d0"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "0587d6bd2819587ab90fb596480a5793bd9f7506a3eace73f5eab366017fe259",
+                  "338edb04fb8beaf07a10749e7f4e538de0715dafb6478d58063fb7c8bdb0c30d",
+                  "699ed65bdd3d5e790776d165ea7a325b7aeaf419647921a92ff28bb0680d72ba"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "0587d6bd2819587ab90fb596480a5793bd9f7506a3eace73f5eab366017fe259",
+                      "31ad6648f8104138c738f39ea4320133393e3a18cc02296ef97c2ac9ef6731d0"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "338edb04fb8beaf07a10749e7f4e538de0715dafb6478d58063fb7c8bdb0c30d",
+                      "31ad6648f8104138c738f39ea4320133393e3a18cc02296ef97c2ac9ef6731d0"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "699ed65bdd3d5e790776d165ea7a325b7aeaf419647921a92ff28bb0680d72ba",
+                      "31ad6648f8104138c738f39ea4320133393e3a18cc02296ef97c2ac9ef6731d0"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "0587d6bd2819587ab90fb596480a5793bd9f7506a3eace73f5eab366017fe259",
+                  "338edb04fb8beaf07a10749e7f4e538de0715dafb6478d58063fb7c8bdb0c30d",
+                  "699ed65bdd3d5e790776d165ea7a325b7aeaf419647921a92ff28bb0680d72ba"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 2283385521,
+                  "added_to_ct_at": "2026-01-29T19:58:44Z",
+                  "ct_to_censys_at": "2026-01-29T21:17:09Z"
+                },
+                "google_argon_2026_h1": {
+                  "index": 1925870398,
+                  "added_to_ct_at": "2026-01-29T19:57:16Z",
+                  "ct_to_censys_at": "2026-01-29T20:02:06Z"
+                },
+                "google_xenon_2026_h1": {
+                  "index": 1789890240,
+                  "added_to_ct_at": "2026-01-29T19:57:16Z",
+                  "ct_to_censys_at": "2026-01-29T20:02:47Z"
+                },
+                "letsencrypt_ct_sycamore_2026_h1": {
+                  "index": 813764923,
+                  "added_to_ct_at": "2026-01-29T20:08:18Z",
+                  "ct_to_censys_at": "2026-01-29T20:13:51Z"
+                },
+                "letsencrypt_ct_willow_2026_h1": {
+                  "index": 820232184,
+                  "added_to_ct_at": "2026-01-29T20:08:25Z",
+                  "ct_to_censys_at": "2026-01-29T20:11:03Z"
+                },
+                "sectigo_elephant_2026_h1": {
+                  "index": 1358912999,
+                  "added_to_ct_at": "2026-01-29T19:57:16Z",
+                  "ct_to_censys_at": "2026-01-29T20:02:17Z"
+                },
+                "sectigo_tiger_2026_h1": {
+                  "index": 1230803408,
+                  "added_to_ct_at": "2026-01-29T19:57:16Z",
+                  "ct_to_censys_at": "2026-01-29T20:03:50Z"
+                },
+                "trustasia_log_2026_a": {
+                  "index": 629457311,
+                  "added_to_ct_at": "2026-01-29T19:57:20Z",
+                  "ct_to_censys_at": "2026-01-29T20:09:12Z"
+                },
+                "trustasia_log_2026_b": {
+                  "index": 650839627,
+                  "added_to_ct_at": "2026-01-29T19:57:19Z",
+                  "ct_to_censys_at": "2026-01-29T20:08:44Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2026-01-12T15:02:13Z",
+            "modified_at": "2026-01-29T21:17:10Z",
+            "validated_at": "2026-02-12T16:37:55Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "45702069f5eda99c0cfc1c7f04394b2b8e6f5f4155a45947267eabdbd79e39f6",
+            "parent_spki_subject_fingerprint_sha256": "a7cb399df47e982018276c3397790bdef648e6d87b2f7b90d551f719ac6098c4"
+          },
+          "software": [
+            {
+              "vendor": "envoy_proxy",
+              "product": "envoy"
+            }
+          ],
+          "ip": "162.125.248.18",
+          "scan_time": "2026-02-13T09:12:11Z",
+          "tls": {
+            "fingerprint_sha256": "926c3482e33a6f7d72b2079d2410f7396cef638cb086b193ac6c06071392eac3",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "0587d6bd2819587ab90fb596480a5793bd9f7506a3eace73f5eab366017fe259",
+                "subject_dn": "C=US, O=DigiCert Inc, CN=DigiCert Global G3 TLS ECC SHA384 2020 CA1",
+                "issuer_dn": "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root G3"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "162.125.248.18",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T09:12:11Z",
+              "http": {
+                "uri": "https://162.125.248.18/",
+                "protocol": "HTTP/1.1",
+                "status_code": 404,
+                "status_reason": "Not Found",
+                "headers": {
+                  "Alt-Svc": {
+                    "headers": [
+                      "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+                    ]
+                  },
+                  "Cache-Control": {
+                    "headers": [
+                      "no-cache, no-store"
+                    ]
+                  },
+                  "Content-Encoding": {
+                    "headers": [
+                      "gzip"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "envoy"
+                    ]
+                  },
+                  "Transfer-Encoding": {
+                    "headers": [
+                      "chunked"
+                    ]
+                  },
+                  "Vary": {
+                    "headers": [
+                      "Accept-Encoding"
+                    ]
+                  },
+                  "X-Dropbox-Request-Id": {
+                    "headers": [
+                      "9a1acb92f4e044188c400573698eeaeb"
+                    ]
+                  },
+                  "X-Dropbox-Response-Origin": {
+                    "headers": [
+                      "local"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>Dropbox - 404</title>",
+                  "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">",
+                  "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />"
+                ],
+                "body_size": 1233,
+                "body": "<!DOCTYPE html>\n<html>\n<head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n<title>Dropbox - 404</title>\n<link href=\"https://cfl.dropboxstatic.com/static/metaserver/static/css/error.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<link rel=\"shortcut icon\" href=\"https://cfl.dropboxstatic.com/static/images/favicon.ico\"/>\n</head>\n<body>\n<div class=\"figure\">\n<img src=\"https://assets.dropbox.com/www/en-us/illustrations/spot/look-magnifying-glass.svg\" alt=\"Error: 404\"/>\n</div>\n<div id=\"errorbox\">\n<div class=\"not-found\"> <h1>Error (404)</h1> We can't find the page you're looking for. <div class=\"not-found--links\"> Here are a few links that may be helpful: <ul> <li><a href=\"https://www.dropbox.com/home?_tk=fof\">Home</a></li> <li><a href=\"https://www.dropbox.com/help?_tk=fof\">Help center</a></li> <li><a href=\"https://www.dropbox.com/login?_tk=fof\">Sign in</a></li> <li><a href=\"https://www.dropbox.com/register?_tk=fof\">Get a free account</a></li> <li><a href=\"https://www.dropbox.com/plus?_tk=fof\">Dropbox Plus</a></li> <li><a href=\"https://www.dropbox.com/business?_tk=fof\">Dropbox Business</a></li> </ul> </div> </div>\n</div>\n\n</body>\n</html>\n",
+                "html_title": "Dropbox - 404",
+                "body_hash_sha256": "7c3062f4433da04b86fb2a95156b3598d5e9e030494f9956755dcff563579a4a",
+                "body_hash_sha1": "82fa924ab283fdced730a5a01980bc16038a4ebc",
+                "supported_versions": [
+                  "HTTP/1.1",
+                  "HTTP/2"
+                ]
+              },
+              "ip": "162.125.248.18"
+            }
+          ]
+        }
+      ],
+      "service_count": 2,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-02-07T16:21:52Z"
+        },
+        "names": [
+          "dropbox.com"
+        ],
+        "forward_dns": {
+          "dropbox.com": {
+            "resolve_time": "2026-01-15T22:18:47Z",
+            "name": "dropbox.com",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

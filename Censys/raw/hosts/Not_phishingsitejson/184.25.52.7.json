@@ -1,0 +1,620 @@
+{
+  "result": {
+    "resource": {
+      "ip": "184.25.52.7",
+      "location": {
+        "continent": "Europe",
+        "country": "Italy",
+        "country_code": "IT",
+        "city": "Milan",
+        "postal_code": "20121",
+        "timezone": "Europe/Rome",
+        "province": "Lombardy",
+        "coordinates": {
+          "latitude": 45.46427,
+          "longitude": 9.18951
+        }
+      },
+      "autonomous_system": {
+        "asn": 16625,
+        "description": "AKAMAI-AS - Akamai Technologies, Inc.",
+        "bgp_prefix": "184.25.52.0/22",
+        "name": "AKAMAI-AS - Akamai Technologies, Inc.",
+        "country_code": "US"
+      },
+      "whois": {
+        "network": {
+          "handle": "AKAMAI",
+          "name": "Akamai Technologies, Inc.",
+          "cidrs": [
+            "184.24.0.0/13"
+          ],
+          "created": "2010-10-11T00:00:00Z",
+          "updated": "2012-03-02T00:00:00Z",
+          "allocation_type": "ALLOCATION"
+        },
+        "organization": {
+          "handle": "AKAMAI",
+          "name": "Akamai Technologies, Inc.",
+          "street": "145 Broadway",
+          "city": "Cambridge",
+          "state": "MA",
+          "postal_code": "02142",
+          "country": "US",
+          "abuse_contacts": [
+            {
+              "handle": "NUS-ARIN",
+              "name": "NOC United States",
+              "email": "abuse@akamai.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "IPADM11-ARIN",
+              "name": "ipadmin",
+              "email": "ip-admin@akamai.com"
+            }
+          ],
+          "tech_contacts": [
+            {
+              "handle": "IPADM11-ARIN",
+              "name": "ipadmin",
+              "email": "ip-admin@akamai.com"
+            },
+            {
+              "handle": "SJS98-ARIN",
+              "name": "Steven Schecter",
+              "email": "ip-admin@akamai.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "type": [
+                "WAF"
+              ],
+              "vendor": "akamai",
+              "product": "app_and_api_protector"
+            },
+            {
+              "vendor": "akamai",
+              "product": "ghost"
+            }
+          ],
+          "labels": [
+            {
+              "value": "WAF"
+            }
+          ],
+          "ip": "184.25.52.7",
+          "scan_time": "2026-02-13T07:48:54Z",
+          "endpoints": [
+            {
+              "hostname": "184.25.52.7",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T07:48:54Z",
+              "http": {
+                "uri": "http://184.25.52.7/",
+                "protocol": "HTTP/1.0",
+                "status_code": 400,
+                "status_reason": "Bad Request",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "310"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Expires": {
+                    "headers": [
+                      "Fri, 13 Feb 2026 07:48:47 GMT"
+                    ]
+                  },
+                  "Mime-Version": {
+                    "headers": [
+                      "1.0"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "AkamaiGHost"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<TITLE>Invalid URL</TITLE>"
+                ],
+                "body_size": 310,
+                "body": "<HTML><HEAD>\n<TITLE>Invalid URL</TITLE>\n</HEAD><BODY>\n<H1>Invalid URL</H1>\nThe requested URL \"&#91;no&#32;URL&#93;\", is invalid.<p>\nReference&#32;&#35;9&#46;8c1645f&#46;1770968927&#46;4c33b2f4\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;9&#46;8c1645f&#46;1770968927&#46;4c33b2f4</P>\n</BODY></HTML>\n",
+                "html_title": "Invalid URL",
+                "body_hash_sha256": "9000b50343acc71434d2efed241373d1350d2410a15b90ff6461b0dae76aaf4f",
+                "body_hash_sha1": "7a5f982dfcfad93fe9a2a89366b096b89b005681",
+                "supported_versions": [
+                  "HTTP/1.0"
+                ]
+              },
+              "ip": "184.25.52.7"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "c5b1071e80b9b1c840f6c42e04d22db2e3faacaf869c3db2e7e3fed3e4bbf4cd",
+            "fingerprint_sha1": "cce0a93d86efb981b52254599ed7a3782aa78c29",
+            "fingerprint_md5": "4a50679ef3a28385cd34e7475ee0c9a3",
+            "tbs_fingerprint_sha256": "0f1d7bac8ac840d02965e96a5a676025a0411606d196ad020eaf2daaf4954fd8",
+            "tbs_no_ct_fingerprint_sha256": "1be3378e94e26e72b0d4617c836c072e77954abeea73b0805e6e0f5e830c7f46",
+            "spki_fingerprint_sha256": "7e039ae5c91e6597c7d28bab7de81bdb19be1d6266aafc200e29aa5206a4122b",
+            "parent_spki_fingerprint_sha256": "f737aa26549dce01eb1dc2e8ce19ecb6692f4f439c946f3b7fae0b7abb3d87d7",
+            "parsed": {
+              "version": 3,
+              "serial_number": "20178316351823878939182085094891295474",
+              "issuer_dn": "C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+              "issuer": {
+                "common_name": [
+                  "DigiCert Global G2 TLS RSA SHA256 2020 CA1"
+                ],
+                "country": [
+                  "US"
+                ],
+                "organization": [
+                  "DigiCert Inc"
+                ]
+              },
+              "subject_dn": "C=US, ST=Massachusetts, L=Cambridge, O=Akamai Technologies\\, Inc., CN=*.test.edgekey.net",
+              "subject": {
+                "common_name": [
+                  "*.test.edgekey.net"
+                ],
+                "country": [
+                  "US"
+                ],
+                "locality": [
+                  "Cambridge"
+                ],
+                "province": [
+                  "Massachusetts"
+                ],
+                "organization": [
+                  "Akamai Technologies, Inc."
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "RSA",
+                  "oid": "1.2.840.113549.1.1.1"
+                },
+                "rsa": {
+                  "exponent": 65537,
+                  "modulus": "ac5489f37bf798db7635ff85b3536b33a259b94bafc8d396f5ace4ee3fa14933a7e197ac0bcb1a86ab764479eb98a5e97482d841d943c18ffefdd094655c00b2364b3fcda35867bea46d3a7e92e3139c9ebd97e3d6ea938195f86c63677c314b1a406fc8ac283a0c747fac8cbc61356c05800815370b3f2c74159da66950b4a9802bc02b3110aea56c4b4b9dec46b346aebb9b777835cf0009c4e5cbf97d325b024e390382542fa5eac0e995ce408caa099b5c2d10d2c564ff26f9029d21cab340a52e9de2bf401df50451c6e0901ecd0a5e5212f87611ce6298db9d80d1ae1878b2f6d248027a92a011a48dd1218927f75a1890ad9dc7fcb16ec81535a92e8f",
+                  "length": 2048
+                },
+                "fingerprint_sha256": "46e5a9d7a0e46b3bf4d2a87e22c2ab349d7048e19e38941999c3b4eaab741b5d"
+              },
+              "validity_period": {
+                "not_before": "2025-05-15T00:00:00Z",
+                "not_after": "2026-05-14T23:59:59Z",
+                "length_seconds": 31536000
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "SHA256-RSA",
+                  "oid": "1.2.840.113549.1.1.11"
+                },
+                "value": "85e9bd12cde2e23f0496961c670ca63d1b2a403d54d0d651991a09bc6208b3d714ddee3362a7c7c1627583739f90361eabdf57fa50de9bcb0c402bc05257c10ebec34c8c8956f7d939ec13d4def82f6ef67caa0218c5094079e590cbb8bfeda9e0293c0647b81837c58cc0a3056056b53911d428b0c32208b3be0636436ca27b3d6ddb631cf71c4564f5d73f253ac7b24f4c41f23b5f875b47281621ce9d5a48a2f1e7138627fe9325699c2a6e94ab34551893621151d53bd43a40534529022c519f050462c54858cb2ebf3d3b52dc8b6e232ab12fb524ecc3feec952f81ce6bf0def4d150740b6a75d586d23a98f5860514d644092eaf51a0335d37219f2769",
+                "valid": true
+              },
+              "serial_number_hex": "0f2e33ce733e736c58db11d40b6f92f2"
+            },
+            "names": [
+              "*.test.edgekey.net",
+              "test.edgekey.net"
+            ],
+            "validation_level": "ov",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "a0d609a7e3c434e878a9a1c1bd065b8dcf33aa7efee1b11bc75cce5e5a042080",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                  "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "0ba8c0d459b76abc0825294f565e24f4f169d4a4819d0692d371522d297724b8",
+                      "2399561127a57125de8cefea610ddf2fa078b5c8067f4e828290bfb860e84b3c"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                  "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "a0d609a7e3c434e878a9a1c1bd065b8dcf33aa7efee1b11bc75cce5e5a042080",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                  "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "a0d609a7e3c434e878a9a1c1bd065b8dcf33aa7efee1b11bc75cce5e5a042080",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                  "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 331255651,
+                  "added_to_ct_at": "2025-06-22T01:52:48Z",
+                  "ct_to_censys_at": "2025-06-22T02:45:40Z"
+                },
+                "comodo_dodo": {
+                  "index": 349814401,
+                  "added_to_ct_at": "2025-05-15T00:11:20Z",
+                  "ct_to_censys_at": "2025-05-18T07:58:46Z"
+                },
+                "comodo_mammoth_2026_h1": {
+                  "index": 32342292,
+                  "added_to_ct_at": "2025-05-15T00:09:30Z",
+                  "ct_to_censys_at": "2025-05-15T00:17:03Z"
+                },
+                "comodo_sabre_2026_h1": {
+                  "index": 35087385,
+                  "added_to_ct_at": "2025-05-15T00:10:41Z",
+                  "ct_to_censys_at": "2025-05-15T00:21:22Z"
+                },
+                "google_argon_2026_h1": {
+                  "index": 147108657,
+                  "added_to_ct_at": "2025-05-15T00:09:29Z",
+                  "ct_to_censys_at": "2025-05-18T02:22:42Z"
+                },
+                "google_xenon_2026_h1": {
+                  "index": 110442170,
+                  "added_to_ct_at": "2025-05-15T00:09:29Z",
+                  "ct_to_censys_at": "2025-05-20T17:23:19Z"
+                },
+                "letsencrypt_ct_oak_2026_h1": {
+                  "index": 48252254,
+                  "added_to_ct_at": "2025-05-15T00:10:12Z",
+                  "ct_to_censys_at": "2025-05-15T00:15:41Z"
+                },
+                "letsencrypt_ct_sycamore_2026_h1": {
+                  "index": 151701,
+                  "added_to_ct_at": "2025-09-14T22:15:56Z",
+                  "ct_to_censys_at": "2025-12-12T14:51:23Z"
+                },
+                "letsencrypt_ct_willow_2026_h1": {
+                  "index": 151759,
+                  "added_to_ct_at": "2025-09-14T22:15:56Z",
+                  "ct_to_censys_at": "2025-12-12T14:52:05Z"
+                },
+                "sectigo_elephant_2026_h1": {
+                  "index": 26824330,
+                  "added_to_ct_at": "2025-05-15T00:09:53Z",
+                  "ct_to_censys_at": "2025-05-15T00:18:36Z"
+                },
+                "sectigo_tiger_2026_h1": {
+                  "index": 26713272,
+                  "added_to_ct_at": "2025-05-15T00:09:35Z",
+                  "ct_to_censys_at": "2025-05-15T00:13:58Z"
+                },
+                "trustasia_log_2026_a": {
+                  "index": 10720238,
+                  "added_to_ct_at": "2025-05-15T00:10:44Z",
+                  "ct_to_censys_at": "2025-05-15T00:30:24Z"
+                },
+                "trustasia_log_2026_b": {
+                  "index": 18940898,
+                  "added_to_ct_at": "2025-07-07T14:17:46Z",
+                  "ct_to_censys_at": "2025-07-07T14:23:29Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2025-05-15T00:07:10Z",
+            "modified_at": "2025-12-12T14:57:48Z",
+            "validated_at": "2026-02-12T23:21:03Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "7e039ae5c91e6597c7d28bab7de81bdb19be1d6266aafc200e29aa5206a4122b",
+            "parent_spki_subject_fingerprint_sha256": "f737aa26549dce01eb1dc2e8ce19ecb6692f4f439c946f3b7fae0b7abb3d87d7"
+          },
+          "software": [
+            {
+              "type": [
+                "WAF"
+              ],
+              "vendor": "akamai",
+              "product": "app_and_api_protector"
+            },
+            {
+              "vendor": "akamai",
+              "product": "ghost"
+            }
+          ],
+          "labels": [
+            {
+              "value": "WAF"
+            }
+          ],
+          "ip": "184.25.52.7",
+          "scan_time": "2026-02-13T02:49:21Z",
+          "tls": {
+            "fingerprint_sha256": "c5b1071e80b9b1c840f6c42e04d22db2e3faacaf869c3db2e7e3fed3e4bbf4cd",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9",
+                "subject_dn": "C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+                "issuer_dn": "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root G2"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "184.25.52.7",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T02:49:21Z",
+              "http": {
+                "uri": "https://184.25.52.7/",
+                "protocol": "HTTP/1.0",
+                "status_code": 400,
+                "status_reason": "Bad Request",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "312"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Expires": {
+                    "headers": [
+                      "Fri, 13 Feb 2026 02:49:20 GMT"
+                    ]
+                  },
+                  "Mime-Version": {
+                    "headers": [
+                      "1.0"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "AkamaiGHost"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<TITLE>Invalid URL</TITLE>"
+                ],
+                "body_size": 312,
+                "body": "<HTML><HEAD>\n<TITLE>Invalid URL</TITLE>\n</HEAD><BODY>\n<H1>Invalid URL</H1>\nThe requested URL \"&#91;no&#32;URL&#93;\", is invalid.<p>\nReference&#32;&#35;9&#46;21c1645f&#46;1770950960&#46;aa3ea806\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;9&#46;21c1645f&#46;1770950960&#46;aa3ea806</P>\n</BODY></HTML>\n",
+                "html_title": "Invalid URL",
+                "body_hash_sha256": "ac9154f03fd8155fe21cc0a6f57fe076db597242b64921704b25f844e8660c4e",
+                "body_hash_sha1": "54582416fd52e35b97808083f44be65a42c157ec",
+                "supported_versions": [
+                  "HTTP/1.0"
+                ]
+              },
+              "ip": "184.25.52.7"
+            }
+          ]
+        }
+      ],
+      "service_count": 2,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-02-13T15:42:21Z",
+          "names": [
+            "a184-25-52-7.deploy.static.akamaitechnologies.com"
+          ]
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

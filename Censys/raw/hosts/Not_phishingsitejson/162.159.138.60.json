@@ -1,0 +1,3670 @@
+{
+  "result": {
+    "resource": {
+      "ip": "162.159.138.60",
+      "location": {
+        "continent": "North America",
+        "country": "United States",
+        "country_code": "US",
+        "city": "San Francisco",
+        "postal_code": "94107",
+        "timezone": "America/Los_Angeles",
+        "province": "California",
+        "coordinates": {
+          "latitude": 37.7621,
+          "longitude": -122.3971
+        }
+      },
+      "autonomous_system": {
+        "asn": 13335,
+        "description": "CLOUDFLARENET - Cloudflare, Inc.",
+        "bgp_prefix": "162.159.128.0/19",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "country_code": "US"
+      },
+      "whois": {
+        "network": {
+          "handle": "CLOUDFLARENET",
+          "name": "Cloudflare, Inc.",
+          "cidrs": [
+            "162.158.0.0/15"
+          ],
+          "created": "2013-05-23T00:00:00Z",
+          "updated": "2024-09-04T00:00:00Z",
+          "allocation_type": "ALLOCATION"
+        },
+        "organization": {
+          "handle": "CLOUD14",
+          "name": "Cloudflare, Inc.",
+          "street": "101 Townsend Street",
+          "city": "San Francisco",
+          "state": "CA",
+          "postal_code": "94107",
+          "country": "US",
+          "abuse_contacts": [
+            {
+              "handle": "ABUSE2916-ARIN",
+              "name": "Abuse",
+              "email": "abuse@cloudflare.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "ADMIN2521-ARIN",
+              "name": "Admin",
+              "email": "rir@cloudflare.com"
+            }
+          ],
+          "tech_contacts": [
+            {
+              "handle": "ADMIN2521-ARIN",
+              "name": "Admin",
+              "email": "rir@cloudflare.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "cloudflare",
+              "product": "cloudflare_load_balancer"
+            },
+            {
+              "type": [
+                "WAF"
+              ],
+              "vendor": "cloudflare",
+              "product": "waf"
+            }
+          ],
+          "labels": [
+            {
+              "value": "WAF"
+            }
+          ],
+          "ip": "162.159.138.60",
+          "scan_time": "2026-02-12T23:05:33Z",
+          "endpoints": [
+            {
+              "hostname": "162.159.138.60",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-12T23:05:33Z",
+              "http": {
+                "uri": "http://162.159.138.60/",
+                "protocol": "HTTP/1.1",
+                "status_code": 403,
+                "status_reason": "Forbidden",
+                "headers": {
+                  "CF-RAY": {
+                    "headers": [
+                      "9ccfbb405c4ddbe7-FRA"
+                    ]
+                  },
+                  "Cache-Control": {
+                    "headers": [
+                      "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Encoding": {
+                    "headers": [
+                      "gzip"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html; charset=UTF-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Expires": {
+                    "headers": [
+                      "Thu, 01 Jan 1970 00:00:01 GMT"
+                    ]
+                  },
+                  "Referrer-Policy": {
+                    "headers": [
+                      "same-origin"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "cloudflare"
+                    ]
+                  },
+                  "Transfer-Encoding": {
+                    "headers": [
+                      "chunked"
+                    ]
+                  },
+                  "Vary": {
+                    "headers": [
+                      "Accept-Encoding"
+                    ]
+                  },
+                  "X-Frame-Options": {
+                    "headers": [
+                      "SAMEORIGIN"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>Direct IP access not allowed | Cloudflare</title>",
+                  "<meta charset=\"UTF-8\" />",
+                  "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />",
+                  "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />",
+                  "<meta name=\"robots\" content=\"noindex, nofollow\" />",
+                  "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />"
+                ],
+                "body_size": 6235,
+                "body": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Direct IP access not allowed | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />\n<meta name=\"robots\" content=\"noindex, nofollow\" />\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n<link rel=\"stylesheet\" id=\"cf_styles-css\" href=\"/cdn-cgi/styles/main.css\" />\n\n\n<script>\n(function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById(\"error-feedback-survey\"),d=document.getElementById(\"error-feedback-success\"),b=new XMLHttpRequest;a={event:\"feedback clicked\",properties:{errorCode:1003,helpful:a,version:1}};b.open(\"POST\",\"https://sparrow.cloudflare.com/api/v1/event\");b.setRequestHeader(\"Content-Type\",\"application/json\");b.setRequestHeader(\"Sparrow-Source-Key\",\"c771f0e4b54944bebf4261d44bd79a1e\");\nb.send(JSON.stringify(a));c.classList.add(\"feedback-hidden\");d.classList.remove(\"feedback-hidden\")};document.addEventListener(\"DOMContentLoaded\",function(){var a=document.getElementById(\"error-feedback\"),c=document.getElementById(\"feedback-button-yes\"),d=document.getElementById(\"feedback-button-no\");\"classList\"in a&&(a.classList.remove(\"feedback-hidden\"),c.addEventListener(\"click\",function(){e(!0)}),d.addEventListener(\"click\",function(){e(!1)}))})}})();\n</script>\n\n<script defer src=\"https://performance.radar.cloudflare.com/beacon.js\"></script>\n</head>\n<body>\n  <div id=\"cf-wrapper\">\n    <div class=\"cf-alert cf-alert-error cf-cookie-error hidden\" id=\"cookie-alert\" data-translate=\"enable_cookies\">Please enable cookies.</div>\n    <div id=\"cf-error-details\" class=\"p-0\">\n      <header class=\"mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased\">\n         <h1 class=\"inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight\">\n           <span data-translate=\"error\">Error</span>\n           <span>1003</span>\n         </h1>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">Ray ID: 9ccfbb405c4ddbe7 &bull;</span>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">2026-02-12 23:05:33 UTC</span>\n        <h2 class=\"text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light\">Direct IP access not allowed</h2>\n      </header>\n\n      <section class=\"w-240 lg:w-full mx-auto mb-8 lg:px-8\">\n          <div id=\"what-happened-section\" class=\"w-1/2 md:w-full\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_happened\">What happened?</h2>\n            <p>You've requested an IP address that is part of the <a href=\"https://www.cloudflare.com/5xx-error-landing/\" target=\"_blank\">Cloudflare</a> network. A valid Host header must be supplied to reach the desired website.</p>\n            \n              <p>Please see <a rel=\"noopener noreferrer\" href=\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1003/\" target=\"_blank\">https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1003/</a> for more details.</p>\n            \n          </div>\n\n          \n          <div id=\"resolution-copy-section\" class=\"w-1/2 mt-6 text-15 leading-normal\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_can_i_do\">What can I do?</h2>\n            <p>If you are interested in learning more about Cloudflare, please <a href=\"https://www.cloudflare.com/5xx-error-landing/\" target=\"_blank\">visit our website</a>.</p>\n          </div>\n          \n      </section>\n\n      <div class=\"feedback-hidden py-8 text-center\" id=\"error-feedback\">\n    <div id=\"error-feedback-survey\" class=\"footer-line-wrapper\">\n        Was this page helpful?\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-yes\" type=\"button\">Yes</button>\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-no\" type=\"button\">No</button>\n    </div>\n    <div class=\"feedback-success feedback-hidden\" id=\"error-feedback-success\">\n        Thank you for your feedback!\n    </div>\n</div>\n\n\n      <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n  <p class=\"text-13\">\n    <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">9ccfbb405c4ddbe7</strong></span>\n    <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    <span id=\"cf-footer-item-ip\" class=\"cf-footer-item hidden sm:block sm:mb-1\">\n      Your IP:\n      <button type=\"button\" id=\"cf-footer-ip-reveal\" class=\"cf-footer-ip-reveal-btn\">Click to reveal</button>\n      <span class=\"hidden\" id=\"cf-footer-ip\">167.94.146.60</span>\n      <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    </span>\n    <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance &amp; security by</span> <a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/5xx-error-landing\" id=\"brand_link\" target=\"_blank\">Cloudflare</a></span>\n    \n  </p>\n  <script>(function(){function d(){var b=a.getElementById(\"cf-footer-item-ip\"),c=a.getElementById(\"cf-footer-ip-reveal\");b&&\"classList\"in b&&(b.classList.remove(\"hidden\"),c.addEventListener(\"click\",function(){c.classList.add(\"hidden\");a.getElementById(\"cf-footer-ip\").classList.remove(\"hidden\")}))}var a=document;document.addEventListener&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n</div><!-- /.error-footer -->\n\n\n    </div><!-- /#cf-error-details -->\n  </div><!-- /#cf-wrapper -->\n\n  <script>\n  window._cf_translation = {};\n  \n  \n</script>\n\n</body>\n</html>\n",
+                "html_title": "Direct IP access not allowed | Cloudflare",
+                "body_hash_sha256": "cdfec829667c8a9d82e25753cbac8f9f1c155c6b18c5e1c81fc65e64823686ec",
+                "body_hash_sha1": "7ccc9220c8d8f01edc3e4ee358e00046e35f6875",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "162.159.138.60"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "e5a7de3bcbb77bad70b49db3b90a7ad86aa1d189a07cb2ecc866032b29759f0d",
+            "fingerprint_sha1": "cf0bba15b0e8e44b392979e7db55ee8bb98444c0",
+            "fingerprint_md5": "3002a857a1470fdc682f75122249f184",
+            "tbs_fingerprint_sha256": "3057203577ea580352ca9871016c3559274bd18027f2ee3e4a2c1deb26bac70b",
+            "tbs_no_ct_fingerprint_sha256": "50351c20ca101193857dff592911aac00a9a6c3f2e82efdf752dd2a70431f027",
+            "spki_fingerprint_sha256": "6f0b92006b1f2c102013e3856c170907d2e398bfc4239837be1045687d91a7b1",
+            "parent_spki_fingerprint_sha256": "d924edad20550295fd418739fd38529ba871d9b95e1c3500889fffa4b474e0ad",
+            "parsed": {
+              "version": 3,
+              "serial_number": "3529003400037497381796313985902597374",
+              "issuer_dn": "C=US, O=Google Trust Services, CN=WE1",
+              "issuer": {
+                "common_name": [
+                  "WE1"
+                ],
+                "country": [
+                  "US"
+                ],
+                "organization": [
+                  "Google Trust Services"
+                ]
+              },
+              "subject_dn": "CN=vimeo.com",
+              "subject": {
+                "common_name": [
+                  "vimeo.com"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "ECDSA",
+                  "oid": "1.2.840.10045.2.1"
+                },
+                "ecdsa": {
+                  "b": "5ac635d8aa3a93e7b3ebbd55769886bc651d06b0cc53b0f63bce3c3e27d2604b",
+                  "curve": "P-256",
+                  "gx": "6b17d1f2e12c4247f8bce6e563a440f277037d812deb33a0f4a13945d898c296",
+                  "gy": "4fe342e2fe1a7f9b8ee7eb4a7c0f9e162bce33576b315ececbb6406837bf51f5",
+                  "length": 256,
+                  "n": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+                  "p": "ffffffff00000001000000000000000000000000ffffffffffffffffffffffff",
+                  "pub": "04a49a0939453b97f0a245ab8cfae990ac3aad79123aa1497890f889012128eba4c6c421586de5a1cbf8c17df7f2e39ef89c9265ca44392feb7cde96ee93050ab8",
+                  "x": "a49a0939453b97f0a245ab8cfae990ac3aad79123aa1497890f889012128eba4",
+                  "y": "c6c421586de5a1cbf8c17df7f2e39ef89c9265ca44392feb7cde96ee93050ab8"
+                },
+                "fingerprint_sha256": "00ca66ad7752e72cf2d6c3a9cc8a4d3f46605e46853d68135b7a39a131480254"
+              },
+              "validity_period": {
+                "not_before": "2026-01-10T11:31:07Z",
+                "not_after": "2026-04-10T12:31:03Z",
+                "length_seconds": 7779597
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "ECDSA-SHA256",
+                  "oid": "1.2.840.10045.4.3.2"
+                },
+                "value": "304402206575819ecc603e6431bccd5f61ef326e69d62d4a73cd53194d2b7a20b1583fa402205c09c1be2f5c6f3f2280f443df14621db9c27d30de7e4530ecc2aa6381043fce",
+                "valid": true
+              },
+              "serial_number_hex": "02a7a94d1120bc050e821dfabcda54fe"
+            },
+            "names": [
+              "*.vimeo.com",
+              "vimeo.com"
+            ],
+            "validation_level": "dv",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "349dfa4058c5e263123b398ae795573c4e1313c83fe68f93556cd5e8031b3c7d"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb",
+                      "b085d70b964f191a73e4af0d54ae7a0e07aafdaf9b71dd0862138ab7325a24a2"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "76b27b80a58027dc3cf1da68dac17010ed93997d0b603e2fadbe85012493b5a7",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                  "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "349dfa4058c5e263123b398ae795573c4e1313c83fe68f93556cd5e8031b3c7d"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "71cca5391f9e794b04802530b363e121da8a3043bb26662fea4dca7fc951a4bd"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb",
+                      "b085d70b964f191a73e4af0d54ae7a0e07aafdaf9b71dd0862138ab7325a24a2"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb",
+                      "bec94911c2955676db6c0a550986d76e3ba005667c442c9762b4fbb773de228c"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "76b27b80a58027dc3cf1da68dac17010ed93997d0b603e2fadbe85012493b5a7",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                  "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "349dfa4058c5e263123b398ae795573c4e1313c83fe68f93556cd5e8031b3c7d"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb",
+                      "b085d70b964f191a73e4af0d54ae7a0e07aafdaf9b71dd0862138ab7325a24a2"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "76b27b80a58027dc3cf1da68dac17010ed93997d0b603e2fadbe85012493b5a7",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                  "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "349dfa4058c5e263123b398ae795573c4e1313c83fe68f93556cd5e8031b3c7d"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb",
+                      "b085d70b964f191a73e4af0d54ae7a0e07aafdaf9b71dd0862138ab7325a24a2"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                  "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 1994704957,
+                  "added_to_ct_at": "2026-01-10T12:34:27Z",
+                  "ct_to_censys_at": "2026-01-10T13:08:25Z"
+                },
+                "google_argon_2026_h1": {
+                  "index": 1682842267,
+                  "added_to_ct_at": "2026-01-10T12:34:06Z",
+                  "ct_to_censys_at": "2026-01-10T12:43:35Z"
+                },
+                "google_xenon_2026_h1": {
+                  "index": 1583426625,
+                  "added_to_ct_at": "2026-01-10T12:34:06Z",
+                  "ct_to_censys_at": "2026-01-10T12:44:21Z"
+                },
+                "sectigo_elephant_2026_h1": {
+                  "index": 1158993838,
+                  "added_to_ct_at": "2026-01-10T12:34:06Z",
+                  "ct_to_censys_at": "2026-01-10T12:44:56Z"
+                },
+                "sectigo_tiger_2026_h1": {
+                  "index": 1023107552,
+                  "added_to_ct_at": "2026-01-10T12:34:06Z",
+                  "ct_to_censys_at": "2026-01-10T12:43:59Z"
+                },
+                "trustasia_log_2026_a": {
+                  "index": 505208969,
+                  "added_to_ct_at": "2026-01-12T05:35:00Z",
+                  "ct_to_censys_at": "2026-01-12T05:45:25Z"
+                },
+                "trustasia_log_2026_b": {
+                  "index": 510400310,
+                  "added_to_ct_at": "2026-01-10T13:46:44Z",
+                  "ct_to_censys_at": "2026-01-10T14:00:46Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2026-01-10T12:37:42Z",
+            "modified_at": "2026-01-12T05:45:25Z",
+            "validated_at": "2026-02-13T02:39:53Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "6f0b92006b1f2c102013e3856c170907d2e398bfc4239837be1045687d91a7b1",
+            "parent_spki_subject_fingerprint_sha256": "d924edad20550295fd418739fd38529ba871d9b95e1c3500889fffa4b474e0ad"
+          },
+          "software": [
+            {
+              "vendor": "cloudflare",
+              "product": "cloudflare_load_balancer"
+            },
+            {
+              "type": [
+                "WAF"
+              ],
+              "vendor": "cloudflare",
+              "product": "waf"
+            }
+          ],
+          "labels": [
+            {
+              "value": "WAF"
+            }
+          ],
+          "ip": "162.159.138.60",
+          "scan_time": "2026-02-13T11:06:32Z",
+          "tls": {
+            "fingerprint_sha256": "e5a7de3bcbb77bad70b49db3b90a7ad86aa1d189a07cb2ecc866032b29759f0d",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                "subject_dn": "C=US, O=Google Trust Services, CN=WE1",
+                "issuer_dn": "C=US, O=Google Trust Services LLC, CN=GTS Root R4"
+              },
+              {
+                "fingerprint_sha256": "76b27b80a58027dc3cf1da68dac17010ed93997d0b603e2fadbe85012493b5a7",
+                "subject_dn": "C=US, O=Google Trust Services LLC, CN=GTS Root R4",
+                "issuer_dn": "C=BE, O=GlobalSign nv-sa, OU=Root CA, CN=GlobalSign Root CA"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "162.159.138.60",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T11:06:32Z",
+              "http": {
+                "uri": "https://162.159.138.60/",
+                "protocol": "HTTP/1.1",
+                "status_code": 403,
+                "status_reason": "Forbidden",
+                "headers": {
+                  "CF-RAY": {
+                    "headers": [
+                      "9cd3db58faa597b9-YYZ"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "151"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "cloudflare"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>403 Forbidden</title>"
+                ],
+                "body_size": 151,
+                "body": "<html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n<hr><center>cloudflare</center>\r\n</body>\r\n</html>\r\n",
+                "html_title": "403 Forbidden",
+                "body_hash_sha256": "eed0b81a2fbdd1c5a9f80705885fc5bbf346ba428a79ff7a13ec8491c6a8e96c",
+                "body_hash_sha1": "441671eacb9398792d435443beaddd3fc5fa1910",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "162.159.138.60"
+            }
+          ]
+        },
+        {
+          "port": 2052,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "cloudflare",
+              "product": "cloudflare_load_balancer"
+            },
+            {
+              "type": [
+                "WAF"
+              ],
+              "vendor": "cloudflare",
+              "product": "waf"
+            }
+          ],
+          "labels": [
+            {
+              "value": "WAF"
+            }
+          ],
+          "ip": "162.159.138.60",
+          "scan_time": "2026-02-12T19:00:46Z",
+          "endpoints": [
+            {
+              "hostname": "162.159.138.60",
+              "port": 2052,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-12T19:00:46Z",
+              "http": {
+                "uri": "http://162.159.138.60:2052/",
+                "protocol": "HTTP/1.1",
+                "status_code": 403,
+                "status_reason": "Forbidden",
+                "headers": {
+                  "CF-RAY": {
+                    "headers": [
+                      "9cce54ac5d8f10ff-ORD"
+                    ]
+                  },
+                  "Cache-Control": {
+                    "headers": [
+                      "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Encoding": {
+                    "headers": [
+                      "gzip"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html; charset=UTF-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Expires": {
+                    "headers": [
+                      "Thu, 01 Jan 1970 00:00:01 GMT"
+                    ]
+                  },
+                  "Referrer-Policy": {
+                    "headers": [
+                      "same-origin"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "cloudflare"
+                    ]
+                  },
+                  "Transfer-Encoding": {
+                    "headers": [
+                      "chunked"
+                    ]
+                  },
+                  "Vary": {
+                    "headers": [
+                      "Accept-Encoding"
+                    ]
+                  },
+                  "X-Frame-Options": {
+                    "headers": [
+                      "SAMEORIGIN"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>Direct IP access not allowed | Cloudflare</title>",
+                  "<meta charset=\"UTF-8\" />",
+                  "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />",
+                  "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />",
+                  "<meta name=\"robots\" content=\"noindex, nofollow\" />",
+                  "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />"
+                ],
+                "body_size": 6236,
+                "body": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Direct IP access not allowed | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />\n<meta name=\"robots\" content=\"noindex, nofollow\" />\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n<link rel=\"stylesheet\" id=\"cf_styles-css\" href=\"/cdn-cgi/styles/main.css\" />\n\n\n<script>\n(function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById(\"error-feedback-survey\"),d=document.getElementById(\"error-feedback-success\"),b=new XMLHttpRequest;a={event:\"feedback clicked\",properties:{errorCode:1003,helpful:a,version:1}};b.open(\"POST\",\"https://sparrow.cloudflare.com/api/v1/event\");b.setRequestHeader(\"Content-Type\",\"application/json\");b.setRequestHeader(\"Sparrow-Source-Key\",\"c771f0e4b54944bebf4261d44bd79a1e\");\nb.send(JSON.stringify(a));c.classList.add(\"feedback-hidden\");d.classList.remove(\"feedback-hidden\")};document.addEventListener(\"DOMContentLoaded\",function(){var a=document.getElementById(\"error-feedback\"),c=document.getElementById(\"feedback-button-yes\"),d=document.getElementById(\"feedback-button-no\");\"classList\"in a&&(a.classList.remove(\"feedback-hidden\"),c.addEventListener(\"click\",function(){e(!0)}),d.addEventListener(\"click\",function(){e(!1)}))})}})();\n</script>\n\n<script defer src=\"https://performance.radar.cloudflare.com/beacon.js\"></script>\n</head>\n<body>\n  <div id=\"cf-wrapper\">\n    <div class=\"cf-alert cf-alert-error cf-cookie-error hidden\" id=\"cookie-alert\" data-translate=\"enable_cookies\">Please enable cookies.</div>\n    <div id=\"cf-error-details\" class=\"p-0\">\n      <header class=\"mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased\">\n         <h1 class=\"inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight\">\n           <span data-translate=\"error\">Error</span>\n           <span>1003</span>\n         </h1>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">Ray ID: 9cce54ac5d8f10ff &bull;</span>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">2026-02-12 19:00:46 UTC</span>\n        <h2 class=\"text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light\">Direct IP access not allowed</h2>\n      </header>\n\n      <section class=\"w-240 lg:w-full mx-auto mb-8 lg:px-8\">\n          <div id=\"what-happened-section\" class=\"w-1/2 md:w-full\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_happened\">What happened?</h2>\n            <p>You've requested an IP address that is part of the <a href=\"https://www.cloudflare.com/5xx-error-landing/\" target=\"_blank\">Cloudflare</a> network. A valid Host header must be supplied to reach the desired website.</p>\n            \n              <p>Please see <a rel=\"noopener noreferrer\" href=\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1003/\" target=\"_blank\">https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1003/</a> for more details.</p>\n            \n          </div>\n\n          \n          <div id=\"resolution-copy-section\" class=\"w-1/2 mt-6 text-15 leading-normal\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_can_i_do\">What can I do?</h2>\n            <p>If you are interested in learning more about Cloudflare, please <a href=\"https://www.cloudflare.com/5xx-error-landing/\" target=\"_blank\">visit our website</a>.</p>\n          </div>\n          \n      </section>\n\n      <div class=\"feedback-hidden py-8 text-center\" id=\"error-feedback\">\n    <div id=\"error-feedback-survey\" class=\"footer-line-wrapper\">\n        Was this page helpful?\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-yes\" type=\"button\">Yes</button>\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-no\" type=\"button\">No</button>\n    </div>\n    <div class=\"feedback-success feedback-hidden\" id=\"error-feedback-success\">\n        Thank you for your feedback!\n    </div>\n</div>\n\n\n      <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n  <p class=\"text-13\">\n    <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">9cce54ac5d8f10ff</strong></span>\n    <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    <span id=\"cf-footer-item-ip\" class=\"cf-footer-item hidden sm:block sm:mb-1\">\n      Your IP:\n      <button type=\"button\" id=\"cf-footer-ip-reveal\" class=\"cf-footer-ip-reveal-btn\">Click to reveal</button>\n      <span class=\"hidden\" id=\"cf-footer-ip\">167.94.138.190</span>\n      <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    </span>\n    <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance &amp; security by</span> <a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/5xx-error-landing\" id=\"brand_link\" target=\"_blank\">Cloudflare</a></span>\n    \n  </p>\n  <script>(function(){function d(){var b=a.getElementById(\"cf-footer-item-ip\"),c=a.getElementById(\"cf-footer-ip-reveal\");b&&\"classList\"in b&&(b.classList.remove(\"hidden\"),c.addEventListener(\"click\",function(){c.classList.add(\"hidden\");a.getElementById(\"cf-footer-ip\").classList.remove(\"hidden\")}))}var a=document;document.addEventListener&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n</div><!-- /.error-footer -->\n\n\n    </div><!-- /#cf-error-details -->\n  </div><!-- /#cf-wrapper -->\n\n  <script>\n  window._cf_translation = {};\n  \n  \n</script>\n\n</body>\n</html>\n",
+                "html_title": "Direct IP access not allowed | Cloudflare",
+                "body_hash_sha256": "a23eb0e8ab663a29b5357580ee21d7fbdd60e76d44cb9bb1b059c3a877d18acf",
+                "body_hash_sha1": "28f3f8be675899ec2da1d2bd8d36ecb5ed5ea112",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "162.159.138.60"
+            }
+          ]
+        },
+        {
+          "port": 2053,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "e5a7de3bcbb77bad70b49db3b90a7ad86aa1d189a07cb2ecc866032b29759f0d",
+            "fingerprint_sha1": "cf0bba15b0e8e44b392979e7db55ee8bb98444c0",
+            "fingerprint_md5": "3002a857a1470fdc682f75122249f184",
+            "tbs_fingerprint_sha256": "3057203577ea580352ca9871016c3559274bd18027f2ee3e4a2c1deb26bac70b",
+            "tbs_no_ct_fingerprint_sha256": "50351c20ca101193857dff592911aac00a9a6c3f2e82efdf752dd2a70431f027",
+            "spki_fingerprint_sha256": "6f0b92006b1f2c102013e3856c170907d2e398bfc4239837be1045687d91a7b1",
+            "parent_spki_fingerprint_sha256": "d924edad20550295fd418739fd38529ba871d9b95e1c3500889fffa4b474e0ad",
+            "parsed": {
+              "version": 3,
+              "serial_number": "3529003400037497381796313985902597374",
+              "issuer_dn": "C=US, O=Google Trust Services, CN=WE1",
+              "issuer": {
+                "common_name": [
+                  "WE1"
+                ],
+                "country": [
+                  "US"
+                ],
+                "organization": [
+                  "Google Trust Services"
+                ]
+              },
+              "subject_dn": "CN=vimeo.com",
+              "subject": {
+                "common_name": [
+                  "vimeo.com"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "ECDSA",
+                  "oid": "1.2.840.10045.2.1"
+                },
+                "ecdsa": {
+                  "b": "5ac635d8aa3a93e7b3ebbd55769886bc651d06b0cc53b0f63bce3c3e27d2604b",
+                  "curve": "P-256",
+                  "gx": "6b17d1f2e12c4247f8bce6e563a440f277037d812deb33a0f4a13945d898c296",
+                  "gy": "4fe342e2fe1a7f9b8ee7eb4a7c0f9e162bce33576b315ececbb6406837bf51f5",
+                  "length": 256,
+                  "n": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+                  "p": "ffffffff00000001000000000000000000000000ffffffffffffffffffffffff",
+                  "pub": "04a49a0939453b97f0a245ab8cfae990ac3aad79123aa1497890f889012128eba4c6c421586de5a1cbf8c17df7f2e39ef89c9265ca44392feb7cde96ee93050ab8",
+                  "x": "a49a0939453b97f0a245ab8cfae990ac3aad79123aa1497890f889012128eba4",
+                  "y": "c6c421586de5a1cbf8c17df7f2e39ef89c9265ca44392feb7cde96ee93050ab8"
+                },
+                "fingerprint_sha256": "00ca66ad7752e72cf2d6c3a9cc8a4d3f46605e46853d68135b7a39a131480254"
+              },
+              "validity_period": {
+                "not_before": "2026-01-10T11:31:07Z",
+                "not_after": "2026-04-10T12:31:03Z",
+                "length_seconds": 7779597
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "ECDSA-SHA256",
+                  "oid": "1.2.840.10045.4.3.2"
+                },
+                "value": "304402206575819ecc603e6431bccd5f61ef326e69d62d4a73cd53194d2b7a20b1583fa402205c09c1be2f5c6f3f2280f443df14621db9c27d30de7e4530ecc2aa6381043fce",
+                "valid": true
+              },
+              "serial_number_hex": "02a7a94d1120bc050e821dfabcda54fe"
+            },
+            "names": [
+              "*.vimeo.com",
+              "vimeo.com"
+            ],
+            "validation_level": "dv",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "349dfa4058c5e263123b398ae795573c4e1313c83fe68f93556cd5e8031b3c7d"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb",
+                      "b085d70b964f191a73e4af0d54ae7a0e07aafdaf9b71dd0862138ab7325a24a2"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "76b27b80a58027dc3cf1da68dac17010ed93997d0b603e2fadbe85012493b5a7",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                  "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "349dfa4058c5e263123b398ae795573c4e1313c83fe68f93556cd5e8031b3c7d"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "71cca5391f9e794b04802530b363e121da8a3043bb26662fea4dca7fc951a4bd"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb",
+                      "b085d70b964f191a73e4af0d54ae7a0e07aafdaf9b71dd0862138ab7325a24a2"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb",
+                      "bec94911c2955676db6c0a550986d76e3ba005667c442c9762b4fbb773de228c"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "76b27b80a58027dc3cf1da68dac17010ed93997d0b603e2fadbe85012493b5a7",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                  "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "349dfa4058c5e263123b398ae795573c4e1313c83fe68f93556cd5e8031b3c7d"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb",
+                      "b085d70b964f191a73e4af0d54ae7a0e07aafdaf9b71dd0862138ab7325a24a2"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "76b27b80a58027dc3cf1da68dac17010ed93997d0b603e2fadbe85012493b5a7",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                  "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "349dfa4058c5e263123b398ae795573c4e1313c83fe68f93556cd5e8031b3c7d"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb",
+                      "b085d70b964f191a73e4af0d54ae7a0e07aafdaf9b71dd0862138ab7325a24a2"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                  "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 1994704957,
+                  "added_to_ct_at": "2026-01-10T12:34:27Z",
+                  "ct_to_censys_at": "2026-01-10T13:08:25Z"
+                },
+                "google_argon_2026_h1": {
+                  "index": 1682842267,
+                  "added_to_ct_at": "2026-01-10T12:34:06Z",
+                  "ct_to_censys_at": "2026-01-10T12:43:35Z"
+                },
+                "google_xenon_2026_h1": {
+                  "index": 1583426625,
+                  "added_to_ct_at": "2026-01-10T12:34:06Z",
+                  "ct_to_censys_at": "2026-01-10T12:44:21Z"
+                },
+                "sectigo_elephant_2026_h1": {
+                  "index": 1158993838,
+                  "added_to_ct_at": "2026-01-10T12:34:06Z",
+                  "ct_to_censys_at": "2026-01-10T12:44:56Z"
+                },
+                "sectigo_tiger_2026_h1": {
+                  "index": 1023107552,
+                  "added_to_ct_at": "2026-01-10T12:34:06Z",
+                  "ct_to_censys_at": "2026-01-10T12:43:59Z"
+                },
+                "trustasia_log_2026_a": {
+                  "index": 505208969,
+                  "added_to_ct_at": "2026-01-12T05:35:00Z",
+                  "ct_to_censys_at": "2026-01-12T05:45:25Z"
+                },
+                "trustasia_log_2026_b": {
+                  "index": 510400310,
+                  "added_to_ct_at": "2026-01-10T13:46:44Z",
+                  "ct_to_censys_at": "2026-01-10T14:00:46Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2026-01-10T12:37:42Z",
+            "modified_at": "2026-01-12T05:45:25Z",
+            "validated_at": "2026-02-13T02:39:53Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "6f0b92006b1f2c102013e3856c170907d2e398bfc4239837be1045687d91a7b1",
+            "parent_spki_subject_fingerprint_sha256": "d924edad20550295fd418739fd38529ba871d9b95e1c3500889fffa4b474e0ad"
+          },
+          "software": [
+            {
+              "vendor": "cloudflare",
+              "product": "cloudflare_load_balancer"
+            },
+            {
+              "type": [
+                "WAF"
+              ],
+              "vendor": "cloudflare",
+              "product": "waf"
+            }
+          ],
+          "labels": [
+            {
+              "value": "WAF"
+            }
+          ],
+          "ip": "162.159.138.60",
+          "scan_time": "2026-02-12T19:56:06Z",
+          "tls": {
+            "fingerprint_sha256": "e5a7de3bcbb77bad70b49db3b90a7ad86aa1d189a07cb2ecc866032b29759f0d",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                "subject_dn": "C=US, O=Google Trust Services, CN=WE1",
+                "issuer_dn": "C=US, O=Google Trust Services LLC, CN=GTS Root R4"
+              },
+              {
+                "fingerprint_sha256": "76b27b80a58027dc3cf1da68dac17010ed93997d0b603e2fadbe85012493b5a7",
+                "subject_dn": "C=US, O=Google Trust Services LLC, CN=GTS Root R4",
+                "issuer_dn": "C=BE, O=GlobalSign nv-sa, OU=Root CA, CN=GlobalSign Root CA"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "162.159.138.60",
+              "port": 2053,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-12T19:56:06Z",
+              "http": {
+                "uri": "https://162.159.138.60:2053/",
+                "protocol": "HTTP/1.1",
+                "status_code": 403,
+                "status_reason": "Forbidden",
+                "headers": {
+                  "CF-RAY": {
+                    "headers": [
+                      "9ccea5aacf5ee826-ORD"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "151"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "cloudflare"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>403 Forbidden</title>"
+                ],
+                "body_size": 151,
+                "body": "<html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n<hr><center>cloudflare</center>\r\n</body>\r\n</html>\r\n",
+                "html_title": "403 Forbidden",
+                "body_hash_sha256": "eed0b81a2fbdd1c5a9f80705885fc5bbf346ba428a79ff7a13ec8491c6a8e96c",
+                "body_hash_sha1": "441671eacb9398792d435443beaddd3fc5fa1910",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "162.159.138.60"
+            }
+          ]
+        },
+        {
+          "port": 2082,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "cloudflare",
+              "product": "cloudflare_load_balancer"
+            },
+            {
+              "type": [
+                "WAF"
+              ],
+              "vendor": "cloudflare",
+              "product": "waf"
+            }
+          ],
+          "labels": [
+            {
+              "value": "WAF"
+            }
+          ],
+          "ip": "162.159.138.60",
+          "scan_time": "2026-02-13T10:55:36Z",
+          "endpoints": [
+            {
+              "hostname": "162.159.138.60",
+              "port": 2082,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T10:55:36Z",
+              "http": {
+                "uri": "http://162.159.138.60:2082/",
+                "protocol": "HTTP/1.1",
+                "status_code": 403,
+                "status_reason": "Forbidden",
+                "headers": {
+                  "CF-RAY": {
+                    "headers": [
+                      "9cd3cb5b3de30cde-ORD"
+                    ]
+                  },
+                  "Cache-Control": {
+                    "headers": [
+                      "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Encoding": {
+                    "headers": [
+                      "gzip"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html; charset=UTF-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Expires": {
+                    "headers": [
+                      "Thu, 01 Jan 1970 00:00:01 GMT"
+                    ]
+                  },
+                  "Referrer-Policy": {
+                    "headers": [
+                      "same-origin"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "cloudflare"
+                    ]
+                  },
+                  "Transfer-Encoding": {
+                    "headers": [
+                      "chunked"
+                    ]
+                  },
+                  "Vary": {
+                    "headers": [
+                      "Accept-Encoding"
+                    ]
+                  },
+                  "X-Frame-Options": {
+                    "headers": [
+                      "SAMEORIGIN"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>Direct IP access not allowed | Cloudflare</title>",
+                  "<meta charset=\"UTF-8\" />",
+                  "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />",
+                  "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />",
+                  "<meta name=\"robots\" content=\"noindex, nofollow\" />",
+                  "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />"
+                ],
+                "body_size": 6237,
+                "body": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Direct IP access not allowed | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />\n<meta name=\"robots\" content=\"noindex, nofollow\" />\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n<link rel=\"stylesheet\" id=\"cf_styles-css\" href=\"/cdn-cgi/styles/main.css\" />\n\n\n<script>\n(function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById(\"error-feedback-survey\"),d=document.getElementById(\"error-feedback-success\"),b=new XMLHttpRequest;a={event:\"feedback clicked\",properties:{errorCode:1003,helpful:a,version:1}};b.open(\"POST\",\"https://sparrow.cloudflare.com/api/v1/event\");b.setRequestHeader(\"Content-Type\",\"application/json\");b.setRequestHeader(\"Sparrow-Source-Key\",\"c771f0e4b54944bebf4261d44bd79a1e\");\nb.send(JSON.stringify(a));c.classList.add(\"feedback-hidden\");d.classList.remove(\"feedback-hidden\")};document.addEventListener(\"DOMContentLoaded\",function(){var a=document.getElementById(\"error-feedback\"),c=document.getElementById(\"feedback-button-yes\"),d=document.getElementById(\"feedback-button-no\");\"classList\"in a&&(a.classList.remove(\"feedback-hidden\"),c.addEventListener(\"click\",function(){e(!0)}),d.addEventListener(\"click\",function(){e(!1)}))})}})();\n</script>\n\n<script defer src=\"https://performance.radar.cloudflare.com/beacon.js\"></script>\n</head>\n<body>\n  <div id=\"cf-wrapper\">\n    <div class=\"cf-alert cf-alert-error cf-cookie-error hidden\" id=\"cookie-alert\" data-translate=\"enable_cookies\">Please enable cookies.</div>\n    <div id=\"cf-error-details\" class=\"p-0\">\n      <header class=\"mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased\">\n         <h1 class=\"inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight\">\n           <span data-translate=\"error\">Error</span>\n           <span>1003</span>\n         </h1>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">Ray ID: 9cd3cb5b3de30cde &bull;</span>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">2026-02-13 10:55:36 UTC</span>\n        <h2 class=\"text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light\">Direct IP access not allowed</h2>\n      </header>\n\n      <section class=\"w-240 lg:w-full mx-auto mb-8 lg:px-8\">\n          <div id=\"what-happened-section\" class=\"w-1/2 md:w-full\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_happened\">What happened?</h2>\n            <p>You've requested an IP address that is part of the <a href=\"https://www.cloudflare.com/5xx-error-landing/\" target=\"_blank\">Cloudflare</a> network. A valid Host header must be supplied to reach the desired website.</p>\n            \n              <p>Please see <a rel=\"noopener noreferrer\" href=\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1003/\" target=\"_blank\">https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1003/</a> for more details.</p>\n            \n          </div>\n\n          \n          <div id=\"resolution-copy-section\" class=\"w-1/2 mt-6 text-15 leading-normal\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_can_i_do\">What can I do?</h2>\n            <p>If you are interested in learning more about Cloudflare, please <a href=\"https://www.cloudflare.com/5xx-error-landing/\" target=\"_blank\">visit our website</a>.</p>\n          </div>\n          \n      </section>\n\n      <div class=\"feedback-hidden py-8 text-center\" id=\"error-feedback\">\n    <div id=\"error-feedback-survey\" class=\"footer-line-wrapper\">\n        Was this page helpful?\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-yes\" type=\"button\">Yes</button>\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-no\" type=\"button\">No</button>\n    </div>\n    <div class=\"feedback-success feedback-hidden\" id=\"error-feedback-success\">\n        Thank you for your feedback!\n    </div>\n</div>\n\n\n      <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n  <p class=\"text-13\">\n    <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">9cd3cb5b3de30cde</strong></span>\n    <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    <span id=\"cf-footer-item-ip\" class=\"cf-footer-item hidden sm:block sm:mb-1\">\n      Your IP:\n      <button type=\"button\" id=\"cf-footer-ip-reveal\" class=\"cf-footer-ip-reveal-btn\">Click to reveal</button>\n      <span class=\"hidden\" id=\"cf-footer-ip\">162.142.125.125</span>\n      <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    </span>\n    <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance &amp; security by</span> <a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/5xx-error-landing\" id=\"brand_link\" target=\"_blank\">Cloudflare</a></span>\n    \n  </p>\n  <script>(function(){function d(){var b=a.getElementById(\"cf-footer-item-ip\"),c=a.getElementById(\"cf-footer-ip-reveal\");b&&\"classList\"in b&&(b.classList.remove(\"hidden\"),c.addEventListener(\"click\",function(){c.classList.add(\"hidden\");a.getElementById(\"cf-footer-ip\").classList.remove(\"hidden\")}))}var a=document;document.addEventListener&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n</div><!-- /.error-footer -->\n\n\n    </div><!-- /#cf-error-details -->\n  </div><!-- /#cf-wrapper -->\n\n  <script>\n  window._cf_translation = {};\n  \n  \n</script>\n\n</body>\n</html>\n",
+                "html_title": "Direct IP access not allowed | Cloudflare",
+                "body_hash_sha256": "2cfff5c12c87fd5fda7b8ab4b434551df3b8894b9249b227862768993e43a682",
+                "body_hash_sha1": "1274518ca48352ab469f522a2b2f8f3ec9547f2a",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "162.159.138.60"
+            }
+          ]
+        },
+        {
+          "port": 2083,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "e5a7de3bcbb77bad70b49db3b90a7ad86aa1d189a07cb2ecc866032b29759f0d",
+            "fingerprint_sha1": "cf0bba15b0e8e44b392979e7db55ee8bb98444c0",
+            "fingerprint_md5": "3002a857a1470fdc682f75122249f184",
+            "tbs_fingerprint_sha256": "3057203577ea580352ca9871016c3559274bd18027f2ee3e4a2c1deb26bac70b",
+            "tbs_no_ct_fingerprint_sha256": "50351c20ca101193857dff592911aac00a9a6c3f2e82efdf752dd2a70431f027",
+            "spki_fingerprint_sha256": "6f0b92006b1f2c102013e3856c170907d2e398bfc4239837be1045687d91a7b1",
+            "parent_spki_fingerprint_sha256": "d924edad20550295fd418739fd38529ba871d9b95e1c3500889fffa4b474e0ad",
+            "parsed": {
+              "version": 3,
+              "serial_number": "3529003400037497381796313985902597374",
+              "issuer_dn": "C=US, O=Google Trust Services, CN=WE1",
+              "issuer": {
+                "common_name": [
+                  "WE1"
+                ],
+                "country": [
+                  "US"
+                ],
+                "organization": [
+                  "Google Trust Services"
+                ]
+              },
+              "subject_dn": "CN=vimeo.com",
+              "subject": {
+                "common_name": [
+                  "vimeo.com"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "ECDSA",
+                  "oid": "1.2.840.10045.2.1"
+                },
+                "ecdsa": {
+                  "b": "5ac635d8aa3a93e7b3ebbd55769886bc651d06b0cc53b0f63bce3c3e27d2604b",
+                  "curve": "P-256",
+                  "gx": "6b17d1f2e12c4247f8bce6e563a440f277037d812deb33a0f4a13945d898c296",
+                  "gy": "4fe342e2fe1a7f9b8ee7eb4a7c0f9e162bce33576b315ececbb6406837bf51f5",
+                  "length": 256,
+                  "n": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+                  "p": "ffffffff00000001000000000000000000000000ffffffffffffffffffffffff",
+                  "pub": "04a49a0939453b97f0a245ab8cfae990ac3aad79123aa1497890f889012128eba4c6c421586de5a1cbf8c17df7f2e39ef89c9265ca44392feb7cde96ee93050ab8",
+                  "x": "a49a0939453b97f0a245ab8cfae990ac3aad79123aa1497890f889012128eba4",
+                  "y": "c6c421586de5a1cbf8c17df7f2e39ef89c9265ca44392feb7cde96ee93050ab8"
+                },
+                "fingerprint_sha256": "00ca66ad7752e72cf2d6c3a9cc8a4d3f46605e46853d68135b7a39a131480254"
+              },
+              "validity_period": {
+                "not_before": "2026-01-10T11:31:07Z",
+                "not_after": "2026-04-10T12:31:03Z",
+                "length_seconds": 7779597
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "ECDSA-SHA256",
+                  "oid": "1.2.840.10045.4.3.2"
+                },
+                "value": "304402206575819ecc603e6431bccd5f61ef326e69d62d4a73cd53194d2b7a20b1583fa402205c09c1be2f5c6f3f2280f443df14621db9c27d30de7e4530ecc2aa6381043fce",
+                "valid": true
+              },
+              "serial_number_hex": "02a7a94d1120bc050e821dfabcda54fe"
+            },
+            "names": [
+              "*.vimeo.com",
+              "vimeo.com"
+            ],
+            "validation_level": "dv",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "349dfa4058c5e263123b398ae795573c4e1313c83fe68f93556cd5e8031b3c7d"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb",
+                      "b085d70b964f191a73e4af0d54ae7a0e07aafdaf9b71dd0862138ab7325a24a2"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "76b27b80a58027dc3cf1da68dac17010ed93997d0b603e2fadbe85012493b5a7",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                  "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "349dfa4058c5e263123b398ae795573c4e1313c83fe68f93556cd5e8031b3c7d"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "71cca5391f9e794b04802530b363e121da8a3043bb26662fea4dca7fc951a4bd"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb",
+                      "b085d70b964f191a73e4af0d54ae7a0e07aafdaf9b71dd0862138ab7325a24a2"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb",
+                      "bec94911c2955676db6c0a550986d76e3ba005667c442c9762b4fbb773de228c"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "76b27b80a58027dc3cf1da68dac17010ed93997d0b603e2fadbe85012493b5a7",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                  "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "349dfa4058c5e263123b398ae795573c4e1313c83fe68f93556cd5e8031b3c7d"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb",
+                      "b085d70b964f191a73e4af0d54ae7a0e07aafdaf9b71dd0862138ab7325a24a2"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "76b27b80a58027dc3cf1da68dac17010ed93997d0b603e2fadbe85012493b5a7",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                  "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "349dfa4058c5e263123b398ae795573c4e1313c83fe68f93556cd5e8031b3c7d"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb",
+                      "b085d70b964f191a73e4af0d54ae7a0e07aafdaf9b71dd0862138ab7325a24a2"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                  "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 1994704957,
+                  "added_to_ct_at": "2026-01-10T12:34:27Z",
+                  "ct_to_censys_at": "2026-01-10T13:08:25Z"
+                },
+                "google_argon_2026_h1": {
+                  "index": 1682842267,
+                  "added_to_ct_at": "2026-01-10T12:34:06Z",
+                  "ct_to_censys_at": "2026-01-10T12:43:35Z"
+                },
+                "google_xenon_2026_h1": {
+                  "index": 1583426625,
+                  "added_to_ct_at": "2026-01-10T12:34:06Z",
+                  "ct_to_censys_at": "2026-01-10T12:44:21Z"
+                },
+                "sectigo_elephant_2026_h1": {
+                  "index": 1158993838,
+                  "added_to_ct_at": "2026-01-10T12:34:06Z",
+                  "ct_to_censys_at": "2026-01-10T12:44:56Z"
+                },
+                "sectigo_tiger_2026_h1": {
+                  "index": 1023107552,
+                  "added_to_ct_at": "2026-01-10T12:34:06Z",
+                  "ct_to_censys_at": "2026-01-10T12:43:59Z"
+                },
+                "trustasia_log_2026_a": {
+                  "index": 505208969,
+                  "added_to_ct_at": "2026-01-12T05:35:00Z",
+                  "ct_to_censys_at": "2026-01-12T05:45:25Z"
+                },
+                "trustasia_log_2026_b": {
+                  "index": 510400310,
+                  "added_to_ct_at": "2026-01-10T13:46:44Z",
+                  "ct_to_censys_at": "2026-01-10T14:00:46Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2026-01-10T12:37:42Z",
+            "modified_at": "2026-01-12T05:45:25Z",
+            "validated_at": "2026-02-13T02:39:53Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "6f0b92006b1f2c102013e3856c170907d2e398bfc4239837be1045687d91a7b1",
+            "parent_spki_subject_fingerprint_sha256": "d924edad20550295fd418739fd38529ba871d9b95e1c3500889fffa4b474e0ad"
+          },
+          "software": [
+            {
+              "vendor": "cloudflare",
+              "product": "cloudflare_load_balancer"
+            },
+            {
+              "type": [
+                "WAF"
+              ],
+              "vendor": "cloudflare",
+              "product": "waf"
+            }
+          ],
+          "labels": [
+            {
+              "value": "WAF"
+            }
+          ],
+          "ip": "162.159.138.60",
+          "scan_time": "2026-02-13T11:23:00Z",
+          "tls": {
+            "fingerprint_sha256": "e5a7de3bcbb77bad70b49db3b90a7ad86aa1d189a07cb2ecc866032b29759f0d",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                "subject_dn": "C=US, O=Google Trust Services, CN=WE1",
+                "issuer_dn": "C=US, O=Google Trust Services LLC, CN=GTS Root R4"
+              },
+              {
+                "fingerprint_sha256": "76b27b80a58027dc3cf1da68dac17010ed93997d0b603e2fadbe85012493b5a7",
+                "subject_dn": "C=US, O=Google Trust Services LLC, CN=GTS Root R4",
+                "issuer_dn": "C=BE, O=GlobalSign nv-sa, OU=Root CA, CN=GlobalSign Root CA"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "162.159.138.60",
+              "port": 2083,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T11:23:00Z",
+              "http": {
+                "uri": "https://162.159.138.60:2083/",
+                "protocol": "HTTP/1.1",
+                "status_code": 403,
+                "status_reason": "Forbidden",
+                "headers": {
+                  "CF-RAY": {
+                    "headers": [
+                      "9cd3f37d8a4aa29d-HKG"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "151"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "cloudflare"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>403 Forbidden</title>"
+                ],
+                "body_size": 151,
+                "body": "<html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n<hr><center>cloudflare</center>\r\n</body>\r\n</html>\r\n",
+                "html_title": "403 Forbidden",
+                "body_hash_sha256": "eed0b81a2fbdd1c5a9f80705885fc5bbf346ba428a79ff7a13ec8491c6a8e96c",
+                "body_hash_sha1": "441671eacb9398792d435443beaddd3fc5fa1910",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "162.159.138.60"
+            }
+          ]
+        },
+        {
+          "port": 2086,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "cloudflare",
+              "product": "cloudflare_load_balancer"
+            },
+            {
+              "type": [
+                "WAF"
+              ],
+              "vendor": "cloudflare",
+              "product": "waf"
+            }
+          ],
+          "labels": [
+            {
+              "value": "WAF"
+            }
+          ],
+          "ip": "162.159.138.60",
+          "scan_time": "2026-02-13T13:58:39Z",
+          "endpoints": [
+            {
+              "hostname": "162.159.138.60",
+              "port": 2086,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T13:58:39Z",
+              "http": {
+                "uri": "http://162.159.138.60:2086/",
+                "protocol": "HTTP/1.1",
+                "status_code": 403,
+                "status_reason": "Forbidden",
+                "headers": {
+                  "CF-RAY": {
+                    "headers": [
+                      "9cd4d77fefa17a44-ORD"
+                    ]
+                  },
+                  "Cache-Control": {
+                    "headers": [
+                      "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Encoding": {
+                    "headers": [
+                      "gzip"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html; charset=UTF-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Expires": {
+                    "headers": [
+                      "Thu, 01 Jan 1970 00:00:01 GMT"
+                    ]
+                  },
+                  "Referrer-Policy": {
+                    "headers": [
+                      "same-origin"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "cloudflare"
+                    ]
+                  },
+                  "Transfer-Encoding": {
+                    "headers": [
+                      "chunked"
+                    ]
+                  },
+                  "Vary": {
+                    "headers": [
+                      "Accept-Encoding"
+                    ]
+                  },
+                  "X-Frame-Options": {
+                    "headers": [
+                      "SAMEORIGIN"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>Direct IP access not allowed | Cloudflare</title>",
+                  "<meta charset=\"UTF-8\" />",
+                  "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />",
+                  "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />",
+                  "<meta name=\"robots\" content=\"noindex, nofollow\" />",
+                  "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />"
+                ],
+                "body_size": 6236,
+                "body": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Direct IP access not allowed | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />\n<meta name=\"robots\" content=\"noindex, nofollow\" />\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n<link rel=\"stylesheet\" id=\"cf_styles-css\" href=\"/cdn-cgi/styles/main.css\" />\n\n\n<script>\n(function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById(\"error-feedback-survey\"),d=document.getElementById(\"error-feedback-success\"),b=new XMLHttpRequest;a={event:\"feedback clicked\",properties:{errorCode:1003,helpful:a,version:1}};b.open(\"POST\",\"https://sparrow.cloudflare.com/api/v1/event\");b.setRequestHeader(\"Content-Type\",\"application/json\");b.setRequestHeader(\"Sparrow-Source-Key\",\"c771f0e4b54944bebf4261d44bd79a1e\");\nb.send(JSON.stringify(a));c.classList.add(\"feedback-hidden\");d.classList.remove(\"feedback-hidden\")};document.addEventListener(\"DOMContentLoaded\",function(){var a=document.getElementById(\"error-feedback\"),c=document.getElementById(\"feedback-button-yes\"),d=document.getElementById(\"feedback-button-no\");\"classList\"in a&&(a.classList.remove(\"feedback-hidden\"),c.addEventListener(\"click\",function(){e(!0)}),d.addEventListener(\"click\",function(){e(!1)}))})}})();\n</script>\n\n<script defer src=\"https://performance.radar.cloudflare.com/beacon.js\"></script>\n</head>\n<body>\n  <div id=\"cf-wrapper\">\n    <div class=\"cf-alert cf-alert-error cf-cookie-error hidden\" id=\"cookie-alert\" data-translate=\"enable_cookies\">Please enable cookies.</div>\n    <div id=\"cf-error-details\" class=\"p-0\">\n      <header class=\"mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased\">\n         <h1 class=\"inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight\">\n           <span data-translate=\"error\">Error</span>\n           <span>1003</span>\n         </h1>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">Ray ID: 9cd4d77fefa17a44 &bull;</span>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">2026-02-13 13:58:39 UTC</span>\n        <h2 class=\"text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light\">Direct IP access not allowed</h2>\n      </header>\n\n      <section class=\"w-240 lg:w-full mx-auto mb-8 lg:px-8\">\n          <div id=\"what-happened-section\" class=\"w-1/2 md:w-full\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_happened\">What happened?</h2>\n            <p>You've requested an IP address that is part of the <a href=\"https://www.cloudflare.com/5xx-error-landing/\" target=\"_blank\">Cloudflare</a> network. A valid Host header must be supplied to reach the desired website.</p>\n            \n              <p>Please see <a rel=\"noopener noreferrer\" href=\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1003/\" target=\"_blank\">https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1003/</a> for more details.</p>\n            \n          </div>\n\n          \n          <div id=\"resolution-copy-section\" class=\"w-1/2 mt-6 text-15 leading-normal\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_can_i_do\">What can I do?</h2>\n            <p>If you are interested in learning more about Cloudflare, please <a href=\"https://www.cloudflare.com/5xx-error-landing/\" target=\"_blank\">visit our website</a>.</p>\n          </div>\n          \n      </section>\n\n      <div class=\"feedback-hidden py-8 text-center\" id=\"error-feedback\">\n    <div id=\"error-feedback-survey\" class=\"footer-line-wrapper\">\n        Was this page helpful?\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-yes\" type=\"button\">Yes</button>\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-no\" type=\"button\">No</button>\n    </div>\n    <div class=\"feedback-success feedback-hidden\" id=\"error-feedback-success\">\n        Thank you for your feedback!\n    </div>\n</div>\n\n\n      <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n  <p class=\"text-13\">\n    <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">9cd4d77fefa17a44</strong></span>\n    <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    <span id=\"cf-footer-item-ip\" class=\"cf-footer-item hidden sm:block sm:mb-1\">\n      Your IP:\n      <button type=\"button\" id=\"cf-footer-ip-reveal\" class=\"cf-footer-ip-reveal-btn\">Click to reveal</button>\n      <span class=\"hidden\" id=\"cf-footer-ip\">206.168.34.124</span>\n      <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    </span>\n    <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance &amp; security by</span> <a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/5xx-error-landing\" id=\"brand_link\" target=\"_blank\">Cloudflare</a></span>\n    \n  </p>\n  <script>(function(){function d(){var b=a.getElementById(\"cf-footer-item-ip\"),c=a.getElementById(\"cf-footer-ip-reveal\");b&&\"classList\"in b&&(b.classList.remove(\"hidden\"),c.addEventListener(\"click\",function(){c.classList.add(\"hidden\");a.getElementById(\"cf-footer-ip\").classList.remove(\"hidden\")}))}var a=document;document.addEventListener&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n</div><!-- /.error-footer -->\n\n\n    </div><!-- /#cf-error-details -->\n  </div><!-- /#cf-wrapper -->\n\n  <script>\n  window._cf_translation = {};\n  \n  \n</script>\n\n</body>\n</html>\n",
+                "html_title": "Direct IP access not allowed | Cloudflare",
+                "body_hash_sha256": "7b71d6c05017ae9d87513eb0152535a15e1e11529cfbcbb6e81470d5ef27e0e2",
+                "body_hash_sha1": "c529f19f8711eb14adb7b28e1551ad4da0831dcf",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "162.159.138.60"
+            }
+          ]
+        },
+        {
+          "port": 2087,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "e5a7de3bcbb77bad70b49db3b90a7ad86aa1d189a07cb2ecc866032b29759f0d",
+            "fingerprint_sha1": "cf0bba15b0e8e44b392979e7db55ee8bb98444c0",
+            "fingerprint_md5": "3002a857a1470fdc682f75122249f184",
+            "tbs_fingerprint_sha256": "3057203577ea580352ca9871016c3559274bd18027f2ee3e4a2c1deb26bac70b",
+            "tbs_no_ct_fingerprint_sha256": "50351c20ca101193857dff592911aac00a9a6c3f2e82efdf752dd2a70431f027",
+            "spki_fingerprint_sha256": "6f0b92006b1f2c102013e3856c170907d2e398bfc4239837be1045687d91a7b1",
+            "parent_spki_fingerprint_sha256": "d924edad20550295fd418739fd38529ba871d9b95e1c3500889fffa4b474e0ad",
+            "parsed": {
+              "version": 3,
+              "serial_number": "3529003400037497381796313985902597374",
+              "issuer_dn": "C=US, O=Google Trust Services, CN=WE1",
+              "issuer": {
+                "common_name": [
+                  "WE1"
+                ],
+                "country": [
+                  "US"
+                ],
+                "organization": [
+                  "Google Trust Services"
+                ]
+              },
+              "subject_dn": "CN=vimeo.com",
+              "subject": {
+                "common_name": [
+                  "vimeo.com"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "ECDSA",
+                  "oid": "1.2.840.10045.2.1"
+                },
+                "ecdsa": {
+                  "b": "5ac635d8aa3a93e7b3ebbd55769886bc651d06b0cc53b0f63bce3c3e27d2604b",
+                  "curve": "P-256",
+                  "gx": "6b17d1f2e12c4247f8bce6e563a440f277037d812deb33a0f4a13945d898c296",
+                  "gy": "4fe342e2fe1a7f9b8ee7eb4a7c0f9e162bce33576b315ececbb6406837bf51f5",
+                  "length": 256,
+                  "n": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+                  "p": "ffffffff00000001000000000000000000000000ffffffffffffffffffffffff",
+                  "pub": "04a49a0939453b97f0a245ab8cfae990ac3aad79123aa1497890f889012128eba4c6c421586de5a1cbf8c17df7f2e39ef89c9265ca44392feb7cde96ee93050ab8",
+                  "x": "a49a0939453b97f0a245ab8cfae990ac3aad79123aa1497890f889012128eba4",
+                  "y": "c6c421586de5a1cbf8c17df7f2e39ef89c9265ca44392feb7cde96ee93050ab8"
+                },
+                "fingerprint_sha256": "00ca66ad7752e72cf2d6c3a9cc8a4d3f46605e46853d68135b7a39a131480254"
+              },
+              "validity_period": {
+                "not_before": "2026-01-10T11:31:07Z",
+                "not_after": "2026-04-10T12:31:03Z",
+                "length_seconds": 7779597
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "ECDSA-SHA256",
+                  "oid": "1.2.840.10045.4.3.2"
+                },
+                "value": "304402206575819ecc603e6431bccd5f61ef326e69d62d4a73cd53194d2b7a20b1583fa402205c09c1be2f5c6f3f2280f443df14621db9c27d30de7e4530ecc2aa6381043fce",
+                "valid": true
+              },
+              "serial_number_hex": "02a7a94d1120bc050e821dfabcda54fe"
+            },
+            "names": [
+              "*.vimeo.com",
+              "vimeo.com"
+            ],
+            "validation_level": "dv",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "349dfa4058c5e263123b398ae795573c4e1313c83fe68f93556cd5e8031b3c7d"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb",
+                      "b085d70b964f191a73e4af0d54ae7a0e07aafdaf9b71dd0862138ab7325a24a2"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "76b27b80a58027dc3cf1da68dac17010ed93997d0b603e2fadbe85012493b5a7",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                  "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "349dfa4058c5e263123b398ae795573c4e1313c83fe68f93556cd5e8031b3c7d"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "71cca5391f9e794b04802530b363e121da8a3043bb26662fea4dca7fc951a4bd"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb",
+                      "b085d70b964f191a73e4af0d54ae7a0e07aafdaf9b71dd0862138ab7325a24a2"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb",
+                      "bec94911c2955676db6c0a550986d76e3ba005667c442c9762b4fbb773de228c"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "76b27b80a58027dc3cf1da68dac17010ed93997d0b603e2fadbe85012493b5a7",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                  "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "349dfa4058c5e263123b398ae795573c4e1313c83fe68f93556cd5e8031b3c7d"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb",
+                      "b085d70b964f191a73e4af0d54ae7a0e07aafdaf9b71dd0862138ab7325a24a2"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "76b27b80a58027dc3cf1da68dac17010ed93997d0b603e2fadbe85012493b5a7",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                  "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "349dfa4058c5e263123b398ae795573c4e1313c83fe68f93556cd5e8031b3c7d"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb",
+                      "b085d70b964f191a73e4af0d54ae7a0e07aafdaf9b71dd0862138ab7325a24a2"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                  "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 1994704957,
+                  "added_to_ct_at": "2026-01-10T12:34:27Z",
+                  "ct_to_censys_at": "2026-01-10T13:08:25Z"
+                },
+                "google_argon_2026_h1": {
+                  "index": 1682842267,
+                  "added_to_ct_at": "2026-01-10T12:34:06Z",
+                  "ct_to_censys_at": "2026-01-10T12:43:35Z"
+                },
+                "google_xenon_2026_h1": {
+                  "index": 1583426625,
+                  "added_to_ct_at": "2026-01-10T12:34:06Z",
+                  "ct_to_censys_at": "2026-01-10T12:44:21Z"
+                },
+                "sectigo_elephant_2026_h1": {
+                  "index": 1158993838,
+                  "added_to_ct_at": "2026-01-10T12:34:06Z",
+                  "ct_to_censys_at": "2026-01-10T12:44:56Z"
+                },
+                "sectigo_tiger_2026_h1": {
+                  "index": 1023107552,
+                  "added_to_ct_at": "2026-01-10T12:34:06Z",
+                  "ct_to_censys_at": "2026-01-10T12:43:59Z"
+                },
+                "trustasia_log_2026_a": {
+                  "index": 505208969,
+                  "added_to_ct_at": "2026-01-12T05:35:00Z",
+                  "ct_to_censys_at": "2026-01-12T05:45:25Z"
+                },
+                "trustasia_log_2026_b": {
+                  "index": 510400310,
+                  "added_to_ct_at": "2026-01-10T13:46:44Z",
+                  "ct_to_censys_at": "2026-01-10T14:00:46Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2026-01-10T12:37:42Z",
+            "modified_at": "2026-01-12T05:45:25Z",
+            "validated_at": "2026-02-13T02:39:53Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "6f0b92006b1f2c102013e3856c170907d2e398bfc4239837be1045687d91a7b1",
+            "parent_spki_subject_fingerprint_sha256": "d924edad20550295fd418739fd38529ba871d9b95e1c3500889fffa4b474e0ad"
+          },
+          "software": [
+            {
+              "vendor": "cloudflare",
+              "product": "cloudflare_load_balancer"
+            },
+            {
+              "type": [
+                "WAF"
+              ],
+              "vendor": "cloudflare",
+              "product": "waf"
+            }
+          ],
+          "labels": [
+            {
+              "value": "WAF"
+            }
+          ],
+          "ip": "162.159.138.60",
+          "scan_time": "2026-02-13T08:22:19Z",
+          "tls": {
+            "fingerprint_sha256": "e5a7de3bcbb77bad70b49db3b90a7ad86aa1d189a07cb2ecc866032b29759f0d",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                "subject_dn": "C=US, O=Google Trust Services, CN=WE1",
+                "issuer_dn": "C=US, O=Google Trust Services LLC, CN=GTS Root R4"
+              },
+              {
+                "fingerprint_sha256": "76b27b80a58027dc3cf1da68dac17010ed93997d0b603e2fadbe85012493b5a7",
+                "subject_dn": "C=US, O=Google Trust Services LLC, CN=GTS Root R4",
+                "issuer_dn": "C=BE, O=GlobalSign nv-sa, OU=Root CA, CN=GlobalSign Root CA"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "162.159.138.60",
+              "port": 2087,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T08:22:19Z",
+              "http": {
+                "uri": "https://162.159.138.60:2087/",
+                "protocol": "HTTP/1.1",
+                "status_code": 403,
+                "status_reason": "Forbidden",
+                "headers": {
+                  "CF-RAY": {
+                    "headers": [
+                      "9cd2ead479f1d36e-FRA"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "151"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "cloudflare"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>403 Forbidden</title>"
+                ],
+                "body_size": 151,
+                "body": "<html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n<hr><center>cloudflare</center>\r\n</body>\r\n</html>\r\n",
+                "html_title": "403 Forbidden",
+                "body_hash_sha256": "eed0b81a2fbdd1c5a9f80705885fc5bbf346ba428a79ff7a13ec8491c6a8e96c",
+                "body_hash_sha1": "441671eacb9398792d435443beaddd3fc5fa1910",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "162.159.138.60"
+            }
+          ]
+        },
+        {
+          "port": 2095,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "cloudflare",
+              "product": "cloudflare_load_balancer"
+            },
+            {
+              "type": [
+                "WAF"
+              ],
+              "vendor": "cloudflare",
+              "product": "waf"
+            }
+          ],
+          "labels": [
+            {
+              "value": "WAF"
+            }
+          ],
+          "ip": "162.159.138.60",
+          "scan_time": "2026-02-12T20:59:14Z",
+          "endpoints": [
+            {
+              "hostname": "162.159.138.60",
+              "port": 2095,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-12T20:59:14Z",
+              "http": {
+                "uri": "http://162.159.138.60:2095/",
+                "protocol": "HTTP/1.1",
+                "status_code": 403,
+                "status_reason": "Forbidden",
+                "headers": {
+                  "CF-RAY": {
+                    "headers": [
+                      "9ccf023209ff2309-ORD"
+                    ]
+                  },
+                  "Cache-Control": {
+                    "headers": [
+                      "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Encoding": {
+                    "headers": [
+                      "gzip"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html; charset=UTF-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Expires": {
+                    "headers": [
+                      "Thu, 01 Jan 1970 00:00:01 GMT"
+                    ]
+                  },
+                  "Referrer-Policy": {
+                    "headers": [
+                      "same-origin"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "cloudflare"
+                    ]
+                  },
+                  "Transfer-Encoding": {
+                    "headers": [
+                      "chunked"
+                    ]
+                  },
+                  "Vary": {
+                    "headers": [
+                      "Accept-Encoding"
+                    ]
+                  },
+                  "X-Frame-Options": {
+                    "headers": [
+                      "SAMEORIGIN"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>Direct IP access not allowed | Cloudflare</title>",
+                  "<meta charset=\"UTF-8\" />",
+                  "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />",
+                  "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />",
+                  "<meta name=\"robots\" content=\"noindex, nofollow\" />",
+                  "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />"
+                ],
+                "body_size": 6236,
+                "body": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Direct IP access not allowed | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />\n<meta name=\"robots\" content=\"noindex, nofollow\" />\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n<link rel=\"stylesheet\" id=\"cf_styles-css\" href=\"/cdn-cgi/styles/main.css\" />\n\n\n<script>\n(function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById(\"error-feedback-survey\"),d=document.getElementById(\"error-feedback-success\"),b=new XMLHttpRequest;a={event:\"feedback clicked\",properties:{errorCode:1003,helpful:a,version:1}};b.open(\"POST\",\"https://sparrow.cloudflare.com/api/v1/event\");b.setRequestHeader(\"Content-Type\",\"application/json\");b.setRequestHeader(\"Sparrow-Source-Key\",\"c771f0e4b54944bebf4261d44bd79a1e\");\nb.send(JSON.stringify(a));c.classList.add(\"feedback-hidden\");d.classList.remove(\"feedback-hidden\")};document.addEventListener(\"DOMContentLoaded\",function(){var a=document.getElementById(\"error-feedback\"),c=document.getElementById(\"feedback-button-yes\"),d=document.getElementById(\"feedback-button-no\");\"classList\"in a&&(a.classList.remove(\"feedback-hidden\"),c.addEventListener(\"click\",function(){e(!0)}),d.addEventListener(\"click\",function(){e(!1)}))})}})();\n</script>\n\n<script defer src=\"https://performance.radar.cloudflare.com/beacon.js\"></script>\n</head>\n<body>\n  <div id=\"cf-wrapper\">\n    <div class=\"cf-alert cf-alert-error cf-cookie-error hidden\" id=\"cookie-alert\" data-translate=\"enable_cookies\">Please enable cookies.</div>\n    <div id=\"cf-error-details\" class=\"p-0\">\n      <header class=\"mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased\">\n         <h1 class=\"inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight\">\n           <span data-translate=\"error\">Error</span>\n           <span>1003</span>\n         </h1>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">Ray ID: 9ccf023209ff2309 &bull;</span>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">2026-02-12 20:59:13 UTC</span>\n        <h2 class=\"text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light\">Direct IP access not allowed</h2>\n      </header>\n\n      <section class=\"w-240 lg:w-full mx-auto mb-8 lg:px-8\">\n          <div id=\"what-happened-section\" class=\"w-1/2 md:w-full\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_happened\">What happened?</h2>\n            <p>You've requested an IP address that is part of the <a href=\"https://www.cloudflare.com/5xx-error-landing/\" target=\"_blank\">Cloudflare</a> network. A valid Host header must be supplied to reach the desired website.</p>\n            \n              <p>Please see <a rel=\"noopener noreferrer\" href=\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1003/\" target=\"_blank\">https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1003/</a> for more details.</p>\n            \n          </div>\n\n          \n          <div id=\"resolution-copy-section\" class=\"w-1/2 mt-6 text-15 leading-normal\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_can_i_do\">What can I do?</h2>\n            <p>If you are interested in learning more about Cloudflare, please <a href=\"https://www.cloudflare.com/5xx-error-landing/\" target=\"_blank\">visit our website</a>.</p>\n          </div>\n          \n      </section>\n\n      <div class=\"feedback-hidden py-8 text-center\" id=\"error-feedback\">\n    <div id=\"error-feedback-survey\" class=\"footer-line-wrapper\">\n        Was this page helpful?\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-yes\" type=\"button\">Yes</button>\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-no\" type=\"button\">No</button>\n    </div>\n    <div class=\"feedback-success feedback-hidden\" id=\"error-feedback-success\">\n        Thank you for your feedback!\n    </div>\n</div>\n\n\n      <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n  <p class=\"text-13\">\n    <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">9ccf023209ff2309</strong></span>\n    <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    <span id=\"cf-footer-item-ip\" class=\"cf-footer-item hidden sm:block sm:mb-1\">\n      Your IP:\n      <button type=\"button\" id=\"cf-footer-ip-reveal\" class=\"cf-footer-ip-reveal-btn\">Click to reveal</button>\n      <span class=\"hidden\" id=\"cf-footer-ip\">167.94.138.192</span>\n      <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    </span>\n    <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance &amp; security by</span> <a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/5xx-error-landing\" id=\"brand_link\" target=\"_blank\">Cloudflare</a></span>\n    \n  </p>\n  <script>(function(){function d(){var b=a.getElementById(\"cf-footer-item-ip\"),c=a.getElementById(\"cf-footer-ip-reveal\");b&&\"classList\"in b&&(b.classList.remove(\"hidden\"),c.addEventListener(\"click\",function(){c.classList.add(\"hidden\");a.getElementById(\"cf-footer-ip\").classList.remove(\"hidden\")}))}var a=document;document.addEventListener&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n</div><!-- /.error-footer -->\n\n\n    </div><!-- /#cf-error-details -->\n  </div><!-- /#cf-wrapper -->\n\n  <script>\n  window._cf_translation = {};\n  \n  \n</script>\n\n</body>\n</html>\n",
+                "html_title": "Direct IP access not allowed | Cloudflare",
+                "body_hash_sha256": "25f8431bcefb807bd2efe1e246c1dbba89ee452edc8c3e614e9262644ebd7d53",
+                "body_hash_sha1": "0d8747ee6e00eb72b4a328f1bfd0a04d675e0c44",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "162.159.138.60"
+            }
+          ]
+        },
+        {
+          "port": 2096,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "e5a7de3bcbb77bad70b49db3b90a7ad86aa1d189a07cb2ecc866032b29759f0d",
+            "fingerprint_sha1": "cf0bba15b0e8e44b392979e7db55ee8bb98444c0",
+            "fingerprint_md5": "3002a857a1470fdc682f75122249f184",
+            "tbs_fingerprint_sha256": "3057203577ea580352ca9871016c3559274bd18027f2ee3e4a2c1deb26bac70b",
+            "tbs_no_ct_fingerprint_sha256": "50351c20ca101193857dff592911aac00a9a6c3f2e82efdf752dd2a70431f027",
+            "spki_fingerprint_sha256": "6f0b92006b1f2c102013e3856c170907d2e398bfc4239837be1045687d91a7b1",
+            "parent_spki_fingerprint_sha256": "d924edad20550295fd418739fd38529ba871d9b95e1c3500889fffa4b474e0ad",
+            "parsed": {
+              "version": 3,
+              "serial_number": "3529003400037497381796313985902597374",
+              "issuer_dn": "C=US, O=Google Trust Services, CN=WE1",
+              "issuer": {
+                "common_name": [
+                  "WE1"
+                ],
+                "country": [
+                  "US"
+                ],
+                "organization": [
+                  "Google Trust Services"
+                ]
+              },
+              "subject_dn": "CN=vimeo.com",
+              "subject": {
+                "common_name": [
+                  "vimeo.com"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "ECDSA",
+                  "oid": "1.2.840.10045.2.1"
+                },
+                "ecdsa": {
+                  "b": "5ac635d8aa3a93e7b3ebbd55769886bc651d06b0cc53b0f63bce3c3e27d2604b",
+                  "curve": "P-256",
+                  "gx": "6b17d1f2e12c4247f8bce6e563a440f277037d812deb33a0f4a13945d898c296",
+                  "gy": "4fe342e2fe1a7f9b8ee7eb4a7c0f9e162bce33576b315ececbb6406837bf51f5",
+                  "length": 256,
+                  "n": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+                  "p": "ffffffff00000001000000000000000000000000ffffffffffffffffffffffff",
+                  "pub": "04a49a0939453b97f0a245ab8cfae990ac3aad79123aa1497890f889012128eba4c6c421586de5a1cbf8c17df7f2e39ef89c9265ca44392feb7cde96ee93050ab8",
+                  "x": "a49a0939453b97f0a245ab8cfae990ac3aad79123aa1497890f889012128eba4",
+                  "y": "c6c421586de5a1cbf8c17df7f2e39ef89c9265ca44392feb7cde96ee93050ab8"
+                },
+                "fingerprint_sha256": "00ca66ad7752e72cf2d6c3a9cc8a4d3f46605e46853d68135b7a39a131480254"
+              },
+              "validity_period": {
+                "not_before": "2026-01-10T11:31:07Z",
+                "not_after": "2026-04-10T12:31:03Z",
+                "length_seconds": 7779597
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "ECDSA-SHA256",
+                  "oid": "1.2.840.10045.4.3.2"
+                },
+                "value": "304402206575819ecc603e6431bccd5f61ef326e69d62d4a73cd53194d2b7a20b1583fa402205c09c1be2f5c6f3f2280f443df14621db9c27d30de7e4530ecc2aa6381043fce",
+                "valid": true
+              },
+              "serial_number_hex": "02a7a94d1120bc050e821dfabcda54fe"
+            },
+            "names": [
+              "*.vimeo.com",
+              "vimeo.com"
+            ],
+            "validation_level": "dv",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "349dfa4058c5e263123b398ae795573c4e1313c83fe68f93556cd5e8031b3c7d"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb",
+                      "b085d70b964f191a73e4af0d54ae7a0e07aafdaf9b71dd0862138ab7325a24a2"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "76b27b80a58027dc3cf1da68dac17010ed93997d0b603e2fadbe85012493b5a7",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                  "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "349dfa4058c5e263123b398ae795573c4e1313c83fe68f93556cd5e8031b3c7d"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "71cca5391f9e794b04802530b363e121da8a3043bb26662fea4dca7fc951a4bd"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb",
+                      "b085d70b964f191a73e4af0d54ae7a0e07aafdaf9b71dd0862138ab7325a24a2"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb",
+                      "bec94911c2955676db6c0a550986d76e3ba005667c442c9762b4fbb773de228c"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "76b27b80a58027dc3cf1da68dac17010ed93997d0b603e2fadbe85012493b5a7",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                  "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "349dfa4058c5e263123b398ae795573c4e1313c83fe68f93556cd5e8031b3c7d"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb",
+                      "b085d70b964f191a73e4af0d54ae7a0e07aafdaf9b71dd0862138ab7325a24a2"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "76b27b80a58027dc3cf1da68dac17010ed93997d0b603e2fadbe85012493b5a7",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                  "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "349dfa4058c5e263123b398ae795573c4e1313c83fe68f93556cd5e8031b3c7d"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb",
+                      "b085d70b964f191a73e4af0d54ae7a0e07aafdaf9b71dd0862138ab7325a24a2"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                  "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 1994704957,
+                  "added_to_ct_at": "2026-01-10T12:34:27Z",
+                  "ct_to_censys_at": "2026-01-10T13:08:25Z"
+                },
+                "google_argon_2026_h1": {
+                  "index": 1682842267,
+                  "added_to_ct_at": "2026-01-10T12:34:06Z",
+                  "ct_to_censys_at": "2026-01-10T12:43:35Z"
+                },
+                "google_xenon_2026_h1": {
+                  "index": 1583426625,
+                  "added_to_ct_at": "2026-01-10T12:34:06Z",
+                  "ct_to_censys_at": "2026-01-10T12:44:21Z"
+                },
+                "sectigo_elephant_2026_h1": {
+                  "index": 1158993838,
+                  "added_to_ct_at": "2026-01-10T12:34:06Z",
+                  "ct_to_censys_at": "2026-01-10T12:44:56Z"
+                },
+                "sectigo_tiger_2026_h1": {
+                  "index": 1023107552,
+                  "added_to_ct_at": "2026-01-10T12:34:06Z",
+                  "ct_to_censys_at": "2026-01-10T12:43:59Z"
+                },
+                "trustasia_log_2026_a": {
+                  "index": 505208969,
+                  "added_to_ct_at": "2026-01-12T05:35:00Z",
+                  "ct_to_censys_at": "2026-01-12T05:45:25Z"
+                },
+                "trustasia_log_2026_b": {
+                  "index": 510400310,
+                  "added_to_ct_at": "2026-01-10T13:46:44Z",
+                  "ct_to_censys_at": "2026-01-10T14:00:46Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2026-01-10T12:37:42Z",
+            "modified_at": "2026-01-12T05:45:25Z",
+            "validated_at": "2026-02-13T02:39:53Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "6f0b92006b1f2c102013e3856c170907d2e398bfc4239837be1045687d91a7b1",
+            "parent_spki_subject_fingerprint_sha256": "d924edad20550295fd418739fd38529ba871d9b95e1c3500889fffa4b474e0ad"
+          },
+          "software": [
+            {
+              "vendor": "cloudflare",
+              "product": "cloudflare_load_balancer"
+            },
+            {
+              "type": [
+                "WAF"
+              ],
+              "vendor": "cloudflare",
+              "product": "waf"
+            }
+          ],
+          "labels": [
+            {
+              "value": "WAF"
+            }
+          ],
+          "ip": "162.159.138.60",
+          "scan_time": "2026-02-12T21:59:57Z",
+          "tls": {
+            "fingerprint_sha256": "e5a7de3bcbb77bad70b49db3b90a7ad86aa1d189a07cb2ecc866032b29759f0d",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                "subject_dn": "C=US, O=Google Trust Services, CN=WE1",
+                "issuer_dn": "C=US, O=Google Trust Services LLC, CN=GTS Root R4"
+              },
+              {
+                "fingerprint_sha256": "76b27b80a58027dc3cf1da68dac17010ed93997d0b603e2fadbe85012493b5a7",
+                "subject_dn": "C=US, O=Google Trust Services LLC, CN=GTS Root R4",
+                "issuer_dn": "C=BE, O=GlobalSign nv-sa, OU=Root CA, CN=GlobalSign Root CA"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "162.159.138.60",
+              "port": 2096,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-12T21:59:57Z",
+              "http": {
+                "uri": "https://162.159.138.60:2096/",
+                "protocol": "HTTP/1.1",
+                "status_code": 403,
+                "status_reason": "Forbidden",
+                "headers": {
+                  "CF-RAY": {
+                    "headers": [
+                      "9ccf5b1c6e4261d0-ORD"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "151"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "cloudflare"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>403 Forbidden</title>"
+                ],
+                "body_size": 151,
+                "body": "<html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n<hr><center>cloudflare</center>\r\n</body>\r\n</html>\r\n",
+                "html_title": "403 Forbidden",
+                "body_hash_sha256": "eed0b81a2fbdd1c5a9f80705885fc5bbf346ba428a79ff7a13ec8491c6a8e96c",
+                "body_hash_sha1": "441671eacb9398792d435443beaddd3fc5fa1910",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "162.159.138.60"
+            }
+          ]
+        },
+        {
+          "port": 8080,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "cloudflare",
+              "product": "cloudflare_load_balancer"
+            },
+            {
+              "type": [
+                "WAF"
+              ],
+              "vendor": "cloudflare",
+              "product": "waf"
+            }
+          ],
+          "labels": [
+            {
+              "value": "WAF"
+            }
+          ],
+          "ip": "162.159.138.60",
+          "scan_time": "2026-02-13T00:00:24Z",
+          "endpoints": [
+            {
+              "hostname": "162.159.138.60",
+              "port": 8080,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T00:00:24Z",
+              "http": {
+                "uri": "http://162.159.138.60:8080/",
+                "protocol": "HTTP/1.1",
+                "status_code": 403,
+                "status_reason": "Forbidden",
+                "headers": {
+                  "CF-RAY": {
+                    "headers": [
+                      "9cd00b977bd9f13a-ORD"
+                    ]
+                  },
+                  "Cache-Control": {
+                    "headers": [
+                      "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Encoding": {
+                    "headers": [
+                      "gzip"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html; charset=UTF-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Expires": {
+                    "headers": [
+                      "Thu, 01 Jan 1970 00:00:01 GMT"
+                    ]
+                  },
+                  "Referrer-Policy": {
+                    "headers": [
+                      "same-origin"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "cloudflare"
+                    ]
+                  },
+                  "Transfer-Encoding": {
+                    "headers": [
+                      "chunked"
+                    ]
+                  },
+                  "Vary": {
+                    "headers": [
+                      "Accept-Encoding"
+                    ]
+                  },
+                  "X-Frame-Options": {
+                    "headers": [
+                      "SAMEORIGIN"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>Direct IP access not allowed | Cloudflare</title>",
+                  "<meta charset=\"UTF-8\" />",
+                  "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />",
+                  "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />",
+                  "<meta name=\"robots\" content=\"noindex, nofollow\" />",
+                  "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />"
+                ],
+                "body_size": 6236,
+                "body": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Direct IP access not allowed | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />\n<meta name=\"robots\" content=\"noindex, nofollow\" />\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n<link rel=\"stylesheet\" id=\"cf_styles-css\" href=\"/cdn-cgi/styles/main.css\" />\n\n\n<script>\n(function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById(\"error-feedback-survey\"),d=document.getElementById(\"error-feedback-success\"),b=new XMLHttpRequest;a={event:\"feedback clicked\",properties:{errorCode:1003,helpful:a,version:1}};b.open(\"POST\",\"https://sparrow.cloudflare.com/api/v1/event\");b.setRequestHeader(\"Content-Type\",\"application/json\");b.setRequestHeader(\"Sparrow-Source-Key\",\"c771f0e4b54944bebf4261d44bd79a1e\");\nb.send(JSON.stringify(a));c.classList.add(\"feedback-hidden\");d.classList.remove(\"feedback-hidden\")};document.addEventListener(\"DOMContentLoaded\",function(){var a=document.getElementById(\"error-feedback\"),c=document.getElementById(\"feedback-button-yes\"),d=document.getElementById(\"feedback-button-no\");\"classList\"in a&&(a.classList.remove(\"feedback-hidden\"),c.addEventListener(\"click\",function(){e(!0)}),d.addEventListener(\"click\",function(){e(!1)}))})}})();\n</script>\n\n<script defer src=\"https://performance.radar.cloudflare.com/beacon.js\"></script>\n</head>\n<body>\n  <div id=\"cf-wrapper\">\n    <div class=\"cf-alert cf-alert-error cf-cookie-error hidden\" id=\"cookie-alert\" data-translate=\"enable_cookies\">Please enable cookies.</div>\n    <div id=\"cf-error-details\" class=\"p-0\">\n      <header class=\"mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased\">\n         <h1 class=\"inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight\">\n           <span data-translate=\"error\">Error</span>\n           <span>1003</span>\n         </h1>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">Ray ID: 9cd00b977bd9f13a &bull;</span>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">2026-02-13 00:00:24 UTC</span>\n        <h2 class=\"text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light\">Direct IP access not allowed</h2>\n      </header>\n\n      <section class=\"w-240 lg:w-full mx-auto mb-8 lg:px-8\">\n          <div id=\"what-happened-section\" class=\"w-1/2 md:w-full\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_happened\">What happened?</h2>\n            <p>You've requested an IP address that is part of the <a href=\"https://www.cloudflare.com/5xx-error-landing/\" target=\"_blank\">Cloudflare</a> network. A valid Host header must be supplied to reach the desired website.</p>\n            \n              <p>Please see <a rel=\"noopener noreferrer\" href=\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1003/\" target=\"_blank\">https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1003/</a> for more details.</p>\n            \n          </div>\n\n          \n          <div id=\"resolution-copy-section\" class=\"w-1/2 mt-6 text-15 leading-normal\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_can_i_do\">What can I do?</h2>\n            <p>If you are interested in learning more about Cloudflare, please <a href=\"https://www.cloudflare.com/5xx-error-landing/\" target=\"_blank\">visit our website</a>.</p>\n          </div>\n          \n      </section>\n\n      <div class=\"feedback-hidden py-8 text-center\" id=\"error-feedback\">\n    <div id=\"error-feedback-survey\" class=\"footer-line-wrapper\">\n        Was this page helpful?\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-yes\" type=\"button\">Yes</button>\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-no\" type=\"button\">No</button>\n    </div>\n    <div class=\"feedback-success feedback-hidden\" id=\"error-feedback-success\">\n        Thank you for your feedback!\n    </div>\n</div>\n\n\n      <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n  <p class=\"text-13\">\n    <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">9cd00b977bd9f13a</strong></span>\n    <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    <span id=\"cf-footer-item-ip\" class=\"cf-footer-item hidden sm:block sm:mb-1\">\n      Your IP:\n      <button type=\"button\" id=\"cf-footer-ip-reveal\" class=\"cf-footer-ip-reveal-btn\">Click to reveal</button>\n      <span class=\"hidden\" id=\"cf-footer-ip\">162.142.125.47</span>\n      <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    </span>\n    <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance &amp; security by</span> <a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/5xx-error-landing\" id=\"brand_link\" target=\"_blank\">Cloudflare</a></span>\n    \n  </p>\n  <script>(function(){function d(){var b=a.getElementById(\"cf-footer-item-ip\"),c=a.getElementById(\"cf-footer-ip-reveal\");b&&\"classList\"in b&&(b.classList.remove(\"hidden\"),c.addEventListener(\"click\",function(){c.classList.add(\"hidden\");a.getElementById(\"cf-footer-ip\").classList.remove(\"hidden\")}))}var a=document;document.addEventListener&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n</div><!-- /.error-footer -->\n\n\n    </div><!-- /#cf-error-details -->\n  </div><!-- /#cf-wrapper -->\n\n  <script>\n  window._cf_translation = {};\n  \n  \n</script>\n\n</body>\n</html>\n",
+                "html_title": "Direct IP access not allowed | Cloudflare",
+                "body_hash_sha256": "c893dc502ef85644b5cc88e139215c992958dd0eb00558814118602793dc1319",
+                "body_hash_sha1": "48a96489b0e74b471be99b7fe52f0f7e58ff9a4f",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "162.159.138.60"
+            }
+          ]
+        },
+        {
+          "port": 8443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "e5a7de3bcbb77bad70b49db3b90a7ad86aa1d189a07cb2ecc866032b29759f0d",
+            "fingerprint_sha1": "cf0bba15b0e8e44b392979e7db55ee8bb98444c0",
+            "fingerprint_md5": "3002a857a1470fdc682f75122249f184",
+            "tbs_fingerprint_sha256": "3057203577ea580352ca9871016c3559274bd18027f2ee3e4a2c1deb26bac70b",
+            "tbs_no_ct_fingerprint_sha256": "50351c20ca101193857dff592911aac00a9a6c3f2e82efdf752dd2a70431f027",
+            "spki_fingerprint_sha256": "6f0b92006b1f2c102013e3856c170907d2e398bfc4239837be1045687d91a7b1",
+            "parent_spki_fingerprint_sha256": "d924edad20550295fd418739fd38529ba871d9b95e1c3500889fffa4b474e0ad",
+            "parsed": {
+              "version": 3,
+              "serial_number": "3529003400037497381796313985902597374",
+              "issuer_dn": "C=US, O=Google Trust Services, CN=WE1",
+              "issuer": {
+                "common_name": [
+                  "WE1"
+                ],
+                "country": [
+                  "US"
+                ],
+                "organization": [
+                  "Google Trust Services"
+                ]
+              },
+              "subject_dn": "CN=vimeo.com",
+              "subject": {
+                "common_name": [
+                  "vimeo.com"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "ECDSA",
+                  "oid": "1.2.840.10045.2.1"
+                },
+                "ecdsa": {
+                  "b": "5ac635d8aa3a93e7b3ebbd55769886bc651d06b0cc53b0f63bce3c3e27d2604b",
+                  "curve": "P-256",
+                  "gx": "6b17d1f2e12c4247f8bce6e563a440f277037d812deb33a0f4a13945d898c296",
+                  "gy": "4fe342e2fe1a7f9b8ee7eb4a7c0f9e162bce33576b315ececbb6406837bf51f5",
+                  "length": 256,
+                  "n": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+                  "p": "ffffffff00000001000000000000000000000000ffffffffffffffffffffffff",
+                  "pub": "04a49a0939453b97f0a245ab8cfae990ac3aad79123aa1497890f889012128eba4c6c421586de5a1cbf8c17df7f2e39ef89c9265ca44392feb7cde96ee93050ab8",
+                  "x": "a49a0939453b97f0a245ab8cfae990ac3aad79123aa1497890f889012128eba4",
+                  "y": "c6c421586de5a1cbf8c17df7f2e39ef89c9265ca44392feb7cde96ee93050ab8"
+                },
+                "fingerprint_sha256": "00ca66ad7752e72cf2d6c3a9cc8a4d3f46605e46853d68135b7a39a131480254"
+              },
+              "validity_period": {
+                "not_before": "2026-01-10T11:31:07Z",
+                "not_after": "2026-04-10T12:31:03Z",
+                "length_seconds": 7779597
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "ECDSA-SHA256",
+                  "oid": "1.2.840.10045.4.3.2"
+                },
+                "value": "304402206575819ecc603e6431bccd5f61ef326e69d62d4a73cd53194d2b7a20b1583fa402205c09c1be2f5c6f3f2280f443df14621db9c27d30de7e4530ecc2aa6381043fce",
+                "valid": true
+              },
+              "serial_number_hex": "02a7a94d1120bc050e821dfabcda54fe"
+            },
+            "names": [
+              "*.vimeo.com",
+              "vimeo.com"
+            ],
+            "validation_level": "dv",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "349dfa4058c5e263123b398ae795573c4e1313c83fe68f93556cd5e8031b3c7d"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb",
+                      "b085d70b964f191a73e4af0d54ae7a0e07aafdaf9b71dd0862138ab7325a24a2"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "76b27b80a58027dc3cf1da68dac17010ed93997d0b603e2fadbe85012493b5a7",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                  "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "349dfa4058c5e263123b398ae795573c4e1313c83fe68f93556cd5e8031b3c7d"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "71cca5391f9e794b04802530b363e121da8a3043bb26662fea4dca7fc951a4bd"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb",
+                      "b085d70b964f191a73e4af0d54ae7a0e07aafdaf9b71dd0862138ab7325a24a2"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb",
+                      "bec94911c2955676db6c0a550986d76e3ba005667c442c9762b4fbb773de228c"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "76b27b80a58027dc3cf1da68dac17010ed93997d0b603e2fadbe85012493b5a7",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                  "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "349dfa4058c5e263123b398ae795573c4e1313c83fe68f93556cd5e8031b3c7d"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb",
+                      "b085d70b964f191a73e4af0d54ae7a0e07aafdaf9b71dd0862138ab7325a24a2"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "76b27b80a58027dc3cf1da68dac17010ed93997d0b603e2fadbe85012493b5a7",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                  "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                      "349dfa4058c5e263123b398ae795573c4e1313c83fe68f93556cd5e8031b3c7d"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb",
+                      "b085d70b964f191a73e4af0d54ae7a0e07aafdaf9b71dd0862138ab7325a24a2"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                  "a287ffab762cc69a26d482037edf701f653ce899025c62a7e5cb88bb9b419cbb"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 1994704957,
+                  "added_to_ct_at": "2026-01-10T12:34:27Z",
+                  "ct_to_censys_at": "2026-01-10T13:08:25Z"
+                },
+                "google_argon_2026_h1": {
+                  "index": 1682842267,
+                  "added_to_ct_at": "2026-01-10T12:34:06Z",
+                  "ct_to_censys_at": "2026-01-10T12:43:35Z"
+                },
+                "google_xenon_2026_h1": {
+                  "index": 1583426625,
+                  "added_to_ct_at": "2026-01-10T12:34:06Z",
+                  "ct_to_censys_at": "2026-01-10T12:44:21Z"
+                },
+                "sectigo_elephant_2026_h1": {
+                  "index": 1158993838,
+                  "added_to_ct_at": "2026-01-10T12:34:06Z",
+                  "ct_to_censys_at": "2026-01-10T12:44:56Z"
+                },
+                "sectigo_tiger_2026_h1": {
+                  "index": 1023107552,
+                  "added_to_ct_at": "2026-01-10T12:34:06Z",
+                  "ct_to_censys_at": "2026-01-10T12:43:59Z"
+                },
+                "trustasia_log_2026_a": {
+                  "index": 505208969,
+                  "added_to_ct_at": "2026-01-12T05:35:00Z",
+                  "ct_to_censys_at": "2026-01-12T05:45:25Z"
+                },
+                "trustasia_log_2026_b": {
+                  "index": 510400310,
+                  "added_to_ct_at": "2026-01-10T13:46:44Z",
+                  "ct_to_censys_at": "2026-01-10T14:00:46Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2026-01-10T12:37:42Z",
+            "modified_at": "2026-01-12T05:45:25Z",
+            "validated_at": "2026-02-13T02:39:53Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "6f0b92006b1f2c102013e3856c170907d2e398bfc4239837be1045687d91a7b1",
+            "parent_spki_subject_fingerprint_sha256": "d924edad20550295fd418739fd38529ba871d9b95e1c3500889fffa4b474e0ad"
+          },
+          "software": [
+            {
+              "vendor": "cloudflare",
+              "product": "cloudflare_load_balancer"
+            },
+            {
+              "type": [
+                "WAF"
+              ],
+              "vendor": "cloudflare",
+              "product": "waf"
+            }
+          ],
+          "labels": [
+            {
+              "value": "WAF"
+            }
+          ],
+          "ip": "162.159.138.60",
+          "scan_time": "2026-02-13T15:58:44Z",
+          "tls": {
+            "fingerprint_sha256": "e5a7de3bcbb77bad70b49db3b90a7ad86aa1d189a07cb2ecc866032b29759f0d",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96",
+                "subject_dn": "C=US, O=Google Trust Services, CN=WE1",
+                "issuer_dn": "C=US, O=Google Trust Services LLC, CN=GTS Root R4"
+              },
+              {
+                "fingerprint_sha256": "76b27b80a58027dc3cf1da68dac17010ed93997d0b603e2fadbe85012493b5a7",
+                "subject_dn": "C=US, O=Google Trust Services LLC, CN=GTS Root R4",
+                "issuer_dn": "C=BE, O=GlobalSign nv-sa, OU=Root CA, CN=GlobalSign Root CA"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "162.159.138.60",
+              "port": 8443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T15:58:44Z",
+              "http": {
+                "uri": "https://162.159.138.60:8443/",
+                "protocol": "HTTP/1.1",
+                "status_code": 403,
+                "status_reason": "Forbidden",
+                "headers": {
+                  "CF-RAY": {
+                    "headers": [
+                      "9cd587627ec8617f-ORD"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "151"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "cloudflare"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>403 Forbidden</title>"
+                ],
+                "body_size": 151,
+                "body": "<html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n<hr><center>cloudflare</center>\r\n</body>\r\n</html>\r\n",
+                "html_title": "403 Forbidden",
+                "body_hash_sha256": "eed0b81a2fbdd1c5a9f80705885fc5bbf346ba428a79ff7a13ec8491c6a8e96c",
+                "body_hash_sha1": "441671eacb9398792d435443beaddd3fc5fa1910",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "162.159.138.60"
+            }
+          ]
+        },
+        {
+          "port": 8880,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "cloudflare",
+              "product": "cloudflare_load_balancer"
+            },
+            {
+              "type": [
+                "WAF"
+              ],
+              "vendor": "cloudflare",
+              "product": "waf"
+            }
+          ],
+          "labels": [
+            {
+              "value": "WAF"
+            }
+          ],
+          "ip": "162.159.138.60",
+          "scan_time": "2026-02-13T09:03:59Z",
+          "endpoints": [
+            {
+              "hostname": "162.159.138.60",
+              "port": 8880,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T09:03:59Z",
+              "http": {
+                "uri": "http://162.159.138.60:8880/",
+                "protocol": "HTTP/1.1",
+                "status_code": 403,
+                "status_reason": "Forbidden",
+                "headers": {
+                  "CF-RAY": {
+                    "headers": [
+                      "9cd327dc5c85381e-ORD"
+                    ]
+                  },
+                  "Cache-Control": {
+                    "headers": [
+                      "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Encoding": {
+                    "headers": [
+                      "gzip"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html; charset=UTF-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Expires": {
+                    "headers": [
+                      "Thu, 01 Jan 1970 00:00:01 GMT"
+                    ]
+                  },
+                  "Referrer-Policy": {
+                    "headers": [
+                      "same-origin"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "cloudflare"
+                    ]
+                  },
+                  "Transfer-Encoding": {
+                    "headers": [
+                      "chunked"
+                    ]
+                  },
+                  "Vary": {
+                    "headers": [
+                      "Accept-Encoding"
+                    ]
+                  },
+                  "X-Frame-Options": {
+                    "headers": [
+                      "SAMEORIGIN"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>Direct IP access not allowed | Cloudflare</title>",
+                  "<meta charset=\"UTF-8\" />",
+                  "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />",
+                  "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />",
+                  "<meta name=\"robots\" content=\"noindex, nofollow\" />",
+                  "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />"
+                ],
+                "body_size": 6236,
+                "body": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Direct IP access not allowed | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />\n<meta name=\"robots\" content=\"noindex, nofollow\" />\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n<link rel=\"stylesheet\" id=\"cf_styles-css\" href=\"/cdn-cgi/styles/main.css\" />\n\n\n<script>\n(function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById(\"error-feedback-survey\"),d=document.getElementById(\"error-feedback-success\"),b=new XMLHttpRequest;a={event:\"feedback clicked\",properties:{errorCode:1003,helpful:a,version:1}};b.open(\"POST\",\"https://sparrow.cloudflare.com/api/v1/event\");b.setRequestHeader(\"Content-Type\",\"application/json\");b.setRequestHeader(\"Sparrow-Source-Key\",\"c771f0e4b54944bebf4261d44bd79a1e\");\nb.send(JSON.stringify(a));c.classList.add(\"feedback-hidden\");d.classList.remove(\"feedback-hidden\")};document.addEventListener(\"DOMContentLoaded\",function(){var a=document.getElementById(\"error-feedback\"),c=document.getElementById(\"feedback-button-yes\"),d=document.getElementById(\"feedback-button-no\");\"classList\"in a&&(a.classList.remove(\"feedback-hidden\"),c.addEventListener(\"click\",function(){e(!0)}),d.addEventListener(\"click\",function(){e(!1)}))})}})();\n</script>\n\n<script defer src=\"https://performance.radar.cloudflare.com/beacon.js\"></script>\n</head>\n<body>\n  <div id=\"cf-wrapper\">\n    <div class=\"cf-alert cf-alert-error cf-cookie-error hidden\" id=\"cookie-alert\" data-translate=\"enable_cookies\">Please enable cookies.</div>\n    <div id=\"cf-error-details\" class=\"p-0\">\n      <header class=\"mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased\">\n         <h1 class=\"inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight\">\n           <span data-translate=\"error\">Error</span>\n           <span>1003</span>\n         </h1>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">Ray ID: 9cd327dc5c85381e &bull;</span>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">2026-02-13 09:03:59 UTC</span>\n        <h2 class=\"text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light\">Direct IP access not allowed</h2>\n      </header>\n\n      <section class=\"w-240 lg:w-full mx-auto mb-8 lg:px-8\">\n          <div id=\"what-happened-section\" class=\"w-1/2 md:w-full\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_happened\">What happened?</h2>\n            <p>You've requested an IP address that is part of the <a href=\"https://www.cloudflare.com/5xx-error-landing/\" target=\"_blank\">Cloudflare</a> network. A valid Host header must be supplied to reach the desired website.</p>\n            \n              <p>Please see <a rel=\"noopener noreferrer\" href=\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1003/\" target=\"_blank\">https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1003/</a> for more details.</p>\n            \n          </div>\n\n          \n          <div id=\"resolution-copy-section\" class=\"w-1/2 mt-6 text-15 leading-normal\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_can_i_do\">What can I do?</h2>\n            <p>If you are interested in learning more about Cloudflare, please <a href=\"https://www.cloudflare.com/5xx-error-landing/\" target=\"_blank\">visit our website</a>.</p>\n          </div>\n          \n      </section>\n\n      <div class=\"feedback-hidden py-8 text-center\" id=\"error-feedback\">\n    <div id=\"error-feedback-survey\" class=\"footer-line-wrapper\">\n        Was this page helpful?\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-yes\" type=\"button\">Yes</button>\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-no\" type=\"button\">No</button>\n    </div>\n    <div class=\"feedback-success feedback-hidden\" id=\"error-feedback-success\">\n        Thank you for your feedback!\n    </div>\n</div>\n\n\n      <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n  <p class=\"text-13\">\n    <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">9cd327dc5c85381e</strong></span>\n    <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    <span id=\"cf-footer-item-ip\" class=\"cf-footer-item hidden sm:block sm:mb-1\">\n      Your IP:\n      <button type=\"button\" id=\"cf-footer-ip-reveal\" class=\"cf-footer-ip-reveal-btn\">Click to reveal</button>\n      <span class=\"hidden\" id=\"cf-footer-ip\">162.142.125.39</span>\n      <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    </span>\n    <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance &amp; security by</span> <a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/5xx-error-landing\" id=\"brand_link\" target=\"_blank\">Cloudflare</a></span>\n    \n  </p>\n  <script>(function(){function d(){var b=a.getElementById(\"cf-footer-item-ip\"),c=a.getElementById(\"cf-footer-ip-reveal\");b&&\"classList\"in b&&(b.classList.remove(\"hidden\"),c.addEventListener(\"click\",function(){c.classList.add(\"hidden\");a.getElementById(\"cf-footer-ip\").classList.remove(\"hidden\")}))}var a=document;document.addEventListener&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n</div><!-- /.error-footer -->\n\n\n    </div><!-- /#cf-error-details -->\n  </div><!-- /#cf-wrapper -->\n\n  <script>\n  window._cf_translation = {};\n  \n  \n</script>\n\n</body>\n</html>\n",
+                "html_title": "Direct IP access not allowed | Cloudflare",
+                "body_hash_sha256": "25f795f7b9ae303a4d0f5e2560e7a02302fd8ddbfac071a842dc584e7932a39e",
+                "body_hash_sha1": "0ca9539a1c3d1ae36fc5346431655cfb794cafb9",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "162.159.138.60"
+            }
+          ]
+        }
+      ],
+      "service_count": 13,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-02-13T14:04:34Z"
+        },
+        "names": [
+          "www.pillow.v6.army",
+          "www.shrimp.v6.army",
+          "video.kartverket.no",
+          "www.visitor.v6.navy",
+          "www.brook.v6.navy",
+          "www.wisdom.v6.navy",
+          "www.journal.v6.navy",
+          "www.treatment.dns.navy",
+          "www.acquire.dynv6.net",
+          "showcasetest16.vimeows.com",
+          "www.vimeo.com",
+          "showcasetest49.vimeows.com",
+          "showcasetest48.vimeows.com",
+          "showcasetest77.vimeows.com",
+          "www.honeydew.v6.army",
+          "www.banner.dns.army",
+          "www.dinner.dynv6.net",
+          "www.potential.v6.rocks",
+          "reframe.vimeo.com",
+          "showcasetest89.vimeows.com",
+          "showcasetest46.vimeows.com",
+          "showcasetest26.vimeows.com",
+          "showcasetest15.vimeows.com",
+          "showcasetest81.vimeows.com",
+          "showcasetest25.vimeows.com",
+          "showcasetest64.vimeows.com",
+          "directory.vimeo.com",
+          "showcasetest36.vimeows.com",
+          "showcasetest59.vimeows.com",
+          "www.enjoyed.v6.rocks",
+          "www.cabaret.v6.rocks",
+          "showcasetest38.vimeows.com",
+          "showcasetest87.vimeows.com",
+          "showcasetest67.vimeows.com",
+          "error.vimeo.com",
+          "www.velvet.v6.navy",
+          "www.abloom.dns.navy",
+          "www.wizard.dynv6.net",
+          "www.natural.dynv6.net",
+          "showcasetest47.vimeows.com",
+          "showcasetest78.vimeows.com",
+          "showcasetest39.vimeows.com",
+          "showcasetest76.vimeows.com",
+          "showcasetest.vimeows.com",
+          "showcasetest95.vimeows.com",
+          "showcasetest93.vimeows.com",
+          "showcasetest20.vimeows.com",
+          "showcasetest2.vimeows.com",
+          "showcasetest6.vimeows.com",
+          "admin-api.venues.vimeo.com",
+          "www.grateful.dns.army",
+          "www.attach.dns.army",
+          "www.original.dns.army",
+          "www.playful.dynv6.net",
+          "showcasetest17.vimeows.com",
+          "showcasetest14.vimeows.com",
+          "showcasetest83.vimeows.com",
+          "showcasetest51.vimeows.com",
+          "showcasetest23.vimeows.com",
+          "showcasetest92.vimeows.com",
+          "api.venues.vimeo.com",
+          "www.chicken.dns.army",
+          "www.acquire.dns.navy",
+          "showcasetest12.vimeows.com",
+          "showcasetest18.vimeows.com",
+          "showcasetest45.vimeows.com",
+          "showcasetest60.vimeows.com",
+          "showcasetest8.vimeows.com",
+          "showcasetest58.vimeows.com",
+          "goods.vimeo.com",
+          "status.vimeo.com",
+          "www.research.v6.rocks",
+          "www.painting.dns.army",
+          "www.abscond.v6.navy",
+          "www.flavor.v6.navy",
+          "www.sandwich.v6.army",
+          "www.ardently.v6.rocks",
+          "www.brand.v6.rocks",
+          "www.dancing.dynv6.net",
+          "showcasetest13.vimeows.com",
+          "showcasetest65.vimeows.com",
+          "showcasetest10.vimeows.com",
+          "showcasetest53.vimeows.com",
+          "showcasetest42.vimeows.com",
+          "vimeo.com",
+          "vimeoshowcasetest.com",
+          "www.windmill.dynv6.net",
+          "www.airline.dns.army",
+          "player.sledujnazivo.sk",
+          "www.respect.dns.navy",
+          "www.forbidden.dns.navy",
+          "www.decades.dns.navy",
+          "showcasetest22.vimeows.com",
+          "apiv2.create.vimeo.com",
+          "showcasetest35.vimeows.com",
+          "showcasetest61.vimeows.com",
+          "showcasetest71.vimeows.com",
+          "secure.vimeo.com",
+          "showcasetest85.vimeows.com",
+          "showcasetest96.vimeows.com"
+        ],
+        "forward_dns": {
+          "admin-api.venues.vimeo.com": {
+            "resolve_time": "2026-02-08T19:16:04Z",
+            "name": "admin-api.venues.vimeo.com",
+            "record_type": "a"
+          },
+          "api.venues.vimeo.com": {
+            "resolve_time": "2026-02-07T19:10:41Z",
+            "name": "api.venues.vimeo.com",
+            "record_type": "a"
+          },
+          "apiv2.create.vimeo.com": {
+            "resolve_time": "2026-01-29T14:10:46Z",
+            "name": "apiv2.create.vimeo.com",
+            "record_type": "a"
+          },
+          "directory.vimeo.com": {
+            "resolve_time": "2026-02-10T13:55:52Z",
+            "name": "directory.vimeo.com",
+            "record_type": "a"
+          },
+          "error.vimeo.com": {
+            "resolve_time": "2026-02-09T19:46:58Z",
+            "name": "error.vimeo.com",
+            "record_type": "a"
+          },
+          "goods.vimeo.com": {
+            "resolve_time": "2026-02-06T21:36:13Z",
+            "name": "goods.vimeo.com",
+            "record_type": "a"
+          },
+          "player.sledujnazivo.sk": {
+            "resolve_time": "2026-02-02T07:41:02Z",
+            "name": "player.sledujnazivo.sk",
+            "record_type": "a"
+          },
+          "reframe.vimeo.com": {
+            "resolve_time": "2026-02-10T13:55:53Z",
+            "name": "reframe.vimeo.com",
+            "record_type": "a"
+          },
+          "secure.vimeo.com": {
+            "resolve_time": "2026-01-29T14:10:44Z",
+            "name": "secure.vimeo.com",
+            "record_type": "a"
+          },
+          "showcasetest.vimeows.com": {
+            "resolve_time": "2026-02-08T19:16:06Z",
+            "name": "showcasetest.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest10.vimeows.com": {
+            "resolve_time": "2026-02-05T12:14:00Z",
+            "name": "showcasetest10.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest12.vimeows.com": {
+            "resolve_time": "2026-02-06T21:36:18Z",
+            "name": "showcasetest12.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest13.vimeows.com": {
+            "resolve_time": "2026-02-05T12:14:00Z",
+            "name": "showcasetest13.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest14.vimeows.com": {
+            "resolve_time": "2026-02-07T19:10:42Z",
+            "name": "showcasetest14.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest15.vimeows.com": {
+            "resolve_time": "2026-02-10T13:55:53Z",
+            "name": "showcasetest15.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest16.vimeows.com": {
+            "resolve_time": "2026-02-11T16:47:03Z",
+            "name": "showcasetest16.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest17.vimeows.com": {
+            "resolve_time": "2026-02-07T19:10:42Z",
+            "name": "showcasetest17.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest18.vimeows.com": {
+            "resolve_time": "2026-02-06T21:36:14Z",
+            "name": "showcasetest18.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest2.vimeows.com": {
+            "resolve_time": "2026-02-08T19:16:05Z",
+            "name": "showcasetest2.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest20.vimeows.com": {
+            "resolve_time": "2026-02-08T19:16:05Z",
+            "name": "showcasetest20.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest22.vimeows.com": {
+            "resolve_time": "2026-01-29T14:10:47Z",
+            "name": "showcasetest22.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest23.vimeows.com": {
+            "resolve_time": "2026-02-07T19:10:42Z",
+            "name": "showcasetest23.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest25.vimeows.com": {
+            "resolve_time": "2026-02-10T13:55:52Z",
+            "name": "showcasetest25.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest26.vimeows.com": {
+            "resolve_time": "2026-02-10T13:55:53Z",
+            "name": "showcasetest26.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest35.vimeows.com": {
+            "resolve_time": "2026-01-29T14:10:46Z",
+            "name": "showcasetest35.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest36.vimeows.com": {
+            "resolve_time": "2026-02-10T13:55:51Z",
+            "name": "showcasetest36.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest38.vimeows.com": {
+            "resolve_time": "2026-02-09T19:47:02Z",
+            "name": "showcasetest38.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest39.vimeows.com": {
+            "resolve_time": "2026-02-08T19:16:07Z",
+            "name": "showcasetest39.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest42.vimeows.com": {
+            "resolve_time": "2026-02-05T12:14:00Z",
+            "name": "showcasetest42.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest45.vimeows.com": {
+            "resolve_time": "2026-02-06T21:36:14Z",
+            "name": "showcasetest45.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest46.vimeows.com": {
+            "resolve_time": "2026-02-10T13:55:53Z",
+            "name": "showcasetest46.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest47.vimeows.com": {
+            "resolve_time": "2026-02-08T19:16:08Z",
+            "name": "showcasetest47.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest48.vimeows.com": {
+            "resolve_time": "2026-02-11T16:47:02Z",
+            "name": "showcasetest48.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest49.vimeows.com": {
+            "resolve_time": "2026-02-11T16:47:02Z",
+            "name": "showcasetest49.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest51.vimeows.com": {
+            "resolve_time": "2026-02-07T19:10:42Z",
+            "name": "showcasetest51.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest53.vimeows.com": {
+            "resolve_time": "2026-02-05T12:14:00Z",
+            "name": "showcasetest53.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest58.vimeows.com": {
+            "resolve_time": "2026-02-06T21:36:14Z",
+            "name": "showcasetest58.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest59.vimeows.com": {
+            "resolve_time": "2026-02-10T13:55:51Z",
+            "name": "showcasetest59.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest6.vimeows.com": {
+            "resolve_time": "2026-02-08T19:16:04Z",
+            "name": "showcasetest6.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest60.vimeows.com": {
+            "resolve_time": "2026-02-06T21:36:14Z",
+            "name": "showcasetest60.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest61.vimeows.com": {
+            "resolve_time": "2026-01-29T14:10:46Z",
+            "name": "showcasetest61.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest64.vimeows.com": {
+            "resolve_time": "2026-02-10T13:55:52Z",
+            "name": "showcasetest64.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest65.vimeows.com": {
+            "resolve_time": "2026-02-05T12:14:00Z",
+            "name": "showcasetest65.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest67.vimeows.com": {
+            "resolve_time": "2026-02-09T19:46:59Z",
+            "name": "showcasetest67.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest71.vimeows.com": {
+            "resolve_time": "2026-01-29T14:10:45Z",
+            "name": "showcasetest71.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest76.vimeows.com": {
+            "resolve_time": "2026-02-08T19:16:07Z",
+            "name": "showcasetest76.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest77.vimeows.com": {
+            "resolve_time": "2026-02-11T16:47:01Z",
+            "name": "showcasetest77.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest78.vimeows.com": {
+            "resolve_time": "2026-02-08T19:16:08Z",
+            "name": "showcasetest78.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest8.vimeows.com": {
+            "resolve_time": "2026-02-06T21:36:14Z",
+            "name": "showcasetest8.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest81.vimeows.com": {
+            "resolve_time": "2026-02-10T13:55:52Z",
+            "name": "showcasetest81.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest83.vimeows.com": {
+            "resolve_time": "2026-02-07T19:10:42Z",
+            "name": "showcasetest83.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest85.vimeows.com": {
+            "resolve_time": "2026-01-29T14:10:44Z",
+            "name": "showcasetest85.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest87.vimeows.com": {
+            "resolve_time": "2026-02-09T19:46:59Z",
+            "name": "showcasetest87.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest89.vimeows.com": {
+            "resolve_time": "2026-02-10T13:55:53Z",
+            "name": "showcasetest89.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest92.vimeows.com": {
+            "resolve_time": "2026-02-07T19:10:41Z",
+            "name": "showcasetest92.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest93.vimeows.com": {
+            "resolve_time": "2026-02-08T19:16:05Z",
+            "name": "showcasetest93.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest95.vimeows.com": {
+            "resolve_time": "2026-02-08T19:16:06Z",
+            "name": "showcasetest95.vimeows.com",
+            "record_type": "a"
+          },
+          "showcasetest96.vimeows.com": {
+            "resolve_time": "2026-01-29T14:10:44Z",
+            "name": "showcasetest96.vimeows.com",
+            "record_type": "a"
+          },
+          "status.vimeo.com": {
+            "resolve_time": "2026-02-06T21:36:13Z",
+            "name": "status.vimeo.com",
+            "record_type": "a"
+          },
+          "video.kartverket.no": {
+            "resolve_time": "2026-02-11T21:39:04Z",
+            "name": "video.kartverket.no",
+            "record_type": "a"
+          },
+          "vimeo.com": {
+            "resolve_time": "2026-02-04T11:19:47Z",
+            "name": "vimeo.com",
+            "record_type": "a"
+          },
+          "vimeoshowcasetest.com": {
+            "resolve_time": "2026-02-02T22:18:31Z",
+            "name": "vimeoshowcasetest.com",
+            "record_type": "a"
+          },
+          "www.abloom.dns.navy": {
+            "resolve_time": "2026-02-09T18:40:06Z",
+            "name": "www.abloom.dns.navy",
+            "record_type": "a"
+          },
+          "www.abscond.v6.navy": {
+            "resolve_time": "2026-02-06T17:50:19Z",
+            "name": "www.abscond.v6.navy",
+            "record_type": "a"
+          },
+          "www.acquire.dns.navy": {
+            "resolve_time": "2026-02-07T12:16:53Z",
+            "name": "www.acquire.dns.navy",
+            "record_type": "a"
+          },
+          "www.acquire.dynv6.net": {
+            "resolve_time": "2026-02-11T19:21:33Z",
+            "name": "www.acquire.dynv6.net",
+            "record_type": "a"
+          },
+          "www.airline.dns.army": {
+            "resolve_time": "2026-02-02T12:09:07Z",
+            "name": "www.airline.dns.army",
+            "record_type": "a"
+          },
+          "www.ardently.v6.rocks": {
+            "resolve_time": "2026-02-05T12:42:16Z",
+            "name": "www.ardently.v6.rocks",
+            "record_type": "a"
+          },
+          "www.attach.dns.army": {
+            "resolve_time": "2026-02-08T18:51:47Z",
+            "name": "www.attach.dns.army",
+            "record_type": "a"
+          },
+          "www.banner.dns.army": {
+            "resolve_time": "2026-02-10T16:13:47Z",
+            "name": "www.banner.dns.army",
+            "record_type": "a"
+          },
+          "www.brand.v6.rocks": {
+            "resolve_time": "2026-02-05T12:42:11Z",
+            "name": "www.brand.v6.rocks",
+            "record_type": "a"
+          },
+          "www.brook.v6.navy": {
+            "resolve_time": "2026-02-11T21:21:58Z",
+            "name": "www.brook.v6.navy",
+            "record_type": "a"
+          },
+          "www.cabaret.v6.rocks": {
+            "resolve_time": "2026-02-09T20:42:12Z",
+            "name": "www.cabaret.v6.rocks",
+            "record_type": "a"
+          },
+          "www.chicken.dns.army": {
+            "resolve_time": "2026-02-07T17:21:56Z",
+            "name": "www.chicken.dns.army",
+            "record_type": "a"
+          },
+          "www.dancing.dynv6.net": {
+            "resolve_time": "2026-02-05T12:28:17Z",
+            "name": "www.dancing.dynv6.net",
+            "record_type": "a"
+          },
+          "www.decades.dns.navy": {
+            "resolve_time": "2026-01-29T18:35:49Z",
+            "name": "www.decades.dns.navy",
+            "record_type": "a"
+          },
+          "www.dinner.dynv6.net": {
+            "resolve_time": "2026-02-10T15:05:36Z",
+            "name": "www.dinner.dynv6.net",
+            "record_type": "a"
+          },
+          "www.enjoyed.v6.rocks": {
+            "resolve_time": "2026-02-09T20:42:12Z",
+            "name": "www.enjoyed.v6.rocks",
+            "record_type": "a"
+          },
+          "www.flavor.v6.navy": {
+            "resolve_time": "2026-02-06T17:50:15Z",
+            "name": "www.flavor.v6.navy",
+            "record_type": "a"
+          },
+          "www.forbidden.dns.navy": {
+            "resolve_time": "2026-01-29T18:36:40Z",
+            "name": "www.forbidden.dns.navy",
+            "record_type": "a"
+          },
+          "www.grateful.dns.army": {
+            "resolve_time": "2026-02-08T18:51:48Z",
+            "name": "www.grateful.dns.army",
+            "record_type": "a"
+          },
+          "www.honeydew.v6.army": {
+            "resolve_time": "2026-02-10T16:14:02Z",
+            "name": "www.honeydew.v6.army",
+            "record_type": "a"
+          },
+          "www.journal.v6.navy": {
+            "resolve_time": "2026-02-11T21:21:57Z",
+            "name": "www.journal.v6.navy",
+            "record_type": "a"
+          },
+          "www.natural.dynv6.net": {
+            "resolve_time": "2026-02-09T15:43:11Z",
+            "name": "www.natural.dynv6.net",
+            "record_type": "a"
+          },
+          "www.original.dns.army": {
+            "resolve_time": "2026-02-08T18:51:47Z",
+            "name": "www.original.dns.army",
+            "record_type": "a"
+          },
+          "www.painting.dns.army": {
+            "resolve_time": "2026-02-06T18:38:37Z",
+            "name": "www.painting.dns.army",
+            "record_type": "a"
+          },
+          "www.pillow.v6.army": {
+            "resolve_time": "2026-02-12T12:21:07Z",
+            "name": "www.pillow.v6.army",
+            "record_type": "a"
+          },
+          "www.playful.dynv6.net": {
+            "resolve_time": "2026-02-07T20:57:04Z",
+            "name": "www.playful.dynv6.net",
+            "record_type": "a"
+          },
+          "www.potential.v6.rocks": {
+            "resolve_time": "2026-02-10T14:57:11Z",
+            "name": "www.potential.v6.rocks",
+            "record_type": "a"
+          },
+          "www.research.v6.rocks": {
+            "resolve_time": "2026-02-06T19:25:41Z",
+            "name": "www.research.v6.rocks",
+            "record_type": "a"
+          },
+          "www.respect.dns.navy": {
+            "resolve_time": "2026-02-01T17:18:53Z",
+            "name": "www.respect.dns.navy",
+            "record_type": "a"
+          },
+          "www.sandwich.v6.army": {
+            "resolve_time": "2026-02-05T12:58:55Z",
+            "name": "www.sandwich.v6.army",
+            "record_type": "a"
+          },
+          "www.shrimp.v6.army": {
+            "resolve_time": "2026-02-12T12:21:04Z",
+            "name": "www.shrimp.v6.army",
+            "record_type": "a"
+          },
+          "www.treatment.dns.navy": {
+            "resolve_time": "2026-02-11T21:21:56Z",
+            "name": "www.treatment.dns.navy",
+            "record_type": "a"
+          },
+          "www.velvet.v6.navy": {
+            "resolve_time": "2026-02-09T18:40:09Z",
+            "name": "www.velvet.v6.navy",
+            "record_type": "a"
+          },
+          "www.vimeo.com": {
+            "resolve_time": "2026-02-11T16:47:02Z",
+            "name": "www.vimeo.com",
+            "record_type": "a"
+          },
+          "www.visitor.v6.navy": {
+            "resolve_time": "2026-02-11T21:21:58Z",
+            "name": "www.visitor.v6.navy",
+            "record_type": "a"
+          },
+          "www.windmill.dynv6.net": {
+            "resolve_time": "2026-02-02T12:18:05Z",
+            "name": "www.windmill.dynv6.net",
+            "record_type": "a"
+          },
+          "www.wisdom.v6.navy": {
+            "resolve_time": "2026-02-11T21:21:57Z",
+            "name": "www.wisdom.v6.navy",
+            "record_type": "a"
+          },
+          "www.wizard.dynv6.net": {
+            "resolve_time": "2026-02-09T15:43:13Z",
+            "name": "www.wizard.dynv6.net",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

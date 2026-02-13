@@ -1,0 +1,3604 @@
+{
+  "result": {
+    "resource": {
+      "ip": "104.16.248.249",
+      "location": {
+        "continent": "North America",
+        "country": "United States",
+        "country_code": "US",
+        "city": "San Francisco",
+        "postal_code": "94107",
+        "timezone": "America/Los_Angeles",
+        "province": "California",
+        "coordinates": {
+          "latitude": 37.7621,
+          "longitude": -122.3971
+        }
+      },
+      "autonomous_system": {
+        "asn": 13335,
+        "description": "CLOUDFLARENET - Cloudflare, Inc.",
+        "bgp_prefix": "104.16.240.0/20",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "country_code": "US"
+      },
+      "whois": {
+        "network": {
+          "handle": "CLOUDFLARENET",
+          "name": "Cloudflare, Inc.",
+          "cidrs": [
+            "104.16.0.0/12"
+          ],
+          "created": "2014-03-28T00:00:00Z",
+          "updated": "2024-09-04T00:00:00Z",
+          "allocation_type": "ALLOCATION"
+        },
+        "organization": {
+          "handle": "CLOUD14",
+          "name": "Cloudflare, Inc.",
+          "street": "101 Townsend Street",
+          "city": "San Francisco",
+          "state": "CA",
+          "postal_code": "94107",
+          "country": "US",
+          "abuse_contacts": [
+            {
+              "handle": "ABUSE2916-ARIN",
+              "name": "Abuse",
+              "email": "abuse@cloudflare.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "ADMIN2521-ARIN",
+              "name": "Admin",
+              "email": "rir@cloudflare.com"
+            }
+          ],
+          "tech_contacts": [
+            {
+              "handle": "ADMIN2521-ARIN",
+              "name": "Admin",
+              "email": "rir@cloudflare.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "cloudflare",
+              "product": "cloudflare_load_balancer"
+            },
+            {
+              "type": [
+                "WAF"
+              ],
+              "vendor": "cloudflare",
+              "product": "waf"
+            }
+          ],
+          "labels": [
+            {
+              "value": "WAF"
+            }
+          ],
+          "ip": "104.16.248.249",
+          "scan_time": "2026-02-13T13:48:34Z",
+          "endpoints": [
+            {
+              "hostname": "104.16.248.249",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T13:48:34Z",
+              "http": {
+                "uri": "http://104.16.248.249/",
+                "protocol": "HTTP/1.1",
+                "status_code": 403,
+                "status_reason": "Forbidden",
+                "headers": {
+                  "CF-RAY": {
+                    "headers": [
+                      "9cd4c8bb1f771084-ORD"
+                    ]
+                  },
+                  "Cache-Control": {
+                    "headers": [
+                      "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Encoding": {
+                    "headers": [
+                      "gzip"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html; charset=UTF-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Expires": {
+                    "headers": [
+                      "Thu, 01 Jan 1970 00:00:01 GMT"
+                    ]
+                  },
+                  "Referrer-Policy": {
+                    "headers": [
+                      "same-origin"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "cloudflare"
+                    ]
+                  },
+                  "Transfer-Encoding": {
+                    "headers": [
+                      "chunked"
+                    ]
+                  },
+                  "Vary": {
+                    "headers": [
+                      "Accept-Encoding"
+                    ]
+                  },
+                  "X-Frame-Options": {
+                    "headers": [
+                      "SAMEORIGIN"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>Direct IP access not allowed | Cloudflare</title>",
+                  "<meta charset=\"UTF-8\" />",
+                  "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />",
+                  "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />",
+                  "<meta name=\"robots\" content=\"noindex, nofollow\" />",
+                  "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />"
+                ],
+                "body_size": 6236,
+                "body": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Direct IP access not allowed | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />\n<meta name=\"robots\" content=\"noindex, nofollow\" />\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n<link rel=\"stylesheet\" id=\"cf_styles-css\" href=\"/cdn-cgi/styles/main.css\" />\n\n\n<script>\n(function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById(\"error-feedback-survey\"),d=document.getElementById(\"error-feedback-success\"),b=new XMLHttpRequest;a={event:\"feedback clicked\",properties:{errorCode:1003,helpful:a,version:1}};b.open(\"POST\",\"https://sparrow.cloudflare.com/api/v1/event\");b.setRequestHeader(\"Content-Type\",\"application/json\");b.setRequestHeader(\"Sparrow-Source-Key\",\"c771f0e4b54944bebf4261d44bd79a1e\");\nb.send(JSON.stringify(a));c.classList.add(\"feedback-hidden\");d.classList.remove(\"feedback-hidden\")};document.addEventListener(\"DOMContentLoaded\",function(){var a=document.getElementById(\"error-feedback\"),c=document.getElementById(\"feedback-button-yes\"),d=document.getElementById(\"feedback-button-no\");\"classList\"in a&&(a.classList.remove(\"feedback-hidden\"),c.addEventListener(\"click\",function(){e(!0)}),d.addEventListener(\"click\",function(){e(!1)}))})}})();\n</script>\n\n<script defer src=\"https://performance.radar.cloudflare.com/beacon.js\"></script>\n</head>\n<body>\n  <div id=\"cf-wrapper\">\n    <div class=\"cf-alert cf-alert-error cf-cookie-error hidden\" id=\"cookie-alert\" data-translate=\"enable_cookies\">Please enable cookies.</div>\n    <div id=\"cf-error-details\" class=\"p-0\">\n      <header class=\"mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased\">\n         <h1 class=\"inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight\">\n           <span data-translate=\"error\">Error</span>\n           <span>1003</span>\n         </h1>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">Ray ID: 9cd4c8bb1f771084 &bull;</span>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">2026-02-13 13:48:34 UTC</span>\n        <h2 class=\"text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light\">Direct IP access not allowed</h2>\n      </header>\n\n      <section class=\"w-240 lg:w-full mx-auto mb-8 lg:px-8\">\n          <div id=\"what-happened-section\" class=\"w-1/2 md:w-full\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_happened\">What happened?</h2>\n            <p>You've requested an IP address that is part of the <a href=\"https://www.cloudflare.com/5xx-error-landing/\" target=\"_blank\">Cloudflare</a> network. A valid Host header must be supplied to reach the desired website.</p>\n            \n              <p>Please see <a rel=\"noopener noreferrer\" href=\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1003/\" target=\"_blank\">https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1003/</a> for more details.</p>\n            \n          </div>\n\n          \n          <div id=\"resolution-copy-section\" class=\"w-1/2 mt-6 text-15 leading-normal\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_can_i_do\">What can I do?</h2>\n            <p>If you are interested in learning more about Cloudflare, please <a href=\"https://www.cloudflare.com/5xx-error-landing/\" target=\"_blank\">visit our website</a>.</p>\n          </div>\n          \n      </section>\n\n      <div class=\"feedback-hidden py-8 text-center\" id=\"error-feedback\">\n    <div id=\"error-feedback-survey\" class=\"footer-line-wrapper\">\n        Was this page helpful?\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-yes\" type=\"button\">Yes</button>\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-no\" type=\"button\">No</button>\n    </div>\n    <div class=\"feedback-success feedback-hidden\" id=\"error-feedback-success\">\n        Thank you for your feedback!\n    </div>\n</div>\n\n\n      <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n  <p class=\"text-13\">\n    <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">9cd4c8bb1f771084</strong></span>\n    <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    <span id=\"cf-footer-item-ip\" class=\"cf-footer-item hidden sm:block sm:mb-1\">\n      Your IP:\n      <button type=\"button\" id=\"cf-footer-ip-reveal\" class=\"cf-footer-ip-reveal-btn\">Click to reveal</button>\n      <span class=\"hidden\" id=\"cf-footer-ip\">167.94.138.177</span>\n      <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    </span>\n    <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance &amp; security by</span> <a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/5xx-error-landing\" id=\"brand_link\" target=\"_blank\">Cloudflare</a></span>\n    \n  </p>\n  <script>(function(){function d(){var b=a.getElementById(\"cf-footer-item-ip\"),c=a.getElementById(\"cf-footer-ip-reveal\");b&&\"classList\"in b&&(b.classList.remove(\"hidden\"),c.addEventListener(\"click\",function(){c.classList.add(\"hidden\");a.getElementById(\"cf-footer-ip\").classList.remove(\"hidden\")}))}var a=document;document.addEventListener&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n</div><!-- /.error-footer -->\n\n\n    </div><!-- /#cf-error-details -->\n  </div><!-- /#cf-wrapper -->\n\n  <script>\n  window._cf_translation = {};\n  \n  \n</script>\n\n</body>\n</html>\n",
+                "html_title": "Direct IP access not allowed | Cloudflare",
+                "body_hash_sha256": "e13f606bb20f8428dcd378906803596124999fc421e15422f48c203b54539299",
+                "body_hash_sha1": "8ccdc087eae4537aaec224485c2064a35cf7cd08",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "104.16.248.249"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "UNKNOWN",
+          "transport_protocol": "quic",
+          "ip": "104.16.248.249",
+          "scan_time": "2026-02-13T10:32:24Z"
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "e3b02826789d653d224d3edacbe4e877cb7286fc4c922672f6226741ca57ad65",
+            "fingerprint_sha1": "f88635017260d40b9eb417bee73737911b630e59",
+            "fingerprint_md5": "3f5657c103693bc68bc35429e987b3d4",
+            "tbs_fingerprint_sha256": "57adbfff93f66ad39303530e6dba7fc64d82a644e3755b2a7943500c5ffcc9d6",
+            "tbs_no_ct_fingerprint_sha256": "e2697bf79dddcdbff679bb0ef20e847e11cb17a5004e41ced16815c90badddfc",
+            "spki_fingerprint_sha256": "fe4bbbcf3cc2001a1df63241958fbf9830d5d1252d84a30925801db709f1525f",
+            "parent_spki_fingerprint_sha256": "41e1b77957dff8f16f8a11a0e1498d82bfa656e6ce631255c4b89826142da4b4",
+            "parsed": {
+              "version": 3,
+              "serial_number": "104760816198390176145736269975424776716",
+              "issuer_dn": "C=US, ST=Texas, L=Houston, O=SSL Corp, CN=SSL.com SSL Intermediate CA ECC R2",
+              "issuer": {
+                "common_name": [
+                  "SSL.com SSL Intermediate CA ECC R2"
+                ],
+                "country": [
+                  "US"
+                ],
+                "locality": [
+                  "Houston"
+                ],
+                "province": [
+                  "Texas"
+                ],
+                "organization": [
+                  "SSL Corp"
+                ]
+              },
+              "subject_dn": "C=US, ST=California, L=San Francisco, O=Cloudflare\\, Inc., CN=cloudflare-dns.com",
+              "subject": {
+                "common_name": [
+                  "cloudflare-dns.com"
+                ],
+                "country": [
+                  "US"
+                ],
+                "locality": [
+                  "San Francisco"
+                ],
+                "province": [
+                  "California"
+                ],
+                "organization": [
+                  "Cloudflare, Inc."
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "ECDSA",
+                  "oid": "1.2.840.10045.2.1"
+                },
+                "ecdsa": {
+                  "b": "5ac635d8aa3a93e7b3ebbd55769886bc651d06b0cc53b0f63bce3c3e27d2604b",
+                  "curve": "P-256",
+                  "gx": "6b17d1f2e12c4247f8bce6e563a440f277037d812deb33a0f4a13945d898c296",
+                  "gy": "4fe342e2fe1a7f9b8ee7eb4a7c0f9e162bce33576b315ececbb6406837bf51f5",
+                  "length": 256,
+                  "n": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+                  "p": "ffffffff00000001000000000000000000000000ffffffffffffffffffffffff",
+                  "pub": "046383502512ea727819eb3247afc105529c2a2b608a844e756d814847c1c7becf85796c12295b50b3ccec50a1949edc4408070c801a93d3bd78117bb6a3c8eaac",
+                  "x": "6383502512ea727819eb3247afc105529c2a2b608a844e756d814847c1c7becf",
+                  "y": "85796c12295b50b3ccec50a1949edc4408070c801a93d3bd78117bb6a3c8eaac"
+                },
+                "fingerprint_sha256": "96d43a697cb7b6aa4d64a25d9debcc0fba11f88b08e6b3566ceb2c143ae5f84c"
+              },
+              "validity_period": {
+                "not_before": "2025-12-31T19:20:01Z",
+                "not_after": "2026-12-21T19:20:01Z",
+                "length_seconds": 30672001
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "ECDSA-SHA384",
+                  "oid": "1.2.840.10045.4.3.3"
+                },
+                "value": "306402301b2eb53f7f34ee2a79c9dc5e3fe15aeaf3fd0581b24ec6cab641ef5480d4fed03010e89c5a727e41105a889600d7cf0f023012fce5ba42cf30d3c2296380704acb379151ea1e24a8c1337752ea4e3bb1e2348d5d6cc2b205639cec499f8ab7323285",
+                "valid": true
+              },
+              "serial_number_hex": "4ed03304c46b87a8c2eb5569db9eba0c"
+            },
+            "names": [
+              "*.cloudflare-dns.com",
+              "1.0.0.1",
+              "1.1.1.1",
+              "162.159.36.1",
+              "162.159.46.1",
+              "cloudflare-dns.com",
+              "one.one.one.one"
+            ],
+            "validation_level": "ov",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "3417bb06cc6007da1b961c920b8ab4ce3fad820e4aa30b9acbc4a74ebdcebc65"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "85666a562ee0be5ce925c1d8890a6f76a87ec16d4d7d5f29ea7419cf20123b69"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "a272f56f844fd9f8979fff8c3cb18621454cb15ba419fc4427824b7bcd2d29b6",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "3f7befce41f251b2282018fb73213a2116a3f4f692389335e04ff5ae33ab45da",
+                      "cecddc905099d8dadfc5b1d209b737cbe2c18cfb2c10c0ff0bcf0d3286fc1aa2"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "b3e86467d178f3cebe11e739fc2169e4c7859078ec63fb40318981ef3a4eab26",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "3417bb06cc6007da1b961c920b8ab4ce3fad820e4aa30b9acbc4a74ebdcebc65"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "85666a562ee0be5ce925c1d8890a6f76a87ec16d4d7d5f29ea7419cf20123b69"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "a272f56f844fd9f8979fff8c3cb18621454cb15ba419fc4427824b7bcd2d29b6",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "3f7befce41f251b2282018fb73213a2116a3f4f692389335e04ff5ae33ab45da",
+                      "cecddc905099d8dadfc5b1d209b737cbe2c18cfb2c10c0ff0bcf0d3286fc1aa2"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "b3e86467d178f3cebe11e739fc2169e4c7859078ec63fb40318981ef3a4eab26",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "3417bb06cc6007da1b961c920b8ab4ce3fad820e4aa30b9acbc4a74ebdcebc65"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "85666a562ee0be5ce925c1d8890a6f76a87ec16d4d7d5f29ea7419cf20123b69"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "a272f56f844fd9f8979fff8c3cb18621454cb15ba419fc4427824b7bcd2d29b6",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "3f7befce41f251b2282018fb73213a2116a3f4f692389335e04ff5ae33ab45da",
+                      "cecddc905099d8dadfc5b1d209b737cbe2c18cfb2c10c0ff0bcf0d3286fc1aa2"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "b3e86467d178f3cebe11e739fc2169e4c7859078ec63fb40318981ef3a4eab26",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "3417bb06cc6007da1b961c920b8ab4ce3fad820e4aa30b9acbc4a74ebdcebc65"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "85666a562ee0be5ce925c1d8890a6f76a87ec16d4d7d5f29ea7419cf20123b69"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "a272f56f844fd9f8979fff8c3cb18621454cb15ba419fc4427824b7bcd2d29b6",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "b3e86467d178f3cebe11e739fc2169e4c7859078ec63fb40318981ef3a4eab26",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 2545862946,
+                  "added_to_ct_at": "2026-02-13T00:39:41Z",
+                  "ct_to_censys_at": "2026-02-13T01:24:38Z"
+                },
+                "google_argon_2026_h2": {
+                  "index": 232178206,
+                  "added_to_ct_at": "2026-01-15T22:46:20Z",
+                  "ct_to_censys_at": "2026-01-15T22:53:47Z"
+                },
+                "google_xenon_2026_h2": {
+                  "index": 179079636,
+                  "added_to_ct_at": "2026-01-15T22:46:20Z",
+                  "ct_to_censys_at": "2026-01-15T22:57:20Z"
+                },
+                "letsencrypt_ct_sycamore_2027_h1": {
+                  "index": 24876856,
+                  "added_to_ct_at": "2026-01-16T00:10:05Z",
+                  "ct_to_censys_at": "2026-01-16T00:13:13Z"
+                },
+                "letsencrypt_ct_willow_2027_h1": {
+                  "index": 23599739,
+                  "added_to_ct_at": "2026-01-16T00:10:05Z",
+                  "ct_to_censys_at": "2026-01-16T00:13:17Z"
+                },
+                "sectigo_elephant_2026_h2": {
+                  "index": 108362684,
+                  "added_to_ct_at": "2026-01-15T22:46:20Z",
+                  "ct_to_censys_at": "2026-01-15T22:56:05Z"
+                },
+                "sectigo_tiger_2026_h2": {
+                  "index": 107967593,
+                  "added_to_ct_at": "2026-01-15T22:46:21Z",
+                  "ct_to_censys_at": "2026-01-15T22:57:43Z"
+                },
+                "trustasia_log_2026_a": {
+                  "index": 532819352,
+                  "added_to_ct_at": "2026-01-15T22:46:24Z",
+                  "ct_to_censys_at": "2026-01-15T22:56:20Z"
+                },
+                "trustasia_log_2026_b": {
+                  "index": 552626750,
+                  "added_to_ct_at": "2026-01-15T22:46:25Z",
+                  "ct_to_censys_at": "2026-01-15T22:58:57Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2026-01-09T06:34:43Z",
+            "modified_at": "2026-02-13T01:24:39Z",
+            "validated_at": "2026-02-12T21:46:44Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "fe4bbbcf3cc2001a1df63241958fbf9830d5d1252d84a30925801db709f1525f",
+            "parent_spki_subject_fingerprint_sha256": "41e1b77957dff8f16f8a11a0e1498d82bfa656e6ce631255c4b89826142da4b4"
+          },
+          "software": [
+            {
+              "vendor": "cloudflare",
+              "product": "cloudflare_load_balancer"
+            },
+            {
+              "type": [
+                "WAF"
+              ],
+              "vendor": "cloudflare",
+              "product": "waf"
+            }
+          ],
+          "labels": [
+            {
+              "value": "WAF"
+            }
+          ],
+          "ip": "104.16.248.249",
+          "scan_time": "2026-02-13T09:54:49Z",
+          "tls": {
+            "fingerprint_sha256": "e3b02826789d653d224d3edacbe4e877cb7286fc4c922672f6226741ca57ad65",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                "subject_dn": "C=US, ST=Texas, L=Houston, O=SSL Corp, CN=SSL.com SSL Intermediate CA ECC R2",
+                "issuer_dn": "C=US, ST=Texas, L=Houston, O=SSL Corporation, CN=SSL.com Root Certification Authority ECC"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "104.16.248.249",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T09:54:49Z",
+              "http": {
+                "uri": "https://104.16.248.249/",
+                "protocol": "HTTP/1.1",
+                "status_code": 403,
+                "status_reason": "Forbidden",
+                "headers": {
+                  "CF-RAY": {
+                    "headers": [
+                      "9cd37249d8b3000b-ORD"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "151"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "cloudflare"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>403 Forbidden</title>"
+                ],
+                "body_size": 151,
+                "body": "<html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n<hr><center>cloudflare</center>\r\n</body>\r\n</html>\r\n",
+                "html_title": "403 Forbidden",
+                "body_hash_sha256": "eed0b81a2fbdd1c5a9f80705885fc5bbf346ba428a79ff7a13ec8491c6a8e96c",
+                "body_hash_sha1": "441671eacb9398792d435443beaddd3fc5fa1910",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "104.16.248.249"
+            }
+          ]
+        },
+        {
+          "port": 2052,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "cloudflare",
+              "product": "cloudflare_load_balancer"
+            },
+            {
+              "type": [
+                "WAF"
+              ],
+              "vendor": "cloudflare",
+              "product": "waf"
+            }
+          ],
+          "labels": [
+            {
+              "value": "WAF"
+            }
+          ],
+          "ip": "104.16.248.249",
+          "scan_time": "2026-02-13T10:54:59Z",
+          "endpoints": [
+            {
+              "hostname": "104.16.248.249",
+              "port": 2052,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T10:54:59Z",
+              "http": {
+                "uri": "http://104.16.248.249:2052/",
+                "protocol": "HTTP/1.1",
+                "status_code": 403,
+                "status_reason": "Forbidden",
+                "headers": {
+                  "CF-RAY": {
+                    "headers": [
+                      "9cd3ca75b8daeb5e-ORD"
+                    ]
+                  },
+                  "Cache-Control": {
+                    "headers": [
+                      "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Encoding": {
+                    "headers": [
+                      "gzip"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html; charset=UTF-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Expires": {
+                    "headers": [
+                      "Thu, 01 Jan 1970 00:00:01 GMT"
+                    ]
+                  },
+                  "Referrer-Policy": {
+                    "headers": [
+                      "same-origin"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "cloudflare"
+                    ]
+                  },
+                  "Transfer-Encoding": {
+                    "headers": [
+                      "chunked"
+                    ]
+                  },
+                  "Vary": {
+                    "headers": [
+                      "Accept-Encoding"
+                    ]
+                  },
+                  "X-Frame-Options": {
+                    "headers": [
+                      "SAMEORIGIN"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>Direct IP access not allowed | Cloudflare</title>",
+                  "<meta charset=\"UTF-8\" />",
+                  "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />",
+                  "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />",
+                  "<meta name=\"robots\" content=\"noindex, nofollow\" />",
+                  "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />"
+                ],
+                "body_size": 6236,
+                "body": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Direct IP access not allowed | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />\n<meta name=\"robots\" content=\"noindex, nofollow\" />\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n<link rel=\"stylesheet\" id=\"cf_styles-css\" href=\"/cdn-cgi/styles/main.css\" />\n\n\n<script>\n(function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById(\"error-feedback-survey\"),d=document.getElementById(\"error-feedback-success\"),b=new XMLHttpRequest;a={event:\"feedback clicked\",properties:{errorCode:1003,helpful:a,version:1}};b.open(\"POST\",\"https://sparrow.cloudflare.com/api/v1/event\");b.setRequestHeader(\"Content-Type\",\"application/json\");b.setRequestHeader(\"Sparrow-Source-Key\",\"c771f0e4b54944bebf4261d44bd79a1e\");\nb.send(JSON.stringify(a));c.classList.add(\"feedback-hidden\");d.classList.remove(\"feedback-hidden\")};document.addEventListener(\"DOMContentLoaded\",function(){var a=document.getElementById(\"error-feedback\"),c=document.getElementById(\"feedback-button-yes\"),d=document.getElementById(\"feedback-button-no\");\"classList\"in a&&(a.classList.remove(\"feedback-hidden\"),c.addEventListener(\"click\",function(){e(!0)}),d.addEventListener(\"click\",function(){e(!1)}))})}})();\n</script>\n\n<script defer src=\"https://performance.radar.cloudflare.com/beacon.js\"></script>\n</head>\n<body>\n  <div id=\"cf-wrapper\">\n    <div class=\"cf-alert cf-alert-error cf-cookie-error hidden\" id=\"cookie-alert\" data-translate=\"enable_cookies\">Please enable cookies.</div>\n    <div id=\"cf-error-details\" class=\"p-0\">\n      <header class=\"mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased\">\n         <h1 class=\"inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight\">\n           <span data-translate=\"error\">Error</span>\n           <span>1003</span>\n         </h1>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">Ray ID: 9cd3ca75b8daeb5e &bull;</span>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">2026-02-13 10:54:59 UTC</span>\n        <h2 class=\"text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light\">Direct IP access not allowed</h2>\n      </header>\n\n      <section class=\"w-240 lg:w-full mx-auto mb-8 lg:px-8\">\n          <div id=\"what-happened-section\" class=\"w-1/2 md:w-full\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_happened\">What happened?</h2>\n            <p>You've requested an IP address that is part of the <a href=\"https://www.cloudflare.com/5xx-error-landing/\" target=\"_blank\">Cloudflare</a> network. A valid Host header must be supplied to reach the desired website.</p>\n            \n              <p>Please see <a rel=\"noopener noreferrer\" href=\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1003/\" target=\"_blank\">https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1003/</a> for more details.</p>\n            \n          </div>\n\n          \n          <div id=\"resolution-copy-section\" class=\"w-1/2 mt-6 text-15 leading-normal\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_can_i_do\">What can I do?</h2>\n            <p>If you are interested in learning more about Cloudflare, please <a href=\"https://www.cloudflare.com/5xx-error-landing/\" target=\"_blank\">visit our website</a>.</p>\n          </div>\n          \n      </section>\n\n      <div class=\"feedback-hidden py-8 text-center\" id=\"error-feedback\">\n    <div id=\"error-feedback-survey\" class=\"footer-line-wrapper\">\n        Was this page helpful?\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-yes\" type=\"button\">Yes</button>\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-no\" type=\"button\">No</button>\n    </div>\n    <div class=\"feedback-success feedback-hidden\" id=\"error-feedback-success\">\n        Thank you for your feedback!\n    </div>\n</div>\n\n\n      <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n  <p class=\"text-13\">\n    <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">9cd3ca75b8daeb5e</strong></span>\n    <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    <span id=\"cf-footer-item-ip\" class=\"cf-footer-item hidden sm:block sm:mb-1\">\n      Your IP:\n      <button type=\"button\" id=\"cf-footer-ip-reveal\" class=\"cf-footer-ip-reveal-btn\">Click to reveal</button>\n      <span class=\"hidden\" id=\"cf-footer-ip\">66.132.153.121</span>\n      <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    </span>\n    <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance &amp; security by</span> <a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/5xx-error-landing\" id=\"brand_link\" target=\"_blank\">Cloudflare</a></span>\n    \n  </p>\n  <script>(function(){function d(){var b=a.getElementById(\"cf-footer-item-ip\"),c=a.getElementById(\"cf-footer-ip-reveal\");b&&\"classList\"in b&&(b.classList.remove(\"hidden\"),c.addEventListener(\"click\",function(){c.classList.add(\"hidden\");a.getElementById(\"cf-footer-ip\").classList.remove(\"hidden\")}))}var a=document;document.addEventListener&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n</div><!-- /.error-footer -->\n\n\n    </div><!-- /#cf-error-details -->\n  </div><!-- /#cf-wrapper -->\n\n  <script>\n  window._cf_translation = {};\n  \n  \n</script>\n\n</body>\n</html>\n",
+                "html_title": "Direct IP access not allowed | Cloudflare",
+                "body_hash_sha256": "64a43473a6d3dbff21efbe20a068e8c4a4a8179dcc538ca13c04f8194c2c3865",
+                "body_hash_sha1": "f14fee90a42d69e4246fb9dcbbf5c9a87c0df436",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "104.16.248.249"
+            }
+          ]
+        },
+        {
+          "port": 2053,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "e3b02826789d653d224d3edacbe4e877cb7286fc4c922672f6226741ca57ad65",
+            "fingerprint_sha1": "f88635017260d40b9eb417bee73737911b630e59",
+            "fingerprint_md5": "3f5657c103693bc68bc35429e987b3d4",
+            "tbs_fingerprint_sha256": "57adbfff93f66ad39303530e6dba7fc64d82a644e3755b2a7943500c5ffcc9d6",
+            "tbs_no_ct_fingerprint_sha256": "e2697bf79dddcdbff679bb0ef20e847e11cb17a5004e41ced16815c90badddfc",
+            "spki_fingerprint_sha256": "fe4bbbcf3cc2001a1df63241958fbf9830d5d1252d84a30925801db709f1525f",
+            "parent_spki_fingerprint_sha256": "41e1b77957dff8f16f8a11a0e1498d82bfa656e6ce631255c4b89826142da4b4",
+            "parsed": {
+              "version": 3,
+              "serial_number": "104760816198390176145736269975424776716",
+              "issuer_dn": "C=US, ST=Texas, L=Houston, O=SSL Corp, CN=SSL.com SSL Intermediate CA ECC R2",
+              "issuer": {
+                "common_name": [
+                  "SSL.com SSL Intermediate CA ECC R2"
+                ],
+                "country": [
+                  "US"
+                ],
+                "locality": [
+                  "Houston"
+                ],
+                "province": [
+                  "Texas"
+                ],
+                "organization": [
+                  "SSL Corp"
+                ]
+              },
+              "subject_dn": "C=US, ST=California, L=San Francisco, O=Cloudflare\\, Inc., CN=cloudflare-dns.com",
+              "subject": {
+                "common_name": [
+                  "cloudflare-dns.com"
+                ],
+                "country": [
+                  "US"
+                ],
+                "locality": [
+                  "San Francisco"
+                ],
+                "province": [
+                  "California"
+                ],
+                "organization": [
+                  "Cloudflare, Inc."
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "ECDSA",
+                  "oid": "1.2.840.10045.2.1"
+                },
+                "ecdsa": {
+                  "b": "5ac635d8aa3a93e7b3ebbd55769886bc651d06b0cc53b0f63bce3c3e27d2604b",
+                  "curve": "P-256",
+                  "gx": "6b17d1f2e12c4247f8bce6e563a440f277037d812deb33a0f4a13945d898c296",
+                  "gy": "4fe342e2fe1a7f9b8ee7eb4a7c0f9e162bce33576b315ececbb6406837bf51f5",
+                  "length": 256,
+                  "n": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+                  "p": "ffffffff00000001000000000000000000000000ffffffffffffffffffffffff",
+                  "pub": "046383502512ea727819eb3247afc105529c2a2b608a844e756d814847c1c7becf85796c12295b50b3ccec50a1949edc4408070c801a93d3bd78117bb6a3c8eaac",
+                  "x": "6383502512ea727819eb3247afc105529c2a2b608a844e756d814847c1c7becf",
+                  "y": "85796c12295b50b3ccec50a1949edc4408070c801a93d3bd78117bb6a3c8eaac"
+                },
+                "fingerprint_sha256": "96d43a697cb7b6aa4d64a25d9debcc0fba11f88b08e6b3566ceb2c143ae5f84c"
+              },
+              "validity_period": {
+                "not_before": "2025-12-31T19:20:01Z",
+                "not_after": "2026-12-21T19:20:01Z",
+                "length_seconds": 30672001
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "ECDSA-SHA384",
+                  "oid": "1.2.840.10045.4.3.3"
+                },
+                "value": "306402301b2eb53f7f34ee2a79c9dc5e3fe15aeaf3fd0581b24ec6cab641ef5480d4fed03010e89c5a727e41105a889600d7cf0f023012fce5ba42cf30d3c2296380704acb379151ea1e24a8c1337752ea4e3bb1e2348d5d6cc2b205639cec499f8ab7323285",
+                "valid": true
+              },
+              "serial_number_hex": "4ed03304c46b87a8c2eb5569db9eba0c"
+            },
+            "names": [
+              "*.cloudflare-dns.com",
+              "1.0.0.1",
+              "1.1.1.1",
+              "162.159.36.1",
+              "162.159.46.1",
+              "cloudflare-dns.com",
+              "one.one.one.one"
+            ],
+            "validation_level": "ov",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "3417bb06cc6007da1b961c920b8ab4ce3fad820e4aa30b9acbc4a74ebdcebc65"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "85666a562ee0be5ce925c1d8890a6f76a87ec16d4d7d5f29ea7419cf20123b69"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "a272f56f844fd9f8979fff8c3cb18621454cb15ba419fc4427824b7bcd2d29b6",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "3f7befce41f251b2282018fb73213a2116a3f4f692389335e04ff5ae33ab45da",
+                      "cecddc905099d8dadfc5b1d209b737cbe2c18cfb2c10c0ff0bcf0d3286fc1aa2"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "b3e86467d178f3cebe11e739fc2169e4c7859078ec63fb40318981ef3a4eab26",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "3417bb06cc6007da1b961c920b8ab4ce3fad820e4aa30b9acbc4a74ebdcebc65"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "85666a562ee0be5ce925c1d8890a6f76a87ec16d4d7d5f29ea7419cf20123b69"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "a272f56f844fd9f8979fff8c3cb18621454cb15ba419fc4427824b7bcd2d29b6",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "3f7befce41f251b2282018fb73213a2116a3f4f692389335e04ff5ae33ab45da",
+                      "cecddc905099d8dadfc5b1d209b737cbe2c18cfb2c10c0ff0bcf0d3286fc1aa2"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "b3e86467d178f3cebe11e739fc2169e4c7859078ec63fb40318981ef3a4eab26",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "3417bb06cc6007da1b961c920b8ab4ce3fad820e4aa30b9acbc4a74ebdcebc65"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "85666a562ee0be5ce925c1d8890a6f76a87ec16d4d7d5f29ea7419cf20123b69"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "a272f56f844fd9f8979fff8c3cb18621454cb15ba419fc4427824b7bcd2d29b6",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "3f7befce41f251b2282018fb73213a2116a3f4f692389335e04ff5ae33ab45da",
+                      "cecddc905099d8dadfc5b1d209b737cbe2c18cfb2c10c0ff0bcf0d3286fc1aa2"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "b3e86467d178f3cebe11e739fc2169e4c7859078ec63fb40318981ef3a4eab26",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "3417bb06cc6007da1b961c920b8ab4ce3fad820e4aa30b9acbc4a74ebdcebc65"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "85666a562ee0be5ce925c1d8890a6f76a87ec16d4d7d5f29ea7419cf20123b69"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "a272f56f844fd9f8979fff8c3cb18621454cb15ba419fc4427824b7bcd2d29b6",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "b3e86467d178f3cebe11e739fc2169e4c7859078ec63fb40318981ef3a4eab26",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 2545862946,
+                  "added_to_ct_at": "2026-02-13T00:39:41Z",
+                  "ct_to_censys_at": "2026-02-13T01:24:38Z"
+                },
+                "google_argon_2026_h2": {
+                  "index": 232178206,
+                  "added_to_ct_at": "2026-01-15T22:46:20Z",
+                  "ct_to_censys_at": "2026-01-15T22:53:47Z"
+                },
+                "google_xenon_2026_h2": {
+                  "index": 179079636,
+                  "added_to_ct_at": "2026-01-15T22:46:20Z",
+                  "ct_to_censys_at": "2026-01-15T22:57:20Z"
+                },
+                "letsencrypt_ct_sycamore_2027_h1": {
+                  "index": 24876856,
+                  "added_to_ct_at": "2026-01-16T00:10:05Z",
+                  "ct_to_censys_at": "2026-01-16T00:13:13Z"
+                },
+                "letsencrypt_ct_willow_2027_h1": {
+                  "index": 23599739,
+                  "added_to_ct_at": "2026-01-16T00:10:05Z",
+                  "ct_to_censys_at": "2026-01-16T00:13:17Z"
+                },
+                "sectigo_elephant_2026_h2": {
+                  "index": 108362684,
+                  "added_to_ct_at": "2026-01-15T22:46:20Z",
+                  "ct_to_censys_at": "2026-01-15T22:56:05Z"
+                },
+                "sectigo_tiger_2026_h2": {
+                  "index": 107967593,
+                  "added_to_ct_at": "2026-01-15T22:46:21Z",
+                  "ct_to_censys_at": "2026-01-15T22:57:43Z"
+                },
+                "trustasia_log_2026_a": {
+                  "index": 532819352,
+                  "added_to_ct_at": "2026-01-15T22:46:24Z",
+                  "ct_to_censys_at": "2026-01-15T22:56:20Z"
+                },
+                "trustasia_log_2026_b": {
+                  "index": 552626750,
+                  "added_to_ct_at": "2026-01-15T22:46:25Z",
+                  "ct_to_censys_at": "2026-01-15T22:58:57Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2026-01-09T06:34:43Z",
+            "modified_at": "2026-02-13T01:24:39Z",
+            "validated_at": "2026-02-12T21:46:44Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "fe4bbbcf3cc2001a1df63241958fbf9830d5d1252d84a30925801db709f1525f",
+            "parent_spki_subject_fingerprint_sha256": "41e1b77957dff8f16f8a11a0e1498d82bfa656e6ce631255c4b89826142da4b4"
+          },
+          "software": [
+            {
+              "vendor": "cloudflare",
+              "product": "cloudflare_load_balancer"
+            },
+            {
+              "type": [
+                "WAF"
+              ],
+              "vendor": "cloudflare",
+              "product": "waf"
+            }
+          ],
+          "labels": [
+            {
+              "value": "WAF"
+            }
+          ],
+          "ip": "104.16.248.249",
+          "scan_time": "2026-02-13T16:02:14Z",
+          "tls": {
+            "fingerprint_sha256": "e3b02826789d653d224d3edacbe4e877cb7286fc4c922672f6226741ca57ad65",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                "subject_dn": "C=US, ST=Texas, L=Houston, O=SSL Corp, CN=SSL.com SSL Intermediate CA ECC R2",
+                "issuer_dn": "C=US, ST=Texas, L=Houston, O=SSL Corporation, CN=SSL.com Root Certification Authority ECC"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "104.16.248.249",
+              "port": 2053,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T16:02:14Z",
+              "http": {
+                "uri": "https://104.16.248.249:2053/",
+                "protocol": "HTTP/1.1",
+                "status_code": 403,
+                "status_reason": "Forbidden",
+                "headers": {
+                  "CF-RAY": {
+                    "headers": [
+                      "9cd58c89a815b669-FRA"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "151"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "cloudflare"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>403 Forbidden</title>"
+                ],
+                "body_size": 151,
+                "body": "<html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n<hr><center>cloudflare</center>\r\n</body>\r\n</html>\r\n",
+                "html_title": "403 Forbidden",
+                "body_hash_sha256": "eed0b81a2fbdd1c5a9f80705885fc5bbf346ba428a79ff7a13ec8491c6a8e96c",
+                "body_hash_sha1": "441671eacb9398792d435443beaddd3fc5fa1910",
+                "supported_versions": [
+                  "HTTP/1.1",
+                  "HTTP/2"
+                ]
+              },
+              "ip": "104.16.248.249"
+            }
+          ]
+        },
+        {
+          "port": 2082,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "cloudflare",
+              "product": "cloudflare_load_balancer"
+            },
+            {
+              "type": [
+                "WAF"
+              ],
+              "vendor": "cloudflare",
+              "product": "waf"
+            }
+          ],
+          "labels": [
+            {
+              "value": "WAF"
+            }
+          ],
+          "ip": "104.16.248.249",
+          "scan_time": "2026-02-13T07:58:40Z",
+          "endpoints": [
+            {
+              "hostname": "104.16.248.249",
+              "port": 2082,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T07:58:40Z",
+              "http": {
+                "uri": "http://104.16.248.249:2082/",
+                "protocol": "HTTP/1.1",
+                "status_code": 403,
+                "status_reason": "Forbidden",
+                "headers": {
+                  "CF-RAY": {
+                    "headers": [
+                      "9cd2c82aef290011-ORD"
+                    ]
+                  },
+                  "Cache-Control": {
+                    "headers": [
+                      "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Encoding": {
+                    "headers": [
+                      "gzip"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html; charset=UTF-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Expires": {
+                    "headers": [
+                      "Thu, 01 Jan 1970 00:00:01 GMT"
+                    ]
+                  },
+                  "Referrer-Policy": {
+                    "headers": [
+                      "same-origin"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "cloudflare"
+                    ]
+                  },
+                  "Transfer-Encoding": {
+                    "headers": [
+                      "chunked"
+                    ]
+                  },
+                  "Vary": {
+                    "headers": [
+                      "Accept-Encoding"
+                    ]
+                  },
+                  "X-Frame-Options": {
+                    "headers": [
+                      "SAMEORIGIN"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>Direct IP access not allowed | Cloudflare</title>",
+                  "<meta charset=\"UTF-8\" />",
+                  "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />",
+                  "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />",
+                  "<meta name=\"robots\" content=\"noindex, nofollow\" />",
+                  "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />"
+                ],
+                "body_size": 6236,
+                "body": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Direct IP access not allowed | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />\n<meta name=\"robots\" content=\"noindex, nofollow\" />\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n<link rel=\"stylesheet\" id=\"cf_styles-css\" href=\"/cdn-cgi/styles/main.css\" />\n\n\n<script>\n(function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById(\"error-feedback-survey\"),d=document.getElementById(\"error-feedback-success\"),b=new XMLHttpRequest;a={event:\"feedback clicked\",properties:{errorCode:1003,helpful:a,version:1}};b.open(\"POST\",\"https://sparrow.cloudflare.com/api/v1/event\");b.setRequestHeader(\"Content-Type\",\"application/json\");b.setRequestHeader(\"Sparrow-Source-Key\",\"c771f0e4b54944bebf4261d44bd79a1e\");\nb.send(JSON.stringify(a));c.classList.add(\"feedback-hidden\");d.classList.remove(\"feedback-hidden\")};document.addEventListener(\"DOMContentLoaded\",function(){var a=document.getElementById(\"error-feedback\"),c=document.getElementById(\"feedback-button-yes\"),d=document.getElementById(\"feedback-button-no\");\"classList\"in a&&(a.classList.remove(\"feedback-hidden\"),c.addEventListener(\"click\",function(){e(!0)}),d.addEventListener(\"click\",function(){e(!1)}))})}})();\n</script>\n\n<script defer src=\"https://performance.radar.cloudflare.com/beacon.js\"></script>\n</head>\n<body>\n  <div id=\"cf-wrapper\">\n    <div class=\"cf-alert cf-alert-error cf-cookie-error hidden\" id=\"cookie-alert\" data-translate=\"enable_cookies\">Please enable cookies.</div>\n    <div id=\"cf-error-details\" class=\"p-0\">\n      <header class=\"mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased\">\n         <h1 class=\"inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight\">\n           <span data-translate=\"error\">Error</span>\n           <span>1003</span>\n         </h1>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">Ray ID: 9cd2c82aef290011 &bull;</span>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">2026-02-13 07:58:39 UTC</span>\n        <h2 class=\"text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light\">Direct IP access not allowed</h2>\n      </header>\n\n      <section class=\"w-240 lg:w-full mx-auto mb-8 lg:px-8\">\n          <div id=\"what-happened-section\" class=\"w-1/2 md:w-full\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_happened\">What happened?</h2>\n            <p>You've requested an IP address that is part of the <a href=\"https://www.cloudflare.com/5xx-error-landing/\" target=\"_blank\">Cloudflare</a> network. A valid Host header must be supplied to reach the desired website.</p>\n            \n              <p>Please see <a rel=\"noopener noreferrer\" href=\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1003/\" target=\"_blank\">https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1003/</a> for more details.</p>\n            \n          </div>\n\n          \n          <div id=\"resolution-copy-section\" class=\"w-1/2 mt-6 text-15 leading-normal\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_can_i_do\">What can I do?</h2>\n            <p>If you are interested in learning more about Cloudflare, please <a href=\"https://www.cloudflare.com/5xx-error-landing/\" target=\"_blank\">visit our website</a>.</p>\n          </div>\n          \n      </section>\n\n      <div class=\"feedback-hidden py-8 text-center\" id=\"error-feedback\">\n    <div id=\"error-feedback-survey\" class=\"footer-line-wrapper\">\n        Was this page helpful?\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-yes\" type=\"button\">Yes</button>\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-no\" type=\"button\">No</button>\n    </div>\n    <div class=\"feedback-success feedback-hidden\" id=\"error-feedback-success\">\n        Thank you for your feedback!\n    </div>\n</div>\n\n\n      <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n  <p class=\"text-13\">\n    <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">9cd2c82aef290011</strong></span>\n    <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    <span id=\"cf-footer-item-ip\" class=\"cf-footer-item hidden sm:block sm:mb-1\">\n      Your IP:\n      <button type=\"button\" id=\"cf-footer-ip-reveal\" class=\"cf-footer-ip-reveal-btn\">Click to reveal</button>\n      <span class=\"hidden\" id=\"cf-footer-ip\">167.94.138.180</span>\n      <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    </span>\n    <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance &amp; security by</span> <a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/5xx-error-landing\" id=\"brand_link\" target=\"_blank\">Cloudflare</a></span>\n    \n  </p>\n  <script>(function(){function d(){var b=a.getElementById(\"cf-footer-item-ip\"),c=a.getElementById(\"cf-footer-ip-reveal\");b&&\"classList\"in b&&(b.classList.remove(\"hidden\"),c.addEventListener(\"click\",function(){c.classList.add(\"hidden\");a.getElementById(\"cf-footer-ip\").classList.remove(\"hidden\")}))}var a=document;document.addEventListener&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n</div><!-- /.error-footer -->\n\n\n    </div><!-- /#cf-error-details -->\n  </div><!-- /#cf-wrapper -->\n\n  <script>\n  window._cf_translation = {};\n  \n  \n</script>\n\n</body>\n</html>\n",
+                "html_title": "Direct IP access not allowed | Cloudflare",
+                "body_hash_sha256": "7e00a669dfad1c7aedd3bb05d560d4d980fe27a5027ecf224c14f509ada5943a",
+                "body_hash_sha1": "1553a5d49cf4705160878769194dc8ff6cd3cb8e",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "104.16.248.249"
+            }
+          ]
+        },
+        {
+          "port": 2083,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "e3b02826789d653d224d3edacbe4e877cb7286fc4c922672f6226741ca57ad65",
+            "fingerprint_sha1": "f88635017260d40b9eb417bee73737911b630e59",
+            "fingerprint_md5": "3f5657c103693bc68bc35429e987b3d4",
+            "tbs_fingerprint_sha256": "57adbfff93f66ad39303530e6dba7fc64d82a644e3755b2a7943500c5ffcc9d6",
+            "tbs_no_ct_fingerprint_sha256": "e2697bf79dddcdbff679bb0ef20e847e11cb17a5004e41ced16815c90badddfc",
+            "spki_fingerprint_sha256": "fe4bbbcf3cc2001a1df63241958fbf9830d5d1252d84a30925801db709f1525f",
+            "parent_spki_fingerprint_sha256": "41e1b77957dff8f16f8a11a0e1498d82bfa656e6ce631255c4b89826142da4b4",
+            "parsed": {
+              "version": 3,
+              "serial_number": "104760816198390176145736269975424776716",
+              "issuer_dn": "C=US, ST=Texas, L=Houston, O=SSL Corp, CN=SSL.com SSL Intermediate CA ECC R2",
+              "issuer": {
+                "common_name": [
+                  "SSL.com SSL Intermediate CA ECC R2"
+                ],
+                "country": [
+                  "US"
+                ],
+                "locality": [
+                  "Houston"
+                ],
+                "province": [
+                  "Texas"
+                ],
+                "organization": [
+                  "SSL Corp"
+                ]
+              },
+              "subject_dn": "C=US, ST=California, L=San Francisco, O=Cloudflare\\, Inc., CN=cloudflare-dns.com",
+              "subject": {
+                "common_name": [
+                  "cloudflare-dns.com"
+                ],
+                "country": [
+                  "US"
+                ],
+                "locality": [
+                  "San Francisco"
+                ],
+                "province": [
+                  "California"
+                ],
+                "organization": [
+                  "Cloudflare, Inc."
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "ECDSA",
+                  "oid": "1.2.840.10045.2.1"
+                },
+                "ecdsa": {
+                  "b": "5ac635d8aa3a93e7b3ebbd55769886bc651d06b0cc53b0f63bce3c3e27d2604b",
+                  "curve": "P-256",
+                  "gx": "6b17d1f2e12c4247f8bce6e563a440f277037d812deb33a0f4a13945d898c296",
+                  "gy": "4fe342e2fe1a7f9b8ee7eb4a7c0f9e162bce33576b315ececbb6406837bf51f5",
+                  "length": 256,
+                  "n": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+                  "p": "ffffffff00000001000000000000000000000000ffffffffffffffffffffffff",
+                  "pub": "046383502512ea727819eb3247afc105529c2a2b608a844e756d814847c1c7becf85796c12295b50b3ccec50a1949edc4408070c801a93d3bd78117bb6a3c8eaac",
+                  "x": "6383502512ea727819eb3247afc105529c2a2b608a844e756d814847c1c7becf",
+                  "y": "85796c12295b50b3ccec50a1949edc4408070c801a93d3bd78117bb6a3c8eaac"
+                },
+                "fingerprint_sha256": "96d43a697cb7b6aa4d64a25d9debcc0fba11f88b08e6b3566ceb2c143ae5f84c"
+              },
+              "validity_period": {
+                "not_before": "2025-12-31T19:20:01Z",
+                "not_after": "2026-12-21T19:20:01Z",
+                "length_seconds": 30672001
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "ECDSA-SHA384",
+                  "oid": "1.2.840.10045.4.3.3"
+                },
+                "value": "306402301b2eb53f7f34ee2a79c9dc5e3fe15aeaf3fd0581b24ec6cab641ef5480d4fed03010e89c5a727e41105a889600d7cf0f023012fce5ba42cf30d3c2296380704acb379151ea1e24a8c1337752ea4e3bb1e2348d5d6cc2b205639cec499f8ab7323285",
+                "valid": true
+              },
+              "serial_number_hex": "4ed03304c46b87a8c2eb5569db9eba0c"
+            },
+            "names": [
+              "*.cloudflare-dns.com",
+              "1.0.0.1",
+              "1.1.1.1",
+              "162.159.36.1",
+              "162.159.46.1",
+              "cloudflare-dns.com",
+              "one.one.one.one"
+            ],
+            "validation_level": "ov",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "3417bb06cc6007da1b961c920b8ab4ce3fad820e4aa30b9acbc4a74ebdcebc65"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "85666a562ee0be5ce925c1d8890a6f76a87ec16d4d7d5f29ea7419cf20123b69"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "a272f56f844fd9f8979fff8c3cb18621454cb15ba419fc4427824b7bcd2d29b6",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "3f7befce41f251b2282018fb73213a2116a3f4f692389335e04ff5ae33ab45da",
+                      "cecddc905099d8dadfc5b1d209b737cbe2c18cfb2c10c0ff0bcf0d3286fc1aa2"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "b3e86467d178f3cebe11e739fc2169e4c7859078ec63fb40318981ef3a4eab26",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "3417bb06cc6007da1b961c920b8ab4ce3fad820e4aa30b9acbc4a74ebdcebc65"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "85666a562ee0be5ce925c1d8890a6f76a87ec16d4d7d5f29ea7419cf20123b69"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "a272f56f844fd9f8979fff8c3cb18621454cb15ba419fc4427824b7bcd2d29b6",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "3f7befce41f251b2282018fb73213a2116a3f4f692389335e04ff5ae33ab45da",
+                      "cecddc905099d8dadfc5b1d209b737cbe2c18cfb2c10c0ff0bcf0d3286fc1aa2"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "b3e86467d178f3cebe11e739fc2169e4c7859078ec63fb40318981ef3a4eab26",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "3417bb06cc6007da1b961c920b8ab4ce3fad820e4aa30b9acbc4a74ebdcebc65"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "85666a562ee0be5ce925c1d8890a6f76a87ec16d4d7d5f29ea7419cf20123b69"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "a272f56f844fd9f8979fff8c3cb18621454cb15ba419fc4427824b7bcd2d29b6",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "3f7befce41f251b2282018fb73213a2116a3f4f692389335e04ff5ae33ab45da",
+                      "cecddc905099d8dadfc5b1d209b737cbe2c18cfb2c10c0ff0bcf0d3286fc1aa2"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "b3e86467d178f3cebe11e739fc2169e4c7859078ec63fb40318981ef3a4eab26",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "3417bb06cc6007da1b961c920b8ab4ce3fad820e4aa30b9acbc4a74ebdcebc65"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "85666a562ee0be5ce925c1d8890a6f76a87ec16d4d7d5f29ea7419cf20123b69"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "a272f56f844fd9f8979fff8c3cb18621454cb15ba419fc4427824b7bcd2d29b6",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "b3e86467d178f3cebe11e739fc2169e4c7859078ec63fb40318981ef3a4eab26",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 2545862946,
+                  "added_to_ct_at": "2026-02-13T00:39:41Z",
+                  "ct_to_censys_at": "2026-02-13T01:24:38Z"
+                },
+                "google_argon_2026_h2": {
+                  "index": 232178206,
+                  "added_to_ct_at": "2026-01-15T22:46:20Z",
+                  "ct_to_censys_at": "2026-01-15T22:53:47Z"
+                },
+                "google_xenon_2026_h2": {
+                  "index": 179079636,
+                  "added_to_ct_at": "2026-01-15T22:46:20Z",
+                  "ct_to_censys_at": "2026-01-15T22:57:20Z"
+                },
+                "letsencrypt_ct_sycamore_2027_h1": {
+                  "index": 24876856,
+                  "added_to_ct_at": "2026-01-16T00:10:05Z",
+                  "ct_to_censys_at": "2026-01-16T00:13:13Z"
+                },
+                "letsencrypt_ct_willow_2027_h1": {
+                  "index": 23599739,
+                  "added_to_ct_at": "2026-01-16T00:10:05Z",
+                  "ct_to_censys_at": "2026-01-16T00:13:17Z"
+                },
+                "sectigo_elephant_2026_h2": {
+                  "index": 108362684,
+                  "added_to_ct_at": "2026-01-15T22:46:20Z",
+                  "ct_to_censys_at": "2026-01-15T22:56:05Z"
+                },
+                "sectigo_tiger_2026_h2": {
+                  "index": 107967593,
+                  "added_to_ct_at": "2026-01-15T22:46:21Z",
+                  "ct_to_censys_at": "2026-01-15T22:57:43Z"
+                },
+                "trustasia_log_2026_a": {
+                  "index": 532819352,
+                  "added_to_ct_at": "2026-01-15T22:46:24Z",
+                  "ct_to_censys_at": "2026-01-15T22:56:20Z"
+                },
+                "trustasia_log_2026_b": {
+                  "index": 552626750,
+                  "added_to_ct_at": "2026-01-15T22:46:25Z",
+                  "ct_to_censys_at": "2026-01-15T22:58:57Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2026-01-09T06:34:43Z",
+            "modified_at": "2026-02-13T01:24:39Z",
+            "validated_at": "2026-02-12T21:46:44Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "fe4bbbcf3cc2001a1df63241958fbf9830d5d1252d84a30925801db709f1525f",
+            "parent_spki_subject_fingerprint_sha256": "41e1b77957dff8f16f8a11a0e1498d82bfa656e6ce631255c4b89826142da4b4"
+          },
+          "software": [
+            {
+              "vendor": "cloudflare",
+              "product": "cloudflare_load_balancer"
+            },
+            {
+              "type": [
+                "WAF"
+              ],
+              "vendor": "cloudflare",
+              "product": "waf"
+            }
+          ],
+          "labels": [
+            {
+              "value": "WAF"
+            }
+          ],
+          "ip": "104.16.248.249",
+          "scan_time": "2026-02-12T20:02:12Z",
+          "tls": {
+            "fingerprint_sha256": "e3b02826789d653d224d3edacbe4e877cb7286fc4c922672f6226741ca57ad65",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                "subject_dn": "C=US, ST=Texas, L=Houston, O=SSL Corp, CN=SSL.com SSL Intermediate CA ECC R2",
+                "issuer_dn": "C=US, ST=Texas, L=Houston, O=SSL Corporation, CN=SSL.com Root Certification Authority ECC"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "104.16.248.249",
+              "port": 2083,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-12T20:02:12Z",
+              "http": {
+                "uri": "https://104.16.248.249:2083/",
+                "protocol": "HTTP/1.1",
+                "status_code": 403,
+                "status_reason": "Forbidden",
+                "headers": {
+                  "CF-RAY": {
+                    "headers": [
+                      "9cceaea939c9f92b-ORD"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "151"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "cloudflare"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>403 Forbidden</title>"
+                ],
+                "body_size": 151,
+                "body": "<html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n<hr><center>cloudflare</center>\r\n</body>\r\n</html>\r\n",
+                "html_title": "403 Forbidden",
+                "body_hash_sha256": "eed0b81a2fbdd1c5a9f80705885fc5bbf346ba428a79ff7a13ec8491c6a8e96c",
+                "body_hash_sha1": "441671eacb9398792d435443beaddd3fc5fa1910",
+                "supported_versions": [
+                  "HTTP/1.1",
+                  "HTTP/2"
+                ]
+              },
+              "ip": "104.16.248.249"
+            }
+          ]
+        },
+        {
+          "port": 2086,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "cloudflare",
+              "product": "cloudflare_load_balancer"
+            },
+            {
+              "type": [
+                "WAF"
+              ],
+              "vendor": "cloudflare",
+              "product": "waf"
+            }
+          ],
+          "labels": [
+            {
+              "value": "WAF"
+            }
+          ],
+          "ip": "104.16.248.249",
+          "scan_time": "2026-02-12T20:58:41Z",
+          "endpoints": [
+            {
+              "hostname": "104.16.248.249",
+              "port": 2086,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-12T20:58:41Z",
+              "http": {
+                "uri": "http://104.16.248.249:2086/",
+                "protocol": "HTTP/1.1",
+                "status_code": 403,
+                "status_reason": "Forbidden",
+                "headers": {
+                  "CF-RAY": {
+                    "headers": [
+                      "9ccf0138dc93508f-ORD"
+                    ]
+                  },
+                  "Cache-Control": {
+                    "headers": [
+                      "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Encoding": {
+                    "headers": [
+                      "gzip"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html; charset=UTF-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Expires": {
+                    "headers": [
+                      "Thu, 01 Jan 1970 00:00:01 GMT"
+                    ]
+                  },
+                  "Referrer-Policy": {
+                    "headers": [
+                      "same-origin"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "cloudflare"
+                    ]
+                  },
+                  "Transfer-Encoding": {
+                    "headers": [
+                      "chunked"
+                    ]
+                  },
+                  "Vary": {
+                    "headers": [
+                      "Accept-Encoding"
+                    ]
+                  },
+                  "X-Frame-Options": {
+                    "headers": [
+                      "SAMEORIGIN"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>Direct IP access not allowed | Cloudflare</title>",
+                  "<meta charset=\"UTF-8\" />",
+                  "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />",
+                  "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />",
+                  "<meta name=\"robots\" content=\"noindex, nofollow\" />",
+                  "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />"
+                ],
+                "body_size": 6237,
+                "body": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Direct IP access not allowed | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />\n<meta name=\"robots\" content=\"noindex, nofollow\" />\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n<link rel=\"stylesheet\" id=\"cf_styles-css\" href=\"/cdn-cgi/styles/main.css\" />\n\n\n<script>\n(function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById(\"error-feedback-survey\"),d=document.getElementById(\"error-feedback-success\"),b=new XMLHttpRequest;a={event:\"feedback clicked\",properties:{errorCode:1003,helpful:a,version:1}};b.open(\"POST\",\"https://sparrow.cloudflare.com/api/v1/event\");b.setRequestHeader(\"Content-Type\",\"application/json\");b.setRequestHeader(\"Sparrow-Source-Key\",\"c771f0e4b54944bebf4261d44bd79a1e\");\nb.send(JSON.stringify(a));c.classList.add(\"feedback-hidden\");d.classList.remove(\"feedback-hidden\")};document.addEventListener(\"DOMContentLoaded\",function(){var a=document.getElementById(\"error-feedback\"),c=document.getElementById(\"feedback-button-yes\"),d=document.getElementById(\"feedback-button-no\");\"classList\"in a&&(a.classList.remove(\"feedback-hidden\"),c.addEventListener(\"click\",function(){e(!0)}),d.addEventListener(\"click\",function(){e(!1)}))})}})();\n</script>\n\n<script defer src=\"https://performance.radar.cloudflare.com/beacon.js\"></script>\n</head>\n<body>\n  <div id=\"cf-wrapper\">\n    <div class=\"cf-alert cf-alert-error cf-cookie-error hidden\" id=\"cookie-alert\" data-translate=\"enable_cookies\">Please enable cookies.</div>\n    <div id=\"cf-error-details\" class=\"p-0\">\n      <header class=\"mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased\">\n         <h1 class=\"inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight\">\n           <span data-translate=\"error\">Error</span>\n           <span>1003</span>\n         </h1>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">Ray ID: 9ccf0138dc93508f &bull;</span>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">2026-02-12 20:58:33 UTC</span>\n        <h2 class=\"text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light\">Direct IP access not allowed</h2>\n      </header>\n\n      <section class=\"w-240 lg:w-full mx-auto mb-8 lg:px-8\">\n          <div id=\"what-happened-section\" class=\"w-1/2 md:w-full\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_happened\">What happened?</h2>\n            <p>You've requested an IP address that is part of the <a href=\"https://www.cloudflare.com/5xx-error-landing/\" target=\"_blank\">Cloudflare</a> network. A valid Host header must be supplied to reach the desired website.</p>\n            \n              <p>Please see <a rel=\"noopener noreferrer\" href=\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1003/\" target=\"_blank\">https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1003/</a> for more details.</p>\n            \n          </div>\n\n          \n          <div id=\"resolution-copy-section\" class=\"w-1/2 mt-6 text-15 leading-normal\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_can_i_do\">What can I do?</h2>\n            <p>If you are interested in learning more about Cloudflare, please <a href=\"https://www.cloudflare.com/5xx-error-landing/\" target=\"_blank\">visit our website</a>.</p>\n          </div>\n          \n      </section>\n\n      <div class=\"feedback-hidden py-8 text-center\" id=\"error-feedback\">\n    <div id=\"error-feedback-survey\" class=\"footer-line-wrapper\">\n        Was this page helpful?\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-yes\" type=\"button\">Yes</button>\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-no\" type=\"button\">No</button>\n    </div>\n    <div class=\"feedback-success feedback-hidden\" id=\"error-feedback-success\">\n        Thank you for your feedback!\n    </div>\n</div>\n\n\n      <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n  <p class=\"text-13\">\n    <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">9ccf0138dc93508f</strong></span>\n    <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    <span id=\"cf-footer-item-ip\" class=\"cf-footer-item hidden sm:block sm:mb-1\">\n      Your IP:\n      <button type=\"button\" id=\"cf-footer-ip-reveal\" class=\"cf-footer-ip-reveal-btn\">Click to reveal</button>\n      <span class=\"hidden\" id=\"cf-footer-ip\">162.142.125.222</span>\n      <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    </span>\n    <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance &amp; security by</span> <a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/5xx-error-landing\" id=\"brand_link\" target=\"_blank\">Cloudflare</a></span>\n    \n  </p>\n  <script>(function(){function d(){var b=a.getElementById(\"cf-footer-item-ip\"),c=a.getElementById(\"cf-footer-ip-reveal\");b&&\"classList\"in b&&(b.classList.remove(\"hidden\"),c.addEventListener(\"click\",function(){c.classList.add(\"hidden\");a.getElementById(\"cf-footer-ip\").classList.remove(\"hidden\")}))}var a=document;document.addEventListener&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n</div><!-- /.error-footer -->\n\n\n    </div><!-- /#cf-error-details -->\n  </div><!-- /#cf-wrapper -->\n\n  <script>\n  window._cf_translation = {};\n  \n  \n</script>\n\n</body>\n</html>\n",
+                "html_title": "Direct IP access not allowed | Cloudflare",
+                "body_hash_sha256": "b1601b2a206d6a4ed9909356ee4da5cadd90ccd7e564579089e4b1bd4c0b454d",
+                "body_hash_sha1": "88e1658f96107e7f17487c1002209ebc9091d6f5",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "104.16.248.249"
+            }
+          ]
+        },
+        {
+          "port": 2087,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "e3b02826789d653d224d3edacbe4e877cb7286fc4c922672f6226741ca57ad65",
+            "fingerprint_sha1": "f88635017260d40b9eb417bee73737911b630e59",
+            "fingerprint_md5": "3f5657c103693bc68bc35429e987b3d4",
+            "tbs_fingerprint_sha256": "57adbfff93f66ad39303530e6dba7fc64d82a644e3755b2a7943500c5ffcc9d6",
+            "tbs_no_ct_fingerprint_sha256": "e2697bf79dddcdbff679bb0ef20e847e11cb17a5004e41ced16815c90badddfc",
+            "spki_fingerprint_sha256": "fe4bbbcf3cc2001a1df63241958fbf9830d5d1252d84a30925801db709f1525f",
+            "parent_spki_fingerprint_sha256": "41e1b77957dff8f16f8a11a0e1498d82bfa656e6ce631255c4b89826142da4b4",
+            "parsed": {
+              "version": 3,
+              "serial_number": "104760816198390176145736269975424776716",
+              "issuer_dn": "C=US, ST=Texas, L=Houston, O=SSL Corp, CN=SSL.com SSL Intermediate CA ECC R2",
+              "issuer": {
+                "common_name": [
+                  "SSL.com SSL Intermediate CA ECC R2"
+                ],
+                "country": [
+                  "US"
+                ],
+                "locality": [
+                  "Houston"
+                ],
+                "province": [
+                  "Texas"
+                ],
+                "organization": [
+                  "SSL Corp"
+                ]
+              },
+              "subject_dn": "C=US, ST=California, L=San Francisco, O=Cloudflare\\, Inc., CN=cloudflare-dns.com",
+              "subject": {
+                "common_name": [
+                  "cloudflare-dns.com"
+                ],
+                "country": [
+                  "US"
+                ],
+                "locality": [
+                  "San Francisco"
+                ],
+                "province": [
+                  "California"
+                ],
+                "organization": [
+                  "Cloudflare, Inc."
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "ECDSA",
+                  "oid": "1.2.840.10045.2.1"
+                },
+                "ecdsa": {
+                  "b": "5ac635d8aa3a93e7b3ebbd55769886bc651d06b0cc53b0f63bce3c3e27d2604b",
+                  "curve": "P-256",
+                  "gx": "6b17d1f2e12c4247f8bce6e563a440f277037d812deb33a0f4a13945d898c296",
+                  "gy": "4fe342e2fe1a7f9b8ee7eb4a7c0f9e162bce33576b315ececbb6406837bf51f5",
+                  "length": 256,
+                  "n": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+                  "p": "ffffffff00000001000000000000000000000000ffffffffffffffffffffffff",
+                  "pub": "046383502512ea727819eb3247afc105529c2a2b608a844e756d814847c1c7becf85796c12295b50b3ccec50a1949edc4408070c801a93d3bd78117bb6a3c8eaac",
+                  "x": "6383502512ea727819eb3247afc105529c2a2b608a844e756d814847c1c7becf",
+                  "y": "85796c12295b50b3ccec50a1949edc4408070c801a93d3bd78117bb6a3c8eaac"
+                },
+                "fingerprint_sha256": "96d43a697cb7b6aa4d64a25d9debcc0fba11f88b08e6b3566ceb2c143ae5f84c"
+              },
+              "validity_period": {
+                "not_before": "2025-12-31T19:20:01Z",
+                "not_after": "2026-12-21T19:20:01Z",
+                "length_seconds": 30672001
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "ECDSA-SHA384",
+                  "oid": "1.2.840.10045.4.3.3"
+                },
+                "value": "306402301b2eb53f7f34ee2a79c9dc5e3fe15aeaf3fd0581b24ec6cab641ef5480d4fed03010e89c5a727e41105a889600d7cf0f023012fce5ba42cf30d3c2296380704acb379151ea1e24a8c1337752ea4e3bb1e2348d5d6cc2b205639cec499f8ab7323285",
+                "valid": true
+              },
+              "serial_number_hex": "4ed03304c46b87a8c2eb5569db9eba0c"
+            },
+            "names": [
+              "*.cloudflare-dns.com",
+              "1.0.0.1",
+              "1.1.1.1",
+              "162.159.36.1",
+              "162.159.46.1",
+              "cloudflare-dns.com",
+              "one.one.one.one"
+            ],
+            "validation_level": "ov",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "3417bb06cc6007da1b961c920b8ab4ce3fad820e4aa30b9acbc4a74ebdcebc65"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "85666a562ee0be5ce925c1d8890a6f76a87ec16d4d7d5f29ea7419cf20123b69"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "a272f56f844fd9f8979fff8c3cb18621454cb15ba419fc4427824b7bcd2d29b6",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "3f7befce41f251b2282018fb73213a2116a3f4f692389335e04ff5ae33ab45da",
+                      "cecddc905099d8dadfc5b1d209b737cbe2c18cfb2c10c0ff0bcf0d3286fc1aa2"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "b3e86467d178f3cebe11e739fc2169e4c7859078ec63fb40318981ef3a4eab26",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "3417bb06cc6007da1b961c920b8ab4ce3fad820e4aa30b9acbc4a74ebdcebc65"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "85666a562ee0be5ce925c1d8890a6f76a87ec16d4d7d5f29ea7419cf20123b69"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "a272f56f844fd9f8979fff8c3cb18621454cb15ba419fc4427824b7bcd2d29b6",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "3f7befce41f251b2282018fb73213a2116a3f4f692389335e04ff5ae33ab45da",
+                      "cecddc905099d8dadfc5b1d209b737cbe2c18cfb2c10c0ff0bcf0d3286fc1aa2"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "b3e86467d178f3cebe11e739fc2169e4c7859078ec63fb40318981ef3a4eab26",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "3417bb06cc6007da1b961c920b8ab4ce3fad820e4aa30b9acbc4a74ebdcebc65"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "85666a562ee0be5ce925c1d8890a6f76a87ec16d4d7d5f29ea7419cf20123b69"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "a272f56f844fd9f8979fff8c3cb18621454cb15ba419fc4427824b7bcd2d29b6",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "3f7befce41f251b2282018fb73213a2116a3f4f692389335e04ff5ae33ab45da",
+                      "cecddc905099d8dadfc5b1d209b737cbe2c18cfb2c10c0ff0bcf0d3286fc1aa2"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "b3e86467d178f3cebe11e739fc2169e4c7859078ec63fb40318981ef3a4eab26",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "3417bb06cc6007da1b961c920b8ab4ce3fad820e4aa30b9acbc4a74ebdcebc65"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "85666a562ee0be5ce925c1d8890a6f76a87ec16d4d7d5f29ea7419cf20123b69"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "a272f56f844fd9f8979fff8c3cb18621454cb15ba419fc4427824b7bcd2d29b6",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "b3e86467d178f3cebe11e739fc2169e4c7859078ec63fb40318981ef3a4eab26",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 2545862946,
+                  "added_to_ct_at": "2026-02-13T00:39:41Z",
+                  "ct_to_censys_at": "2026-02-13T01:24:38Z"
+                },
+                "google_argon_2026_h2": {
+                  "index": 232178206,
+                  "added_to_ct_at": "2026-01-15T22:46:20Z",
+                  "ct_to_censys_at": "2026-01-15T22:53:47Z"
+                },
+                "google_xenon_2026_h2": {
+                  "index": 179079636,
+                  "added_to_ct_at": "2026-01-15T22:46:20Z",
+                  "ct_to_censys_at": "2026-01-15T22:57:20Z"
+                },
+                "letsencrypt_ct_sycamore_2027_h1": {
+                  "index": 24876856,
+                  "added_to_ct_at": "2026-01-16T00:10:05Z",
+                  "ct_to_censys_at": "2026-01-16T00:13:13Z"
+                },
+                "letsencrypt_ct_willow_2027_h1": {
+                  "index": 23599739,
+                  "added_to_ct_at": "2026-01-16T00:10:05Z",
+                  "ct_to_censys_at": "2026-01-16T00:13:17Z"
+                },
+                "sectigo_elephant_2026_h2": {
+                  "index": 108362684,
+                  "added_to_ct_at": "2026-01-15T22:46:20Z",
+                  "ct_to_censys_at": "2026-01-15T22:56:05Z"
+                },
+                "sectigo_tiger_2026_h2": {
+                  "index": 107967593,
+                  "added_to_ct_at": "2026-01-15T22:46:21Z",
+                  "ct_to_censys_at": "2026-01-15T22:57:43Z"
+                },
+                "trustasia_log_2026_a": {
+                  "index": 532819352,
+                  "added_to_ct_at": "2026-01-15T22:46:24Z",
+                  "ct_to_censys_at": "2026-01-15T22:56:20Z"
+                },
+                "trustasia_log_2026_b": {
+                  "index": 552626750,
+                  "added_to_ct_at": "2026-01-15T22:46:25Z",
+                  "ct_to_censys_at": "2026-01-15T22:58:57Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2026-01-09T06:34:43Z",
+            "modified_at": "2026-02-13T01:24:39Z",
+            "validated_at": "2026-02-12T21:46:44Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "fe4bbbcf3cc2001a1df63241958fbf9830d5d1252d84a30925801db709f1525f",
+            "parent_spki_subject_fingerprint_sha256": "41e1b77957dff8f16f8a11a0e1498d82bfa656e6ce631255c4b89826142da4b4"
+          },
+          "software": [
+            {
+              "vendor": "cloudflare",
+              "product": "cloudflare_load_balancer"
+            },
+            {
+              "type": [
+                "WAF"
+              ],
+              "vendor": "cloudflare",
+              "product": "waf"
+            }
+          ],
+          "labels": [
+            {
+              "value": "WAF"
+            }
+          ],
+          "ip": "104.16.248.249",
+          "scan_time": "2026-02-13T05:53:36Z",
+          "tls": {
+            "fingerprint_sha256": "e3b02826789d653d224d3edacbe4e877cb7286fc4c922672f6226741ca57ad65",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                "subject_dn": "C=US, ST=Texas, L=Houston, O=SSL Corp, CN=SSL.com SSL Intermediate CA ECC R2",
+                "issuer_dn": "C=US, ST=Texas, L=Houston, O=SSL Corporation, CN=SSL.com Root Certification Authority ECC"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "104.16.248.249",
+              "port": 2087,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T05:53:36Z",
+              "http": {
+                "uri": "https://104.16.248.249:2087/",
+                "protocol": "HTTP/1.1",
+                "status_code": 403,
+                "status_reason": "Forbidden",
+                "headers": {
+                  "CF-RAY": {
+                    "headers": [
+                      "9cd210f93df6e2f1-HKG"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "151"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "cloudflare"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>403 Forbidden</title>"
+                ],
+                "body_size": 151,
+                "body": "<html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n<hr><center>cloudflare</center>\r\n</body>\r\n</html>\r\n",
+                "html_title": "403 Forbidden",
+                "body_hash_sha256": "eed0b81a2fbdd1c5a9f80705885fc5bbf346ba428a79ff7a13ec8491c6a8e96c",
+                "body_hash_sha1": "441671eacb9398792d435443beaddd3fc5fa1910",
+                "supported_versions": [
+                  "HTTP/1.1",
+                  "HTTP/2"
+                ]
+              },
+              "ip": "104.16.248.249"
+            }
+          ]
+        },
+        {
+          "port": 2095,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "cloudflare",
+              "product": "cloudflare_load_balancer"
+            },
+            {
+              "type": [
+                "WAF"
+              ],
+              "vendor": "cloudflare",
+              "product": "waf"
+            }
+          ],
+          "labels": [
+            {
+              "value": "WAF"
+            }
+          ],
+          "ip": "104.16.248.249",
+          "scan_time": "2026-02-13T02:21:49Z",
+          "endpoints": [
+            {
+              "hostname": "104.16.248.249",
+              "port": 2095,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T02:21:49Z",
+              "http": {
+                "uri": "http://104.16.248.249:2095/",
+                "protocol": "HTTP/1.1",
+                "status_code": 403,
+                "status_reason": "Forbidden",
+                "headers": {
+                  "CF-RAY": {
+                    "headers": [
+                      "9cd0dac00927f862-ORD"
+                    ]
+                  },
+                  "Cache-Control": {
+                    "headers": [
+                      "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Encoding": {
+                    "headers": [
+                      "gzip"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html; charset=UTF-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Expires": {
+                    "headers": [
+                      "Thu, 01 Jan 1970 00:00:01 GMT"
+                    ]
+                  },
+                  "Referrer-Policy": {
+                    "headers": [
+                      "same-origin"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "cloudflare"
+                    ]
+                  },
+                  "Transfer-Encoding": {
+                    "headers": [
+                      "chunked"
+                    ]
+                  },
+                  "Vary": {
+                    "headers": [
+                      "Accept-Encoding"
+                    ]
+                  },
+                  "X-Frame-Options": {
+                    "headers": [
+                      "SAMEORIGIN"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>Direct IP access not allowed | Cloudflare</title>",
+                  "<meta charset=\"UTF-8\" />",
+                  "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />",
+                  "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />",
+                  "<meta name=\"robots\" content=\"noindex, nofollow\" />",
+                  "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />"
+                ],
+                "body_size": 6237,
+                "body": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Direct IP access not allowed | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />\n<meta name=\"robots\" content=\"noindex, nofollow\" />\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n<link rel=\"stylesheet\" id=\"cf_styles-css\" href=\"/cdn-cgi/styles/main.css\" />\n\n\n<script>\n(function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById(\"error-feedback-survey\"),d=document.getElementById(\"error-feedback-success\"),b=new XMLHttpRequest;a={event:\"feedback clicked\",properties:{errorCode:1003,helpful:a,version:1}};b.open(\"POST\",\"https://sparrow.cloudflare.com/api/v1/event\");b.setRequestHeader(\"Content-Type\",\"application/json\");b.setRequestHeader(\"Sparrow-Source-Key\",\"c771f0e4b54944bebf4261d44bd79a1e\");\nb.send(JSON.stringify(a));c.classList.add(\"feedback-hidden\");d.classList.remove(\"feedback-hidden\")};document.addEventListener(\"DOMContentLoaded\",function(){var a=document.getElementById(\"error-feedback\"),c=document.getElementById(\"feedback-button-yes\"),d=document.getElementById(\"feedback-button-no\");\"classList\"in a&&(a.classList.remove(\"feedback-hidden\"),c.addEventListener(\"click\",function(){e(!0)}),d.addEventListener(\"click\",function(){e(!1)}))})}})();\n</script>\n\n<script defer src=\"https://performance.radar.cloudflare.com/beacon.js\"></script>\n</head>\n<body>\n  <div id=\"cf-wrapper\">\n    <div class=\"cf-alert cf-alert-error cf-cookie-error hidden\" id=\"cookie-alert\" data-translate=\"enable_cookies\">Please enable cookies.</div>\n    <div id=\"cf-error-details\" class=\"p-0\">\n      <header class=\"mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased\">\n         <h1 class=\"inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight\">\n           <span data-translate=\"error\">Error</span>\n           <span>1003</span>\n         </h1>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">Ray ID: 9cd0dac00927f862 &bull;</span>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">2026-02-13 02:21:49 UTC</span>\n        <h2 class=\"text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light\">Direct IP access not allowed</h2>\n      </header>\n\n      <section class=\"w-240 lg:w-full mx-auto mb-8 lg:px-8\">\n          <div id=\"what-happened-section\" class=\"w-1/2 md:w-full\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_happened\">What happened?</h2>\n            <p>You've requested an IP address that is part of the <a href=\"https://www.cloudflare.com/5xx-error-landing/\" target=\"_blank\">Cloudflare</a> network. A valid Host header must be supplied to reach the desired website.</p>\n            \n              <p>Please see <a rel=\"noopener noreferrer\" href=\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1003/\" target=\"_blank\">https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1003/</a> for more details.</p>\n            \n          </div>\n\n          \n          <div id=\"resolution-copy-section\" class=\"w-1/2 mt-6 text-15 leading-normal\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_can_i_do\">What can I do?</h2>\n            <p>If you are interested in learning more about Cloudflare, please <a href=\"https://www.cloudflare.com/5xx-error-landing/\" target=\"_blank\">visit our website</a>.</p>\n          </div>\n          \n      </section>\n\n      <div class=\"feedback-hidden py-8 text-center\" id=\"error-feedback\">\n    <div id=\"error-feedback-survey\" class=\"footer-line-wrapper\">\n        Was this page helpful?\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-yes\" type=\"button\">Yes</button>\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-no\" type=\"button\">No</button>\n    </div>\n    <div class=\"feedback-success feedback-hidden\" id=\"error-feedback-success\">\n        Thank you for your feedback!\n    </div>\n</div>\n\n\n      <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n  <p class=\"text-13\">\n    <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">9cd0dac00927f862</strong></span>\n    <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    <span id=\"cf-footer-item-ip\" class=\"cf-footer-item hidden sm:block sm:mb-1\">\n      Your IP:\n      <button type=\"button\" id=\"cf-footer-ip-reveal\" class=\"cf-footer-ip-reveal-btn\">Click to reveal</button>\n      <span class=\"hidden\" id=\"cf-footer-ip\">162.142.125.127</span>\n      <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    </span>\n    <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance &amp; security by</span> <a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/5xx-error-landing\" id=\"brand_link\" target=\"_blank\">Cloudflare</a></span>\n    \n  </p>\n  <script>(function(){function d(){var b=a.getElementById(\"cf-footer-item-ip\"),c=a.getElementById(\"cf-footer-ip-reveal\");b&&\"classList\"in b&&(b.classList.remove(\"hidden\"),c.addEventListener(\"click\",function(){c.classList.add(\"hidden\");a.getElementById(\"cf-footer-ip\").classList.remove(\"hidden\")}))}var a=document;document.addEventListener&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n</div><!-- /.error-footer -->\n\n\n    </div><!-- /#cf-error-details -->\n  </div><!-- /#cf-wrapper -->\n\n  <script>\n  window._cf_translation = {};\n  \n  \n</script>\n\n</body>\n</html>\n",
+                "html_title": "Direct IP access not allowed | Cloudflare",
+                "body_hash_sha256": "de4ec0e6e8f06cae98a3a6b180a5caff2619acd1b607ec3805dfa1d17d5eaed6",
+                "body_hash_sha1": "5be1e0a98f5e6154e158b9094c703ae188b4f73f",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "104.16.248.249"
+            }
+          ]
+        },
+        {
+          "port": 2096,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "e3b02826789d653d224d3edacbe4e877cb7286fc4c922672f6226741ca57ad65",
+            "fingerprint_sha1": "f88635017260d40b9eb417bee73737911b630e59",
+            "fingerprint_md5": "3f5657c103693bc68bc35429e987b3d4",
+            "tbs_fingerprint_sha256": "57adbfff93f66ad39303530e6dba7fc64d82a644e3755b2a7943500c5ffcc9d6",
+            "tbs_no_ct_fingerprint_sha256": "e2697bf79dddcdbff679bb0ef20e847e11cb17a5004e41ced16815c90badddfc",
+            "spki_fingerprint_sha256": "fe4bbbcf3cc2001a1df63241958fbf9830d5d1252d84a30925801db709f1525f",
+            "parent_spki_fingerprint_sha256": "41e1b77957dff8f16f8a11a0e1498d82bfa656e6ce631255c4b89826142da4b4",
+            "parsed": {
+              "version": 3,
+              "serial_number": "104760816198390176145736269975424776716",
+              "issuer_dn": "C=US, ST=Texas, L=Houston, O=SSL Corp, CN=SSL.com SSL Intermediate CA ECC R2",
+              "issuer": {
+                "common_name": [
+                  "SSL.com SSL Intermediate CA ECC R2"
+                ],
+                "country": [
+                  "US"
+                ],
+                "locality": [
+                  "Houston"
+                ],
+                "province": [
+                  "Texas"
+                ],
+                "organization": [
+                  "SSL Corp"
+                ]
+              },
+              "subject_dn": "C=US, ST=California, L=San Francisco, O=Cloudflare\\, Inc., CN=cloudflare-dns.com",
+              "subject": {
+                "common_name": [
+                  "cloudflare-dns.com"
+                ],
+                "country": [
+                  "US"
+                ],
+                "locality": [
+                  "San Francisco"
+                ],
+                "province": [
+                  "California"
+                ],
+                "organization": [
+                  "Cloudflare, Inc."
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "ECDSA",
+                  "oid": "1.2.840.10045.2.1"
+                },
+                "ecdsa": {
+                  "b": "5ac635d8aa3a93e7b3ebbd55769886bc651d06b0cc53b0f63bce3c3e27d2604b",
+                  "curve": "P-256",
+                  "gx": "6b17d1f2e12c4247f8bce6e563a440f277037d812deb33a0f4a13945d898c296",
+                  "gy": "4fe342e2fe1a7f9b8ee7eb4a7c0f9e162bce33576b315ececbb6406837bf51f5",
+                  "length": 256,
+                  "n": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+                  "p": "ffffffff00000001000000000000000000000000ffffffffffffffffffffffff",
+                  "pub": "046383502512ea727819eb3247afc105529c2a2b608a844e756d814847c1c7becf85796c12295b50b3ccec50a1949edc4408070c801a93d3bd78117bb6a3c8eaac",
+                  "x": "6383502512ea727819eb3247afc105529c2a2b608a844e756d814847c1c7becf",
+                  "y": "85796c12295b50b3ccec50a1949edc4408070c801a93d3bd78117bb6a3c8eaac"
+                },
+                "fingerprint_sha256": "96d43a697cb7b6aa4d64a25d9debcc0fba11f88b08e6b3566ceb2c143ae5f84c"
+              },
+              "validity_period": {
+                "not_before": "2025-12-31T19:20:01Z",
+                "not_after": "2026-12-21T19:20:01Z",
+                "length_seconds": 30672001
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "ECDSA-SHA384",
+                  "oid": "1.2.840.10045.4.3.3"
+                },
+                "value": "306402301b2eb53f7f34ee2a79c9dc5e3fe15aeaf3fd0581b24ec6cab641ef5480d4fed03010e89c5a727e41105a889600d7cf0f023012fce5ba42cf30d3c2296380704acb379151ea1e24a8c1337752ea4e3bb1e2348d5d6cc2b205639cec499f8ab7323285",
+                "valid": true
+              },
+              "serial_number_hex": "4ed03304c46b87a8c2eb5569db9eba0c"
+            },
+            "names": [
+              "*.cloudflare-dns.com",
+              "1.0.0.1",
+              "1.1.1.1",
+              "162.159.36.1",
+              "162.159.46.1",
+              "cloudflare-dns.com",
+              "one.one.one.one"
+            ],
+            "validation_level": "ov",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "3417bb06cc6007da1b961c920b8ab4ce3fad820e4aa30b9acbc4a74ebdcebc65"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "85666a562ee0be5ce925c1d8890a6f76a87ec16d4d7d5f29ea7419cf20123b69"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "a272f56f844fd9f8979fff8c3cb18621454cb15ba419fc4427824b7bcd2d29b6",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "3f7befce41f251b2282018fb73213a2116a3f4f692389335e04ff5ae33ab45da",
+                      "cecddc905099d8dadfc5b1d209b737cbe2c18cfb2c10c0ff0bcf0d3286fc1aa2"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "b3e86467d178f3cebe11e739fc2169e4c7859078ec63fb40318981ef3a4eab26",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "3417bb06cc6007da1b961c920b8ab4ce3fad820e4aa30b9acbc4a74ebdcebc65"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "85666a562ee0be5ce925c1d8890a6f76a87ec16d4d7d5f29ea7419cf20123b69"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "a272f56f844fd9f8979fff8c3cb18621454cb15ba419fc4427824b7bcd2d29b6",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "3f7befce41f251b2282018fb73213a2116a3f4f692389335e04ff5ae33ab45da",
+                      "cecddc905099d8dadfc5b1d209b737cbe2c18cfb2c10c0ff0bcf0d3286fc1aa2"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "b3e86467d178f3cebe11e739fc2169e4c7859078ec63fb40318981ef3a4eab26",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "3417bb06cc6007da1b961c920b8ab4ce3fad820e4aa30b9acbc4a74ebdcebc65"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "85666a562ee0be5ce925c1d8890a6f76a87ec16d4d7d5f29ea7419cf20123b69"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "a272f56f844fd9f8979fff8c3cb18621454cb15ba419fc4427824b7bcd2d29b6",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "3f7befce41f251b2282018fb73213a2116a3f4f692389335e04ff5ae33ab45da",
+                      "cecddc905099d8dadfc5b1d209b737cbe2c18cfb2c10c0ff0bcf0d3286fc1aa2"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "b3e86467d178f3cebe11e739fc2169e4c7859078ec63fb40318981ef3a4eab26",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "3417bb06cc6007da1b961c920b8ab4ce3fad820e4aa30b9acbc4a74ebdcebc65"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "85666a562ee0be5ce925c1d8890a6f76a87ec16d4d7d5f29ea7419cf20123b69"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "a272f56f844fd9f8979fff8c3cb18621454cb15ba419fc4427824b7bcd2d29b6",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "b3e86467d178f3cebe11e739fc2169e4c7859078ec63fb40318981ef3a4eab26",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 2545862946,
+                  "added_to_ct_at": "2026-02-13T00:39:41Z",
+                  "ct_to_censys_at": "2026-02-13T01:24:38Z"
+                },
+                "google_argon_2026_h2": {
+                  "index": 232178206,
+                  "added_to_ct_at": "2026-01-15T22:46:20Z",
+                  "ct_to_censys_at": "2026-01-15T22:53:47Z"
+                },
+                "google_xenon_2026_h2": {
+                  "index": 179079636,
+                  "added_to_ct_at": "2026-01-15T22:46:20Z",
+                  "ct_to_censys_at": "2026-01-15T22:57:20Z"
+                },
+                "letsencrypt_ct_sycamore_2027_h1": {
+                  "index": 24876856,
+                  "added_to_ct_at": "2026-01-16T00:10:05Z",
+                  "ct_to_censys_at": "2026-01-16T00:13:13Z"
+                },
+                "letsencrypt_ct_willow_2027_h1": {
+                  "index": 23599739,
+                  "added_to_ct_at": "2026-01-16T00:10:05Z",
+                  "ct_to_censys_at": "2026-01-16T00:13:17Z"
+                },
+                "sectigo_elephant_2026_h2": {
+                  "index": 108362684,
+                  "added_to_ct_at": "2026-01-15T22:46:20Z",
+                  "ct_to_censys_at": "2026-01-15T22:56:05Z"
+                },
+                "sectigo_tiger_2026_h2": {
+                  "index": 107967593,
+                  "added_to_ct_at": "2026-01-15T22:46:21Z",
+                  "ct_to_censys_at": "2026-01-15T22:57:43Z"
+                },
+                "trustasia_log_2026_a": {
+                  "index": 532819352,
+                  "added_to_ct_at": "2026-01-15T22:46:24Z",
+                  "ct_to_censys_at": "2026-01-15T22:56:20Z"
+                },
+                "trustasia_log_2026_b": {
+                  "index": 552626750,
+                  "added_to_ct_at": "2026-01-15T22:46:25Z",
+                  "ct_to_censys_at": "2026-01-15T22:58:57Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2026-01-09T06:34:43Z",
+            "modified_at": "2026-02-13T01:24:39Z",
+            "validated_at": "2026-02-12T21:46:44Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "fe4bbbcf3cc2001a1df63241958fbf9830d5d1252d84a30925801db709f1525f",
+            "parent_spki_subject_fingerprint_sha256": "41e1b77957dff8f16f8a11a0e1498d82bfa656e6ce631255c4b89826142da4b4"
+          },
+          "software": [
+            {
+              "vendor": "cloudflare",
+              "product": "cloudflare_load_balancer"
+            },
+            {
+              "type": [
+                "WAF"
+              ],
+              "vendor": "cloudflare",
+              "product": "waf"
+            }
+          ],
+          "labels": [
+            {
+              "value": "WAF"
+            }
+          ],
+          "ip": "104.16.248.249",
+          "scan_time": "2026-02-13T04:03:15Z",
+          "tls": {
+            "fingerprint_sha256": "e3b02826789d653d224d3edacbe4e877cb7286fc4c922672f6226741ca57ad65",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                "subject_dn": "C=US, ST=Texas, L=Houston, O=SSL Corp, CN=SSL.com SSL Intermediate CA ECC R2",
+                "issuer_dn": "C=US, ST=Texas, L=Houston, O=SSL Corporation, CN=SSL.com Root Certification Authority ECC"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "104.16.248.249",
+              "port": 2096,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T04:03:15Z",
+              "http": {
+                "uri": "https://104.16.248.249:2096/",
+                "protocol": "HTTP/1.1",
+                "status_code": 403,
+                "status_reason": "Forbidden",
+                "headers": {
+                  "CF-RAY": {
+                    "headers": [
+                      "9cd16f576ec80a26-ORD"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "151"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "cloudflare"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>403 Forbidden</title>"
+                ],
+                "body_size": 151,
+                "body": "<html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n<hr><center>cloudflare</center>\r\n</body>\r\n</html>\r\n",
+                "html_title": "403 Forbidden",
+                "body_hash_sha256": "eed0b81a2fbdd1c5a9f80705885fc5bbf346ba428a79ff7a13ec8491c6a8e96c",
+                "body_hash_sha1": "441671eacb9398792d435443beaddd3fc5fa1910",
+                "supported_versions": [
+                  "HTTP/1.1",
+                  "HTTP/2"
+                ]
+              },
+              "ip": "104.16.248.249"
+            }
+          ]
+        },
+        {
+          "port": 8080,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "cloudflare",
+              "product": "cloudflare_load_balancer"
+            },
+            {
+              "type": [
+                "WAF"
+              ],
+              "vendor": "cloudflare",
+              "product": "waf"
+            }
+          ],
+          "labels": [
+            {
+              "value": "WAF"
+            }
+          ],
+          "ip": "104.16.248.249",
+          "scan_time": "2026-02-13T13:29:56Z",
+          "endpoints": [
+            {
+              "hostname": "104.16.248.249",
+              "port": 8080,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T13:29:56Z",
+              "http": {
+                "uri": "http://104.16.248.249:8080/",
+                "protocol": "HTTP/1.1",
+                "status_code": 403,
+                "status_reason": "Forbidden",
+                "headers": {
+                  "CF-RAY": {
+                    "headers": [
+                      "9cd4ad6e7a851417-ORD"
+                    ]
+                  },
+                  "Cache-Control": {
+                    "headers": [
+                      "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Encoding": {
+                    "headers": [
+                      "gzip"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html; charset=UTF-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Expires": {
+                    "headers": [
+                      "Thu, 01 Jan 1970 00:00:01 GMT"
+                    ]
+                  },
+                  "Referrer-Policy": {
+                    "headers": [
+                      "same-origin"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "cloudflare"
+                    ]
+                  },
+                  "Transfer-Encoding": {
+                    "headers": [
+                      "chunked"
+                    ]
+                  },
+                  "Vary": {
+                    "headers": [
+                      "Accept-Encoding"
+                    ]
+                  },
+                  "X-Frame-Options": {
+                    "headers": [
+                      "SAMEORIGIN"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>Direct IP access not allowed | Cloudflare</title>",
+                  "<meta charset=\"UTF-8\" />",
+                  "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />",
+                  "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />",
+                  "<meta name=\"robots\" content=\"noindex, nofollow\" />",
+                  "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />"
+                ],
+                "body_size": 6236,
+                "body": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Direct IP access not allowed | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />\n<meta name=\"robots\" content=\"noindex, nofollow\" />\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n<link rel=\"stylesheet\" id=\"cf_styles-css\" href=\"/cdn-cgi/styles/main.css\" />\n\n\n<script>\n(function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById(\"error-feedback-survey\"),d=document.getElementById(\"error-feedback-success\"),b=new XMLHttpRequest;a={event:\"feedback clicked\",properties:{errorCode:1003,helpful:a,version:1}};b.open(\"POST\",\"https://sparrow.cloudflare.com/api/v1/event\");b.setRequestHeader(\"Content-Type\",\"application/json\");b.setRequestHeader(\"Sparrow-Source-Key\",\"c771f0e4b54944bebf4261d44bd79a1e\");\nb.send(JSON.stringify(a));c.classList.add(\"feedback-hidden\");d.classList.remove(\"feedback-hidden\")};document.addEventListener(\"DOMContentLoaded\",function(){var a=document.getElementById(\"error-feedback\"),c=document.getElementById(\"feedback-button-yes\"),d=document.getElementById(\"feedback-button-no\");\"classList\"in a&&(a.classList.remove(\"feedback-hidden\"),c.addEventListener(\"click\",function(){e(!0)}),d.addEventListener(\"click\",function(){e(!1)}))})}})();\n</script>\n\n<script defer src=\"https://performance.radar.cloudflare.com/beacon.js\"></script>\n</head>\n<body>\n  <div id=\"cf-wrapper\">\n    <div class=\"cf-alert cf-alert-error cf-cookie-error hidden\" id=\"cookie-alert\" data-translate=\"enable_cookies\">Please enable cookies.</div>\n    <div id=\"cf-error-details\" class=\"p-0\">\n      <header class=\"mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased\">\n         <h1 class=\"inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight\">\n           <span data-translate=\"error\">Error</span>\n           <span>1003</span>\n         </h1>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">Ray ID: 9cd4ad6e7a851417 &bull;</span>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">2026-02-13 13:29:56 UTC</span>\n        <h2 class=\"text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light\">Direct IP access not allowed</h2>\n      </header>\n\n      <section class=\"w-240 lg:w-full mx-auto mb-8 lg:px-8\">\n          <div id=\"what-happened-section\" class=\"w-1/2 md:w-full\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_happened\">What happened?</h2>\n            <p>You've requested an IP address that is part of the <a href=\"https://www.cloudflare.com/5xx-error-landing/\" target=\"_blank\">Cloudflare</a> network. A valid Host header must be supplied to reach the desired website.</p>\n            \n              <p>Please see <a rel=\"noopener noreferrer\" href=\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1003/\" target=\"_blank\">https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1003/</a> for more details.</p>\n            \n          </div>\n\n          \n          <div id=\"resolution-copy-section\" class=\"w-1/2 mt-6 text-15 leading-normal\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_can_i_do\">What can I do?</h2>\n            <p>If you are interested in learning more about Cloudflare, please <a href=\"https://www.cloudflare.com/5xx-error-landing/\" target=\"_blank\">visit our website</a>.</p>\n          </div>\n          \n      </section>\n\n      <div class=\"feedback-hidden py-8 text-center\" id=\"error-feedback\">\n    <div id=\"error-feedback-survey\" class=\"footer-line-wrapper\">\n        Was this page helpful?\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-yes\" type=\"button\">Yes</button>\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-no\" type=\"button\">No</button>\n    </div>\n    <div class=\"feedback-success feedback-hidden\" id=\"error-feedback-success\">\n        Thank you for your feedback!\n    </div>\n</div>\n\n\n      <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n  <p class=\"text-13\">\n    <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">9cd4ad6e7a851417</strong></span>\n    <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    <span id=\"cf-footer-item-ip\" class=\"cf-footer-item hidden sm:block sm:mb-1\">\n      Your IP:\n      <button type=\"button\" id=\"cf-footer-ip-reveal\" class=\"cf-footer-ip-reveal-btn\">Click to reveal</button>\n      <span class=\"hidden\" id=\"cf-footer-ip\">66.132.153.129</span>\n      <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    </span>\n    <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance &amp; security by</span> <a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/5xx-error-landing\" id=\"brand_link\" target=\"_blank\">Cloudflare</a></span>\n    \n  </p>\n  <script>(function(){function d(){var b=a.getElementById(\"cf-footer-item-ip\"),c=a.getElementById(\"cf-footer-ip-reveal\");b&&\"classList\"in b&&(b.classList.remove(\"hidden\"),c.addEventListener(\"click\",function(){c.classList.add(\"hidden\");a.getElementById(\"cf-footer-ip\").classList.remove(\"hidden\")}))}var a=document;document.addEventListener&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n</div><!-- /.error-footer -->\n\n\n    </div><!-- /#cf-error-details -->\n  </div><!-- /#cf-wrapper -->\n\n  <script>\n  window._cf_translation = {};\n  \n  \n</script>\n\n</body>\n</html>\n",
+                "html_title": "Direct IP access not allowed | Cloudflare",
+                "body_hash_sha256": "59fb69ca0edc9743e0c1766b7fed91a068e4b678b040a81092a93628f0d352a1",
+                "body_hash_sha1": "d7bb64fdc315c773056da50df9c247e5d1af14ee",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "104.16.248.249"
+            }
+          ]
+        },
+        {
+          "port": 8443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "e3b02826789d653d224d3edacbe4e877cb7286fc4c922672f6226741ca57ad65",
+            "fingerprint_sha1": "f88635017260d40b9eb417bee73737911b630e59",
+            "fingerprint_md5": "3f5657c103693bc68bc35429e987b3d4",
+            "tbs_fingerprint_sha256": "57adbfff93f66ad39303530e6dba7fc64d82a644e3755b2a7943500c5ffcc9d6",
+            "tbs_no_ct_fingerprint_sha256": "e2697bf79dddcdbff679bb0ef20e847e11cb17a5004e41ced16815c90badddfc",
+            "spki_fingerprint_sha256": "fe4bbbcf3cc2001a1df63241958fbf9830d5d1252d84a30925801db709f1525f",
+            "parent_spki_fingerprint_sha256": "41e1b77957dff8f16f8a11a0e1498d82bfa656e6ce631255c4b89826142da4b4",
+            "parsed": {
+              "version": 3,
+              "serial_number": "104760816198390176145736269975424776716",
+              "issuer_dn": "C=US, ST=Texas, L=Houston, O=SSL Corp, CN=SSL.com SSL Intermediate CA ECC R2",
+              "issuer": {
+                "common_name": [
+                  "SSL.com SSL Intermediate CA ECC R2"
+                ],
+                "country": [
+                  "US"
+                ],
+                "locality": [
+                  "Houston"
+                ],
+                "province": [
+                  "Texas"
+                ],
+                "organization": [
+                  "SSL Corp"
+                ]
+              },
+              "subject_dn": "C=US, ST=California, L=San Francisco, O=Cloudflare\\, Inc., CN=cloudflare-dns.com",
+              "subject": {
+                "common_name": [
+                  "cloudflare-dns.com"
+                ],
+                "country": [
+                  "US"
+                ],
+                "locality": [
+                  "San Francisco"
+                ],
+                "province": [
+                  "California"
+                ],
+                "organization": [
+                  "Cloudflare, Inc."
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "ECDSA",
+                  "oid": "1.2.840.10045.2.1"
+                },
+                "ecdsa": {
+                  "b": "5ac635d8aa3a93e7b3ebbd55769886bc651d06b0cc53b0f63bce3c3e27d2604b",
+                  "curve": "P-256",
+                  "gx": "6b17d1f2e12c4247f8bce6e563a440f277037d812deb33a0f4a13945d898c296",
+                  "gy": "4fe342e2fe1a7f9b8ee7eb4a7c0f9e162bce33576b315ececbb6406837bf51f5",
+                  "length": 256,
+                  "n": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+                  "p": "ffffffff00000001000000000000000000000000ffffffffffffffffffffffff",
+                  "pub": "046383502512ea727819eb3247afc105529c2a2b608a844e756d814847c1c7becf85796c12295b50b3ccec50a1949edc4408070c801a93d3bd78117bb6a3c8eaac",
+                  "x": "6383502512ea727819eb3247afc105529c2a2b608a844e756d814847c1c7becf",
+                  "y": "85796c12295b50b3ccec50a1949edc4408070c801a93d3bd78117bb6a3c8eaac"
+                },
+                "fingerprint_sha256": "96d43a697cb7b6aa4d64a25d9debcc0fba11f88b08e6b3566ceb2c143ae5f84c"
+              },
+              "validity_period": {
+                "not_before": "2025-12-31T19:20:01Z",
+                "not_after": "2026-12-21T19:20:01Z",
+                "length_seconds": 30672001
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "ECDSA-SHA384",
+                  "oid": "1.2.840.10045.4.3.3"
+                },
+                "value": "306402301b2eb53f7f34ee2a79c9dc5e3fe15aeaf3fd0581b24ec6cab641ef5480d4fed03010e89c5a727e41105a889600d7cf0f023012fce5ba42cf30d3c2296380704acb379151ea1e24a8c1337752ea4e3bb1e2348d5d6cc2b205639cec499f8ab7323285",
+                "valid": true
+              },
+              "serial_number_hex": "4ed03304c46b87a8c2eb5569db9eba0c"
+            },
+            "names": [
+              "*.cloudflare-dns.com",
+              "1.0.0.1",
+              "1.1.1.1",
+              "162.159.36.1",
+              "162.159.46.1",
+              "cloudflare-dns.com",
+              "one.one.one.one"
+            ],
+            "validation_level": "ov",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "3417bb06cc6007da1b961c920b8ab4ce3fad820e4aa30b9acbc4a74ebdcebc65"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "85666a562ee0be5ce925c1d8890a6f76a87ec16d4d7d5f29ea7419cf20123b69"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "a272f56f844fd9f8979fff8c3cb18621454cb15ba419fc4427824b7bcd2d29b6",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "3f7befce41f251b2282018fb73213a2116a3f4f692389335e04ff5ae33ab45da",
+                      "cecddc905099d8dadfc5b1d209b737cbe2c18cfb2c10c0ff0bcf0d3286fc1aa2"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "b3e86467d178f3cebe11e739fc2169e4c7859078ec63fb40318981ef3a4eab26",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "3417bb06cc6007da1b961c920b8ab4ce3fad820e4aa30b9acbc4a74ebdcebc65"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "85666a562ee0be5ce925c1d8890a6f76a87ec16d4d7d5f29ea7419cf20123b69"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "a272f56f844fd9f8979fff8c3cb18621454cb15ba419fc4427824b7bcd2d29b6",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "3f7befce41f251b2282018fb73213a2116a3f4f692389335e04ff5ae33ab45da",
+                      "cecddc905099d8dadfc5b1d209b737cbe2c18cfb2c10c0ff0bcf0d3286fc1aa2"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "b3e86467d178f3cebe11e739fc2169e4c7859078ec63fb40318981ef3a4eab26",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "3417bb06cc6007da1b961c920b8ab4ce3fad820e4aa30b9acbc4a74ebdcebc65"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "85666a562ee0be5ce925c1d8890a6f76a87ec16d4d7d5f29ea7419cf20123b69"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "a272f56f844fd9f8979fff8c3cb18621454cb15ba419fc4427824b7bcd2d29b6",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "3f7befce41f251b2282018fb73213a2116a3f4f692389335e04ff5ae33ab45da",
+                      "cecddc905099d8dadfc5b1d209b737cbe2c18cfb2c10c0ff0bcf0d3286fc1aa2"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "b3e86467d178f3cebe11e739fc2169e4c7859078ec63fb40318981ef3a4eab26",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "3417bb06cc6007da1b961c920b8ab4ce3fad820e4aa30b9acbc4a74ebdcebc65"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "85666a562ee0be5ce925c1d8890a6f76a87ec16d4d7d5f29ea7419cf20123b69"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "a272f56f844fd9f8979fff8c3cb18621454cb15ba419fc4427824b7bcd2d29b6",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                      "06b9722a699c57dff1869f430b479bb6eb49aae1184eac9c5325c1334a34ea4c",
+                      "b3e86467d178f3cebe11e739fc2169e4c7859078ec63fb40318981ef3a4eab26",
+                      "f1c1b50ae5a20dd8030ec9f6bc24823dd367b5255759b4e71b61fce9f7375d73"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 2545862946,
+                  "added_to_ct_at": "2026-02-13T00:39:41Z",
+                  "ct_to_censys_at": "2026-02-13T01:24:38Z"
+                },
+                "google_argon_2026_h2": {
+                  "index": 232178206,
+                  "added_to_ct_at": "2026-01-15T22:46:20Z",
+                  "ct_to_censys_at": "2026-01-15T22:53:47Z"
+                },
+                "google_xenon_2026_h2": {
+                  "index": 179079636,
+                  "added_to_ct_at": "2026-01-15T22:46:20Z",
+                  "ct_to_censys_at": "2026-01-15T22:57:20Z"
+                },
+                "letsencrypt_ct_sycamore_2027_h1": {
+                  "index": 24876856,
+                  "added_to_ct_at": "2026-01-16T00:10:05Z",
+                  "ct_to_censys_at": "2026-01-16T00:13:13Z"
+                },
+                "letsencrypt_ct_willow_2027_h1": {
+                  "index": 23599739,
+                  "added_to_ct_at": "2026-01-16T00:10:05Z",
+                  "ct_to_censys_at": "2026-01-16T00:13:17Z"
+                },
+                "sectigo_elephant_2026_h2": {
+                  "index": 108362684,
+                  "added_to_ct_at": "2026-01-15T22:46:20Z",
+                  "ct_to_censys_at": "2026-01-15T22:56:05Z"
+                },
+                "sectigo_tiger_2026_h2": {
+                  "index": 107967593,
+                  "added_to_ct_at": "2026-01-15T22:46:21Z",
+                  "ct_to_censys_at": "2026-01-15T22:57:43Z"
+                },
+                "trustasia_log_2026_a": {
+                  "index": 532819352,
+                  "added_to_ct_at": "2026-01-15T22:46:24Z",
+                  "ct_to_censys_at": "2026-01-15T22:56:20Z"
+                },
+                "trustasia_log_2026_b": {
+                  "index": 552626750,
+                  "added_to_ct_at": "2026-01-15T22:46:25Z",
+                  "ct_to_censys_at": "2026-01-15T22:58:57Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2026-01-09T06:34:43Z",
+            "modified_at": "2026-02-13T01:24:39Z",
+            "validated_at": "2026-02-12T21:46:44Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "fe4bbbcf3cc2001a1df63241958fbf9830d5d1252d84a30925801db709f1525f",
+            "parent_spki_subject_fingerprint_sha256": "41e1b77957dff8f16f8a11a0e1498d82bfa656e6ce631255c4b89826142da4b4"
+          },
+          "software": [
+            {
+              "vendor": "cloudflare",
+              "product": "cloudflare_load_balancer"
+            },
+            {
+              "type": [
+                "WAF"
+              ],
+              "vendor": "cloudflare",
+              "product": "waf"
+            }
+          ],
+          "labels": [
+            {
+              "value": "WAF"
+            }
+          ],
+          "ip": "104.16.248.249",
+          "scan_time": "2026-02-13T11:03:22Z",
+          "tls": {
+            "fingerprint_sha256": "e3b02826789d653d224d3edacbe4e877cb7286fc4c922672f6226741ca57ad65",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "948b7111af42f546d579cff5ce2bdec82134dd9914842bddb0c52872eb604e39",
+                "subject_dn": "C=US, ST=Texas, L=Houston, O=SSL Corp, CN=SSL.com SSL Intermediate CA ECC R2",
+                "issuer_dn": "C=US, ST=Texas, L=Houston, O=SSL Corporation, CN=SSL.com Root Certification Authority ECC"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "104.16.248.249",
+              "port": 8443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T11:03:22Z",
+              "http": {
+                "uri": "https://104.16.248.249:8443/",
+                "protocol": "HTTP/1.1",
+                "status_code": 403,
+                "status_reason": "Forbidden",
+                "headers": {
+                  "CF-RAY": {
+                    "headers": [
+                      "9cd3d6b17e59acb1-ORD"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "151"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "cloudflare"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>403 Forbidden</title>"
+                ],
+                "body_size": 151,
+                "body": "<html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n<hr><center>cloudflare</center>\r\n</body>\r\n</html>\r\n",
+                "html_title": "403 Forbidden",
+                "body_hash_sha256": "eed0b81a2fbdd1c5a9f80705885fc5bbf346ba428a79ff7a13ec8491c6a8e96c",
+                "body_hash_sha1": "441671eacb9398792d435443beaddd3fc5fa1910",
+                "supported_versions": [
+                  "HTTP/1.1",
+                  "HTTP/2"
+                ]
+              },
+              "ip": "104.16.248.249"
+            }
+          ]
+        },
+        {
+          "port": 8880,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "cloudflare",
+              "product": "cloudflare_load_balancer"
+            },
+            {
+              "type": [
+                "WAF"
+              ],
+              "vendor": "cloudflare",
+              "product": "waf"
+            }
+          ],
+          "labels": [
+            {
+              "value": "WAF"
+            }
+          ],
+          "ip": "104.16.248.249",
+          "scan_time": "2026-02-13T02:37:52Z",
+          "endpoints": [
+            {
+              "hostname": "104.16.248.249",
+              "port": 8880,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T02:37:52Z",
+              "http": {
+                "uri": "http://104.16.248.249:8880/",
+                "protocol": "HTTP/1.1",
+                "status_code": 403,
+                "status_reason": "Forbidden",
+                "headers": {
+                  "CF-RAY": {
+                    "headers": [
+                      "9cd0f2432d0d61cd-ORD"
+                    ]
+                  },
+                  "Cache-Control": {
+                    "headers": [
+                      "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Encoding": {
+                    "headers": [
+                      "gzip"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html; charset=UTF-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Expires": {
+                    "headers": [
+                      "Thu, 01 Jan 1970 00:00:01 GMT"
+                    ]
+                  },
+                  "Referrer-Policy": {
+                    "headers": [
+                      "same-origin"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "cloudflare"
+                    ]
+                  },
+                  "Transfer-Encoding": {
+                    "headers": [
+                      "chunked"
+                    ]
+                  },
+                  "Vary": {
+                    "headers": [
+                      "Accept-Encoding"
+                    ]
+                  },
+                  "X-Frame-Options": {
+                    "headers": [
+                      "SAMEORIGIN"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>Direct IP access not allowed | Cloudflare</title>",
+                  "<meta charset=\"UTF-8\" />",
+                  "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />",
+                  "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />",
+                  "<meta name=\"robots\" content=\"noindex, nofollow\" />",
+                  "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />"
+                ],
+                "body_size": 6236,
+                "body": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Direct IP access not allowed | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />\n<meta name=\"robots\" content=\"noindex, nofollow\" />\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n<link rel=\"stylesheet\" id=\"cf_styles-css\" href=\"/cdn-cgi/styles/main.css\" />\n\n\n<script>\n(function(){if(document.addEventListener&&window.XMLHttpRequest&&JSON&&JSON.stringify){var e=function(a){var c=document.getElementById(\"error-feedback-survey\"),d=document.getElementById(\"error-feedback-success\"),b=new XMLHttpRequest;a={event:\"feedback clicked\",properties:{errorCode:1003,helpful:a,version:1}};b.open(\"POST\",\"https://sparrow.cloudflare.com/api/v1/event\");b.setRequestHeader(\"Content-Type\",\"application/json\");b.setRequestHeader(\"Sparrow-Source-Key\",\"c771f0e4b54944bebf4261d44bd79a1e\");\nb.send(JSON.stringify(a));c.classList.add(\"feedback-hidden\");d.classList.remove(\"feedback-hidden\")};document.addEventListener(\"DOMContentLoaded\",function(){var a=document.getElementById(\"error-feedback\"),c=document.getElementById(\"feedback-button-yes\"),d=document.getElementById(\"feedback-button-no\");\"classList\"in a&&(a.classList.remove(\"feedback-hidden\"),c.addEventListener(\"click\",function(){e(!0)}),d.addEventListener(\"click\",function(){e(!1)}))})}})();\n</script>\n\n<script defer src=\"https://performance.radar.cloudflare.com/beacon.js\"></script>\n</head>\n<body>\n  <div id=\"cf-wrapper\">\n    <div class=\"cf-alert cf-alert-error cf-cookie-error hidden\" id=\"cookie-alert\" data-translate=\"enable_cookies\">Please enable cookies.</div>\n    <div id=\"cf-error-details\" class=\"p-0\">\n      <header class=\"mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-15 antialiased\">\n         <h1 class=\"inline-block md:block mr-2 md:mb-2 font-light text-60 md:text-3xl text-black-dark leading-tight\">\n           <span data-translate=\"error\">Error</span>\n           <span>1003</span>\n         </h1>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">Ray ID: 9cd0f2432d0d61cd &bull;</span>\n         <span class=\"inline-block md:block heading-ray-id font-mono text-15 lg:text-sm lg:leading-relaxed\">2026-02-13 02:37:52 UTC</span>\n        <h2 class=\"text-gray-600 leading-1.3 text-3xl lg:text-2xl font-light\">Direct IP access not allowed</h2>\n      </header>\n\n      <section class=\"w-240 lg:w-full mx-auto mb-8 lg:px-8\">\n          <div id=\"what-happened-section\" class=\"w-1/2 md:w-full\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_happened\">What happened?</h2>\n            <p>You've requested an IP address that is part of the <a href=\"https://www.cloudflare.com/5xx-error-landing/\" target=\"_blank\">Cloudflare</a> network. A valid Host header must be supplied to reach the desired website.</p>\n            \n              <p>Please see <a rel=\"noopener noreferrer\" href=\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1003/\" target=\"_blank\">https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1003/</a> for more details.</p>\n            \n          </div>\n\n          \n          <div id=\"resolution-copy-section\" class=\"w-1/2 mt-6 text-15 leading-normal\">\n            <h2 class=\"text-3xl leading-tight font-normal mb-4 text-black-dark antialiased\" data-translate=\"what_can_i_do\">What can I do?</h2>\n            <p>If you are interested in learning more about Cloudflare, please <a href=\"https://www.cloudflare.com/5xx-error-landing/\" target=\"_blank\">visit our website</a>.</p>\n          </div>\n          \n      </section>\n\n      <div class=\"feedback-hidden py-8 text-center\" id=\"error-feedback\">\n    <div id=\"error-feedback-survey\" class=\"footer-line-wrapper\">\n        Was this page helpful?\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-yes\" type=\"button\">Yes</button>\n        <button class=\"border border-solid bg-white cf-button cursor-pointer ml-4 px-4 py-2 rounded\" id=\"feedback-button-no\" type=\"button\">No</button>\n    </div>\n    <div class=\"feedback-success feedback-hidden\" id=\"error-feedback-success\">\n        Thank you for your feedback!\n    </div>\n</div>\n\n\n      <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n  <p class=\"text-13\">\n    <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">9cd0f2432d0d61cd</strong></span>\n    <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    <span id=\"cf-footer-item-ip\" class=\"cf-footer-item hidden sm:block sm:mb-1\">\n      Your IP:\n      <button type=\"button\" id=\"cf-footer-ip-reveal\" class=\"cf-footer-ip-reveal-btn\">Click to reveal</button>\n      <span class=\"hidden\" id=\"cf-footer-ip\">167.94.138.181</span>\n      <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    </span>\n    <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance &amp; security by</span> <a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/5xx-error-landing\" id=\"brand_link\" target=\"_blank\">Cloudflare</a></span>\n    \n  </p>\n  <script>(function(){function d(){var b=a.getElementById(\"cf-footer-item-ip\"),c=a.getElementById(\"cf-footer-ip-reveal\");b&&\"classList\"in b&&(b.classList.remove(\"hidden\"),c.addEventListener(\"click\",function(){c.classList.add(\"hidden\");a.getElementById(\"cf-footer-ip\").classList.remove(\"hidden\")}))}var a=document;document.addEventListener&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n</div><!-- /.error-footer -->\n\n\n    </div><!-- /#cf-error-details -->\n  </div><!-- /#cf-wrapper -->\n\n  <script>\n  window._cf_translation = {};\n  \n  \n</script>\n\n</body>\n</html>\n",
+                "html_title": "Direct IP access not allowed | Cloudflare",
+                "body_hash_sha256": "db04ec4da558cd4a113adae210877bf9d8c88721ee91004cce8e92f64288b31f",
+                "body_hash_sha1": "d78bc4d0149963ed018adaa9b53aa51368b0680f",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "104.16.248.249"
+            }
+          ]
+        }
+      ],
+      "service_count": 14,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-02-10T12:51:19Z"
+        },
+        "names": [
+          "doh.palemnet.com",
+          "www.elitecreditconsultant.com",
+          "cloudflare-dns.com",
+          "elitecreditconsultant.com",
+          "traefik.outline.treesir.pub",
+          "cfcloud.treesir.pub",
+          "in.poundcom.com",
+          "dns.byxiaorun.com"
+        ],
+        "forward_dns": {
+          "cfcloud.treesir.pub": {
+            "resolve_time": "2026-02-06T21:06:51Z",
+            "name": "cfcloud.treesir.pub",
+            "record_type": "a"
+          },
+          "cloudflare-dns.com": {
+            "resolve_time": "2026-02-11T16:10:03Z",
+            "name": "cloudflare-dns.com",
+            "record_type": "a"
+          },
+          "dns.byxiaorun.com": {
+            "resolve_time": "2026-01-12T18:09:34Z",
+            "name": "dns.byxiaorun.com",
+            "record_type": "a"
+          },
+          "doh.palemnet.com": {
+            "resolve_time": "2026-02-11T20:22:53Z",
+            "name": "doh.palemnet.com",
+            "record_type": "a"
+          },
+          "elitecreditconsultant.com": {
+            "resolve_time": "2026-02-07T19:52:42Z",
+            "name": "elitecreditconsultant.com",
+            "record_type": "a"
+          },
+          "in.poundcom.com": {
+            "resolve_time": "2026-02-06T13:31:14Z",
+            "name": "in.poundcom.com",
+            "record_type": "a"
+          },
+          "traefik.outline.treesir.pub": {
+            "resolve_time": "2026-02-06T21:06:51Z",
+            "name": "traefik.outline.treesir.pub",
+            "record_type": "a"
+          },
+          "www.elitecreditconsultant.com": {
+            "resolve_time": "2026-02-11T18:56:26Z",
+            "name": "www.elitecreditconsultant.com",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

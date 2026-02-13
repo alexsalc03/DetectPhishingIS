@@ -1,0 +1,559 @@
+{
+  "result": {
+    "resource": {
+      "ip": "151.101.2.146",
+      "location": {
+        "continent": "North America",
+        "country": "United States",
+        "country_code": "US",
+        "city": "San Francisco",
+        "postal_code": "94107",
+        "timezone": "America/Los_Angeles",
+        "province": "California",
+        "coordinates": {
+          "latitude": 37.7621,
+          "longitude": -122.3971
+        }
+      },
+      "autonomous_system": {
+        "asn": 54113,
+        "description": "FASTLY - Fastly, Inc.",
+        "bgp_prefix": "151.101.0.0/22",
+        "name": "FASTLY - Fastly, Inc.",
+        "country_code": "US"
+      },
+      "whois": {
+        "network": {
+          "handle": "SKYCA-3",
+          "name": "Fastly, Inc.",
+          "cidrs": [
+            "151.101.0.0/16"
+          ],
+          "created": "2016-02-01T00:00:00Z",
+          "updated": "2021-12-14T00:00:00Z",
+          "allocation_type": "ALLOCATION"
+        },
+        "organization": {
+          "handle": "SKYCA-3",
+          "name": "Fastly, Inc.",
+          "street": "PO Box 78266",
+          "city": "San Francisco",
+          "state": "CA",
+          "postal_code": "94107",
+          "country": "US",
+          "abuse_contacts": [
+            {
+              "handle": "ABUSE4771-ARIN",
+              "name": "Abuse Account",
+              "email": "abuse@fastly.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "FRA19-ARIN",
+              "name": "Fastly RIR Administrator",
+              "email": "rir-admin@fastly.com"
+            }
+          ],
+          "tech_contacts": [
+            {
+              "handle": "FRA19-ARIN",
+              "name": "Fastly RIR Administrator",
+              "email": "rir-admin@fastly.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "varnish_cache_project",
+              "product": "varnish_cache"
+            }
+          ],
+          "ip": "151.101.2.146",
+          "scan_time": "2026-02-13T15:48:34Z",
+          "endpoints": [
+            {
+              "hostname": "151.101.2.146",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T15:48:34Z",
+              "http": {
+                "uri": "http://151.101.2.146/",
+                "protocol": "HTTP/1.1",
+                "status_code": 500,
+                "status_reason": "Domain Not Found",
+                "headers": {
+                  "Accept-Ranges": {
+                    "headers": [
+                      "bytes"
+                    ]
+                  },
+                  "Cache-Control": {
+                    "headers": [
+                      "private, no-cache"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "270"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Retry-After": {
+                    "headers": [
+                      "0"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "Varnish"
+                    ]
+                  },
+                  "Via": {
+                    "headers": [
+                      "1.1 varnish"
+                    ]
+                  },
+                  "X-Served-By": {
+                    "headers": [
+                      "cache-chi-klot8100124-CHI"
+                    ]
+                  },
+                  "content-type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>Fastly error: unknown domain 151.101.2.146</title>"
+                ],
+                "body_size": 270,
+                "body": "\n<html>\n<head>\n<title>Fastly error: unknown domain 151.101.2.146</title>\n</head>\n<body>\n<p>Fastly error: unknown domain: 151.101.2.146. Please check that this domain has been added to a service.</p>\n<p>Details: cache-chi-klot8100124-CHI (151.101.2.146)</p></body></html>",
+                "html_title": "Fastly error: unknown domain 151.101.2.146",
+                "body_hash_sha256": "a96c896b5a1e1ab6a03e3b8f3c93470ff44f95d7783869a63e95a9494ae4ac9e",
+                "body_hash_sha1": "c8cee0db977599b3844da84c7ac9ac4cdc4a5ba1",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "151.101.2.146"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "32b147e3ff25bb70676b78574a2159c9422a7ff0e7435200e223b8a66ca11b9f",
+            "fingerprint_sha1": "fa5fa7b4a305610bc2225b9b99a5b78dea854b1f",
+            "fingerprint_md5": "a6d857fb3ed6be0749d9ef9a4296b865",
+            "tbs_fingerprint_sha256": "cca4a50d799e91d3456aab2873a88e805ceb5ffd09ee348249c14aa776551b77",
+            "tbs_no_ct_fingerprint_sha256": "24a33a311b32a16d23f090795cdd71e4f44028a9923d85c5fa2c611a0ab876fa",
+            "spki_fingerprint_sha256": "c43b605a028667176538e67c612e8387b1a3ccaae94aef36e57d59785d14860b",
+            "parent_spki_fingerprint_sha256": "3ca4ca4a1a10104448e9c6a7b824a4f92325d4c84675e22b81aad5badc08daa2",
+            "parsed": {
+              "version": 3,
+              "serial_number": "10456570894714286016789182767048812118101237",
+              "issuer_dn": "C=US, O=Certainly, CN=Certainly Intermediate R1",
+              "issuer": {
+                "common_name": [
+                  "Certainly Intermediate R1"
+                ],
+                "country": [
+                  "US"
+                ],
+                "organization": [
+                  "Certainly"
+                ]
+              },
+              "subject_dn": "CN=x.com",
+              "subject": {
+                "common_name": [
+                  "x.com"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "RSA",
+                  "oid": "1.2.840.113549.1.1.1"
+                },
+                "rsa": {
+                  "exponent": 65537,
+                  "modulus": "b2e6434c7f6a9ad4468c6487e9f3b3f41b9307fc3f09fb81d69403ace29e46315f1d965b725b5be03e79ce92f1888c87ec59c56754a12339fe22826933298d0edb51bbc6c0d8d380fab8ca731314ff0df2a419a1199fd14ae5b17bb04068e570f96bf4808022f0690f02baa29cf84455c5e6c32d1970b0691a2876f9850e8569a4f0161ba549bfe3b606f43f73c1362cd0aea5594303a5e58fbad0136494ce59687b97ac6160f95c3ead97fd4b6e470481bc1e08de656519d566124784a2f7c83a8ed10355d737a3eb5695a25c8d8520e2bf16d4814e31f9e4b60b8df915f3e15bc539f22122b3fd51161724d2c5b2c642e0b068e632a9b2d7a6ac6839a939fb",
+                  "length": 2048
+                },
+                "fingerprint_sha256": "0831ad2ed646836cd526c0c1f4a75e9ec340bfd10170f4b5156aa91b33510dba"
+              },
+              "validity_period": {
+                "not_before": "2025-11-20T23:21:46Z",
+                "not_after": "2025-12-20T23:21:45Z",
+                "length_seconds": 2592000
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "SHA256-RSA",
+                  "oid": "1.2.840.113549.1.1.11"
+                },
+                "value": "60285763713ea2485ca06a28853207eca4247785251244e653fae0ec2b5d243fa472d09cfed8a3ca240dd38e65420ff2e0d5841f6728f6f3a1e22605092dbf041954ff9d8d4e83a222e9cac4223ab542b7778b60b7b930e51dbbd21ce75544d27d3f9d54eeb961f96952af34cff7cc0cbfeb69f9635e1d438114e4eabe7205c4e26bbc16c5cdbb61c8438366c0a2cff7602aaf82468a4d54fd186deb82778b1b18e790ba2ed1bf0a88966ce06e6a216d8b691d5acc2e307887446ae6f13aad271b7c1df0288a3e179eae24533526371bc512e273ad844c77c0c65096839f75d545ff41e98f1df09f625ff736bcae09b2cb4f278a79459d30a26d43c95fb84936"
+              },
+              "serial_number_hex": "7809199c2c7ff3b18ae83598462c87e74cf5"
+            },
+            "names": [
+              "*.twitter.com",
+              "*.twitterintegration.com",
+              "*.x.com",
+              "t.co",
+              "twitter.com",
+              "x.com"
+            ],
+            "validation_level": "dv",
+            "validation": {
+              "nss": {
+                "ever_valid": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1d233edb537734eddc55d9bddd81a9aa4468b33040654d0342cd676c6b70ef33",
+                      "2ce1cb0bf9d2f9e102993fbe215152c3b2dd0cabde1c68e5319b839154dbb7f5"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "575c09b07a001ca0ef6b3b1c5730bfafebc7ad9f56a009f1966c32f08e659713",
+                      "77b82cd8644c4305f7acc5cb156b45675004033d51c60c6202a8e0c33467d3a0"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "fec41e32ca75c295a6240fa639d3abe3bfb5cb131d6690e2331a176bed2e5bd2",
+                      "2ce1cb0bf9d2f9e102993fbe215152c3b2dd0cabde1c68e5319b839154dbb7f5"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1d233edb537734eddc55d9bddd81a9aa4468b33040654d0342cd676c6b70ef33",
+                      "9f43d52e808c20aff69e02faac205aac684e6975213d6620fac64bde5fcab4bc",
+                      "1465fa205397b876faa6f0a9958e5590e40fcc7faa4fb7c2c8677521fb5fb658"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "fec41e32ca75c295a6240fa639d3abe3bfb5cb131d6690e2331a176bed2e5bd2",
+                      "9f43d52e808c20aff69e02faac205aac684e6975213d6620fac64bde5fcab4bc",
+                      "1465fa205397b876faa6f0a9958e5590e40fcc7faa4fb7c2c8677521fb5fb658"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1d233edb537734eddc55d9bddd81a9aa4468b33040654d0342cd676c6b70ef33",
+                  "575c09b07a001ca0ef6b3b1c5730bfafebc7ad9f56a009f1966c32f08e659713",
+                  "fec41e32ca75c295a6240fa639d3abe3bfb5cb131d6690e2331a176bed2e5bd2"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "ever_valid": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1d233edb537734eddc55d9bddd81a9aa4468b33040654d0342cd676c6b70ef33",
+                      "2ce1cb0bf9d2f9e102993fbe215152c3b2dd0cabde1c68e5319b839154dbb7f5"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "fec41e32ca75c295a6240fa639d3abe3bfb5cb131d6690e2331a176bed2e5bd2",
+                      "2ce1cb0bf9d2f9e102993fbe215152c3b2dd0cabde1c68e5319b839154dbb7f5"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1d233edb537734eddc55d9bddd81a9aa4468b33040654d0342cd676c6b70ef33",
+                      "9f43d52e808c20aff69e02faac205aac684e6975213d6620fac64bde5fcab4bc",
+                      "1465fa205397b876faa6f0a9958e5590e40fcc7faa4fb7c2c8677521fb5fb658"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "fec41e32ca75c295a6240fa639d3abe3bfb5cb131d6690e2331a176bed2e5bd2",
+                      "9f43d52e808c20aff69e02faac205aac684e6975213d6620fac64bde5fcab4bc",
+                      "1465fa205397b876faa6f0a9958e5590e40fcc7faa4fb7c2c8677521fb5fb658"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1d233edb537734eddc55d9bddd81a9aa4468b33040654d0342cd676c6b70ef33",
+                  "fec41e32ca75c295a6240fa639d3abe3bfb5cb131d6690e2331a176bed2e5bd2"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "ever_valid": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1d233edb537734eddc55d9bddd81a9aa4468b33040654d0342cd676c6b70ef33",
+                      "2ce1cb0bf9d2f9e102993fbe215152c3b2dd0cabde1c68e5319b839154dbb7f5"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "575c09b07a001ca0ef6b3b1c5730bfafebc7ad9f56a009f1966c32f08e659713",
+                      "77b82cd8644c4305f7acc5cb156b45675004033d51c60c6202a8e0c33467d3a0"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "fec41e32ca75c295a6240fa639d3abe3bfb5cb131d6690e2331a176bed2e5bd2",
+                      "2ce1cb0bf9d2f9e102993fbe215152c3b2dd0cabde1c68e5319b839154dbb7f5"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1d233edb537734eddc55d9bddd81a9aa4468b33040654d0342cd676c6b70ef33",
+                      "9f43d52e808c20aff69e02faac205aac684e6975213d6620fac64bde5fcab4bc",
+                      "1465fa205397b876faa6f0a9958e5590e40fcc7faa4fb7c2c8677521fb5fb658"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "fec41e32ca75c295a6240fa639d3abe3bfb5cb131d6690e2331a176bed2e5bd2",
+                      "9f43d52e808c20aff69e02faac205aac684e6975213d6620fac64bde5fcab4bc",
+                      "1465fa205397b876faa6f0a9958e5590e40fcc7faa4fb7c2c8677521fb5fb658"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1d233edb537734eddc55d9bddd81a9aa4468b33040654d0342cd676c6b70ef33",
+                  "575c09b07a001ca0ef6b3b1c5730bfafebc7ad9f56a009f1966c32f08e659713",
+                  "fec41e32ca75c295a6240fa639d3abe3bfb5cb131d6690e2331a176bed2e5bd2"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "ever_valid": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1d233edb537734eddc55d9bddd81a9aa4468b33040654d0342cd676c6b70ef33",
+                      "2ce1cb0bf9d2f9e102993fbe215152c3b2dd0cabde1c68e5319b839154dbb7f5"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "575c09b07a001ca0ef6b3b1c5730bfafebc7ad9f56a009f1966c32f08e659713",
+                      "77b82cd8644c4305f7acc5cb156b45675004033d51c60c6202a8e0c33467d3a0"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "fec41e32ca75c295a6240fa639d3abe3bfb5cb131d6690e2331a176bed2e5bd2",
+                      "2ce1cb0bf9d2f9e102993fbe215152c3b2dd0cabde1c68e5319b839154dbb7f5"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1d233edb537734eddc55d9bddd81a9aa4468b33040654d0342cd676c6b70ef33",
+                  "575c09b07a001ca0ef6b3b1c5730bfafebc7ad9f56a009f1966c32f08e659713",
+                  "fec41e32ca75c295a6240fa639d3abe3bfb5cb131d6690e2331a176bed2e5bd2"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {},
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2025": {
+                  "index": 3060612760,
+                  "added_to_ct_at": "2025-12-20T20:41:45Z",
+                  "ct_to_censys_at": "2025-12-20T21:49:44Z"
+                },
+                "google_argon_2025_h2": {
+                  "index": 2508965506,
+                  "added_to_ct_at": "2025-11-21T00:20:18Z",
+                  "ct_to_censys_at": "2025-11-21T00:24:36Z"
+                },
+                "google_xenon_2025_h2": {
+                  "index": 2621133006,
+                  "added_to_ct_at": "2025-11-21T00:20:17Z",
+                  "ct_to_censys_at": "2025-11-21T00:24:36Z"
+                },
+                "letsencrypt_ct_oak_2025_h2": {
+                  "index": 1955993560,
+                  "added_to_ct_at": "2025-11-21T00:20:17Z",
+                  "ct_to_censys_at": "2025-11-21T00:24:36Z"
+                },
+                "letsencrypt_ct_oak_2026_h1": {
+                  "index": 513894238,
+                  "added_to_ct_at": "2025-11-21T00:20:17Z",
+                  "ct_to_censys_at": "2025-11-21T00:22:32Z"
+                },
+                "sectigo_elephant_2025_h2": {
+                  "index": 1225350047,
+                  "added_to_ct_at": "2025-11-21T00:20:17Z",
+                  "ct_to_censys_at": "2025-11-21T00:24:36Z"
+                },
+                "sectigo_tiger_2025_h2": {
+                  "index": 1251806880,
+                  "added_to_ct_at": "2025-11-21T00:20:17Z",
+                  "ct_to_censys_at": "2025-11-21T00:24:36Z"
+                },
+                "trustasia_log_2025_a": {
+                  "index": 422347415,
+                  "added_to_ct_at": "2025-12-20T20:41:46Z",
+                  "ct_to_censys_at": "2025-12-20T20:43:05Z"
+                },
+                "trustasia_log_2025_b": {
+                  "index": 483983812,
+                  "added_to_ct_at": "2025-12-20T20:41:46Z",
+                  "ct_to_censys_at": "2025-12-20T20:44:53Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2025-11-21T00:23:57Z",
+            "modified_at": "2025-12-22T02:51:11Z",
+            "validated_at": "2025-12-22T02:51:11Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "c43b605a028667176538e67c612e8387b1a3ccaae94aef36e57d59785d14860b",
+            "parent_spki_subject_fingerprint_sha256": "3ca4ca4a1a10104448e9c6a7b824a4f92325d4c84675e22b81aad5badc08daa2"
+          },
+          "ip": "151.101.2.146",
+          "scan_time": "2026-02-13T03:50:42Z",
+          "tls": {
+            "fingerprint_sha256": "32b147e3ff25bb70676b78574a2159c9422a7ff0e7435200e223b8a66ca11b9f",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "fec41e32ca75c295a6240fa639d3abe3bfb5cb131d6690e2331a176bed2e5bd2",
+                "subject_dn": "C=US, O=Certainly, CN=Certainly Intermediate R1",
+                "issuer_dn": "C=US, ST=Arizona, L=Scottsdale, O=Starfield Technologies\\, Inc., CN=Starfield Root Certificate Authority - G2"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "151.101.2.146",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T03:50:42Z",
+              "http": {
+                "uri": "https://151.101.2.146/",
+                "protocol": "HTTP/1.1",
+                "status_code": 421,
+                "status_reason": "Misdirected Request",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "291"
+                    ]
+                  },
+                  "content-type": {
+                    "headers": [
+                      "text/plain; charset=utf-8"
+                    ]
+                  },
+                  "x-served-by": {
+                    "headers": [
+                      "cache-chi-klot8100085"
+                    ]
+                  }
+                },
+                "body_size": 291,
+                "body": "Requested host does not match any Subject Alternative Names (SANs) on TLS certificate [473b6b513e1b15ed42130bb8e5d8e7be76f1a8e3fc37afedb46ce127160bf95f] in use with this connection.\r\n\r\nVisit https://www.fastly.com/documentation/guides/concepts/errors/#routing-errors for more information.\r\n\r",
+                "body_hash_sha256": "80a8ac2fdd323f5ab6f3fc037834a4ccb899557c92840939b1c9c99862c4c5a8",
+                "body_hash_sha1": "92aaf9d841dd7142319c600c164c5a8778747075",
+                "supported_versions": [
+                  "HTTP/1.1",
+                  "HTTP/2"
+                ]
+              },
+              "ip": "151.101.2.146"
+            }
+          ]
+        }
+      ],
+      "service_count": 2,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-02-10T15:35:44Z"
+        },
+        "names": [
+          "www.toxicshithole.com",
+          "tortoiseintelligence.com",
+          "dynamic.x.map.fastly.net",
+          "mastodon.metsuke.com",
+          "twitter.com",
+          "www.onewheelwiki.ericgagnon.net"
+        ],
+        "forward_dns": {
+          "dynamic.x.map.fastly.net": {
+            "resolve_time": "2026-01-26T18:01:48Z",
+            "name": "dynamic.x.map.fastly.net",
+            "record_type": "a"
+          },
+          "mastodon.metsuke.com": {
+            "resolve_time": "2026-01-24T12:10:42Z",
+            "name": "mastodon.metsuke.com",
+            "record_type": "a"
+          },
+          "tortoiseintelligence.com": {
+            "resolve_time": "2026-01-28T15:50:26Z",
+            "name": "tortoiseintelligence.com",
+            "record_type": "a"
+          },
+          "twitter.com": {
+            "resolve_time": "2026-01-14T13:09:24Z",
+            "name": "twitter.com",
+            "record_type": "a"
+          },
+          "www.onewheelwiki.ericgagnon.net": {
+            "resolve_time": "2026-01-03T16:18:53Z",
+            "name": "www.onewheelwiki.ericgagnon.net",
+            "record_type": "a"
+          },
+          "www.toxicshithole.com": {
+            "resolve_time": "2026-02-08T20:36:48Z",
+            "name": "www.toxicshithole.com",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

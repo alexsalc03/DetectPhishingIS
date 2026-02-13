@@ -1,0 +1,1258 @@
+{
+  "result": {
+    "resource": {
+      "ip": "151.101.3.1",
+      "location": {
+        "continent": "North America",
+        "country": "United States",
+        "country_code": "US",
+        "city": "San Francisco",
+        "postal_code": "94107",
+        "timezone": "America/Los_Angeles",
+        "province": "California",
+        "coordinates": {
+          "latitude": 37.7621,
+          "longitude": -122.3971
+        }
+      },
+      "autonomous_system": {
+        "asn": 54113,
+        "description": "FASTLY - Fastly, Inc.",
+        "bgp_prefix": "151.101.0.0/22",
+        "name": "FASTLY - Fastly, Inc.",
+        "country_code": "US"
+      },
+      "whois": {
+        "network": {
+          "handle": "SKYCA-3",
+          "name": "Fastly, Inc.",
+          "cidrs": [
+            "151.101.0.0/16"
+          ],
+          "created": "2016-02-01T00:00:00Z",
+          "updated": "2021-12-14T00:00:00Z",
+          "allocation_type": "ALLOCATION"
+        },
+        "organization": {
+          "handle": "SKYCA-3",
+          "name": "Fastly, Inc.",
+          "street": "PO Box 78266",
+          "city": "San Francisco",
+          "state": "CA",
+          "postal_code": "94107",
+          "country": "US",
+          "abuse_contacts": [
+            {
+              "handle": "ABUSE4771-ARIN",
+              "name": "Abuse Account",
+              "email": "abuse@fastly.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "FRA19-ARIN",
+              "name": "Fastly RIR Administrator",
+              "email": "rir-admin@fastly.com"
+            }
+          ],
+          "tech_contacts": [
+            {
+              "handle": "FRA19-ARIN",
+              "name": "Fastly RIR Administrator",
+              "email": "rir-admin@fastly.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "varnish_cache_project",
+              "product": "varnish_cache"
+            }
+          ],
+          "ip": "151.101.3.1",
+          "scan_time": "2026-02-13T02:46:16Z",
+          "endpoints": [
+            {
+              "hostname": "151.101.3.1",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T02:46:16Z",
+              "http": {
+                "uri": "http://151.101.3.1/",
+                "protocol": "HTTP/1.1",
+                "status_code": 500,
+                "status_reason": "Domain Not Found",
+                "headers": {
+                  "Accept-Ranges": {
+                    "headers": [
+                      "bytes"
+                    ]
+                  },
+                  "Cache-Control": {
+                    "headers": [
+                      "private, no-cache"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "264"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Retry-After": {
+                    "headers": [
+                      "0"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "Varnish"
+                    ]
+                  },
+                  "Via": {
+                    "headers": [
+                      "1.1 varnish"
+                    ]
+                  },
+                  "X-Served-By": {
+                    "headers": [
+                      "cache-chi-klot8100070-CHI"
+                    ]
+                  },
+                  "content-type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>Fastly error: unknown domain 151.101.3.1</title>"
+                ],
+                "body_size": 264,
+                "body": "\n<html>\n<head>\n<title>Fastly error: unknown domain 151.101.3.1</title>\n</head>\n<body>\n<p>Fastly error: unknown domain: 151.101.3.1. Please check that this domain has been added to a service.</p>\n<p>Details: cache-chi-klot8100070-CHI (151.101.3.1)</p></body></html>",
+                "html_title": "Fastly error: unknown domain 151.101.3.1",
+                "body_hash_sha256": "83747bb6b084f5ae5c37ef660a2fb9f8068f22d4909cfb36dd7c786d2c07f4e4",
+                "body_hash_sha1": "8665071de0af25fae2ecb1a422db33f4692fecf0",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "151.101.3.1"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "a6c0a230f969649178c1b6bdf464b78acf17d75584523f4397566851ca99fd6b",
+            "fingerprint_sha1": "122ef74bee2d15154f4ede63489fdb6ca1b4a46d",
+            "fingerprint_md5": "4d8f2d4a36809e4356dc1c819943abe6",
+            "tbs_fingerprint_sha256": "d3157273c105fbf1c21ed7c1b58dc7229d74a30af833f1f0d6d7f7222ac7310f",
+            "tbs_no_ct_fingerprint_sha256": "371840a60c233a19a59bf7d0ccaa96b194beceb1a205f94ec2a0c9dd9b8b2140",
+            "spki_fingerprint_sha256": "aab3686690ffe6aee6366aff8f512b7d8b9bd7cbe45ea920d8dccbd920fc575f",
+            "parent_spki_fingerprint_sha256": "0b61a7579cd975e4228a985b17cc38e3db504e669e4322423ab2a062d46535e1",
+            "parsed": {
+              "version": 3,
+              "serial_number": "16990799562094034786843560011270400203",
+              "issuer_dn": "C=US, O=DigiCert Inc, CN=DigiCert EV RSA CA G2",
+              "issuer": {
+                "common_name": [
+                  "DigiCert EV RSA CA G2"
+                ],
+                "country": [
+                  "US"
+                ],
+                "organization": [
+                  "DigiCert Inc"
+                ]
+              },
+              "subject_dn": "jurisdictionCountry=US, jurisdictionStateOrProvince=Delaware, businessCategory=Private Organization, serialNumber=3014267, C=US, ST=California, L=San Jose, O=PayPal\\, Inc., CN=www.paypal.com",
+              "subject": {
+                "common_name": [
+                  "www.paypal.com"
+                ],
+                "serial_number": [
+                  "3014267"
+                ],
+                "country": [
+                  "US"
+                ],
+                "locality": [
+                  "San Jose"
+                ],
+                "province": [
+                  "California"
+                ],
+                "organization": [
+                  "PayPal, Inc."
+                ],
+                "jurisdiction_country": [
+                  "US"
+                ],
+                "jurisdiction_province": [
+                  "Delaware"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "RSA",
+                  "oid": "1.2.840.113549.1.1.1"
+                },
+                "rsa": {
+                  "exponent": 65537,
+                  "modulus": "9cda7168aea1ba45405c80fdf1cb004d243d458a6e4ee7ecee94a6e11614e6a1fc6701b597f8240e357983b5c7f43c923d124e920179f2d6f1711f859e8ac6d8ced237b7011285f769a4900bb09f11bcdabb47226eb02a7f7f0b8c8812d7f2752ec98bf8e60268ebfd975d946e9d4081d6f56c043d73ea7efdad1eb18a4a546398bbefc7e874bd1afe51f3bc92df401840a63b6b6fd2d17f3a4a71b5e69f660691b798e312d2d394109e6b839e17c6875bdd8303199fda78820ae329234a1427e0f3fb8b035d077e7cb6122c25e029616e76d3df7e72acb5431517e024dd457f7e5e4f75e12bf2188532cdd9c5154b6cc1bc2add51e9ea0ed2a28ceba8682e1d",
+                  "length": 2048
+                },
+                "fingerprint_sha256": "70691a0655bce2ffebb15767b733ff87673afb7de95a309e7e8d91c184d3bfa5"
+              },
+              "validity_period": {
+                "not_before": "2025-08-05T00:00:00Z",
+                "not_after": "2026-08-04T23:59:59Z",
+                "length_seconds": 31536000
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "SHA256-RSA",
+                  "oid": "1.2.840.113549.1.1.11"
+                },
+                "value": "428fe0a93853940bfbb16f3af6125b8749d4873ae4c3764f680a38bcda1cf09b6a1d24cf1646a037eb09b94a5e2c3164ff71de0bce77444cc114868e04db0560b8749ab52c45153d4684f10d3bcef5d4d9621199a81e374b3c496b79a7248eec47db0c9b8a390bce19fa3ba1215e696aba3ebc6aaf25d98c977e39ae198806c7aca281a7fa50a794152cd887068613f709262c9bf0b13829311df08002ef707c0bc3bc370c644374577bcf4f14cbf7a407a234ad6373969f48e105821888e4ff97f1c89b66de48398d2f869ebebf4df22208d455a83d5269f5bd2e35620e7d5ea8191dd4442250f25dc232bcbe93019035ecaa86a5ca732089f3ea517282788c",
+                "valid": true
+              },
+              "serial_number_hex": "0cc84f185e22a877718249fc12c728cb"
+            },
+            "names": [
+              "articles.braintreepayments.com",
+              "assets.braintreegateway.com",
+              "braintreecharge.com",
+              "braintreefinancial.com",
+              "braintreepayments.com",
+              "braintreepaymentsolutions.com",
+              "brand.braintreepayments.com",
+              "business.paypal.com",
+              "c.paypal.com",
+              "c6.paypal.com",
+              "checkout.paypal.com",
+              "connect.paypal.com",
+              "content.paypalobjects.com",
+              "cors.api.paypal.com",
+              "creditapply.paypal.com",
+              "de.paypal-qrc.com",
+              "demo.paypal.com",
+              "developer.braintreepayments.com",
+              "developer.paypal.com",
+              "developers.braintreepayments.com",
+              "docs.paypal.ai",
+              "es.paypal-qrc.com",
+              "fastlane.paypal.com",
+              "financing.paypal.com",
+              "fpdbs.paypal.com",
+              "fr.paypal-qrc.com",
+              "help.braintreepayments.com",
+              "history.paypal.com",
+              "id.braintreegateway.com",
+              "id.hyperwallet.com",
+              "id.joinhoney.com",
+              "id.paypal.com",
+              "id.venmo.com",
+              "id.xoom.com",
+              "id.zettle.com",
+              "id6.venmo.com",
+              "it.paypal-qrc.com",
+              "js.braintreegateway.com",
+              "login.paypal.com",
+              "m.paypal.co.uk",
+              "m.paypal.com",
+              "m.paypal.com.au",
+              "m.paypal.es",
+              "m.paypal.fr",
+              "m.paypal.it",
+              "mobile.paypal.com",
+              "now.venmo.com",
+              "onboarding.paypal.com",
+              "p.paypal.com",
+              "paypal.me",
+              "pep.paypal.com",
+              "pics.paypal.com",
+              "pointofsale-s.paypal.com",
+              "pp-au.paypal.com",
+              "pp-eu.paypal.com",
+              "pp-in.paypal.com",
+              "pp-us.paypal.com",
+              "py.pl",
+              "qwac.paypal.com",
+              "safebreach.paypal.com",
+              "secure.paypal.com",
+              "securepayments.paypal.com",
+              "ssp.paypal.com",
+              "sspserv.paypal.com",
+              "support.braintreepayments.com",
+              "t.paypal.com",
+              "transfer.paypal.com",
+              "uk.paypal-qrc.com",
+              "us.paypal-qrc-seller-supplies.com",
+              "us.paypal-qrc.com",
+              "www-st.paypal.com",
+              "www.braintreecharge.com",
+              "www.braintreefinancial.com",
+              "www.braintreepayments.com",
+              "www.braintreepaymentsolutions.com",
+              "www.brand.braintreepayments.com",
+              "www.fastlane.paypal.com",
+              "www.paypal.ai",
+              "www.paypal.biz",
+              "www.paypal.com",
+              "www.paypalobjects.com",
+              "www.py.pl",
+              "zettleintegrations.paypal.com"
+            ],
+            "validation_level": "ev",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614",
+                      "a0d609a7e3c434e878a9a1c1bd065b8dcf33aa7efee1b11bc75cce5e5a042080",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614",
+                      "caf8ad697f7bda712ab127a8ad8b83f74a91a0de1784a1b483fef9ac79b67513",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614",
+                      "0ba8c0d459b76abc0825294f565e24f4f169d4a4819d0692d371522d297724b8",
+                      "2399561127a57125de8cefea610ddf2fa078b5c8067f4e828290bfb860e84b3c"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614",
+                      "a0d609a7e3c434e878a9a1c1bd065b8dcf33aa7efee1b11bc75cce5e5a042080",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614",
+                      "a0d609a7e3c434e878a9a1c1bd065b8dcf33aa7efee1b11bc75cce5e5a042080",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614",
+                      "caf8ad697f7bda712ab127a8ad8b83f74a91a0de1784a1b483fef9ac79b67513",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614",
+                      "a0d609a7e3c434e878a9a1c1bd065b8dcf33aa7efee1b11bc75cce5e5a042080",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614",
+                      "caf8ad697f7bda712ab127a8ad8b83f74a91a0de1784a1b483fef9ac79b67513",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 1995775620,
+                  "added_to_ct_at": "2026-01-10T13:57:50Z",
+                  "ct_to_censys_at": "2026-01-10T14:57:11Z"
+                },
+                "google_argon_2026_h2": {
+                  "index": 189573102,
+                  "added_to_ct_at": "2025-11-06T14:46:27Z",
+                  "ct_to_censys_at": "2025-11-06T14:49:24Z"
+                },
+                "google_xenon_2026_h2": {
+                  "index": 143654770,
+                  "added_to_ct_at": "2025-11-06T14:46:26Z",
+                  "ct_to_censys_at": "2025-11-06T14:53:51Z"
+                },
+                "letsencrypt_ct_oak_2026_h2": {
+                  "index": 117504422,
+                  "added_to_ct_at": "2025-11-06T14:46:27Z",
+                  "ct_to_censys_at": "2025-11-06T14:50:01Z"
+                },
+                "letsencrypt_ct_sycamore_2026_h2": {
+                  "index": 22192883,
+                  "added_to_ct_at": "2025-11-06T14:46:27Z",
+                  "ct_to_censys_at": "2025-12-12T18:19:15Z"
+                },
+                "letsencrypt_ct_willow_2026_h2": {
+                  "index": 22189429,
+                  "added_to_ct_at": "2025-11-06T14:46:27Z",
+                  "ct_to_censys_at": "2025-12-12T19:57:59Z"
+                },
+                "sectigo_elephant_2026_h2": {
+                  "index": 82751813,
+                  "added_to_ct_at": "2025-11-06T14:46:27Z",
+                  "ct_to_censys_at": "2025-11-06T14:50:28Z"
+                },
+                "sectigo_tiger_2026_h2": {
+                  "index": 80188196,
+                  "added_to_ct_at": "2025-11-06T14:46:27Z",
+                  "ct_to_censys_at": "2025-11-06T14:52:26Z"
+                },
+                "trustasia_log_2026_a": {
+                  "index": 86388751,
+                  "added_to_ct_at": "2025-11-16T17:12:29Z",
+                  "ct_to_censys_at": "2025-11-16T18:28:14Z"
+                },
+                "trustasia_log_2026_b": {
+                  "index": 85835565,
+                  "added_to_ct_at": "2025-11-06T14:46:28Z",
+                  "ct_to_censys_at": "2025-11-06T14:49:28Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2025-08-17T02:04:59Z",
+            "modified_at": "2026-01-10T14:57:12Z",
+            "validated_at": "2026-02-12T16:28:59Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "aab3686690ffe6aee6366aff8f512b7d8b9bd7cbe45ea920d8dccbd920fc575f",
+            "parent_spki_subject_fingerprint_sha256": "0b61a7579cd975e4228a985b17cc38e3db504e669e4322423ab2a062d46535e1"
+          },
+          "ip": "151.101.3.1",
+          "scan_time": "2026-02-13T03:51:56Z",
+          "tls": {
+            "fingerprint_sha256": "a6c0a230f969649178c1b6bdf464b78acf17d75584523f4397566851ca99fd6b",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "9588ef74199e45acefcccfc0c47010e9f2a37a1dd44c61a4e1c6b334da5af614",
+                "subject_dn": "C=US, O=DigiCert Inc, CN=DigiCert EV RSA CA G2",
+                "issuer_dn": "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root G2"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "151.101.3.1",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T03:51:56Z",
+              "http": {
+                "uri": "https://151.101.3.1/",
+                "protocol": "HTTP/1.1",
+                "status_code": 421,
+                "status_reason": "Misdirected Request",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "291"
+                    ]
+                  },
+                  "content-type": {
+                    "headers": [
+                      "text/plain; charset=utf-8"
+                    ]
+                  },
+                  "x-served-by": {
+                    "headers": [
+                      "cache-bom-vanm7210023"
+                    ]
+                  }
+                },
+                "body_size": 291,
+                "body": "Requested host does not match any Subject Alternative Names (SANs) on TLS certificate [e43c6a44e3bcc17180d9150e80a2c251f6d53bcc0ba3fd5ad665e8f95fde8202] in use with this connection.\r\n\r\nVisit https://www.fastly.com/documentation/guides/concepts/errors/#routing-errors for more information.\r\n\r",
+                "body_hash_sha256": "41cb3d8b1b6838187f3f0c2a77512372ccc718f322172b21086cc6a21b555967",
+                "body_hash_sha1": "6755e69b873b890cd3fae713501ba9b51dbc84ae",
+                "supported_versions": [
+                  "HTTP/1.1",
+                  "HTTP/2"
+                ]
+              },
+              "ip": "151.101.3.1"
+            }
+          ]
+        }
+      ],
+      "service_count": 2,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-02-05T02:12:01Z"
+        },
+        "names": [
+          "paypal-deutschland.de",
+          "paypal.vn",
+          "paypal-promo.es",
+          "pics.sandbox.paypal.com",
+          "www.paypal-danmark.dk",
+          "www.paypal-marketing.pl",
+          "www.paypal-norge.no",
+          "www.paypal.lu",
+          "www.paypal-passport.com",
+          "www.paypal-business.co.uk",
+          "id.sandbox.hyperwallet.com",
+          "paypal.com.my",
+          "www.paypal.com.my",
+          "remitgateway-sandbox.glb.xoom.com",
+          "sandbox.xoom.com",
+          "paypal.com.br",
+          "www.paypal-education.com.au",
+          "www.paypal.com.au",
+          "www.paypal.com.ve",
+          "paypal.com.ve",
+          "paypal.ch",
+          "www.paypal.co.il",
+          "www.paypal.de",
+          "www.paypal.pt",
+          "paypalgivingfund.org",
+          "paypal.pl",
+          "www.curv.cc",
+          "paypal.in",
+          "paypal-mena.com",
+          "www.paypal-optimizer.com",
+          "paypal-optimizer.com",
+          "hcaptcha.paypal.com",
+          "pns-int.glb.paypal.com",
+          "hcaptcha-sandbox.glb.paypal.com",
+          "www.paypal-prepagata.com",
+          "braintreecharge.com",
+          "paypal.co.id",
+          "www.paypal-shopping.co.uk",
+          "www.paypal.ph",
+          "cash2india.com",
+          "www.braintreepaymentsolutions.com",
+          "www.glb.xoom.com",
+          "www.paypal.co.in",
+          "www.paypal.co.id",
+          "curv.co",
+          "lele123.dpdns.org",
+          "paypal.cl",
+          "paypalobjects.com",
+          "tsp-int.paypal.com",
+          "apigw-ext.paypalcorp.com",
+          "www.paypal-globalshops.com",
+          "wa-saleschat.paypal.com",
+          "p.glb.paypal.com",
+          "help-venmo.glb.paypal.com",
+          "postcollector.paypal.com",
+          "www.paypal-mktg.com",
+          "www.paypal-europe.com",
+          "www.paypal.co.nz",
+          "www.paypal.ca",
+          "paypal.com.cn",
+          "id.sandbox.xoom.com",
+          "paypal.com.tr",
+          "braintreepaymentsolutions.com",
+          "www.cash2india.com",
+          "t.venmo.com",
+          "id.sandbox.venmo.com",
+          "paypal.jp",
+          "paypal.fr",
+          "curv.cc",
+          "paypal.com.ar",
+          "login.paypalworld.com",
+          "www.paypalbalance.com",
+          "accounts.hcaptcha.sandbox.paypal.com",
+          "pics.paypal.com",
+          "paypal-passport.com",
+          "paypal-mktg.com",
+          "www.paypal.com.pe",
+          "paypal.no",
+          "www.paypal.no",
+          "www.paypal-marketing.ca",
+          "paypal.nl",
+          "www.paypal.com.cn",
+          "paypal.co.th",
+          "remitgateway.sandbox.xoom.com",
+          "politemail.paypalcorp.com",
+          "paypalbalance.com",
+          "api-m.sandbox.paypal.com",
+          "c-v2.sandbox.paypal.com",
+          "t.paypal.com",
+          "politemaildr.paypalcorp.com",
+          "paypal-prepagata.com",
+          "p.paypal.com",
+          "cors.api.sandbox.paypal.com",
+          "www.paypal-partners.com",
+          "paypal-communications.com",
+          "www.paypal-engineering.com",
+          "www.paypal.it",
+          "www.paypal.com.mx",
+          "www.paypal.eu",
+          "www.paypal-business.com.au"
+        ],
+        "forward_dns": {
+          "accounts.hcaptcha.sandbox.paypal.com": {
+            "resolve_time": "2026-02-09T13:51:28Z",
+            "name": "accounts.hcaptcha.sandbox.paypal.com",
+            "record_type": "a"
+          },
+          "api-m.sandbox.paypal.com": {
+            "resolve_time": "2026-02-08T17:36:21Z",
+            "name": "api-m.sandbox.paypal.com",
+            "record_type": "a"
+          },
+          "apigw-ext.paypalcorp.com": {
+            "resolve_time": "2026-02-10T14:06:09Z",
+            "name": "apigw-ext.paypalcorp.com",
+            "record_type": "a"
+          },
+          "braintreecharge.com": {
+            "resolve_time": "2026-02-11T13:12:06Z",
+            "name": "braintreecharge.com",
+            "record_type": "a"
+          },
+          "braintreepaymentsolutions.com": {
+            "resolve_time": "2026-02-09T20:26:57Z",
+            "name": "braintreepaymentsolutions.com",
+            "record_type": "a"
+          },
+          "c-v2.sandbox.paypal.com": {
+            "resolve_time": "2026-02-08T17:36:18Z",
+            "name": "c-v2.sandbox.paypal.com",
+            "record_type": "a"
+          },
+          "cash2india.com": {
+            "resolve_time": "2026-02-10T21:16:02Z",
+            "name": "cash2india.com",
+            "record_type": "a"
+          },
+          "cors.api.sandbox.paypal.com": {
+            "resolve_time": "2026-02-08T17:36:17Z",
+            "name": "cors.api.sandbox.paypal.com",
+            "record_type": "a"
+          },
+          "curv.cc": {
+            "resolve_time": "2026-02-09T16:05:10Z",
+            "name": "curv.cc",
+            "record_type": "a"
+          },
+          "curv.co": {
+            "resolve_time": "2026-02-10T16:58:53Z",
+            "name": "curv.co",
+            "record_type": "a"
+          },
+          "hcaptcha-sandbox.glb.paypal.com": {
+            "resolve_time": "2026-02-11T13:22:39Z",
+            "name": "hcaptcha-sandbox.glb.paypal.com",
+            "record_type": "a"
+          },
+          "hcaptcha.paypal.com": {
+            "resolve_time": "2026-02-11T13:22:40Z",
+            "name": "hcaptcha.paypal.com",
+            "record_type": "a"
+          },
+          "help-venmo.glb.paypal.com": {
+            "resolve_time": "2026-02-10T14:06:08Z",
+            "name": "help-venmo.glb.paypal.com",
+            "record_type": "a"
+          },
+          "id.sandbox.hyperwallet.com": {
+            "resolve_time": "2026-02-11T21:42:47Z",
+            "name": "id.sandbox.hyperwallet.com",
+            "record_type": "a"
+          },
+          "id.sandbox.venmo.com": {
+            "resolve_time": "2026-02-09T19:18:52Z",
+            "name": "id.sandbox.venmo.com",
+            "record_type": "a"
+          },
+          "id.sandbox.xoom.com": {
+            "resolve_time": "2026-02-09T21:34:34Z",
+            "name": "id.sandbox.xoom.com",
+            "record_type": "a"
+          },
+          "lele123.dpdns.org": {
+            "resolve_time": "2026-02-10T16:23:34Z",
+            "name": "lele123.dpdns.org",
+            "record_type": "a"
+          },
+          "login.paypalworld.com": {
+            "resolve_time": "2026-02-09T13:51:30Z",
+            "name": "login.paypalworld.com",
+            "record_type": "a"
+          },
+          "p.glb.paypal.com": {
+            "resolve_time": "2026-02-10T14:06:08Z",
+            "name": "p.glb.paypal.com",
+            "record_type": "a"
+          },
+          "p.paypal.com": {
+            "resolve_time": "2026-02-08T17:36:17Z",
+            "name": "p.paypal.com",
+            "record_type": "a"
+          },
+          "paypal-communications.com": {
+            "resolve_time": "2026-02-08T17:36:15Z",
+            "name": "paypal-communications.com",
+            "record_type": "a"
+          },
+          "paypal-deutschland.de": {
+            "resolve_time": "2026-02-13T12:53:53Z",
+            "name": "paypal-deutschland.de",
+            "record_type": "a"
+          },
+          "paypal-mena.com": {
+            "resolve_time": "2026-02-11T13:22:41Z",
+            "name": "paypal-mena.com",
+            "record_type": "a"
+          },
+          "paypal-mktg.com": {
+            "resolve_time": "2026-02-09T13:51:26Z",
+            "name": "paypal-mktg.com",
+            "record_type": "a"
+          },
+          "paypal-optimizer.com": {
+            "resolve_time": "2026-02-11T13:22:40Z",
+            "name": "paypal-optimizer.com",
+            "record_type": "a"
+          },
+          "paypal-passport.com": {
+            "resolve_time": "2026-02-09T13:51:27Z",
+            "name": "paypal-passport.com",
+            "record_type": "a"
+          },
+          "paypal-prepagata.com": {
+            "resolve_time": "2026-02-08T17:36:18Z",
+            "name": "paypal-prepagata.com",
+            "record_type": "a"
+          },
+          "paypal-promo.es": {
+            "resolve_time": "2026-02-13T12:15:11Z",
+            "name": "paypal-promo.es",
+            "record_type": "a"
+          },
+          "paypal.ch": {
+            "resolve_time": "2026-02-11T19:05:14Z",
+            "name": "paypal.ch",
+            "record_type": "a"
+          },
+          "paypal.cl": {
+            "resolve_time": "2026-02-10T15:20:40Z",
+            "name": "paypal.cl",
+            "record_type": "a"
+          },
+          "paypal.co.id": {
+            "resolve_time": "2026-02-11T13:00:35Z",
+            "name": "paypal.co.id",
+            "record_type": "a"
+          },
+          "paypal.co.th": {
+            "resolve_time": "2026-02-08T18:08:28Z",
+            "name": "paypal.co.th",
+            "record_type": "a"
+          },
+          "paypal.com.ar": {
+            "resolve_time": "2026-02-09T14:28:17Z",
+            "name": "paypal.com.ar",
+            "record_type": "a"
+          },
+          "paypal.com.br": {
+            "resolve_time": "2026-02-11T20:14:57Z",
+            "name": "paypal.com.br",
+            "record_type": "a"
+          },
+          "paypal.com.cn": {
+            "resolve_time": "2026-02-10T12:09:59Z",
+            "name": "paypal.com.cn",
+            "record_type": "a"
+          },
+          "paypal.com.my": {
+            "resolve_time": "2026-02-11T21:18:31Z",
+            "name": "paypal.com.my",
+            "record_type": "a"
+          },
+          "paypal.com.tr": {
+            "resolve_time": "2026-02-09T20:47:43Z",
+            "name": "paypal.com.tr",
+            "record_type": "a"
+          },
+          "paypal.com.ve": {
+            "resolve_time": "2026-02-11T19:43:12Z",
+            "name": "paypal.com.ve",
+            "record_type": "a"
+          },
+          "paypal.fr": {
+            "resolve_time": "2026-02-09T17:02:40Z",
+            "name": "paypal.fr",
+            "record_type": "a"
+          },
+          "paypal.in": {
+            "resolve_time": "2026-02-11T13:46:05Z",
+            "name": "paypal.in",
+            "record_type": "a"
+          },
+          "paypal.jp": {
+            "resolve_time": "2026-02-09T17:25:14Z",
+            "name": "paypal.jp",
+            "record_type": "a"
+          },
+          "paypal.nl": {
+            "resolve_time": "2026-02-08T19:27:20Z",
+            "name": "paypal.nl",
+            "record_type": "a"
+          },
+          "paypal.no": {
+            "resolve_time": "2026-02-08T20:45:52Z",
+            "name": "paypal.no",
+            "record_type": "a"
+          },
+          "paypal.pl": {
+            "resolve_time": "2026-02-11T14:50:14Z",
+            "name": "paypal.pl",
+            "record_type": "a"
+          },
+          "paypal.vn": {
+            "resolve_time": "2026-02-13T12:23:08Z",
+            "name": "paypal.vn",
+            "record_type": "a"
+          },
+          "paypalbalance.com": {
+            "resolve_time": "2026-02-08T17:36:24Z",
+            "name": "paypalbalance.com",
+            "record_type": "a"
+          },
+          "paypalgivingfund.org": {
+            "resolve_time": "2026-02-11T15:29:45Z",
+            "name": "paypalgivingfund.org",
+            "record_type": "a"
+          },
+          "paypalobjects.com": {
+            "resolve_time": "2026-02-10T14:06:10Z",
+            "name": "paypalobjects.com",
+            "record_type": "a"
+          },
+          "pics.paypal.com": {
+            "resolve_time": "2026-02-09T13:51:28Z",
+            "name": "pics.paypal.com",
+            "record_type": "a"
+          },
+          "pics.sandbox.paypal.com": {
+            "resolve_time": "2026-02-13T10:05:58Z",
+            "name": "pics.sandbox.paypal.com",
+            "record_type": "a"
+          },
+          "pns-int.glb.paypal.com": {
+            "resolve_time": "2026-02-11T13:22:40Z",
+            "name": "pns-int.glb.paypal.com",
+            "record_type": "a"
+          },
+          "politemail.paypalcorp.com": {
+            "resolve_time": "2026-02-08T17:36:24Z",
+            "name": "politemail.paypalcorp.com",
+            "record_type": "a"
+          },
+          "politemaildr.paypalcorp.com": {
+            "resolve_time": "2026-02-08T17:36:18Z",
+            "name": "politemaildr.paypalcorp.com",
+            "record_type": "a"
+          },
+          "postcollector.paypal.com": {
+            "resolve_time": "2026-02-10T14:06:08Z",
+            "name": "postcollector.paypal.com",
+            "record_type": "a"
+          },
+          "remitgateway-sandbox.glb.xoom.com": {
+            "resolve_time": "2026-02-11T20:19:12Z",
+            "name": "remitgateway-sandbox.glb.xoom.com",
+            "record_type": "a"
+          },
+          "remitgateway.sandbox.xoom.com": {
+            "resolve_time": "2026-02-08T18:08:17Z",
+            "name": "remitgateway.sandbox.xoom.com",
+            "record_type": "a"
+          },
+          "sandbox.xoom.com": {
+            "resolve_time": "2026-02-11T20:19:06Z",
+            "name": "sandbox.xoom.com",
+            "record_type": "a"
+          },
+          "t.paypal.com": {
+            "resolve_time": "2026-02-08T17:36:18Z",
+            "name": "t.paypal.com",
+            "record_type": "a"
+          },
+          "t.venmo.com": {
+            "resolve_time": "2026-02-09T19:18:55Z",
+            "name": "t.venmo.com",
+            "record_type": "a"
+          },
+          "tsp-int.paypal.com": {
+            "resolve_time": "2026-02-10T14:06:10Z",
+            "name": "tsp-int.paypal.com",
+            "record_type": "a"
+          },
+          "wa-saleschat.paypal.com": {
+            "resolve_time": "2026-02-10T14:06:09Z",
+            "name": "wa-saleschat.paypal.com",
+            "record_type": "a"
+          },
+          "www.braintreepaymentsolutions.com": {
+            "resolve_time": "2026-02-10T20:05:08Z",
+            "name": "www.braintreepaymentsolutions.com",
+            "record_type": "a"
+          },
+          "www.cash2india.com": {
+            "resolve_time": "2026-02-09T19:44:58Z",
+            "name": "www.cash2india.com",
+            "record_type": "a"
+          },
+          "www.curv.cc": {
+            "resolve_time": "2026-02-11T14:38:24Z",
+            "name": "www.curv.cc",
+            "record_type": "a"
+          },
+          "www.glb.xoom.com": {
+            "resolve_time": "2026-02-10T19:42:48Z",
+            "name": "www.glb.xoom.com",
+            "record_type": "a"
+          },
+          "www.paypal-business.co.uk": {
+            "resolve_time": "2026-02-12T10:01:24Z",
+            "name": "www.paypal-business.co.uk",
+            "record_type": "a"
+          },
+          "www.paypal-business.com.au": {
+            "resolve_time": "2026-02-08T15:53:29Z",
+            "name": "www.paypal-business.com.au",
+            "record_type": "a"
+          },
+          "www.paypal-danmark.dk": {
+            "resolve_time": "2026-02-12T12:34:16Z",
+            "name": "www.paypal-danmark.dk",
+            "record_type": "a"
+          },
+          "www.paypal-education.com.au": {
+            "resolve_time": "2026-02-11T20:09:53Z",
+            "name": "www.paypal-education.com.au",
+            "record_type": "a"
+          },
+          "www.paypal-engineering.com": {
+            "resolve_time": "2026-02-08T17:36:15Z",
+            "name": "www.paypal-engineering.com",
+            "record_type": "a"
+          },
+          "www.paypal-europe.com": {
+            "resolve_time": "2026-02-10T14:06:06Z",
+            "name": "www.paypal-europe.com",
+            "record_type": "a"
+          },
+          "www.paypal-globalshops.com": {
+            "resolve_time": "2026-02-10T14:06:09Z",
+            "name": "www.paypal-globalshops.com",
+            "record_type": "a"
+          },
+          "www.paypal-marketing.ca": {
+            "resolve_time": "2026-02-08T19:49:22Z",
+            "name": "www.paypal-marketing.ca",
+            "record_type": "a"
+          },
+          "www.paypal-marketing.pl": {
+            "resolve_time": "2026-02-12T12:25:10Z",
+            "name": "www.paypal-marketing.pl",
+            "record_type": "a"
+          },
+          "www.paypal-mktg.com": {
+            "resolve_time": "2026-02-10T14:06:06Z",
+            "name": "www.paypal-mktg.com",
+            "record_type": "a"
+          },
+          "www.paypal-norge.no": {
+            "resolve_time": "2026-02-12T12:06:27Z",
+            "name": "www.paypal-norge.no",
+            "record_type": "a"
+          },
+          "www.paypal-optimizer.com": {
+            "resolve_time": "2026-02-11T13:22:40Z",
+            "name": "www.paypal-optimizer.com",
+            "record_type": "a"
+          },
+          "www.paypal-partners.com": {
+            "resolve_time": "2026-02-08T17:36:16Z",
+            "name": "www.paypal-partners.com",
+            "record_type": "a"
+          },
+          "www.paypal-passport.com": {
+            "resolve_time": "2026-02-12T10:01:24Z",
+            "name": "www.paypal-passport.com",
+            "record_type": "a"
+          },
+          "www.paypal-prepagata.com": {
+            "resolve_time": "2026-02-11T13:22:38Z",
+            "name": "www.paypal-prepagata.com",
+            "record_type": "a"
+          },
+          "www.paypal-shopping.co.uk": {
+            "resolve_time": "2026-02-11T12:35:18Z",
+            "name": "www.paypal-shopping.co.uk",
+            "record_type": "a"
+          },
+          "www.paypal.ca": {
+            "resolve_time": "2026-02-10T12:56:14Z",
+            "name": "www.paypal.ca",
+            "record_type": "a"
+          },
+          "www.paypal.co.id": {
+            "resolve_time": "2026-02-10T17:13:59Z",
+            "name": "www.paypal.co.id",
+            "record_type": "a"
+          },
+          "www.paypal.co.il": {
+            "resolve_time": "2026-02-11T17:44:12Z",
+            "name": "www.paypal.co.il",
+            "record_type": "a"
+          },
+          "www.paypal.co.in": {
+            "resolve_time": "2026-02-10T19:07:12Z",
+            "name": "www.paypal.co.in",
+            "record_type": "a"
+          },
+          "www.paypal.co.nz": {
+            "resolve_time": "2026-02-10T13:46:25Z",
+            "name": "www.paypal.co.nz",
+            "record_type": "a"
+          },
+          "www.paypal.com.au": {
+            "resolve_time": "2026-02-11T20:09:53Z",
+            "name": "www.paypal.com.au",
+            "record_type": "a"
+          },
+          "www.paypal.com.cn": {
+            "resolve_time": "2026-02-08T19:08:50Z",
+            "name": "www.paypal.com.cn",
+            "record_type": "a"
+          },
+          "www.paypal.com.mx": {
+            "resolve_time": "2026-02-08T16:50:48Z",
+            "name": "www.paypal.com.mx",
+            "record_type": "a"
+          },
+          "www.paypal.com.my": {
+            "resolve_time": "2026-02-11T21:18:31Z",
+            "name": "www.paypal.com.my",
+            "record_type": "a"
+          },
+          "www.paypal.com.pe": {
+            "resolve_time": "2026-02-09T13:41:48Z",
+            "name": "www.paypal.com.pe",
+            "record_type": "a"
+          },
+          "www.paypal.com.ve": {
+            "resolve_time": "2026-02-11T19:43:12Z",
+            "name": "www.paypal.com.ve",
+            "record_type": "a"
+          },
+          "www.paypal.de": {
+            "resolve_time": "2026-02-11T17:30:59Z",
+            "name": "www.paypal.de",
+            "record_type": "a"
+          },
+          "www.paypal.eu": {
+            "resolve_time": "2026-02-08T16:46:58Z",
+            "name": "www.paypal.eu",
+            "record_type": "a"
+          },
+          "www.paypal.it": {
+            "resolve_time": "2026-02-08T16:53:52Z",
+            "name": "www.paypal.it",
+            "record_type": "a"
+          },
+          "www.paypal.lu": {
+            "resolve_time": "2026-02-12T10:01:24Z",
+            "name": "www.paypal.lu",
+            "record_type": "a"
+          },
+          "www.paypal.no": {
+            "resolve_time": "2026-02-08T20:45:52Z",
+            "name": "www.paypal.no",
+            "record_type": "a"
+          },
+          "www.paypal.ph": {
+            "resolve_time": "2026-02-11T10:41:38Z",
+            "name": "www.paypal.ph",
+            "record_type": "a"
+          },
+          "www.paypal.pt": {
+            "resolve_time": "2026-02-11T15:37:09Z",
+            "name": "www.paypal.pt",
+            "record_type": "a"
+          },
+          "www.paypalbalance.com": {
+            "resolve_time": "2026-02-09T13:51:28Z",
+            "name": "www.paypalbalance.com",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

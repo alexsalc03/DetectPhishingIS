@@ -1,0 +1,298 @@
+{
+  "result": {
+    "resource": {
+      "ip": "52.58.199.22",
+      "location": {
+        "continent": "Europe",
+        "country": "Germany",
+        "country_code": "DE",
+        "city": "Frankfurt am Main",
+        "postal_code": "60306",
+        "timezone": "Europe/Berlin",
+        "province": "Hesse",
+        "coordinates": {
+          "latitude": 50.11552,
+          "longitude": 8.68417
+        }
+      },
+      "autonomous_system": {
+        "asn": 16509,
+        "description": "AMAZON-02 - Amazon.com, Inc.",
+        "bgp_prefix": "52.58.0.0/15",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "country_code": "US"
+      },
+      "whois": {
+        "network": {
+          "handle": "AMAZO-ZFRA",
+          "name": "A100 ROW GmbH",
+          "cidrs": [
+            "52.58.0.0/15"
+          ],
+          "created": "2017-04-18T00:00:00Z",
+          "updated": "2021-02-10T00:00:00Z",
+          "allocation_type": "REALLOCATION"
+        },
+        "organization": {
+          "handle": "RG-123",
+          "name": "A100 ROW GmbH",
+          "street": "Marcel-Breuer-Strasse 10",
+          "city": "Munchen",
+          "postal_code": "80807",
+          "country": "DE",
+          "abuse_contacts": [
+            {
+              "handle": "AEA8-ARIN",
+              "name": "Amazon EC2 Abuse",
+              "email": "trustandsafety@support.aws.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "IPMAN40-ARIN",
+              "name": "IP Management",
+              "email": "ipmanagement@amazon.com"
+            }
+          ],
+          "tech_contacts": [
+            {
+              "handle": "ANO24-ARIN",
+              "name": "Amazon EC2 Network Operations",
+              "email": "amzn-noc-contact@amazon.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "f5",
+              "product": "nginx"
+            }
+          ],
+          "ip": "52.58.199.22",
+          "scan_time": "2026-02-13T11:35:06Z",
+          "endpoints": [
+            {
+              "hostname": "52.58.199.22",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T11:35:06Z",
+              "http": {
+                "uri": "http://52.58.199.22/",
+                "protocol": "HTTP/1.1",
+                "status_code": 400,
+                "status_reason": "Bad Request",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "157"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "nginx/1.29.3"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>400 Bad Request</title>"
+                ],
+                "body_size": 157,
+                "body": "<html>\r\n<head><title>400 Bad Request</title></head>\r\n<body>\r\n<center><h1>400 Bad Request</h1></center>\r\n<hr><center>nginx/1.29.3</center>\r\n</body>\r\n</html>\r\n",
+                "html_title": "400 Bad Request",
+                "body_hash_sha256": "8df86109d1f1ba578108a7ecbfe276b1dff16bd5377bcb97721407e889243422",
+                "body_hash_sha1": "e7422a37065f962422186287724ee90f8d4b76bb",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "52.58.199.22"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "f5",
+              "product": "nginx"
+            }
+          ],
+          "ip": "52.58.199.22",
+          "scan_time": "2026-02-13T06:54:23Z",
+          "endpoints": [
+            {
+              "hostname": "52.58.199.22",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T06:54:23Z",
+              "http": {
+                "uri": "http://52.58.199.22:443/",
+                "protocol": "HTTP/1.1",
+                "status_code": 400,
+                "status_reason": "Bad Request",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "255"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "nginx/1.29.3"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>400 The plain HTTP request was sent to HTTPS port</title>"
+                ],
+                "body_size": 255,
+                "body": "<html>\r\n<head><title>400 The plain HTTP request was sent to HTTPS port</title></head>\r\n<body>\r\n<center><h1>400 Bad Request</h1></center>\r\n<center>The plain HTTP request was sent to HTTPS port</center>\r\n<hr><center>nginx/1.29.3</center>\r\n</body>\r\n</html>\r\n",
+                "html_title": "400 The plain HTTP request was sent to HTTPS port",
+                "body_hash_sha256": "7fe39fef3f186ed197d4ebb60c68fe4524b15cc0bcdc19a1a727e498ba768835",
+                "body_hash_sha1": "fab506bf50ae33f9ce5e83e594b196718d5a208b",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "52.58.199.22"
+            }
+          ]
+        }
+      ],
+      "service_count": 2,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-02-10T12:26:51Z",
+          "names": [
+            "ec2-52-58-199-22.eu-central-1.compute.amazonaws.com"
+          ]
+        },
+        "names": [
+          "amplify.nginx.com",
+          "nginx.ru",
+          "www.nginxun.it",
+          "nginx.network",
+          "nginx.sg",
+          "www.nginxunit.io",
+          "www.nginx-unit.io",
+          "nginxunit.io",
+          "nginx-unit.io",
+          "www.nginx-un.it",
+          "nginx.net",
+          "nginx-un.it",
+          "nginxun.it"
+        ],
+        "forward_dns": {
+          "amplify.nginx.com": {
+            "resolve_time": "2026-02-11T14:28:40Z",
+            "name": "amplify.nginx.com",
+            "record_type": "a"
+          },
+          "nginx-un.it": {
+            "resolve_time": "2026-01-12T15:41:19Z",
+            "name": "nginx-un.it",
+            "record_type": "a"
+          },
+          "nginx-unit.io": {
+            "resolve_time": "2026-01-29T15:23:29Z",
+            "name": "nginx-unit.io",
+            "record_type": "a"
+          },
+          "nginx.net": {
+            "resolve_time": "2026-01-14T13:46:53Z",
+            "name": "nginx.net",
+            "record_type": "a"
+          },
+          "nginx.network": {
+            "resolve_time": "2026-02-10T14:50:36Z",
+            "name": "nginx.network",
+            "record_type": "a"
+          },
+          "nginx.ru": {
+            "resolve_time": "2026-02-10T21:54:07Z",
+            "name": "nginx.ru",
+            "record_type": "a"
+          },
+          "nginx.sg": {
+            "resolve_time": "2026-02-09T17:45:41Z",
+            "name": "nginx.sg",
+            "record_type": "a"
+          },
+          "nginxun.it": {
+            "resolve_time": "2026-01-02T18:58:31Z",
+            "name": "nginxun.it",
+            "record_type": "a"
+          },
+          "nginxunit.io": {
+            "resolve_time": "2026-02-01T12:41:50Z",
+            "name": "nginxunit.io",
+            "record_type": "a"
+          },
+          "www.nginx-un.it": {
+            "resolve_time": "2026-01-29T14:17:37Z",
+            "name": "www.nginx-un.it",
+            "record_type": "a"
+          },
+          "www.nginx-unit.io": {
+            "resolve_time": "2026-02-06T19:35:42Z",
+            "name": "www.nginx-unit.io",
+            "record_type": "a"
+          },
+          "www.nginxun.it": {
+            "resolve_time": "2026-02-10T21:43:49Z",
+            "name": "www.nginxun.it",
+            "record_type": "a"
+          },
+          "www.nginxunit.io": {
+            "resolve_time": "2026-02-08T20:44:16Z",
+            "name": "www.nginxunit.io",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

@@ -1,0 +1,1326 @@
+{
+  "result": {
+    "resource": {
+      "ip": "8.8.4.4",
+      "location": {
+        "continent": "North America",
+        "country": "United States",
+        "country_code": "US",
+        "city": "Mountain View",
+        "postal_code": "94043",
+        "timezone": "America/Los_Angeles",
+        "province": "California",
+        "coordinates": {
+          "latitude": 38.00881,
+          "longitude": -122.11746
+        }
+      },
+      "autonomous_system": {
+        "asn": 15169,
+        "description": "GOOGLE - Google LLC",
+        "bgp_prefix": "8.8.4.0/24",
+        "name": "GOOGLE - Google LLC",
+        "country_code": "US"
+      },
+      "whois": {
+        "network": {
+          "handle": "GOGL",
+          "name": "Google LLC",
+          "cidrs": [
+            "8.8.4.0/24"
+          ],
+          "created": "2023-12-28T00:00:00Z",
+          "updated": "2023-12-28T00:00:00Z",
+          "allocation_type": "ALLOCATION"
+        },
+        "organization": {
+          "handle": "GOGL",
+          "name": "Google LLC",
+          "street": "1600 Amphitheatre Parkway",
+          "city": "Mountain View",
+          "state": "CA",
+          "postal_code": "94043",
+          "country": "US",
+          "abuse_contacts": [
+            {
+              "handle": "ABUSE5250-ARIN",
+              "name": "Abuse",
+              "email": "network-abuse@google.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "ZG39-ARIN",
+              "name": "Google LLC",
+              "email": "arin-contact@google.com"
+            }
+          ],
+          "tech_contacts": [
+            {
+              "handle": "ZG39-ARIN",
+              "name": "Google LLC",
+              "email": "arin-contact@google.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 53,
+          "protocol": "DNS",
+          "transport_protocol": "udp",
+          "ip": "8.8.4.4",
+          "scan_time": "2026-02-12T23:05:15Z",
+          "dns": {
+            "server_type": "forwarding",
+            "resolves_correctly": true,
+            "answers": [
+              {
+                "name": "ip.parrotdns.com.",
+                "response": "172.253.85.247",
+                "type": "a"
+              },
+              {
+                "name": "ip.parrotdns.com.",
+                "response": "35.202.119.40",
+                "type": "a"
+              }
+            ],
+            "questions": [
+              {
+                "name": "ip.parrotdns.com.",
+                "response": ";ip.parrotdns.com.\tIN\t A",
+                "type": "a"
+              }
+            ],
+            "edns": {
+              "do": true,
+              "udp": 512
+            },
+            "r_code": "success"
+          }
+        },
+        {
+          "port": 443,
+          "protocol": "UNKNOWN",
+          "transport_protocol": "quic",
+          "ip": "8.8.4.4",
+          "scan_time": "2026-02-13T04:32:15Z"
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "117d9cd2124a6f471584fa971d212aab93c5c6eae2850f1e41eb42eef4be19e7",
+            "fingerprint_sha1": "ffeb83e75ecdd3f9aa3809af665d5a888549546c",
+            "fingerprint_md5": "04e57e7d675a9ce957c54c3904458064",
+            "tbs_fingerprint_sha256": "07795a34ace8d24581a555eb1e9576c8a4dd27d135239bf4424702b0187830da",
+            "tbs_no_ct_fingerprint_sha256": "4a3e77fe9b1336144083c2d7b856e9cf117cd73bd357ec33a1f20de35d93d766",
+            "spki_fingerprint_sha256": "2aedc6786da076619b86f43ee3f8321ed549425e891d42dd50c3d0b6050025f8",
+            "parent_spki_fingerprint_sha256": "95b148afc4c249d314067527813d43973574f8e11a905040c881510026ae74f9",
+            "parsed": {
+              "version": 3,
+              "serial_number": "7344250572695281728292597821812302812",
+              "issuer_dn": "C=US, O=Google Trust Services, CN=WR2",
+              "issuer": {
+                "common_name": [
+                  "WR2"
+                ],
+                "country": [
+                  "US"
+                ],
+                "organization": [
+                  "Google Trust Services"
+                ]
+              },
+              "subject_dn": "CN=dns.google",
+              "subject": {
+                "common_name": [
+                  "dns.google"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "RSA",
+                  "oid": "1.2.840.113549.1.1.1"
+                },
+                "rsa": {
+                  "exponent": 65537,
+                  "modulus": "d850924c28874306e4f841aabf55aa9e092e5fd826ead6faa7d9b839211ffd11b30e45c1dcc8f22129641aac356b14a578241b1f6eea10fb7b2bec5bafee3f45b58f5bb365bfe4bc80f5eb3baaccd31c376c34223a627670c6a2284818f1636bb7befa9f49e5af307fe7bb3c4af59f676337dd01a032b1ee4518ab9a874d0f194cbce90d5eb2dd1fdc712d38a04faebc5e1fa85db5f17ab9c0e998feba413a2baec8ba16d763243f9fdbe45ab61b7292d4f12014bbc8133331e4950ad339dd4777f95fd9121116cb71ce9747afcc642caa98b095c2bba6aba81122cc7c82c5a85d398048b69e336062c70515a5fce16a373d8661c2d725acd288dc6c912400eb",
+                  "length": 2048
+                },
+                "fingerprint_sha256": "5d118fd8c6d2b7a9c836929a412e8f9695e89aec0d24517212ef4c31bbe8e4f1"
+              },
+              "validity_period": {
+                "not_before": "2026-01-26T08:41:48Z",
+                "not_after": "2026-04-20T08:41:47Z",
+                "length_seconds": 7257600
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "SHA256-RSA",
+                  "oid": "1.2.840.113549.1.1.11"
+                },
+                "value": "36226496a48a706dba1777c2a71b631474ac53a221ec448c8f01b2f099e31d9d804144f9cb9d312e7b17f2a21680a94bc264571fa6a364c3e64f0b61fbca8707bc01487a9b772a3936673865b29df10cad41922540f3089a769a3eca50fec7ea80910831094378854b09494f50273b8527513dfeb9b9f4a90340ac51fc3821021b37c72ca3f85b79fbda8f8d3d6266dae03bd03fd28f0f7117ce4726aafc08d888666c9ff4e25f9c53607828fdf34f127123a0123359029dab2f8819a57038f1e65b80ac157fd923ad0411623eb8a3af58d02fa1f334a3c91b7822bcfb7f951f1f11dcdd2ded66f3f86c927311a0f74223b844ff2121808aed9bdb2a4c3c5e78",
+                "valid": true
+              },
+              "serial_number_hex": "058673827aa901e812d7b819882ce3dc"
+            },
+            "names": [
+              "*.dns.google.com",
+              "8.8.4.4",
+              "8.8.8.8",
+              "8888.google",
+              "dns.google",
+              "dns.google.com",
+              "dns64.dns.google"
+            ],
+            "validation_level": "dv",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "e6fe22bf45e4f0d3b85c59e02c0f495418e1eb8d3210f788d48cd5e1cb547cd4",
+                      "d947432abde7b7fa90fc2e6b59101b1280e0e1c7e4e40fa3c6887fff57a7f4cf"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "e6fe22bf45e4f0d3b85c59e02c0f495418e1eb8d3210f788d48cd5e1cb547cd4",
+                      "3ee0278df71fa3c125c4cd487f01d774694e6fc57e0cd94c24efd769133918e5",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "e6fe22bf45e4f0d3b85c59e02c0f495418e1eb8d3210f788d48cd5e1cb547cd4"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "e6fe22bf45e4f0d3b85c59e02c0f495418e1eb8d3210f788d48cd5e1cb547cd4",
+                      "2a575471e31340bc21581cbd2cf13e158463203ece94bcf9d3cc196bf09a5472"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "e6fe22bf45e4f0d3b85c59e02c0f495418e1eb8d3210f788d48cd5e1cb547cd4",
+                      "d947432abde7b7fa90fc2e6b59101b1280e0e1c7e4e40fa3c6887fff57a7f4cf"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "e6fe22bf45e4f0d3b85c59e02c0f495418e1eb8d3210f788d48cd5e1cb547cd4",
+                      "3ee0278df71fa3c125c4cd487f01d774694e6fc57e0cd94c24efd769133918e5",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "e6fe22bf45e4f0d3b85c59e02c0f495418e1eb8d3210f788d48cd5e1cb547cd4"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "e6fe22bf45e4f0d3b85c59e02c0f495418e1eb8d3210f788d48cd5e1cb547cd4",
+                      "d947432abde7b7fa90fc2e6b59101b1280e0e1c7e4e40fa3c6887fff57a7f4cf"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "e6fe22bf45e4f0d3b85c59e02c0f495418e1eb8d3210f788d48cd5e1cb547cd4",
+                      "3ee0278df71fa3c125c4cd487f01d774694e6fc57e0cd94c24efd769133918e5",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "e6fe22bf45e4f0d3b85c59e02c0f495418e1eb8d3210f788d48cd5e1cb547cd4"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "e6fe22bf45e4f0d3b85c59e02c0f495418e1eb8d3210f788d48cd5e1cb547cd4",
+                      "d947432abde7b7fa90fc2e6b59101b1280e0e1c7e4e40fa3c6887fff57a7f4cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "e6fe22bf45e4f0d3b85c59e02c0f495418e1eb8d3210f788d48cd5e1cb547cd4"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 2552449706,
+                  "added_to_ct_at": "2026-02-13T08:20:09Z",
+                  "ct_to_censys_at": "2026-02-13T09:19:01Z"
+                },
+                "google_argon_2026_h1": {
+                  "index": 2054665402,
+                  "added_to_ct_at": "2026-02-08T19:24:27Z",
+                  "ct_to_censys_at": "2026-02-08T19:33:07Z"
+                },
+                "google_xenon_2026_h1": {
+                  "index": 1901254254,
+                  "added_to_ct_at": "2026-02-08T19:24:27Z",
+                  "ct_to_censys_at": "2026-02-08T19:36:48Z"
+                },
+                "letsencrypt_ct_sycamore_2026_h1": {
+                  "index": 835568553,
+                  "added_to_ct_at": "2026-02-10T22:41:23Z",
+                  "ct_to_censys_at": "2026-02-10T22:42:48Z"
+                },
+                "letsencrypt_ct_willow_2026_h1": {
+                  "index": 841752152,
+                  "added_to_ct_at": "2026-02-10T22:42:11Z",
+                  "ct_to_censys_at": "2026-02-10T22:43:50Z"
+                },
+                "sectigo_elephant_2026_h1": {
+                  "index": 1459390820,
+                  "added_to_ct_at": "2026-02-08T19:24:27Z",
+                  "ct_to_censys_at": "2026-02-08T19:29:24Z"
+                },
+                "sectigo_tiger_2026_h1": {
+                  "index": 1348399189,
+                  "added_to_ct_at": "2026-02-08T19:24:27Z",
+                  "ct_to_censys_at": "2026-02-08T19:32:00Z"
+                },
+                "trustasia_log_2026_a": {
+                  "index": 719750223,
+                  "added_to_ct_at": "2026-02-08T19:24:29Z",
+                  "ct_to_censys_at": "2026-02-08T19:39:03Z"
+                },
+                "trustasia_log_2026_b": {
+                  "index": 740812718,
+                  "added_to_ct_at": "2026-02-08T19:24:29Z",
+                  "ct_to_censys_at": "2026-02-08T19:35:50Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2026-02-07T07:46:01Z",
+            "modified_at": "2026-02-13T09:19:02Z",
+            "validated_at": "2026-02-12T17:08:44Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "2aedc6786da076619b86f43ee3f8321ed549425e891d42dd50c3d0b6050025f8",
+            "parent_spki_subject_fingerprint_sha256": "95b148afc4c249d314067527813d43973574f8e11a905040c881510026ae74f9"
+          },
+          "ip": "8.8.4.4",
+          "scan_time": "2026-02-13T13:21:11Z",
+          "tls": {
+            "fingerprint_sha256": "117d9cd2124a6f471584fa971d212aab93c5c6eae2850f1e41eb42eef4be19e7",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "e6fe22bf45e4f0d3b85c59e02c0f495418e1eb8d3210f788d48cd5e1cb547cd4",
+                "subject_dn": "C=US, O=Google Trust Services, CN=WR2",
+                "issuer_dn": "C=US, O=Google Trust Services LLC, CN=GTS Root R1"
+              },
+              {
+                "fingerprint_sha256": "3ee0278df71fa3c125c4cd487f01d774694e6fc57e0cd94c24efd769133918e5",
+                "subject_dn": "C=US, O=Google Trust Services LLC, CN=GTS Root R1",
+                "issuer_dn": "C=BE, O=GlobalSign nv-sa, OU=Root CA, CN=GlobalSign Root CA"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "8.8.4.4",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T13:21:11Z",
+              "http": {
+                "uri": "https://8.8.4.4/",
+                "protocol": "HTTP/1.1",
+                "status_code": 302,
+                "status_reason": "Found",
+                "headers": {
+                  "Access-Control-Allow-Origin": {
+                    "headers": [
+                      "*"
+                    ]
+                  },
+                  "Alt-Svc": {
+                    "headers": [
+                      "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "216"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html; charset=UTF-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Location": {
+                    "headers": [
+                      "https://dns.google/"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "HTTP server (unknown)"
+                    ]
+                  },
+                  "X-Content-Type-Options": {
+                    "headers": [
+                      "nosniff"
+                    ]
+                  },
+                  "X-Frame-Options": {
+                    "headers": [
+                      "SAMEORIGIN"
+                    ]
+                  },
+                  "X-XSS-Protection": {
+                    "headers": [
+                      "0"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<TITLE>302 Moved</TITLE>",
+                  "<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">"
+                ],
+                "body_size": 216,
+                "body": "<HTML><HEAD><meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<TITLE>302 Moved</TITLE></HEAD><BODY>\n<H1>302 Moved</H1>\nThe document has moved\n<A HREF=\"https://dns.google/\">here</A>.\r\n</BODY></HTML>\r\n",
+                "html_title": "302 Moved",
+                "body_hash_sha256": "4d2df97f002e1d1905cf64366eddaa9a57f2f99b3cc7101c3bebff18428ed894",
+                "body_hash_sha1": "1fd84b37b709256752fe1f865f86b5bec05cf712",
+                "supported_versions": [
+                  "HTTP/1.1",
+                  "HTTP/2"
+                ],
+                "redirect_chain": [
+                  {
+                    "hostname": "dns.google",
+                    "port": 443,
+                    "transport_protocol": "tcp",
+                    "path": "/",
+                    "reason": "HTTP_3XX"
+                  }
+                ]
+              },
+              "ip": "8.8.4.4"
+            }
+          ]
+        },
+        {
+          "port": 853,
+          "protocol": "UNKNOWN",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "0e82bbf0c18c17bfc4c2e3b29f52e36597e5302c93c57964ac979b0b15eb4841",
+            "fingerprint_sha1": "061b9913a94ea2f53115a54b64727a78f6741ea3",
+            "fingerprint_md5": "03243f7cd478b984f22f16e2276de915",
+            "tbs_fingerprint_sha256": "162448d89fc644f9843d91409c684d45395dac357d8800e6934d57f7244f3f8f",
+            "tbs_no_ct_fingerprint_sha256": "cc8c3759eb84e2e62d903b057ea6ebc69c6238eb918ce19365efdb8c0c236654",
+            "spki_fingerprint_sha256": "c4d6fbc55edf1491939d08ad545c4ba714b22b53d6bad266a4e9e5dde8298e11",
+            "parent_spki_fingerprint_sha256": "95b148afc4c249d314067527813d43973574f8e11a905040c881510026ae74f9",
+            "parsed": {
+              "version": 3,
+              "serial_number": "324571043306992685940469480964529944377",
+              "issuer_dn": "C=US, O=Google Trust Services, CN=WR2",
+              "issuer": {
+                "common_name": [
+                  "WR2"
+                ],
+                "country": [
+                  "US"
+                ],
+                "organization": [
+                  "Google Trust Services"
+                ]
+              },
+              "subject_dn": "CN=dns.google",
+              "subject": {
+                "common_name": [
+                  "dns.google"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "RSA",
+                  "oid": "1.2.840.113549.1.1.1"
+                },
+                "rsa": {
+                  "exponent": 65537,
+                  "modulus": "c56f27b6745cf32265e609cded478a4d6eb2b562b0df56fea03a9237ba6c0a93281219796004afb2a7572335fcef238faa0d0bd5d5aff69e32ee5b36d08acea971329db20610db28c7a6dbb6f392127af7cbcdf12074f7ff0f1d5da24e5895013c19200e6527acc4cacf502597884a486d80afe856ddca4b8c93df83ee14b76216dfadd62e3f9cf382faafb9c74b59ade9526c90a4ac2a434dd79dcca990ff354d088682df67b6efb354192e8ed28cc3e00776d9e956dd5eacd4a4f089784ab24dc16095f5f23ec244b396ce58912a6e91d80d3f80433979fe402fd45442d127e08b128e350f36ffb5cd823a6d2a67bcf3d15ba3a1d1f403e2cdaa703168e90b",
+                  "length": 2048
+                },
+                "fingerprint_sha256": "3bc0d91944d619da3af939f1c61b6fdb4c2aea17a0ca56c36cc7267c184e3882"
+              },
+              "validity_period": {
+                "not_before": "2026-01-19T08:39:08Z",
+                "not_after": "2026-04-13T08:39:07Z",
+                "length_seconds": 7257600
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "SHA256-RSA",
+                  "oid": "1.2.840.113549.1.1.11"
+                },
+                "value": "63aed60e30c34b86b494a653f39e4f603686854ffbead1058ec475e38b47443272ed0d1faacf1a2f346c26f700019f60bd732a8b53965a63e4760436d245310ba034ce8aa1f88707489860058f245b44b82c0c4af5b52e45088bc08e8bc1c7cca5d753246499ee659bee93eaab4404834551420105abb4220fdae6ec30b1630c51f483766904487005f4e24f1fb2a16f4d4eb22f7da1cdc406674236de915f2bd881c2bf897983ec83e86a6cf9b7c2b8393fe4e3504ccc6966bfc90abb7abc0117eb4bd04a8ba88d78c5be64b7ae6ee5f947774ae028f9c6dde1fe2406fe8c421b1e43920ea6be0fd876fd6eff98caccbafe4b5e933de249c6dc306a97cc20b2",
+                "valid": true
+              },
+              "serial_number_hex": "f42e1bf081c57bb6097b7c166ced7739"
+            },
+            "names": [
+              "*.dns.google.com",
+              "8.8.4.4",
+              "8.8.8.8",
+              "8888.google",
+              "dns.google",
+              "dns.google.com",
+              "dns64.dns.google"
+            ],
+            "validation_level": "dv",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "e6fe22bf45e4f0d3b85c59e02c0f495418e1eb8d3210f788d48cd5e1cb547cd4",
+                      "d947432abde7b7fa90fc2e6b59101b1280e0e1c7e4e40fa3c6887fff57a7f4cf"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "e6fe22bf45e4f0d3b85c59e02c0f495418e1eb8d3210f788d48cd5e1cb547cd4",
+                      "3ee0278df71fa3c125c4cd487f01d774694e6fc57e0cd94c24efd769133918e5",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "e6fe22bf45e4f0d3b85c59e02c0f495418e1eb8d3210f788d48cd5e1cb547cd4"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "e6fe22bf45e4f0d3b85c59e02c0f495418e1eb8d3210f788d48cd5e1cb547cd4",
+                      "2a575471e31340bc21581cbd2cf13e158463203ece94bcf9d3cc196bf09a5472"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "e6fe22bf45e4f0d3b85c59e02c0f495418e1eb8d3210f788d48cd5e1cb547cd4",
+                      "d947432abde7b7fa90fc2e6b59101b1280e0e1c7e4e40fa3c6887fff57a7f4cf"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "e6fe22bf45e4f0d3b85c59e02c0f495418e1eb8d3210f788d48cd5e1cb547cd4",
+                      "3ee0278df71fa3c125c4cd487f01d774694e6fc57e0cd94c24efd769133918e5",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "e6fe22bf45e4f0d3b85c59e02c0f495418e1eb8d3210f788d48cd5e1cb547cd4"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "e6fe22bf45e4f0d3b85c59e02c0f495418e1eb8d3210f788d48cd5e1cb547cd4",
+                      "d947432abde7b7fa90fc2e6b59101b1280e0e1c7e4e40fa3c6887fff57a7f4cf"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "e6fe22bf45e4f0d3b85c59e02c0f495418e1eb8d3210f788d48cd5e1cb547cd4",
+                      "3ee0278df71fa3c125c4cd487f01d774694e6fc57e0cd94c24efd769133918e5",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "e6fe22bf45e4f0d3b85c59e02c0f495418e1eb8d3210f788d48cd5e1cb547cd4"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "e6fe22bf45e4f0d3b85c59e02c0f495418e1eb8d3210f788d48cd5e1cb547cd4",
+                      "d947432abde7b7fa90fc2e6b59101b1280e0e1c7e4e40fa3c6887fff57a7f4cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "e6fe22bf45e4f0d3b85c59e02c0f495418e1eb8d3210f788d48cd5e1cb547cd4"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 2549493462,
+                  "added_to_ct_at": "2026-02-13T04:47:39Z",
+                  "ct_to_censys_at": "2026-02-13T05:16:13Z"
+                },
+                "google_argon_2026_h1": {
+                  "index": 1993182986,
+                  "added_to_ct_at": "2026-02-04T02:13:03Z",
+                  "ct_to_censys_at": "2026-02-04T02:19:48Z"
+                },
+                "google_xenon_2026_h1": {
+                  "index": 1847906445,
+                  "added_to_ct_at": "2026-02-04T02:13:03Z",
+                  "ct_to_censys_at": "2026-02-04T02:22:03Z"
+                },
+                "letsencrypt_ct_sycamore_2026_h1": {
+                  "index": 823105983,
+                  "added_to_ct_at": "2026-02-04T02:37:23Z",
+                  "ct_to_censys_at": "2026-02-04T02:47:27Z"
+                },
+                "letsencrypt_ct_willow_2026_h1": {
+                  "index": 829438618,
+                  "added_to_ct_at": "2026-02-04T02:37:41Z",
+                  "ct_to_censys_at": "2026-02-04T02:44:36Z"
+                },
+                "sectigo_elephant_2026_h1": {
+                  "index": 1411541092,
+                  "added_to_ct_at": "2026-02-04T02:13:04Z",
+                  "ct_to_censys_at": "2026-02-04T02:23:46Z"
+                },
+                "sectigo_tiger_2026_h1": {
+                  "index": 1292119572,
+                  "added_to_ct_at": "2026-02-04T02:13:04Z",
+                  "ct_to_censys_at": "2026-02-04T02:23:40Z"
+                },
+                "trustasia_log_2026_a": {
+                  "index": 676422127,
+                  "added_to_ct_at": "2026-02-04T02:37:47Z",
+                  "ct_to_censys_at": "2026-02-04T02:51:22Z"
+                },
+                "trustasia_log_2026_b": {
+                  "index": 697406272,
+                  "added_to_ct_at": "2026-02-04T02:13:06Z",
+                  "ct_to_censys_at": "2026-02-04T02:26:00Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2026-02-02T15:32:39Z",
+            "modified_at": "2026-02-13T05:16:13Z",
+            "validated_at": "2026-02-12T18:47:27Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "c4d6fbc55edf1491939d08ad545c4ba714b22b53d6bad266a4e9e5dde8298e11",
+            "parent_spki_subject_fingerprint_sha256": "95b148afc4c249d314067527813d43973574f8e11a905040c881510026ae74f9"
+          },
+          "ip": "8.8.4.4",
+          "scan_time": "2026-02-13T04:22:12Z",
+          "tls": {
+            "fingerprint_sha256": "0e82bbf0c18c17bfc4c2e3b29f52e36597e5302c93c57964ac979b0b15eb4841",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "e6fe22bf45e4f0d3b85c59e02c0f495418e1eb8d3210f788d48cd5e1cb547cd4",
+                "subject_dn": "C=US, O=Google Trust Services, CN=WR2",
+                "issuer_dn": "C=US, O=Google Trust Services LLC, CN=GTS Root R1"
+              },
+              {
+                "fingerprint_sha256": "3ee0278df71fa3c125c4cd487f01d774694e6fc57e0cd94c24efd769133918e5",
+                "subject_dn": "C=US, O=Google Trust Services LLC, CN=GTS Root R1",
+                "issuer_dn": "C=BE, O=GlobalSign nv-sa, OU=Root CA, CN=GlobalSign Root CA"
+              }
+            ]
+          }
+        }
+      ],
+      "service_count": 4,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-02-12T20:43:32Z",
+          "names": [
+            "dns.google"
+          ]
+        },
+        "names": [
+          "xanhha.vn",
+          "coolpack.vn",
+          "mansooflyfishing.ar",
+          "sob88terbaik.net",
+          "www.upperborg.de",
+          "nimber.xyz",
+          "abhipharmaceuticals.com",
+          "libsd.arvancloud.io",
+          "icesonic.vn",
+          "getunderdefense.com",
+          "dawidaccountant.com",
+          "lubobing3.lubobing.ip-ddns.com",
+          "webmail.amazoniadomos.com.br",
+          "momdigitalagency.com",
+          "hihihi.de5.net",
+          "thirteen.heiwula.top",
+          "takara-studio.org",
+          "geieffe.it",
+          "etsmx03.etsau.com",
+          "etsasfe02.etsau.com",
+          "bluesben.us",
+          "lazydogscy.top",
+          "1witch2witch.com",
+          "www.seguinolc.org",
+          "www.xxx-xvideo.com",
+          "www.wonderfulknots.com",
+          "subarnavilla.com",
+          "neflcdn.uk",
+          "32b.synology.me",
+          "dns2.sbkorea.kr",
+          "facelesswithmelinda.org",
+          "blog.karamr.eu.org",
+          "southmiamibasketball.com",
+          "uxotucung.com.vn",
+          "org.list-manage.org",
+          "ficklejoy.com",
+          "kellerlumbersales.com",
+          "dns.google.com",
+          "eshow.de5.net",
+          "triangle.vn",
+          "xrfs.hfstcw.casacam.net",
+          "lubobing.lubobing.ip-ddns.com",
+          "gza6.runovo.xyz",
+          "advogadacelmira.com.br",
+          "dns2.concordpacific.net",
+          "macksalertfoundation.com",
+          "kompetensimedia.com",
+          "readonly.ca",
+          "guongchieuhausonglong.com",
+          "dns.google",
+          "www.nhakhoalongan.com",
+          "rachelcarbo.com",
+          "karmelchateau.eu",
+          "saywell.us",
+          "console.weirddonkey.com",
+          "moremesashores.com",
+          "asdgm.ip-ddns.com",
+          "colupoping.de5.net",
+          "cttion.too-much.casacam.net",
+          "thoatvidiadem.vn",
+          "viemthanhquan.com.vn",
+          "ns2.gowalrus.com",
+          "dns2.dn.n-helix.com",
+          "gwetseng-i0.etsau.com",
+          "www.systemarina.linkpc.net",
+          "colubobing.lubobing.ip-ddns.com",
+          "g0209w.cbird.ip-ddns.com",
+          "cbird.ip-ddns.com",
+          "www.hakanatabas.com",
+          "astromangaming.ca",
+          "aviamasters1win.com",
+          "luncur88bagus.net",
+          "systemarina.linkpc.net",
+          "archerwoodford.com",
+          "wildcard.fortilab.de",
+          "jaber.ggff.net",
+          "gankforce.net",
+          "drakhub.eu.org",
+          "weirddonkey.com",
+          "www.griffith-jones.com.au",
+          "jroakes.com",
+          "alt-0111006.dns.google.com",
+          "senyap88berani.net",
+          "panser88top.net",
+          "byggok.se",
+          "cnhkcars.com",
+          "fricke.einfach-dns.de",
+          "medialink-italia.it",
+          "xxx-xvideo.com",
+          "xuabi.com",
+          "inovatead.de",
+          "konoha.octatile.com",
+          "www.vn22.in",
+          "ic-itcr.ac.cr",
+          "caict.eu.org",
+          "cxapothecary.com",
+          "lubaoju.dpdns.org",
+          "attion.too-much.casacam.net",
+          "webmail.galtab.pp.ua",
+          "chezalfredo.fr"
+        ],
+        "forward_dns": {
+          "1witch2witch.com": {
+            "resolve_time": "2026-02-10T20:06:32Z",
+            "name": "1witch2witch.com",
+            "record_type": "a"
+          },
+          "32b.synology.me": {
+            "resolve_time": "2026-02-10T17:29:53Z",
+            "name": "32b.synology.me",
+            "record_type": "a"
+          },
+          "abhipharmaceuticals.com": {
+            "resolve_time": "2026-02-11T21:10:46Z",
+            "name": "abhipharmaceuticals.com",
+            "record_type": "a"
+          },
+          "advogadacelmira.com.br": {
+            "resolve_time": "2026-02-09T12:34:10Z",
+            "name": "advogadacelmira.com.br",
+            "record_type": "a"
+          },
+          "alt-0111006.dns.google.com": {
+            "resolve_time": "2026-02-07T14:38:50Z",
+            "name": "alt-0111006.dns.google.com",
+            "record_type": "a"
+          },
+          "archerwoodford.com": {
+            "resolve_time": "2026-02-07T19:55:21Z",
+            "name": "archerwoodford.com",
+            "record_type": "a"
+          },
+          "asdgm.ip-ddns.com": {
+            "resolve_time": "2026-02-08T14:54:53Z",
+            "name": "asdgm.ip-ddns.com",
+            "record_type": "a"
+          },
+          "astromangaming.ca": {
+            "resolve_time": "2026-02-07T21:15:19Z",
+            "name": "astromangaming.ca",
+            "record_type": "a"
+          },
+          "attion.too-much.casacam.net": {
+            "resolve_time": "2026-02-06T15:33:45Z",
+            "name": "attion.too-much.casacam.net",
+            "record_type": "a"
+          },
+          "aviamasters1win.com": {
+            "resolve_time": "2026-02-07T21:08:23Z",
+            "name": "aviamasters1win.com",
+            "record_type": "a"
+          },
+          "blog.karamr.eu.org": {
+            "resolve_time": "2026-02-10T16:38:22Z",
+            "name": "blog.karamr.eu.org",
+            "record_type": "a"
+          },
+          "bluesben.us": {
+            "resolve_time": "2026-02-10T21:38:43Z",
+            "name": "bluesben.us",
+            "record_type": "a"
+          },
+          "byggok.se": {
+            "resolve_time": "2026-02-07T12:19:58Z",
+            "name": "byggok.se",
+            "record_type": "a"
+          },
+          "caict.eu.org": {
+            "resolve_time": "2026-02-06T17:29:52Z",
+            "name": "caict.eu.org",
+            "record_type": "a"
+          },
+          "cbird.ip-ddns.com": {
+            "resolve_time": "2026-02-07T21:30:44Z",
+            "name": "cbird.ip-ddns.com",
+            "record_type": "a"
+          },
+          "chezalfredo.fr": {
+            "resolve_time": "2026-02-06T15:08:24Z",
+            "name": "chezalfredo.fr",
+            "record_type": "a"
+          },
+          "cnhkcars.com": {
+            "resolve_time": "2026-02-06T22:12:45Z",
+            "name": "cnhkcars.com",
+            "record_type": "a"
+          },
+          "colubobing.lubobing.ip-ddns.com": {
+            "resolve_time": "2026-02-07T21:30:45Z",
+            "name": "colubobing.lubobing.ip-ddns.com",
+            "record_type": "a"
+          },
+          "colupoping.de5.net": {
+            "resolve_time": "2026-02-08T14:20:23Z",
+            "name": "colupoping.de5.net",
+            "record_type": "a"
+          },
+          "console.weirddonkey.com": {
+            "resolve_time": "2026-02-08T15:11:07Z",
+            "name": "console.weirddonkey.com",
+            "record_type": "a"
+          },
+          "coolpack.vn": {
+            "resolve_time": "2026-02-13T12:18:56Z",
+            "name": "coolpack.vn",
+            "record_type": "a"
+          },
+          "cttion.too-much.casacam.net": {
+            "resolve_time": "2026-02-08T14:07:59Z",
+            "name": "cttion.too-much.casacam.net",
+            "record_type": "a"
+          },
+          "cxapothecary.com": {
+            "resolve_time": "2026-02-06T17:18:13Z",
+            "name": "cxapothecary.com",
+            "record_type": "a"
+          },
+          "dawidaccountant.com": {
+            "resolve_time": "2026-02-11T19:56:34Z",
+            "name": "dawidaccountant.com",
+            "record_type": "a"
+          },
+          "dns.google": {
+            "resolve_time": "2026-02-08T19:41:27Z",
+            "name": "dns.google",
+            "record_type": "a"
+          },
+          "dns.google.com": {
+            "resolve_time": "2026-02-09T21:31:42Z",
+            "name": "dns.google.com",
+            "record_type": "a"
+          },
+          "dns2.concordpacific.net": {
+            "resolve_time": "2026-02-09T12:33:26Z",
+            "name": "dns2.concordpacific.net",
+            "record_type": "a"
+          },
+          "dns2.dn.n-helix.com": {
+            "resolve_time": "2026-02-08T12:18:42Z",
+            "name": "dns2.dn.n-helix.com",
+            "record_type": "a"
+          },
+          "dns2.sbkorea.kr": {
+            "resolve_time": "2026-02-10T16:55:11Z",
+            "name": "dns2.sbkorea.kr",
+            "record_type": "a"
+          },
+          "drakhub.eu.org": {
+            "resolve_time": "2026-02-07T18:38:19Z",
+            "name": "drakhub.eu.org",
+            "record_type": "a"
+          },
+          "eshow.de5.net": {
+            "resolve_time": "2026-02-09T20:04:20Z",
+            "name": "eshow.de5.net",
+            "record_type": "a"
+          },
+          "etsasfe02.etsau.com": {
+            "resolve_time": "2026-02-11T13:22:41Z",
+            "name": "etsasfe02.etsau.com",
+            "record_type": "a"
+          },
+          "etsmx03.etsau.com": {
+            "resolve_time": "2026-02-11T13:22:41Z",
+            "name": "etsmx03.etsau.com",
+            "record_type": "a"
+          },
+          "facelesswithmelinda.org": {
+            "resolve_time": "2026-02-10T16:39:22Z",
+            "name": "facelesswithmelinda.org",
+            "record_type": "a"
+          },
+          "ficklejoy.com": {
+            "resolve_time": "2026-02-10T12:52:10Z",
+            "name": "ficklejoy.com",
+            "record_type": "a"
+          },
+          "fricke.einfach-dns.de": {
+            "resolve_time": "2026-02-06T21:03:04Z",
+            "name": "fricke.einfach-dns.de",
+            "record_type": "a"
+          },
+          "g0209w.cbird.ip-ddns.com": {
+            "resolve_time": "2026-02-07T21:30:44Z",
+            "name": "g0209w.cbird.ip-ddns.com",
+            "record_type": "a"
+          },
+          "gankforce.net": {
+            "resolve_time": "2026-02-07T18:52:04Z",
+            "name": "gankforce.net",
+            "record_type": "a"
+          },
+          "geieffe.it": {
+            "resolve_time": "2026-02-11T14:28:02Z",
+            "name": "geieffe.it",
+            "record_type": "a"
+          },
+          "getunderdefense.com": {
+            "resolve_time": "2026-02-11T19:59:01Z",
+            "name": "getunderdefense.com",
+            "record_type": "a"
+          },
+          "guongchieuhausonglong.com": {
+            "resolve_time": "2026-02-08T19:49:57Z",
+            "name": "guongchieuhausonglong.com",
+            "record_type": "a"
+          },
+          "gwetseng-i0.etsau.com": {
+            "resolve_time": "2026-02-08T12:08:19Z",
+            "name": "gwetseng-i0.etsau.com",
+            "record_type": "a"
+          },
+          "gza6.runovo.xyz": {
+            "resolve_time": "2026-02-09T17:16:00Z",
+            "name": "gza6.runovo.xyz",
+            "record_type": "a"
+          },
+          "hihihi.de5.net": {
+            "resolve_time": "2026-02-11T15:34:13Z",
+            "name": "hihihi.de5.net",
+            "record_type": "a"
+          },
+          "ic-itcr.ac.cr": {
+            "resolve_time": "2026-02-06T17:33:35Z",
+            "name": "ic-itcr.ac.cr",
+            "record_type": "a"
+          },
+          "icesonic.vn": {
+            "resolve_time": "2026-02-11T20:21:37Z",
+            "name": "icesonic.vn",
+            "record_type": "a"
+          },
+          "inovatead.de": {
+            "resolve_time": "2026-02-06T18:41:05Z",
+            "name": "inovatead.de",
+            "record_type": "a"
+          },
+          "jaber.ggff.net": {
+            "resolve_time": "2026-02-07T18:53:54Z",
+            "name": "jaber.ggff.net",
+            "record_type": "a"
+          },
+          "jroakes.com": {
+            "resolve_time": "2026-02-07T17:33:46Z",
+            "name": "jroakes.com",
+            "record_type": "a"
+          },
+          "karmelchateau.eu": {
+            "resolve_time": "2026-02-08T16:43:44Z",
+            "name": "karmelchateau.eu",
+            "record_type": "a"
+          },
+          "kellerlumbersales.com": {
+            "resolve_time": "2026-02-10T12:16:08Z",
+            "name": "kellerlumbersales.com",
+            "record_type": "a"
+          },
+          "kompetensimedia.com": {
+            "resolve_time": "2026-02-08T21:14:18Z",
+            "name": "kompetensimedia.com",
+            "record_type": "a"
+          },
+          "konoha.octatile.com": {
+            "resolve_time": "2026-02-06T18:18:43Z",
+            "name": "konoha.octatile.com",
+            "record_type": "a"
+          },
+          "lazydogscy.top": {
+            "resolve_time": "2026-02-10T21:07:58Z",
+            "name": "lazydogscy.top",
+            "record_type": "a"
+          },
+          "libsd.arvancloud.io": {
+            "resolve_time": "2026-02-11T21:03:46Z",
+            "name": "libsd.arvancloud.io",
+            "record_type": "a"
+          },
+          "lubaoju.dpdns.org": {
+            "resolve_time": "2026-02-06T17:16:52Z",
+            "name": "lubaoju.dpdns.org",
+            "record_type": "a"
+          },
+          "lubobing.lubobing.ip-ddns.com": {
+            "resolve_time": "2026-02-09T19:15:56Z",
+            "name": "lubobing.lubobing.ip-ddns.com",
+            "record_type": "a"
+          },
+          "lubobing3.lubobing.ip-ddns.com": {
+            "resolve_time": "2026-02-11T17:38:13Z",
+            "name": "lubobing3.lubobing.ip-ddns.com",
+            "record_type": "a"
+          },
+          "luncur88bagus.net": {
+            "resolve_time": "2026-02-07T20:42:31Z",
+            "name": "luncur88bagus.net",
+            "record_type": "a"
+          },
+          "macksalertfoundation.com": {
+            "resolve_time": "2026-02-08T22:09:27Z",
+            "name": "macksalertfoundation.com",
+            "record_type": "a"
+          },
+          "mansooflyfishing.ar": {
+            "resolve_time": "2026-02-12T12:14:20Z",
+            "name": "mansooflyfishing.ar",
+            "record_type": "a"
+          },
+          "medialink-italia.it": {
+            "resolve_time": "2026-02-06T20:59:16Z",
+            "name": "medialink-italia.it",
+            "record_type": "a"
+          },
+          "momdigitalagency.com": {
+            "resolve_time": "2026-02-11T17:02:18Z",
+            "name": "momdigitalagency.com",
+            "record_type": "a"
+          },
+          "moremesashores.com": {
+            "resolve_time": "2026-02-08T14:58:49Z",
+            "name": "moremesashores.com",
+            "record_type": "a"
+          },
+          "neflcdn.uk": {
+            "resolve_time": "2026-02-10T17:48:07Z",
+            "name": "neflcdn.uk",
+            "record_type": "a"
+          },
+          "nimber.xyz": {
+            "resolve_time": "2026-02-11T21:47:49Z",
+            "name": "nimber.xyz",
+            "record_type": "a"
+          },
+          "ns2.gowalrus.com": {
+            "resolve_time": "2026-02-08T12:56:10Z",
+            "name": "ns2.gowalrus.com",
+            "record_type": "a"
+          },
+          "org.list-manage.org": {
+            "resolve_time": "2026-02-10T13:16:52Z",
+            "name": "org.list-manage.org",
+            "record_type": "a"
+          },
+          "panser88top.net": {
+            "resolve_time": "2026-02-07T12:37:02Z",
+            "name": "panser88top.net",
+            "record_type": "a"
+          },
+          "rachelcarbo.com": {
+            "resolve_time": "2026-02-08T18:34:10Z",
+            "name": "rachelcarbo.com",
+            "record_type": "a"
+          },
+          "readonly.ca": {
+            "resolve_time": "2026-02-08T19:51:12Z",
+            "name": "readonly.ca",
+            "record_type": "a"
+          },
+          "saywell.us": {
+            "resolve_time": "2026-02-08T16:05:21Z",
+            "name": "saywell.us",
+            "record_type": "a"
+          },
+          "senyap88berani.net": {
+            "resolve_time": "2026-02-07T13:53:27Z",
+            "name": "senyap88berani.net",
+            "record_type": "a"
+          },
+          "sob88terbaik.net": {
+            "resolve_time": "2026-02-12T12:04:38Z",
+            "name": "sob88terbaik.net",
+            "record_type": "a"
+          },
+          "southmiamibasketball.com": {
+            "resolve_time": "2026-02-10T15:51:42Z",
+            "name": "southmiamibasketball.com",
+            "record_type": "a"
+          },
+          "subarnavilla.com": {
+            "resolve_time": "2026-02-10T19:16:33Z",
+            "name": "subarnavilla.com",
+            "record_type": "a"
+          },
+          "systemarina.linkpc.net": {
+            "resolve_time": "2026-02-07T20:40:35Z",
+            "name": "systemarina.linkpc.net",
+            "record_type": "a"
+          },
+          "takara-studio.org": {
+            "resolve_time": "2026-02-11T14:41:43Z",
+            "name": "takara-studio.org",
+            "record_type": "a"
+          },
+          "thirteen.heiwula.top": {
+            "resolve_time": "2026-02-11T15:16:23Z",
+            "name": "thirteen.heiwula.top",
+            "record_type": "a"
+          },
+          "thoatvidiadem.vn": {
+            "resolve_time": "2026-02-08T13:22:09Z",
+            "name": "thoatvidiadem.vn",
+            "record_type": "a"
+          },
+          "triangle.vn": {
+            "resolve_time": "2026-02-09T19:48:09Z",
+            "name": "triangle.vn",
+            "record_type": "a"
+          },
+          "uxotucung.com.vn": {
+            "resolve_time": "2026-02-10T14:34:30Z",
+            "name": "uxotucung.com.vn",
+            "record_type": "a"
+          },
+          "viemthanhquan.com.vn": {
+            "resolve_time": "2026-02-08T13:18:27Z",
+            "name": "viemthanhquan.com.vn",
+            "record_type": "a"
+          },
+          "webmail.amazoniadomos.com.br": {
+            "resolve_time": "2026-02-11T17:34:14Z",
+            "name": "webmail.amazoniadomos.com.br",
+            "record_type": "a"
+          },
+          "webmail.galtab.pp.ua": {
+            "resolve_time": "2026-02-06T15:33:36Z",
+            "name": "webmail.galtab.pp.ua",
+            "record_type": "a"
+          },
+          "weirddonkey.com": {
+            "resolve_time": "2026-02-07T17:55:13Z",
+            "name": "weirddonkey.com",
+            "record_type": "a"
+          },
+          "wildcard.fortilab.de": {
+            "resolve_time": "2026-02-07T19:19:13Z",
+            "name": "wildcard.fortilab.de",
+            "record_type": "a"
+          },
+          "www.griffith-jones.com.au": {
+            "resolve_time": "2026-02-07T17:42:13Z",
+            "name": "www.griffith-jones.com.au",
+            "record_type": "a"
+          },
+          "www.hakanatabas.com": {
+            "resolve_time": "2026-02-07T21:24:23Z",
+            "name": "www.hakanatabas.com",
+            "record_type": "a"
+          },
+          "www.nhakhoalongan.com": {
+            "resolve_time": "2026-02-08T18:39:00Z",
+            "name": "www.nhakhoalongan.com",
+            "record_type": "a"
+          },
+          "www.seguinolc.org": {
+            "resolve_time": "2026-02-10T19:57:59Z",
+            "name": "www.seguinolc.org",
+            "record_type": "a"
+          },
+          "www.systemarina.linkpc.net": {
+            "resolve_time": "2026-02-08T12:01:18Z",
+            "name": "www.systemarina.linkpc.net",
+            "record_type": "a"
+          },
+          "www.upperborg.de": {
+            "resolve_time": "2026-02-11T21:57:26Z",
+            "name": "www.upperborg.de",
+            "record_type": "a"
+          },
+          "www.vn22.in": {
+            "resolve_time": "2026-02-06T17:50:33Z",
+            "name": "www.vn22.in",
+            "record_type": "a"
+          },
+          "www.wonderfulknots.com": {
+            "resolve_time": "2026-02-10T19:41:50Z",
+            "name": "www.wonderfulknots.com",
+            "record_type": "a"
+          },
+          "www.xxx-xvideo.com": {
+            "resolve_time": "2026-02-10T19:45:18Z",
+            "name": "www.xxx-xvideo.com",
+            "record_type": "a"
+          },
+          "xanhha.vn": {
+            "resolve_time": "2026-02-13T12:23:55Z",
+            "name": "xanhha.vn",
+            "record_type": "a"
+          },
+          "xrfs.hfstcw.casacam.net": {
+            "resolve_time": "2026-02-09T19:32:08Z",
+            "name": "xrfs.hfstcw.casacam.net",
+            "record_type": "a"
+          },
+          "xuabi.com": {
+            "resolve_time": "2026-02-06T20:57:11Z",
+            "name": "xuabi.com",
+            "record_type": "a"
+          },
+          "xxx-xvideo.com": {
+            "resolve_time": "2026-02-06T20:57:50Z",
+            "name": "xxx-xvideo.com",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

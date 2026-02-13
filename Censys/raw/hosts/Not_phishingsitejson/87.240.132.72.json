@@ -1,0 +1,840 @@
+{
+  "result": {
+    "resource": {
+      "ip": "87.240.132.72",
+      "location": {
+        "continent": "Europe",
+        "country": "Russia",
+        "country_code": "RU",
+        "city": "Saint Petersburg",
+        "postal_code": "195213",
+        "timezone": "Europe/Moscow",
+        "province": "St.-Petersburg",
+        "coordinates": {
+          "latitude": 59.93863,
+          "longitude": 30.31413
+        }
+      },
+      "autonomous_system": {
+        "asn": 47541,
+        "description": "VKONTAKTE-SPB-AS vk.com",
+        "bgp_prefix": "87.240.128.0/18",
+        "name": "VKONTAKTE-SPB-AS vk.com",
+        "country_code": "RU"
+      },
+      "whois": {
+        "network": {
+          "handle": "VKONTAKTE-FRONT",
+          "name": "VKontakte Services",
+          "cidrs": [
+            "87.240.128.0/19"
+          ],
+          "created": "2009-12-24T00:00:00Z",
+          "updated": "2024-10-10T00:00:00Z"
+        },
+        "organization": {
+          "handle": "ORG-VL47-RIPE",
+          "name": "VKontakte Ltd",
+          "address": "Prem.1-N, Bld. 12-14, Lit. A, Khersonskaya str.\\n191024\\nSaint-Petersburg\\nRUSSIAN FEDERATION",
+          "abuse_contacts": [
+            {
+              "handle": "AR17035-RIPE",
+              "name": "Abuse-C Role",
+              "email": "noc@vk.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "ip": "87.240.132.72",
+          "scan_time": "2026-02-13T04:17:21Z",
+          "endpoints": [
+            {
+              "hostname": "87.240.132.72",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T04:17:21Z",
+              "http": {
+                "uri": "http://87.240.132.72/",
+                "protocol": "HTTP/1.1",
+                "status_code": 404,
+                "status_reason": "Not Found",
+                "headers": {
+                  "Access-Control-Expose-Headers": {
+                    "headers": [
+                      "X-Frontend"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "148"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "kittenx"
+                    ]
+                  },
+                  "Server-Timing": {
+                    "headers": [
+                      "tid;desc=\"kHRQwlSdseTg_XP6w9XP65gHao6mqg\",front;dur=0.079"
+                    ]
+                  },
+                  "Strict-Transport-Security": {
+                    "headers": [
+                      "max-age=86400"
+                    ]
+                  },
+                  "X-Frontend": {
+                    "headers": [
+                      "front920104"
+                    ]
+                  },
+                  "X-Trace-Id": {
+                    "headers": [
+                      "kHRQwlSdseTg_XP6w9XP65gHao6mqg"
+                    ]
+                  },
+                  "X-Trace-Id-V2": {
+                    "headers": [
+                      "019c5537b9047beda3723f1329017c01"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>404 Not Found</title>"
+                ],
+                "body_size": 148,
+                "body": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>kittenx</center>\r\n</body>\r\n</html>\r\n",
+                "html_title": "404 Not Found",
+                "body_hash_sha256": "8bd775dd4272e64df93644a5a30e66d3d3c641e4a2261e00f1151b6947814885",
+                "body_hash_sha1": "33ed546b0fcee639bbe9b639a77094eeaea69ebd",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "87.240.132.72"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "ip": "87.240.132.72",
+          "scan_time": "2026-02-13T14:56:07Z",
+          "endpoints": [
+            {
+              "hostname": "87.240.132.72",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T14:56:07Z",
+              "http": {
+                "uri": "http://87.240.132.72:443/",
+                "protocol": "HTTP/1.1",
+                "status_code": 400,
+                "status_reason": "Bad Request",
+                "headers": {
+                  "Access-Control-Expose-Headers": {
+                    "headers": [
+                      "X-Frontend"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "250"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "kittenx"
+                    ]
+                  },
+                  "Server-Timing": {
+                    "headers": [
+                      "front;dur=0.019"
+                    ]
+                  },
+                  "Strict-Transport-Security": {
+                    "headers": [
+                      "max-age=86400"
+                    ]
+                  },
+                  "X-Frontend": {
+                    "headers": [
+                      "front924200"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>400 The plain HTTP request was sent to HTTPS port</title>"
+                ],
+                "body_size": 250,
+                "body": "<html>\r\n<head><title>400 The plain HTTP request was sent to HTTPS port</title></head>\r\n<body>\r\n<center><h1>400 Bad Request</h1></center>\r\n<center>The plain HTTP request was sent to HTTPS port</center>\r\n<hr><center>kittenx</center>\r\n</body>\r\n</html>\r\n",
+                "html_title": "400 The plain HTTP request was sent to HTTPS port",
+                "body_hash_sha256": "a8c687103825bbf0107180539430ac81764d198c82468ed9de683cac59b4c967",
+                "body_hash_sha1": "95d19a88207cf621699bf87729449f0876a28adb",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "87.240.132.72"
+            }
+          ]
+        }
+      ],
+      "service_count": 2,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-02-10T17:27:57Z",
+          "names": [
+            "srv72-132-240-87.vk.com"
+          ]
+        },
+        "names": [
+          "srv144-202.vkontakte.ru",
+          "srv147-202.vkontakte.ru",
+          "srv100-227.vkontakte.ru",
+          "srv38-194.vkontakte.ru",
+          "srv92-200.vkontakte.ru",
+          "srv229-227.vkontakte.ru",
+          "srv245-202.vkontakte.ru",
+          "srv24-205.vkontakte.ru",
+          "srv82-193.vkontakte.ru",
+          "srv197-227.vkontakte.ru",
+          "srv179-204.vkontakte.ru",
+          "srv217-205.vkontakte.ru",
+          "srv40-197.vkontakte.ru",
+          "srv197-201.vkontakte.ru",
+          "srv24-203.vkontakte.ru",
+          "srv143-206.vkontakte.ru",
+          "srv201-227.vkontakte.ru",
+          "srv69-203.vkontakte.ru",
+          "srv234-227.vkontakte.ru",
+          "srv35-204.vkontakte.ru",
+          "srv197-207.vkontakte.ru",
+          "srv170-206.vkontakte.ru",
+          "srv30-204.vkontakte.ru",
+          "srv124-197.vkontakte.ru",
+          "srv148-227.vkontakte.ru",
+          "srv18-194.vkontakte.ru",
+          "srv127-227.vkontakte.ru",
+          "srv78-205.vkontakte.ru",
+          "srv79-192.vkontakte.ru",
+          "srv90-196.vkontakte.ru",
+          "srv92-199.vkontakte.ru",
+          "icosite.vkontakte.ru",
+          "design2010.vkontakte.ru",
+          "iconnectaccess.vkontakte.ru",
+          "srv201-207.vkontakte.ru",
+          "srv43-193.vkontakte.ru",
+          "desg.vkontakte.ru",
+          "saksi.vkontakte.ru",
+          "srv43-192.vkontakte.ru",
+          "sabtv.vkontakte.ru",
+          "srv42-205.vkontakte.ru",
+          "media-eh.vkontakte.ru",
+          "sakhi.vkontakte.ru",
+          "tysnes.vkontakte.ru",
+          "srv42-203.vkontakte.ru",
+          "derks.vkontakte.ru",
+          "plombier-installateur-sanitaire.vkontakte.ru",
+          "deria.vkontakte.ru",
+          "derektest.vkontakte.ru",
+          "develop.platform.vkontakte.ru",
+          "customer-cloud.vkontakte.ru",
+          "customcaps.vkontakte.ru",
+          "nexxtcom.vkontakte.ru",
+          "curso10.vkontakte.ru",
+          "srv119-198.vkontakte.ru",
+          "srv105-201.vkontakte.ru",
+          "keyps.vkontakte.ru",
+          "www.couple.vkontakte.ru",
+          "karkinos.vkontakte.ru",
+          "www.vkvideo.ru",
+          "srv87-199.vkontakte.ru",
+          "srv87-196.vkontakte.ru",
+          "electricpowerwashers.vkontakte.ru",
+          "ioextendedgt.vkontakte.ru",
+          "www.kalendar.vkontakte.ru",
+          "iochem-bd.vkontakte.ru",
+          "ebg-koblenz.vkontakte.ru",
+          "_.townsend-wedding.vkontakte.ru",
+          "couchpotato-4k.vkontakte.ru",
+          "kovry.vkontakte.ru",
+          "tortum.vkontakte.ru",
+          "footlogix.vkontakte.ru",
+          "table.cosmosdb.vkontakte.ru",
+          "srv103-196.vkontakte.ru",
+          "torpa.vkontakte.ru",
+          "cfwall.vkontakte.ru",
+          "srv4-199.vkontakte.ru",
+          "cosmea.vkontakte.ru",
+          "kereta.vkontakte.ru",
+          "srv213-199.vkontakte.ru",
+          "foodup.vkontakte.ru",
+          "srv128-201.vkontakte.ru",
+          "corrupted.vkontakte.ru",
+          "srv248-206.vkontakte.ru",
+          "srv131-196.vkontakte.ru",
+          "cfe-16853-acceptance.vkontakte.ru",
+          "vitruvio.vkontakte.ru",
+          "kboard.vkontakte.ru",
+          "srv36-197.vkontakte.ru",
+          "jcma.vkontakte.ru",
+          "zxfo.vkontakte.ru",
+          "nagios.corp.vkontakte.ru",
+          "www.ebc.vkontakte.ru",
+          "vitrine-commerce.vkontakte.ru",
+          "kbms.vkontakte.ru",
+          "epicadmin.vkontakte.ru",
+          "hampi.vkontakte.ru",
+          "cmkp.vkontakte.ru",
+          "srv53-192.vkontakte.ru",
+          "imob02.vkontakte.ru"
+        ],
+        "forward_dns": {
+          "_.townsend-wedding.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:09Z",
+            "name": "_.townsend-wedding.vkontakte.ru",
+            "record_type": "a"
+          },
+          "cfe-16853-acceptance.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:08Z",
+            "name": "cfe-16853-acceptance.vkontakte.ru",
+            "record_type": "a"
+          },
+          "cfwall.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:08Z",
+            "name": "cfwall.vkontakte.ru",
+            "record_type": "a"
+          },
+          "cmkp.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:08Z",
+            "name": "cmkp.vkontakte.ru",
+            "record_type": "a"
+          },
+          "corrupted.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:08Z",
+            "name": "corrupted.vkontakte.ru",
+            "record_type": "a"
+          },
+          "cosmea.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:08Z",
+            "name": "cosmea.vkontakte.ru",
+            "record_type": "a"
+          },
+          "couchpotato-4k.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:09Z",
+            "name": "couchpotato-4k.vkontakte.ru",
+            "record_type": "a"
+          },
+          "curso10.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:11Z",
+            "name": "curso10.vkontakte.ru",
+            "record_type": "a"
+          },
+          "customcaps.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:11Z",
+            "name": "customcaps.vkontakte.ru",
+            "record_type": "a"
+          },
+          "customer-cloud.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:12Z",
+            "name": "customer-cloud.vkontakte.ru",
+            "record_type": "a"
+          },
+          "derektest.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:15Z",
+            "name": "derektest.vkontakte.ru",
+            "record_type": "a"
+          },
+          "deria.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:15Z",
+            "name": "deria.vkontakte.ru",
+            "record_type": "a"
+          },
+          "derks.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:15Z",
+            "name": "derks.vkontakte.ru",
+            "record_type": "a"
+          },
+          "desg.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:16Z",
+            "name": "desg.vkontakte.ru",
+            "record_type": "a"
+          },
+          "design2010.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:17Z",
+            "name": "design2010.vkontakte.ru",
+            "record_type": "a"
+          },
+          "develop.platform.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:15Z",
+            "name": "develop.platform.vkontakte.ru",
+            "record_type": "a"
+          },
+          "ebg-koblenz.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:09Z",
+            "name": "ebg-koblenz.vkontakte.ru",
+            "record_type": "a"
+          },
+          "electricpowerwashers.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:09Z",
+            "name": "electricpowerwashers.vkontakte.ru",
+            "record_type": "a"
+          },
+          "epicadmin.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:08Z",
+            "name": "epicadmin.vkontakte.ru",
+            "record_type": "a"
+          },
+          "foodup.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:08Z",
+            "name": "foodup.vkontakte.ru",
+            "record_type": "a"
+          },
+          "footlogix.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:09Z",
+            "name": "footlogix.vkontakte.ru",
+            "record_type": "a"
+          },
+          "hampi.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:08Z",
+            "name": "hampi.vkontakte.ru",
+            "record_type": "a"
+          },
+          "iconnectaccess.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:17Z",
+            "name": "iconnectaccess.vkontakte.ru",
+            "record_type": "a"
+          },
+          "icosite.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:18Z",
+            "name": "icosite.vkontakte.ru",
+            "record_type": "a"
+          },
+          "imob02.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:08Z",
+            "name": "imob02.vkontakte.ru",
+            "record_type": "a"
+          },
+          "iochem-bd.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:09Z",
+            "name": "iochem-bd.vkontakte.ru",
+            "record_type": "a"
+          },
+          "ioextendedgt.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:09Z",
+            "name": "ioextendedgt.vkontakte.ru",
+            "record_type": "a"
+          },
+          "jcma.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:08Z",
+            "name": "jcma.vkontakte.ru",
+            "record_type": "a"
+          },
+          "karkinos.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:10Z",
+            "name": "karkinos.vkontakte.ru",
+            "record_type": "a"
+          },
+          "kbms.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:08Z",
+            "name": "kbms.vkontakte.ru",
+            "record_type": "a"
+          },
+          "kboard.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:08Z",
+            "name": "kboard.vkontakte.ru",
+            "record_type": "a"
+          },
+          "kereta.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:08Z",
+            "name": "kereta.vkontakte.ru",
+            "record_type": "a"
+          },
+          "keyps.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:11Z",
+            "name": "keyps.vkontakte.ru",
+            "record_type": "a"
+          },
+          "kovry.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:09Z",
+            "name": "kovry.vkontakte.ru",
+            "record_type": "a"
+          },
+          "media-eh.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:16Z",
+            "name": "media-eh.vkontakte.ru",
+            "record_type": "a"
+          },
+          "nagios.corp.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:08Z",
+            "name": "nagios.corp.vkontakte.ru",
+            "record_type": "a"
+          },
+          "nexxtcom.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:11Z",
+            "name": "nexxtcom.vkontakte.ru",
+            "record_type": "a"
+          },
+          "plombier-installateur-sanitaire.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:15Z",
+            "name": "plombier-installateur-sanitaire.vkontakte.ru",
+            "record_type": "a"
+          },
+          "sabtv.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:16Z",
+            "name": "sabtv.vkontakte.ru",
+            "record_type": "a"
+          },
+          "sakhi.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:16Z",
+            "name": "sakhi.vkontakte.ru",
+            "record_type": "a"
+          },
+          "saksi.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:16Z",
+            "name": "saksi.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv100-227.vkontakte.ru": {
+            "resolve_time": "2026-02-13T10:59:57Z",
+            "name": "srv100-227.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv103-196.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:08Z",
+            "name": "srv103-196.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv105-201.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:11Z",
+            "name": "srv105-201.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv119-198.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:11Z",
+            "name": "srv119-198.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv124-197.vkontakte.ru": {
+            "resolve_time": "2026-02-12T13:57:00Z",
+            "name": "srv124-197.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv127-227.vkontakte.ru": {
+            "resolve_time": "2026-02-12T06:17:39Z",
+            "name": "srv127-227.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv128-201.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:08Z",
+            "name": "srv128-201.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv131-196.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:08Z",
+            "name": "srv131-196.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv143-206.vkontakte.ru": {
+            "resolve_time": "2026-02-12T19:49:39Z",
+            "name": "srv143-206.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv144-202.vkontakte.ru": {
+            "resolve_time": "2026-02-13T15:23:27Z",
+            "name": "srv144-202.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv147-202.vkontakte.ru": {
+            "resolve_time": "2026-02-13T15:10:26Z",
+            "name": "srv147-202.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv148-227.vkontakte.ru": {
+            "resolve_time": "2026-02-12T12:48:57Z",
+            "name": "srv148-227.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv170-206.vkontakte.ru": {
+            "resolve_time": "2026-02-12T17:12:01Z",
+            "name": "srv170-206.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv179-204.vkontakte.ru": {
+            "resolve_time": "2026-02-13T04:12:19Z",
+            "name": "srv179-204.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv18-194.vkontakte.ru": {
+            "resolve_time": "2026-02-12T08:45:16Z",
+            "name": "srv18-194.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv197-201.vkontakte.ru": {
+            "resolve_time": "2026-02-12T22:09:40Z",
+            "name": "srv197-201.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv197-207.vkontakte.ru": {
+            "resolve_time": "2026-02-12T18:37:48Z",
+            "name": "srv197-207.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv197-227.vkontakte.ru": {
+            "resolve_time": "2026-02-13T05:08:43Z",
+            "name": "srv197-227.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv201-207.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:16Z",
+            "name": "srv201-207.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv201-227.vkontakte.ru": {
+            "resolve_time": "2026-02-12T19:27:37Z",
+            "name": "srv201-227.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv213-199.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:08Z",
+            "name": "srv213-199.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv217-205.vkontakte.ru": {
+            "resolve_time": "2026-02-13T02:54:25Z",
+            "name": "srv217-205.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv229-227.vkontakte.ru": {
+            "resolve_time": "2026-02-13T09:02:38Z",
+            "name": "srv229-227.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv234-227.vkontakte.ru": {
+            "resolve_time": "2026-02-12T18:50:05Z",
+            "name": "srv234-227.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv24-203.vkontakte.ru": {
+            "resolve_time": "2026-02-12T22:00:07Z",
+            "name": "srv24-203.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv24-205.vkontakte.ru": {
+            "resolve_time": "2026-02-13T06:11:14Z",
+            "name": "srv24-205.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv245-202.vkontakte.ru": {
+            "resolve_time": "2026-02-13T06:49:11Z",
+            "name": "srv245-202.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv248-206.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:08Z",
+            "name": "srv248-206.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv30-204.vkontakte.ru": {
+            "resolve_time": "2026-02-12T14:06:36Z",
+            "name": "srv30-204.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv35-204.vkontakte.ru": {
+            "resolve_time": "2026-02-12T18:44:03Z",
+            "name": "srv35-204.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv36-197.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:08Z",
+            "name": "srv36-197.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv38-194.vkontakte.ru": {
+            "resolve_time": "2026-02-13T09:24:38Z",
+            "name": "srv38-194.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv4-199.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:08Z",
+            "name": "srv4-199.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv40-197.vkontakte.ru": {
+            "resolve_time": "2026-02-12T23:57:39Z",
+            "name": "srv40-197.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv42-203.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:16Z",
+            "name": "srv42-203.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv42-205.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:16Z",
+            "name": "srv42-205.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv43-192.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:16Z",
+            "name": "srv43-192.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv43-193.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:16Z",
+            "name": "srv43-193.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv53-192.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:08Z",
+            "name": "srv53-192.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv69-203.vkontakte.ru": {
+            "resolve_time": "2026-02-12T18:59:22Z",
+            "name": "srv69-203.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv78-205.vkontakte.ru": {
+            "resolve_time": "2026-02-12T02:56:50Z",
+            "name": "srv78-205.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv79-192.vkontakte.ru": {
+            "resolve_time": "2026-02-12T02:15:48Z",
+            "name": "srv79-192.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv82-193.vkontakte.ru": {
+            "resolve_time": "2026-02-13T05:38:46Z",
+            "name": "srv82-193.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv87-196.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:09Z",
+            "name": "srv87-196.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv87-199.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:10Z",
+            "name": "srv87-199.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv90-196.vkontakte.ru": {
+            "resolve_time": "2026-02-12T02:01:27Z",
+            "name": "srv90-196.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv92-199.vkontakte.ru": {
+            "resolve_time": "2026-02-12T00:19:52Z",
+            "name": "srv92-199.vkontakte.ru",
+            "record_type": "a"
+          },
+          "srv92-200.vkontakte.ru": {
+            "resolve_time": "2026-02-13T09:08:19Z",
+            "name": "srv92-200.vkontakte.ru",
+            "record_type": "a"
+          },
+          "table.cosmosdb.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:08Z",
+            "name": "table.cosmosdb.vkontakte.ru",
+            "record_type": "a"
+          },
+          "torpa.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:08Z",
+            "name": "torpa.vkontakte.ru",
+            "record_type": "a"
+          },
+          "tortum.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:09Z",
+            "name": "tortum.vkontakte.ru",
+            "record_type": "a"
+          },
+          "tysnes.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:16Z",
+            "name": "tysnes.vkontakte.ru",
+            "record_type": "a"
+          },
+          "vitrine-commerce.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:08Z",
+            "name": "vitrine-commerce.vkontakte.ru",
+            "record_type": "a"
+          },
+          "vitruvio.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:08Z",
+            "name": "vitruvio.vkontakte.ru",
+            "record_type": "a"
+          },
+          "www.couple.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:10Z",
+            "name": "www.couple.vkontakte.ru",
+            "record_type": "a"
+          },
+          "www.ebc.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:08Z",
+            "name": "www.ebc.vkontakte.ru",
+            "record_type": "a"
+          },
+          "www.kalendar.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:09Z",
+            "name": "www.kalendar.vkontakte.ru",
+            "record_type": "a"
+          },
+          "www.vkvideo.ru": {
+            "resolve_time": "2026-02-11T22:33:10Z",
+            "name": "www.vkvideo.ru",
+            "record_type": "a"
+          },
+          "zxfo.vkontakte.ru": {
+            "resolve_time": "2026-02-11T22:33:08Z",
+            "name": "zxfo.vkontakte.ru",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

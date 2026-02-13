@@ -1,0 +1,566 @@
+{
+  "result": {
+    "resource": {
+      "ip": "157.240.203.174",
+      "location": {
+        "continent": "Europe",
+        "country": "Italy",
+        "country_code": "IT",
+        "city": "Milan",
+        "postal_code": "20121",
+        "timezone": "Europe/Rome",
+        "province": "Lombardy",
+        "coordinates": {
+          "latitude": 45.46427,
+          "longitude": 9.18951
+        }
+      },
+      "autonomous_system": {
+        "asn": 32934,
+        "description": "FACEBOOK - Facebook, Inc.",
+        "bgp_prefix": "157.240.203.0/24",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "country_code": "US"
+      },
+      "whois": {
+        "network": {
+          "handle": "THEFA-3",
+          "name": "Facebook, Inc.",
+          "cidrs": [
+            "157.240.0.0/16"
+          ],
+          "created": "2015-05-14T00:00:00Z",
+          "updated": "2021-12-14T00:00:00Z",
+          "allocation_type": "ALLOCATION"
+        },
+        "organization": {
+          "handle": "THEFA-3",
+          "name": "Facebook, Inc.",
+          "street": "1601 Willow Rd.",
+          "city": "Menlo Park",
+          "state": "CA",
+          "postal_code": "94025",
+          "country": "US",
+          "abuse_contacts": [
+            {
+              "handle": "OPERA82-ARIN",
+              "name": "Operations",
+              "email": "domain@facebook.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "OPERA82-ARIN",
+              "name": "Operations",
+              "email": "domain@facebook.com"
+            }
+          ],
+          "tech_contacts": [
+            {
+              "handle": "OPERA82-ARIN",
+              "name": "Operations",
+              "email": "domain@facebook.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "facebook",
+              "product": "proxygen"
+            }
+          ],
+          "ip": "157.240.203.174",
+          "scan_time": "2026-02-13T14:47:18Z",
+          "endpoints": [
+            {
+              "hostname": "157.240.203.174",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T14:47:18Z",
+              "http": {
+                "uri": "http://157.240.203.174/",
+                "protocol": "HTTP/1.1",
+                "status_code": 301,
+                "status_reason": "Moved Permanently",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "0"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/plain"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Location": {
+                    "headers": [
+                      "https://157.240.203.174/"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "proxygen-bolt"
+                    ]
+                  }
+                },
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "157.240.203.174"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "UNKNOWN",
+          "transport_protocol": "quic",
+          "ip": "157.240.203.174",
+          "scan_time": "2026-02-13T12:32:28Z"
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "f75b77bba2d6ab75d7981758ba60d07e8c18c649749dfab95f6f292b427a6cf3",
+            "fingerprint_sha1": "406b3f55dd48778bd717e0045e0ba145b79cf519",
+            "fingerprint_md5": "35c5e2a4b67272a560a1802aefc25f90",
+            "tbs_fingerprint_sha256": "1b227e6536f75a773409e46c2a8b58906ef73f62cb09b123b21ac606566a7cd7",
+            "tbs_no_ct_fingerprint_sha256": "a1dd7b841b36467b6e04bd841811041285e6bd1af58d015922dfbb793dc21233",
+            "spki_fingerprint_sha256": "0cfb38bd3681f12e1430caf9d4f5767b5060e4a57fe60b61ef4347d60420dc7d",
+            "parent_spki_fingerprint_sha256": "f737aa26549dce01eb1dc2e8ce19ecb6692f4f439c946f3b7fae0b7abb3d87d7",
+            "parsed": {
+              "version": 3,
+              "serial_number": "2271202529121560497243631625056141921",
+              "issuer_dn": "C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+              "issuer": {
+                "common_name": [
+                  "DigiCert Global G2 TLS RSA SHA256 2020 CA1"
+                ],
+                "country": [
+                  "US"
+                ],
+                "organization": [
+                  "DigiCert Inc"
+                ]
+              },
+              "subject_dn": "C=US, ST=California, L=Menlo Park, O=Meta Platforms\\, Inc., CN=*.instagram.com",
+              "subject": {
+                "common_name": [
+                  "*.instagram.com"
+                ],
+                "country": [
+                  "US"
+                ],
+                "locality": [
+                  "Menlo Park"
+                ],
+                "province": [
+                  "California"
+                ],
+                "organization": [
+                  "Meta Platforms, Inc."
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "ECDSA",
+                  "oid": "1.2.840.10045.2.1"
+                },
+                "ecdsa": {
+                  "b": "5ac635d8aa3a93e7b3ebbd55769886bc651d06b0cc53b0f63bce3c3e27d2604b",
+                  "curve": "P-256",
+                  "gx": "6b17d1f2e12c4247f8bce6e563a440f277037d812deb33a0f4a13945d898c296",
+                  "gy": "4fe342e2fe1a7f9b8ee7eb4a7c0f9e162bce33576b315ececbb6406837bf51f5",
+                  "length": 256,
+                  "n": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+                  "p": "ffffffff00000001000000000000000000000000ffffffffffffffffffffffff",
+                  "pub": "04237a7a9cbf407d0213f83bf15a7dbf40f8f959d02af90ce323ed48e21cbcf9ab75cdabd49c48a8608ee9ad08efb12b2a8c291883b76b857d2b01363d81e5b51c",
+                  "x": "237a7a9cbf407d0213f83bf15a7dbf40f8f959d02af90ce323ed48e21cbcf9ab",
+                  "y": "75cdabd49c48a8608ee9ad08efb12b2a8c291883b76b857d2b01363d81e5b51c"
+                },
+                "fingerprint_sha256": "b08545c86ba58709e054c8a51d9d33cada99b044a095e56433dcb1a4c0b3b9b2"
+              },
+              "validity_period": {
+                "not_before": "2025-11-22T00:00:00Z",
+                "not_after": "2026-02-20T23:59:59Z",
+                "length_seconds": 7862400
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "SHA256-RSA",
+                  "oid": "1.2.840.113549.1.1.11"
+                },
+                "value": "17c6fe0a22f8b419edc44a7ff63132774537b3176b492e6a5ada2be06777d1c771854bab1817846ccf722208b3920c5aceda1cd099faa8cedd2d3db0d41267e696c8ff035e70fd47de866d60975bf9737a5b4db950486ade28c49974396ae631a1d04f81757e01f542607f85f80722c0d2daa64fe37d56316924870832fbd654f19d2f3edab9abaaf31a0fb0df20f64ce6457b66f43d095f18a4f7e17a5eaa49d18fd902434579fdb2a7cc5542c9858bf71399ca7b0bc1bcf61ea369405f83f134844fd7b2e042554041de7b4d4b3877a916a1d172e30f1d63f130e5d3b9cf80259f98b97d87c875400b705c28665eb1dd01dcbfa1664b3a5ce2767c654406ab",
+                "valid": true
+              },
+              "serial_number_hex": "01b56aee2106c21213f294040ba9c261"
+            },
+            "names": [
+              "*.cdninstagram.com",
+              "*.igsonar.com",
+              "*.instagram.com",
+              "cdninstagram.com",
+              "igsonar.com",
+              "instagram.com"
+            ],
+            "validation_level": "ov",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "a0d609a7e3c434e878a9a1c1bd065b8dcf33aa7efee1b11bc75cce5e5a042080",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                  "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "0ba8c0d459b76abc0825294f565e24f4f169d4a4819d0692d371522d297724b8",
+                      "2399561127a57125de8cefea610ddf2fa078b5c8067f4e828290bfb860e84b3c"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                  "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "a0d609a7e3c434e878a9a1c1bd065b8dcf33aa7efee1b11bc75cce5e5a042080",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                  "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "a0d609a7e3c434e878a9a1c1bd065b8dcf33aa7efee1b11bc75cce5e5a042080",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                  "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 2545921668,
+                  "added_to_ct_at": "2026-02-13T00:43:28Z",
+                  "ct_to_censys_at": "2026-02-13T01:25:00Z"
+                },
+                "google_argon_2026_h1": {
+                  "index": 2118782092,
+                  "added_to_ct_at": "2026-02-13T00:41:13Z",
+                  "ct_to_censys_at": "2026-02-13T00:47:02Z"
+                },
+                "google_xenon_2026_h1": {
+                  "index": 1954935272,
+                  "added_to_ct_at": "2026-02-13T00:41:13Z",
+                  "ct_to_censys_at": "2026-02-13T00:47:01Z"
+                },
+                "letsencrypt_ct_sycamore_2026_h1": {
+                  "index": 839456214,
+                  "added_to_ct_at": "2026-02-13T00:44:09Z",
+                  "ct_to_censys_at": "2026-02-13T00:44:33Z"
+                },
+                "letsencrypt_ct_willow_2026_h1": {
+                  "index": 845596005,
+                  "added_to_ct_at": "2026-02-13T00:44:10Z",
+                  "ct_to_censys_at": "2026-02-13T00:55:40Z"
+                },
+                "sectigo_elephant_2026_h1": {
+                  "index": 1516857575,
+                  "added_to_ct_at": "2026-02-13T00:41:13Z",
+                  "ct_to_censys_at": "2026-02-13T00:47:19Z"
+                },
+                "sectigo_tiger_2026_h1": {
+                  "index": 1397449461,
+                  "added_to_ct_at": "2026-02-13T00:41:13Z",
+                  "ct_to_censys_at": "2026-02-13T00:45:48Z"
+                },
+                "trustasia_log_2026_a": {
+                  "index": 761323815,
+                  "added_to_ct_at": "2026-02-13T00:41:21Z",
+                  "ct_to_censys_at": "2026-02-13T02:18:34Z"
+                },
+                "trustasia_log_2026_b": {
+                  "index": 782292827,
+                  "added_to_ct_at": "2026-02-13T00:41:14Z",
+                  "ct_to_censys_at": "2026-02-13T03:03:11Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2026-02-11T19:56:32Z",
+            "modified_at": "2026-02-13T03:03:12Z",
+            "validated_at": "2026-02-13T00:55:28Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "0cfb38bd3681f12e1430caf9d4f5767b5060e4a57fe60b61ef4347d60420dc7d",
+            "parent_spki_subject_fingerprint_sha256": "f737aa26549dce01eb1dc2e8ce19ecb6692f4f439c946f3b7fae0b7abb3d87d7"
+          },
+          "ip": "157.240.203.174",
+          "scan_time": "2026-02-13T02:45:53Z",
+          "tls": {
+            "fingerprint_sha256": "f75b77bba2d6ab75d7981758ba60d07e8c18c649749dfab95f6f292b427a6cf3",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9",
+                "subject_dn": "C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+                "issuer_dn": "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root G2"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "157.240.203.174",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T02:45:53Z",
+              "http": {
+                "uri": "https://157.240.203.174/",
+                "protocol": "HTTP/1.1",
+                "status_code": 404,
+                "status_reason": "default_vip_404",
+                "headers": {
+                  "Access-Control-Allow-Origin": {
+                    "headers": [
+                      "*"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "105"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html; charset=utf-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Proxy-Status": {
+                    "headers": [
+                      "proxy_internal_response; e_fb_vipaddr=\"AcPnZ_1VTGVcFu9E7aS__2v8DBhpqB7eFIAeaMk2mVgM4VwguEHAb87tPivjabT6YlQXBxqd-99G\"; e_isproxyerr=\"AcMxoghrezFXlySETGy_jSHg4qJTbkYtdQ7WM0AjF0NfUHpgPEt973k5aWti8w\"; e_clientaddr=\"AcNuEKA78Qog19XN_G6CrZA2qltdkyrHQga2myKSLQ-rC1udTN89GN7OjTZUn8Qdq5eLkupFM2fjuUnu\"; e_fb_zone=\"AcM4TnJlMciYZ1oVocSETvw7hpB3Kvy7pjGfr2wDSI-IktvuwOnoPeRwQRA-KQ\"; e_fb_twtaskhandle=\"AcMOPhtwrqKUXvDLcSo-TU-Bo3uVgrKnLW-pZHKUwYfh6-0a2B_blyx5bm9hIZr-dC2YsxGhWihT4pt0WKOO5z8kL9xjgvfYnVHm\"; e_proxy=\"AcMxDb_K94Te8EV7uXXy07keHOXmaMu7zzCjrXbLYGIlLZcF6PKkkSEYN8T4AiGPb3HVwfRGoD-J8nE\""
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>5xx Server Error</title>"
+                ],
+                "body_size": 105,
+                "body": "<html>\n<head>\n<title>5xx Server Error</title>\n</head>\n\n<body>\n<h1>5xx Server Error</h1>\n</body>\n\n</html>\n",
+                "html_title": "5xx Server Error",
+                "body_hash_sha256": "01c42c75bf7f225724607d5e69505b7419a79f9bb5297fc0adbccdeeef33d037",
+                "body_hash_sha1": "9f39fbab38d2e5253dd879e173aadff74c6caf3d",
+                "supported_versions": [
+                  "HTTP/1.1",
+                  "HTTP/2"
+                ]
+              },
+              "ip": "157.240.203.174"
+            }
+          ]
+        }
+      ],
+      "service_count": 3,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-02-12T21:44:31Z",
+          "names": [
+            "instagram-p42-shv-01-mxp2.fbcdn.net"
+          ]
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

@@ -1,0 +1,473 @@
+{
+  "result": {
+    "resource": {
+      "ip": "124.251.34.141",
+      "location": {
+        "continent": "Asia",
+        "country": "China",
+        "country_code": "CN",
+        "city": "Beijing",
+        "postal_code": "100000",
+        "timezone": "Asia/Shanghai",
+        "province": "Beijing",
+        "coordinates": {
+          "latitude": 39.9075,
+          "longitude": 116.39723
+        }
+      },
+      "autonomous_system": {
+        "asn": 4808,
+        "description": "CHINA169-BJ China Unicom Beijing Province Network",
+        "bgp_prefix": "124.251.32.0/19",
+        "name": "CHINA169-BJ China Unicom Beijing Province Network",
+        "country_code": "CN"
+      },
+      "whois": {
+        "network": {
+          "handle": "CHINA-21VIANET",
+          "name": "21ViaNet(China),Inc.",
+          "cidrs": [
+            "124.251.0.0/16"
+          ],
+          "updated": "2021-06-16T00:00:00Z"
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "ip": "124.251.34.141",
+          "scan_time": "2026-02-12T15:47:56Z",
+          "endpoints": [
+            {
+              "hostname": "124.251.34.141",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-12T15:47:56Z",
+              "http": {
+                "uri": "http://124.251.34.141/",
+                "protocol": "HTTP/1.1",
+                "status_code": 403,
+                "status_reason": "Forbidden",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "186"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Strict-Transport-Security": {
+                    "headers": [
+                      "max-age=31536000; includeSubDomains"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>403 Forbidden</title>"
+                ],
+                "body_size": 186,
+                "body": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\r\n<html>\r\n<head><title>403 Forbidden</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>403 Forbidden</h1></center>\r\n</body>\r\n</html>\r\n",
+                "html_title": "403 Forbidden",
+                "body_hash_sha256": "daa7156221ae91a7af31c370b770bebc0f543e55799a14a2848e2aa993e16700",
+                "body_hash_sha1": "732809d7a8f4f8c7619ccfeb787ba09481988eaf",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "124.251.34.141"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "2f00db5936475f6bc3d33fb8a5ccba0313ba96ef7396ae869db25e1932f43fe1",
+            "fingerprint_sha1": "fc68b28e8a2afc446f2aa33a84faaf5d92ca028c",
+            "fingerprint_md5": "4a69bd640eabb3cae8e4db56631daff9",
+            "tbs_fingerprint_sha256": "3b13589802711f4cf58e33643d58646b75072ec679906b7952f94e4ba2506162",
+            "tbs_no_ct_fingerprint_sha256": "d40546f3031fdbdddc84cf0a162afd7bf219d505138a976439d8dc78ffe27d85",
+            "spki_fingerprint_sha256": "4905f894ecded94ee13513482f1f96e889711d607313320a33e64212e7e9703e",
+            "parent_spki_fingerprint_sha256": "e306d76bf8ba45097907f1cf94397b3dc23345f00601c75528428496621589dd",
+            "parsed": {
+              "version": 3,
+              "serial_number": "11000590478941353352535550390122710206",
+              "issuer_dn": "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=RapidSSL TLS RSA CA G1",
+              "issuer": {
+                "common_name": [
+                  "RapidSSL TLS RSA CA G1"
+                ],
+                "country": [
+                  "US"
+                ],
+                "organization": [
+                  "DigiCert Inc"
+                ],
+                "organizational_unit": [
+                  "www.digicert.com"
+                ]
+              },
+              "subject_dn": "CN=www.mi.com",
+              "subject": {
+                "common_name": [
+                  "www.mi.com"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "RSA",
+                  "oid": "1.2.840.113549.1.1.1"
+                },
+                "rsa": {
+                  "exponent": 65537,
+                  "modulus": "b71501e1a5fe40e8b9ef6074458bcd9d77bdf5f02c6d1b9b73e5edf8840ee5ced25e99c7781d41a0d5bb7822f9d834601337ae160061fabc20e0b27b9d680e66ab867368dc40c9c193d51df17f8cfd954456ccff6c0e35c8a2250c54c57da2c5e7987aa817cca2ccb3609331ea0757ef1ffc309e8e06916acf8a240d0f30a30ae638675d0914ec79d8cad6a5fe96520253d6d01c60422de05c3e9dfe1cfb7ad3eabefd319f39f05280e5fdbdbb257144da91ff3c529297401bd60f02be5a819f93dad2c7b53c35de64badf3e0e9f19f4a7b59ab731ccfdb1007f4a13e343691337c533ecf86ac97635290c45a91b9471c13190d465b6fda5e18da38e9bc96a29",
+                  "length": 2048
+                },
+                "fingerprint_sha256": "9c01ec6ea4855e356e3d9b1760a78126abc61520a4b7e0b69968d6ed964166f8"
+              },
+              "validity_period": {
+                "not_before": "2025-09-22T00:00:00Z",
+                "not_after": "2026-10-22T23:59:59Z",
+                "length_seconds": 34214400
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "SHA256-RSA",
+                  "oid": "1.2.840.113549.1.1.11"
+                },
+                "value": "6507f40a22c52ea5da0b6868576cf4e3d35c9fba64de42737722360440fd987eee6bf6d763f3c7b15e58935fbef9b789d1739c644715a87a4c3579a9c4675e0ba61b4b17c85ef717f88b60616e846d580014a37365a825bc0657f89ad063a4762d57b05c52e5049646ff29fb734ab11b9e5cc2bba927804595ee08a063e63bfc07466b0c79257dd3d9a893047217b29065a3d10eb16dbaea32ef414e2eb845e77f24dde1d561cc969e01310eb238ab5037095aa52ddf0509be291bd1381e860dc2596b50e1c8c47389e9bd4951289aae01a7fd1fd927be75eb9c162abb6ff3519190359b5a3f8cf77d578a58bfb6d004dc5bc35ca8cfeafa3333385a9cb036ad",
+                "valid": true
+              },
+              "serial_number_hex": "0846a2fc35ffb676fbb55bddabb604be"
+            },
+            "names": [
+              "mi.com",
+              "www.mi.com"
+            ],
+            "validation_level": "dv",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "2364f741c07777db9e2e6ad873487b98b42e736ef85a907ab5b85942f5ecdd08",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "4422e963ee53cd58cc9f85cd40bf5ffec0095fdf1a154535661c1c06bcadc69b",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "2364f741c07777db9e2e6ad873487b98b42e736ef85a907ab5b85942f5ecdd08",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "2364f741c07777db9e2e6ad873487b98b42e736ef85a907ab5b85942f5ecdd08",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "2364f741c07777db9e2e6ad873487b98b42e736ef85a907ab5b85942f5ecdd08",
+                      "a0d609a7e3c434e878a9a1c1bd065b8dcf33aa7efee1b11bc75cce5e5a042080",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "2364f741c07777db9e2e6ad873487b98b42e736ef85a907ab5b85942f5ecdd08",
+                  "4422e963ee53cd58cc9f85cd40bf5ffec0095fdf1a154535661c1c06bcadc69b"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "2364f741c07777db9e2e6ad873487b98b42e736ef85a907ab5b85942f5ecdd08",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "4422e963ee53cd58cc9f85cd40bf5ffec0095fdf1a154535661c1c06bcadc69b",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "2364f741c07777db9e2e6ad873487b98b42e736ef85a907ab5b85942f5ecdd08",
+                      "0ba8c0d459b76abc0825294f565e24f4f169d4a4819d0692d371522d297724b8",
+                      "2399561127a57125de8cefea610ddf2fa078b5c8067f4e828290bfb860e84b3c"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "2364f741c07777db9e2e6ad873487b98b42e736ef85a907ab5b85942f5ecdd08",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "2364f741c07777db9e2e6ad873487b98b42e736ef85a907ab5b85942f5ecdd08",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "2364f741c07777db9e2e6ad873487b98b42e736ef85a907ab5b85942f5ecdd08",
+                  "4422e963ee53cd58cc9f85cd40bf5ffec0095fdf1a154535661c1c06bcadc69b"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "2364f741c07777db9e2e6ad873487b98b42e736ef85a907ab5b85942f5ecdd08",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "4422e963ee53cd58cc9f85cd40bf5ffec0095fdf1a154535661c1c06bcadc69b",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "2364f741c07777db9e2e6ad873487b98b42e736ef85a907ab5b85942f5ecdd08",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "2364f741c07777db9e2e6ad873487b98b42e736ef85a907ab5b85942f5ecdd08",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "2364f741c07777db9e2e6ad873487b98b42e736ef85a907ab5b85942f5ecdd08",
+                      "a0d609a7e3c434e878a9a1c1bd065b8dcf33aa7efee1b11bc75cce5e5a042080",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "2364f741c07777db9e2e6ad873487b98b42e736ef85a907ab5b85942f5ecdd08",
+                  "4422e963ee53cd58cc9f85cd40bf5ffec0095fdf1a154535661c1c06bcadc69b"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "2364f741c07777db9e2e6ad873487b98b42e736ef85a907ab5b85942f5ecdd08",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "4422e963ee53cd58cc9f85cd40bf5ffec0095fdf1a154535661c1c06bcadc69b",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "2364f741c07777db9e2e6ad873487b98b42e736ef85a907ab5b85942f5ecdd08",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "2364f741c07777db9e2e6ad873487b98b42e736ef85a907ab5b85942f5ecdd08",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "2364f741c07777db9e2e6ad873487b98b42e736ef85a907ab5b85942f5ecdd08",
+                      "a0d609a7e3c434e878a9a1c1bd065b8dcf33aa7efee1b11bc75cce5e5a042080",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "2364f741c07777db9e2e6ad873487b98b42e736ef85a907ab5b85942f5ecdd08",
+                  "4422e963ee53cd58cc9f85cd40bf5ffec0095fdf1a154535661c1c06bcadc69b"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2025-10-10T07:05:16Z",
+            "modified_at": "2025-10-10T07:05:16Z",
+            "validated_at": "2026-02-13T04:58:50Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "4905f894ecded94ee13513482f1f96e889711d607313320a33e64212e7e9703e",
+            "parent_spki_subject_fingerprint_sha256": "e306d76bf8ba45097907f1cf94397b3dc23345f00601c75528428496621589dd"
+          },
+          "ip": "124.251.34.141",
+          "scan_time": "2026-02-13T16:02:31Z",
+          "tls": {
+            "fingerprint_sha256": "2f00db5936475f6bc3d33fb8a5ccba0313ba96ef7396ae869db25e1932f43fe1",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "4422e963ee53cd58cc9f85cd40bf5ffec0095fdf1a154535661c1c06bcadc69b",
+                "subject_dn": "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=RapidSSL TLS RSA CA G1",
+                "issuer_dn": "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root G2"
+              },
+              {
+                "fingerprint_sha256": "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                "subject_dn": "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root G2",
+                "issuer_dn": "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root CA"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "124.251.34.141",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T16:02:31Z",
+              "http": {
+                "uri": "https://124.251.34.141/",
+                "protocol": "HTTP/1.1",
+                "status_code": 403,
+                "status_reason": "Forbidden",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "186"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Strict-Transport-Security": {
+                    "headers": [
+                      "max-age=31536000; includeSubDomains"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>403 Forbidden</title>"
+                ],
+                "body_size": 186,
+                "body": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\r\n<html>\r\n<head><title>403 Forbidden</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>403 Forbidden</h1></center>\r\n</body>\r\n</html>\r\n",
+                "html_title": "403 Forbidden",
+                "body_hash_sha256": "daa7156221ae91a7af31c370b770bebc0f543e55799a14a2848e2aa993e16700",
+                "body_hash_sha1": "732809d7a8f4f8c7619ccfeb787ba09481988eaf",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "124.251.34.141"
+            }
+          ]
+        }
+      ],
+      "service_count": 2,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-02-06T03:01:33Z"
+        },
+        "names": [
+          "xiaomi.net",
+          "xiaomi.com",
+          "mi.cn"
+        ],
+        "forward_dns": {
+          "mi.cn": {
+            "resolve_time": "2026-01-11T16:02:11Z",
+            "name": "mi.cn",
+            "record_type": "a"
+          },
+          "xiaomi.com": {
+            "resolve_time": "2026-01-14T21:27:19Z",
+            "name": "xiaomi.com",
+            "record_type": "a"
+          },
+          "xiaomi.net": {
+            "resolve_time": "2026-02-08T12:19:35Z",
+            "name": "xiaomi.net",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

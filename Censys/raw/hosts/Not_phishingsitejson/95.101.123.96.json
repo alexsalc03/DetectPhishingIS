@@ -1,0 +1,185 @@
+{
+  "result": {
+    "resource": {
+      "ip": "95.101.123.96",
+      "location": {
+        "continent": "Europe",
+        "country": "Italy",
+        "country_code": "IT",
+        "city": "Milan",
+        "postal_code": "20121",
+        "timezone": "Europe/Rome",
+        "province": "Lombardy",
+        "coordinates": {
+          "latitude": 45.46427,
+          "longitude": 9.18951
+        }
+      },
+      "autonomous_system": {
+        "asn": 20940,
+        "description": "AKAMAI-ASN1",
+        "bgp_prefix": "95.101.122.0/23",
+        "name": "AKAMAI-ASN1",
+        "country_code": "NL"
+      },
+      "whois": {
+        "network": {
+          "handle": "AKAMAI-PA",
+          "name": "Akamai Technologies",
+          "cidrs": [
+            "95.101.120.0/22"
+          ],
+          "created": "2010-02-16T00:00:00Z",
+          "updated": "2010-02-16T00:00:00Z"
+        },
+        "organization": {
+          "handle": "ORG-AT1-RIPE",
+          "name": "Akamai International B.V.",
+          "address": "145 Broadway\\n02142\\nCambridge, MA\\nUNITED STATES",
+          "abuse_contacts": [
+            {
+              "handle": "AR15028-RIPE",
+              "name": "Abuse-C Role",
+              "email": "abuse@akamai.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "CDAK23-RIPE",
+              "name": "Caglar Dabanoglu",
+              "email": "cdabanog@akamai.com"
+            },
+            {
+              "handle": "CKAK-RIPE",
+              "name": "Christian Kaufmann"
+            },
+            {
+              "handle": "NARA1-RIPE",
+              "name": "Network Architecture Role Account",
+              "email": "ip-admin@akamai.com"
+            },
+            {
+              "handle": "NB782-RIPE",
+              "name": "Niels Bakker",
+              "email": "nbakker@akamai.com"
+            },
+            {
+              "handle": "RM4844-RIPE",
+              "name": "Ronan Mullally",
+              "email": "rmullall@akamai.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "type": [
+                "WAF"
+              ],
+              "vendor": "akamai",
+              "product": "app_and_api_protector"
+            },
+            {
+              "vendor": "akamai",
+              "product": "ghost"
+            }
+          ],
+          "labels": [
+            {
+              "value": "WAF"
+            }
+          ],
+          "ip": "95.101.123.96",
+          "scan_time": "2026-02-13T14:46:05Z",
+          "endpoints": [
+            {
+              "hostname": "95.101.123.96",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T14:46:05Z",
+              "http": {
+                "uri": "http://95.101.123.96/",
+                "protocol": "HTTP/1.0",
+                "status_code": 400,
+                "status_reason": "Bad Request",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "310"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Expires": {
+                    "headers": [
+                      "Fri, 13 Feb 2026 14:46:04 GMT"
+                    ]
+                  },
+                  "Mime-Version": {
+                    "headers": [
+                      "1.0"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "AkamaiGHost"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<TITLE>Invalid URL</TITLE>"
+                ],
+                "body_size": 310,
+                "body": "<HTML><HEAD>\n<TITLE>Invalid URL</TITLE>\n</HEAD><BODY>\n<H1>Invalid URL</H1>\nThe requested URL \"&#91;no&#32;URL&#93;\", is invalid.<p>\nReference&#32;&#35;9&#46;5c7b655f&#46;1770993964&#46;29eab37\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;9&#46;5c7b655f&#46;1770993964&#46;29eab37</P>\n</BODY></HTML>\n",
+                "html_title": "Invalid URL",
+                "body_hash_sha256": "481ae2f7f83b3ec2d9d4582218a7e2a28ec805a2c527e1f8fdfb3865cf68b88d",
+                "body_hash_sha1": "44ad90d320423fda1efbb66d4101426494c2ea98",
+                "supported_versions": [
+                  "HTTP/1.0"
+                ]
+              },
+              "ip": "95.101.123.96"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "UNKNOWN",
+          "transport_protocol": "tcp",
+          "ip": "95.101.123.96",
+          "scan_time": "2026-02-13T07:52:53Z"
+        }
+      ],
+      "service_count": 2,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-02-03T17:59:48Z",
+          "names": [
+            "a95-101-123-96.deploy.static.akamaitechnologies.com"
+          ]
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

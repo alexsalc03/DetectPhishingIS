@@ -1,0 +1,1075 @@
+{
+  "result": {
+    "resource": {
+      "ip": "204.79.197.212",
+      "location": {
+        "continent": "North America",
+        "country": "United States",
+        "country_code": "US",
+        "city": "Redmond",
+        "postal_code": "98052",
+        "timezone": "America/Los_Angeles",
+        "province": "Washington",
+        "coordinates": {
+          "latitude": 47.67399,
+          "longitude": -122.12151
+        }
+      },
+      "autonomous_system": {
+        "asn": 8068,
+        "description": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "bgp_prefix": "204.79.197.0/24",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "country_code": "US"
+      },
+      "whois": {
+        "network": {
+          "handle": "ECN-NETWORK",
+          "name": "Microsoft Corporation",
+          "cidrs": [
+            "204.79.195.0/24",
+            "204.79.196.0/23"
+          ],
+          "created": "1994-12-15T00:00:00Z",
+          "updated": "2021-12-14T00:00:00Z",
+          "allocation_type": "ALLOCATION"
+        },
+        "organization": {
+          "handle": "MSFT",
+          "name": "Microsoft Corporation",
+          "street": "One Microsoft Way",
+          "city": "Redmond",
+          "state": "WA",
+          "postal_code": "98052",
+          "country": "US",
+          "abuse_contacts": [
+            {
+              "handle": "MAC74-ARIN",
+              "name": "Microsoft Abuse Contact",
+              "email": "abuse@microsoft.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "IPHOS5-ARIN",
+              "name": "IPHostmaster IPHostmaster",
+              "email": "iphostmaster@microsoft.com"
+            }
+          ],
+          "tech_contacts": [
+            {
+              "handle": "BEDAR6-ARIN",
+              "name": "Dawn Bedard",
+              "email": "dabedard@microsoft.com"
+            },
+            {
+              "handle": "IPHOS5-ARIN",
+              "name": "IPHostmaster IPHostmaster",
+              "email": "iphostmaster@microsoft.com"
+            },
+            {
+              "handle": "MRPD-ARIN",
+              "name": "Microsoft Routing, Peering, and DNS",
+              "email": "IOC@microsoft.com"
+            },
+            {
+              "handle": "SINGH683-ARIN",
+              "name": "Prachi Singh",
+              "email": "pracsin@microsoft.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "ip": "204.79.197.212",
+          "scan_time": "2026-02-12T22:19:17Z",
+          "endpoints": [
+            {
+              "hostname": "204.79.197.212",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-12T22:19:17Z",
+              "http": {
+                "uri": "http://204.79.197.212/",
+                "protocol": "HTTP/1.1",
+                "status_code": 400,
+                "status_reason": "Bad Request",
+                "headers": {
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Transfer-Encoding": {
+                    "headers": [
+                      "chunked"
+                    ]
+                  },
+                  "X-MSEdge-Ref": {
+                    "headers": [
+                      "05VGOaQAAAAD0RdyR47/qTaoPiNB5FqbzQ0gxRURHRTIxMjAARWRnZQ=="
+                    ]
+                  }
+                },
+                "body_size": 194,
+                "body": "<h2>Our services aren't available right now</h2><p>We're working to restore all services as soon as possible. Please check back soon.</p>05VGOaQAAAAD0RdyR47/qTaoPiNB5FqbzQ0gxRURHRTIxMjAARWRnZQ==",
+                "body_hash_sha256": "f4573ae18f8c3d60045972580605939ce20071e39305f6d9069a5b178da3e9d2",
+                "body_hash_sha1": "a0aaa5eb0150afa22503014520cf9db151e4ddb0",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "204.79.197.212"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "c7acfa60c6bad7f78a69e6b0f2b41ae0fc2b449d340cef915afb65c5676dd519",
+            "fingerprint_sha1": "26133df99cebc77b9efa0bb1f53d17700a00ec90",
+            "fingerprint_md5": "a23cdc0d593a063f4051500b6b187933",
+            "tbs_fingerprint_sha256": "3cc5550c3e5546716339824bbee7d53a800669b74ea046d427a6265caddd55bb",
+            "tbs_no_ct_fingerprint_sha256": "a7702bdf61c78bbe7f98c58411da4c87113a95be68b297a451b57c1ff8ca230f",
+            "spki_fingerprint_sha256": "1ccf381be1892a534fe3470035903728e19566b0ec00aa9459f04bf23e86c47c",
+            "parent_spki_fingerprint_sha256": "4a6cb43dc45ca8ad242595c0d78979dff8aaf4bc749a510da2f2c25d507f55a5",
+            "parsed": {
+              "version": 3,
+              "serial_number": "19088220502624679713354125377905222620",
+              "issuer_dn": "C=US, O=DigiCert Inc, CN=DigiCert Cloud Services CA-1",
+              "issuer": {
+                "common_name": [
+                  "DigiCert Cloud Services CA-1"
+                ],
+                "country": [
+                  "US"
+                ],
+                "organization": [
+                  "DigiCert Inc"
+                ]
+              },
+              "subject_dn": "C=US, ST=Washington, L=Redmond, O=Microsoft Corporation, CN=outlook.live.com",
+              "subject": {
+                "common_name": [
+                  "outlook.live.com"
+                ],
+                "country": [
+                  "US"
+                ],
+                "locality": [
+                  "Redmond"
+                ],
+                "province": [
+                  "Washington"
+                ],
+                "organization": [
+                  "Microsoft Corporation"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "RSA",
+                  "oid": "1.2.840.113549.1.1.1"
+                },
+                "rsa": {
+                  "exponent": 65537,
+                  "modulus": "9b3f8f016209a3b86e73d52be6c3462951aab19e4e7dcc5652f4c0abb99822f95e3b13f6b12fb06d0d2bf898a602ab438bda48153724edf4d0682fa68d6a8af9bc52a00260be2102e226ed8977fdc15c5f199b072fe726c02a7f1453338eea400f213052e8d32fef9ecd45e815a91ceb83e5c38c947b0ab92eeec0b9b2feb6a035345ea6e72f7f79c6016767576accbb44879eae5417025a9e82ac0c22711db543807c3404021e4fd07fd1e945daf3764dc357e146202767598e6c3b775328d240dd20439045017fa9483dec82d9027bf4d4a7886355a1e391a8471ceeb1fa295350cc5b3dc401265650c62c2a38cf0c9bd723c1ec8b1ac0e2d4110c53ddfc5d",
+                  "length": 2048
+                },
+                "fingerprint_sha256": "5f7f24c0efc735992d15c0181677e281fad767fc239c2797d3dd8d6bd7f88bd7"
+              },
+              "validity_period": {
+                "not_before": "2025-09-13T00:00:00Z",
+                "not_after": "2026-09-12T23:59:59Z",
+                "length_seconds": 31536000
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "SHA256-RSA",
+                  "oid": "1.2.840.113549.1.1.11"
+                },
+                "value": "516a30f795ec19bb409eeca0d872f2d32e0b634dd819980ac0b5790eba9206133f0283257cfcb9511b26eae2bfc3b1ea38f1d85b0612f6414b7cf4697eb3d054a5555c28c9750c4ce1963cb9be1f897ccbca0c6963aab6ae86f060b975f08ad89e693549181fb8c89f595d00b2700d9427a932477587d2033356f33c1468984bec6eaa71742d21d88336389134876206a9c511a6f00ccfeee571b220f73df0e009a4cc09587aeb0572b23973f1822417fb6266aa1b0f96e2a2467c757320a866a77f1d03da2dccb9ef5969105400508fe0ad8f94b843992102d3a129f95db9f8a78461f264e8ab85893b7c4329d15a3fd28c0aa31d5f45bc25c12828756c1ccc",
+                "valid": true
+              },
+              "serial_number_hex": "0e5c41ee79e45828de3266ecbbe1e3dc"
+            },
+            "names": [
+              "*.calendar.live.com",
+              "*.fp.measure.office.com",
+              "*.hotmail.com",
+              "*.live.com",
+              "*.mail.live.com",
+              "*.nrb.footprintdns.com",
+              "afd-l.office.com",
+              "attachment.outlook.office.net",
+              "attachment.outlook.officeppe.net",
+              "hotmail.com",
+              "live.com",
+              "outlook-sdf.live.com",
+              "outlook.live.com",
+              "premium.outlook.com"
+            ],
+            "validation_level": "ov",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "2f6889961a7ca7067e8ba103c2cf9b9a924f8ca293f11178e23a1978d2f133d3",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "5f88694615e4c61686e106b84c3338c6720c535f60d36f61282ed15e1977dd44",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "2f6889961a7ca7067e8ba103c2cf9b9a924f8ca293f11178e23a1978d2f133d3",
+                  "5f88694615e4c61686e106b84c3338c6720c535f60d36f61282ed15e1977dd44"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "2f6889961a7ca7067e8ba103c2cf9b9a924f8ca293f11178e23a1978d2f133d3",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "5f88694615e4c61686e106b84c3338c6720c535f60d36f61282ed15e1977dd44",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "2f6889961a7ca7067e8ba103c2cf9b9a924f8ca293f11178e23a1978d2f133d3",
+                  "5f88694615e4c61686e106b84c3338c6720c535f60d36f61282ed15e1977dd44"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "2f6889961a7ca7067e8ba103c2cf9b9a924f8ca293f11178e23a1978d2f133d3",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "5f88694615e4c61686e106b84c3338c6720c535f60d36f61282ed15e1977dd44",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "2f6889961a7ca7067e8ba103c2cf9b9a924f8ca293f11178e23a1978d2f133d3",
+                  "5f88694615e4c61686e106b84c3338c6720c535f60d36f61282ed15e1977dd44"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "2f6889961a7ca7067e8ba103c2cf9b9a924f8ca293f11178e23a1978d2f133d3",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "5f88694615e4c61686e106b84c3338c6720c535f60d36f61282ed15e1977dd44",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "2f6889961a7ca7067e8ba103c2cf9b9a924f8ca293f11178e23a1978d2f133d3",
+                  "5f88694615e4c61686e106b84c3338c6720c535f60d36f61282ed15e1977dd44"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 2542113595,
+                  "added_to_ct_at": "2026-02-12T20:15:18Z",
+                  "ct_to_censys_at": "2026-02-12T21:13:05Z"
+                },
+                "comodo_mammoth_2026_h2": {
+                  "index": 55011541,
+                  "added_to_ct_at": "2025-09-13T06:13:08Z",
+                  "ct_to_censys_at": "2025-09-13T06:20:31Z"
+                },
+                "comodo_sabre_2026_h2": {
+                  "index": 65677020,
+                  "added_to_ct_at": "2025-09-13T06:13:08Z",
+                  "ct_to_censys_at": "2025-09-13T06:21:58Z"
+                },
+                "google_argon_2026_h2": {
+                  "index": 133891233,
+                  "added_to_ct_at": "2025-09-13T06:13:03Z",
+                  "ct_to_censys_at": "2025-09-13T06:24:31Z"
+                },
+                "google_xenon_2026_h2": {
+                  "index": 101881261,
+                  "added_to_ct_at": "2025-09-13T06:13:04Z",
+                  "ct_to_censys_at": "2025-09-13T06:21:39Z"
+                },
+                "letsencrypt_ct_oak_2026_h2": {
+                  "index": 83174871,
+                  "added_to_ct_at": "2025-09-13T06:13:18Z",
+                  "ct_to_censys_at": "2025-09-13T06:22:04Z"
+                },
+                "letsencrypt_ct_sycamore_2026_h2": {
+                  "index": 1656517,
+                  "added_to_ct_at": "2025-09-13T08:01:29Z",
+                  "ct_to_censys_at": "2025-12-12T15:05:16Z"
+                },
+                "letsencrypt_ct_willow_2026_h2": {
+                  "index": 1657485,
+                  "added_to_ct_at": "2025-09-13T08:01:28Z",
+                  "ct_to_censys_at": "2025-12-12T15:13:42Z"
+                },
+                "sectigo_elephant_2026_h2": {
+                  "index": 52767520,
+                  "added_to_ct_at": "2025-09-13T06:13:12Z",
+                  "ct_to_censys_at": "2025-09-13T06:23:21Z"
+                },
+                "sectigo_tiger_2026_h2": {
+                  "index": 52895610,
+                  "added_to_ct_at": "2025-09-13T06:13:12Z",
+                  "ct_to_censys_at": "2025-09-13T06:22:31Z"
+                },
+                "trustasia_log_2026_a": {
+                  "index": 47449459,
+                  "added_to_ct_at": "2025-09-13T08:01:41Z",
+                  "ct_to_censys_at": "2025-09-13T08:08:53Z"
+                },
+                "trustasia_log_2026_b": {
+                  "index": 53606006,
+                  "added_to_ct_at": "2025-09-13T08:15:45Z",
+                  "ct_to_censys_at": "2025-09-13T08:27:58Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2025-09-13T05:58:34Z",
+            "modified_at": "2026-02-12T21:13:05Z",
+            "validated_at": "2026-02-13T03:32:23Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "1ccf381be1892a534fe3470035903728e19566b0ec00aa9459f04bf23e86c47c",
+            "parent_spki_subject_fingerprint_sha256": "4a6cb43dc45ca8ad242595c0d78979dff8aaf4bc749a510da2f2c25d507f55a5"
+          },
+          "ip": "204.79.197.212",
+          "scan_time": "2026-02-13T10:45:02Z",
+          "tls": {
+            "fingerprint_sha256": "c7acfa60c6bad7f78a69e6b0f2b41ae0fc2b449d340cef915afb65c5676dd519",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "2f6889961a7ca7067e8ba103c2cf9b9a924f8ca293f11178e23a1978d2f133d3",
+                "subject_dn": "C=US, O=DigiCert Inc, CN=DigiCert Cloud Services CA-1",
+                "issuer_dn": "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root CA"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "204.79.197.212",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T10:45:02Z",
+              "http": {
+                "uri": "https://204.79.197.212/",
+                "protocol": "HTTP/1.1",
+                "status_code": 400,
+                "status_reason": "Bad Request",
+                "headers": {
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Transfer-Encoding": {
+                    "headers": [
+                      "chunked"
+                    ]
+                  },
+                  "X-MSEdge-Ref": {
+                    "headers": [
+                      "0rgCPaQAAAADtwAgaAvpFQK6gBr7SG7CmSEtHMzBFREdFMDExMwBFZGdl"
+                    ]
+                  }
+                },
+                "body_size": 194,
+                "body": "<h2>Our services aren't available right now</h2><p>We're working to restore all services as soon as possible. Please check back soon.</p>0rgCPaQAAAADtwAgaAvpFQK6gBr7SG7CmSEtHMzBFREdFMDExMwBFZGdl",
+                "body_hash_sha256": "deb86c29d1204a097190e776f81d146d82d5b34108b5f8d79d60e07c7b85ec7f",
+                "body_hash_sha1": "91242c85aadaf78abed4f00a2c1a937198db9a40",
+                "supported_versions": [
+                  "HTTP/1.1",
+                  "HTTP/2"
+                ]
+              },
+              "ip": "204.79.197.212"
+            }
+          ]
+        }
+      ],
+      "service_count": 2,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-02-06T07:55:27Z",
+          "names": [
+            "a-0010.a-msedge.net"
+          ]
+        },
+        "names": [
+          "mail.hcct.edu.vn",
+          "hotmail.com",
+          "yarn.live.com",
+          "live.fr",
+          "live.dk",
+          "mail.pirazmat.pl",
+          "mail.livefreemail.com",
+          "atmvkoeurets5atpr0qidicqtb.live.com",
+          "p4aurdmvhnw5mwxcdpswdccqxh.live.com",
+          "vlysaeeqz3xeqnrghcswweqfxc.live.com",
+          "zjyktgetn5xzmpsjozsimacvwb.live.com",
+          "ldf.csa.teamse.live.com",
+          "xbe4amxw233fqcracitatsnfnd.live.com",
+          "nikjcwaxdmis0jloxmrisfzyue.live.com",
+          "alex.teamss.live.com",
+          "csa.teamsnel.live.com",
+          "yyyc4qruibnxfyhstqrivozngf.live.com",
+          "www.tou.live.com",
+          "cydh.server1.tycoon.live.com",
+          "lhv0er1x3sqkcpnxmor0ouqyzc.live.com",
+          "womd4hbxayv42f0a0fruaxnama.live.com",
+          "zy1dlh0uasuhtujjxiswpvkvnb.live.com",
+          "vite.live.com",
+          "vg3amhzx45lro55nr1ssmlddsd.live.com",
+          "0dbecgerkifcbo1ru5tmanqznh.live.com",
+          "www.teamsmmunity.live.com",
+          "wvmkfajx0wmdsq05ypsgodpcyg.live.com",
+          "vinsmke.live.com",
+          "wlx2zpkw2h2cebn2uptsttqelh.live.com",
+          "bgora52w4gpptt54lmturfrtkb.live.com",
+          "tbwto0ss2ohqf0gvhctcmdwgve.live.com",
+          "hpymzhktgllo4clrw3rwwpbkqf.live.com",
+          "wsyhn04s323evxmtvsr2ehseue.live.com",
+          "yjb2cosxqk5whuthfptgcbzvpb.live.com",
+          "yleczevvaucvphlumotohlzkdd.live.com",
+          "webdev.live.com",
+          "y0t.live.com",
+          "ucthsibvfxiyg05lt0sumuzoza.live.com",
+          "uzet0qyvi4ltd3l4d3sovttdme.live.com",
+          "www.sierrachteamslie.users.live.com",
+          "bunexus.officeappsder.control.live.com",
+          "pwa.live.com",
+          "pvi3slfsx25nbgo0qfquedlcqd.live.com",
+          "pve.live.com",
+          "sgpv1mlqv2sl5zd0dtssgqdexh.live.com",
+          "srekna0rjltvklu523rmrzhsqg.live.com",
+          "renexus.officeappsller.live.com",
+          "dcjg32eq02moodmci1qaslfhof.live.com",
+          "mariano.live.com",
+          "qpe2ygcsbdtfbuzykuqqaauwnf.live.com",
+          "4gdxcdpwthbjcuxbdatkrkqbyc.live.com",
+          "4fth4vlv5vhknrahobsaynpqqe.live.com",
+          "namebench10327.8165516.live.com",
+          "oulook.live.com",
+          "sc3k4qoxdc5erhanhwqyrtqubf.live.com",
+          "euc-onenote.officeappslas.live.com",
+          "qmrmr0ns5wp2xdemcwsohggkth.live.com",
+          "nexus.officeapps-alpha.live.com",
+          "results.live.com",
+          "rmzizscrjgxo5gfvgkr0puuxua.live.com",
+          "g3lqhlgqfh1hkytwdnsmyegbcb.live.com",
+          "i232ta4ttj3bjmdjvxtylqmgdc.live.com",
+          "qmpk2bot4xy3jjnfh2tigsdgnf.live.com",
+          "nexus.officeappser2.live.com",
+          "nexus.officeappsvb.live.com",
+          "laxdrxravm05.ra-df.live.com",
+          "pnexus.officeappsis.live.com",
+          "ocws.officeappsmmunity.live.com",
+          "mieuc-onenote.officeappsi.live.com",
+          "doeuc-onenote.officeappsa.live.com",
+          "s1lbjxww2jp4jmdftht0vqijcg.live.com",
+          "r21nxkysyhmcdrxzyyqmxsoxef.live.com",
+          "nexus.officeappsrts.live.com",
+          "qr2tihuvddt2l0xoqpsyyuzhgf.live.com",
+          "eus2d.pods.live.com",
+          "qzkaahjxxd1vmkqip2tgztbmmd.live.com",
+          "fagfdyhutfrlxqtfpaqmkqvngc.live.com",
+          "dnexus.officeappsl.live.com",
+          "3lib3wrvfjtchwkoyntypcwrfd.live.com",
+          "nexus.officeappsndbox.live.com",
+          "lgbvbfdvprtjxawbimsmwkayug.live.com",
+          "g2l23wbw41xq4zlnensgrrzhff.live.com",
+          "namebench26369.7569076.live.com",
+          "mx2kvqftngjmfcvgdst0zxagab.live.com",
+          "www.librnexus.officeappsy.live.com",
+          "www.classnexus.officeappsieds.live.com",
+          "mnexus.officeapps5.live.com",
+          "desmusiciens.live.com",
+          "namebench15938.6932598.live.com",
+          "legeuc-onenote.officeappsy.live.com",
+          "mail.live.com",
+          "ieuc-onenote.officeappsu.live.com",
+          "frl4suqvvzopolwzmltmpjpujf.live.com",
+          "livenexus.officeappsdate.live.com",
+          "developmeuc-onenote.officeappst.live.com",
+          "hnexus.officeappsh.live.com",
+          "webdisk.fornexus.officeappss.live.com",
+          "nexus.officeappsking.live.com",
+          "ijo0osfxadopxq5a3gqqfogrsc.live.com",
+          "iedog.officeappsntity.live.com"
+        ],
+        "forward_dns": {
+          "0dbecgerkifcbo1ru5tmanqznh.live.com": {
+            "resolve_time": "2026-02-11T20:56:33Z",
+            "name": "0dbecgerkifcbo1ru5tmanqznh.live.com",
+            "record_type": "a"
+          },
+          "3lib3wrvfjtchwkoyntypcwrfd.live.com": {
+            "resolve_time": "2026-02-11T20:56:31Z",
+            "name": "3lib3wrvfjtchwkoyntypcwrfd.live.com",
+            "record_type": "a"
+          },
+          "4fth4vlv5vhknrahobsaynpqqe.live.com": {
+            "resolve_time": "2026-02-11T20:56:32Z",
+            "name": "4fth4vlv5vhknrahobsaynpqqe.live.com",
+            "record_type": "a"
+          },
+          "4gdxcdpwthbjcuxbdatkrkqbyc.live.com": {
+            "resolve_time": "2026-02-11T20:56:32Z",
+            "name": "4gdxcdpwthbjcuxbdatkrkqbyc.live.com",
+            "record_type": "a"
+          },
+          "alex.teamss.live.com": {
+            "resolve_time": "2026-02-11T20:56:33Z",
+            "name": "alex.teamss.live.com",
+            "record_type": "a"
+          },
+          "atmvkoeurets5atpr0qidicqtb.live.com": {
+            "resolve_time": "2026-02-11T20:56:41Z",
+            "name": "atmvkoeurets5atpr0qidicqtb.live.com",
+            "record_type": "a"
+          },
+          "bgora52w4gpptt54lmturfrtkb.live.com": {
+            "resolve_time": "2026-02-11T20:56:33Z",
+            "name": "bgora52w4gpptt54lmturfrtkb.live.com",
+            "record_type": "a"
+          },
+          "bunexus.officeappsder.control.live.com": {
+            "resolve_time": "2026-02-11T20:56:32Z",
+            "name": "bunexus.officeappsder.control.live.com",
+            "record_type": "a"
+          },
+          "csa.teamsnel.live.com": {
+            "resolve_time": "2026-02-11T20:56:33Z",
+            "name": "csa.teamsnel.live.com",
+            "record_type": "a"
+          },
+          "cydh.server1.tycoon.live.com": {
+            "resolve_time": "2026-02-11T20:56:33Z",
+            "name": "cydh.server1.tycoon.live.com",
+            "record_type": "a"
+          },
+          "dcjg32eq02moodmci1qaslfhof.live.com": {
+            "resolve_time": "2026-02-11T20:56:32Z",
+            "name": "dcjg32eq02moodmci1qaslfhof.live.com",
+            "record_type": "a"
+          },
+          "desmusiciens.live.com": {
+            "resolve_time": "2026-02-11T20:56:31Z",
+            "name": "desmusiciens.live.com",
+            "record_type": "a"
+          },
+          "developmeuc-onenote.officeappst.live.com": {
+            "resolve_time": "2026-02-11T20:56:31Z",
+            "name": "developmeuc-onenote.officeappst.live.com",
+            "record_type": "a"
+          },
+          "dnexus.officeappsl.live.com": {
+            "resolve_time": "2026-02-11T20:56:31Z",
+            "name": "dnexus.officeappsl.live.com",
+            "record_type": "a"
+          },
+          "doeuc-onenote.officeappsa.live.com": {
+            "resolve_time": "2026-02-11T20:56:31Z",
+            "name": "doeuc-onenote.officeappsa.live.com",
+            "record_type": "a"
+          },
+          "euc-onenote.officeappslas.live.com": {
+            "resolve_time": "2026-02-11T20:56:31Z",
+            "name": "euc-onenote.officeappslas.live.com",
+            "record_type": "a"
+          },
+          "eus2d.pods.live.com": {
+            "resolve_time": "2026-02-11T20:56:31Z",
+            "name": "eus2d.pods.live.com",
+            "record_type": "a"
+          },
+          "fagfdyhutfrlxqtfpaqmkqvngc.live.com": {
+            "resolve_time": "2026-02-11T20:56:31Z",
+            "name": "fagfdyhutfrlxqtfpaqmkqvngc.live.com",
+            "record_type": "a"
+          },
+          "frl4suqvvzopolwzmltmpjpujf.live.com": {
+            "resolve_time": "2026-02-11T20:56:31Z",
+            "name": "frl4suqvvzopolwzmltmpjpujf.live.com",
+            "record_type": "a"
+          },
+          "g2l23wbw41xq4zlnensgrrzhff.live.com": {
+            "resolve_time": "2026-02-11T20:56:31Z",
+            "name": "g2l23wbw41xq4zlnensgrrzhff.live.com",
+            "record_type": "a"
+          },
+          "g3lqhlgqfh1hkytwdnsmyegbcb.live.com": {
+            "resolve_time": "2026-02-11T20:56:31Z",
+            "name": "g3lqhlgqfh1hkytwdnsmyegbcb.live.com",
+            "record_type": "a"
+          },
+          "hnexus.officeappsh.live.com": {
+            "resolve_time": "2026-02-11T20:56:31Z",
+            "name": "hnexus.officeappsh.live.com",
+            "record_type": "a"
+          },
+          "hotmail.com": {
+            "resolve_time": "2026-02-13T12:06:13Z",
+            "name": "hotmail.com",
+            "record_type": "a"
+          },
+          "hpymzhktgllo4clrw3rwwpbkqf.live.com": {
+            "resolve_time": "2026-02-11T20:56:33Z",
+            "name": "hpymzhktgllo4clrw3rwwpbkqf.live.com",
+            "record_type": "a"
+          },
+          "i232ta4ttj3bjmdjvxtylqmgdc.live.com": {
+            "resolve_time": "2026-02-11T20:56:31Z",
+            "name": "i232ta4ttj3bjmdjvxtylqmgdc.live.com",
+            "record_type": "a"
+          },
+          "iedog.officeappsntity.live.com": {
+            "resolve_time": "2026-02-11T20:56:31Z",
+            "name": "iedog.officeappsntity.live.com",
+            "record_type": "a"
+          },
+          "ieuc-onenote.officeappsu.live.com": {
+            "resolve_time": "2026-02-11T20:56:31Z",
+            "name": "ieuc-onenote.officeappsu.live.com",
+            "record_type": "a"
+          },
+          "ijo0osfxadopxq5a3gqqfogrsc.live.com": {
+            "resolve_time": "2026-02-11T20:56:31Z",
+            "name": "ijo0osfxadopxq5a3gqqfogrsc.live.com",
+            "record_type": "a"
+          },
+          "laxdrxravm05.ra-df.live.com": {
+            "resolve_time": "2026-02-11T20:56:31Z",
+            "name": "laxdrxravm05.ra-df.live.com",
+            "record_type": "a"
+          },
+          "ldf.csa.teamse.live.com": {
+            "resolve_time": "2026-02-11T20:56:34Z",
+            "name": "ldf.csa.teamse.live.com",
+            "record_type": "a"
+          },
+          "legeuc-onenote.officeappsy.live.com": {
+            "resolve_time": "2026-02-11T20:56:31Z",
+            "name": "legeuc-onenote.officeappsy.live.com",
+            "record_type": "a"
+          },
+          "lgbvbfdvprtjxawbimsmwkayug.live.com": {
+            "resolve_time": "2026-02-11T20:56:31Z",
+            "name": "lgbvbfdvprtjxawbimsmwkayug.live.com",
+            "record_type": "a"
+          },
+          "lhv0er1x3sqkcpnxmor0ouqyzc.live.com": {
+            "resolve_time": "2026-02-11T20:56:33Z",
+            "name": "lhv0er1x3sqkcpnxmor0ouqyzc.live.com",
+            "record_type": "a"
+          },
+          "live.dk": {
+            "resolve_time": "2026-02-12T12:33:08Z",
+            "name": "live.dk",
+            "record_type": "a"
+          },
+          "live.fr": {
+            "resolve_time": "2026-02-12T12:55:28Z",
+            "name": "live.fr",
+            "record_type": "a"
+          },
+          "livenexus.officeappsdate.live.com": {
+            "resolve_time": "2026-02-11T20:56:31Z",
+            "name": "livenexus.officeappsdate.live.com",
+            "record_type": "a"
+          },
+          "mail.hcct.edu.vn": {
+            "resolve_time": "2026-02-13T12:19:41Z",
+            "name": "mail.hcct.edu.vn",
+            "record_type": "a"
+          },
+          "mail.live.com": {
+            "resolve_time": "2026-02-11T20:56:31Z",
+            "name": "mail.live.com",
+            "record_type": "a"
+          },
+          "mail.livefreemail.com": {
+            "resolve_time": "2026-02-11T20:56:51Z",
+            "name": "mail.livefreemail.com",
+            "record_type": "a"
+          },
+          "mail.pirazmat.pl": {
+            "resolve_time": "2026-02-12T12:25:24Z",
+            "name": "mail.pirazmat.pl",
+            "record_type": "a"
+          },
+          "mariano.live.com": {
+            "resolve_time": "2026-02-11T20:56:32Z",
+            "name": "mariano.live.com",
+            "record_type": "a"
+          },
+          "mieuc-onenote.officeappsi.live.com": {
+            "resolve_time": "2026-02-11T20:56:31Z",
+            "name": "mieuc-onenote.officeappsi.live.com",
+            "record_type": "a"
+          },
+          "mnexus.officeapps5.live.com": {
+            "resolve_time": "2026-02-11T20:56:31Z",
+            "name": "mnexus.officeapps5.live.com",
+            "record_type": "a"
+          },
+          "mx2kvqftngjmfcvgdst0zxagab.live.com": {
+            "resolve_time": "2026-02-11T20:56:31Z",
+            "name": "mx2kvqftngjmfcvgdst0zxagab.live.com",
+            "record_type": "a"
+          },
+          "namebench10327.8165516.live.com": {
+            "resolve_time": "2026-02-11T20:56:32Z",
+            "name": "namebench10327.8165516.live.com",
+            "record_type": "a"
+          },
+          "namebench15938.6932598.live.com": {
+            "resolve_time": "2026-02-11T20:56:31Z",
+            "name": "namebench15938.6932598.live.com",
+            "record_type": "a"
+          },
+          "namebench26369.7569076.live.com": {
+            "resolve_time": "2026-02-11T20:56:31Z",
+            "name": "namebench26369.7569076.live.com",
+            "record_type": "a"
+          },
+          "nexus.officeapps-alpha.live.com": {
+            "resolve_time": "2026-02-11T20:56:31Z",
+            "name": "nexus.officeapps-alpha.live.com",
+            "record_type": "a"
+          },
+          "nexus.officeappser2.live.com": {
+            "resolve_time": "2026-02-11T20:56:31Z",
+            "name": "nexus.officeappser2.live.com",
+            "record_type": "a"
+          },
+          "nexus.officeappsking.live.com": {
+            "resolve_time": "2026-02-11T20:56:31Z",
+            "name": "nexus.officeappsking.live.com",
+            "record_type": "a"
+          },
+          "nexus.officeappsndbox.live.com": {
+            "resolve_time": "2026-02-11T20:56:31Z",
+            "name": "nexus.officeappsndbox.live.com",
+            "record_type": "a"
+          },
+          "nexus.officeappsrts.live.com": {
+            "resolve_time": "2026-02-11T20:56:31Z",
+            "name": "nexus.officeappsrts.live.com",
+            "record_type": "a"
+          },
+          "nexus.officeappsvb.live.com": {
+            "resolve_time": "2026-02-11T20:56:31Z",
+            "name": "nexus.officeappsvb.live.com",
+            "record_type": "a"
+          },
+          "nikjcwaxdmis0jloxmrisfzyue.live.com": {
+            "resolve_time": "2026-02-11T20:56:34Z",
+            "name": "nikjcwaxdmis0jloxmrisfzyue.live.com",
+            "record_type": "a"
+          },
+          "ocws.officeappsmmunity.live.com": {
+            "resolve_time": "2026-02-11T20:56:31Z",
+            "name": "ocws.officeappsmmunity.live.com",
+            "record_type": "a"
+          },
+          "oulook.live.com": {
+            "resolve_time": "2026-02-11T20:56:32Z",
+            "name": "oulook.live.com",
+            "record_type": "a"
+          },
+          "p4aurdmvhnw5mwxcdpswdccqxh.live.com": {
+            "resolve_time": "2026-02-11T20:56:38Z",
+            "name": "p4aurdmvhnw5mwxcdpswdccqxh.live.com",
+            "record_type": "a"
+          },
+          "pnexus.officeappsis.live.com": {
+            "resolve_time": "2026-02-11T20:56:31Z",
+            "name": "pnexus.officeappsis.live.com",
+            "record_type": "a"
+          },
+          "pve.live.com": {
+            "resolve_time": "2026-02-11T20:56:32Z",
+            "name": "pve.live.com",
+            "record_type": "a"
+          },
+          "pvi3slfsx25nbgo0qfquedlcqd.live.com": {
+            "resolve_time": "2026-02-11T20:56:32Z",
+            "name": "pvi3slfsx25nbgo0qfquedlcqd.live.com",
+            "record_type": "a"
+          },
+          "pwa.live.com": {
+            "resolve_time": "2026-02-11T20:56:32Z",
+            "name": "pwa.live.com",
+            "record_type": "a"
+          },
+          "qmpk2bot4xy3jjnfh2tigsdgnf.live.com": {
+            "resolve_time": "2026-02-11T20:56:31Z",
+            "name": "qmpk2bot4xy3jjnfh2tigsdgnf.live.com",
+            "record_type": "a"
+          },
+          "qmrmr0ns5wp2xdemcwsohggkth.live.com": {
+            "resolve_time": "2026-02-11T20:56:31Z",
+            "name": "qmrmr0ns5wp2xdemcwsohggkth.live.com",
+            "record_type": "a"
+          },
+          "qpe2ygcsbdtfbuzykuqqaauwnf.live.com": {
+            "resolve_time": "2026-02-11T20:56:32Z",
+            "name": "qpe2ygcsbdtfbuzykuqqaauwnf.live.com",
+            "record_type": "a"
+          },
+          "qr2tihuvddt2l0xoqpsyyuzhgf.live.com": {
+            "resolve_time": "2026-02-11T20:56:31Z",
+            "name": "qr2tihuvddt2l0xoqpsyyuzhgf.live.com",
+            "record_type": "a"
+          },
+          "qzkaahjxxd1vmkqip2tgztbmmd.live.com": {
+            "resolve_time": "2026-02-11T20:56:31Z",
+            "name": "qzkaahjxxd1vmkqip2tgztbmmd.live.com",
+            "record_type": "a"
+          },
+          "r21nxkysyhmcdrxzyyqmxsoxef.live.com": {
+            "resolve_time": "2026-02-11T20:56:31Z",
+            "name": "r21nxkysyhmcdrxzyyqmxsoxef.live.com",
+            "record_type": "a"
+          },
+          "renexus.officeappsller.live.com": {
+            "resolve_time": "2026-02-11T20:56:32Z",
+            "name": "renexus.officeappsller.live.com",
+            "record_type": "a"
+          },
+          "results.live.com": {
+            "resolve_time": "2026-02-11T20:56:31Z",
+            "name": "results.live.com",
+            "record_type": "a"
+          },
+          "rmzizscrjgxo5gfvgkr0puuxua.live.com": {
+            "resolve_time": "2026-02-11T20:56:31Z",
+            "name": "rmzizscrjgxo5gfvgkr0puuxua.live.com",
+            "record_type": "a"
+          },
+          "s1lbjxww2jp4jmdftht0vqijcg.live.com": {
+            "resolve_time": "2026-02-11T20:56:31Z",
+            "name": "s1lbjxww2jp4jmdftht0vqijcg.live.com",
+            "record_type": "a"
+          },
+          "sc3k4qoxdc5erhanhwqyrtqubf.live.com": {
+            "resolve_time": "2026-02-11T20:56:32Z",
+            "name": "sc3k4qoxdc5erhanhwqyrtqubf.live.com",
+            "record_type": "a"
+          },
+          "sgpv1mlqv2sl5zd0dtssgqdexh.live.com": {
+            "resolve_time": "2026-02-11T20:56:32Z",
+            "name": "sgpv1mlqv2sl5zd0dtssgqdexh.live.com",
+            "record_type": "a"
+          },
+          "srekna0rjltvklu523rmrzhsqg.live.com": {
+            "resolve_time": "2026-02-11T20:56:32Z",
+            "name": "srekna0rjltvklu523rmrzhsqg.live.com",
+            "record_type": "a"
+          },
+          "tbwto0ss2ohqf0gvhctcmdwgve.live.com": {
+            "resolve_time": "2026-02-11T20:56:33Z",
+            "name": "tbwto0ss2ohqf0gvhctcmdwgve.live.com",
+            "record_type": "a"
+          },
+          "ucthsibvfxiyg05lt0sumuzoza.live.com": {
+            "resolve_time": "2026-02-11T20:56:32Z",
+            "name": "ucthsibvfxiyg05lt0sumuzoza.live.com",
+            "record_type": "a"
+          },
+          "uzet0qyvi4ltd3l4d3sovttdme.live.com": {
+            "resolve_time": "2026-02-11T20:56:32Z",
+            "name": "uzet0qyvi4ltd3l4d3sovttdme.live.com",
+            "record_type": "a"
+          },
+          "vg3amhzx45lro55nr1ssmlddsd.live.com": {
+            "resolve_time": "2026-02-11T20:56:33Z",
+            "name": "vg3amhzx45lro55nr1ssmlddsd.live.com",
+            "record_type": "a"
+          },
+          "vinsmke.live.com": {
+            "resolve_time": "2026-02-11T20:56:33Z",
+            "name": "vinsmke.live.com",
+            "record_type": "a"
+          },
+          "vite.live.com": {
+            "resolve_time": "2026-02-11T20:56:33Z",
+            "name": "vite.live.com",
+            "record_type": "a"
+          },
+          "vlysaeeqz3xeqnrghcswweqfxc.live.com": {
+            "resolve_time": "2026-02-11T20:56:34Z",
+            "name": "vlysaeeqz3xeqnrghcswweqfxc.live.com",
+            "record_type": "a"
+          },
+          "webdev.live.com": {
+            "resolve_time": "2026-02-11T20:56:33Z",
+            "name": "webdev.live.com",
+            "record_type": "a"
+          },
+          "webdisk.fornexus.officeappss.live.com": {
+            "resolve_time": "2026-02-11T20:56:31Z",
+            "name": "webdisk.fornexus.officeappss.live.com",
+            "record_type": "a"
+          },
+          "wlx2zpkw2h2cebn2uptsttqelh.live.com": {
+            "resolve_time": "2026-02-11T20:56:33Z",
+            "name": "wlx2zpkw2h2cebn2uptsttqelh.live.com",
+            "record_type": "a"
+          },
+          "womd4hbxayv42f0a0fruaxnama.live.com": {
+            "resolve_time": "2026-02-11T20:56:33Z",
+            "name": "womd4hbxayv42f0a0fruaxnama.live.com",
+            "record_type": "a"
+          },
+          "wsyhn04s323evxmtvsr2ehseue.live.com": {
+            "resolve_time": "2026-02-11T20:56:33Z",
+            "name": "wsyhn04s323evxmtvsr2ehseue.live.com",
+            "record_type": "a"
+          },
+          "wvmkfajx0wmdsq05ypsgodpcyg.live.com": {
+            "resolve_time": "2026-02-11T20:56:33Z",
+            "name": "wvmkfajx0wmdsq05ypsgodpcyg.live.com",
+            "record_type": "a"
+          },
+          "www.classnexus.officeappsieds.live.com": {
+            "resolve_time": "2026-02-11T20:56:31Z",
+            "name": "www.classnexus.officeappsieds.live.com",
+            "record_type": "a"
+          },
+          "www.librnexus.officeappsy.live.com": {
+            "resolve_time": "2026-02-11T20:56:31Z",
+            "name": "www.librnexus.officeappsy.live.com",
+            "record_type": "a"
+          },
+          "www.sierrachteamslie.users.live.com": {
+            "resolve_time": "2026-02-11T20:56:32Z",
+            "name": "www.sierrachteamslie.users.live.com",
+            "record_type": "a"
+          },
+          "www.teamsmmunity.live.com": {
+            "resolve_time": "2026-02-11T20:56:33Z",
+            "name": "www.teamsmmunity.live.com",
+            "record_type": "a"
+          },
+          "www.tou.live.com": {
+            "resolve_time": "2026-02-11T20:56:33Z",
+            "name": "www.tou.live.com",
+            "record_type": "a"
+          },
+          "xbe4amxw233fqcracitatsnfnd.live.com": {
+            "resolve_time": "2026-02-11T20:56:34Z",
+            "name": "xbe4amxw233fqcracitatsnfnd.live.com",
+            "record_type": "a"
+          },
+          "y0t.live.com": {
+            "resolve_time": "2026-02-11T20:56:32Z",
+            "name": "y0t.live.com",
+            "record_type": "a"
+          },
+          "yarn.live.com": {
+            "resolve_time": "2026-02-13T03:41:43Z",
+            "name": "yarn.live.com",
+            "record_type": "a"
+          },
+          "yjb2cosxqk5whuthfptgcbzvpb.live.com": {
+            "resolve_time": "2026-02-11T20:56:33Z",
+            "name": "yjb2cosxqk5whuthfptgcbzvpb.live.com",
+            "record_type": "a"
+          },
+          "yleczevvaucvphlumotohlzkdd.live.com": {
+            "resolve_time": "2026-02-11T20:56:33Z",
+            "name": "yleczevvaucvphlumotohlzkdd.live.com",
+            "record_type": "a"
+          },
+          "yyyc4qruibnxfyhstqrivozngf.live.com": {
+            "resolve_time": "2026-02-11T20:56:33Z",
+            "name": "yyyc4qruibnxfyhstqrivozngf.live.com",
+            "record_type": "a"
+          },
+          "zjyktgetn5xzmpsjozsimacvwb.live.com": {
+            "resolve_time": "2026-02-11T20:56:34Z",
+            "name": "zjyktgetn5xzmpsjozsimacvwb.live.com",
+            "record_type": "a"
+          },
+          "zy1dlh0uasuhtujjxiswpvkvnb.live.com": {
+            "resolve_time": "2026-02-11T20:56:33Z",
+            "name": "zy1dlh0uasuhtujjxiswpvkvnb.live.com",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

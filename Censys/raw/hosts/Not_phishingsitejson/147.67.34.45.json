@@ -1,0 +1,489 @@
+{
+  "result": {
+    "resource": {
+      "ip": "147.67.34.45",
+      "location": {
+        "continent": "Europe",
+        "country": "Luxembourg",
+        "country_code": "LU",
+        "city": "Luxembourg",
+        "postal_code": "L-1114",
+        "timezone": "Europe/Luxembourg",
+        "province": "Luxembourg",
+        "coordinates": {
+          "latitude": 49.60982,
+          "longitude": 6.13268
+        }
+      },
+      "autonomous_system": {
+        "asn": 42848,
+        "description": "EC-AS",
+        "bgp_prefix": "147.67.0.0/17",
+        "name": "EC-AS",
+        "country_code": "LU"
+      },
+      "whois": {
+        "network": {
+          "handle": "CECNET5-147-67-CLASS-B",
+          "name": "European Commission , Telecom Centers",
+          "cidrs": [
+            "147.67.0.0/16"
+          ],
+          "created": "1970-01-01T00:00:00Z",
+          "updated": "2021-10-22T00:00:00Z"
+        },
+        "organization": {
+          "handle": "ORG-EC37-RIPE",
+          "name": "European Commission",
+          "address": "12, rue Guillaume Kroll,\\nL-1882\\nLuxembourg\\nLUXEMBOURG",
+          "abuse_contacts": [
+            {
+              "handle": "AR13640-RIPE",
+              "name": "Abuse-C Role",
+              "email": "DIGIT-ADMIN-INTERNET-OFFICIAL-CONTACT@ec.europa.eu"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "DA9084-RIPE",
+              "name": "DIGIT-C4-RIPE-Administration",
+              "email": "DIGIT-ADMIN-INTERNET-OFFICIAL-CONTACT@ec.europa.eu"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "ip": "147.67.34.45",
+          "scan_time": "2026-02-13T02:50:28Z",
+          "endpoints": [
+            {
+              "hostname": "147.67.34.45",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T02:50:28Z",
+              "http": {
+                "uri": "http://147.67.34.45/",
+                "protocol": "HTTP/1.1",
+                "status_code": 403,
+                "status_reason": "Forbidden",
+                "headers": {
+                  "Cache-Control": {
+                    "headers": [
+                      "no-cache"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "Keep-Alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "642"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html; charset=utf-8"
+                    ]
+                  },
+                  "Pragma": {
+                    "headers": [
+                      "no-cache"
+                    ]
+                  },
+                  "X-XSS-Protection": {
+                    "headers": [
+                      "1"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<TITLE>Access Denied</TITLE>"
+                ],
+                "body_size": 642,
+                "body": "<HTML><HEAD>\r\n<TITLE>Access Denied</TITLE>\r\n</HEAD>\r\n<BODY>\r\n<FONT face=\"Helvetica\">\r\n<big><strong></strong></big><BR>\r\n</FONT>\r\n<blockquote>\r\n<TABLE border=0 cellPadding=1 width=\"80%\">\r\n<TR><TD>\r\n<FONT face=\"Helvetica\">\r\n<big>Access Denied (policy_denied)</big>\r\n<BR>\r\n<BR>\r\n</FONT>\r\n</TD></TR>\r\n<TR><TD>\r\n<FONT face=\"Helvetica\">\r\nYour system policy has denied access to the requested URL.\r\n</FONT>\r\n</TD></TR>\r\n<TR><TD>\r\n<FONT face=\"Helvetica\">\r\n\r\n</FONT>\r\n</TD></TR>\r\n<TR><TD>\r\n<FONT face=\"Helvetica\" SIZE=2>\r\n<BR>\r\nFor assistance, contact your network support team.\r\n</FONT>\r\n</TD></TR>\r\n</TABLE>\r\n</blockquote>\r\n</FONT>\r\n</BODY></HTML>\r\n",
+                "html_title": "Access Denied",
+                "body_hash_sha256": "811e78aca99f1a67e5e4900f796e849df401f49a5258bea443968d4fb3f90d5b",
+                "body_hash_sha1": "44de7fba3eb8acc048fd496b1696697cf5b86bf1",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "147.67.34.45"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "803ed6ec7f4f1c863b9a7b1e8c51f4f71f119e071aa2b9618fb6e29dee230059",
+            "fingerprint_sha1": "ff827f1a35a225e0d00ce9388ccd557e5e24bb56",
+            "fingerprint_md5": "3e6f6b0dcaaf42bc240110ed2c32d38f",
+            "tbs_fingerprint_sha256": "b5207575a6251b07a7f5df85dec8772d7c255c6e787741ad925445975c4f57e1",
+            "tbs_no_ct_fingerprint_sha256": "0892a90f9bbc8018139ce38f58ecf8237a3ba6d41fdb6f3226580e550126b01a",
+            "spki_fingerprint_sha256": "536921c9ac2d3e57741270bae6a008fdfbee4cba0538edf3845a6dce4625f88f",
+            "parent_spki_fingerprint_sha256": "5cdf79fdfa6b87492e8eec47580d7983e9b3ed0031b5050d0f32cbc6f6a808ec",
+            "parsed": {
+              "version": 3,
+              "serial_number": "1852079572779721641823001732739851335",
+              "issuer_dn": "C=BE, O=GlobalSign nv-sa, CN=GlobalSign Atlas R3 OV TLS CA 2025 Q3",
+              "issuer": {
+                "common_name": [
+                  "GlobalSign Atlas R3 OV TLS CA 2025 Q3"
+                ],
+                "country": [
+                  "BE"
+                ],
+                "organization": [
+                  "GlobalSign nv-sa"
+                ]
+              },
+              "subject_dn": "C=BE, ST=Brussels-Capital Region, L=Brussels, O=European Commission, CN=europa.eu",
+              "subject": {
+                "common_name": [
+                  "europa.eu"
+                ],
+                "country": [
+                  "BE"
+                ],
+                "locality": [
+                  "Brussels"
+                ],
+                "province": [
+                  "Brussels-Capital Region"
+                ],
+                "organization": [
+                  "European Commission"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "RSA",
+                  "oid": "1.2.840.113549.1.1.1"
+                },
+                "rsa": {
+                  "exponent": 65537,
+                  "modulus": "d20411c71ab7b82b7dd19bb03c8adb84fe984f52fb4a641317bfaa69f28fae5de0497f2f0b6e41f90cc685cb7e7e06ea951cef4ee8599f8fd0ffb7a6f6621bd9a9773f7868e1f703331c9a970cbf20e5398dd7c626ca838ee5ba31f7be0833ab70b0e91f7d21f2897c9ee05d5d34a14702d9489e490dba12179ad2b14020266f3d6b8a08f4f3d68757fdd0e34865c24eea12a51a2ee61d47226d965cb0d6162af9d2bb4190a366672e2c1d2ca1604f78358d891de7a08462f9dc68fac598b67afd62a10a262311a6a9d1da46d75e84c43f1293602f6805acfc6970a73a3b6b7236e67d5220669b970866d0d3a5999c75a9ee0a1596851bacb59559703611ae03",
+                  "length": 2048
+                },
+                "fingerprint_sha256": "26e385ef441a8ecb1f0378c945201ef09791aa54ad7b628bb7851304a0c5dcfd"
+              },
+              "validity_period": {
+                "not_before": "2025-08-07T13:20:53Z",
+                "not_after": "2026-08-14T13:20:53Z",
+                "length_seconds": 32140801
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "SHA256-RSA",
+                  "oid": "1.2.840.113549.1.1.11"
+                },
+                "value": "4a1f8f46299211076e033870a9703f0c7d1eb35346b630660c815cd2603f373aa2e26f23636f9578e61e0f53d6d0ba6aaba38acf3df450259bdff639cb7e309d135ea001b6a64fd14c4c8a9077f07d50b9597e51d8a7c8440fed924cbe33241372eddbff37c975afc6b8d0a539ec7f5845060962b7cac1abe71dbeeb08ea9069dd1867821e97215bf53457cbd98de3b46a54295da4f4155ea0936592462d0e07f45145fb3cc90f04c70f54e4e377370adc60f1cc7b1cca9587b8cb477d22603668c481ffa6405fabd80e86eea5a5ca286c3101674d1d3586fbe7feb751e906b86703ef407f70c5237e026ffd180358cbcf732a4d2b153efd2452875778d5f59b",
+                "valid": true
+              },
+              "serial_number_hex": "0164b292b174e1445123eca656816447"
+            },
+            "names": [
+              "europa.eu",
+              "www.europa.eu"
+            ],
+            "validation_level": "ov",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "6f9d6055094efcfcd4e13b953e335334f04445ae4c11b97ff6bbe450d92bb3f3",
+                      "cbb522d7b7f127ad6a0113865bdf1cd4102e7d0759af635a7cf4720dc963c53b"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "6f9d6055094efcfcd4e13b953e335334f04445ae4c11b97ff6bbe450d92bb3f3",
+                      "445eec78bc61215044a0379656aa2d5db5e42f76cb70b8d14c2077aa943d4ebb",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "6f9d6055094efcfcd4e13b953e335334f04445ae4c11b97ff6bbe450d92bb3f3",
+                      "c94fedda4e8608908580bc7f87b434e03bb262e42f64c63820a8f50fb17c1cec",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "6f9d6055094efcfcd4e13b953e335334f04445ae4c11b97ff6bbe450d92bb3f3"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "6f9d6055094efcfcd4e13b953e335334f04445ae4c11b97ff6bbe450d92bb3f3",
+                      "cbb522d7b7f127ad6a0113865bdf1cd4102e7d0759af635a7cf4720dc963c53b"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "6f9d6055094efcfcd4e13b953e335334f04445ae4c11b97ff6bbe450d92bb3f3",
+                      "445eec78bc61215044a0379656aa2d5db5e42f76cb70b8d14c2077aa943d4ebb",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "6f9d6055094efcfcd4e13b953e335334f04445ae4c11b97ff6bbe450d92bb3f3",
+                      "c94fedda4e8608908580bc7f87b434e03bb262e42f64c63820a8f50fb17c1cec",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "6f9d6055094efcfcd4e13b953e335334f04445ae4c11b97ff6bbe450d92bb3f3"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "6f9d6055094efcfcd4e13b953e335334f04445ae4c11b97ff6bbe450d92bb3f3",
+                      "cbb522d7b7f127ad6a0113865bdf1cd4102e7d0759af635a7cf4720dc963c53b"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "6f9d6055094efcfcd4e13b953e335334f04445ae4c11b97ff6bbe450d92bb3f3",
+                      "445eec78bc61215044a0379656aa2d5db5e42f76cb70b8d14c2077aa943d4ebb",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "6f9d6055094efcfcd4e13b953e335334f04445ae4c11b97ff6bbe450d92bb3f3",
+                      "c94fedda4e8608908580bc7f87b434e03bb262e42f64c63820a8f50fb17c1cec",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "6f9d6055094efcfcd4e13b953e335334f04445ae4c11b97ff6bbe450d92bb3f3"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "6f9d6055094efcfcd4e13b953e335334f04445ae4c11b97ff6bbe450d92bb3f3",
+                      "cbb522d7b7f127ad6a0113865bdf1cd4102e7d0759af635a7cf4720dc963c53b"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "6f9d6055094efcfcd4e13b953e335334f04445ae4c11b97ff6bbe450d92bb3f3"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 462482826,
+                  "added_to_ct_at": "2025-08-13T13:21:06Z",
+                  "ct_to_censys_at": "2025-08-13T14:46:48Z"
+                },
+                "comodo_mammoth_2026_h2": {
+                  "index": 31247322,
+                  "added_to_ct_at": "2025-08-13T13:21:09Z",
+                  "ct_to_censys_at": "2025-08-13T13:24:24Z"
+                },
+                "comodo_sabre_2026_h2": {
+                  "index": 39508764,
+                  "added_to_ct_at": "2025-08-13T13:21:09Z",
+                  "ct_to_censys_at": "2025-08-13T13:32:19Z"
+                },
+                "google_argon_2026_h2": {
+                  "index": 82424851,
+                  "added_to_ct_at": "2025-08-13T13:21:06Z",
+                  "ct_to_censys_at": "2025-08-13T13:26:42Z"
+                },
+                "google_xenon_2026_h2": {
+                  "index": 64620622,
+                  "added_to_ct_at": "2025-08-13T13:21:06Z",
+                  "ct_to_censys_at": "2025-08-13T13:27:03Z"
+                },
+                "letsencrypt_ct_oak_2026_h2": {
+                  "index": 51945437,
+                  "added_to_ct_at": "2025-08-13T13:21:20Z",
+                  "ct_to_censys_at": "2025-08-13T13:25:19Z"
+                },
+                "letsencrypt_ct_sycamore_2026_h2": {
+                  "index": 2690575,
+                  "added_to_ct_at": "2025-09-16T06:06:54Z",
+                  "ct_to_censys_at": "2025-12-12T15:13:55Z"
+                },
+                "letsencrypt_ct_willow_2026_h2": {
+                  "index": 2691693,
+                  "added_to_ct_at": "2025-09-16T06:06:54Z",
+                  "ct_to_censys_at": "2025-12-12T15:28:02Z"
+                },
+                "sectigo_elephant_2026_h2": {
+                  "index": 29644807,
+                  "added_to_ct_at": "2025-08-13T13:21:09Z",
+                  "ct_to_censys_at": "2025-08-13T13:26:56Z"
+                },
+                "sectigo_tiger_2026_h2": {
+                  "index": 29789499,
+                  "added_to_ct_at": "2025-08-13T13:21:51Z",
+                  "ct_to_censys_at": "2025-08-13T13:26:24Z"
+                },
+                "trustasia_log_2026_a": {
+                  "index": 31128679,
+                  "added_to_ct_at": "2025-08-13T13:21:21Z",
+                  "ct_to_censys_at": "2025-08-13T13:32:22Z"
+                },
+                "trustasia_log_2026_b": {
+                  "index": 37310496,
+                  "added_to_ct_at": "2025-08-13T13:21:32Z",
+                  "ct_to_censys_at": "2025-08-13T13:33:14Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2025-08-07T15:24:08Z",
+            "modified_at": "2025-12-12T15:33:07Z",
+            "validated_at": "2026-02-13T01:46:16Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "536921c9ac2d3e57741270bae6a008fdfbee4cba0538edf3845a6dce4625f88f",
+            "parent_spki_subject_fingerprint_sha256": "5cdf79fdfa6b87492e8eec47580d7983e9b3ed0031b5050d0f32cbc6f6a808ec"
+          },
+          "ip": "147.67.34.45",
+          "scan_time": "2026-02-12T18:01:46Z",
+          "tls": {
+            "fingerprint_sha256": "803ed6ec7f4f1c863b9a7b1e8c51f4f71f119e071aa2b9618fb6e29dee230059",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "6f9d6055094efcfcd4e13b953e335334f04445ae4c11b97ff6bbe450d92bb3f3",
+                "subject_dn": "C=BE, O=GlobalSign nv-sa, CN=GlobalSign Atlas R3 OV TLS CA 2025 Q3",
+                "issuer_dn": "OU=GlobalSign Root CA - R3, O=GlobalSign, CN=GlobalSign"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "147.67.34.45",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-12T18:01:46Z",
+              "http": {
+                "uri": "https://147.67.34.45/",
+                "protocol": "HTTP/1.1",
+                "status_code": 403,
+                "status_reason": "Forbidden",
+                "headers": {
+                  "Cache-Control": {
+                    "headers": [
+                      "no-cache"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "Keep-Alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "642"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html; charset=utf-8"
+                    ]
+                  },
+                  "Pragma": {
+                    "headers": [
+                      "no-cache"
+                    ]
+                  },
+                  "X-XSS-Protection": {
+                    "headers": [
+                      "1"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<TITLE>Access Denied</TITLE>"
+                ],
+                "body_size": 642,
+                "body": "<HTML><HEAD>\r\n<TITLE>Access Denied</TITLE>\r\n</HEAD>\r\n<BODY>\r\n<FONT face=\"Helvetica\">\r\n<big><strong></strong></big><BR>\r\n</FONT>\r\n<blockquote>\r\n<TABLE border=0 cellPadding=1 width=\"80%\">\r\n<TR><TD>\r\n<FONT face=\"Helvetica\">\r\n<big>Access Denied (policy_denied)</big>\r\n<BR>\r\n<BR>\r\n</FONT>\r\n</TD></TR>\r\n<TR><TD>\r\n<FONT face=\"Helvetica\">\r\nYour system policy has denied access to the requested URL.\r\n</FONT>\r\n</TD></TR>\r\n<TR><TD>\r\n<FONT face=\"Helvetica\">\r\n\r\n</FONT>\r\n</TD></TR>\r\n<TR><TD>\r\n<FONT face=\"Helvetica\" SIZE=2>\r\n<BR>\r\nFor assistance, contact your network support team.\r\n</FONT>\r\n</TD></TR>\r\n</TABLE>\r\n</blockquote>\r\n</FONT>\r\n</BODY></HTML>\r\n",
+                "html_title": "Access Denied",
+                "body_hash_sha256": "811e78aca99f1a67e5e4900f796e849df401f49a5258bea443968d4fb3f90d5b",
+                "body_hash_sha1": "44de7fba3eb8acc048fd496b1696697cf5b86bf1",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "147.67.34.45"
+            }
+          ]
+        }
+      ],
+      "service_count": 2,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-02-07T02:18:32Z"
+        },
+        "names": [
+          "europa.eu"
+        ],
+        "forward_dns": {
+          "europa.eu": {
+            "resolve_time": "2026-02-06T13:31:58Z",
+            "name": "europa.eu",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

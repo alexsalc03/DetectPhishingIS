@@ -1,0 +1,159 @@
+{
+  "result": {
+    "resource": {
+      "ip": "34.160.35.160",
+      "location": {
+        "continent": "North America",
+        "country": "United States",
+        "country_code": "US",
+        "city": "Kansas City",
+        "postal_code": "64106",
+        "timezone": "America/Chicago",
+        "province": "Missouri",
+        "coordinates": {
+          "latitude": 39.09973,
+          "longitude": -94.57857
+        }
+      },
+      "autonomous_system": {
+        "asn": 396982,
+        "description": "GOOGLE-CLOUD-PLATFORM - Google LLC",
+        "bgp_prefix": "34.160.0.0/16",
+        "name": "GOOGLE-CLOUD-PLATFORM - Google LLC",
+        "country_code": "US"
+      },
+      "whois": {
+        "network": {
+          "handle": "GOOGL-2",
+          "name": "Google LLC",
+          "cidrs": [
+            "34.128.0.0/10"
+          ],
+          "created": "2021-01-08T00:00:00Z",
+          "updated": "2021-01-08T00:00:00Z",
+          "allocation_type": "ALLOCATION"
+        },
+        "organization": {
+          "handle": "GOOGL-2",
+          "name": "Google LLC",
+          "street": "1600 Amphitheatre Parkway",
+          "city": "Mountain View",
+          "state": "CA",
+          "postal_code": "94043",
+          "country": "US",
+          "abuse_contacts": [
+            {
+              "handle": "GCABU-ARIN",
+              "name": "GC Abuse",
+              "email": "google-cloud-compliance@google.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "ZG39-ARIN",
+              "name": "Google LLC",
+              "email": "arin-contact@google.com"
+            }
+          ],
+          "tech_contacts": [
+            {
+              "handle": "ZG39-ARIN",
+              "name": "Google LLC",
+              "email": "arin-contact@google.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "ip": "34.160.35.160",
+          "scan_time": "2026-02-13T01:43:18Z",
+          "endpoints": [
+            {
+              "hostname": "34.160.35.160",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T01:43:18Z",
+              "http": {
+                "uri": "http://34.160.35.160/",
+                "protocol": "HTTP/1.1",
+                "status_code": 404,
+                "status_reason": "Not Found",
+                "headers": {
+                  "Age": {
+                    "headers": [
+                      "134"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "146"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "via": {
+                    "headers": [
+                      "1.1 google"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>404 Not Found</title>"
+                ],
+                "body_size": 146,
+                "body": "<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n",
+                "html_title": "404 Not Found",
+                "body_hash_sha256": "55f7d9e99b8e2d4e0e193b2f0275501e6d9c1ebd29cadbea6a0da48a8587e3e0",
+                "body_hash_sha1": "3c0af39ecb3753c5fee3b53d063c7286019eac3b",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "34.160.35.160"
+            }
+          ]
+        }
+      ],
+      "service_count": 1,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-02-13T05:07:14Z",
+          "names": [
+            "160.35.160.34.bc.googleusercontent.com"
+          ]
+        },
+        "names": [
+          "www.applovin.com",
+          "livesmartcampus-ensemble.isin-supsi.org"
+        ],
+        "forward_dns": {
+          "livesmartcampus-ensemble.isin-supsi.org": {
+            "resolve_time": "2026-01-25T13:01:56Z",
+            "name": "livesmartcampus-ensemble.isin-supsi.org",
+            "record_type": "a"
+          },
+          "www.applovin.com": {
+            "resolve_time": "2026-02-09T17:23:44Z",
+            "name": "www.applovin.com",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

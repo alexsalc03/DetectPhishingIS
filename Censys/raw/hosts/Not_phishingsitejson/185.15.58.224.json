@@ -1,0 +1,554 @@
+{
+  "result": {
+    "resource": {
+      "ip": "185.15.58.224",
+      "location": {
+        "continent": "Europe",
+        "country": "France",
+        "country_code": "FR",
+        "city": "Marseille",
+        "postal_code": "13000",
+        "timezone": "Europe/Paris",
+        "province": "Provence-Alpes-C\u00f4te d'Azur",
+        "coordinates": {
+          "latitude": 43.29695,
+          "longitude": 5.38107
+        }
+      },
+      "autonomous_system": {
+        "asn": 14907,
+        "description": "WIKIMEDIA - Wikimedia Foundation Inc.",
+        "bgp_prefix": "185.15.58.0/24",
+        "name": "WIKIMEDIA - Wikimedia Foundation Inc.",
+        "country_code": "US"
+      },
+      "whois": {
+        "network": {
+          "handle": "US-WMF-20130110",
+          "name": "Wikimedia Foundation, Inc.",
+          "cidrs": [
+            "185.15.56.0/22"
+          ],
+          "created": "2013-01-10T00:00:00Z",
+          "updated": "2018-06-11T00:00:00Z"
+        },
+        "organization": {
+          "handle": "ORG-WFI2-RIPE",
+          "name": "Wikimedia Foundation, Inc.",
+          "address": "1 Sansome Street Suite 1895\\nCA 94104\\nSan Francisco\\nUNITED STATES",
+          "abuse_contacts": [
+            {
+              "handle": "WMF3-RIPE",
+              "name": "Wikimedia Abuse desk",
+              "email": "abuse@wikimedia.org"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "FAID1-RIPE",
+              "name": "Faidon Liambotis"
+            },
+            {
+              "handle": "MBE96-RIPE",
+              "name": "Mark Bergsma"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "ip": "185.15.58.224",
+          "scan_time": "2026-02-13T14:44:20Z",
+          "endpoints": [
+            {
+              "hostname": "185.15.58.224",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T14:44:20Z",
+              "http": {
+                "uri": "http://185.15.58.224/",
+                "protocol": "HTTP/1.1",
+                "status_code": 301,
+                "status_reason": "Moved Permanently",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "content-length": {
+                    "headers": [
+                      "0"
+                    ]
+                  },
+                  "location": {
+                    "headers": [
+                      "https://185.15.58.224/"
+                    ]
+                  },
+                  "server": {
+                    "headers": [
+                      "HAProxy"
+                    ]
+                  },
+                  "x-cache": {
+                    "headers": [
+                      "cp6012 int"
+                    ]
+                  },
+                  "x-cache-status": {
+                    "headers": [
+                      "int-tls"
+                    ]
+                  }
+                },
+                "supported_versions": [
+                  "HTTP/1.1",
+                  "HTTP/2"
+                ]
+              },
+              "ip": "185.15.58.224"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "97399eb8d314310069fd4b2ca05a1cf5180bd9cdf397a27bda6e154b2f89214a",
+            "fingerprint_sha1": "390917308a9acfd9af6fbe16586c31eaf62a3bd5",
+            "fingerprint_md5": "14bfc33455336758965e1e259e9d9249",
+            "tbs_fingerprint_sha256": "10fcb8203d03add8a81b93a068e082d8d484c44d5eb7f7d8a3d22c82fcef0bce",
+            "tbs_no_ct_fingerprint_sha256": "aa45c3d13bd13943ea40a814c48a791b7ec6fcc14fc4eec421a030035963c618",
+            "spki_fingerprint_sha256": "4c38c99f89a00ca1b10614e1ece6a3a2d0f43842712b99c5c0632c15ddec744d",
+            "parent_spki_fingerprint_sha256": "68f93e89a1162b56335485fd4fbad15fc1d3c6c8c9e8b10ddbdcb8d2730ec2fd",
+            "parsed": {
+              "version": 3,
+              "serial_number": "459387766738523978023119915539698495294594",
+              "issuer_dn": "C=US, O=Let's Encrypt, CN=E8",
+              "issuer": {
+                "common_name": [
+                  "E8"
+                ],
+                "country": [
+                  "US"
+                ],
+                "organization": [
+                  "Let's Encrypt"
+                ]
+              },
+              "subject_dn": "CN=*.wikipedia.org",
+              "subject": {
+                "common_name": [
+                  "*.wikipedia.org"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "ECDSA",
+                  "oid": "1.2.840.10045.2.1"
+                },
+                "ecdsa": {
+                  "b": "5ac635d8aa3a93e7b3ebbd55769886bc651d06b0cc53b0f63bce3c3e27d2604b",
+                  "curve": "P-256",
+                  "gx": "6b17d1f2e12c4247f8bce6e563a440f277037d812deb33a0f4a13945d898c296",
+                  "gy": "4fe342e2fe1a7f9b8ee7eb4a7c0f9e162bce33576b315ececbb6406837bf51f5",
+                  "length": 256,
+                  "n": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+                  "p": "ffffffff00000001000000000000000000000000ffffffffffffffffffffffff",
+                  "pub": "04d3dc38aeea0e52389bc3747fde360b0f94420351b47e747751d0941bcd178dd0d8447ad4e058abbedbf7b011a590082a14737f7a8706380ae3b6a1aa603ce98e",
+                  "x": "d3dc38aeea0e52389bc3747fde360b0f94420351b47e747751d0941bcd178dd0",
+                  "y": "d8447ad4e058abbedbf7b011a590082a14737f7a8706380ae3b6a1aa603ce98e"
+                },
+                "fingerprint_sha256": "85bafd373f4162651d6cf728e80d03e84b2cd09585f3efc0b22aaea851057fd2"
+              },
+              "validity_period": {
+                "not_before": "2025-12-08T22:27:50Z",
+                "not_after": "2026-03-08T22:27:49Z",
+                "length_seconds": 7776000
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "ECDSA-SHA384",
+                  "oid": "1.2.840.10045.4.3.3"
+                },
+                "value": "3064023069b13baa4f2eecdca41edae4d984cd962ef5abe0ca9b192af9227d3bcedd934cd7ebdc694c331474652552cab3728d4e023015c75e6008505c2b8f9b5eb79be33a618cdadd264527be2d0e1d6a389b84fb2b58da3b70dbb560c0d47e7b483150273c",
+                "valid": true
+              },
+              "serial_number_hex": "054604f19accfa089f2215f0e2f2a4708c82"
+            },
+            "names": [
+              "*.m.mediawiki.org",
+              "*.m.wikibooks.org",
+              "*.m.wikidata.org",
+              "*.m.wikimedia.org",
+              "*.m.wikinews.org",
+              "*.m.wikipedia.org",
+              "*.m.wikiquote.org",
+              "*.m.wikisource.org",
+              "*.m.wikiversity.org",
+              "*.m.wikivoyage.org",
+              "*.m.wiktionary.org",
+              "*.mediawiki.org",
+              "*.planet.wikimedia.org",
+              "*.wikibooks.org",
+              "*.wikidata.org",
+              "*.wikifunctions.org",
+              "*.wikimedia.org",
+              "*.wikimediafoundation.org",
+              "*.wikinews.org",
+              "*.wikipedia.org",
+              "*.wikiquote.org",
+              "*.wikisource.org",
+              "*.wikiversity.org",
+              "*.wikivoyage.org",
+              "*.wiktionary.org",
+              "*.wmfusercontent.org",
+              "mediawiki.org",
+              "w.wiki",
+              "wikibooks.org",
+              "wikidata.org",
+              "wikifunctions.org",
+              "wikimedia.org",
+              "wikimediafoundation.org",
+              "wikinews.org",
+              "wikipedia.org",
+              "wikiquote.org",
+              "wikisource.org",
+              "wikiversity.org",
+              "wikivoyage.org",
+              "wiktionary.org",
+              "wmfusercontent.org"
+            ],
+            "validation_level": "dv",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "83624fd338c8d9b023c18a67cb7a9c0519da43d11775b4c6cbdad45c3d997c52",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0",
+                      "69729b8e15a86efc177a57afb7171dfc64add28c2fca8cf1507e34453ccb1470"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0",
+                      "00beaef280277e38999d3c60b27736e8f21e782c3d4b444ac34d465a7ab287c5",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "83624fd338c8d9b023c18a67cb7a9c0519da43d11775b4c6cbdad45c3d997c52",
+                  "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "83624fd338c8d9b023c18a67cb7a9c0519da43d11775b4c6cbdad45c3d997c52",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0",
+                      "69729b8e15a86efc177a57afb7171dfc64add28c2fca8cf1507e34453ccb1470"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0",
+                      "00beaef280277e38999d3c60b27736e8f21e782c3d4b444ac34d465a7ab287c5",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "83624fd338c8d9b023c18a67cb7a9c0519da43d11775b4c6cbdad45c3d997c52",
+                  "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "83624fd338c8d9b023c18a67cb7a9c0519da43d11775b4c6cbdad45c3d997c52",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0",
+                      "69729b8e15a86efc177a57afb7171dfc64add28c2fca8cf1507e34453ccb1470"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0",
+                      "00beaef280277e38999d3c60b27736e8f21e782c3d4b444ac34d465a7ab287c5",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "83624fd338c8d9b023c18a67cb7a9c0519da43d11775b4c6cbdad45c3d997c52",
+                  "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "83624fd338c8d9b023c18a67cb7a9c0519da43d11775b4c6cbdad45c3d997c52",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0",
+                      "69729b8e15a86efc177a57afb7171dfc64add28c2fca8cf1507e34453ccb1470"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0",
+                      "00beaef280277e38999d3c60b27736e8f21e782c3d4b444ac34d465a7ab287c5",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "83624fd338c8d9b023c18a67cb7a9c0519da43d11775b4c6cbdad45c3d997c52",
+                  "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {},
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 1536828135,
+                  "added_to_ct_at": "2025-12-16T03:31:40Z",
+                  "ct_to_censys_at": "2025-12-16T03:59:01Z"
+                },
+                "google_argon_2026_h1": {
+                  "index": 1246565666,
+                  "added_to_ct_at": "2025-12-08T23:26:21Z",
+                  "ct_to_censys_at": "2025-12-08T23:31:37Z"
+                },
+                "google_xenon_2026_h1": {
+                  "index": 1202420606,
+                  "added_to_ct_at": "2025-12-08T23:26:21Z",
+                  "ct_to_censys_at": "2025-12-08T23:34:26Z"
+                },
+                "letsencrypt_ct_sycamore_2026_h1": {
+                  "index": 773614612,
+                  "added_to_ct_at": "2026-01-07T04:22:02Z",
+                  "ct_to_censys_at": "2026-01-07T04:28:12Z"
+                },
+                "letsencrypt_ct_willow_2026_h1": {
+                  "index": 780760253,
+                  "added_to_ct_at": "2026-01-07T04:25:01Z",
+                  "ct_to_censys_at": "2026-01-07T04:28:20Z"
+                },
+                "sectigo_elephant_2026_h1": {
+                  "index": 851576071,
+                  "added_to_ct_at": "2025-12-16T03:31:49Z",
+                  "ct_to_censys_at": "2025-12-16T03:42:07Z"
+                },
+                "sectigo_tiger_2026_h1": {
+                  "index": 750531081,
+                  "added_to_ct_at": "2025-12-16T03:31:40Z",
+                  "ct_to_censys_at": "2025-12-16T03:43:57Z"
+                },
+                "trustasia_log_2026_a": {
+                  "index": 297739093,
+                  "added_to_ct_at": "2025-12-16T03:31:43Z",
+                  "ct_to_censys_at": "2025-12-17T11:31:22Z"
+                },
+                "trustasia_log_2026_b": {
+                  "index": 306452501,
+                  "added_to_ct_at": "2025-12-16T03:31:45Z",
+                  "ct_to_censys_at": "2025-12-17T20:33:12Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2025-12-08T23:31:37Z",
+            "modified_at": "2026-01-07T04:28:30Z",
+            "validated_at": "2026-02-12T20:56:16Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "4c38c99f89a00ca1b10614e1ece6a3a2d0f43842712b99c5c0632c15ddec744d",
+            "parent_spki_subject_fingerprint_sha256": "68f93e89a1162b56335485fd4fbad15fc1d3c6c8c9e8b10ddbdcb8d2730ec2fd"
+          },
+          "ip": "185.15.58.224",
+          "scan_time": "2026-02-13T04:32:30Z",
+          "tls": {
+            "fingerprint_sha256": "97399eb8d314310069fd4b2ca05a1cf5180bd9cdf397a27bda6e154b2f89214a",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "83624fd338c8d9b023c18a67cb7a9c0519da43d11775b4c6cbdad45c3d997c52",
+                "subject_dn": "C=US, O=Let's Encrypt, CN=E8",
+                "issuer_dn": "C=US, O=Internet Security Research Group, CN=ISRG Root X1"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "185.15.58.224",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T04:32:30Z",
+              "http": {
+                "uri": "https://185.15.58.224/",
+                "protocol": "HTTP/1.1",
+                "status_code": 400,
+                "status_reason": "Bad request",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "cache-control": {
+                    "headers": [
+                      "no-cache"
+                    ]
+                  },
+                  "connection": {
+                    "headers": [
+                      "close"
+                    ]
+                  },
+                  "content-length": {
+                    "headers": [
+                      "90"
+                    ]
+                  },
+                  "content-type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "server": {
+                    "headers": [
+                      "HAProxy"
+                    ]
+                  },
+                  "x-cache": {
+                    "headers": [
+                      "cp6010 int"
+                    ]
+                  },
+                  "x-cache-status": {
+                    "headers": [
+                      "int-tls"
+                    ]
+                  },
+                  "x-request-id": {
+                    "headers": [
+                      ""
+                    ]
+                  }
+                },
+                "body_size": 90,
+                "body": "<html><body><h1>400 Bad request</h1>\nYour browser sent an invalid request.\n</body></html>\n",
+                "body_hash_sha256": "eec0a51a966b712aaccd11df320373becc55f174b97030419f9fae79f0cf542c",
+                "body_hash_sha1": "6aead125925ec84c9171e3b29b9c2fc00682bda5",
+                "supported_versions": [
+                  "HTTP/1.1",
+                  "HTTP/2"
+                ]
+              },
+              "ip": "185.15.58.224"
+            }
+          ]
+        }
+      ],
+      "service_count": 2,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-02-12T07:30:24Z",
+          "names": [
+            "text-lb.drmrs.wikimedia.org"
+          ]
+        },
+        "names": [
+          "tccsales.com",
+          "obxhotel.com",
+          "milldean.com",
+          "plumsurvey.com"
+        ],
+        "forward_dns": {
+          "milldean.com": {
+            "resolve_time": "2026-01-15T17:49:38Z",
+            "name": "milldean.com",
+            "record_type": "a"
+          },
+          "obxhotel.com": {
+            "resolve_time": "2026-02-07T17:55:11Z",
+            "name": "obxhotel.com",
+            "record_type": "a"
+          },
+          "plumsurvey.com": {
+            "resolve_time": "2026-01-04T21:46:13Z",
+            "name": "plumsurvey.com",
+            "record_type": "a"
+          },
+          "tccsales.com": {
+            "resolve_time": "2026-02-12T12:39:20Z",
+            "name": "tccsales.com",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

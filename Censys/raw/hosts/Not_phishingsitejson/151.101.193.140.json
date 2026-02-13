@@ -1,0 +1,1175 @@
+{
+  "result": {
+    "resource": {
+      "ip": "151.101.193.140",
+      "location": {
+        "continent": "North America",
+        "country": "United States",
+        "country_code": "US",
+        "city": "San Francisco",
+        "postal_code": "94107",
+        "timezone": "America/Los_Angeles",
+        "province": "California",
+        "coordinates": {
+          "latitude": 37.7621,
+          "longitude": -122.3971
+        }
+      },
+      "autonomous_system": {
+        "asn": 54113,
+        "description": "FASTLY - Fastly, Inc.",
+        "bgp_prefix": "151.101.192.0/22",
+        "name": "FASTLY - Fastly, Inc.",
+        "country_code": "US"
+      },
+      "whois": {
+        "network": {
+          "handle": "SKYCA-3",
+          "name": "Fastly, Inc.",
+          "cidrs": [
+            "151.101.0.0/16"
+          ],
+          "created": "2016-02-01T00:00:00Z",
+          "updated": "2021-12-14T00:00:00Z",
+          "allocation_type": "ALLOCATION"
+        },
+        "organization": {
+          "handle": "SKYCA-3",
+          "name": "Fastly, Inc.",
+          "street": "PO Box 78266",
+          "city": "San Francisco",
+          "state": "CA",
+          "postal_code": "94107",
+          "country": "US",
+          "abuse_contacts": [
+            {
+              "handle": "ABUSE4771-ARIN",
+              "name": "Abuse Account",
+              "email": "abuse@fastly.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "FRA19-ARIN",
+              "name": "Fastly RIR Administrator",
+              "email": "rir-admin@fastly.com"
+            }
+          ],
+          "tech_contacts": [
+            {
+              "handle": "FRA19-ARIN",
+              "name": "Fastly RIR Administrator",
+              "email": "rir-admin@fastly.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "varnish_cache_project",
+              "product": "varnish_cache"
+            }
+          ],
+          "ip": "151.101.193.140",
+          "scan_time": "2026-02-13T11:51:02Z",
+          "endpoints": [
+            {
+              "hostname": "151.101.193.140",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T11:51:02Z",
+              "http": {
+                "uri": "http://151.101.193.140/",
+                "protocol": "HTTP/1.1",
+                "status_code": 500,
+                "status_reason": "Domain Not Found",
+                "headers": {
+                  "Accept-Ranges": {
+                    "headers": [
+                      "bytes"
+                    ]
+                  },
+                  "Cache-Control": {
+                    "headers": [
+                      "private, no-cache"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "276"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Retry-After": {
+                    "headers": [
+                      "0"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "Varnish"
+                    ]
+                  },
+                  "Via": {
+                    "headers": [
+                      "1.1 varnish"
+                    ]
+                  },
+                  "X-Served-By": {
+                    "headers": [
+                      "cache-fra-eddf8230023-FRA"
+                    ]
+                  },
+                  "content-type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>Fastly error: unknown domain 151.101.193.140</title>"
+                ],
+                "body_size": 276,
+                "body": "\n<html>\n<head>\n<title>Fastly error: unknown domain 151.101.193.140</title>\n</head>\n<body>\n<p>Fastly error: unknown domain: 151.101.193.140. Please check that this domain has been added to a service.</p>\n<p>Details: cache-fra-eddf8230023-FRA (151.101.193.140)</p></body></html>",
+                "html_title": "Fastly error: unknown domain 151.101.193.140",
+                "body_hash_sha256": "9aa8e2cad4377151b67dcadb9f676104abd1f610ac80e55ecb0b8a048db13151",
+                "body_hash_sha1": "22eac531d9e025b05121c860bde424bb77dfb3c2",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "151.101.193.140"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "UNKNOWN",
+          "transport_protocol": "quic",
+          "ip": "151.101.193.140",
+          "scan_time": "2026-02-13T11:32:35Z"
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "2e0c3940d686caf89b37ba5f51b616d5b6f080bdf393a3f1bc7d4e74bad6f5ac",
+            "fingerprint_sha1": "d5db3770c2812b10ce88195a820a2619f4c2f290",
+            "fingerprint_md5": "7abe45349b5d029926f602aa5eeda25a",
+            "tbs_fingerprint_sha256": "c48601e712b66024833195df627648520d39af7ecf60ea4c201156efd6313784",
+            "tbs_no_ct_fingerprint_sha256": "9ff71f9e475561892e7dcf8368b92ab2347291826c11215b7a540a5a8aebe642",
+            "spki_fingerprint_sha256": "ec42f78f23a5b6655655a397aa6a1495f9cb0bcba099a05a21c26ffde76a2e92",
+            "parent_spki_fingerprint_sha256": "f737aa26549dce01eb1dc2e8ce19ecb6692f4f439c946f3b7fae0b7abb3d87d7",
+            "parsed": {
+              "version": 3,
+              "serial_number": "3630603586044765782534744059424994301",
+              "issuer_dn": "C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+              "issuer": {
+                "common_name": [
+                  "DigiCert Global G2 TLS RSA SHA256 2020 CA1"
+                ],
+                "country": [
+                  "US"
+                ],
+                "organization": [
+                  "DigiCert Inc"
+                ]
+              },
+              "subject_dn": "C=US, ST=California, L=San Francisco, O=REDDIT\\, INC., CN=*.reddit.com",
+              "subject": {
+                "common_name": [
+                  "*.reddit.com"
+                ],
+                "country": [
+                  "US"
+                ],
+                "locality": [
+                  "San Francisco"
+                ],
+                "province": [
+                  "California"
+                ],
+                "organization": [
+                  "REDDIT, INC."
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "RSA",
+                  "oid": "1.2.840.113549.1.1.1"
+                },
+                "rsa": {
+                  "exponent": 65537,
+                  "modulus": "cfe99a54a3a41ae2292d458172b3a88b4cce2bbba2d73d9e696cf332d168ac031d1a7055f8865a42dc90e7ef867efd536ceac038a527b4ca7a96e35e0a5aee6520b396d7e43a993d78727d5d61143eba451422db055bbdd6c974118bdd5aca655251208a53b5cdd0d7af4522c94d29b73d786ab59f03bf444848e5dc430870281f02e9a7e5df6e3901246ce580a2017411de77aeca15550a16f8754556a754950d1ba2240175e73d94a28307c0db0047dd082e39cd58c6cc0f07870e1f9b1d65e00943a8fdad2c4daa366d868578dcb6b99ec558c51b6b789f28a15e595ff76c2fb04106459f17f69c5525377fb5fb5e2173db7bebb90c81350293d87297c207",
+                  "length": 2048
+                },
+                "fingerprint_sha256": "7a470157af55fa75a3d9abe02f72a8e98510d8e4c621659c4ccb35e20ec9b0c7"
+              },
+              "validity_period": {
+                "not_before": "2025-11-24T00:00:00Z",
+                "not_after": "2026-05-22T23:59:59Z",
+                "length_seconds": 15552000
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "SHA256-RSA",
+                  "oid": "1.2.840.113549.1.1.11"
+                },
+                "value": "534f3b84731ddf043336c63878a53b7b269e646d7700864de7d0eb53e3ac866469f6f166c6a1cbb9abb36929e6f21a15d3178a3233635fa049376c9d41147c2ffa3d3d1d7f2dea25af8e2c54ca73d6645408bdcb1a75d0b331e7960bffb20f3ab58a329e093cb23d5adf2f67ba92e3388f8aeda65f70fe43b1c624f73f5f65699a0934f858acc9e29120632997f7509ff14fc6b542350f9958c13d0a9213ba41d6b341bdef07857283e95165a7f7d5104989b2668f6afab154a0a5fc7a6a98242b8a2a56970c6f9e68355c64cfad66b2e44eceebd416dc398031e496076f3df9095ed7081790b254250b838a809b0870640d29b5b367816bf0bc9f6594cc4401",
+                "valid": true
+              },
+              "serial_number_hex": "02bb3a93b3c1ba707d7c3eca9f5ef3fd"
+            },
+            "names": [
+              "*.reddit.com",
+              "reddit.com"
+            ],
+            "validation_level": "ov",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "a0d609a7e3c434e878a9a1c1bd065b8dcf33aa7efee1b11bc75cce5e5a042080",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                  "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "0ba8c0d459b76abc0825294f565e24f4f169d4a4819d0692d371522d297724b8",
+                      "2399561127a57125de8cefea610ddf2fa078b5c8067f4e828290bfb860e84b3c"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                  "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "a0d609a7e3c434e878a9a1c1bd065b8dcf33aa7efee1b11bc75cce5e5a042080",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                  "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9",
+                      "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "6523c34f1e879add7603cb2048a898a5e2f0c6c4b512c0d22782b85d43ae3371",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "79d57b15dfa65c2870eafe11b637765909cfe937b49c15ce7f194030cab395ad",
+                      "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                      "a0d609a7e3c434e878a9a1c1bd065b8dcf33aa7efee1b11bc75cce5e5a042080",
+                      "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "1f8eb9e9a8e066cc5b3833e06b3129764b622639d5b163f600e1c79120bf3eed",
+                  "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 1112315465,
+                  "added_to_ct_at": "2025-11-24T04:07:10Z",
+                  "ct_to_censys_at": "2025-11-24T06:17:50Z"
+                },
+                "google_argon_2026_h1": {
+                  "index": 1033196380,
+                  "added_to_ct_at": "2025-11-24T04:07:10Z",
+                  "ct_to_censys_at": "2025-11-24T04:12:49Z"
+                },
+                "google_xenon_2026_h1": {
+                  "index": 1016849498,
+                  "added_to_ct_at": "2025-11-24T04:07:10Z",
+                  "ct_to_censys_at": "2025-11-24T04:14:00Z"
+                },
+                "letsencrypt_ct_oak_2026_h1": {
+                  "index": 537956539,
+                  "added_to_ct_at": "2025-11-27T11:47:11Z",
+                  "ct_to_censys_at": "2025-11-27T11:55:59Z"
+                },
+                "letsencrypt_ct_sycamore_2026_h1": {
+                  "index": 549262449,
+                  "added_to_ct_at": "2025-11-24T04:07:10Z",
+                  "ct_to_censys_at": "2025-12-15T22:56:10Z"
+                },
+                "letsencrypt_ct_willow_2026_h1": {
+                  "index": 557412486,
+                  "added_to_ct_at": "2025-11-24T04:07:10Z",
+                  "ct_to_censys_at": "2025-12-17T23:45:41Z"
+                },
+                "sectigo_elephant_2026_h1": {
+                  "index": 614487002,
+                  "added_to_ct_at": "2025-11-24T04:07:10Z",
+                  "ct_to_censys_at": "2025-11-24T04:13:07Z"
+                },
+                "sectigo_tiger_2026_h1": {
+                  "index": 539296612,
+                  "added_to_ct_at": "2025-11-24T04:07:10Z",
+                  "ct_to_censys_at": "2025-11-24T04:13:07Z"
+                },
+                "trustasia_log_2026_a": {
+                  "index": 174428713,
+                  "added_to_ct_at": "2025-11-27T11:33:11Z",
+                  "ct_to_censys_at": "2025-12-05T19:00:23Z"
+                },
+                "trustasia_log_2026_b": {
+                  "index": 146276940,
+                  "added_to_ct_at": "2025-11-24T04:07:14Z",
+                  "ct_to_censys_at": "2025-12-02T11:54:34Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2025-11-24T00:02:42Z",
+            "modified_at": "2025-12-17T23:45:41Z",
+            "validated_at": "2026-02-12T22:36:43Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "ec42f78f23a5b6655655a397aa6a1495f9cb0bcba099a05a21c26ffde76a2e92",
+            "parent_spki_subject_fingerprint_sha256": "f737aa26549dce01eb1dc2e8ce19ecb6692f4f439c946f3b7fae0b7abb3d87d7"
+          },
+          "ip": "151.101.193.140",
+          "scan_time": "2026-02-13T04:13:50Z",
+          "tls": {
+            "fingerprint_sha256": "2e0c3940d686caf89b37ba5f51b616d5b6f080bdf393a3f1bc7d4e74bad6f5ac",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "c8025f9fc65fdfc95b3ca8cc7867b9a587b5277973957917463fc813d0b625a9",
+                "subject_dn": "C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+                "issuer_dn": "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root G2"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "151.101.193.140",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T04:13:50Z",
+              "http": {
+                "uri": "https://151.101.193.140/",
+                "protocol": "HTTP/1.1",
+                "status_code": 421,
+                "status_reason": "Misdirected Request",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "291"
+                    ]
+                  },
+                  "content-type": {
+                    "headers": [
+                      "text/plain; charset=utf-8"
+                    ]
+                  },
+                  "x-served-by": {
+                    "headers": [
+                      "cache-bom-vanm7210093"
+                    ]
+                  }
+                },
+                "body_size": 291,
+                "body": "Requested host does not match any Subject Alternative Names (SANs) on TLS certificate [2712fc3984351c29c6317aed9ba1dca0e802cd3c98739cc58af032a8edb9c122] in use with this connection.\r\n\r\nVisit https://www.fastly.com/documentation/guides/concepts/errors/#routing-errors for more information.\r\n\r",
+                "body_hash_sha256": "d5a38920e3c67f379d648b28dd6d9103ef62beda909a7e99de193bf7b2d48bc4",
+                "body_hash_sha1": "2805519dd50706d042fbc3927bfd87b86aadd89c",
+                "supported_versions": [
+                  "HTTP/1.1",
+                  "HTTP/2"
+                ]
+              },
+              "ip": "151.101.193.140"
+            }
+          ]
+        }
+      ],
+      "service_count": 3,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-02-06T19:30:02Z"
+        },
+        "names": [
+          "6n640c39t.reddit.map.fastly.net",
+          "preview.redd.it",
+          "v.redd.it",
+          "muszle.muszle.reddit.com",
+          "mustyfeller.reddit.com",
+          "muslimheritageincroydon.reddit.com",
+          "segsin.reddit.com",
+          "mastercardapi.reddit.com",
+          "architecture.lucien.reddit.com",
+          "masteraccounts.reddit.com",
+          "mormo.reddit.com",
+          "www.myinterestingfacts.reddit.com",
+          "mortgage-partners.reddit.com",
+          "www.plentysms.reddit.com",
+          "www.mortezaking.reddit.com",
+          "sce.ami.reddit.com",
+          "ntami.ami.reddit.com",
+          "multi-wp.reddit.com",
+          "myrgorod.reddit.com",
+          "www.me.physik.reddit.com",
+          "jma.msl.reddit.com",
+          "mxout1a.reddit.com",
+          "mail.mteducare.reddit.com",
+          "www.myhouseofads.reddit.com",
+          "loui.reddit.com",
+          "stewartengineering.reddit.com",
+          "ns2.hghsting.reddit.com",
+          "movitraderr3.reddit.com",
+          "multi-ssl.reddit.com",
+          "ocsext.gtri.reddit.com",
+          "stevictoire.reddit.com",
+          "www.stevew.reddit.com",
+          "www.stevestireandauto.reddit.com",
+          "mqsfa1t0.reddit.com",
+          "zutravdihost03.reddit.com",
+          "nygindapxnp11-o.us.reddit.com",
+          "zennapp.reddit.com",
+          "nuclear.energy.reddit.com",
+          "unknown-95-46.reddit.com",
+          "www.muscle-building.reddit.com",
+          "zakioka.reddit.com",
+          "www.zoneclientv2.reddit.com",
+          "web4052-outgoing.reddit.com",
+          "teplitsy-parniki.reddit.com",
+          "m2kor-p236.reddit.com",
+          "www.musikschule.reddit.com",
+          "maclabor-server.musik.reddit.com",
+          "web4052-oracle.reddit.com",
+          "zakiber2.reddit.com",
+          "staffapi.reddit.com",
+          "amsserver.musicsystems.reddit.com",
+          "myifp.reddit.com",
+          "musicrx.reddit.com",
+          "www.zakgearcalculator.reddit.com",
+          "musicrow.reddit.com",
+          "mta7.z.reddit.com",
+          "svn.staff.reddit.com",
+          "searchsummary.gql.reddit.com",
+          "staex4.staff.reddit.com",
+          "www.1blades.reddit.com",
+          "www.ampsso-tmpbi.reddit.com",
+          "moviestreamingmovies.reddit.com",
+          "login-rct.reddit.com",
+          "movingtothefront.reddit.com",
+          "mqrcos.reddit.com",
+          "movecu.reddit.com",
+          "zacmx.reddit.com",
+          "zaneluca.reddit.com",
+          "mqm.reddit.com",
+          "mshda4.reddit.com",
+          "mskopek.reddit.com",
+          "persitkopassus.reddit.com",
+          "matkahuolto.reddit.com",
+          "mskan-in-02.reddit.com",
+          "persistent-kitten-21.reddit.com",
+          "mtdlocal.reddit.com",
+          "tentareg.reddit.com",
+          "www.persis24.reddit.com",
+          "mshd.reddit.com",
+          "mqleg9p0-mqlegwp0.reddit.com",
+          "www.maddstoves.reddit.com",
+          "psihofocus.reddit.com",
+          "www.moveart.reddit.com",
+          "mahesms.reddit.com",
+          "www.unserischuel.reddit.com",
+          "www.office.maastricht.reddit.com",
+          "www.tenshi.reddit.com",
+          "tolexhub2.mudhens.reddit.com",
+          "mudancasandrade.reddit.com",
+          "movingbutterflies.reddit.com",
+          "mysql07.stylistkabydgoszcz.reddit.com",
+          "uhcservices-stage2-elr.reddit.com",
+          "stylisheveoutfits.reddit.com",
+          "mdev4gw.reddit.com",
+          "www.unadeca.reddit.com",
+          "statsswf.reddit.com",
+          "msdskypesql.reddit.com",
+          "storage.local.reddit.com",
+          "safaa.reddit.com",
+          "exctorcasarray.monad.reddit.com"
+        ],
+        "forward_dns": {
+          "6n640c39t.reddit.map.fastly.net": {
+            "resolve_time": "2026-02-11T22:09:42Z",
+            "name": "6n640c39t.reddit.map.fastly.net",
+            "record_type": "a"
+          },
+          "amsserver.musicsystems.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "amsserver.musicsystems.reddit.com",
+            "record_type": "a"
+          },
+          "architecture.lucien.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:05Z",
+            "name": "architecture.lucien.reddit.com",
+            "record_type": "a"
+          },
+          "exctorcasarray.monad.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "exctorcasarray.monad.reddit.com",
+            "record_type": "a"
+          },
+          "jma.msl.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:03Z",
+            "name": "jma.msl.reddit.com",
+            "record_type": "a"
+          },
+          "login-rct.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "login-rct.reddit.com",
+            "record_type": "a"
+          },
+          "loui.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:03Z",
+            "name": "loui.reddit.com",
+            "record_type": "a"
+          },
+          "m2kor-p236.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "m2kor-p236.reddit.com",
+            "record_type": "a"
+          },
+          "maclabor-server.musik.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "maclabor-server.musik.reddit.com",
+            "record_type": "a"
+          },
+          "mahesms.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "mahesms.reddit.com",
+            "record_type": "a"
+          },
+          "mail.mteducare.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:03Z",
+            "name": "mail.mteducare.reddit.com",
+            "record_type": "a"
+          },
+          "masteraccounts.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:04Z",
+            "name": "masteraccounts.reddit.com",
+            "record_type": "a"
+          },
+          "mastercardapi.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:06Z",
+            "name": "mastercardapi.reddit.com",
+            "record_type": "a"
+          },
+          "matkahuolto.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "matkahuolto.reddit.com",
+            "record_type": "a"
+          },
+          "mdev4gw.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "mdev4gw.reddit.com",
+            "record_type": "a"
+          },
+          "mormo.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:04Z",
+            "name": "mormo.reddit.com",
+            "record_type": "a"
+          },
+          "mortgage-partners.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:04Z",
+            "name": "mortgage-partners.reddit.com",
+            "record_type": "a"
+          },
+          "movecu.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "movecu.reddit.com",
+            "record_type": "a"
+          },
+          "moviestreamingmovies.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "moviestreamingmovies.reddit.com",
+            "record_type": "a"
+          },
+          "movingbutterflies.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "movingbutterflies.reddit.com",
+            "record_type": "a"
+          },
+          "movingtothefront.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "movingtothefront.reddit.com",
+            "record_type": "a"
+          },
+          "movitraderr3.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:03Z",
+            "name": "movitraderr3.reddit.com",
+            "record_type": "a"
+          },
+          "mqleg9p0-mqlegwp0.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "mqleg9p0-mqlegwp0.reddit.com",
+            "record_type": "a"
+          },
+          "mqm.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "mqm.reddit.com",
+            "record_type": "a"
+          },
+          "mqrcos.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "mqrcos.reddit.com",
+            "record_type": "a"
+          },
+          "mqsfa1t0.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:03Z",
+            "name": "mqsfa1t0.reddit.com",
+            "record_type": "a"
+          },
+          "msdskypesql.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "msdskypesql.reddit.com",
+            "record_type": "a"
+          },
+          "mshd.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "mshd.reddit.com",
+            "record_type": "a"
+          },
+          "mshda4.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "mshda4.reddit.com",
+            "record_type": "a"
+          },
+          "mskan-in-02.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "mskan-in-02.reddit.com",
+            "record_type": "a"
+          },
+          "mskopek.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "mskopek.reddit.com",
+            "record_type": "a"
+          },
+          "mta7.z.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "mta7.z.reddit.com",
+            "record_type": "a"
+          },
+          "mtdlocal.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "mtdlocal.reddit.com",
+            "record_type": "a"
+          },
+          "mudancasandrade.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "mudancasandrade.reddit.com",
+            "record_type": "a"
+          },
+          "multi-ssl.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:03Z",
+            "name": "multi-ssl.reddit.com",
+            "record_type": "a"
+          },
+          "multi-wp.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:03Z",
+            "name": "multi-wp.reddit.com",
+            "record_type": "a"
+          },
+          "musicrow.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "musicrow.reddit.com",
+            "record_type": "a"
+          },
+          "musicrx.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "musicrx.reddit.com",
+            "record_type": "a"
+          },
+          "muslimheritageincroydon.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:07Z",
+            "name": "muslimheritageincroydon.reddit.com",
+            "record_type": "a"
+          },
+          "mustyfeller.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:08Z",
+            "name": "mustyfeller.reddit.com",
+            "record_type": "a"
+          },
+          "muszle.muszle.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:09Z",
+            "name": "muszle.muszle.reddit.com",
+            "record_type": "a"
+          },
+          "mxout1a.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:03Z",
+            "name": "mxout1a.reddit.com",
+            "record_type": "a"
+          },
+          "myifp.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "myifp.reddit.com",
+            "record_type": "a"
+          },
+          "myrgorod.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:03Z",
+            "name": "myrgorod.reddit.com",
+            "record_type": "a"
+          },
+          "mysql07.stylistkabydgoszcz.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "mysql07.stylistkabydgoszcz.reddit.com",
+            "record_type": "a"
+          },
+          "ns2.hghsting.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:03Z",
+            "name": "ns2.hghsting.reddit.com",
+            "record_type": "a"
+          },
+          "ntami.ami.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:03Z",
+            "name": "ntami.ami.reddit.com",
+            "record_type": "a"
+          },
+          "nuclear.energy.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:03Z",
+            "name": "nuclear.energy.reddit.com",
+            "record_type": "a"
+          },
+          "nygindapxnp11-o.us.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:03Z",
+            "name": "nygindapxnp11-o.us.reddit.com",
+            "record_type": "a"
+          },
+          "ocsext.gtri.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:03Z",
+            "name": "ocsext.gtri.reddit.com",
+            "record_type": "a"
+          },
+          "persistent-kitten-21.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "persistent-kitten-21.reddit.com",
+            "record_type": "a"
+          },
+          "persitkopassus.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "persitkopassus.reddit.com",
+            "record_type": "a"
+          },
+          "preview.redd.it": {
+            "resolve_time": "2026-02-11T14:38:54Z",
+            "name": "preview.redd.it",
+            "record_type": "a"
+          },
+          "psihofocus.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "psihofocus.reddit.com",
+            "record_type": "a"
+          },
+          "safaa.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "safaa.reddit.com",
+            "record_type": "a"
+          },
+          "sce.ami.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:04Z",
+            "name": "sce.ami.reddit.com",
+            "record_type": "a"
+          },
+          "searchsummary.gql.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "searchsummary.gql.reddit.com",
+            "record_type": "a"
+          },
+          "segsin.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:06Z",
+            "name": "segsin.reddit.com",
+            "record_type": "a"
+          },
+          "staex4.staff.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "staex4.staff.reddit.com",
+            "record_type": "a"
+          },
+          "staffapi.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "staffapi.reddit.com",
+            "record_type": "a"
+          },
+          "statsswf.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "statsswf.reddit.com",
+            "record_type": "a"
+          },
+          "stevictoire.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:03Z",
+            "name": "stevictoire.reddit.com",
+            "record_type": "a"
+          },
+          "stewartengineering.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:03Z",
+            "name": "stewartengineering.reddit.com",
+            "record_type": "a"
+          },
+          "storage.local.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "storage.local.reddit.com",
+            "record_type": "a"
+          },
+          "stylisheveoutfits.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "stylisheveoutfits.reddit.com",
+            "record_type": "a"
+          },
+          "svn.staff.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "svn.staff.reddit.com",
+            "record_type": "a"
+          },
+          "tentareg.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "tentareg.reddit.com",
+            "record_type": "a"
+          },
+          "teplitsy-parniki.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "teplitsy-parniki.reddit.com",
+            "record_type": "a"
+          },
+          "tolexhub2.mudhens.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "tolexhub2.mudhens.reddit.com",
+            "record_type": "a"
+          },
+          "uhcservices-stage2-elr.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "uhcservices-stage2-elr.reddit.com",
+            "record_type": "a"
+          },
+          "unknown-95-46.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:03Z",
+            "name": "unknown-95-46.reddit.com",
+            "record_type": "a"
+          },
+          "v.redd.it": {
+            "resolve_time": "2026-02-11T14:38:52Z",
+            "name": "v.redd.it",
+            "record_type": "a"
+          },
+          "web4052-oracle.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "web4052-oracle.reddit.com",
+            "record_type": "a"
+          },
+          "web4052-outgoing.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "web4052-outgoing.reddit.com",
+            "record_type": "a"
+          },
+          "www.1blades.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "www.1blades.reddit.com",
+            "record_type": "a"
+          },
+          "www.ampsso-tmpbi.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "www.ampsso-tmpbi.reddit.com",
+            "record_type": "a"
+          },
+          "www.maddstoves.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "www.maddstoves.reddit.com",
+            "record_type": "a"
+          },
+          "www.me.physik.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:03Z",
+            "name": "www.me.physik.reddit.com",
+            "record_type": "a"
+          },
+          "www.mortezaking.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:04Z",
+            "name": "www.mortezaking.reddit.com",
+            "record_type": "a"
+          },
+          "www.moveart.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "www.moveart.reddit.com",
+            "record_type": "a"
+          },
+          "www.muscle-building.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "www.muscle-building.reddit.com",
+            "record_type": "a"
+          },
+          "www.musikschule.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "www.musikschule.reddit.com",
+            "record_type": "a"
+          },
+          "www.myhouseofads.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:03Z",
+            "name": "www.myhouseofads.reddit.com",
+            "record_type": "a"
+          },
+          "www.myinterestingfacts.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:04Z",
+            "name": "www.myinterestingfacts.reddit.com",
+            "record_type": "a"
+          },
+          "www.office.maastricht.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "www.office.maastricht.reddit.com",
+            "record_type": "a"
+          },
+          "www.persis24.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "www.persis24.reddit.com",
+            "record_type": "a"
+          },
+          "www.plentysms.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:04Z",
+            "name": "www.plentysms.reddit.com",
+            "record_type": "a"
+          },
+          "www.stevestireandauto.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:03Z",
+            "name": "www.stevestireandauto.reddit.com",
+            "record_type": "a"
+          },
+          "www.stevew.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:03Z",
+            "name": "www.stevew.reddit.com",
+            "record_type": "a"
+          },
+          "www.tenshi.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "www.tenshi.reddit.com",
+            "record_type": "a"
+          },
+          "www.unadeca.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "www.unadeca.reddit.com",
+            "record_type": "a"
+          },
+          "www.unserischuel.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "www.unserischuel.reddit.com",
+            "record_type": "a"
+          },
+          "www.zakgearcalculator.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "www.zakgearcalculator.reddit.com",
+            "record_type": "a"
+          },
+          "www.zoneclientv2.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "www.zoneclientv2.reddit.com",
+            "record_type": "a"
+          },
+          "zacmx.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "zacmx.reddit.com",
+            "record_type": "a"
+          },
+          "zakiber2.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "zakiber2.reddit.com",
+            "record_type": "a"
+          },
+          "zakioka.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "zakioka.reddit.com",
+            "record_type": "a"
+          },
+          "zaneluca.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:02Z",
+            "name": "zaneluca.reddit.com",
+            "record_type": "a"
+          },
+          "zennapp.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:03Z",
+            "name": "zennapp.reddit.com",
+            "record_type": "a"
+          },
+          "zutravdihost03.reddit.com": {
+            "resolve_time": "2026-02-11T12:40:03Z",
+            "name": "zutravdihost03.reddit.com",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

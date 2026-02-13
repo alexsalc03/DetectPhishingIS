@@ -1,0 +1,811 @@
+{
+  "result": {
+    "resource": {
+      "ip": "89.221.239.1",
+      "location": {
+        "continent": "Europe",
+        "country": "Russia",
+        "country_code": "RU",
+        "city": "Moscow",
+        "postal_code": "101000",
+        "timezone": "Europe/Moscow",
+        "province": "Moscow",
+        "coordinates": {
+          "latitude": 55.75204,
+          "longitude": 37.61781
+        }
+      },
+      "autonomous_system": {
+        "asn": 47764,
+        "description": "VK-AS",
+        "bgp_prefix": "89.221.236.0/22",
+        "name": "VK-AS",
+        "country_code": "RU"
+      },
+      "whois": {
+        "network": {
+          "handle": "RU-NETBRIDGE-20061011",
+          "name": "VK Services",
+          "cidrs": [
+            "89.221.228.0/22",
+            "89.221.232.0/21"
+          ],
+          "created": "2023-06-23T00:00:00Z",
+          "updated": "2023-08-30T00:00:00Z"
+        },
+        "organization": {
+          "handle": "ORG-LLCN4-RIPE",
+          "name": "LLC VK",
+          "address": "Leningradskiy prospect, 39, build 79, SkyLight\\n125167\\nMoscow\\nRUSSIAN FEDERATION",
+          "abuse_contacts": [
+            {
+              "handle": "MAIL-RU",
+              "name": "VK NOC",
+              "email": "noc@corp.mail.ru"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "f5",
+              "product": "nginx"
+            }
+          ],
+          "ip": "89.221.239.1",
+          "scan_time": "2026-02-12T21:54:03Z",
+          "endpoints": [
+            {
+              "hostname": "89.221.239.1",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-12T21:54:03Z",
+              "http": {
+                "uri": "http://89.221.239.1/",
+                "protocol": "HTTP/1.1",
+                "status_code": 301,
+                "status_reason": "Moved Permanently",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "169"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Location": {
+                    "headers": [
+                      "https://89.221.239.1/"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "nginx/1.26.2"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>301 Moved Permanently</title>"
+                ],
+                "body_size": 169,
+                "body": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently</h1></center>\r\n<hr><center>nginx/1.26.2</center>\r\n</body>\r\n</html>\r\n",
+                "html_title": "301 Moved Permanently",
+                "body_hash_sha256": "c3c9c8654de1babbf8efba986f0e929283946376440ef79776108d3a88fcdc3c",
+                "body_hash_sha1": "3a0dba54ac77b023e39a0eba16b1ede9c755e431",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "89.221.239.1"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "00bcb5313b559c6861db158027db36a7d8423e59d5b2d964989881a2fab471ed",
+            "fingerprint_sha1": "970394dbf45a03dfd3281e9c6152a66594ac0036",
+            "fingerprint_md5": "3d232b0f4997a57db2e40730b91c7639",
+            "tbs_fingerprint_sha256": "2949713c76c238a574ef25fdb9a98d53d0e37fd1260651b607e1c738312e3bf0",
+            "tbs_no_ct_fingerprint_sha256": "44b3d9c8c2324ed7f60800a21cc19ecfb20b8ce0c5e40cf56d016c733cf501e3",
+            "spki_fingerprint_sha256": "5b1e47e136ddea616edd98dd56eaa304d75e08417817fc1f1965b8d73d49b987",
+            "parent_spki_fingerprint_sha256": "d3ba3ff35494ad41c28875304b6e6e49b9ff3a420b09a76a16d3672d297d371e",
+            "parsed": {
+              "version": 3,
+              "serial_number": "8243265291308857625145590488",
+              "issuer_dn": "C=BE, O=GlobalSign nv-sa, CN=GlobalSign RSA OV SSL CA 2018",
+              "issuer": {
+                "common_name": [
+                  "GlobalSign RSA OV SSL CA 2018"
+                ],
+                "country": [
+                  "BE"
+                ],
+                "organization": [
+                  "GlobalSign nv-sa"
+                ]
+              },
+              "subject_dn": "C=RU, ST=Moscow, L=Moscow, O=VK LLC, CN=*.mail.ru",
+              "subject": {
+                "common_name": [
+                  "*.mail.ru"
+                ],
+                "country": [
+                  "RU"
+                ],
+                "locality": [
+                  "Moscow"
+                ],
+                "province": [
+                  "Moscow"
+                ],
+                "organization": [
+                  "VK LLC"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "RSA",
+                  "oid": "1.2.840.113549.1.1.1"
+                },
+                "rsa": {
+                  "exponent": 65537,
+                  "modulus": "be5852a0012b5d5651fdc60ef09a919f9f9bcaabac26b3942436c36eeee139613de5fa7d6300d3c60de234abb1b22d6c8d5f9f14982322a3c8b68851ae09a8c808b57076f5cf4dd86329374d8659d609734cf2651fad6c41cbc8aa8bab949c0681ea922c6b530f3affe4cf74d27a38ed69b05cdbb3c5482b77d700a7998b6d2cbb2775962250b64575472f4585311af7108c764a1098100766f0225cfe2fef7907215cd7ada8b6c1c2bc6312709f8c81408304c6439354d3344259a4e2dcbf274693d725bbb77144bd970a920d432c27bf6721b17ba0a883216cd28e5a64e18e215751cc584b5d7e39ec41f31600002d2ca7c75f4974fce1502e64973dcd5525",
+                  "length": 2048
+                },
+                "fingerprint_sha256": "09b792e4ec1a21c598e03a263f452ab1dbc2cb1fb8db96e1ed74b545f73c0811"
+              },
+              "validity_period": {
+                "not_before": "2025-10-21T12:52:03Z",
+                "not_after": "2026-11-22T12:52:02Z",
+                "length_seconds": 34300800
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "SHA256-RSA",
+                  "oid": "1.2.840.113549.1.1.11"
+                },
+                "value": "a6be3d78b07f541c8ef06d0c10af73488fedc8ca5f9d1bd501a7b1ad8e7988ca360f3439dec723a25778b5ef453f2390531b4b7db0533e673115048c7e2ba63ff1840da5d880fa6c5d7c84dc959c0d91bfb02d4f3869af15c74cb1b5983cc08ec12b77f650c0f97413a7a2e644d437214df98a58e0bcb3ea5657ac567591be45896e2423b6d528a0b8f1cf19d6cca183cd7f368a2a85cd96e7b5d8ae781f105f034ed859f4ddd79adb14d5366bfa421c69d7ef91a17837990af1a67a606c0d4f78a492dbddf9c5a837c6897af21fdbdb9f4ae9f853ee325c76d510d29dd8d5ae48f7f58793f069ff9890a76275fbffb79fa00e4a7866372683f82945eceec12e",
+                "valid": true
+              },
+              "serial_number_hex": "1aa2ab52dc4e5fe1764542d8"
+            },
+            "names": [
+              "*.mail.ru",
+              "bk.ru",
+              "inbox.ru",
+              "list.ru",
+              "mail.ru",
+              "xn--i1aeb2e.xn--p1ai"
+            ],
+            "validation_level": "ov",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "b676ffa3179e8812093a1b5eafee876ae7a6aaf231078dad1bfb21cd2893764a",
+                      "cbb522d7b7f127ad6a0113865bdf1cd4102e7d0759af635a7cf4720dc963c53b"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "b676ffa3179e8812093a1b5eafee876ae7a6aaf231078dad1bfb21cd2893764a",
+                      "445eec78bc61215044a0379656aa2d5db5e42f76cb70b8d14c2077aa943d4ebb",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "b676ffa3179e8812093a1b5eafee876ae7a6aaf231078dad1bfb21cd2893764a",
+                      "c94fedda4e8608908580bc7f87b434e03bb262e42f64c63820a8f50fb17c1cec",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "b676ffa3179e8812093a1b5eafee876ae7a6aaf231078dad1bfb21cd2893764a"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "b676ffa3179e8812093a1b5eafee876ae7a6aaf231078dad1bfb21cd2893764a",
+                      "cbb522d7b7f127ad6a0113865bdf1cd4102e7d0759af635a7cf4720dc963c53b"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "b676ffa3179e8812093a1b5eafee876ae7a6aaf231078dad1bfb21cd2893764a",
+                      "445eec78bc61215044a0379656aa2d5db5e42f76cb70b8d14c2077aa943d4ebb",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "b676ffa3179e8812093a1b5eafee876ae7a6aaf231078dad1bfb21cd2893764a",
+                      "c94fedda4e8608908580bc7f87b434e03bb262e42f64c63820a8f50fb17c1cec",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "b676ffa3179e8812093a1b5eafee876ae7a6aaf231078dad1bfb21cd2893764a"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "b676ffa3179e8812093a1b5eafee876ae7a6aaf231078dad1bfb21cd2893764a",
+                      "cbb522d7b7f127ad6a0113865bdf1cd4102e7d0759af635a7cf4720dc963c53b"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "b676ffa3179e8812093a1b5eafee876ae7a6aaf231078dad1bfb21cd2893764a",
+                      "445eec78bc61215044a0379656aa2d5db5e42f76cb70b8d14c2077aa943d4ebb",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "b676ffa3179e8812093a1b5eafee876ae7a6aaf231078dad1bfb21cd2893764a",
+                      "c94fedda4e8608908580bc7f87b434e03bb262e42f64c63820a8f50fb17c1cec",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "b676ffa3179e8812093a1b5eafee876ae7a6aaf231078dad1bfb21cd2893764a"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "b676ffa3179e8812093a1b5eafee876ae7a6aaf231078dad1bfb21cd2893764a",
+                      "cbb522d7b7f127ad6a0113865bdf1cd4102e7d0759af635a7cf4720dc963c53b"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "b676ffa3179e8812093a1b5eafee876ae7a6aaf231078dad1bfb21cd2893764a"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {}
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 844773786,
+                  "added_to_ct_at": "2025-11-06T14:56:40Z",
+                  "ct_to_censys_at": "2025-11-06T16:52:56Z"
+                },
+                "google_argon_2026_h2": {
+                  "index": 180131079,
+                  "added_to_ct_at": "2025-10-23T17:35:11Z",
+                  "ct_to_censys_at": "2025-10-23T17:43:03Z"
+                },
+                "google_xenon_2026_h2": {
+                  "index": 135104652,
+                  "added_to_ct_at": "2025-10-23T17:35:11Z",
+                  "ct_to_censys_at": "2025-10-23T17:40:34Z"
+                },
+                "letsencrypt_ct_oak_2026_h2": {
+                  "index": 117506979,
+                  "added_to_ct_at": "2025-11-06T14:56:39Z",
+                  "ct_to_censys_at": "2025-11-06T15:02:04Z"
+                },
+                "letsencrypt_ct_sycamore_2026_h2": {
+                  "index": 22194497,
+                  "added_to_ct_at": "2025-11-06T14:56:44Z",
+                  "ct_to_censys_at": "2025-12-12T18:19:16Z"
+                },
+                "letsencrypt_ct_willow_2026_h2": {
+                  "index": 22191046,
+                  "added_to_ct_at": "2025-11-06T14:56:44Z",
+                  "ct_to_censys_at": "2025-12-12T19:58:00Z"
+                },
+                "sectigo_elephant_2026_h2": {
+                  "index": 77098876,
+                  "added_to_ct_at": "2025-10-23T17:35:12Z",
+                  "ct_to_censys_at": "2025-10-23T17:43:39Z"
+                },
+                "sectigo_tiger_2026_h2": {
+                  "index": 75261698,
+                  "added_to_ct_at": "2025-10-23T17:35:12Z",
+                  "ct_to_censys_at": "2025-10-23T17:49:42Z"
+                },
+                "trustasia_log_2026_a": {
+                  "index": 137486254,
+                  "added_to_ct_at": "2025-11-23T16:30:35Z",
+                  "ct_to_censys_at": "2025-12-01T18:54:37Z"
+                },
+                "trustasia_log_2026_b": {
+                  "index": 123369449,
+                  "added_to_ct_at": "2025-11-21T02:40:55Z",
+                  "ct_to_censys_at": "2025-11-27T00:23:51Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2025-10-22T14:33:15Z",
+            "modified_at": "2025-12-12T19:58:01Z",
+            "validated_at": "2026-02-13T00:03:18Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "5b1e47e136ddea616edd98dd56eaa304d75e08417817fc1f1965b8d73d49b987",
+            "parent_spki_subject_fingerprint_sha256": "d3ba3ff35494ad41c28875304b6e6e49b9ff3a420b09a76a16d3672d297d371e"
+          },
+          "software": [
+            {
+              "vendor": "f5",
+              "product": "nginx"
+            }
+          ],
+          "ip": "89.221.239.1",
+          "scan_time": "2026-02-13T12:53:02Z",
+          "tls": {
+            "fingerprint_sha256": "00bcb5313b559c6861db158027db36a7d8423e59d5b2d964989881a2fab471ed",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "b676ffa3179e8812093a1b5eafee876ae7a6aaf231078dad1bfb21cd2893764a",
+                "subject_dn": "C=BE, O=GlobalSign nv-sa, CN=GlobalSign RSA OV SSL CA 2018",
+                "issuer_dn": "OU=GlobalSign Root CA - R3, O=GlobalSign, CN=GlobalSign"
+              },
+              {
+                "fingerprint_sha256": "cbb522d7b7f127ad6a0113865bdf1cd4102e7d0759af635a7cf4720dc963c53b",
+                "subject_dn": "OU=GlobalSign Root CA - R3, O=GlobalSign, CN=GlobalSign",
+                "issuer_dn": "OU=GlobalSign Root CA - R3, O=GlobalSign, CN=GlobalSign"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "89.221.239.1",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T12:53:02Z",
+              "http": {
+                "uri": "https://89.221.239.1/",
+                "protocol": "HTTP/1.1",
+                "status_code": 302,
+                "status_reason": "Found",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Security-Policy": {
+                    "headers": [
+                      "base-uri 'self'; connect-src https://*.adlooxtracking.com https://*.adlooxtracking.ru https://*.adsafeprotected.com https://*.cold-video.dzeninfra.ru https://*.doubleverify.com https://*.dzen.ru https://*.extcdn.dzeninfra.ru https://*.gstatic.com https://*.hot-video.dzeninfra.ru https://*.imgsmail.ru https://*.mail.ru https://*.moatads.com https://*.mradx.net https://*.mycdn.me https://*.odkl.ru https://*.ok.ru https://*.okcdn.ru https://api.rustore.ru https://*.serving-sys.com https://*.serving-sys.ru https://*.vk.com https://*.vk.ru https://*.vkuser.net https://*.vkuserphoto.ru https://*.weborama-tech.ru https://*.weborama.fr https://an.yandex.ru https://avatars.dzeninfra.ru https://b.delivery.consentmanager.net https://cdn.consentmanager.mgr.consensu.org https://cdn.consentmanager.net https://cdn.dzen.ru https://cold-video.dzeninfra.ru https://consentmanager.mgr.consensu.org https://home.cdn-vk.ru https://dzen.ru https://home.mrgcdn.ru https://jstracer.yandex.ru https://log.strm.yandex.ru https://mail.ru https://mc.yandex.by https://mc.yandex.com https://mc.yandex.fr https://mc.yandex.kz https://mc.yandex.md https://mc.yandex.ru https://mc.yandex.uz https://ok.ru https://playlog.dzen.ru https://sdk-api.apptracer.ru https://s3.dzeninfra.ru https://static.dzeninfra.ru https://strm.yandex.ru https://telemetry.dzen.ru https://verify.yandex.ru https://video.dzen.ru https://vk.com https://vk.ru https://yandex.ru https://www.google-analytics.com https://yandex.st https://yastat.net https://yastatic.net https://*.strm.yandex.net https://ymetrica1.com https://csp.yandex.net https://zen-int.dzeninfra.ru; default-src 'none'; font-src blob: data: https://*.imgsmail.ru https://*.mail.ru https://*.mradx.net https://an.yandex.ru https://static.dzeninfra.ru https://yastat.net https://yastatic.net 'self'; form-action https://account.mail.ru https://auth.mail.ru https://e.mail.ru https://yandex.ru https://widgets.mail.ru 'self'; frame-src https://*.doubleverify.com https://*.imgsmail.ru https://*.mail.ru https://*.mradx.net https://*.ok.ru https://*.vk.com https://*.vk.ru https://*.yandex.ru https://app.appsflyer.com https://awaps.yandex.net https://mail.ru https://mc.yandex.by https://mc.yandex.com https://mc.yandex.fr https://mc.yandex.kz https://mc.yandex.md https://mc.yandex.ru https://mc.yandex.uz https://mini.vkplay.ru https://ok.ru https://vk.com https://vk.ru https://vkvideo.ru https://yandex.ru https://yastat.net https://yastatic.net https://widgets.mail.ru https://forms.cdn-vk.ru; img-src blob: data: https://*.mail.ru https://*.okcdn.ru https://*.radar.imgsmail.ru https://*.targetads.io https://*.vkuserphoto.ru https://static.rustore.ru https://*.userapi.com https://*.zen.zeta.dzen.ru https://presizer.imgsmail.ru https://promoimages.datacloudmail.ru https://promoimages.hb.ru-msk.vkcloud-storage.ru https://i.mycdn.me https://a.delivery.consentmanager.net https://ad.adriver.ru https://amc.yandex.ru https://an.yandex.ru https://avatars.dzeninfra.ru https://avatars.mds.yandex.net https://bs.serving-sys.com https://bs.serving-sys.ru https://bs.yandex.ru https://cdn.consentmanager.mgr.consensu.org https://cdn.consentmanager.net https://cdn.dzen.ru https://counter.yadro.ru https://d.mradx.net https://dzen.ru https://favicon.yandex.net https://fmdata.imgsmail.ru https://home.cdn-vk.ru https://home.imgsmail.ru https://img.imgsmail.ru https://imgs2.imgsmail.ru https://impression.appsflyer.com https://likemore-go.imgsmail.ru https://limg.imgsmail.ru https://mc.yandex.by https://mc.yandex.com https://mc.yandex.fr https://mc.yandex.kz https://mc.yandex.md https://mc.yandex.ru https://mc.yandex.uz https://mgcomru.solution.weborama.fr https://pixel.adlooxtracking.ru https://playlog.dzen.ru https://pogoda.imgsmail.ru https://promoimages.hb.bizmrg.com https://pulse.imgsmail.ru https://r.mradx.net https://s3.dzeninfra.ru https://static.dzeninfra.ru https://storage.mds.yandex.net https://verify.yandex.ru https://video.dzen.ru https://vkvideo.ru https://prod-backend.hb.bizmrg.com https://vk.com https://vk.ru https://vkplay.ru https://wcm-ru.frontend.weborama.fr https://wcm.weborama-tech.ru https://www.tns-counter.ru https://www.google-analytics.com https://www.googletagmanager.com https://yandex.ru https://yastatic.net 'self'; manifest-src https://limg.imgsmail.ru; media-src blob: data: https://*.cold-video.dzeninfra.ru https://*.extcdn.dzeninfra.ru https://*.hot-video.dzeninfra.ru https://*.imgsmail.ru https://*.mail.ru https://*.mradx.net https://*.ok.ru https://*.strm.yandex.ru https://*.vk.com https://*.vk.ru https://*.yandex.net https://cdn.dzen.ru https://cold-video.dzeninfra.ru https://home.cdn-vk.ru https://mail.ru https://ok.ru https://strm.yandex.ru https://video.dzen.ru https://vk.com https://vk.ru https://yandex.ru https://yandex.st https://yastat.net https://yastatic.net https://*.strm.yandex.net https://*.mycdn.me https://*.okcdn.ru https://*.vkuser.net https://*.targetads.io; script-src 'self' https://*.adlooxtracking.com https://*.adlooxtracking.ru https://*.adsafeprotected.com https://*.doubleverify.com https://*.imgsmail.ru https://*.mail.ru https://*.moatads.com https://*.mradx.net https://*.serving-sys.com https://*.serving-sys.ru https://*.vk.com https://*.vk.ru https://*.weborama-tech.ru https://*.weborama.fr https://an.yandex.ru https://b.delivery.consentmanager.net https://cdn.consentmanager.mgr.consensu.org https://cdn.consentmanager.net https://consentmanager.mgr.consensu.org https://home.cdn-vk.ru https://home.mrgcdn.ru https://iframe.s3.yandex.net https://mail.ru https://mc.yandex.by https://mc.yandex.com https://mc.yandex.fr https://mc.yandex.kz https://mc.yandex.md https://mc.yandex.ru https://mc.yandex.uz https://ok.ru https://st.mycdn.me https://st.okcdn.ru https://static.dzeninfra.ru https://vk.com https://vk.ru https://www.google-analytics.com https://ssl.google-analytics.com https://yandex.ru https://yandex.st https://yastat.net https://yastatic.net 'unsafe-eval' 'unsafe-inline' 'nonce-a72571f2d38c05a435ac6f26abf75d88' 'strict-dynamic' 'report-sample'; style-src 'self' blob: https://*.imgsmail.ru https://*.mail.ru https://*.mradx.net https://b.delivery.consentmanager.net https://cdn.consentmanager.mgr.consensu.org https://cdn.consentmanager.net https://consentmanager.mgr.consensu.org https://home.cdn-vk.ru https://home.mrgcdn.ru https://static.dzeninfra.ru https://yandex.st https://yastat.net https://yastatic.net 'unsafe-eval' 'unsafe-inline';  report-uri https://cspreport.mail.ru/home?disposition=report&rev=22.01.26;"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "nginx/1.26.2"
+                    ]
+                  },
+                  "Transfer-Encoding": {
+                    "headers": [
+                      "chunked"
+                    ]
+                  },
+                  "X-Content-Type-Options": {
+                    "headers": [
+                      "nosniff"
+                    ]
+                  },
+                  "X-ETime": {
+                    "headers": [
+                      "0.009"
+                    ]
+                  },
+                  "X-Host": {
+                    "headers": [
+                      "27.lf.home-release.pc.mrucl.ru"
+                    ]
+                  },
+                  "X-XSS-Protection": {
+                    "headers": [
+                      "1; mode=block; report=https://cspreport.mail.ru/xxssprotection"
+                    ]
+                  },
+                  "cache-control": {
+                    "headers": [
+                      "no-cache,no-store,must-revalidate"
+                    ]
+                  },
+                  "expires": {
+                    "headers": [
+                      "Thu, 13 Feb 2025 12:53:01 GMT"
+                    ]
+                  },
+                  "location": {
+                    "headers": [
+                      "https://login.vk.ru/?act=autologin&app_id=7539952&redirect_uri=https%3A%2F%2Faccount.mail.ru%2Flogin%3Fautologin_exp%3Dv22%26autologin_project%3Dhome%26page%3Dhttps%253A%252F%252F89.221.239.1%252F%253Fautologin%253D1770987181&state=81fc4e3f270648458944fb61ac7b6806&uuid=e4459a91-1cec-48bc-9390-bbc2f7e2d534&service_group=oid_4J9EE75b2t89y7YsBMh7E"
+                    ]
+                  },
+                  "pragma": {
+                    "headers": [
+                      "no-cache"
+                    ]
+                  },
+                  "set-cookie": {
+                    "headers": [
+                      "act=296b27d23c894afa9be99bcfafe5d481; path=/; domain=.mail.ru; Secure; HttpOnly; SameSite=None",
+                      "oid=4J9EE75b2t89y7YsBMh7E; Path=/; Domain=mail.ru; Max-Age=315360000",
+                      "act=81fc4e3f270648458944fb61ac7b6806; path=/; domain=.mail.ru; Secure; HttpOnly; SameSite=None",
+                      "autologin=no; expires=Sat, 14 Feb 2026 00:53:01 GMT; path=/; domain=.mail.ru; Secure; HttpOnly; SameSite=None",
+                      "mrcu=9FA4698F1EAD31AB36B5CD22A8CE; expires=Mon, 11 Feb 2036 12:53:01 GMT; path=/; domain=.mail.ru; Secure; HttpOnly; SameSite=None"
+                    ]
+                  },
+                  "x-envoy-upstream-service-time": {
+                    "headers": [
+                      "8"
+                    ]
+                  },
+                  "x-frame-options": {
+                    "headers": [
+                      "SAMEORIGIN"
+                    ]
+                  },
+                  "x-mru-request-id": {
+                    "headers": [
+                      "8101763d-2091-4beb-98d2-0acf5cb90d06:85bdd351"
+                    ]
+                  }
+                },
+                "body_size": 37,
+                "body": "<html><body>Redirect...</body></html>",
+                "body_hash_sha256": "a4a084c95362bf251a9838b354acf2c002ceb4d153499d413dddd96476afeda0",
+                "body_hash_sha1": "afe92b8dd00c055e7e80b842be86482f53a680c3",
+                "supported_versions": [
+                  "HTTP/1.1",
+                  "HTTP/2"
+                ],
+                "redirect_chain": [
+                  {
+                    "hostname": "login.vk.ru",
+                    "port": 443,
+                    "transport_protocol": "tcp",
+                    "path": "/",
+                    "reason": "HTTP_3XX"
+                  }
+                ]
+              },
+              "ip": "89.221.239.1"
+            }
+          ]
+        }
+      ],
+      "service_count": 2,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-02-10T21:06:04Z",
+          "names": [
+            "mail.ru"
+          ]
+        },
+        "names": [
+          "mail.ru",
+          "mail.seliger-agro.ru",
+          "mail.romanovo-city.ru",
+          "mail.finprofi.kz",
+          "mail.espension.ru",
+          "mail.epicmail.cc",
+          "mail.ausys.ru",
+          "mail.sunriseinfo.uz",
+          "mail.koricaflowers.ru",
+          "mail.akva-parts.com",
+          "nowyou.biz",
+          "www.mail-cloud.ru",
+          "mail.gupcti.ru",
+          "mail.iznanka.news",
+          "mail.it-kolibri.com",
+          "mail.pnevmocentr.ru",
+          "mail.todotodo.ru",
+          "mail.lianamoda.ru",
+          "mail.sklp.biz",
+          "mail.cargostar.uz",
+          "mail.sacvoyage.kz",
+          "mail.climatpanel.uz",
+          "mail.binant.ru",
+          "mail.online-karaoke.com",
+          "mail.reran.ru",
+          "mail.plugify.ru",
+          "mail.otxodi.ru",
+          "mail.motorrika.ru",
+          "mail-cloud.ru",
+          "mail.underdark.ru",
+          "mail.schooltennis.ru",
+          "mail.ltddial.ru",
+          "mail.binom24.com",
+          "risslinge.my",
+          "mail.extrafo.ru",
+          "mail.kinocharly.ru",
+          "mail.bashnet.ru",
+          "mail.aral.uz",
+          "mail.roboteks.ru",
+          "mail.policon-rt.ru",
+          "mail.ptfk22.ru",
+          "mail.apreal-nn.ru"
+        ],
+        "forward_dns": {
+          "mail-cloud.ru": {
+            "resolve_time": "2026-01-28T17:53:03Z",
+            "name": "mail-cloud.ru",
+            "record_type": "a"
+          },
+          "mail.akva-parts.com": {
+            "resolve_time": "2026-02-09T17:13:42Z",
+            "name": "mail.akva-parts.com",
+            "record_type": "a"
+          },
+          "mail.apreal-nn.ru": {
+            "resolve_time": "2026-01-02T21:02:33Z",
+            "name": "mail.apreal-nn.ru",
+            "record_type": "a"
+          },
+          "mail.aral.uz": {
+            "resolve_time": "2026-01-14T20:04:16Z",
+            "name": "mail.aral.uz",
+            "record_type": "a"
+          },
+          "mail.ausys.ru": {
+            "resolve_time": "2026-02-10T20:06:41Z",
+            "name": "mail.ausys.ru",
+            "record_type": "a"
+          },
+          "mail.bashnet.ru": {
+            "resolve_time": "2026-01-15T13:46:34Z",
+            "name": "mail.bashnet.ru",
+            "record_type": "a"
+          },
+          "mail.binant.ru": {
+            "resolve_time": "2026-01-29T13:38:35Z",
+            "name": "mail.binant.ru",
+            "record_type": "a"
+          },
+          "mail.binom24.com": {
+            "resolve_time": "2026-01-27T12:54:16Z",
+            "name": "mail.binom24.com",
+            "record_type": "a"
+          },
+          "mail.cargostar.uz": {
+            "resolve_time": "2026-02-02T04:53:01Z",
+            "name": "mail.cargostar.uz",
+            "record_type": "a"
+          },
+          "mail.climatpanel.uz": {
+            "resolve_time": "2026-01-29T18:18:07Z",
+            "name": "mail.climatpanel.uz",
+            "record_type": "a"
+          },
+          "mail.epicmail.cc": {
+            "resolve_time": "2026-02-11T14:38:45Z",
+            "name": "mail.epicmail.cc",
+            "record_type": "a"
+          },
+          "mail.espension.ru": {
+            "resolve_time": "2026-02-11T19:18:48Z",
+            "name": "mail.espension.ru",
+            "record_type": "a"
+          },
+          "mail.extrafo.ru": {
+            "resolve_time": "2026-01-26T12:42:26Z",
+            "name": "mail.extrafo.ru",
+            "record_type": "a"
+          },
+          "mail.finprofi.kz": {
+            "resolve_time": "2026-02-11T20:23:16Z",
+            "name": "mail.finprofi.kz",
+            "record_type": "a"
+          },
+          "mail.gupcti.ru": {
+            "resolve_time": "2026-02-09T12:40:47Z",
+            "name": "mail.gupcti.ru",
+            "record_type": "a"
+          },
+          "mail.it-kolibri.com": {
+            "resolve_time": "2026-02-07T18:42:54Z",
+            "name": "mail.it-kolibri.com",
+            "record_type": "a"
+          },
+          "mail.iznanka.news": {
+            "resolve_time": "2026-02-09T12:10:02Z",
+            "name": "mail.iznanka.news",
+            "record_type": "a"
+          },
+          "mail.kinocharly.ru": {
+            "resolve_time": "2026-01-16T12:08:19Z",
+            "name": "mail.kinocharly.ru",
+            "record_type": "a"
+          },
+          "mail.koricaflowers.ru": {
+            "resolve_time": "2026-02-10T14:50:56Z",
+            "name": "mail.koricaflowers.ru",
+            "record_type": "a"
+          },
+          "mail.lianamoda.ru": {
+            "resolve_time": "2026-02-06T17:29:54Z",
+            "name": "mail.lianamoda.ru",
+            "record_type": "a"
+          },
+          "mail.ltddial.ru": {
+            "resolve_time": "2026-01-27T14:43:28Z",
+            "name": "mail.ltddial.ru",
+            "record_type": "a"
+          },
+          "mail.motorrika.ru": {
+            "resolve_time": "2026-01-29T12:59:11Z",
+            "name": "mail.motorrika.ru",
+            "record_type": "a"
+          },
+          "mail.online-karaoke.com": {
+            "resolve_time": "2026-01-29T13:34:38Z",
+            "name": "mail.online-karaoke.com",
+            "record_type": "a"
+          },
+          "mail.otxodi.ru": {
+            "resolve_time": "2026-01-29T13:04:57Z",
+            "name": "mail.otxodi.ru",
+            "record_type": "a"
+          },
+          "mail.plugify.ru": {
+            "resolve_time": "2026-01-29T13:05:38Z",
+            "name": "mail.plugify.ru",
+            "record_type": "a"
+          },
+          "mail.pnevmocentr.ru": {
+            "resolve_time": "2026-02-07T14:30:51Z",
+            "name": "mail.pnevmocentr.ru",
+            "record_type": "a"
+          },
+          "mail.policon-rt.ru": {
+            "resolve_time": "2026-01-08T16:52:49Z",
+            "name": "mail.policon-rt.ru",
+            "record_type": "a"
+          },
+          "mail.ptfk22.ru": {
+            "resolve_time": "2026-01-07T13:46:02Z",
+            "name": "mail.ptfk22.ru",
+            "record_type": "a"
+          },
+          "mail.reran.ru": {
+            "resolve_time": "2026-01-29T13:08:09Z",
+            "name": "mail.reran.ru",
+            "record_type": "a"
+          },
+          "mail.roboteks.ru": {
+            "resolve_time": "2026-01-12T13:38:37Z",
+            "name": "mail.roboteks.ru",
+            "record_type": "a"
+          },
+          "mail.romanovo-city.ru": {
+            "resolve_time": "2026-02-11T22:15:18Z",
+            "name": "mail.romanovo-city.ru",
+            "record_type": "a"
+          },
+          "mail.ru": {
+            "resolve_time": "2026-02-11T22:33:26Z",
+            "name": "mail.ru",
+            "record_type": "a"
+          },
+          "mail.sacvoyage.kz": {
+            "resolve_time": "2026-01-31T12:07:38Z",
+            "name": "mail.sacvoyage.kz",
+            "record_type": "a"
+          },
+          "mail.schooltennis.ru": {
+            "resolve_time": "2026-01-28T16:37:08Z",
+            "name": "mail.schooltennis.ru",
+            "record_type": "a"
+          },
+          "mail.seliger-agro.ru": {
+            "resolve_time": "2026-02-11T22:17:47Z",
+            "name": "mail.seliger-agro.ru",
+            "record_type": "a"
+          },
+          "mail.sklp.biz": {
+            "resolve_time": "2026-02-05T17:45:57Z",
+            "name": "mail.sklp.biz",
+            "record_type": "a"
+          },
+          "mail.sunriseinfo.uz": {
+            "resolve_time": "2026-02-10T16:49:10Z",
+            "name": "mail.sunriseinfo.uz",
+            "record_type": "a"
+          },
+          "mail.todotodo.ru": {
+            "resolve_time": "2026-02-06T22:12:11Z",
+            "name": "mail.todotodo.ru",
+            "record_type": "a"
+          },
+          "mail.underdark.ru": {
+            "resolve_time": "2026-01-28T16:45:35Z",
+            "name": "mail.underdark.ru",
+            "record_type": "a"
+          },
+          "nowyou.biz": {
+            "resolve_time": "2026-02-09T14:11:33Z",
+            "name": "nowyou.biz",
+            "record_type": "a"
+          },
+          "risslinge.my": {
+            "resolve_time": "2026-01-26T17:07:52Z",
+            "name": "risslinge.my",
+            "record_type": "a"
+          },
+          "www.mail-cloud.ru": {
+            "resolve_time": "2026-02-09T12:50:15Z",
+            "name": "www.mail-cloud.ru",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

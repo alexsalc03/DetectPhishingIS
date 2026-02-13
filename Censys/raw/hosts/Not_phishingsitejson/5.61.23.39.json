@@ -1,0 +1,335 @@
+{
+  "result": {
+    "resource": {
+      "ip": "5.61.23.39",
+      "location": {
+        "continent": "Europe",
+        "country": "Russia",
+        "country_code": "RU",
+        "city": "Moscow",
+        "postal_code": "101000",
+        "timezone": "Europe/Moscow",
+        "province": "Moscow",
+        "coordinates": {
+          "latitude": 55.75204,
+          "longitude": 37.61781
+        }
+      },
+      "autonomous_system": {
+        "asn": 47764,
+        "description": "VK-AS",
+        "bgp_prefix": "5.61.16.0/21",
+        "name": "VK-AS",
+        "country_code": "RU"
+      },
+      "whois": {
+        "network": {
+          "handle": "ODNOKLASSNIKI-FRONT",
+          "name": "Odnoklassniki Services",
+          "cidrs": [
+            "5.61.20.0/22"
+          ],
+          "created": "2022-06-29T00:00:00Z",
+          "updated": "2024-10-10T00:00:00Z"
+        },
+        "organization": {
+          "handle": "ORG-OL67-RIPE",
+          "name": "LLC VK",
+          "address": "Leningradskiy prospect, 39, build 79, SkyLight\\n125167\\nMoscow\\nRUSSIAN FEDERATION",
+          "abuse_contacts": [
+            {
+              "handle": "ODKL-RU",
+              "name": "ODNOKASSNIKI.RU NOC",
+              "email": "noc@odnoklassniki.ru"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "365ee1b20c5d4f0b6f89257f37823147a32a23e0b688ef8a4ee80fff46f71bed",
+            "fingerprint_sha1": "6802280641bdec395d4a6787276dad2530054c31",
+            "fingerprint_md5": "64de532453e17d1b925233169d59f6da",
+            "tbs_fingerprint_sha256": "a105bc36c2baca5fffe46829819826bcc6252e9ee9bf17f33ffa204d7b69d5c1",
+            "tbs_no_ct_fingerprint_sha256": "3832664302c649893b666aec4ecc28bed951a98289e573bc0bf4c07336de7ffb",
+            "spki_fingerprint_sha256": "7f81c99462db5d372f41e7686f6ea4e7ed7ae978c19a72b82b9eec8e226afd78",
+            "parent_spki_fingerprint_sha256": "d3ba3ff35494ad41c28875304b6e6e49b9ff3a420b09a76a16d3672d297d371e",
+            "parsed": {
+              "version": 3,
+              "serial_number": "13678135966493031943577596320",
+              "issuer_dn": "C=BE, O=GlobalSign nv-sa, CN=GlobalSign RSA OV SSL CA 2018",
+              "issuer": {
+                "common_name": [
+                  "GlobalSign RSA OV SSL CA 2018"
+                ],
+                "country": [
+                  "BE"
+                ],
+                "organization": [
+                  "GlobalSign nv-sa"
+                ]
+              },
+              "subject_dn": "C=RU, ST=Moscow, L=Moscow, O=VK LLC, CN=*.dzen.ru",
+              "subject": {
+                "common_name": [
+                  "*.dzen.ru"
+                ],
+                "country": [
+                  "RU"
+                ],
+                "locality": [
+                  "Moscow"
+                ],
+                "province": [
+                  "Moscow"
+                ],
+                "organization": [
+                  "VK LLC"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "RSA",
+                  "oid": "1.2.840.113549.1.1.1"
+                },
+                "rsa": {
+                  "exponent": 65537,
+                  "modulus": "bb27215149a0974e644f9cf3737d626ce5eb4a724257f104a2ded478388ec69983f81b9503b2aa74ab3238782a62b3722b5eafe40f5efbc88138f599a64767cbe8c8148baf148c20f3dbc38333bb3bea1d2d941234d95d5383822da53c3acd66b706de2418a857550df997133604ae982e0f08741a8a5ed81dfea043e1d368180efca508f1aa81c41ac2eadcd2b03363a0618cab1b622f2f10da9fcc4852bba9c8c9db3b58586733b891d55712dd1c4b893a10e0ee486a93fe74d46de4c094ec00b2e2632d8319e3f01342225a85c61e60c1217875f4694c8c267cc44a5d2155ffbe9f8730550d598421d9f3a5a75bce8e734614d081089f580b8d06dc532e5b",
+                  "length": 2048
+                },
+                "fingerprint_sha256": "10e351f45edb1fef245133bffeb1c2c5e967fd947eab3403645837a596887dd4"
+              },
+              "validity_period": {
+                "not_before": "2025-06-03T09:16:26Z",
+                "not_after": "2026-07-05T09:16:25Z",
+                "length_seconds": 34300800
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "SHA256-RSA",
+                  "oid": "1.2.840.113549.1.1.11"
+                },
+                "value": "74d63f076e5c40923660b75967d959d61e145f63d18dc9e1976ccf8945529306acd6448d7653329cb4f3926d31e8eb79996fea1c25504f52fd36a688bee5d4a57e570604257a4506be4de43933a2cceb2de6853cc5b160d6493c179b83f8a3cd3f4d81f932fbc96bcdd578c829eed9ee03b76e49204458cee23c4dd83bbdd3b1d1173ced7391ab856b82cf81a3d28e87d1b614f6fd1f50b5404e73e5271b7449ceb67db4c5ef6853fb29e1e9cf3f8adef4d854c02734121890e41b7bd9414a999fae198ecb39d48019fcc3e23c7d801a56b2bef5a27d3a88f44682ed16b9f0ee9f5a3cbc940e1888b217dd18b9a5c9437dd9851e10e451e3d7afe926f0c5f9a1",
+                "valid": true
+              },
+              "serial_number_hex": "2c3249f4856ce7a2fb94f1a0"
+            },
+            "names": [
+              "*.dzen.ru",
+              "dzen.ru"
+            ],
+            "validation_level": "ov",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "b676ffa3179e8812093a1b5eafee876ae7a6aaf231078dad1bfb21cd2893764a",
+                      "cbb522d7b7f127ad6a0113865bdf1cd4102e7d0759af635a7cf4720dc963c53b"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "b676ffa3179e8812093a1b5eafee876ae7a6aaf231078dad1bfb21cd2893764a",
+                      "445eec78bc61215044a0379656aa2d5db5e42f76cb70b8d14c2077aa943d4ebb",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "b676ffa3179e8812093a1b5eafee876ae7a6aaf231078dad1bfb21cd2893764a",
+                      "c94fedda4e8608908580bc7f87b434e03bb262e42f64c63820a8f50fb17c1cec",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "b676ffa3179e8812093a1b5eafee876ae7a6aaf231078dad1bfb21cd2893764a"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "b676ffa3179e8812093a1b5eafee876ae7a6aaf231078dad1bfb21cd2893764a",
+                      "cbb522d7b7f127ad6a0113865bdf1cd4102e7d0759af635a7cf4720dc963c53b"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "b676ffa3179e8812093a1b5eafee876ae7a6aaf231078dad1bfb21cd2893764a",
+                      "445eec78bc61215044a0379656aa2d5db5e42f76cb70b8d14c2077aa943d4ebb",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "b676ffa3179e8812093a1b5eafee876ae7a6aaf231078dad1bfb21cd2893764a",
+                      "c94fedda4e8608908580bc7f87b434e03bb262e42f64c63820a8f50fb17c1cec",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "b676ffa3179e8812093a1b5eafee876ae7a6aaf231078dad1bfb21cd2893764a"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "b676ffa3179e8812093a1b5eafee876ae7a6aaf231078dad1bfb21cd2893764a",
+                      "cbb522d7b7f127ad6a0113865bdf1cd4102e7d0759af635a7cf4720dc963c53b"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "b676ffa3179e8812093a1b5eafee876ae7a6aaf231078dad1bfb21cd2893764a",
+                      "445eec78bc61215044a0379656aa2d5db5e42f76cb70b8d14c2077aa943d4ebb",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "b676ffa3179e8812093a1b5eafee876ae7a6aaf231078dad1bfb21cd2893764a",
+                      "c94fedda4e8608908580bc7f87b434e03bb262e42f64c63820a8f50fb17c1cec",
+                      "ebd41040e4bb3ec742c9e381d31ef2a41a48b6685c96e7cef3c1df6cd4331c99"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "b676ffa3179e8812093a1b5eafee876ae7a6aaf231078dad1bfb21cd2893764a"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "b676ffa3179e8812093a1b5eafee876ae7a6aaf231078dad1bfb21cd2893764a",
+                      "cbb522d7b7f127ad6a0113865bdf1cd4102e7d0759af635a7cf4720dc963c53b"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "b676ffa3179e8812093a1b5eafee876ae7a6aaf231078dad1bfb21cd2893764a"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {
+                "reason": "unspecified"
+              },
+              "crl": {}
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2025-06-03T23:34:59Z",
+            "modified_at": "2025-09-09T17:39:54Z",
+            "validated_at": "2026-02-12T23:40:32Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "7f81c99462db5d372f41e7686f6ea4e7ed7ae978c19a72b82b9eec8e226afd78",
+            "parent_spki_subject_fingerprint_sha256": "d3ba3ff35494ad41c28875304b6e6e49b9ff3a420b09a76a16d3672d297d371e"
+          },
+          "ip": "5.61.23.39",
+          "scan_time": "2026-02-12T16:00:37Z",
+          "tls": {
+            "fingerprint_sha256": "365ee1b20c5d4f0b6f89257f37823147a32a23e0b688ef8a4ee80fff46f71bed",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "b676ffa3179e8812093a1b5eafee876ae7a6aaf231078dad1bfb21cd2893764a",
+                "subject_dn": "C=BE, O=GlobalSign nv-sa, CN=GlobalSign RSA OV SSL CA 2018",
+                "issuer_dn": "OU=GlobalSign Root CA - R3, O=GlobalSign, CN=GlobalSign"
+              },
+              {
+                "fingerprint_sha256": "445eec78bc61215044a0379656aa2d5db5e42f76cb70b8d14c2077aa943d4ebb",
+                "subject_dn": "OU=GlobalSign Root CA - R3, O=GlobalSign, CN=GlobalSign",
+                "issuer_dn": "C=BE, O=GlobalSign nv-sa, OU=Root CA, CN=GlobalSign Root CA"
+              },
+              {
+                "fingerprint_sha256": "365ee1b20c5d4f0b6f89257f37823147a32a23e0b688ef8a4ee80fff46f71bed",
+                "subject_dn": "C=RU, ST=Moscow, L=Moscow, O=VK LLC, CN=*.dzen.ru",
+                "issuer_dn": "C=BE, O=GlobalSign nv-sa, CN=GlobalSign RSA OV SSL CA 2018"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "5.61.23.39",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-12T16:00:37Z",
+              "http": {
+                "uri": "https://5.61.23.39/",
+                "protocol": "HTTP/1.1",
+                "status_code": 404,
+                "status_reason": "Not found",
+                "headers": {
+                  "Content-Length": {
+                    "headers": [
+                      "0"
+                    ]
+                  }
+                },
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "5.61.23.39"
+            }
+          ]
+        }
+      ],
+      "service_count": 1,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-02-10T06:41:50Z",
+          "names": [
+            "ip39.23.odnoklassniki.ru"
+          ]
+        },
+        "names": [
+          "dzen.ru",
+          "www.dzen.ru"
+        ],
+        "forward_dns": {
+          "dzen.ru": {
+            "resolve_time": "2026-02-05T03:00:04Z",
+            "name": "dzen.ru",
+            "record_type": "a"
+          },
+          "www.dzen.ru": {
+            "resolve_time": "2026-01-26T12:39:02Z",
+            "name": "www.dzen.ru",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}

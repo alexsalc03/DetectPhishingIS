@@ -1,0 +1,653 @@
+{
+  "result": {
+    "resource": {
+      "ip": "192.0.80.241",
+      "location": {
+        "continent": "North America",
+        "country": "United States",
+        "country_code": "US",
+        "city": "Dallas",
+        "postal_code": "75201",
+        "timezone": "America/Chicago",
+        "province": "Texas",
+        "coordinates": {
+          "latitude": 32.78306,
+          "longitude": -96.80667
+        }
+      },
+      "autonomous_system": {
+        "asn": 2635,
+        "description": "AUTOMATTIC - Automattic, Inc",
+        "bgp_prefix": "192.0.80.0/24",
+        "name": "AUTOMATTIC - Automattic, Inc",
+        "country_code": "US"
+      },
+      "whois": {
+        "network": {
+          "handle": "AUTOMATTIC",
+          "name": "Automattic, Inc",
+          "cidrs": [
+            "192.0.64.0/18"
+          ],
+          "created": "2012-11-20T00:00:00Z",
+          "updated": "2024-05-21T00:00:00Z",
+          "allocation_type": "ALLOCATION"
+        },
+        "organization": {
+          "handle": "AUTOM-93",
+          "name": "Automattic, Inc",
+          "street": "60 29th Street #343",
+          "city": "San Francisco",
+          "state": "CA",
+          "postal_code": "94110",
+          "country": "US",
+          "abuse_contacts": [
+            {
+              "handle": "ABUSE3970-ARIN",
+              "name": "Abuse",
+              "email": "abuse@automattic.com"
+            }
+          ],
+          "admin_contacts": [
+            {
+              "handle": "NOC12276-ARIN",
+              "name": "NOC",
+              "email": "ipadmin@automattic.com"
+            }
+          ],
+          "tech_contacts": [
+            {
+              "handle": "NOC12276-ARIN",
+              "name": "NOC",
+              "email": "ipadmin@automattic.com"
+            }
+          ]
+        }
+      },
+      "services": [
+        {
+          "port": 80,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "software": [
+            {
+              "vendor": "f5",
+              "product": "nginx"
+            }
+          ],
+          "ip": "192.0.80.241",
+          "scan_time": "2026-02-13T14:22:09Z",
+          "endpoints": [
+            {
+              "hostname": "192.0.80.241",
+              "port": 80,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T14:22:09Z",
+              "http": {
+                "uri": "http://192.0.80.241/",
+                "protocol": "HTTP/1.1",
+                "status_code": 302,
+                "status_reason": "Moved Temporarily",
+                "headers": {
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "138"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Location": {
+                    "headers": [
+                      "https://gravatar.com"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "nginx"
+                    ]
+                  }
+                },
+                "html_tags": [
+                  "<title>302 Found</title>"
+                ],
+                "body_size": 138,
+                "body": "<html>\r\n<head><title>302 Found</title></head>\r\n<body>\r\n<center><h1>302 Found</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n",
+                "html_title": "302 Found",
+                "body_hash_sha256": "753e0dd54f28c4f7009b9c0b18a68aed175416bd8b7d134858264586eaac56f0",
+                "body_hash_sha1": "f03e18461817f7a6546c8bf8fa8d686d7e30aca0",
+                "supported_versions": [
+                  "HTTP/1.1",
+                  "HTTP/2"
+                ],
+                "redirect_chain": [
+                  {
+                    "hostname": "gravatar.com",
+                    "port": 443,
+                    "transport_protocol": "tcp",
+                    "path": "/",
+                    "reason": "HTTP_3XX"
+                  }
+                ]
+              },
+              "ip": "192.0.80.241"
+            }
+          ]
+        },
+        {
+          "port": 443,
+          "protocol": "HTTP",
+          "transport_protocol": "tcp",
+          "cert": {
+            "fingerprint_sha256": "2f59a35aa18e34c442312c8090084c1aeebd36c9da79cc33024d3c4edc186867",
+            "fingerprint_sha1": "53e667fef32d4b2029650814ef1c5ac7e9d3e765",
+            "fingerprint_md5": "bd7d4b25b66712ac140f590989600d0a",
+            "tbs_fingerprint_sha256": "8d9c5043d48e471b9d4166f47ae7144fc4b228527ca685b3cccdd99ac8c3ed8b",
+            "tbs_no_ct_fingerprint_sha256": "8f4bf99749c7674f2efcd07050094b71f040e4e29101491501d1a36ed0567754",
+            "spki_fingerprint_sha256": "10a8a03df821d33716827162a7b9cc8e58d7a55745e3fa2fdf196ebbb5256119",
+            "parent_spki_fingerprint_sha256": "68f93e89a1162b56335485fd4fbad15fc1d3c6c8c9e8b10ddbdcb8d2730ec2fd",
+            "parsed": {
+              "version": 3,
+              "serial_number": "492573645669170891214038676608696502427947",
+              "issuer_dn": "C=US, O=Let's Encrypt, CN=E8",
+              "issuer": {
+                "common_name": [
+                  "E8"
+                ],
+                "country": [
+                  "US"
+                ],
+                "organization": [
+                  "Let's Encrypt"
+                ]
+              },
+              "subject_dn": "CN=gravatar.com",
+              "subject": {
+                "common_name": [
+                  "gravatar.com"
+                ]
+              },
+              "subject_key_info": {
+                "key_algorithm": {
+                  "name": "ECDSA",
+                  "oid": "1.2.840.10045.2.1"
+                },
+                "ecdsa": {
+                  "b": "5ac635d8aa3a93e7b3ebbd55769886bc651d06b0cc53b0f63bce3c3e27d2604b",
+                  "curve": "P-256",
+                  "gx": "6b17d1f2e12c4247f8bce6e563a440f277037d812deb33a0f4a13945d898c296",
+                  "gy": "4fe342e2fe1a7f9b8ee7eb4a7c0f9e162bce33576b315ececbb6406837bf51f5",
+                  "length": 256,
+                  "n": "ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551",
+                  "p": "ffffffff00000001000000000000000000000000ffffffffffffffffffffffff",
+                  "pub": "04c0efe6caedf5e380eb9a5283d401a37863b31a485342c8235a34920fc72125553ecebdf72fbd7eb954f7f4227d4ba05760a513adfdd93f6a3b05e2671b400154",
+                  "x": "c0efe6caedf5e380eb9a5283d401a37863b31a485342c8235a34920fc7212555",
+                  "y": "3ecebdf72fbd7eb954f7f4227d4ba05760a513adfdd93f6a3b05e2671b400154"
+                },
+                "fingerprint_sha256": "a8c0a5e64b8ca9f754edc5a942b19d66d58ed40e4da411b79552897948f7016b"
+              },
+              "validity_period": {
+                "not_before": "2026-02-09T19:44:12Z",
+                "not_after": "2026-05-10T19:44:11Z",
+                "length_seconds": 7776000
+              },
+              "signature": {
+                "signature_algorithm": {
+                  "name": "ECDSA-SHA384",
+                  "oid": "1.2.840.10045.4.3.3"
+                },
+                "value": "3066023100910c592c5b753960e00d65f699c21ba4068f456efff2db53edc9382e8adbf11b9f30f8bd46c3efbcfaec4497536548c5023100af48f4f4052050d439142dc50731b06bedddc4b7644f0800e82c728b1e4a845e4d991c145d1ee16de936135ef2cbc5af",
+                "valid": true
+              },
+              "serial_number_hex": "05a78b3966a989814b5bbe4ff7c5ec8fa12b"
+            },
+            "names": [
+              "*.gravatar.com",
+              "gravatar.com"
+            ],
+            "validation_level": "dv",
+            "validation": {
+              "nss": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "83624fd338c8d9b023c18a67cb7a9c0519da43d11775b4c6cbdad45c3d997c52",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0",
+                      "69729b8e15a86efc177a57afb7171dfc64add28c2fca8cf1507e34453ccb1470"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0",
+                      "00beaef280277e38999d3c60b27736e8f21e782c3d4b444ac34d465a7ab287c5",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "83624fd338c8d9b023c18a67cb7a9c0519da43d11775b4c6cbdad45c3d997c52",
+                  "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0"
+                ],
+                "type": "leaf"
+              },
+              "microsoft": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "83624fd338c8d9b023c18a67cb7a9c0519da43d11775b4c6cbdad45c3d997c52",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0",
+                      "69729b8e15a86efc177a57afb7171dfc64add28c2fca8cf1507e34453ccb1470"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0",
+                      "00beaef280277e38999d3c60b27736e8f21e782c3d4b444ac34d465a7ab287c5",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "83624fd338c8d9b023c18a67cb7a9c0519da43d11775b4c6cbdad45c3d997c52",
+                  "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0"
+                ],
+                "type": "leaf"
+              },
+              "apple": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "83624fd338c8d9b023c18a67cb7a9c0519da43d11775b4c6cbdad45c3d997c52",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0",
+                      "69729b8e15a86efc177a57afb7171dfc64add28c2fca8cf1507e34453ccb1470"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0",
+                      "00beaef280277e38999d3c60b27736e8f21e782c3d4b444ac34d465a7ab287c5",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "83624fd338c8d9b023c18a67cb7a9c0519da43d11775b4c6cbdad45c3d997c52",
+                  "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0"
+                ],
+                "type": "leaf"
+              },
+              "chrome": {
+                "is_valid": true,
+                "ever_valid": true,
+                "has_trusted_path": true,
+                "had_trusted_path": true,
+                "chains": [
+                  {
+                    "sha256fp": [
+                      "83624fd338c8d9b023c18a67cb7a9c0519da43d11775b4c6cbdad45c3d997c52",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0",
+                      "69729b8e15a86efc177a57afb7171dfc64add28c2fca8cf1507e34453ccb1470"
+                    ]
+                  },
+                  {
+                    "sha256fp": [
+                      "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0",
+                      "00beaef280277e38999d3c60b27736e8f21e782c3d4b444ac34d465a7ab287c5",
+                      "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                    ]
+                  }
+                ],
+                "parents": [
+                  "83624fd338c8d9b023c18a67cb7a9c0519da43d11775b4c6cbdad45c3d997c52",
+                  "ac1274542267f17b525535b5563bf731febb182533b46a82dc869cb64eb528c0"
+                ],
+                "type": "leaf"
+              }
+            },
+            "revocation": {
+              "ocsp": {},
+              "crl": {
+                "reason": "unspecified"
+              }
+            },
+            "ct": {
+              "entries": {
+                "cloudflare_nimbus_2026": {
+                  "index": 2485440439,
+                  "added_to_ct_at": "2026-02-09T20:43:59Z",
+                  "ct_to_censys_at": "2026-02-09T21:20:28Z"
+                },
+                "google_argon_2026_h1": {
+                  "index": 2070450851,
+                  "added_to_ct_at": "2026-02-09T20:42:44Z",
+                  "ct_to_censys_at": "2026-02-09T20:47:04Z"
+                },
+                "google_xenon_2026_h1": {
+                  "index": 1914669515,
+                  "added_to_ct_at": "2026-02-09T20:42:44Z",
+                  "ct_to_censys_at": "2026-02-09T20:48:43Z"
+                },
+                "sectigo_elephant_2026_h1": {
+                  "index": 1472631432,
+                  "added_to_ct_at": "2026-02-09T20:43:58Z",
+                  "ct_to_censys_at": "2026-02-09T20:55:05Z"
+                },
+                "sectigo_tiger_2026_h1": {
+                  "index": 1361940674,
+                  "added_to_ct_at": "2026-02-09T20:43:58Z",
+                  "ct_to_censys_at": "2026-02-09T20:54:39Z"
+                },
+                "trustasia_log_2026_a": {
+                  "index": 730539653,
+                  "added_to_ct_at": "2026-02-09T20:44:02Z",
+                  "ct_to_censys_at": "2026-02-09T20:59:19Z"
+                },
+                "trustasia_log_2026_b": {
+                  "index": 751576220,
+                  "added_to_ct_at": "2026-02-09T20:44:00Z",
+                  "ct_to_censys_at": "2026-02-09T20:57:50Z"
+                }
+              }
+            },
+            "ever_seen_in_scan": true,
+            "added_at": "2026-02-09T20:47:21Z",
+            "modified_at": "2026-02-09T22:31:38Z",
+            "validated_at": "2026-02-13T00:14:22Z",
+            "parse_status": "success",
+            "spki_subject_fingerprint_sha256": "10a8a03df821d33716827162a7b9cc8e58d7a55745e3fa2fdf196ebbb5256119",
+            "parent_spki_subject_fingerprint_sha256": "68f93e89a1162b56335485fd4fbad15fc1d3c6c8c9e8b10ddbdcb8d2730ec2fd"
+          },
+          "software": [
+            {
+              "vendor": "f5",
+              "product": "nginx"
+            }
+          ],
+          "ip": "192.0.80.241",
+          "scan_time": "2026-02-13T12:10:04Z",
+          "tls": {
+            "fingerprint_sha256": "2f59a35aa18e34c442312c8090084c1aeebd36c9da79cc33024d3c4edc186867",
+            "presented_chain": [
+              {
+                "fingerprint_sha256": "83624fd338c8d9b023c18a67cb7a9c0519da43d11775b4c6cbdad45c3d997c52",
+                "subject_dn": "C=US, O=Let's Encrypt, CN=E8",
+                "issuer_dn": "C=US, O=Internet Security Research Group, CN=ISRG Root X1"
+              }
+            ]
+          },
+          "endpoints": [
+            {
+              "hostname": "192.0.80.241",
+              "port": 443,
+              "path": "/",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T12:10:04Z",
+              "http": {
+                "uri": "https://192.0.80.241/",
+                "protocol": "HTTP/1.1",
+                "status_code": 302,
+                "status_reason": "Found",
+                "headers": {
+                  "Alt-Svc": {
+                    "headers": [
+                      "h3=\":443\"; ma=86400"
+                    ]
+                  },
+                  "Cache-Control": {
+                    "headers": [
+                      "no-cache, must-revalidate, max-age=0"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Language": {
+                    "headers": [
+                      "en"
+                    ]
+                  },
+                  "Content-Length": {
+                    "headers": [
+                      "0"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/html; charset=utf-8"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "Expires": {
+                    "headers": [
+                      "Wed, 11 Jan 1984 05:00:00 GMT"
+                    ]
+                  },
+                  "Location": {
+                    "headers": [
+                      "https://gravatar.com/"
+                    ]
+                  },
+                  "P3P": {
+                    "headers": [
+                      "CP=\"CAO PSA\""
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "nginx"
+                    ]
+                  },
+                  "Strict-Transport-Security": {
+                    "headers": [
+                      "max-age=31536000; includeSubdomains; preload"
+                    ]
+                  },
+                  "X-Frame-Options": {
+                    "headers": [
+                      "SAMEORIGIN"
+                    ]
+                  },
+                  "X-Redirect-By": {
+                    "headers": [
+                      "Gravatar"
+                    ]
+                  }
+                },
+                "supported_versions": [
+                  "HTTP/1.1",
+                  "HTTP/2"
+                ],
+                "redirect_chain": [
+                  {
+                    "hostname": "gravatar.com",
+                    "port": 443,
+                    "transport_protocol": "tcp",
+                    "path": "/",
+                    "reason": "HTTP_3XX"
+                  }
+                ]
+              },
+              "ip": "192.0.80.241"
+            },
+            {
+              "hostname": "192.0.80.241",
+              "port": 443,
+              "path": "/robots.txt",
+              "endpoint_type": "HTTP",
+              "transport_protocol": "tcp",
+              "scan_time": "2026-02-13T10:51:28Z",
+              "http": {
+                "uri": "https://192.0.80.241/robots.txt",
+                "protocol": "HTTP/1.1",
+                "status_code": 200,
+                "status_reason": "OK",
+                "headers": {
+                  "Alt-Svc": {
+                    "headers": [
+                      "h3=\":443\"; ma=86400"
+                    ]
+                  },
+                  "Connection": {
+                    "headers": [
+                      "keep-alive"
+                    ]
+                  },
+                  "Content-Encoding": {
+                    "headers": [
+                      "gzip"
+                    ]
+                  },
+                  "Content-Type": {
+                    "headers": [
+                      "text/plain"
+                    ]
+                  },
+                  "Date": {
+                    "headers": [
+                      "<REDACTED>"
+                    ]
+                  },
+                  "ETag": {
+                    "headers": [
+                      "W/\"68ac8f66-3fe\""
+                    ]
+                  },
+                  "Last-Modified": {
+                    "headers": [
+                      "Mon, 25 Aug 2025 16:29:26 GMT"
+                    ]
+                  },
+                  "Server": {
+                    "headers": [
+                      "nginx"
+                    ]
+                  },
+                  "Strict-Transport-Security": {
+                    "headers": [
+                      "max-age=31536000; includeSubdomains; preload"
+                    ]
+                  },
+                  "Transfer-Encoding": {
+                    "headers": [
+                      "chunked"
+                    ]
+                  },
+                  "Vary": {
+                    "headers": [
+                      "Accept-Encoding"
+                    ]
+                  }
+                },
+                "body_size": 1022,
+                "body": "User-Agent: *\nDisallow: /*.json\nDisallow: /*.xml\nDisallow: /*.php\nDisallow: /*.vcf\nDisallow: /*.qr\nDisallow: /*.card\nDisallow: /accounts/activate/*\nDisallow: /accounts/force-by-email/*\nDisallow: /account/\nAllow: /sitemap.xml\nAllow: /sitemap-*.xml\n\n# Do not allow indexing most API endpoints.\nDisallow: /v1/\nDisallow: /v2/\nDisallow: /v3/\nAllow: /v3/openapi\n\nUser-agent: GPTBot\nAllow: /v3/openapi\nAllow: /*.md\nDisallow: /\n\nUser-agent: CCBot\nAllow: /v3/openapi\nAllow: /*.md\nDisallow: /\n\nUser-agent: SentiBot\nAllow: /v3/openapi\nAllow: /*.md\nDisallow: /\n\nUser-agent: sentibot\nAllow: /v3/openapi\nAllow: /*.md\nDisallow: /\n\nUser-agent: Google-Extended\nAllow: /v3/openapi\nAllow: /*.md\nDisallow: /\n\nUser-agent: FacebookBot\nAllow: /v3/openapi\nAllow: /*.md\nDisallow: /\n\nUser-agent: omgili\nAllow: /v3/openapi\nAllow: /*.md\nDisallow: /\n\nUser-agent: omgilibot\nAllow: /v3/openapi\nAllow: /*.md\nDisallow: /\n\nUser-agent: Amazonbot\nAllow: /v3/openapi\nAllow: /*.md\nDisallow: /\n\nUser-agent: Bytespider\nAllow: /v3/openapi\nAllow: /*.md\nDisallow: /",
+                "favicons": [
+                  {
+                    "size": 5430,
+                    "name": "https://192.0.80.241/favicon.ico",
+                    "hash_sha256": "01f2ef6b0857e3995fbc9b51c25862ae6ad74a8f12993bd4ad9f96d00398aa55",
+                    "hash_md5": "06e6e84eb73adb6ba586d77c121e0a5c",
+                    "hash_shodan": 73337656
+                  }
+                ],
+                "body_hash_sha256": "75e9d90f44e5644b58fb6ec2361a61d48214863bd10d37b7fd6595b9b2f1bf48",
+                "body_hash_sha1": "3a45ed01188ed0bd3cd4377024b7949d4c9d923d",
+                "supported_versions": [
+                  "HTTP/1.1"
+                ]
+              },
+              "ip": "192.0.80.241"
+            }
+          ]
+        }
+      ],
+      "service_count": 2,
+      "dns": {
+        "reverse_dns": {
+          "resolve_time": "2026-02-06T16:46:51Z"
+        },
+        "names": [
+          "cn.gravatar.com",
+          "gravatar.com",
+          "lb.gravatar.com",
+          "en.gravatar.com"
+        ],
+        "forward_dns": {
+          "cn.gravatar.com": {
+            "resolve_time": "2026-02-09T19:29:00Z",
+            "name": "cn.gravatar.com",
+            "record_type": "a"
+          },
+          "en.gravatar.com": {
+            "resolve_time": "2026-01-14T13:28:50Z",
+            "name": "en.gravatar.com",
+            "record_type": "a"
+          },
+          "gravatar.com": {
+            "resolve_time": "2026-02-06T20:45:04Z",
+            "name": "gravatar.com",
+            "record_type": "a"
+          },
+          "lb.gravatar.com": {
+            "resolve_time": "2026-01-27T17:22:03Z",
+            "name": "lb.gravatar.com",
+            "record_type": "a"
+          }
+        }
+      }
+    },
+    "extensions": {}
+  }
+}
