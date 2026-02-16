@@ -1,351 +1,505 @@
 import json
 import os
+import math
 from datetime import datetime, timezone
+from collections import Counter
 import pandas as pd
-from pathlib import Path
 
-def extract_bgp_prefix_len(bgp_prefix):
-    """Estrae la lunghezza del prefisso BGP (es. '5.61.16.0/21' → 21)"""
+# =========================
+# Config
+# =========================
+DNS_NAME_CAP = 50
+
+GENERIC_TOKENS = [
+    'login', 'verify', 'secure', 'account', 'update', 'confirm', 'banking',
+    'signin', 'password', 'credential', 'wallet', 'support', 'authentication'
+]
+
+BRAND_TOKENS = [
+    'paypal', 'amazon', 'microsoft', 'apple', 'google', 'facebook', 'instagram',
+    'netflix', 'spotify', 't-mobile', 'verizon', 'att', 'chase', 'wellsfargo',
+    'bankofamerica', 'citibank', 'usbank', 'capitalone'
+]
+
+SUSPICIOUS_TLDS = ['.cc', '.tk', '.ml', '.ga', '.cf', '.gq', '.pw', '.top']
+
+HOSTING_KEYWORDS = ['hosting', 'datacenter', 'data center', 'vps', 'cloud', 'server', 'dedicated']
+
+
+# =========================
+# Math helpers
+# =========================
+def log1p(x):
+    """log(1+x) safe for non-negative values"""
+    try:
+        return math.log1p(max(float(x), 0))
+    except:
+        return 0.0
+
+
+# =========================
+# Time helpers
+# =========================
+def parse_iso_z(dt_str: str):
+    if not dt_str:
+        return None
+    try:
+        return datetime.fromisoformat(dt_str.replace("Z", "+00:00"))
+    except Exception:
+        return None
+
+def days_since(dt_str: str) -> int:
+    dt = parse_iso_z(dt_str)
+    if not dt:
+        return 0
+    now = datetime.now(timezone.utc)
+    return max((now - dt).days, 0)
+
+def days_until(dt_str: str) -> int:
+    dt = parse_iso_z(dt_str)
+    if not dt:
+        return 0
+    now = datetime.now(timezone.utc)
+    return max((dt - now).days, 0)
+
+
+# =========================
+# Feature helpers
+# =========================
+def extract_bgp_prefix_len(bgp_prefix: str) -> int:
     if not bgp_prefix:
         return 0
     try:
-        return int(bgp_prefix.split('/')[-1])
-    except:
+        return int(bgp_prefix.split("/")[-1])
+    except Exception:
         return 0
 
-def calculate_network_age_days(created_str):
-    """Calcola età della network allocation in giorni"""
-    if not created_str:
-        return 0
-    try:
-        created = datetime.fromisoformat(created_str.replace('Z', '+00:00'))
-        now = datetime.now(timezone.utc)
-        return (now - created).days
-    except:
-        return 0
-
-def is_hosting_provider(asn_description):
-    """Controlla se è un hosting provider"""
+def provider_is_hosting(asn_description: str) -> int:
     if not asn_description:
         return 0
-    
-    hosting_keywords = ['hosting', 'datacenter', 'data center', 'vps', 
-                        'cloud', 'server', 'dedicated']
-    asn_lower = asn_description.lower()
-    return int(any(kw in asn_lower for kw in hosting_keywords))
+    s = asn_description.lower()
+    return int(any(k in s for k in HOSTING_KEYWORDS))
 
-def get_http_endpoint(services, port, path="/"):
-    """Trova endpoint HTTP per porta e path specifici"""
-    for service in services:
-        if service.get('port') == port:
-            for endpoint in service.get('endpoints', []):
-                if endpoint.get('path') == path:
-                    return endpoint.get('http', {})
+def simplify_continent(continent: str) -> str:
+    """Reduce to valid continents + Other"""
+    valid = ['Europe', 'Asia', 'North America', 'South America', 'Africa', 'Oceania']
+    if not continent or continent == "unknown":
+        return "Other"
+    return continent if continent in valid else "Other"
+
+def simplify_webserver(web_server: str) -> str:
+    """Reduce webserver cardinality: top vendors + other"""
+    if not web_server:
+        return "unknown"
+    ws_lower = web_server.lower()
+    
+    if 'nginx' in ws_lower:
+        return 'nginx'
+    if 'apache' in ws_lower:
+        return 'apache'
+    if 'cloudflare' in ws_lower:
+        return 'cloudflare'
+    if 'iis' in ws_lower or 'microsoft' in ws_lower:
+        return 'iis'
+    if web_server == 'unknown':
+        return 'unknown'
+    
+    return 'other'
+
+def status_class(code) -> str:
+    try:
+        c = int(code)
+    except Exception:
+        return "0"
+    if c <= 0:
+        return "0"
+    if 100 <= c < 200:
+        return "1xx"
+    if 200 <= c < 300:
+        return "2xx"
+    if 300 <= c < 400:
+        return "3xx"
+    if 400 <= c < 500:
+        return "4xx"
+    if 500 <= c < 600:
+        return "5xx"
+    return "other"
+
+def extract_web_server(services) -> str:
+    """
+    Extract web server from software, prioritizing product field.
+    Search all software entries for first non-empty product.
+    """
+    for s in services or []:
+        if s.get("protocol") == "HTTP":
+            sw_list = s.get("software") or []
+            for sw in sw_list:
+                vendor = (sw.get("vendor") or "").strip().lower()
+                product = (sw.get("product") or "").strip().lower()
+                if product:  # Prioritize product
+                    return f"{vendor}:{product}".strip(":") if vendor else product
+    return "unknown"
+
+def get_http_endpoint_http_obj(services, port: int, path: str = "/") -> dict:
+    """Find endpoint {path} on port {port} and return 'http' dict"""
+    for s in services or []:
+        if s.get("port") == port:
+            for ep in s.get("endpoints", []) or []:
+                if ep.get("path") == path:
+                    return ep.get("http") or {}
     return {}
 
-def has_meta_refresh(http_data):
-    """Controlla presenza di meta refresh"""
-    html_tags = http_data.get('html_tags', [])
-    return int(any('meta' in tag.lower() and 'refresh' in tag.lower() 
-                   for tag in html_tags))
-
-def get_cert_from_services(services):
-    """Trova il primo certificato nei servizi"""
-    for service in services:
-        if 'cert' in service:
-            return service['cert']
-    return None
-
-def calculate_cert_age_days(not_before_str):
-    """Calcola età del certificato in giorni"""
-    if not not_before_str:
+def has_meta_refresh(http_obj: dict) -> int:
+    """Check for meta refresh tag in HTML"""
+    if not http_obj:
         return 0
-    try:
-        not_before = datetime.fromisoformat(not_before_str.replace('Z', '+00:00'))
-        now = datetime.now(timezone.utc)
-        return (now - not_before).days
-    except:
-        return 0
+    html_tags = http_obj.get("html_tags") or []
+    for t in html_tags:
+        tl = str(t).lower()
+        if "meta" in tl and "refresh" in tl:
+            return 1
+    return 0
 
-def is_letsencrypt(issuer_dn):
-    """Controlla se il certificato è Let's Encrypt"""
-    if not issuer_dn:
-        return 0
-    return int("let's encrypt" in issuer_dn.lower())
+def supports_http2(http_obj: dict) -> int:
+    versions = http_obj.get("supported_versions") or []
+    versions = [str(v).upper() for v in versions]
+    return int("HTTP/2" in versions or "H2" in versions)
 
-def has_wildcard_cert(cert_names):
-    """Controlla se il certificato ha wildcard"""
-    if not cert_names:
-        return 0
-    return int(any(name.startswith('*') for name in cert_names))
+def content_type_is_html(http_obj: dict) -> int:
+    headers = http_obj.get("headers") or {}
+    ct = headers.get("Content-Type") or headers.get("content-type")
+    if isinstance(ct, dict):
+        vals = ct.get("headers") or []
+        joined = " ".join(map(str, vals)).lower()
+        return int("text/html" in joined)
+    return 0
 
-def has_suspicious_dns_tokens(dns_names):
-    """Controlla presenza di token sospetti nei nomi DNS"""
+def has_reverse_dns(resource_dns: dict) -> int:
+    rdns = (resource_dns or {}).get("reverse_dns") or {}
+    names = rdns.get("names")
+    return int(bool(names))
+
+def has_suspicious_dns_tokens(dns_names) -> int:
     if not dns_names:
         return 0
-    
-    # Token generici di phishing
-    generic_tokens = ['login', 'verify', 'secure', 'account', 'update',
-                      'confirm', 'banking', 'signin', 'password',
-                      'credential', 'wallet', 'support', 'authentication']
-    
-    # Brand impersonation (brand noti)
-    brand_tokens = ['paypal', 'amazon', 'microsoft', 'apple', 'google',
-                   'facebook', 'instagram', 'netflix', 'spotify',
-                   't-mobile', 'verizon', 'att', 'chase', 'wellsfargo',
-                   'bankofamerica', 'citibank', 'usbank', 'capitalone']
-    
-    # TLD sospetti (usati spesso per phishing)
-    suspicious_tlds = ['.cc', '.tk', '.ml', '.ga', '.cf', '.gq', '.pw', '.top']
-    
-    dns_lower = ' '.join(dns_names).lower()
-    
-    # Check 1: Generic suspicious tokens
-    has_generic = any(token in dns_lower for token in generic_tokens)
-    
-    # Check 2: Brand impersonation
-    has_brand = any(brand in dns_lower for brand in brand_tokens)
-    
-    # Check 3: Suspicious TLDs
-    has_suspicious_tld = any(tld in dns_lower for tld in suspicious_tlds)
-    
-    # Check 4: Molti domini con stesso prefisso (brand repetition)
-    # Conta quanti domini hanno lo stesso prefisso
-    prefixes = [name.split('.')[0] for name in dns_names]
-    from collections import Counter
+
+    dns_lower = " ".join(dns_names).lower()
+    has_generic = any(t in dns_lower for t in GENERIC_TOKENS)
+    has_brand = any(t in dns_lower for t in BRAND_TOKENS)
+    has_suspicious_tld = any(tld in dns_lower for tld in SUSPICIOUS_TLDS)
+
+    prefixes = [n.split(".")[0] for n in dns_names if "." in n]
     prefix_counts = Counter(prefixes)
-    has_repetition = any(count > 5 for count in prefix_counts.values())
-    
-    # Sospetto se almeno 2 condizioni sono vere
+    has_repetition = any(c > 5 for c in prefix_counts.values())
+
     suspicious_count = sum([has_generic, has_brand, has_suspicious_tld, has_repetition])
-    
     return int(suspicious_count >= 2)
 
-def extract_features(json_file, label):
+def get_first_cert(services, prefer_ports=[443, 8443, 9443]) -> dict | None:
     """
-    Estrae le 20 feature da un singolo JSON Censys
-    
-    Args:
-        json_file: path al file JSON
-        label: 0 (legit) o 1 (phishing)
-    
-    Returns:
-        dict con 20 feature + ip + label
+    Get certificate, preferring web ports (443, 8443, 9443) first.
+    This avoids getting certs from mail/other services.
     """
-    with open(json_file, 'r') as f:
+    # First pass: look for preferred ports
+    for port in prefer_ports:
+        for s in services or []:
+            if s.get("port") == port:
+                cert = s.get("cert")
+                if cert:
+                    return cert
+    
+    # Fallback: any cert
+    for s in services or []:
+        cert = s.get("cert")
+        if cert:
+            return cert
+    
+    return None
+
+def cert_chain_len(services, prefer_ports=[443, 8443, 9443]) -> int:
+    """
+    Get TLS certificate chain length, preferring web ports.
+    Aligned with get_first_cert() logic.
+    """
+    # First pass: preferred ports
+    for port in prefer_ports:
+        for s in services or []:
+            if s.get("port") == port:
+                tls = s.get("tls")
+                if tls and isinstance(tls, dict):
+                    chain = tls.get("presented_chain")
+                    if isinstance(chain, list):
+                        return len(chain)
+    
+    # Fallback: any TLS
+    for s in services or []:
+        tls = s.get("tls")
+        if tls and isinstance(tls, dict):
+            chain = tls.get("presented_chain")
+            if isinstance(chain, list):
+                return len(chain)
+    
+    return 0
+
+def cert_is_letsencrypt(cert: dict) -> int:
+    if not cert:
+        return 0
+    issuer_dn = (((cert.get("parsed") or {}).get("issuer_dn")) or "")
+    return int("let's encrypt" in issuer_dn.lower())
+
+def cert_is_wildcard(cert: dict) -> int:
+    if not cert:
+        return 0
+    names = cert.get("names") or []
+    return int(any(str(n).startswith("*") for n in names))
+
+def cert_san_count(cert: dict) -> int:
+    if not cert:
+        return 0
+    return len(cert.get("names") or [])
+
+def cert_validation_level(cert: dict) -> str:
+    if not cert:
+        return "none"
+    return cert.get("validation_level") or "unknown"
+
+
+# =========================
+# Main extractor
+# =========================
+def extract_features_from_censys_json(json_file: str, label: int) -> dict:
+    with open(json_file, "r", encoding="utf-8") as f:
         data = json.load(f)
+
+    resource = (data.get("result") or {}).get("resource") or {}
+
+    # ---- Basic ----
+    ip = resource.get("ip", "unknown")
+
+    # ---- Location ----
+    loc = resource.get("location") or {}
+    continent = simplify_continent(loc.get("continent", "unknown"))
+
+    # ---- Autonomous system ----
+    asn_data = resource.get("autonomous_system") or {}
+    bgp_prefix_len = extract_bgp_prefix_len(asn_data.get("bgp_prefix"))
+    asn_desc = asn_data.get("description", "")
+    is_hosting = provider_is_hosting(asn_desc)
+
+    # ---- WHOIS network ----
+    whois_net = ((resource.get("whois") or {}).get("network")) or {}
+    whois_network_age_days = days_since(whois_net.get("created"))
+
+    # ---- Services ----
+    services = resource.get("services") or []
+    ports = [s.get("port") for s in services if isinstance(s.get("port"), int)]
+    distinct_ports = len(set([p for p in ports if p > 0]))
     
-    resource = data.get('result', {}).get('resource', {})
-    
-    # IP
-    ip = resource.get('ip', 'unknown')
-    
-    # === Network/Hosting (4 features) ===
-    asn_data = resource.get('autonomous_system', {})
-    whois_data = resource.get('whois', {}).get('network', {})
-    
-    asn = asn_data.get('asn', 0)
-    bgp_prefix_len = extract_bgp_prefix_len(asn_data.get('bgp_prefix'))
-    whois_network_age_days = calculate_network_age_days(whois_data.get('created'))
-    is_hosting = is_hosting_provider(asn_data.get('description', ''))
-    
-    # === Services (4 features) ===
-    services = resource.get('services', [])
-    service_count = len(services)
-    
-    ports = [s.get('port') for s in services]
     has_80 = int(80 in ports)
     has_443 = int(443 in ports)
-    https_only = int(443 in ports and 80 not in ports)
+    https_only = int(has_443 == 1 and has_80 == 0)
+
+    # ---- HTTP Root (80 and 443) - AGGREGATED ----
+    http80_root = get_http_endpoint_http_obj(services, 80, "/")
+    http443_root = get_http_endpoint_http_obj(services, 443, "/")
     
-    # === HTTP (4 features) ===
-    # Prova prima 443, poi 80
-    http_data = get_http_endpoint(services, 443, "/")
-    if not http_data:
-        http_data = get_http_endpoint(services, 80, "/")
+    # Presence
+    http80_present = int(bool(http80_root))
+    http443_present = int(bool(http443_root))
+    http_root_any_present = int(http80_present or http443_present)
+
+    # Status (prefer 443, fallback 80)
+    http80_status_class = status_class(http80_root.get("status_code", 0)) if http80_root else "0"
+    http443_status_class = status_class(http443_root.get("status_code", 0)) if http443_root else "0"
+    http_any_status_class = http443_status_class if http443_status_class != "0" else http80_status_class
+
+    # Body size (prefer 443, fallback 80)
+    http80_body_size = int(http80_root.get("body_size", 0) or 0) if http80_root else 0
+    http443_body_size = int(http443_root.get("body_size", 0) or 0) if http443_root else 0
+    http_any_body_size = http443_body_size if http443_body_size > 0 else http80_body_size
+
+    # HTTP/2 support (prefer 443, it's where HTTP/2 matters)
+    http443_supports_http2 = supports_http2(http443_root) if http443_root else 0
+    http_any_supports_http2 = http443_supports_http2  # HTTP/2 primarily on 443
+
+    # Content type HTML (prefer 443, fallback 80)
+    http80_is_html = content_type_is_html(http80_root) if http80_root else 0
+    http443_is_html = content_type_is_html(http443_root) if http443_root else 0
+    http_any_is_html = http443_is_html if http443_present else http80_is_html
+
+    # Redirect (prefer 443, fallback 80)
+    http80_redirect_like = int(http80_status_class == "3xx")
+    http443_redirect_like = int(http443_status_class == "3xx")
+    http_any_redirect_like = http443_redirect_like if http443_present else http80_redirect_like
     
-    http_status_root = http_data.get('status_code', 0)
-    has_redirect_like = int(http_status_root in [301, 302, 303, 307, 308])
-    has_meta_refresh_flag = has_meta_refresh(http_data)
-    body_size_root = http_data.get('body_size', 0)
-    
-    # === Certificate (6 features) ===
-    cert = get_cert_from_services(services)
-    
+    # Meta refresh (any port)
+    http80_meta = has_meta_refresh(http80_root)
+    http443_meta = has_meta_refresh(http443_root)
+    http_any_meta_refresh = int(http80_meta or http443_meta)
+
+    web_server = simplify_webserver(extract_web_server(services))
+
+    # ---- Certificate (prefer web ports, aligned with chain_len) ----
+    cert = get_first_cert(services, prefer_ports=[443, 8443, 9443])
     if cert:
-        parsed = cert.get('parsed', {})
-        validity = parsed.get('validity_period', {})
-        
-        not_before = validity.get('not_before')
-        cert_age_days = calculate_cert_age_days(not_before)
-        
-        # Lifetime in giorni
-        length_seconds = validity.get('length_seconds', 0)
-        cert_lifetime_days = length_seconds // 86400
-        
-        cert_validation_level = cert.get('validation_level', 'unknown')
-        
-        issuer_dn = parsed.get('issuer_dn', '')
-        cert_is_letsencrypt_flag = is_letsencrypt(issuer_dn)
-        
-        cert_names = cert.get('names', [])
-        cert_san_count = len(cert_names)
-        cert_is_wildcard_flag = has_wildcard_cert(cert_names)
+        validity = ((cert.get("parsed") or {}).get("validity_period")) or {}
+        cert_age_days = days_since(validity.get("not_before"))
+        cert_lifetime_days = int((validity.get("length_seconds") or 0) // 86400)
+        cert_remaining_days = days_until(validity.get("not_after"))
+        cert_val_level = cert_validation_level(cert)
+        cert_is_le = cert_is_letsencrypt(cert)
+        cert_sans = cert_san_count(cert)
+        cert_wild = cert_is_wildcard(cert)
     else:
         cert_age_days = 0
         cert_lifetime_days = 0
-        cert_validation_level = 'none'
-        cert_is_letsencrypt_flag = 0
-        cert_san_count = 0
-        cert_is_wildcard_flag = 0
+        cert_remaining_days = 0
+        cert_val_level = "none"
+        cert_is_le = 0
+        cert_sans = 0
+        cert_wild = 0
     
-    # === DNS (2 features) ===
-    dns = resource.get('dns', {})
-    dns_names = dns.get('names', [])
-    num_dns_names = len(dns_names)
-    dns_has_suspicious_tokens_flag = has_suspicious_dns_tokens(dns_names)
-    
-    # Costruisci feature dict
+    # Chain length (aligned with cert selection)
+    cert_chain = cert_chain_len(services, prefer_ports=[443, 8443, 9443])
+
+    # ---- DNS ----
+    dns = resource.get("dns") or {}
+    dns_names = dns.get("names") or []
+    num_dns_names_capped = min(len(dns_names), DNS_NAME_CAP)
+    dns_has_susp_tokens = has_suspicious_dns_tokens(dns_names)
+    rdns_present = has_reverse_dns(dns)
+
     features = {
-        'ip': ip,
-        'label': label,
-        
-        # Network/Hosting
-        'asn': asn,
-        'bgp_prefix_len': bgp_prefix_len,
-        'whois_network_age_days': whois_network_age_days,
-        'is_hosting_provider': is_hosting,
-        
+        "ip": ip,
+        "label": label,
+
+        # Geo
+        "continent": continent,
+
+        # Network/hosting
+        "bgp_prefix_len": bgp_prefix_len,
+        "whois_network_age_days": log1p(whois_network_age_days),
+        "provider_is_hosting": is_hosting,
+
         # Services
-        'service_count': service_count,
-        'has_80': has_80,
-        'has_443': has_443,
-        'https_only': https_only,
-        
-        # HTTP
-        'http_status_root': http_status_root,
-        'has_redirect_like': has_redirect_like,
-        'has_meta_refresh': has_meta_refresh_flag,
-        'body_size_root': body_size_root,
-        
+        "num_distinct_ports": log1p(distinct_ports),
+        "has_80": has_80,
+        "has_443": has_443,
+        "https_only": https_only,
+        "web_server": web_server,
+
+        # HTTP - AGGREGATED (prefer 443, fallback 80)
+        "http_root_any_present": http_root_any_present,
+        "http_any_status_class": http_any_status_class,
+        "http_any_redirect_like": http_any_redirect_like,
+        "http_any_body_size": log1p(http_any_body_size),
+        "http_any_supports_http2": http_any_supports_http2,
+        "http_any_is_html": http_any_is_html,
+        "http_any_meta_refresh": http_any_meta_refresh,
+
         # Certificate
-        'cert_age_days': cert_age_days,
-        'cert_lifetime_days': cert_lifetime_days,
-        'cert_validation_level': cert_validation_level,
-        'cert_is_letsencrypt': cert_is_letsencrypt_flag,
-        'cert_san_count': cert_san_count,
-        'cert_is_wildcard': cert_is_wildcard_flag,
-        
+        "cert_age_days": log1p(cert_age_days),
+        "cert_lifetime_days": log1p(cert_lifetime_days),
+        "cert_remaining_days": log1p(cert_remaining_days),
+        "cert_validation_level": cert_val_level,
+        "cert_is_letsencrypt": cert_is_le,
+        "cert_san_count": log1p(cert_sans),
+        "cert_is_wildcard": cert_wild,
+        "cert_chain_len": log1p(cert_chain),
+
         # DNS
-        'num_dns_names': num_dns_names,
-        'dns_has_suspicious_tokens': dns_has_suspicious_tokens_flag,
+        "has_reverse_dns": rdns_present,
+        "num_dns_names_capped": log1p(num_dns_names_capped),
+        "dns_has_suspicious_tokens": dns_has_susp_tokens,
     }
-    
+
     return features
 
-def create_dataset(phishing_dir, legit_dir, output_csv):
-    """
-    Crea dataset completo da tutti i JSON
-    
-    Args:
-        phishing_dir: directory con JSON phishing
-        legit_dir: directory con JSON legit
-        output_csv: path output CSV
-    """
-    all_features = []
-    
-    # Process phishing IPs (label=1)
-    print(f"Processing phishing IPs from {phishing_dir}...")
-    phishing_count = 0
-    for filename in os.listdir(phishing_dir):
-        if filename.endswith('.json'):
-            filepath = os.path.join(phishing_dir, filename)
+
+def create_dataset(phishing_dir: str, legit_dir: str, output_csv: str):
+    rows = []
+
+    print(f"Processing phishing JSONs from: {phishing_dir}")
+    phish = 0
+    for fn in os.listdir(phishing_dir):
+        if fn.endswith(".json"):
             try:
-                features = extract_features(filepath, label=1)
-                all_features.append(features)
-                phishing_count += 1
+                rows.append(extract_features_from_censys_json(os.path.join(phishing_dir, fn), label=1))
+                phish += 1
             except Exception as e:
-                print(f"  Error processing {filename}: {e}")
-    
-    print(f"  Processed {phishing_count} phishing IPs")
-    
-    # Process legitimate IPs (label=0)
-    print(f"\nProcessing legitimate IPs from {legit_dir}...")
-    legit_count = 0
-    for filename in os.listdir(legit_dir):
-        if filename.endswith('.json'):
-            filepath = os.path.join(legit_dir, filename)
+                print(f"  [phish] error {fn}: {e}")
+    print(f"  Processed phishing: {phish}")
+
+    print(f"\nProcessing legit JSONs from: {legit_dir}")
+    legit = 0
+    for fn in os.listdir(legit_dir):
+        if fn.endswith(".json"):
             try:
-                features = extract_features(filepath, label=0)
-                all_features.append(features)
-                legit_count += 1
+                rows.append(extract_features_from_censys_json(os.path.join(legit_dir, fn), label=0))
+                legit += 1
             except Exception as e:
-                print(f"  Error processing {filename}: {e}")
-    
-    print(f"  Processed {legit_count} legitimate IPs")
-    
-    # Create DataFrame
-    df = pd.DataFrame(all_features)
-    
-    # Reorder columns (label last)
-    cols = ['ip'] + [col for col in df.columns if col not in ['ip', 'label']] + ['label']
+                print(f"  [legit] error {fn}: {e}")
+    print(f"  Processed legit: {legit}")
+
+    df = pd.DataFrame(rows)
+
+    # Reorder columns
+    cols = ["ip"] + [c for c in df.columns if c not in ["ip", "label"]] + ["label"]
     df = df[cols]
-    
-    # Save
+
+    os.makedirs(os.path.dirname(output_csv), exist_ok=True)
     df.to_csv(output_csv, index=False)
+
+    print("\n" + "=" * 60)
+    print("DATASET CREATED - PRODUCTION READY")
+    print("=" * 60)
+    print(f"Output: {output_csv}")
+    print(f"Samples: {len(df)} | Shape: {df.shape}")
+    print("\nLabel distribution:")
+    print(df["label"].value_counts())
     
-    print(f"\n{'='*60}")
-    print(f"DATASET CREATED")
-    print(f"{'='*60}")
-    print(f"Output file: {output_csv}")
-    print(f"Total samples: {len(df)}")
-    print(f"Shape: {df.shape}")
-    print(f"\nLabel distribution:")
-    print(df['label'].value_counts())
-    print(f"\nFirst 5 rows:")
-    print(df.head())
-    print(f"\nFeature types:")
-    print(df.dtypes)
-    print(f"\nMissing values:")
-    print(df.isnull().sum())
+    # Feature summary
+    numeric_cols = df.select_dtypes(include=['int64', 'float64']).columns
+    cat_cols = df.select_dtypes(include=['object']).columns
     
+    print(f"\nFeature breakdown:")
+    print(f"  Numeric features: {len(numeric_cols) - 1}")  # -1 for label
+    print(f"  Categorical features: {len(cat_cols) - 1}")  # -1 for ip
+    
+    print("\nCategorical cardinality:")
+    for col in cat_cols:
+        if col not in ['ip', 'label']:
+            nunique = df[col].nunique()
+            print(f"  {col}: {nunique} unique values")
+    
+    print("\nMissing values:")
+    missing = df.isnull().sum()
+    if missing.sum() > 0:
+        print(missing[missing > 0])
+    else:
+        print("  No missing values!")
+    
+    print("\nEstimated feature count after one-hot encoding:")
+    estimated = len(numeric_cols) - 1
+    for col in cat_cols:
+        if col not in ['ip', 'label']:
+            estimated += df[col].nunique()
+    print(f"  ~{estimated} columns")
+    print(f"  Ratio: {len(df)}/{estimated} = {len(df)/estimated:.1f}:1")
+    
+    if len(df)/estimated >= 4.5:
+        print("  ✓ Ratio acceptable for Logistic Regression with regularization")
+    else:
+        print("  ⚠ Ratio low - recommend L1/elastic-net regularization")
+
     return df
 
 
-# Test con i due JSON che hai fornito
-def test_examples():
-    # NOT phishing (5.61.23.39 - VK)
-    features_legit = extract_features(
-        "/home/alelxsalc03/Desktop/IS/DetectPhishingIS/Censys/raw/hosts/legit/5.61.23.39.json",
-        label=0
-    )
-    print("NOT PHISHING (VK):")
-    for k, v in features_legit.items():
-        print(f"  {k}: {v}")
-    
-    print("\n" + "="*60 + "\n")
-    
-    # Phishing (8.219.239.111 - t-mobile)
-    features_phish = extract_features(
-        "/home/alelxsalc03/Desktop/IS/DetectPhishingIS/Censys/raw/hosts/phishing/8.219.239.111.json",
-        label=1
-    )
-    print("PHISHING (t-mobile):")
-    for k, v in features_phish.items():
-        print(f"  {k}: {v}")
-
-
-
 if __name__ == "__main__":
-    # Paths
     BASE_DIR = "/home/alelxsalc03/Desktop/IS/DetectPhishingIS/Censys"
     PHISHING_DIR = os.path.join(BASE_DIR, "raw", "hosts", "phishing")
     LEGIT_DIR = os.path.join(BASE_DIR, "raw", "hosts", "legit")
     OUTPUT_DIR = os.path.join(BASE_DIR, "data", "processed")
-    OUTPUT_CSV = os.path.join(OUTPUT_DIR, "dataset_features.csv")
-    
-    # Crea directory output
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
-    
-    # Estrai dataset
+    OUTPUT_CSV = os.path.join(OUTPUT_DIR, "dataset_features_production.csv")
+
     df = create_dataset(PHISHING_DIR, LEGIT_DIR, OUTPUT_CSV)
