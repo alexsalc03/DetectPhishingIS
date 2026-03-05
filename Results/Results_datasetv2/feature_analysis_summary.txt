@@ -1,0 +1,92 @@
+================================================================================
+FEATURE ANALYSIS SUMMARY - LOGISTIC REGRESSION (FINAL)
+Phishing Detection using Censys Metadata
+================================================================================
+
+Dataset: 195 samples (95 phishing, 100 legit)
+Features: 30 raw → 46 after encoding
+Model: Logistic Regression (solver=saga, penalty=elasticnet)
+Best hyperparams: C=1, l1_ratio=1.0 (0=L2,1=L1)
+
+Performance (test set):
+  - ROC-AUC: 0.9053
+  - Average Precision (AP): 0.9338
+  - Accuracy: 0.8462
+  - Phishing Recall: 73.7%
+  - Phishing Precision: 93.3%
+  - False Alarm Rate: 5.0%
+
+--------------------------------------------------------------------------------
+TOP 10 PHISHING INDICATORS (highest positive coefficients)
+--------------------------------------------------------------------------------
+[STABLE]     num__num_distinct_ports                                   1.5435
+[STABLE]     cat__http_any_status_class_2xx                            1.5402
+[UNSTABLE]   num__cert_lifetime_days                                   1.2436
+[UNSTABLE]   cat__cert_validation_level_dv                             0.9202
+[UNSTABLE]   cat__web_server_nginx                                     0.6217
+[STABLE]     num__has_dns_names_data                                   0.3624
+[UNSTABLE]   num__dns_has_suspicious_tokens                            0.2461
+[UNSTABLE]   num__has_reverse_dns                                      0.1661
+[UNSTABLE]   num__has_http_80_data                                     0.1223
+[UNSTABLE]   num__cert_is_letsencrypt                                  0.0015
+
+--------------------------------------------------------------------------------
+TOP 10 LEGITIMACY INDICATORS (lowest negative coefficients)
+--------------------------------------------------------------------------------
+[STABLE]     cat__cert_validation_level_ov                            -1.7235
+[STABLE]     num__cert_remaining_days                                 -1.4180
+[STABLE]     num__cert_chain_len                                      -0.9421
+[STABLE]     num__whois_network_age_days                              -0.8494
+[STABLE]     cat__web_server_other                                    -0.8155
+[STABLE]     num__http_any_is_html                                    -0.6728
+[STABLE]     num__http_any_supports_http2                             -0.2869
+[UNSTABLE]   cat__web_server_cloudflare                               -0.2150
+[UNSTABLE]   num__provider_is_hosting                                 -0.1943
+[UNSTABLE]   num__has_443                                             -0.1543
+
+--------------------------------------------------------------------------------
+STABILITY ANALYSIS (criterion: std ≤ 0.5 * |mean|)
+--------------------------------------------------------------------------------
+Stable & important (|mean|>0.2): 10
+Unstable (|mean|>0.1): 10
+
+Unstable features (candidates for removal/improvement):
+  - cat__web_server_nginx                                   (mean=  0.631, std=  0.525, CV=0.83)
+  - num__cert_lifetime_days                                 (mean=  0.567, std=  0.541, CV=0.95)
+  - cat__cert_validation_level_dv                           (mean=  0.553, std=  0.415, CV=0.75)
+  - num__cert_age_days                                      (mean=  0.252, std=  0.309, CV=1.23)
+  - num__dns_has_suspicious_tokens                          (mean=  0.235, std=  0.182, CV=0.77)
+  - num__provider_is_hosting                                (mean= -0.200, std=  0.189, CV=0.94)
+  - num__has_reverse_dns                                    (mean=  0.171, std=  0.100, CV=0.59)
+  - cat__web_server_cloudflare                              (mean= -0.129, std=  0.198, CV=1.53)
+  - num__has_443                                            (mean= -0.115, std=  0.063, CV=0.55)
+  - num__cert_is_letsencrypt                                (mean=  0.111, std=  0.089, CV=0.80)
+
+--------------------------------------------------------------------------------
+RECOMMENDATIONS FOR NEXT ITERATION
+--------------------------------------------------------------------------------
+1. Remove or re-engineer unstable features:
+   - cat__web_server_nginx
+   - num__cert_lifetime_days
+   - cat__cert_validation_level_dv
+   - num__cert_age_days
+   - num__dns_has_suspicious_tokens
+
+2. Remove near-zero features (minimal impact):
+   - cat__continent_Asia (coeff=0.0000)
+   - cat__http_any_status_class_3xx (coeff=0.0000)
+   - cat__http_any_status_class_0 (coeff=0.0000)
+   - cat__continent_Europe (coeff=0.0000)
+   - cat__web_server_unknown (coeff=0.0000)
+
+3. Prioritize stable & important features for interpretation:
+   - cat__cert_validation_level_ov                           → legit
+   - num__num_distinct_ports                                 → phishing
+   - cat__http_any_status_class_2xx                          → phishing
+   - num__cert_remaining_days                                → legit
+   - num__whois_network_age_days                             → legit
+   - cat__web_server_other                                   → legit
+   - num__cert_chain_len                                     → legit
+   - num__http_any_is_html                                   → legit
+   - num__has_dns_names_data                                 → phishing
+   - num__http_any_supports_http2                            → legit
