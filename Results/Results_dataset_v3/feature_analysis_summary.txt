@@ -1,0 +1,84 @@
+================================================================================
+FEATURE ANALYSIS SUMMARY - LOGISTIC REGRESSION (V3)
+Phishing Detection using Censys Metadata
+================================================================================
+
+Dataset: 195 samples (95 phishing, 100 legit)
+Features: 25 raw → 32 after encoding
+Model: Logistic Regression (solver=saga, penalty=elasticnet)
+Best hyperparams: C=0.1, l1_ratio=0.0 (0=L2,1=L1)
+
+Categorical features:
+  - port_count_bucket
+  - server_family
+  - cert_validation_group
+
+Performance (test set):
+  - ROC-AUC: 0.9211
+  - Average Precision (AP): 0.9404
+  - Accuracy: 0.8718
+  - Phishing Recall: 78.9%
+  - Phishing Precision: 93.8%
+  - False Alarm Rate: 5.0%
+
+--------------------------------------------------------------------------------
+TOP 10 PHISHING INDICATORS (highest positive coefficients)
+--------------------------------------------------------------------------------
+[STABLE]     num__has_non_web_ports                                    0.5350
+[STABLE]     num__root_2xx_html                                        0.4675
+[STABLE]     num__num_distinct_ports                                   0.3714
+[STABLE]     cat__cert_validation_group_dv                             0.3423
+[STABLE]     cat__server_family_common_self_managed                    0.2633
+[STABLE]     num__has_dns_names_data                                   0.2565
+[STABLE]     num__dns_suspicious_token_count                           0.2114
+[STABLE]     cat__port_count_bucket_4_plus                             0.1388
+[UNSTABLE]   num__provider_is_hosting                                  0.1103
+[UNSTABLE]   num__http_observed                                        0.1074
+
+--------------------------------------------------------------------------------
+TOP 10 LEGITIMACY INDICATORS (lowest negative coefficients)
+--------------------------------------------------------------------------------
+[STABLE]     num__whois_network_age_days                              -0.4965
+[STABLE]     cat__cert_validation_group_ov_ev                         -0.4082
+[STABLE]     num__http_any_is_html                                    -0.3004
+[STABLE]     num__cert_chain_len                                      -0.2743
+[STABLE]     num__dns_has_auth_token                                  -0.2285
+[STABLE]     cat__server_family_other                                 -0.1998
+[STABLE]     num__cert_remaining_days                                 -0.1654
+[STABLE]     cat__port_count_bucket_2_3                               -0.1459
+[STABLE]     num__http_any_supports_http2                             -0.1308
+[STABLE]     num__dns_has_digit_hyphen_pattern                        -0.1055
+
+--------------------------------------------------------------------------------
+STABILITY ANALYSIS (criterion: std ≤ 0.5 * |mean|)
+--------------------------------------------------------------------------------
+Stable & important (|mean|>0.2): 10
+Unstable (|mean|>0.1): 1
+
+Unstable features (candidates for removal/improvement):
+  - num__provider_is_hosting                                (mean=  0.103, std=  0.052, CV=0.50)
+
+--------------------------------------------------------------------------------
+RECOMMENDATIONS FOR NEXT ITERATION
+--------------------------------------------------------------------------------
+1. Remove or re-engineer unstable features:
+   - num__provider_is_hosting
+
+2. Remove near-zero features (minimal impact):
+   - cat__port_count_bucket_1 (coeff=0.0064)
+   - cat__server_family_unknown (coeff=0.0333)
+   - num__cert_short_lived (coeff=0.0361)
+   - num__dns_has_punycode (coeff=-0.0426)
+   - num__cert_recently_issued (coeff=-0.0432)
+
+3. Prioritize stable & important features for interpretation:
+   - num__has_non_web_ports                                  → phishing
+   - num__whois_network_age_days                             → legit
+   - num__root_2xx_html                                      → phishing
+   - cat__cert_validation_group_ov_ev                        → legit
+   - num__num_distinct_ports                                 → phishing
+   - cat__cert_validation_group_dv                           → phishing
+   - num__http_any_is_html                                   → legit
+   - num__has_dns_names_data                                 → phishing
+   - num__cert_chain_len                                     → legit
+   - cat__server_family_common_self_managed                  → phishing

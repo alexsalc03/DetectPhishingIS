@@ -1,0 +1,71 @@
+================================================================================
+FEATURE ANALYSIS SUMMARY - LOGISTIC REGRESSION (V4)
+Phishing Detection using Censys Metadata
+================================================================================
+
+Dataset: 195 samples (95 phishing, 100 legit)
+Features: 24 raw → 31 after encoding
+Model: Logistic Regression (solver=saga, penalty=elasticnet)
+Best hyperparams: C=0.01, l1_ratio=0.0 (0=L2,1=L1)
+
+Categorical features:
+  - port_count_bucket
+  - server_family
+  - cert_validation_group
+
+Performance (test set):
+  - ROC-AUC: 0.9579
+  - Average Precision (AP): 0.9619
+  - Accuracy: 0.8718
+  - Phishing Recall: 84.2%
+  - Phishing Precision: 88.9%
+  - False Alarm Rate: 10.0%
+
+--------------------------------------------------------------------------------
+TOP 10 PHISHING INDICATORS (highest positive coefficients)
+--------------------------------------------------------------------------------
+[STABLE]     num__has_non_web_ports                                    0.2746
+[STABLE]     num__root_2xx_html                                        0.1743
+[STABLE]     cat__port_count_bucket_4_plus                             0.1028
+[STABLE]     cat__cert_validation_group_dv                             0.0802
+[STABLE]     cat__server_family_common_self_managed                    0.0677
+[STABLE]     num__cert_short_lived                                     0.0541
+[STABLE]     num__dns_suspicious_token_count                           0.0475
+[STABLE]     num__dns_has_brand_token                                  0.0378
+[STABLE]     num__dns_max_label_length                                 0.0318
+[STABLE]     num__dns_num_labels                                       0.0303
+
+--------------------------------------------------------------------------------
+TOP 10 LEGITIMACY INDICATORS (lowest negative coefficients)
+--------------------------------------------------------------------------------
+[STABLE]     num__whois_network_age_days                              -0.1774
+[STABLE]     cat__cert_validation_group_ov_ev                         -0.1031
+[STABLE]     cat__port_count_bucket_2_3                               -0.0915
+[STABLE]     num__cert_remaining_days                                 -0.0660
+[STABLE]     num__http_any_supports_http2                             -0.0620
+[STABLE]     num__cert_chain_len                                      -0.0536
+[STABLE]     cat__server_family_other                                 -0.0525
+[STABLE]     num__cert_present                                        -0.0462
+[STABLE]     num__root_redirect_like                                  -0.0372
+[STABLE]     num__cert_recently_issued                                -0.0294
+
+--------------------------------------------------------------------------------
+STABILITY ANALYSIS (criterion: std ≤ 0.5 * |mean|)
+--------------------------------------------------------------------------------
+Stable & important (|mean|>0.2): 1
+Unstable (|mean|>0.1): 0
+
+
+--------------------------------------------------------------------------------
+RECOMMENDATIONS FOR NEXT ITERATION
+--------------------------------------------------------------------------------
+
+2. Remove near-zero features (minimal impact):
+   - num__http_any_is_html (coeff=0.0030)
+   - num__dns_brand_plus_auth_combo (coeff=-0.0032)
+   - cat__server_family_edge_or_cdn (coeff=-0.0035)
+   - num__dns_has_punycode (coeff=0.0042)
+   - cat__port_count_bucket_1 (coeff=-0.0112)
+
+3. Prioritize stable & important features for interpretation:
+   - num__has_non_web_ports                                  → phishing
