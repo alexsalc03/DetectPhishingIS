@@ -191,50 +191,6 @@ At the same time, benign hosts were more associated with signals such as:
 
 ---
 
-## Project Structure
-
-A possible project structure is shown below.
-
-```text
-project-root/
-│
-├── data/
-│   ├── raw/
-│   │   ├── openphish/
-│   │   └── tranco/
-│   ├── cleaned/
-│   ├── resolved/
-│   ├── censys_json/
-│   ├── logs/
-│   └── processed/
-│
-├── notebooks/
-│   ├── exploration.ipynb
-│   ├── feature_analysis.ipynb
-│   └── model_evaluation.ipynb
-│
-├── scripts/
-│   ├── clean_domains.py
-│   ├── resolve_domains.py
-│   ├── query_censys.py
-│   ├── build_features.py
-│   ├── train_model.py
-│   ├── evaluate_model.py
-│   └── stability_analysis.py
-│
-├── results/
-│   ├── figures/
-│   ├── tables/
-│   ├── metrics/
-│   └── models/
-│
-├── docs/
-│   └── final_report.pdf
-│
-├── requirements.txt
-├── .env.example
-├── .gitignore
-└── README.md
 
 ## Pipeline Summary
 
